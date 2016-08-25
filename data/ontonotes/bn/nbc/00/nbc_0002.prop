@@ -1,0 +1,11 @@
+bn/nbc/00/nbc_0002.parse 0 8 gold die die.01 ----- 8:0-rel 9:1-ARG1
+bn/nbc/00/nbc_0002.parse 2 20 gold carry carry_on.02 ----- 8:2*18:1-ARG0 20:0,21:0-rel 22:3-ARG1
+bn/nbc/00/nbc_0002.parse 0 5 gold be be.03 ----- 5:0-rel
+bn/nbc/00/nbc_0002.parse 2 7 gold tell tell.01 ----- 0:3-ARG0 7:0-rel 8:2-ARG2 18:2-ARG1
+bn/nbc/00/nbc_0002.parse 2 1 gold former former.01 ----- 1:0-rel 2:0,3:0-ARG1
+bn/nbc/00/nbc_0002.parse 1 9 gold attend attend.01 ----- 0:2*10:1-ARG1 9:0-rel 11:1-ARG0
+bn/nbc/00/nbc_0002.parse 0 6 gold mourn mourn.01 ----- 0:1-ARGM-LOC 2:1-ARGM-TMP 4:1-ARG0 6:0-rel 7:2-ARG1
+bn/nbc/00/nbc_0002.parse 2 15 gold watch watch.01 ----- 13:1-ARG0 15:0-rel 16:1-ARGM-LOC
+bn/nbc/00/nbc_0002.parse 1 18 gold former former.01 ----- 18:0-rel 19:0-ARG1
+bn/nbc/00/nbc_0002.parse 1 28 gold support support.01 ----- 23:1*26:1*29:1-ARG1 23:1*26:1-LINK-SLC 27:1-ARG0 28:0-rel 30:1-ARGM-TMP
+bn/nbc/00/nbc_0002.parse 3 2 gold die die.01 ----- 0:1-ARG1 2:0-rel 3:1-ARGM-TMP 6:1-ARGM-TMP

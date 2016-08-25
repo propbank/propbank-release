@@ -1,0 +1,28 @@
+bn/cnn/04/cnn_0428.parse 5 3 gold listen listen.01 ----- 2:1-ARG0 3:0,4:1-rel 5:1-ARGM-TMP 10:1-ARGM-DIS
+bn/cnn/04/cnn_0428.parse 13 7 gold take take.14 ----- 0:2-ARG1 7:0-rel 8:1-ARG2
+bn/cnn/04/cnn_0428.parse 5 1 gold let let.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
+bn/cnn/04/cnn_0428.parse 5 23 gold mean mean.01 ----- 21:1*24:1-ARG2 22:1-ARG1 23:0-rel
+bn/cnn/04/cnn_0428.parse 0 2 gold tell tell.01 ----- 0:1*3:1-ARG2 2:0-rel 4:1-ARG1
+bn/cnn/04/cnn_0428.parse 9 11 gold begin begin.01 ----- 7:2-ARG1 11:0-rel
+bn/cnn/04/cnn_0428.parse 1 2 gold begin begin.01 ----- 0:1-ARG1 2:0-rel 3:1-ARGM-TMP
+bn/cnn/04/cnn_0428.parse 5 16 gold talk talk.01 ----- 13:1-ARGM-TMP 14:1-ARG0 15:0-ARGM-MOD 16:0-rel 17:1-ARG1
+bn/cnn/04/cnn_0428.parse 14 6 gold talk talk.01 ----- 5:1-ARG0 6:0-rel 7:1-ARG1
+bn/cnn/04/cnn_0428.parse 6 4 gold save save.02 ----- 3:1-ARG0 4:0-rel 5:1-ARG1
+bn/cnn/04/cnn_0428.parse 0 18 gold arrive arrive.01 ----- 17:1-ARG1 18:0-rel 19:1-ARG4 21:1-ARGM-TMP
+bn/cnn/04/cnn_0428.parse 6 0 gold listen listen.01 ----- 0:0-rel 1:1-ARG1
+bn/cnn/04/cnn_0428.parse 16 4 gold design design.01 ----- 0:1*14:1-ARGM-MNR 2:1-ARG0 4:0-rel 5:2-ARG1
+bn/cnn/04/cnn_0428.parse 15 1 gold look look.01 ----- 0:1-ARGM-ADV 1:0-rel 2:1-ARG1
+bn/cnn/04/cnn_0428.parse 0 11 gold greet greet.01 ----- 5:2*12:1-ARG1 11:0-rel 13:1-ARG0 16:1-ARGM-TMP
+bn/cnn/04/cnn_0428.parse 14 4 gold let let.01 ----- 0:1-ARGM-DIS 3:1-ARG0 4:0-rel 5:2-ARG1
+bn/cnn/04/cnn_0428.parse 3 12 gold see see.01 ----- 6:1*9:1*13:1-ARG1 6:1*9:1-LINK-SLC 10:1-ARG0 12:0-rel 14:1-ARGM-TMP 15:1-ARGM-LOC
+bn/cnn/04/cnn_0428.parse 10 8 gold visit visit.01 ----- 3:2-ARG0 8:0-rel 9:1-ARG1
+bn/cnn/04/cnn_0428.parse 15 14 gold notice notice.01 ----- 11:1-ARG0 13:1-ARGM-ADV 14:0-rel 15:1-ARG1 18:2-ARGM-ADV
+bn/cnn/04/cnn_0428.parse 4 2 gold bring bring.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:2;8:2-ARG1 6:1-ARG3
+bn/cnn/04/cnn_0428.parse 0 10 gold be be.03 ----- 10:0-rel
+bn/cnn/04/cnn_0428.parse 4 10 gold be be.01 ----- 3:1*8:1*9:1-ARG1 3:1*8:1-LINK-SLC 10:0-rel 11:1-ARGM-MNR 12:1-ARG2
+bn/cnn/04/cnn_0428.parse 12 4 gold be be.01 ----- 0:1-ARGM-DIS 1:1-ARG1 4:0-rel 5:2-ARG2
+bn/cnn/04/cnn_0428.parse 2 3 gold arrive arrive.01 ----- 0:1-ARG1 3:0-rel 4:1-ARG4
+bn/cnn/04/cnn_0428.parse 1 5 gold enter enter.01 ----- 4:1-ARG0 5:0-rel
+bn/cnn/04/cnn_0428.parse 7 12 gold sit sit_down.02 ----- 0:2-ARG1 12:0,13:1-rel 14:1-ARGM-MNR
+bn/cnn/04/cnn_0428.parse 16 1 gold do do.01 ----- 1:0-rel
+bn/cnn/04/cnn_0428.parse 3 4 gold leave leave.11 ----- 0:2-ARG0 4:0-rel 5:1-ARG2

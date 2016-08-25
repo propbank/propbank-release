@@ -1,0 +1,19 @@
+bn/cnn/01/cnn_0115.parse 1 8 gold fail fail.01 ----- 7:1-ARG1 8:0-rel 9:2-ARG2
+bn/cnn/01/cnn_0115.parse 0 4 gold be be.03 ----- 4:0-rel
+bn/cnn/01/cnn_0115.parse 1 3 gold reject reject.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
+bn/cnn/01/cnn_0115.parse 3 8 gold explode explode.01 ----- 5:1*17:1-ARGM-TMP 6:1-ARG1 8:0-rel 9:1-ARGM-LOC 14:2-ARGM-TMP
+bn/cnn/01/cnn_0115.parse 1 16 gold explode explode.01 ----- 16:0-rel 17:2-ARGM-ADJ
+bn/cnn/01/cnn_0115.parse 4 11 gold hear hearing.02 ----- 11:0-rel
+bn/cnn/01/cnn_0115.parse 0 9 gold charge charge.05 ----- 9:0-rel 10:1-ARG1
+bn/cnn/01/cnn_0115.parse 1 11 gold link link.01 ----- 7:1*9:1-ARG0 11:0-rel 12:1-ARG1 14:1-ARG2
+bn/cnn/01/cnn_0115.parse 1 2 gold have have.01 ----- 2:0-rel
+bn/cnn/01/cnn_0115.parse 2 12 gold plant plant.01 ----- 11:1-ARG0 12:0-rel 13:1-ARG1 15:1-ARG2
+bn/cnn/01/cnn_0115.parse 1 19 gold bring bring.01 ----- 15:1*17:1*18:1-ARG0 15:1*17:1-LINK-SLC 19:0-rel 20:1-ARG3 21:2-ARG1
+bn/cnn/01/cnn_0115.parse 0 5 gold refuse refuse.01 ----- 0:2-ARG0 5:0-rel 6:2-ARG1
+bn/cnn/01/cnn_0115.parse 2 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:2-ARG2
+bn/cnn/01/cnn_0115.parse 4 2 gold rest rest.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1 5:1-ARGM-TMP 7:1-ARGM-TMP
+bn/cnn/01/cnn_0115.parse 3 2 gold be be.03 ----- 2:0-rel
+bn/cnn/01/cnn_0115.parse 0 18 gold bomb bomb.01 ----- 17:0-ARGM-LOC 18:0-rel
+bn/cnn/01/cnn_0115.parse 0 8 gold dismiss dismiss.01 ----- 0:2*6:1-ARG0 8:0-rel 9:2-ARG1
+bn/cnn/01/cnn_0115.parse 2 8 gold charge charge.05 ----- 5:1*9:1-ARG1 5:1*9:1-LINK-PSV 8:0-rel 10:1-ARG2
+bn/cnn/01/cnn_0115.parse 3 3 gold kill kill.01 ----- 0:1*4:1-ARG1 3:0-rel 5:2-ARG2

@@ -1,0 +1,6 @@
+nw/xinhua/01/chtb_0199.parse 1 2 gold show show.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
+nw/xinhua/01/chtb_0199.parse 1 6 gold visit visit.01 ----- 3:1-ARG0 6:0-rel 7:1-ARG1
+nw/xinhua/01/chtb_0199.parse 0 13 gold arrive arrive.01 ----- 0:1-ARGM-CAU 10:1-ARG1 13:0-rel 14:1-ARG4 16:1-ARGM-TMP 24:2-ARGM-PRP
+nw/xinhua/01/chtb_0199.parse 0 26 gold carry carry_out.03 ----- 10:1*24:1-ARG0 26:0,27:1-rel 28:1-ARG1
+nw/xinhua/01/chtb_0199.parse 0 2 gold invite invite.01 ----- 2:0-rel 3:1-ARG0
+nw/xinhua/01/chtb_0199.parse 2 1 gold take take.01 ----- 0:1*2:1-ARG1 0:1*2:1-LINK-PSV 1:0-rel 3:1-ARG0

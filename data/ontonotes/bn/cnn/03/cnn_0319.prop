@@ -1,0 +1,36 @@
+bn/cnn/03/cnn_0319.parse 8 2 gold get get.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG1 5:1-ARG2 9:2-ARGM-TMP
+bn/cnn/03/cnn_0319.parse 1 2 gold stand stand_by.05 ----- 0:1-ARG1 2:0,3:1-rel 4:1-ARGM-PRP
+bn/cnn/03/cnn_0319.parse 3 25 gold be be.03 ----- 25:0-rel
+bn/cnn/03/cnn_0319.parse 3 26 gold deliver deliver.01 ----- 12:1*14:1*27:1-ARG1 12:1*14:1-LINK-SLC 15:2*23:1-ARG0 26:0-rel 28:1-ARGM-LOC 33:1-ARGM-TMP
+bn/cnn/03/cnn_0319.parse 4 9 gold announce announce.01 ----- 4:1-ARG0 8:0-ARGM-MOD 9:0-rel 34:1-ARG1
+bn/cnn/03/cnn_0319.parse 0 1 gold welcome welcome.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-DIR
+bn/cnn/03/cnn_0319.parse 8 13 gold speak speak.01 ----- 13:0-rel
+bn/cnn/03/cnn_0319.parse 3 3 gold get get.01 ----- 0:1-ARG0 2:0-ARGM-ADV 3:0-rel 8:1-ARG1 10:1-ARGM-DIR 11:1-ARG2
+bn/cnn/03/cnn_0319.parse 4 31 gold former former.01 ----- 31:0-rel 32:0-ARG1
+bn/cnn/03/cnn_0319.parse 11 3 gold join join.04 ----- 0:1-ARG0 3:0-rel 4:1-ARG1 5:1-ARGM-MNR 6:1-ARGM-LOC 9:1-ARG2
+bn/cnn/03/cnn_0319.parse 12 11 gold kill kill.01 ----- 0:1-ARGM-DIS 4:1-ARGM-DIS 6:2*10:1*12:1-ARG1 11:0-rel 13:1-ARG2
+bn/cnn/03/cnn_0319.parse 4 2 gold expect expect.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
+bn/cnn/03/cnn_0319.parse 4 49 gold have have.01 ----- 49:0-rel
+bn/cnn/03/cnn_0319.parse 10 23 gold be be.02 ----- 20:1*21:1*37:1-ARGM-LOC 20:1*21:1-LINK-SLC 23:0-rel 24:2-ARG1
+bn/cnn/03/cnn_0319.parse 4 41 gold provide provide.01 ----- 35:1*39:1*40:1-ARG0 35:1*39:1-LINK-SLC 41:0-rel 42:1-ARG1 44:1-ARG2
+bn/cnn/03/cnn_0319.parse 10 2 gold have have.03 ----- 0:1-ARG0 1:1-ARGM-DIS 2:0-rel 3:2-ARG1
+bn/cnn/03/cnn_0319.parse 11 2 gold be be.03 ----- 2:0-rel
+bn/cnn/03/cnn_0319.parse 4 20 gold help help.01 ----- 17:1*18:1*19:1-ARG0 17:1*18:1-LINK-SLC 20:0-rel 21:1-ARG1
+bn/cnn/03/cnn_0319.parse 10 4 gold update update.01 ----- 4:0-rel 5:1-ARG1
+bn/cnn/03/cnn_0319.parse 4 51 gold grant grant.01 ----- 35:2*52:1-ARG2 51:0-rel 53:2-ARG1 60:2-ARGM-MNR
+bn/cnn/03/cnn_0319.parse 9 3 gold monitor monitor.01 ----- 0:1-ARG0 1:0-ARGM-MOD 3:0-rel 4:1-ARG1 5:1-ARGM-DIS
+bn/cnn/03/cnn_0319.parse 10 35 gold demonstrate demonstrate.01 ----- 30:1*31:1*32:1-ARG0 30:1*31:1-LINK-SLC 35:0-rel 36:1-ARGM-LOC
+bn/cnn/03/cnn_0319.parse 3 21 gold be be.03 ----- 21:0-rel
+bn/cnn/03/cnn_0319.parse 6 2 gold tell tell.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG2
+bn/cnn/03/cnn_0319.parse 2 5 gold come come.01 ----- 0:1*3:1-ARG1 5:0-rel 6:1-ARG4 12:2-ARGM-PRP
+bn/cnn/03/cnn_0319.parse 2 2 gold expect expect.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
+bn/cnn/03/cnn_0319.parse 3 22 gold expect expect.01 ----- 15:2*23:2-ARG1 22:0-rel
+bn/cnn/03/cnn_0319.parse 2 14 gold brief brief.01 ----- 0:1*3:1*12:1-ARG0 14:0-rel 15:1-ARG1 16:1-ARG2
+bn/cnn/03/cnn_0319.parse 8 11 gold deliver deliver.01 ----- 9:1*23:1-ARGM-TMP 10:1-ARG0 11:0-rel 12:1-ARG1 14:1-ARGM-LOC 19:1-ARGM-TMP
+bn/cnn/03/cnn_0319.parse 10 33 gold have have.01 ----- 33:0-rel
+bn/cnn/03/cnn_0319.parse 3 13 gold speak speak.01 ----- 13:0-rel 14:2-ARGM-ADJ
+bn/cnn/03/cnn_0319.parse 10 34 gold be be.03 ----- 34:0-rel
+bn/cnn/03/cnn_0319.parse 4 50 gold be be.03 ----- 50:0-rel
+bn/cnn/03/cnn_0319.parse 9 2 gold be be.03 ----- 2:0-rel
+bn/cnn/03/cnn_0319.parse 4 16 gold provide provide.01 ----- 11:1*14:1*15:1-ARG0 11:1*14:1-LINK-SLC 16:0-rel 17:2-ARG1
+bn/cnn/03/cnn_0319.parse 12 9 gold be be.03 ----- 9:0-rel

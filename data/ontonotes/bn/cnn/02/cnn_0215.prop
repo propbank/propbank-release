@@ -1,0 +1,7 @@
+bn/cnn/02/cnn_0215.parse 3 3 gold move move.01 ----- 0:1*4:1-ARG1 1:1-ARGM-TMP 3:0-rel 5:1-ARGM-DIR 8:1-ARG2
+bn/cnn/02/cnn_0215.parse 0 3 gold say say.01 ----- 0:2-ARG0 3:0-rel 4:1-ARG1
+bn/cnn/02/cnn_0215.parse 0 8 gold shoot shoot.02 ----- 5:1-ARG0 7:1-ARGM-MNR 8:0-rel 9:1-ARG1 11:1-ARGM-TMP
+bn/cnn/02/cnn_0215.parse 0 13 gold kill kill.01 ----- 5:1*12:1-ARG0 13:0-rel 14:1-ARG1 15:1-ARGM-TMP
+bn/cnn/02/cnn_0215.parse 1 1 gold happen happen.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-LOC
+bn/cnn/02/cnn_0215.parse 2 1 gold happen happen.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-TMP
+bn/cnn/02/cnn_0215.parse 3 2 gold be be.03 ----- 2:0-rel

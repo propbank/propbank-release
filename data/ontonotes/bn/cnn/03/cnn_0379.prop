@@ -1,0 +1,19 @@
+bn/cnn/03/cnn_0379.parse 2 2 gold ask ask.02 ----- 0:1-ARG0 2:0-rel 3:2-ARG2 9:2-ARG1
+bn/cnn/03/cnn_0379.parse 4 1 gold await await.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
+bn/cnn/03/cnn_0379.parse 3 17 gold unseal unseal.01 ----- 15:1-ARG0 17:0-rel 18:2-ARG1
+bn/cnn/03/cnn_0379.parse 3 25 gold arrest arrest.01 ----- 22:1-ARG1 25:0-rel
+bn/cnn/03/cnn_0379.parse 2 1 gold be be.03 ----- 1:0-rel
+bn/cnn/03/cnn_0379.parse 4 2 gold try try.02 ----- 2:0-rel 3:1-ARG3
+bn/cnn/03/cnn_0379.parse 0 1 gold move move.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-DIR 3:1-ARG2
+bn/cnn/03/cnn_0379.parse 2 11 gold give give.01 ----- 3:2*9:1-ARG0 11:0,13:1-rel 12:1-ARG1
+bn/cnn/03/cnn_0379.parse 0 12 gold request request.01 ----- 11:0-ARGM-ADJ 12:0-rel 13:1-ARG0
+bn/cnn/03/cnn_0379.parse 7 0 gold thank thank.01 ----- 0:0-rel 1:1-ARG2
+bn/cnn/03/cnn_0379.parse 3 12 gold be be.03 ----- 12:0-rel
+bn/cnn/03/cnn_0379.parse 7 3 gold be be.01 ----- 2:1-ARG1 3:0-rel 4:1-ARG2
+bn/cnn/03/cnn_0379.parse 4 5 gold murder murder.01 ----- 5:0-rel 6:1-ARG1
+bn/cnn/03/cnn_0379.parse 3 13 gold consider consider.02 ----- 8:1*9:1*26:1-ARGM-TMP 8:1*9:1-LINK-SLC 10:1-ARG0 13:0-rel 14:1-ARG1
+bn/cnn/03/cnn_0379.parse 5 0 gold join join.04 ----- 0:0-rel 1:1-ARG1 3:1-ARG0
+bn/cnn/03/cnn_0379.parse 1 6 gold miss miss.01 ----- 6:0-rel 7:0-ARG1
+bn/cnn/03/cnn_0379.parse 3 19 gold obtain obtain.01 ----- 18:1*20:1-ARG1 18:1*20:1-LINK-PSV 19:0-rel 21:1-ARGM-TMP
+bn/cnn/03/cnn_0379.parse 1 9 gold be be.01 ----- 0:2-ARG1 8:0-ARGM-MOD 9:0-rel 10:3-ARG2
+bn/cnn/03/cnn_0379.parse 2 6 gold find find.01 ----- 3:1*4:1*5:1-ARG0 3:1*4:1-LINK-SLC 6:0-rel 7:1-ARG1

@@ -1,0 +1,26 @@
+bn/cnn/01/cnn_0162.parse 4 4 gold bomb bomb.01 ----- 4:0-rel
+bn/cnn/01/cnn_0162.parse 2 10 gold have have.01 ----- 10:0-rel
+bn/cnn/01/cnn_0162.parse 6 7 gold believe believe.01 ----- 5:1*8:1,9:2-ARG1 5:1*8:1-LINK-PSV 7:0-rel
+bn/cnn/01/cnn_0162.parse 2 14 gold select select.01 ----- 13:0-ARG1 14:0-rel
+bn/cnn/01/cnn_0162.parse 5 11 gold serve serve.01 ----- 0:2*8:1*10:1-ARG0 11:0-rel 12:1-ARG1
+bn/cnn/01/cnn_0162.parse 2 11 gold close close.01 ----- 8:1-ARG0 11:0-rel 12:1-ARG1 16:1-ARG2
+bn/cnn/01/cnn_0162.parse 6 11 gold be be.03 ----- 11:0-rel
+bn/cnn/01/cnn_0162.parse 6 3 gold be be.01 ----- 0:1-ARG1 3:0-rel 4:1-ARG2
+bn/cnn/01/cnn_0162.parse 1 7 gold kill kill.01 ----- 0:2-ARG2 7:0-rel 8:1-ARG1
+bn/cnn/01/cnn_0162.parse 5 7 gold accuse accuse.01 ----- 0:2*8:1-ARG1 7:0-rel 9:1-ARG2
+bn/cnn/01/cnn_0162.parse 6 12 gold involve involve.01 ----- 5:1*8:1*9:1*13:1-ARG1 5:1*8:1-LINK-PSV 12:0-rel 14:1-ARG2
+bn/cnn/01/cnn_0162.parse 5 4 gold stand stand.04 ----- 2:2-ARG1 4:0-rel 5:1-ARG2
+bn/cnn/01/cnn_0162.parse 0 7 gold try try.02 ----- 7:0-rel 8:1-ARG1
+bn/cnn/01/cnn_0162.parse 0 18 gold bomb bomb.01 ----- 15:0-ARGM-TMP 16:1-ARG1 18:0-rel 19:1-ARGM-LOC
+bn/cnn/01/cnn_0162.parse 0 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2 5:1-ARGM-LOC
+bn/cnn/01/cnn_0162.parse 6 16 gold bomb bomb.01 ----- 16:0-rel
+bn/cnn/01/cnn_0162.parse 0 1 gold select select.01 ----- 0:0-ARG1 1:0-rel
+bn/cnn/01/cnn_0162.parse 4 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+bn/cnn/01/cnn_0162.parse 3 5 gold take take.10 ----- 0:2-ARG0 4:0-ARGM-MOD 5:0-rel 6:1-ARG1
+bn/cnn/01/cnn_0162.parse 4 6 gold orchestrate orchestrate.01 ----- 3:1*7:1-ARG1 6:0-rel 8:1-ARG0
+bn/cnn/01/cnn_0162.parse 5 5 gold try try.02 ----- 5:0-rel
+bn/cnn/01/cnn_0162.parse 3 1 gold pick pick.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+bn/cnn/01/cnn_0162.parse 5 6 gold be be.03 ----- 6:0-rel
+bn/cnn/01/cnn_0162.parse 4 5 gold be be.03 ----- 5:0-rel
+bn/cnn/01/cnn_0162.parse 2 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
+bn/cnn/01/cnn_0162.parse 0 11 gold accuse accuse.01 ----- 9:1*12:1-ARG1 9:1*12:1-LINK-PSV 11:0-rel 13:1-ARG2

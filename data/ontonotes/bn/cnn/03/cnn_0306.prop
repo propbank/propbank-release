@@ -1,0 +1,33 @@
+bn/cnn/03/cnn_0306.parse 1 20 gold tour tour.01 ----- 8:2*14:1*19:1-ARG0 20:0-rel 21:2-ARG1
+bn/cnn/03/cnn_0306.parse 9 6 gold warn warn.01 ----- 0:2*4:1-ARG0 6:0-rel 7:2-ARG2 24:2-ARG1
+bn/cnn/03/cnn_0306.parse 0 8 gold put put.03 ----- 7:1-ARG0 8:0-rel 9:2-ARG1 12:1-ARG2
+bn/cnn/03/cnn_0306.parse 9 26 gold take take.01 ----- 7:2*24:1-ARG0 26:0-rel 27:1-ARG1
+bn/cnn/03/cnn_0306.parse 10 16 gold keep keep.02 ----- 3:1-ARGM-ADV 13:1-ARG0 14:0-ARGM-MOD 16:0-rel 17:1-ARG1
+bn/cnn/03/cnn_0306.parse 0 14 gold spend spend.02 ----- 0:1-ARGM-TMP 2:2-ARG0 14:0-rel 15:1-ARG1 16:1-ARG2
+bn/cnn/03/cnn_0306.parse 1 13 gold mob mob.02 ----- 0:1-ARGM-TMP 8:2*14:1-ARG1 13:0-rel 15:1-ARG0 18:1-ARGM-TMP
+bn/cnn/03/cnn_0306.parse 3 3 gold find find.01 ----- 0:1-ARG0 3:0-rel 4:2-ARG1
+bn/cnn/03/cnn_0306.parse 3 5 gold hide hide.01 ----- 4:1*6:1-ARG1 4:1*6:1-LINK-PSV 5:0-rel 7:1-ARG0
+bn/cnn/03/cnn_0306.parse 7 9 gold discover discover.01 ----- 7:1-ARG0 9:0-rel 10:2-ARG1
+bn/cnn/03/cnn_0306.parse 8 1 gold be be.03 ----- 1:0-rel
+bn/cnn/03/cnn_0306.parse 6 3 gold be be.01 ----- 0:1-ARG1 3:0-rel 4:1-ARG2
+bn/cnn/03/cnn_0306.parse 5 4 gold have have.01 ----- 4:0-rel
+bn/cnn/03/cnn_0306.parse 10 15 gold be be.03 ----- 15:0-rel
+bn/cnn/03/cnn_0306.parse 1 12 gold be be.03 ----- 12:0-rel
+bn/cnn/03/cnn_0306.parse 10 6 gold meet meet.02 ----- 6:0-rel 7:1-ARG1 13:1-ARG0
+bn/cnn/03/cnn_0306.parse 8 2 gold spread spread.03 ----- 0:1-ARG1 2:0-rel
+bn/cnn/03/cnn_0306.parse 9 3 gold plan plan.01 ----- 0:2-ARG0 3:0-rel 4:2-ARG1
+bn/cnn/03/cnn_0306.parse 5 5 gold discover discover.01 ----- 0:1-ARGM-TMP 2:1-ARG0 5:0-rel 6:3-ARG1
+bn/cnn/03/cnn_0306.parse 7 17 gold pack pack.01 ----- 15:0-ARGM-MNR 17:0-rel 18:0-ARG2
+bn/cnn/03/cnn_0306.parse 9 9 gold head head.02 ----- 7:1-ARG0 9:0-rel 10:2-ARG1 16:1-ARGM-PRP
+bn/cnn/03/cnn_0306.parse 9 28 gold precaution precaution.01 ----- 28:0-rel
+bn/cnn/03/cnn_0306.parse 3 2 gold keep keep.02 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
+bn/cnn/03/cnn_0306.parse 7 12 gold miss miss.01 ----- 10:1-ARG1 12:0-rel 13:1-ARGM-LOC
+bn/cnn/03/cnn_0306.parse 5 11 gold hide hide.01 ----- 6:2*12:1-ARG1 6:2*12:1-LINK-PSV 11:0-rel 13:1-ARGM-LOC
+bn/cnn/03/cnn_0306.parse 7 2 gold be be.03 ----- 2:0-rel
+bn/cnn/03/cnn_0306.parse 2 3 gold show show.01 ----- 0:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:1-ARGM-ADV
+bn/cnn/03/cnn_0306.parse 4 4 gold turn turn_up.15 ----- 0:2-ARG1 4:0,5:1-rel 6:1-ARGM-TMP 7:1-ARGM-LOC
+bn/cnn/03/cnn_0306.parse 6 9 gold keep keep.01 ----- 0:1*7:1-ARG0 8:1-ARGM-ADV 9:0-rel 10:2-ARG1
+bn/cnn/03/cnn_0306.parse 10 1 gold mean mean.01 ----- 0:1-ARG1 1:0-rel 3:2-ARG2
+bn/cnn/03/cnn_0306.parse 10 10 gold sign sign.01 ----- 5:1-ARG0 10:0-rel 11:1-ARG1
+bn/cnn/03/cnn_0306.parse 10 20 gold wave wave.01 ----- 3:1-ARGM-ADV 13:1-ARG0 14:0-ARGM-MOD 20:0-rel
+bn/cnn/03/cnn_0306.parse 7 3 gold turn turn_in.06 ----- 0:1*4:1-ARG1 3:0,5:1-rel 6:1-ARGM-TMP

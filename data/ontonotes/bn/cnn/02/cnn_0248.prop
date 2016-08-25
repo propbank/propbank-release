@@ -1,0 +1,15 @@
+bn/cnn/02/cnn_0248.parse 7 1 gold do do.01 ----- 1:0-rel
+bn/cnn/02/cnn_0248.parse 2 4 gold demonstrate demonstrate.01 ----- 1:1-ARG0 4:0-rel 5:1-ARGM-PRD
+bn/cnn/02/cnn_0248.parse 2 5 gold coordinate coordinate.01 ----- 0:1*6:1-ARG1 0:1*6:1-LINK-PSV 5:0-rel 7:1-ARG0
+bn/cnn/02/cnn_0248.parse 1 13 gold show show.01 ----- 3:4*11:1-ARG0 13:0-rel 14:2-ARG1
+bn/cnn/02/cnn_0248.parse 5 8 gold be be.01 ----- 6:1-ARG1 7:0-ARGM-MOD 8:0-rel 9:2-ARG2
+bn/cnn/02/cnn_0248.parse 1 20 gold lead lead.02 ----- 18:0-ARG0 20:0-rel 21:0-ARG1
+bn/cnn/02/cnn_0248.parse 1 21 gold war war.01 ----- 18:1-ARGM-ADJ 21:0-rel 22:1-ARG1
+bn/cnn/02/cnn_0248.parse 4 0 gold threaten threaten.01 ----- 0:0-rel 1:1-ARGM-TMP 3:2-ARG1
+bn/cnn/02/cnn_0248.parse 7 3 gold look look.02 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:1-ARG1 6:1-ARGM-LOC
+bn/cnn/02/cnn_0248.parse 0 11 gold protest protest.02 ----- 10:0-ARG1 11:0-rel
+bn/cnn/02/cnn_0248.parse 0 9 gold stage stage.01 ----- 0:2-ARG0 9:0-rel 10:1-ARG1 12:1-ARGM-LOC 14:1-ARGM-TMP 15:2-ARGM-LOC
+bn/cnn/02/cnn_0248.parse 5 4 gold say say.01 ----- 0:1-ARGM-ADV 3:1-ARG0 4:0-rel 5:1-ARG1
+bn/cnn/02/cnn_0248.parse 1 15 gold oppose oppose.01 ----- 14:0-ARG0 15:0-rel 16:1-ARG1
+bn/cnn/02/cnn_0248.parse 1 9 gold skip skip.01 ----- 0:1-ARGM-LOC 1:1-ARGM-TMP 3:4-ARG0 9:0-rel 10:1-ARG1 11:2-ARGM-PRP
+bn/cnn/02/cnn_0248.parse 4 5 gold freeze freeze.01 ----- 3:1-ARG0 5:0-rel 6:1-ARG2 7:2-ARG1

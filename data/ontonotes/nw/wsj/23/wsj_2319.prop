@@ -1,0 +1,14 @@
+nw/wsj/23/wsj_2319.parse 2 2 gold allow allow.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
+nw/wsj/23/wsj_2319.parse 0 3 gold say say.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
+nw/wsj/23/wsj_2319.parse 0 23 gold be be.03 ----- 23:0-rel
+nw/wsj/23/wsj_2319.parse 0 24 gold distribute distribute.01 ----- 7:2*12:1*37:1-ARGM-LOC 7:2*12:1-LINK-SLC 14:1*25:1-ARG1 22:0-ARGM-MOD 24:0-rel 26:1-ARGM-MNR 29:1-ARG2
+nw/wsj/23/wsj_2319.parse 0 17 gold purchase purchase.01 ----- 15:1-ARG0 17:0-rel 18:2-ARG1
+nw/wsj/23/wsj_2319.parse 2 5 gold purchase purchase.01 ----- 3:1-ARG0 5:0-rel 6:1-ARG1 8:1-ARGM-MNR 11:1-ARGM-ADV
+nw/wsj/23/wsj_2319.parse 1 6 gold be be.03 ----- 6:0-rel
+nw/wsj/23/wsj_2319.parse 1 8 gold adopt adopt.01 ----- 4:1*9:1-ARG1 7:0-ARGM-NEG 8:0-rel 10:1-ARGM-PRP
+nw/wsj/23/wsj_2319.parse 2 10 gold discount discount.01 ----- 10:0-rel
+nw/wsj/23/wsj_2319.parse 1 14 gold know know.01 ----- 14:0-rel 15:0-ARG1
+nw/wsj/23/wsj_2319.parse 2 16 gold acquire acquire.01 ----- 12:1-ARG0 16:0-rel 17:3-ARG1
+nw/wsj/23/wsj_2319.parse 2 28 gold announce announce.01 ----- 12:1-ARG0 28:0-rel 29:1-ARG1
+nw/wsj/23/wsj_2319.parse 1 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
+nw/wsj/23/wsj_2319.parse 0 6 gold adopt adopt.01 ----- 5:1-ARG0 6:0-rel 7:3-ARG1

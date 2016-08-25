@@ -1,0 +1,12 @@
+bn/cnn/01/cnn_0143.parse 2 9 gold rise rise.01 ----- 0:2-ARG1 9:0-rel 10:1-ARG2
+bn/cnn/01/cnn_0143.parse 3 1 gold expect expect.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
+bn/cnn/01/cnn_0143.parse 0 6 gold request request.01 ----- 6:0-rel 7:1-ARG0 10:1-ARG1
+bn/cnn/01/cnn_0143.parse 0 14 gold rise rise.01 ----- 6:2-ARG1 14:0-rel 15:1-ARGM-TMP 18:1-ARGM-ADV
+bn/cnn/01/cnn_0143.parse 1 10 gold be be.01 ----- 7:2-ARG1 10:0-rel 11:1-ARG2
+bn/cnn/01/cnn_0143.parse 1 7 gold request request.01 ----- 7:0-rel 8:1-ARG1
+bn/cnn/01/cnn_0143.parse 0 4 gold find find.01 ----- 0:2-ARG0 4:0-rel 5:1-ARG1
+bn/cnn/01/cnn_0143.parse 2 15 gold request request.01 ----- 14:0-ARG1 15:0-rel
+bn/cnn/01/cnn_0143.parse 3 5 gold continue continue.01 ----- 2:1-ARG1 5:0-rel 6:1-ARGM-TMP
+bn/cnn/01/cnn_0143.parse 0 1 gold survey survey.01 ----- 1:0-rel 2:1-ARG2
+bn/cnn/01/cnn_0143.parse 2 16 gold go go.01 ----- 14:1-ARG1 16:0-rel 17:0-ARGM-DIR 18:1-ARG2
+bn/cnn/01/cnn_0143.parse 1 5 gold find find.01 ----- 0:2-ARG0 5:0-rel 6:1-ARG1

@@ -1,0 +1,8 @@
+nw/wsj/10/wsj_1068.parse 0 5 gold intend intend.01 ----- 4:1-ARG0 5:0-rel 6:2-ARG1
+nw/wsj/10/wsj_1068.parse 0 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
+nw/wsj/10/wsj_1068.parse 2 6 gold be be.01 ----- 0:1*2:1*5:1-ARG1 0:1*2:1-LINK-SLC 6:0-rel 7:1-ARG2
+nw/wsj/10/wsj_1068.parse 2 10 gold be be.01 ----- 0:2-ARG1 10:0-rel 11:2-ARG2
+nw/wsj/10/wsj_1068.parse 3 5 gold approve approve.01 ----- 5:0-rel 6:1-ARG0
+nw/wsj/10/wsj_1068.parse 0 8 gold acquire acquire.01 ----- 4:1*6:1-ARG0 8:0-rel 9:1-ARG1 12:1-ARG3
+nw/wsj/10/wsj_1068.parse 3 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2
+nw/wsj/10/wsj_1068.parse 1 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2

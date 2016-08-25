@@ -1,0 +1,5 @@
+nw/wsj/04/wsj_0459.parse 1 2 gold discount discount.01 ----- 2:0-rel 3:0-ARG1
+nw/wsj/04/wsj_0459.parse 3 4 gold adjust adjust.01 ----- 2:1*5:1-ARG1 2:1*5:1-LINK-PSV 4:0-rel 6:1-ARG4
+nw/wsj/04/wsj_0459.parse 2 3 gold end end.01 ----- 2:1-ARG1 3:0-rel 4:3-ARGM-TMP
+nw/wsj/04/wsj_0459.parse 3 8 gold mature maturate.03 ----- 7:0-ARGM-ADJ 8:0-rel
+nw/wsj/04/wsj_0459.parse 0 8 gold report report.01 ----- 7:1-ARG1 8:0-rel 10:1-ARG0 15:1-ARGM-MNR

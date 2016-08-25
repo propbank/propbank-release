@@ -1,0 +1,10 @@
+bn/cnn/01/cnn_0101.parse 2 14 gold play play.02 ----- 0:1-ARG0 13:1-ARGM-MNR 14:0-rel 15:2-ARG1
+bn/cnn/01/cnn_0101.parse 1 4 gold meet meet.03 ----- 0:1*2:1-ARG0 4:0-rel 5:1-ARG1 10:1-ARGM-TMP 11:1-ARGM-LOC
+bn/cnn/01/cnn_0101.parse 0 15 gold violent violent.01 ----- 14:0-ARG0 15:0-rel
+bn/cnn/01/cnn_0101.parse 0 5 gold turn turn.01 ----- 0:2-ARG1 5:0-rel 6:1-ARGM-DIR 8:1-ARGM-PRP
+bn/cnn/01/cnn_0101.parse 0 12 gold end end.01 ----- 0:2*11:1-ARG0 12:0-rel 13:1-ARG1
+bn/cnn/01/cnn_0101.parse 0 9 gold help help.01 ----- 0:2,10:1-ARG1 9:0-rel
+bn/cnn/01/cnn_0101.parse 2 12 gold have have.01 ----- 12:0-rel
+bn/cnn/01/cnn_0101.parse 1 1 gold plan plan.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
+bn/cnn/01/cnn_0101.parse 0 4 gold be be.03 ----- 4:0-rel
+bn/cnn/01/cnn_0101.parse 2 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2

@@ -1,0 +1,67 @@
+nw/wsj/06/wsj_0634.parse 10 23 gold invest invest.01 ----- 7:1*11:1*21:1-ARG0 23:0-rel 24:1-ARG2
+nw/wsj/06/wsj_0634.parse 21 24 gold expand expand.01 ----- 22:1-ARG1 24:0-rel 25:1-ARGM-LOC
+nw/wsj/06/wsj_0634.parse 20 27 gold say say.01 ----- 0:2*29:1-ARG1 27:0-rel 30:2-ARG0
+nw/wsj/06/wsj_0634.parse 4 27 gold be be.03 ----- 27:0-rel
+nw/wsj/06/wsj_0634.parse 20 2 gold do do.02 ----- 0:1-ARG0 2:0-rel 3:1-ARG1 4:1-ARG2 12:2-ARGM-ADV
+nw/wsj/06/wsj_0634.parse 19 3 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 3:0-rel 4:1-ARG2 9:1-ARGM-CAU
+nw/wsj/06/wsj_0634.parse 12 14 gold be be.03 ----- 14:0-rel
+nw/wsj/06/wsj_0634.parse 5 22 gold grow grow.01 ----- 21:1-ARG1 22:0-rel 23:1-ARGM-LOC
+nw/wsj/06/wsj_0634.parse 19 7 gold expand expand.01 ----- 1:1*6:1-ARG1 7:0-rel 8:1-ARGM-LOC
+nw/wsj/06/wsj_0634.parse 5 2 gold be be.03 ----- 2:0-rel
+nw/wsj/06/wsj_0634.parse 15 2 gold bill bill.01 ----- 0:1-ARG0 2:0-rel
+nw/wsj/06/wsj_0634.parse 11 7 gold look look.01 ----- 4:1-ARG0 6:0-ARGM-NEG 7:0-rel 8:1-ARGM-MNR 9:1-ARG1
+nw/wsj/06/wsj_0634.parse 22 24 gold do do.02 ----- 17:2*22:1*25:1-ARG1 17:2*22:1-LINK-SLC 23:1-ARG0 24:0-rel 26:1-ARGM-LOC
+nw/wsj/06/wsj_0634.parse 12 2 gold say say.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG1
+nw/wsj/06/wsj_0634.parse 22 13 gold provide provide.01 ----- 11:1-ARG0 13:0-rel 14:1-ARG2 17:3-ARG1
+nw/wsj/06/wsj_0634.parse 5 3 gold drive drive.02 ----- 0:1*1:1-ARG0 3:0-rel 4:2-ARG1
+nw/wsj/06/wsj_0634.parse 8 21 gold aim aim.02 ----- 18:1-ARG0 21:0-rel 22:1-ARG2
+nw/wsj/06/wsj_0634.parse 0 21 gold set set.01 ----- 0:2-ARG0 21:0-rel 22:1-ARG1 24:1-ARG2
+nw/wsj/06/wsj_0634.parse 14 3 gold end end.01 ----- 1:1-ARG1 3:0-rel 4:1-ARGM-TMP
+nw/wsj/06/wsj_0634.parse 21 27 gold say say.01 ----- 27:0-rel 28:1-ARG1 30:1-ARG0
+nw/wsj/06/wsj_0634.parse 14 9 gold rise rise.01 ----- 0:1-ARGM-TMP 7:1-ARG1 9:0-rel 10:1-ARG2 12:1-ARG4 17:1-ARG3
+nw/wsj/06/wsj_0634.parse 6 15 gold catch catch_up.04 ----- 8:1*13:1-ARG1 15:0,16:1-rel 17:1-ARG2
+nw/wsj/06/wsj_0634.parse 20 18 gold be be.01 ----- 12:1*15:1*16:1-ARG1 12:1*15:1-LINK-SLC 17:0-ARGM-MOD 18:0-rel 19:1-ARG2 20:1-ARGM-MNR
+nw/wsj/06/wsj_0634.parse 13 17 gold do do.02 ----- 15:1-ARG0 17:0-rel 18:1-ARG1 19:1-ARGM-LOC
+nw/wsj/06/wsj_0634.parse 6 5 gold do do.02 ----- 2:1-ARG0 4:0-ARGM-NEG 5:0-rel 6:1-ARG1
+nw/wsj/06/wsj_0634.parse 11 2 gold say say.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
+nw/wsj/06/wsj_0634.parse 17 10 gold count count.04 ----- 0:1-ARGM-ADV 4:3-ARG1 9:0-ARGM-MOD 10:0-rel 11:1-ARGM-EXT 13:1-ARGM-LOC 17:2-ARGM-TMP
+nw/wsj/06/wsj_0634.parse 4 9 gold hold hold.01 ----- 2:1*7:1*8:1-ARG0 2:1*7:1-LINK-SLC 9:0-rel 10:2-ARG1
+nw/wsj/06/wsj_0634.parse 6 3 gold do do.01 ----- 3:0-rel
+nw/wsj/06/wsj_0634.parse 21 2 gold acquire acquire.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG1
+nw/wsj/06/wsj_0634.parse 17 19 gold seek seek.01 ----- 17:1*22:1-ARGM-TMP 18:1-ARG0 19:0-rel 20:1-ARG1
+nw/wsj/06/wsj_0634.parse 10 8 gold have have.01 ----- 8:0-rel
+nw/wsj/06/wsj_0634.parse 22 6 gold make make.02 ----- 0:0-ARGM-DIS 1:1-ARG0 5:0-ARGM-MOD 6:0-rel 7:3-ARG1
+nw/wsj/06/wsj_0634.parse 15 29 gold publish publish.01 ----- 29:0-rel 30:1-ARG1
+nw/wsj/06/wsj_0634.parse 3 7 gold keep keep.01 ----- 6:1-ARG0 7:0-rel 8:1-ARG1
+nw/wsj/06/wsj_0634.parse 21 21 gold be be.01 ----- 0:1-ARGM-ADV 17:1-ARG1 19:0-ARGM-MOD 20:1-ARGM-ADV 21:0-rel 22:2-ARG2
+nw/wsj/06/wsj_0634.parse 9 4 gold appear appear.02 ----- 0:1-ARGM-TMP 4:0-rel 5:2-ARG1
+nw/wsj/06/wsj_0634.parse 2 6 gold acquire acquire.01 ----- 0:2-ARGM-TMP 5:1-ARG0 6:0-rel 7:2-ARG1 16:1-ARG3
+nw/wsj/06/wsj_0634.parse 19 12 gold be be.01 ----- 10:1-ARG1 12:0-rel 13:1-ARG2
+nw/wsj/06/wsj_0634.parse 6 21 gold say say.01 ----- 1:2*22:1-ARG1 21:0-rel 23:1-ARG0
+nw/wsj/06/wsj_0634.parse 7 6 gold be be.01 ----- 5:1-ARG1 6:0-rel 7:1-ARG2
+nw/wsj/06/wsj_0634.parse 10 9 gold be be.03 ----- 9:0-rel
+nw/wsj/06/wsj_0634.parse 12 15 gold lay lay.01 ----- 0:1-ARGM-ADV 13:1-ARG0 15:0-rel 16:2-ARG1
+nw/wsj/06/wsj_0634.parse 1 4 gold start start.01 ----- 0:1-ARGM-TMP 3:1-ARG0 4:0-rel 5:2-ARG1
+nw/wsj/06/wsj_0634.parse 12 5 gold have have.03 ----- 4:1-ARG0 5:0-rel 6:1-ARG1
+nw/wsj/06/wsj_0634.parse 18 5 gold prove prove.01 ----- 0:1-ARGM-DIS 4:0-ARGM-MOD 5:0-rel 6:2-ARG1
+nw/wsj/06/wsj_0634.parse 15 5 gold be be.01 ----- 0:2-ARG1 3:1-ARGM-TMP 5:0-rel 6:2-ARG2 23:1-ARGM-ADV
+nw/wsj/06/wsj_0634.parse 8 20 gold be be.03 ----- 20:0-rel
+nw/wsj/06/wsj_0634.parse 13 1 gold be be.03 ----- 1:0-rel
+nw/wsj/06/wsj_0634.parse 9 9 gold take take.01 ----- 3:1*5:1*8:1-ARG0 9:0-rel 10:1-ARG1
+nw/wsj/06/wsj_0634.parse 21 7 gold expand expand.01 ----- 1:2-ARG0 6:0-ARGM-MOD 7:0-rel 8:2-ARG1 13:1-ARG4
+nw/wsj/06/wsj_0634.parse 10 5 gold say say.01 ----- 0:1-ARGM-DIS 3:1-ARG0 5:0-rel 6:1-ARG1
+nw/wsj/06/wsj_0634.parse 8 15 gold bill bill.01 ----- 14:0-ARGM-ADJ 15:0-rel
+nw/wsj/06/wsj_0634.parse 6 11 gold be be.01 ----- 1:1-ARGM-ADV 8:1-ARG1 9:0-ARGM-MOD 10:0-ARGM-NEG 11:0-rel 12:1-ARG2
+nw/wsj/06/wsj_0634.parse 11 5 gold have have.01 ----- 5:0-rel
+nw/wsj/06/wsj_0634.parse 16 7 gold be be.01 ----- 0:0-ARGM-DIS 1:2-ARG1 6:0-ARGM-MOD 7:0-rel 8:2-ARG2
+nw/wsj/06/wsj_0634.parse 3 1 gold have have.03 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+nw/wsj/06/wsj_0634.parse 7 3 gold say say.01 ----- 1:1-ARG0 3:0-rel 4:1-ARG1
+nw/wsj/06/wsj_0634.parse 0 20 gold be be.03 ----- 20:0-rel
+nw/wsj/06/wsj_0634.parse 4 28 gold consider consider.02 ----- 0:1-ARGM-TMP 2:2-ARG0 28:0-rel 29:2-ARG1
+nw/wsj/06/wsj_0634.parse 8 7 gold account account.01 ----- 0:1-ARGM-TMP 3:2-ARG0 7:0-rel 8:1-ARG1
+nw/wsj/06/wsj_0634.parse 14 26 gold jump jump.01 ----- 0:1-ARGM-TMP 24:1-ARG1 26:0-rel 27:1-ARG2 29:1-ARG4 34:1-ARG3
+nw/wsj/06/wsj_0634.parse 5 14 gold keep keep_up.05 ----- 12:1-ARG0 14:0,15:1-rel 16:1-ARG1 20:1-ARGM-TMP
+nw/wsj/06/wsj_0634.parse 5 9 gold be be.01 ----- 0:2-ARG1 8:1-ARGM-ADV 9:0-rel 10:1-ARG2
+nw/wsj/06/wsj_0634.parse 13 2 gold set set_up.03 ----- 0:1-ARG0 2:0,3:1-rel 4:2-ARG1
+nw/wsj/06/wsj_0634.parse 10 10 gold approach approach.01 ----- 7:1*11:1-ARG2 10:0-rel 12:1-ARG1 17:2-ARGM-TMP 21:2-ARGM-PRP
+nw/wsj/06/wsj_0634.parse 13 14 gold train train.01 ----- 0:1*13:1-ARG0 0:1*13:1-LINK-PRO 14:0-rel 15:1-ARG2 16:1-ARG1

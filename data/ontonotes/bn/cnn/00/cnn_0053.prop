@@ -1,0 +1,11 @@
+bn/cnn/00/cnn_0053.parse 2 4 gold be be.03 ----- 4:0-rel
+bn/cnn/00/cnn_0053.parse 0 16 gold return return.01 ----- 0:2-ARG1 16:0-rel 17:1-ARG4 18:1-ARGM-TMP
+bn/cnn/00/cnn_0053.parse 3 3 gold kill kill.01 ----- 0:1*4:1-ARG1 3:0-rel 5:1-ARG2 15:2-ARGM-TMP
+bn/cnn/00/cnn_0053.parse 3 2 gold be be.03 ----- 2:0-rel
+bn/cnn/00/cnn_0053.parse 0 7 gold recover recover.02 ----- 3:1*8:1-ARG1 3:1*8:1-LINK-PSV 7:0-rel 9:1-ARG2
+bn/cnn/00/cnn_0053.parse 2 5 gold hold hold.04 ----- 0:1*6:1-ARG1 3:0-ARGM-MOD 5:0-rel 7:1-ARGM-TMP
+bn/cnn/00/cnn_0053.parse 1 2 gold carry carry.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
+bn/cnn/00/cnn_0053.parse 1 5 gold be be.01 ----- 0:2-ARG1 5:0-rel 6:1-ARG2
+bn/cnn/00/cnn_0053.parse 0 15 gold be be.03 ----- 15:0-rel
+bn/cnn/00/cnn_0053.parse 1 9 gold arrive arrive.01 ----- 0:2*7:1-ARG1 9:0-rel 10:1-ARG4 17:2-ARGM-TMP
+bn/cnn/00/cnn_0053.parse 2 2 gold ceremony ceremony.01 ----- 1:0-ARGM-TMP 2:0-rel

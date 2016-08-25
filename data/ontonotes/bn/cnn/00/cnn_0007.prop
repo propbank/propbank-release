@@ -1,0 +1,10 @@
+bn/cnn/00/cnn_0007.parse 2 3 gold bring bring.01 ----- 1:1-ARG0 3:0-rel 4:1-ARG1 5:1-ARG2
+bn/cnn/00/cnn_0007.parse 2 15 gold help help.01 ----- 0:1-ARGM-ADV 12:1-ARG0 15:0-rel 16:2-ARG1
+bn/cnn/00/cnn_0007.parse 4 2 gold publish publish.01 ----- 0:1*3:1-ARG1 2:0-rel 4:1-ARGM-LOC
+bn/cnn/00/cnn_0007.parse 2 7 gold infect infect.01 ----- 1:1-ARG0 7:0-rel 8:1-ARG1
+bn/cnn/00/cnn_0007.parse 4 1 gold be be.03 ----- 1:0-rel
+bn/cnn/00/cnn_0007.parse 3 2 gold reduce reduce.01 ----- 0:1-ARG0 2:0-rel 3:3-ARG1
+bn/cnn/00/cnn_0007.parse 0 1 gold study study.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
+bn/cnn/00/cnn_0007.parse 2 17 gold reduce reduce.01 ----- 12:1*16:1-ARG0 12:1*16:1-LINK-PRO 17:0-rel 18:1-ARG1 20:1-ARG2
+bn/cnn/00/cnn_0007.parse 3 4 gold need need.01 ----- 4:0-rel 5:1-ARG1
+bn/cnn/00/cnn_0007.parse 1 3 gold get get.01 ----- 0:2-ARG0 3:0-rel 4:1-ARG1

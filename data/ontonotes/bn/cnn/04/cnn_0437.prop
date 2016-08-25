@@ -1,0 +1,11 @@
+bn/cnn/04/cnn_0437.parse 0 4 gold force force.01 ----- 0:2-ARG0 4:0-rel 5:2-ARG1 8:1-ARG2
+bn/cnn/04/cnn_0437.parse 3 4 gold report report.01 ----- 0:1*5:1-ARG1 4:0-rel 6:1-ARGM-ADV 7:1-ARGM-TMP
+bn/cnn/04/cnn_0437.parse 2 2 gold consume consume.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
+bn/cnn/04/cnn_0437.parse 1 8 gold start start.01 ----- 0:2-ARG1 8:0-rel 9:1-ARGM-TMP 10:2-ARGM-TMP
+bn/cnn/04/cnn_0437.parse 1 20 gold ignite ignite.01 ----- 10:1*26:1-ARGM-TMP 11:2-ARG1 20:0-rel 21:1-ARGM-LOC
+bn/cnn/04/cnn_0437.parse 3 3 gold be be.03 ----- 3:0-rel
+bn/cnn/04/cnn_0437.parse 0 1 gold wildfire wildfire.01 ----- 1:0-rel 2:1-ARGM-LOC
+bn/cnn/04/cnn_0437.parse 3 2 gold have have.01 ----- 2:0-rel
+bn/cnn/04/cnn_0437.parse 2 7 gold be be.01 ----- 0:1-ARG1 7:0-rel 8:3-ARG2
+bn/cnn/04/cnn_0437.parse 3 1 gold injure injure.01 ----- 0:0-ARGM-NEG 1:0-rel
+bn/cnn/04/cnn_0437.parse 1 14 gold haul haul.01 ----- 11:1*15:1-ARG1 11:1*15:1-LINK-PSV 14:0-rel 16:1-ARG2

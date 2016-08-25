@@ -1,0 +1,45 @@
+bn/cnn/04/cnn_0430.parse 10 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 3:1-ARG2 4:1-ARGM-LOC
+bn/cnn/04/cnn_0430.parse 2 3 gold recommend recommend.01 ----- 2:0-ARG0 3:0-rel
+bn/cnn/04/cnn_0430.parse 15 1 gold be be.03 ----- 1:0-rel
+bn/cnn/04/cnn_0430.parse 13 30 gold publish publish.01 ----- 25:1*28:1*29:1-ARG0 25:1*28:1-LINK-SLC 30:0-rel 31:2-ARG1
+bn/cnn/04/cnn_0430.parse 8 25 gold leave leave.12 ----- 1:1*7:1-ARG0 1:1*7:1-LINK-PRO 25:0-rel 26:1-ARG1 27:1-ARG2 28:2-ARGM-PRP
+bn/cnn/04/cnn_0430.parse 11 14 gold be be.01 ----- 12:1-ARG1 14:0-rel 15:1-ARG2
+bn/cnn/04/cnn_0430.parse 8 30 gold die die.01 ----- 26:1*28:1-ARG1 30:0-rel
+bn/cnn/04/cnn_0430.parse 11 25 gold be be.01 ----- 24:1-ARG1 25:0-rel 26:2-ARG2
+bn/cnn/04/cnn_0430.parse 0 3 gold use use.01 ----- 1:1-ARG0 3:0-rel 4:1-ARG1 5:1-ARGM-LOC
+bn/cnn/04/cnn_0430.parse 12 5 gold air air.01 ----- 0:2;11:2-ARG1 4:0-ARGM-MOD 5:0-rel 6:1-ARGM-TMP 7:1-ARGM-TMP 19:1-ARGM-LOC 21:2-ARGM-ADV
+bn/cnn/04/cnn_0430.parse 7 3 gold be be.01 ----- 0:1-ARG1 1:0-ARGM-MOD 2:0-ARGM-ADV 3:0-rel 4:1-ARG2
+bn/cnn/04/cnn_0430.parse 9 17 gold become become.01 ----- 14:1*15:1-ARG1 17:0-rel 18:1-ARG2
+bn/cnn/04/cnn_0430.parse 6 1 gold punish punish.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+bn/cnn/04/cnn_0430.parse 15 10 gold jump jump.06 ----- 7:2-ARG0 10:0-rel 11:1-ARG1 12:1-ARGM-MNR
+bn/cnn/04/cnn_0430.parse 13 9 gold former former.01 ----- 9:0-rel 10:0-ARG1
+bn/cnn/04/cnn_0430.parse 0 0 gold go go.04 ----- 0:0-rel
+bn/cnn/04/cnn_0430.parse 1 12 gold buy buy.01 ----- 11:1-ARG0 12:0-rel 13:1-ARG4 14:2-ARG1
+bn/cnn/04/cnn_0430.parse 14 22 gold consider consider.02 ----- 17:1*20:1*21:1-ARG0 17:1*20:1-LINK-SLC 22:0-rel 23:1-ARG1 25:1-ARGM-ADV
+bn/cnn/04/cnn_0430.parse 15 11 gold try try.02 ----- 11:0-rel
+bn/cnn/04/cnn_0430.parse 13 36 gold facilitate facilitate.01 ----- 35:0-ARG0 36:0-rel
+bn/cnn/04/cnn_0430.parse 9 13 gold drive drive.02 ----- 11:1*12:1-ARG0 13:0-rel 14:1-ARG1 15:2-ARG2 32:2-ARGM-ADV
+bn/cnn/04/cnn_0430.parse 9 36 gold capture capture.01 ----- 32:1*37:1-ARG1 33:1-ARGM-ADV 36:0-rel 38:1-ARGM-LOC 40:1-ARG0 44:1-ARGM-TMP
+bn/cnn/04/cnn_0430.parse 2 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
+bn/cnn/04/cnn_0430.parse 15 2 gold arrest arrest.01 ----- 0:1*3:1-ARG1 2:0-rel 4:1-ARGM-TMP 6:1-ARGM-TMP
+bn/cnn/04/cnn_0430.parse 8 15 gold drive drive.01 ----- 1:1*7:1-ARG0 1:1*7:1-LINK-PRO 15:0-rel 16:1-ARGM-DIR 17:1-ARGM-MNR
+bn/cnn/04/cnn_0430.parse 4 3 gold rivet rivet.01 ----- 0:1*1:1-ARG2 3:0-rel 4:1-ARG1
+bn/cnn/04/cnn_0430.parse 2 5 gold work work.01 ----- 0:1-ARG0 5:0-rel 6:1-ARGM-MNR
+bn/cnn/04/cnn_0430.parse 11 1 gold begin begin.01 ----- 0:1-ARG0 1:0-rel 2:1-ARGM-TMP 3:1-ARG2
+bn/cnn/04/cnn_0430.parse 8 19 gold stick stick.01 ----- 18:1*20:1-ARG1 19:0-rel 21:1-ARG2
+bn/cnn/04/cnn_0430.parse 14 26 gold sentence sentence.01 ----- 26:0-rel
+bn/cnn/04/cnn_0430.parse 8 8 gold hit hit.01 ----- 1:1*7:1-ARG0 1:1*7:1-LINK-PRO 8:0-rel 9:1-ARG1 11:1-ARG2
+bn/cnn/04/cnn_0430.parse 13 33 gold study study.01 ----- 32:0-ARGM-ADJ 33:0-rel 34:1-ARG1
+bn/cnn/04/cnn_0430.parse 14 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:3-ARG2
+bn/cnn/04/cnn_0430.parse 11 36 gold know know.02 ----- 35:0-ARGM-MNR 36:0-rel 37:0,38:0-ARG1
+bn/cnn/04/cnn_0430.parse 12 22 gold produce produce.01 ----- 0:2;11:2*21:1*23:1-ARG1 22:0-rel 24:1-ARG0 28:1-ARG3
+bn/cnn/04/cnn_0430.parse 8 4 gold accuse accuse.01 ----- 1:1*5:1-ARG1 1:1*5:1-LINK-PSV 4:0-rel 6:1-ARG2
+bn/cnn/04/cnn_0430.parse 13 3 gold be be.01 ----- 0:1-ARG2 3:0-rel 5:2-ARG1
+bn/cnn/04/cnn_0430.parse 5 4 gold hear hearing.02 ----- 3:0-ARGM-ADJ 4:0-rel 5:1-ARGM-TMP 6:1-ARG2
+bn/cnn/04/cnn_0430.parse 4 2 gold have have.01 ----- 2:0-rel
+bn/cnn/04/cnn_0430.parse 9 30 gold try try.02 ----- 30:0-rel
+bn/cnn/04/cnn_0430.parse 12 33 gold be be.01 ----- 31:1-ARG1 33:0-rel 34:1-ARG2
+bn/cnn/04/cnn_0430.parse 1 3 gold be be.01 ----- 0:1-ARG1 3:0-rel 4:0-ARGM-NEG 5:1-ARG2
+bn/cnn/04/cnn_0430.parse 12 2 gold report report.01 ----- 1:0-ARGM-ADJ 2:0-rel 3:1*11:2-ARG1
+bn/cnn/04/cnn_0430.parse 9 23 gold jump jump.06 ----- 14:1*15:1-ARG0 23:0-rel 24:1-ARG1 25:1-ARGM-TMP
+bn/cnn/04/cnn_0430.parse 9 35 gold be be.03 ----- 35:0-rel

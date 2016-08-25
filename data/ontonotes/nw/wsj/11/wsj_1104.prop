@@ -1,0 +1,6 @@
+nw/wsj/11/wsj_1104.parse 1 6 gold sell sell.01 ----- 6:0-rel 7:1-ARGM-TMP
+nw/wsj/11/wsj_1104.parse 1 4 gold say say.01 ----- 0:1-ARG0 4:0-rel 5:1-ARG1
+nw/wsj/11/wsj_1104.parse 1 10 gold gain gain.01 ----- 6:2-ARG1 10:0-rel 11:2-ARG2 26:1-ARGM-MNR 35:1-ARGM-CAU
+nw/wsj/11/wsj_1104.parse 1 24 gold project project.02 ----- 15:3*21:1*22:1*25:1-ARG1 15:3*21:1-LINK-SLC 23:1-ARGM-TMP 24:0-rel
+nw/wsj/11/wsj_1104.parse 0 1 gold export export.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1 12:1-ARGM-MNR 21:1-ARGM-TMP 27:1-ARGM-MNR
+nw/wsj/11/wsj_1104.parse 0 39 gold say say.01 ----- 0:2*41:1-ARG1 36:1-ARG0 39:0-rel

@@ -1,0 +1,13 @@
+bn/cnn/02/cnn_0204.parse 2 21 gold barrage barrage.01 ----- 21:0-rel 22:1-ARG1
+bn/cnn/02/cnn_0204.parse 1 17 gold make make.01 ----- 15:1-ARG0 17:0-rel 18:2-ARG1
+bn/cnn/02/cnn_0204.parse 2 3 gold say say.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
+bn/cnn/02/cnn_0204.parse 2 12 gold kill kill.01 ----- 5:2*13:1-ARG1 12:0-rel 14:1-ARG2
+bn/cnn/02/cnn_0204.parse 1 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+bn/cnn/02/cnn_0204.parse 1 6 gold dig dig.01 ----- 3:1*7:1-ARG1 6:0-rel 8:1-ARGM-PRD 9:2-ARGM-PRP
+bn/cnn/02/cnn_0204.parse 1 10 gold try try.01 ----- 3:1*9:1-ARG0 10:0-rel 11:2-ARG1
+bn/cnn/02/cnn_0204.parse 0 3 gold have have.01 ----- 3:0-rel
+bn/cnn/02/cnn_0204.parse 0 4 gold become become.01 ----- 0:1-ARG1 4:0-rel 5:1-ARG2
+bn/cnn/02/cnn_0204.parse 2 11 gold be be.03 ----- 11:0-rel
+bn/cnn/02/cnn_0204.parse 1 5 gold be be.03 ----- 5:0-rel
+bn/cnn/02/cnn_0204.parse 1 13 gold fend fend_off.02 ----- 3:1*9:1*11:1-ARG0 13:0,14:1-rel 15:2-ARG1
+bn/cnn/02/cnn_0204.parse 2 17 gold call call.01 ----- 15:1*18:1-ARG1 16:1-ARG0 17:0-rel 19:2-ARG2

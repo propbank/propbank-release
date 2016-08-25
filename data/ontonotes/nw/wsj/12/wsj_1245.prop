@@ -1,0 +1,6 @@
+nw/wsj/12/wsj_1245.parse 1 8 gold announce announce.01 ----- 0:2-ARG0 6:1-ARGM-TMP 8:0-rel 9:1-ARG1
+nw/wsj/12/wsj_1245.parse 0 23 gold propose propose.01 ----- 23:0-rel 24:0,25:0,26:0-ARG1
+nw/wsj/12/wsj_1245.parse 0 3 gold file file.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG2 10:1-ARG1
+nw/wsj/12/wsj_1245.parse 1 14 gold buy buy.01 ----- 0:2*12:1-ARG0 0:2*12:1-LINK-PRO 14:0-rel 15:2-ARG1
+nw/wsj/12/wsj_1245.parse 1 19 gold own own.01 ----- 15:1*20:1-ARG1 15:1*20:1-LINK-PSV 18:1-ARGM-TMP 19:0-rel 21:1-ARGM-MNR 22:1-ARG0
+nw/wsj/12/wsj_1245.parse 0 14 gold buy buy.01 ----- 0:1*12:1-ARG0 0:1*12:1-LINK-PRO 14:0-rel 15:1-ARG1 16:1-ARG2 21:1-ARGM-LOC

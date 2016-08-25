@@ -1,0 +1,11 @@
+nw/wsj/06/wsj_0646.parse 1 10 gold be be.03 ----- 10:0-rel
+nw/wsj/06/wsj_0646.parse 2 3 gold change change.01 ----- 0:1-ARG0 2:1-ARGM-ADV 3:0-rel 4:2-ARG1 24:1-ARGM-MNR
+nw/wsj/06/wsj_0646.parse 2 26 gold declare declare.01 ----- 0:1*25:1-ARG0 26:0-rel 27:2-ARG1
+nw/wsj/06/wsj_0646.parse 2 41 gold pay pay.01 ----- 27:1*37:1*38:1*42:1-ARG1 27:1*37:1-LINK-SLC 41:0-rel 43:1-ARGM-TMP 44:1-ARG3
+nw/wsj/06/wsj_0646.parse 1 4 gold say say.01 ----- 0:2-ARG0 4:0-rel 5:1-ARG1
+nw/wsj/06/wsj_0646.parse 2 12 gold receive receive.01 ----- 4:1*8:1*22:1-ARGM-LOC 4:1*8:1-LINK-SLC 10:1-ARG0 12:0-rel 13:1-ARG1
+nw/wsj/06/wsj_0646.parse 0 16 gold boost boost.01 ----- 0:1-ARG0 15:1-ARGM-MNR 16:0-rel 17:1-ARG1
+nw/wsj/06/wsj_0646.parse 1 11 gold distribute distribute.01 ----- 6:1*12:1-ARG1 9:0-ARGM-MOD 11:0-rel 13:1-ARGM-TMP 15:1-ARG2
+nw/wsj/06/wsj_0646.parse 2 11 gold have have.01 ----- 11:0-rel
+nw/wsj/06/wsj_0646.parse 0 4 gold declare declare.01 ----- 0:1-ARG0 4:0-rel 5:1-ARG1
+nw/wsj/06/wsj_0646.parse 2 40 gold be be.03 ----- 40:0-rel

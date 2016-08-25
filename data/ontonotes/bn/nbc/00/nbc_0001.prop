@@ -1,0 +1,77 @@
+bn/nbc/00/nbc_0001.parse 22 4 gold spend spend.01 ----- 3:0-ARG0 4:0-rel
+bn/nbc/00/nbc_0001.parse 22 6 gold assume assume.02 ----- 0:1-ARGM-DIS 3:1,10:2-ARG1 6:0-rel 7:1-ARG0 20:1-ARGM-ADV
+bn/nbc/00/nbc_0001.parse 10 9 gold have have.03 ----- 8:1-ARG0 9:0-rel 10:1-ARG1
+bn/nbc/00/nbc_0001.parse 28 1 gold warn warn.01 ----- 0:1-ARG0 1:0-rel 2:3-ARG2
+bn/nbc/00/nbc_0001.parse 8 14 gold pay pay_off.02 ----- 12:1-ARG0 14:0,15:1-rel 16:2-ARG1
+bn/nbc/00/nbc_0001.parse 14 11 gold study study.01 ----- 0:2-ARG0 8:0-ARGM-LVB 10:0-ARGM-EXT 11:0-rel 12:1-ARG1
+bn/nbc/00/nbc_0001.parse 3 7 gold have have.03 ----- 0:1-ARG0 7:0-rel 8:2-ARG1
+bn/nbc/00/nbc_0001.parse 13 6 gold promise promise.01 ----- 1:1-ARG0 4:0-ARGM-LVB 5:0-ARGM-MNR 6:0-rel 7:2-ARGM-ADJ
+bn/nbc/00/nbc_0001.parse 0 2 gold lead lead.01 ----- 0:1*1:1-ARG0 2:0-rel 3:1-ARG1 4:1-ARG4
+bn/nbc/00/nbc_0001.parse 4 31 gold adjust adjust.01 ----- 23:1-ARG1 30:0-ARGM-NEG 31:0-rel 32:1-ARG4
+bn/nbc/00/nbc_0001.parse 27 6 gold say say.01 ----- 0:1-ARG0 6:0-rel 7:1-ARG1
+bn/nbc/00/nbc_0001.parse 13 4 gold make make.LV ----- 4:0-rel 6:0-ARGM-PRR
+bn/nbc/00/nbc_0001.parse 17 2 gold have have.03 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:2-ARG1
+bn/nbc/00/nbc_0001.parse 22 5 gold be be.03 ----- 5:0-rel
+bn/nbc/00/nbc_0001.parse 23 3 gold assume assume.02 ----- 0:1-ARG0 2:1-ARGM-DIS 3:0-rel 4:2-ARG1
+bn/nbc/00/nbc_0001.parse 11 6 gold cost cost.01 ----- 0:0-ARGM-DIS 1:2-ARG1 6:0-rel 7:1-ARG2
+bn/nbc/00/nbc_0001.parse 2 1 gold begin begin.01 ----- 0:1-ARG0 1:0-rel 2:1-ARGM-TMP 3:1-ARG2
+bn/nbc/00/nbc_0001.parse 10 0 gold employ employ.01 ----- 0:0-rel
+bn/nbc/00/nbc_0001.parse 11 13 gold be be.01 ----- 11:1-ARG1 13:0-rel 15:1-ARG2
+bn/nbc/00/nbc_0001.parse 23 7 gold result result.01 ----- 4:1-ARG1 7:0-rel 8:1-ARG2
+bn/nbc/00/nbc_0001.parse 4 33 gold inflate inflate.01 ----- 33:0-rel
+bn/nbc/00/nbc_0001.parse 22 31 gold rise rise.01 ----- 28:1-ARG1 31:0-rel 32:3-ARGM-MNR
+bn/nbc/00/nbc_0001.parse 29 8 gold promise promise.01 ----- 8:0-rel 9:2-ARGM-ADJ
+bn/nbc/00/nbc_0001.parse 7 20 gold do do.02 ----- 17:1*21:1-ARG1 18:1-ARG0 19:0-ARGM-MOD 20:0-rel
+bn/nbc/00/nbc_0001.parse 14 8 gold do do.LV ----- 8:0-rel 11:0-ARGM-PRR
+bn/nbc/00/nbc_0001.parse 4 6 gold have have.03 ----- 0:1*3:1*9:1-ARGM-TMP 0:1*3:1-LINK-SLC 4:1-ARG0 6:0-rel 7:1-ARG1
+bn/nbc/00/nbc_0001.parse 22 18 gold inflate inflate.01 ----- 18:0-rel
+bn/nbc/00/nbc_0001.parse 21 25 gold pan pan_out.02 ----- 15:2*20:1*21:1-ARG0 15:2*20:1-LINK-SLC 22:0-ARGM-MOD 23:0-ARGM-NEG 24:1-ARGM-ADV 25:0,26:1-rel
+bn/nbc/00/nbc_0001.parse 8 7 gold prefer prefer.01 ----- 0:2-ARG0 7:0-rel 8:2-ARG1
+bn/nbc/00/nbc_0001.parse 25 20 gold subtract subtract.01 ----- 18:1-ARG0 19:0-ARGM-MOD 20:0-rel 21:2-ARG1 25:1-ARG2
+bn/nbc/00/nbc_0001.parse 0 16 gold check check.01 ----- 12:1-ARG0 16:0-rel 17:1-ARG1
+bn/nbc/00/nbc_0001.parse 16 1 gold beware beware.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+bn/nbc/00/nbc_0001.parse 29 3 gold be be.01 ----- 0:1*13:1-ARGM-TMP 1:1-ARG1 3:0-rel 4:1-ARG2
+bn/nbc/00/nbc_0001.parse 26 14 gold promise promise.01 ----- 13:0-ARG0 14:0-rel
+bn/nbc/00/nbc_0001.parse 13 12 gold keep keep.01 ----- 5:1*7:1*13:1-ARG1 5:1*7:1-LINK-SLC 8:1-ARG0 9:0-ARGM-MOD 10:0-ARGM-NEG 11:1-ARGM-ADV 12:0-rel
+bn/nbc/00/nbc_0001.parse 7 13 gold do do.02 ----- 11:1-ARG0 12:0-ARGM-MOD 13:0-rel 14:2-ARG1
+bn/nbc/00/nbc_0001.parse 1 24 gold be be.03 ----- 24:0-rel
+bn/nbc/00/nbc_0001.parse 7 1 gold have have.03 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
+bn/nbc/00/nbc_0001.parse 29 12 gold match match.01 ----- 8:1*9:1*10:1-ARG1 8:1*9:1-LINK-SLC 12:0-rel
+bn/nbc/00/nbc_0001.parse 18 10 gold deliver deliver.01 ----- 6:1*11:1-ARG1 7:1-ARG0 8:0-ARGM-MOD 9:1-ARGM-ADV 10:0-rel
+bn/nbc/00/nbc_0001.parse 1 13 gold review review.01 ----- 0:1-ARGM-TMP 6:2-ARG0 12:0-ARGM-MOD 13:0-rel 14:3-ARG1
+bn/nbc/00/nbc_0001.parse 22 12 gold rise rise.01 ----- 3:1*10:1-ARG1 12:0-rel 13:2-ARG2
+bn/nbc/00/nbc_0001.parse 6 18 gold cut cut.02 ----- 8:1-ARG0 12:0-ARGM-PRD 13:2-ARG2 17:0-ARG1 18:0-rel
+bn/nbc/00/nbc_0001.parse 3 14 gold spend spend.01 ----- 11:1*18:1-ARGM-MNR 12:1-ARG0 14:0-rel 15:1-ARG3
+bn/nbc/00/nbc_0001.parse 6 6 gold count count.03 ----- 0:2-ARG0 6:0-rel 7:1-ARG1
+bn/nbc/00/nbc_0001.parse 27 9 gold be be.01 ----- 8:1-ARG1 9:0-rel 10:1-ARG2
+bn/nbc/00/nbc_0001.parse 21 1 gold sound sound.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
+bn/nbc/00/nbc_0001.parse 9 5 gold roll roll.01 ----- 2:1-ARG1 5:0-rel
+bn/nbc/00/nbc_0001.parse 25 16 gold say say.01 ----- 0:1-ARGM-ADV 15:1-ARG0 16:0-rel 17:1-ARG1
+bn/nbc/00/nbc_0001.parse 10 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2 4:1-ARGM-TMP
+bn/nbc/00/nbc_0001.parse 19 4 gold rely rely.01 ----- 0:1-ARG0 4:0-rel 5:1-ARG1
+bn/nbc/00/nbc_0001.parse 19 17 gold take take.01 ----- 14:1-ARG0 16:0-ARGM-MOD 17:0-rel 18:1-ARGM-DIR 19:3-ARG1 28:1-ARGM-TMP
+bn/nbc/00/nbc_0001.parse 11 17 gold be be.02 ----- 15:0-ARGM-MOD 17:0-rel 18:1-ARG1
+bn/nbc/00/nbc_0001.parse 20 10 gold leave leave.12 ----- 9:1-ARG0 10:0-rel 11:3-ARG1
+bn/nbc/00/nbc_0001.parse 13 0 gold be be.03 ----- 0:0-rel
+bn/nbc/00/nbc_0001.parse 7 16 gold say say.01 ----- 15:1-ARG0 16:0-rel 17:2-ARG1
+bn/nbc/00/nbc_0001.parse 18 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2
+bn/nbc/00/nbc_0001.parse 26 12 gold call call.01 ----- 9:1-ARG0 12:0-rel 13:1-ARG1 15:2-ARG2
+bn/nbc/00/nbc_0001.parse 7 9 gold believe believe.01 ----- 0:1-ARG0 9:0-rel 10:1-ARG1
+bn/nbc/00/nbc_0001.parse 1 25 gold tell tell.01 ----- 23:1-ARG0 25:0-rel 26:1-ARG1
+bn/nbc/00/nbc_0001.parse 9 1 gold keep keep.02 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
+bn/nbc/00/nbc_0001.parse 29 16 gold keep keep.02 ----- 0:2-ARGM-TMP 15:1-ARG0 16:0-rel 17:1-ARG1 19:1-ARGM-LOC
+bn/nbc/00/nbc_0001.parse 26 5 gold put put.02 ----- 0:2-ARG0 5:0-rel 6:1-ARG1 7:1-ARGM-MNR 9:2-ARGM-ADV
+bn/nbc/00/nbc_0001.parse 20 17 gold cut cut.02 ----- 16:0-ARG1 17:0-rel
+bn/nbc/00/nbc_0001.parse 5 15 gold talk talk.01 ----- 15:0-rel 16:1-ARGM-LOC
+bn/nbc/00/nbc_0001.parse 1 18 gold say say.01 ----- 14:1*19:1-ARG1 15:1-ARG0 18:0-rel 20:1-ARG2
+bn/nbc/00/nbc_0001.parse 22 26 gold say say.01 ----- 22:1-ARGM-ADV 25:1-ARG0 26:0-rel 27:1-ARG1
+bn/nbc/00/nbc_0001.parse 21 7 gold say say.01 ----- 5:1-ARG0 7:0-rel 8:1-ARG1
+bn/nbc/00/nbc_0001.parse 4 20 gold face face.01 ----- 14:2-ARG0 20:0,21:1-rel 22:1-ARGM-PRP
+bn/nbc/00/nbc_0001.parse 20 4 gold be be.01 ----- 0:2-ARG1 4:0-rel 5:1-ARG2 9:2-ARGM-ADV
+bn/nbc/00/nbc_0001.parse 4 10 gold be be.01 ----- 0:2-ARG1 10:0-rel 11:1-ARG2 14:3-ARGM-ADV
+bn/nbc/00/nbc_0001.parse 6 12 gold propose propose.01 ----- 8:1-ARG0 12:0-rel 13:2,17:0,18:0-ARG1
+bn/nbc/00/nbc_0001.parse 22 30 gold be be.03 ----- 30:0-rel
+bn/nbc/00/nbc_0001.parse 25 13 gold recede recession.02 ----- 10:0-ARGM-ADJ 12:0-ARGM-EXT 13:0-rel
+bn/nbc/00/nbc_0001.parse 19 26 gold spend spend.01 ----- 25:1-ARG0 26:0-rel 27:1-ARG3
+bn/nbc/00/nbc_0001.parse 21 10 gold be be.01 ----- 9:1-ARG1 10:0-rel 11:1-ARG2 13:1-ARGM-CAU
+bn/nbc/00/nbc_0001.parse 25 3 gold take take.01 ----- 1:1-ARG0 3:0-rel 4:2-ARG1

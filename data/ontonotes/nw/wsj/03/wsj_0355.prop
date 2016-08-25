@@ -1,0 +1,20 @@
+nw/wsj/03/wsj_0355.parse 0 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
+nw/wsj/03/wsj_0355.parse 1 10 gold say say.01 ----- 0:2-ARG0 10:0-rel 11:1-ARG1
+nw/wsj/03/wsj_0355.parse 0 29 gold be be.03 ----- 29:0-rel
+nw/wsj/03/wsj_0355.parse 2 2 gold price price.01 ----- 1:0-ARGM-ADJ 2:0-rel 3:1-ARG1
+nw/wsj/03/wsj_0355.parse 0 30 gold terminate terminate.01 ----- 4:1*31:1-ARG1 30:0-rel
+nw/wsj/03/wsj_0355.parse 1 7 gold filter filter.02 ----- 7:0-rel
+nw/wsj/03/wsj_0355.parse 3 5 gold invite invite.01 ----- 3:1-ARG0 5:0-rel 6:2-ARG1
+nw/wsj/03/wsj_0355.parse 4 4 gold be be.03 ----- 4:0-rel
+nw/wsj/03/wsj_0355.parse 2 13 gold be be.03 ----- 13:0-rel
+nw/wsj/03/wsj_0355.parse 0 28 gold have have.01 ----- 28:0-rel
+nw/wsj/03/wsj_0355.parse 2 9 gold make make.01 ----- 4:1*7:1*8:1-ARG0 4:1*7:1-LINK-SLC 9:0-rel 10:1-ARG1
+nw/wsj/03/wsj_0355.parse 3 4 gold be be.03 ----- 4:0-rel
+nw/wsj/03/wsj_0355.parse 2 28 gold determine determine.01 ----- 22:1*24:1*25:1*29:1-ARG1 22:1*24:1-LINK-SLC 28:0-rel 30:1-ARG0
+nw/wsj/03/wsj_0355.parse 2 27 gold be be.03 ----- 27:0-rel
+nw/wsj/03/wsj_0355.parse 4 5 gold base base.01 ----- 0:1*6:1-ARG1 5:0-rel 7:1-ARGM-LOC
+nw/wsj/03/wsj_0355.parse 1 17 gold agree agree.01 ----- 12:1-ARG0 15:0-ARGM-MOD 16:0-ARGM-NEG 17:0-rel 18:1-ARG1
+nw/wsj/03/wsj_0355.parse 0 17 gold head head.01 ----- 15:1*18:1-ARG1 15:1*18:1-LINK-PSV 17:0-rel 19:1-ARG0
+nw/wsj/03/wsj_0355.parse 0 8 gold sell sell.01 ----- 0:1*6:1-ARG0 0:1*6:1-LINK-PRO 8:0-rel 9:1-ARG1 14:1-ARG2 23:1-ARG3
+nw/wsj/03/wsj_0355.parse 3 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+nw/wsj/03/wsj_0355.parse 2 16 gold consist consist.01 ----- 0:2*14:1-ARG1 16:0-rel 17:1-ARG2

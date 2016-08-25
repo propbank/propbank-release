@@ -1,0 +1,7 @@
+nw/wsj/01/wsj_0131.parse 2 6 gold run run.01 ----- 0:2-ARG0 6:0-rel 7:2-ARG1
+nw/wsj/01/wsj_0131.parse 0 11 gold purchase purchase.01 ----- 11:0-rel 12:1-ARG1
+nw/wsj/01/wsj_0131.parse 1 9 gold operate operate.01 ----- 0:2-ARG0 9:0-rel 10:1-ARG1 12:1-ARGM-LOC
+nw/wsj/01/wsj_0131.parse 1 17 gold report report.01 ----- 16:1-ARG0 17:0-rel 18:2-ARG1 24:1-ARGM-TMP
+nw/wsj/01/wsj_0131.parse 0 9 gold complete complete.01 ----- 0:2-ARG0 9:0-rel 10:2,21:1,26:1-ARG1
+nw/wsj/01/wsj_0131.parse 0 28 gold assume assume.01 ----- 28:0-rel 29:1-ARG1
+nw/wsj/01/wsj_0131.parse 1 2 gold base base.01 ----- 0:1*3:1-ARG1 0:1*3:1-LINK-PSV 2:0-rel 4:1-ARGM-LOC

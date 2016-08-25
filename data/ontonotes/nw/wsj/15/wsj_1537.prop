@@ -1,0 +1,16 @@
+nw/wsj/15/wsj_1537.parse 0 16 gold elect elect.01 ----- 5:2*17:1-ARG1 16:0-rel 19:2-ARG2
+nw/wsj/15/wsj_1537.parse 0 3 gold say say.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
+nw/wsj/15/wsj_1537.parse 5 10 gold accept accept.01 ----- 0:1*8:1-ARG0 10:0-rel 11:1-ARG1
+nw/wsj/15/wsj_1537.parse 0 23 gold hold hold.01 ----- 23:0-rel 24:0-ARG0
+nw/wsj/15/wsj_1537.parse 4 26 gold buy buy.01 ----- 21:1*23:1*35:1-ARGM-TMP 21:1*23:1-LINK-SLC 24:1-ARG0 26:0-rel 27:2-ARG1
+nw/wsj/15/wsj_1537.parse 5 1 gold resign resign.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 8:2-ARGM-PRP
+nw/wsj/15/wsj_1537.parse 0 15 gold be be.03 ----- 15:0-rel
+nw/wsj/15/wsj_1537.parse 1 19 gold say say.01 ----- 0:2*21:1-ARG1 17:1-ARG0 19:0-rel
+nw/wsj/15/wsj_1537.parse 1 1 gold succeed succeed.02 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
+nw/wsj/15/wsj_1537.parse 1 9 gold resign resign.01 ----- 2:1*7:1*8:1-ARG0 2:1*7:1-LINK-SLC 9:0-rel 10:2-ARGM-PRP
+nw/wsj/15/wsj_1537.parse 3 12 gold remain remain.01 ----- 0:2-ARG1 11:1-ARGM-DIS 12:0-rel 13:2-ARG3
+nw/wsj/15/wsj_1537.parse 3 8 gold hold hold.01 ----- 8:0-rel 9:0-ARG0
+nw/wsj/15/wsj_1537.parse 2 7 gold be be.03 ----- 7:0-rel
+nw/wsj/15/wsj_1537.parse 1 12 gold pursue pursue.01 ----- 2:1*7:1*8:1*10:1-ARG0 2:1*7:1-LINK-SLC 12:0-rel 13:1-ARG1
+nw/wsj/15/wsj_1537.parse 4 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:3-ARG2 20:1-ARGM-TMP
+nw/wsj/15/wsj_1537.parse 2 8 gold elect elect.01 ----- 0:2*9:1-ARG1 8:0-rel 11:4-ARG2

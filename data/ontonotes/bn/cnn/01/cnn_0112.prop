@@ -1,0 +1,17 @@
+bn/cnn/01/cnn_0112.parse 0 18 gold grow grow.01 ----- 8:2-ARG1 18:0-rel
+bn/cnn/01/cnn_0112.parse 2 4 gold infect infect.01 ----- 0:2*5:1-ARG1 4:0-rel 6:1-ARGM-TMP
+bn/cnn/01/cnn_0112.parse 0 17 gold be be.03 ----- 17:0-rel
+bn/cnn/01/cnn_0112.parse 2 3 gold be be.03 ----- 3:0-rel
+bn/cnn/01/cnn_0112.parse 0 22 gold be be.02 ----- 22:0-rel 23:2-ARG1
+bn/cnn/01/cnn_0112.parse 5 9 gold be be.03 ----- 9:0-rel
+bn/cnn/01/cnn_0112.parse 5 10 gold become become.01 ----- 4:2-ARG1 10:0-rel 11:1-ARG2 12:1-ARGM-CAU
+bn/cnn/01/cnn_0112.parse 4 2 gold be be.03 ----- 2:0-rel
+bn/cnn/01/cnn_0112.parse 0 12 gold infect infect.01 ----- 11:1*13:1-ARG1 11:1*13:1-LINK-PSV 12:0-rel 14:1-ARG2 16:1-ARGM-LOC
+bn/cnn/01/cnn_0112.parse 3 1 gold account account.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+bn/cnn/01/cnn_0112.parse 4 3 gold spread spread.03 ----- 0:1*4:1-ARG1 3:0-rel 5:2-ARGM-MNR
+bn/cnn/01/cnn_0112.parse 5 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
+bn/cnn/01/cnn_0112.parse 0 6 gold find find.01 ----- 0:2-ARG0 6:0-rel 7:1-ARG1
+bn/cnn/01/cnn_0112.parse 1 19 gold be be.03 ----- 19:0-rel
+bn/cnn/01/cnn_0112.parse 4 10 gold share share.01 ----- 9:0-ARG1 10:0-rel
+bn/cnn/01/cnn_0112.parse 1 6 gold be be.02 ----- 0:1-ARGM-ADV 6:0-rel 7:3-ARG1
+bn/cnn/01/cnn_0112.parse 1 20 gold find find.01 ----- 13:3*21:1-ARG1 18:0-ARGM-MOD 20:0-rel 22:1-ARGM-LOC

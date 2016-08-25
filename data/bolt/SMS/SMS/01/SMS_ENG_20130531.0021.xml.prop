@@ -1,0 +1,16 @@
+SMS/01/SMS_ENG_20130531.0021.xml.tree 0 1 gold do do.01 ----- 1:0-rel
+SMS/01/SMS_ENG_20130531.0021.xml.tree 0 3 gold get get.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
+SMS/01/SMS_ENG_20130531.0021.xml.tree 0 8 gold do do.01 ----- 8:0-rel
+SMS/01/SMS_ENG_20130531.0021.xml.tree 0 9 gold get get.01 ----- 7:1-ARG0 9:0-rel 10:2-ARG1
+SMS/01/SMS_ENG_20130531.0021.xml.tree 0 18 gold cuddle cuddle.01 ----- 10:0-ARG2 15:0-ARGM-ADJ 16:1-ARGM-TMP 18:0-rel 19:2-ARGM-ADJ
+SMS/01/SMS_ENG_20130531.0021.xml.tree 0 21 gold be be.01 ----- 10:1*19:1*20:1-ARG1 10:1*19:1-LINK-SLC 21:0-rel 22:1-ARG2
+SMS/01/SMS_ENG_20130531.0021.xml.tree 0 22 gold better good.02 ----- 10:1*19:1*20:1-ARG1 10:1*19:1-LINK-SLC 22:0-rel
+SMS/01/SMS_ENG_20130531.0021.xml.tree 1 5 gold be be.01 ----- 0:2-ARG1 5:0-rel 6:1-ARG2 7:1-ARGM-DIS
+SMS/01/SMS_ENG_20130531.0021.xml.tree 2 7 gold perform perform.01 ----- 6:0-ARG0 7:0-rel
+SMS/01/SMS_ENG_20130531.0021.xml.tree 2 8 gold be be.03 ----- 8:0-rel
+SMS/01/SMS_ENG_20130531.0021.xml.tree 2 10 gold cancel cancel.01 ----- 6:1*11:1-ARG1 9:1-ARGM-ADV 10:0-rel
+SMS/01/SMS_ENG_20130531.0021.xml.tree 2 14 gold be be.01 ----- 13:1-ARG1 14:0-rel 15:1-ARG2 18:1-ARGM-TMP 20:2-ARGM-ADV
+SMS/01/SMS_ENG_20130531.0021.xml.tree 2 24 gold synchronize synchronize.01 ----- 13:1*20:1*22:1-ARG0 24:0-rel 25:1-ARG1 26:1-ARGM-LOC
+SMS/01/SMS_ENG_20130531.0021.xml.tree 2 32 gold starve starve.01 ----- 31:1-ARG1 32:0-rel
+SMS/01/SMS_ENG_20130531.0021.xml.tree 3 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2 5:1-ARGM-TMP
+SMS/01/SMS_ENG_20130531.0021.xml.tree 3 4 gold better good.02 ----- 0:1-ARG1 3:0-ARGM-EXT 4:0-rel 5:1-ARGM-TMP

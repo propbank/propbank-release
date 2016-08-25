@@ -1,0 +1,15 @@
+nw/wsj/14/wsj_1454.parse 1 4 gold disclose disclose.01 ----- 0:1*2:1-ARG0 4:0-rel 5:3-ARG1
+nw/wsj/14/wsj_1454.parse 0 12 gold say say.01 ----- 0:2-ARG0 12:0-rel 13:1-ARG1
+nw/wsj/14/wsj_1454.parse 3 11 gold agree agree.01 ----- 8:1-ARG0 11:0-rel 12:2-ARG1
+nw/wsj/14/wsj_1454.parse 1 1 gold decline decline.02 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
+nw/wsj/14/wsj_1454.parse 1 9 gold transact transact.01 ----- 9:0-rel
+nw/wsj/14/wsj_1454.parse 0 15 gold be be.03 ----- 15:0-rel
+nw/wsj/14/wsj_1454.parse 3 14 gold develop develop.02 ----- 8:1*12:1-ARG0 14:0-rel 15:2-ARG1 18:1-ARGM-MNR
+nw/wsj/14/wsj_1454.parse 3 10 gold have have.01 ----- 10:0-rel
+nw/wsj/14/wsj_1454.parse 2 17 gold invest invest.01 ----- 17:0-rel
+nw/wsj/14/wsj_1454.parse 2 10 gold market market.01 ----- 5:1-ARG0 9:0-ARGM-MOD 10:0-rel 11:1-ARG1 19:1-ARGM-MNR
+nw/wsj/14/wsj_1454.parse 3 6 gold say say.01 ----- 0:1-ARGM-ADV 5:1-ARG0 6:0-rel 7:1-ARG1
+nw/wsj/14/wsj_1454.parse 1 17 gold hold hold.01 ----- 11:1*14:1*18:1-ARG1 11:1*14:1-LINK-SLC 15:1-ARG0 16:0-ARGM-MOD 17:0-rel 19:1-ARGM-LOC
+nw/wsj/14/wsj_1454.parse 2 3 gold say say.01 ----- 0:0-ARGM-DIS 1:1-ARG0 3:0-rel 4:1-ARG1
+nw/wsj/14/wsj_1454.parse 0 35 gold create create.01 ----- 14:1*33:1-ARG0 14:1*33:1-LINK-PRO 35:0-rel 36:2-ARG1
+nw/wsj/14/wsj_1454.parse 0 16 gold take take.01 ----- 14:1-ARG0 16:0-rel 17:2-ARG1 28:1-ARGM-ADV

@@ -1,0 +1,17 @@
+nw/wsj/15/wsj_1553.parse 3 10 gold cover cover.01 ----- 6:1-ARG2 10:0-rel 11:2-ARG1
+nw/wsj/15/wsj_1553.parse 5 23 gold say say.01 ----- 0:2-ARG0 23:0-rel 24:1-ARG1
+nw/wsj/15/wsj_1553.parse 4 5 gold enter enter.01 ----- 3:1-ARG0 5:0-rel 6:1-ARG1
+nw/wsj/15/wsj_1553.parse 5 26 gold plan plan.01 ----- 25:1-ARG0 26:0-rel 27:2-ARG1
+nw/wsj/15/wsj_1553.parse 5 31 gold acquire acquire.01 ----- 25:1*27:1-ARG0 29:0-ARGM-LVB 30:0-ARGM-ADJ 31:0-rel 32:1-ARGM-LOC
+nw/wsj/15/wsj_1553.parse 0 9 gold complete complete.01 ----- 4:1-ARG0 9:0-rel 10:2,18:1-ARG1
+nw/wsj/15/wsj_1553.parse 4 2 gold represent represent.01 ----- 0:1-ARG0 2:0-rel 3:3-ARG1
+nw/wsj/15/wsj_1553.parse 0 24 gold assume assume.01 ----- 24:0-rel 25:1-ARG1
+nw/wsj/15/wsj_1553.parse 5 11 gold serve serve.01 ----- 10:0-ARG1 11:0-rel
+nw/wsj/15/wsj_1553.parse 5 5 gold have have.03 ----- 0:1*3:1*4:1-ARG0 0:1*3:1-LINK-SLC 5:0-rel 6:2-ARG1
+nw/wsj/15/wsj_1553.parse 5 29 gold make make.LV ----- 29:0-rel 31:0-ARGM-PRR
+nw/wsj/15/wsj_1553.parse 2 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
+nw/wsj/15/wsj_1553.parse 3 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-ADV 3:2-ARG2
+nw/wsj/15/wsj_1553.parse 1 8 gold have have.03 ----- 0:2-ARG0 8:0-rel 9:2-ARG1 16:1-ARGM-LOC 24:1-ARGM-TMP
+nw/wsj/15/wsj_1553.parse 0 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
+nw/wsj/15/wsj_1553.parse 5 20 gold process process.01 ----- 18:0-ARG1 20:0-rel
+nw/wsj/15/wsj_1553.parse 4 1 gold transact transact.01 ----- 1:0-rel

@@ -1,0 +1,14 @@
+nw/wsj/05/wsj_0574.parse 0 5 gold agree agree.01 ----- 4:1-ARG0 5:0-rel 6:2-ARG1
+nw/wsj/05/wsj_0574.parse 0 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
+nw/wsj/05/wsj_0574.parse 4 6 gold look look.01 ----- 4:1-ARG0 6:0-rel 7:1-ARG1
+nw/wsj/05/wsj_0574.parse 3 10 gold buy buy.01 ----- 8:1*23:1-ARGM-TMP 9:1-ARG0 10:0-rel 11:2-ARG1 18:1-ARG3
+nw/wsj/05/wsj_0574.parse 4 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARGM-TMP 3:1-ARG1
+nw/wsj/05/wsj_0574.parse 5 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:3-ARG2
+nw/wsj/05/wsj_0574.parse 2 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2
+nw/wsj/05/wsj_0574.parse 1 2 gold be be.03 ----- 2:0-rel
+nw/wsj/05/wsj_0574.parse 1 1 gold price price.01 ----- 1:0-rel
+nw/wsj/05/wsj_0574.parse 4 5 gold be be.03 ----- 5:0-rel
+nw/wsj/05/wsj_0574.parse 1 4 gold disclose disclose.01 ----- 0:1*5:1-ARG1 3:0-ARGM-NEG 4:0-rel
+nw/wsj/05/wsj_0574.parse 0 8 gold sell sell.01 ----- 4:1*6:1-ARG0 8:0-rel 9:2-ARG1 25:1-ARG2
+nw/wsj/05/wsj_0574.parse 4 16 gold produce produce.01 ----- 11:1*14:1*15:1-ARG0 11:1*14:1-LINK-SLC 16:0-rel 17:4-ARG1
+nw/wsj/05/wsj_0574.parse 3 1 gold acquire acquire.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 6:1-ARGM-TMP 8:2-ARGM-TMP

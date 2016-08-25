@@ -1,0 +1,19 @@
+bn/cnn/02/cnn_0209.parse 1 10 gold be be.03 ----- 10:0-rel
+bn/cnn/02/cnn_0209.parse 2 14 gold be be.03 ----- 14:0-rel
+bn/cnn/02/cnn_0209.parse 2 5 gold have have.01 ----- 5:0-rel
+bn/cnn/02/cnn_0209.parse 3 10 gold take take_over.12 ----- 0:1-ARGM-TMP 5:2-ARG0 10:0,11:1-rel 12:2-ARG1
+bn/cnn/02/cnn_0209.parse 3 25 gold bind bind.01 ----- 23:0-ARG2 25:0-rel 27:0-ARG1
+bn/cnn/02/cnn_0209.parse 0 16 gold custody custody.01 ----- 15:0-ARG0 16:0-rel 17:1-ARGM-LOC
+bn/cnn/02/cnn_0209.parse 0 13 gold be be.01 ----- 0:2-ARG1 13:0-rel 14:1-ARG2
+bn/cnn/02/cnn_0209.parse 2 15 gold turn turn.01 ----- 4:1*16:1-ARG1 15:0,17:1-rel 18:1-ARGM-LOC
+bn/cnn/02/cnn_0209.parse 2 9 gold fly flee.05 ----- 4:1*7:1-ARG0 9:0-rel 10:1-ARG1
+bn/cnn/02/cnn_0209.parse 2 6 gold try try.01 ----- 4:1-ARG0 6:0-rel 7:2-ARG1
+bn/cnn/02/cnn_0209.parse 4 2 gold convict convict.01 ----- 0:1*3:1-ARG1 2:0-rel 4:1-ARGM-MNR 6:1-ARG0
+bn/cnn/02/cnn_0209.parse 1 2 gold tell tell.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG2 4:1-ARG1
+bn/cnn/02/cnn_0209.parse 4 1 gold be be.03 ----- 1:0-rel
+bn/cnn/02/cnn_0209.parse 3 21 gold kill kill.01 ----- 0:1-ARGM-TMP 5:2-ARG0 21:0-rel 22:2-ARG1
+bn/cnn/02/cnn_0209.parse 4 11 gold sentence sentence.01 ----- 0:1*12:1-ARG1 11:0-rel 13:1-ARG2
+bn/cnn/02/cnn_0209.parse 2 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
+bn/cnn/02/cnn_0209.parse 0 8 gold dead deadly.04 ----- 8:0-rel 10:1,12:0-ARG0
+bn/cnn/02/cnn_0209.parse 1 11 gold capture capture.01 ----- 5:1*12:1-ARG1 11:0-rel 13:3-ARGM-LOC
+bn/cnn/02/cnn_0209.parse 0 4 gold want want.01 ----- 0:1*5:1-ARG1 0:1*5:1-LINK-PSV 4:0-rel 6:1-ARG2

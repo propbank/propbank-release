@@ -1,0 +1,12 @@
+bn/abc/00/abc_0031.parse 2 3 gold warn warn.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
+bn/abc/00/abc_0031.parse 2 11 gold assassinate assassinate.01 ----- 9:1-ARGM-TMP 11:0-rel 12:1-ARG1
+bn/abc/00/abc_0031.parse 0 9 gold kill kill.01 ----- 0:1-ARGM-LOC 3:1-ARGM-TMP 5:1*10:1-ARG1 9:0-rel 11:1-ARG0
+bn/abc/00/abc_0031.parse 1 17 gold kill kill.01 ----- 14:1*18:1-ARG1 17:0-rel 19:2-ARGM-TMP
+bn/abc/00/abc_0031.parse 2 2 gold have have.01 ----- 2:0-rel
+bn/abc/00/abc_0031.parse 2 7 gold retaliate retaliate.01 ----- 5:1-ARG0 6:0-ARGM-MOD 7:0-rel 8:1-ARG1
+bn/abc/00/abc_0031.parse 1 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2 6:2-ARGM-TMP
+bn/abc/00/abc_0031.parse 1 23 gold fire fire.01 ----- 19:1*26:1-ARGM-TMP 20:1,24:1-ARGM-GOL 23:0-rel
+bn/abc/00/abc_0031.parse 0 8 gold be be.03 ----- 8:0-rel
+bn/abc/00/abc_0031.parse 1 22 gold be be.03 ----- 22:0-rel
+bn/abc/00/abc_0031.parse 1 16 gold be be.03 ----- 16:0-rel
+bn/abc/00/abc_0031.parse 1 8 gold fire fire.01 ----- 6:1*12:1-ARGM-TMP 7:1-ARG0 8:0-rel 9:1-ARGM-DIR

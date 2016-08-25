@@ -1,0 +1,9 @@
+bn/cnn/02/cnn_0214.parse 0 1 gold call call.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:2-ARG2
+bn/cnn/02/cnn_0214.parse 2 5 gold be be.01 ----- 0:2-ARG1 5:0-rel 6:1-ARG2
+bn/cnn/02/cnn_0214.parse 4 3 gold be be.01 ----- 0:1*1:1*2:1-ARG1 0:1*1:1-LINK-SLC 3:0-rel 4:2-ARG2
+bn/cnn/02/cnn_0214.parse 3 7 gold plate plate.01 ----- 3:1-ARG2 7:0-rel 8:0-ARG1
+bn/cnn/02/cnn_0214.parse 1 5 gold be be.01 ----- 0:3-ARG1 5:0-rel 6:1-ARGM-ADV 7:2-ARG2
+bn/cnn/02/cnn_0214.parse 2 8 gold plate plate.01 ----- 6:0-ARG2 8:0-rel
+bn/cnn/02/cnn_0214.parse 4 13 gold former former.01 ----- 13:0-rel 15:0-ARG1
+bn/cnn/02/cnn_0214.parse 3 2 gold be be.02 ----- 1:1-ARGM-DIS 2:0-rel 3:3-ARG1
+bn/cnn/02/cnn_0214.parse 4 8 gold have have.03 ----- 0:2-ARG0 8:0-rel 9:2-ARG1

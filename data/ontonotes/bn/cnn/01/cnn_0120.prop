@@ -1,0 +1,19 @@
+bn/cnn/01/cnn_0120.parse 1 4 gold kill kill.01 ----- 0:1-ARG0 4:0-rel 5:1-ARG1 7:1-ARGM-LOC 11:1-ARGM-TMP
+bn/cnn/01/cnn_0120.parse 5 14 gold call call.01 ----- 12:1*15:1-ARG1 13:1-ARG0 14:0-rel 16:2-ARG2
+bn/cnn/01/cnn_0120.parse 0 1 gold be be.02 ----- 1:0-rel 2:2-ARG1 22:1-ARGM-TMP
+bn/cnn/01/cnn_0120.parse 2 2 gold die die.01 ----- 0:1-ARG1 2:0-rel 3:1-ARGM-LOC 9:1-ARGM-TMP
+bn/cnn/01/cnn_0120.parse 6 2 gold want want.01 ----- 0:1-ARG0 1:1-ARGM-DIS 2:0-rel 3:2-ARG1
+bn/cnn/01/cnn_0120.parse 6 7 gold find find.01 ----- 5:0-ARG1 7:0-rel 8:0-ARG0
+bn/cnn/01/cnn_0120.parse 3 1 gold violent violent.01 ----- 1:0-rel
+bn/cnn/01/cnn_0120.parse 5 5 gold vow vow.01 ----- 3:1-ARG0 5:0-rel 6:2-ARG1
+bn/cnn/01/cnn_0120.parse 0 11 gold throw throw.01 ----- 9:0-ARG1 11:0-rel 12:0-ARG0
+bn/cnn/01/cnn_0120.parse 4 4 gold meet meet.03 ----- 0:2-ARG0 4:0-rel 5:1-ARG1 8:1-ARGM-TMP
+bn/cnn/01/cnn_0120.parse 1 2 gold shoot shoot.02 ----- 0:1-ARG0 2:0-rel 5:1-ARG1 7:1-ARGM-LOC 11:1-ARGM-TMP
+bn/cnn/01/cnn_0120.parse 5 4 gold state state.01 ----- 4:0-rel
+bn/cnn/01/cnn_0120.parse 5 9 gold give give_in.09 ----- 0:1*6:1-ARG0 7:0-ARGM-NEG 9:0,10:1-rel 11:1-ARG1
+bn/cnn/01/cnn_0120.parse 5 2 gold issue issue.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
+bn/cnn/01/cnn_0120.parse 3 3 gold mar mar.01 ----- 0:1-ARG0 3:0-rel 4:4-ARG1
+bn/cnn/01/cnn_0120.parse 6 10 gold look look.01 ----- 3:1-ARG0 10:0-rel 11:1-ARG1
+bn/cnn/01/cnn_0120.parse 3 2 gold be be.03 ----- 2:0-rel
+bn/cnn/01/cnn_0120.parse 3 10 gold search search.01 ----- 4:2-ARG0 10:0-rel 11:1-ARG1
+bn/cnn/01/cnn_0120.parse 0 7 gold clash clash.01 ----- 7:0-rel 8:1-ARG0 16:1-ARGM-LOC

@@ -1,0 +1,17 @@
+SMS/04/CHT_CMN_20130424.0004.eng.tree 0 0 gold be be.01 ----- 0:0-rel 1:1-ARG1 2:1-ARG2
+SMS/04/CHT_CMN_20130424.0004.eng.tree 0 4 gold be be.01 ----- 4:0-rel 5:1-ARG1 6:1-ARG2
+SMS/04/CHT_CMN_20130424.0004.eng.tree 0 5 gold work work.01 ----- 5:0-rel
+SMS/04/CHT_CMN_20130424.0004.eng.tree 0 6 gold busy busy.01 ----- 5:1-ARG1 6:0-rel
+SMS/04/CHT_CMN_20130424.0004.eng.tree 1 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
+SMS/04/CHT_CMN_20130424.0004.eng.tree 1 5 gold be be.01 ----- 4:1-ARG1 5:0-rel 6:1-ARG2
+SMS/04/CHT_CMN_20130424.0004.eng.tree 1 6 gold okay okay.04 ----- 4:1-ARG1 6:0-rel
+SMS/04/CHT_CMN_20130424.0004.eng.tree 2 3 gold be be.01 ----- 0:1-ARGM-TMP 2:1-ARG1 3:0-rel 4:2-ARG2
+SMS/04/CHT_CMN_20130424.0004.eng.tree 2 6 gold busy busy.01 ----- 0:1-ARGM-TMP 2:1-ARG1 4:1-ARGM-EXT 6:0-rel
+SMS/04/CHT_CMN_20130424.0004.eng.tree 3 4 gold do do.01 ----- 4:0-rel
+SMS/04/CHT_CMN_20130424.0004.eng.tree 3 6 gold do do.02 ----- 2:1*7:1-ARG1 5:1-ARG0 6:0-rel
+SMS/04/CHT_CMN_20130424.0004.eng.tree 6 1 gold do do.01 ----- 1:0-rel
+SMS/04/CHT_CMN_20130424.0004.eng.tree 6 3 gold understand understand.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:1-ARG1 5:1-ARGM-EXT
+SMS/04/CHT_CMN_20130424.0004.eng.tree 7 4 gold work work.09 ----- 0:1-ARGM-DIS 2:1-ARG1 4:0-rel 5:1-ARGM-MNR
+SMS/04/CHT_CMN_20130424.0004.eng.tree 8 4 gold know know.01 ----- 0:1-ARGM-DIS 2:1-ARGM-DIS 3:1-ARG0 4:0-rel 5:1-ARG1
+SMS/04/CHT_CMN_20130424.0004.eng.tree 9 1 gold do do.01 ----- 1:0-rel
+SMS/04/CHT_CMN_20130424.0004.eng.tree 9 3 gold work work.01 ----- 0:1*4:1-ARGM-LOC 2:1-ARG0 3:0-rel

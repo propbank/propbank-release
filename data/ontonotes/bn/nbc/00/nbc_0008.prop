@@ -1,0 +1,81 @@
+bn/nbc/00/nbc_0008.parse 9 2 gold report report.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
+bn/nbc/00/nbc_0008.parse 2 19 gold predict predict.01 ----- 17:1-ARG0 19:0-rel 20:1-ARG1
+bn/nbc/00/nbc_0008.parse 12 14 gold order order.01 ----- 14:0-rel
+bn/nbc/00/nbc_0008.parse 11 5 gold operate operate.01 ----- 4:0-ARGM-ADJ 5:0-rel
+bn/nbc/00/nbc_0008.parse 16 1 gold have have.01 ----- 1:0-rel
+bn/nbc/00/nbc_0008.parse 10 16 gold moor moor.01 ----- 15:1-ARG0 16:0-rel 17:1-ARG1
+bn/nbc/00/nbc_0008.parse 9 22 gold prepare prepare.02 ----- 4:1*21:1-ARG0 22:0-rel 23:2-ARG2
+bn/nbc/00/nbc_0008.parse 27 15 gold load load.01 ----- 0:1-ARGM-CAU 13:1*16:1-ARG1 15:0-rel 17:1-ARG2
+bn/nbc/00/nbc_0008.parse 2 30 gold be be.01 ----- 28:1*29:1-ARG1 30:0-rel 31:2-ARG2
+bn/nbc/00/nbc_0008.parse 8 7 gold get get.05 ----- 3:1*10:1-ARGM-MNR 5:1-ARG1 7:0-rel 8:1-ARG2
+bn/nbc/00/nbc_0008.parse 24 8 gold have have.04 ----- 6:1-ARG0 8:0-rel 9:2-ARG1
+bn/nbc/00/nbc_0008.parse 27 14 gold be be.03 ----- 14:0-rel
+bn/nbc/00/nbc_0008.parse 7 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARGM-TMP 4:1-ARG2
+bn/nbc/00/nbc_0008.parse 17 1 gold dispatch dispatch.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+bn/nbc/00/nbc_0008.parse 23 1 gold talk talk.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG2
+bn/nbc/00/nbc_0008.parse 9 25 gold refuel refuel.01 ----- 4:1*21:1*23:1-ARG1 25:0-rel
+bn/nbc/00/nbc_0008.parse 20 27 gold gain gain.02 ----- 22:1*23:1*28:1-ARG1 22:1*23:1-LINK-SLC 24:1-ARG0 25:0-ARGM-MOD 27:0-rel 29:1-ARGM-MNR
+bn/nbc/00/nbc_0008.parse 10 20 gold take take.01 ----- 0:3-ARG0 20:0-rel 21:2-ARG1
+bn/nbc/00/nbc_0008.parse 12 7 gold snap snap.07 ----- 0:2-ARG1 6:1-ARGM-TMP 7:0-rel 8:1-ARG2 10:1-ARGM-MNR
+bn/nbc/00/nbc_0008.parse 20 31 gold inflict inflict.01 ----- 24:1*30:1-ARG0 31:0-rel 32:2-ARG1
+bn/nbc/00/nbc_0008.parse 26 3 gold be be.03 ----- 3:0-rel
+bn/nbc/00/nbc_0008.parse 12 13 gold follow follow.02 ----- 0:2*12:1-ARG0 13:0-rel 14:1-ARG1
+bn/nbc/00/nbc_0008.parse 19 7 gold warn warn.01 ----- 0:1-ARGM-LOC 2:1-ARGM-TMP 7:0-rel 8:1-ARG2
+bn/nbc/00/nbc_0008.parse 11 22 gold be be.01 ----- 20:1-ARG1 22:0-rel 23:1-ARG2
+bn/nbc/00/nbc_0008.parse 20 26 gold have have.01 ----- 26:0-rel
+bn/nbc/00/nbc_0008.parse 11 15 gold have have.03 ----- 8:2-ARG0 15:0-rel 16:1-ARG1
+bn/nbc/00/nbc_0008.parse 6 1 gold be be.03 ----- 1:0-rel
+bn/nbc/00/nbc_0008.parse 4 17 gold terrorize terrorize.01 ----- 17:0-rel
+bn/nbc/00/nbc_0008.parse 3 14 gold be be.01 ----- 0:2-ARG1 14:0-rel 15:2-ARG2
+bn/nbc/00/nbc_0008.parse 3 1 gold gape gape.01 ----- 1:0-rel 3:0,4:0-ARG0
+bn/nbc/00/nbc_0008.parse 20 12 gold price price.01 ----- 12:0-rel 13:2-ARGM-ADJ
+bn/nbc/00/nbc_0008.parse 26 10 gold provide provide.01 ----- 0:1*8:1-ARG0 10:0-rel 11:1-ARG1
+bn/nbc/00/nbc_0008.parse 20 21 gold exceed exceed.01 ----- 11:2-ARG0 18:0-ARGM-MOD 19:1-ARGM-EXT 21:0-rel 22:2-ARG1
+bn/nbc/00/nbc_0008.parse 20 2 gold find find.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG1
+bn/nbc/00/nbc_0008.parse 3 3 gold blacken blacken.01 ----- 3:0-rel 4:0-ARG1
+bn/nbc/00/nbc_0008.parse 5 24 gold stop stop.01 ----- 22:1*32:1-ARGM-TMP 23:1-ARG1 24:0-rel 25:1-ARGM-LOC 27:2-ARGM-PRP
+bn/nbc/00/nbc_0008.parse 26 4 gold steam steam.03 ----- 0:1-ARG0 4:0-rel 5:1-ARG1 8:2-ARGM-PRP
+bn/nbc/00/nbc_0008.parse 8 4 gold do do.01 ----- 4:0-rel
+bn/nbc/00/nbc_0008.parse 2 14 gold wound wound.01 ----- 13:1-ARG1 14:0-rel
+bn/nbc/00/nbc_0008.parse 11 27 gold attack attack.01 ----- 20:1*24:1*28:1-ARG1 27:0-rel
+bn/nbc/00/nbc_0008.parse 13 7 gold explode explode.01 ----- 6:0-ARGM-ADJ 7:0-rel 8:2-ARGM-ADJ
+bn/nbc/00/nbc_0008.parse 18 3 gold presume presume.01 ----- 0:2*4:2-ARG1 3:0-rel
+bn/nbc/00/nbc_0008.parse 10 35 gold return return.01 ----- 0:3-ARG1 34:1-ARGM-TMP 35:0-rel
+bn/nbc/00/nbc_0008.parse 13 3 gold blast blast.05 ----- 3:0-rel 5:2-ARGM-ADJ
+bn/nbc/00/nbc_0008.parse 4 1 gold have have.03 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
+bn/nbc/00/nbc_0008.parse 3 28 gold declare declare.01 ----- 19:2*26:1-ARG0 28:0-rel 29:2-ARG2
+bn/nbc/00/nbc_0008.parse 11 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-ADV 3:1-ARG2
+bn/nbc/00/nbc_0008.parse 10 28 gold tie tie.01 ----- 0:3-ARG0 28:0-rel 29:1-ARG1 30:1-ARG2
+bn/nbc/00/nbc_0008.parse 20 16 gold exact exact.01 ----- 11:1*13:1*17:1-ARG1 11:1*13:1-LINK-SLC 14:1-ARG0 15:0-ARGM-MOD 16:0-rel
+bn/nbc/00/nbc_0008.parse 0 1 gold begin begin.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG2 11:1-ARGM-MNR
+bn/nbc/00/nbc_0008.parse 24 10 gold say say.01 ----- 9:1-ARG0 10:0-rel 11:1-ARG1
+bn/nbc/00/nbc_0008.parse 27 21 gold sit sit.01 ----- 0:1-ARGM-CAU 13:1-ARG1 21:0-rel 22:2-ARGM-PRD
+bn/nbc/00/nbc_0008.parse 20 7 gold punish punish.01 ----- 5:1-ARG0 6:0-ARGM-MOD 7:0-rel 8:1-ARG1
+bn/nbc/00/nbc_0008.parse 14 1 gold rush rush.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
+bn/nbc/00/nbc_0008.parse 11 18 gold suspect suspect.01 ----- 17:0-ARGM-EXT 18:0-rel 19:1-ARG1
+bn/nbc/00/nbc_0008.parse 15 6 gold save save.02 ----- 0:1*4:1-ARG0 6:0-rel 7:1-ARG1
+bn/nbc/00/nbc_0008.parse 28 0 gold thank thank.01 ----- 0:0-rel 2:1-ARG1
+bn/nbc/00/nbc_0008.parse 24 1 gold want want.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
+bn/nbc/00/nbc_0008.parse 4 10 gold be be.01 ----- 9:1-ARG1 10:0-rel 11:2-ARG2
+bn/nbc/00/nbc_0008.parse 2 26 gold rise rise.01 ----- 21:1-ARG1 24:0-ARGM-MOD 25:1-ARGM-ADV 26:0-rel 27:1-ARGM-LOC
+bn/nbc/00/nbc_0008.parse 6 2 gold consider consider.02 ----- 2:0-rel 3:2-ARG1
+bn/nbc/00/nbc_0008.parse 10 7 gold hire hire.01 ----- 0:2*8:1-ARG1 0:2*8:1-LINK-PSV 7:0-rel 9:1-ARG0 12:2-ARG2
+bn/nbc/00/nbc_0008.parse 5 29 gold take take_on.09 ----- 23:1*27:1-ARG0 29:0,30:1-rel 31:1-ARG1
+bn/nbc/00/nbc_0008.parse 25 2 gold concern concern.01 ----- 1:0-ARGM-ADJ 2:0-rel 3:1-ARGM-TMP
+bn/nbc/00/nbc_0008.parse 9 8 gold pull pull.01 ----- 4:1-ARG0 8:0-rel 9:1-ARG2 21:2-ARGM-ADV
+bn/nbc/00/nbc_0008.parse 2 11 gold miss miss.01 ----- 10:1-ARG1 11:0-rel
+bn/nbc/00/nbc_0008.parse 3 24 gold need need.01 ----- 15:1*18:1*25:1-ARG1 15:1*18:1-LINK-SLC 19:2-ARG0 24:0-rel 26:2-ARGM-PRP
+bn/nbc/00/nbc_0008.parse 18 5 gold trap trap.01 ----- 0:2*4:1*6:1-ARG1 5:0-rel
+bn/nbc/00/nbc_0008.parse 16 2 gold perform perform.01 ----- 0:1-ARG0 2:0-rel 3:1-ARGM-MNR
+bn/nbc/00/nbc_0008.parse 27 5 gold be be.01 ----- 1:1-ARG1 5:0-rel 6:1-ARG2
+bn/nbc/00/nbc_0008.parse 10 14 gold help help.01 ----- 0:2*8:1*12:1-ARG0 0:2*8:1-LINK-PSV 14:0-rel 15:2-ARG1
+bn/nbc/00/nbc_0008.parse 24 4 gold pass pass.05 ----- 0:1*2:1-ARG0 4:0-rel 5:1-ARGM-DIR 6:2-ARGM-PRP
+bn/nbc/00/nbc_0008.parse 4 7 gold think think.01 ----- 0:1*5:1-ARG0 2:1*4:1-ARGM-CAU 2:1*4:1-LINK-SLC 7:0-rel 8:1-ARG1
+bn/nbc/00/nbc_0008.parse 15 2 gold fight fight.01 ----- 0:1-ARG0 2:0-rel 3:1-ARGM-MNR 4:2-ARG2
+bn/nbc/00/nbc_0008.parse 13 10 gold tear tear.01 ----- 5:1*8:1*9:1-ARG0 5:1*8:1-LINK-SLC 10:0-rel 11:2-ARG1
+bn/nbc/00/nbc_0008.parse 21 3 gold help help.01 ----- 0:1*5:1-ARGM-MNR 1:0-ARGM-MOD 2:1-ARG0 3:0-rel 4:1-ARG2
+bn/nbc/00/nbc_0008.parse 20 36 gold terrorize terrorize.01 ----- 36:0-rel
+bn/nbc/00/nbc_0008.parse 11 26 gold be be.03 ----- 26:0-rel
+bn/nbc/00/nbc_0008.parse 5 14 gold be be.01 ----- 0:2-ARG1 14:0-rel 15:1-ARG2 22:2-ARGM-TMP
+bn/nbc/00/nbc_0008.parse 18 2 gold miss miss.01 ----- 0:1-ARG1 2:0-rel
+bn/nbc/00/nbc_0008.parse 2 6 gold be be.01 ----- 0:1-ARGM-TMP 2:1-ARG1 6:0-rel 7:3-ARG2

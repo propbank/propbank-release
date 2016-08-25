@@ -1,0 +1,76 @@
+bn/abc/00/abc_0010.parse 3 2 gold begin begin.01 ----- 0:1,3:2-ARG1 2:0-rel
+bn/abc/00/abc_0010.parse 9 11 gold be be.03 ----- 11:0-rel
+bn/abc/00/abc_0010.parse 1 5 gold be be.01 ----- 4:1-ARG1 5:0-rel 6:2-ARG2
+bn/abc/00/abc_0010.parse 17 40 gold resume resume.01 ----- 33:1-ARGM-TMP 35:2-ARG1 39:0-ARGM-MOD 40:0-rel
+bn/abc/00/abc_0010.parse 17 5 gold say say.01 ----- 0:2-ARG0 4:1-ARGM-TMP 5:0-rel 6:1-ARG1
+bn/abc/00/abc_0010.parse 10 21 gold damage damage.01 ----- 20:0-ARGM-ADJ 21:0-rel 22:1-ARG1
+bn/abc/00/abc_0010.parse 2 12 gold suffer suffer.01 ----- 0:2-ARG0 12:0-rel 13:1-ARG1
+bn/abc/00/abc_0010.parse 14 29 gold discover discover.01 ----- 19:1*27:1-ARG0 29:0-rel 30:2-ARG1
+bn/abc/00/abc_0010.parse 4 3 gold become become.01 ----- 0:1-ARG1 3:0-rel 4:2-ARG2
+bn/abc/00/abc_0010.parse 0 11 gold catch catch.03 ----- 2:3*9:1-ARG0 11:0-rel 14:2-ARG1
+bn/abc/00/abc_0010.parse 14 15 gold suggest suggest.01 ----- 14:1-ARG0 15:0-rel 16:2-ARG1
+bn/abc/00/abc_0010.parse 17 9 gold explode explode.01 ----- 8:0-ARGM-LOC 9:0-rel
+bn/abc/00/abc_0010.parse 17 24 gold announce announce.01 ----- 22:1-ARG0 24:0-rel 25:1-ARG1
+bn/abc/00/abc_0010.parse 5 9 gold plan plan.01 ----- 6:1*10:1-ARG1 6:1*10:1-LINK-PSV 9:0-rel 11:1-ARG3
+bn/abc/00/abc_0010.parse 14 35 gold bomb bomb.01 ----- 35:0-rel
+bn/abc/00/abc_0010.parse 17 27 gold have have.01 ----- 27:0-rel
+bn/abc/00/abc_0010.parse 14 47 gold face face.01 ----- 38:2-ARG0 47:0-rel 48:2-ARG1
+bn/abc/00/abc_0010.parse 17 3 gold have have.01 ----- 3:0-rel
+bn/abc/00/abc_0010.parse 17 28 gold change change.01 ----- 26:1-ARG0 28:0-rel 29:1-ARG1
+bn/abc/00/abc_0010.parse 13 14 gold be be.01 ----- 0:1-ARGM-ADV 10:2-ARG1 14:0-rel 15:1-ARGM-TMP 16:2-ARG2
+bn/abc/00/abc_0010.parse 10 3 gold tell tell.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-ARGM-NEG 3:0-rel 4:1-ARG2 5:1-ARG1
+bn/abc/00/abc_0010.parse 2 4 gold task task.01 ----- 1:0-ARGM-ADJ 3:0-ARGM-ADJ 4:0-rel 5:1-ARG2
+bn/abc/00/abc_0010.parse 8 1 gold twist twist.01 ----- 0:1*2:1-ARG1 1:0-rel 3:1-ARGM-ADV
+bn/abc/00/abc_0010.parse 6 7 gold damage damage.01 ----- 7:0-rel
+bn/abc/00/abc_0010.parse 12 3 gold speculate speculate.01 ----- 3:0-rel 4:1-ARG2
+bn/abc/00/abc_0010.parse 20 2 gold learn learn.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
+bn/abc/00/abc_0010.parse 6 2 gold be be.03 ----- 2:0-rel
+bn/abc/00/abc_0010.parse 0 29 gold decide decide.01 ----- 26:1-ARG0 29:0-rel 30:2-ARG1
+bn/abc/00/abc_0010.parse 9 12 gold stun stun.01 ----- 0:3*13:1-ARG1 12:0-rel 14:1-ARG0
+bn/abc/00/abc_0010.parse 16 30 gold do do.01 ----- 30:0-rel
+bn/abc/00/abc_0010.parse 10 15 gold sink sink.01 ----- 6:1*10:1-ARG1 14:0-ARGM-NEG 15:0-rel
+bn/abc/00/abc_0010.parse 5 4 gold cancel cancel.01 ----- 4:0-rel 5:1-ARG1
+bn/abc/00/abc_0010.parse 17 10 gold rock rock.01 ----- 7:1-ARG0 10:0-rel 11:1-ARG1
+bn/abc/00/abc_0010.parse 6 20 gold be be.01 ----- 18:1-ARG1 20:0-rel 21:1-ARG2
+bn/abc/00/abc_0010.parse 14 32 gold carry carry_out.03 ----- 30:1*31:1-ARG0 32:0,33:1-rel 34:1-ARG1
+bn/abc/00/abc_0010.parse 16 32 gold have have.03 ----- 19:1-ARG0 22:1-ARGM-ADV 31:0-ARGM-NEG 32:0-rel 33:2-ARG1
+bn/abc/00/abc_0010.parse 10 19 gold be be.02 ----- 19:0-rel 20:2-ARG1
+bn/abc/00/abc_0010.parse 14 2 gold be be.03 ----- 2:0-rel
+bn/abc/00/abc_0010.parse 5 1 gold lead lead.03 ----- 0:1-ARG0 1:0-rel 2:1-ARG2
+bn/abc/00/abc_0010.parse 17 36 gold search search.01 ----- 36:0-rel 37:1-ARG1
+bn/abc/00/abc_0010.parse 18 3 gold be be.01 ----- 0:1-ARG1 3:0-rel 4:1-ARGM-ADV 5:2-ARG2
+bn/abc/00/abc_0010.parse 15 5 gold be be.02 ----- 5:0-rel 6:2-ARG1
+bn/abc/00/abc_0010.parse 14 42 gold help help.01 ----- 38:1*40:1*41:1-ARG0 38:1*40:1-LINK-SLC 42:0-rel 43:2-ARG1
+bn/abc/00/abc_0010.parse 17 21 gold expect expect.01 ----- 18:1-ARGM-TMP 19:1-ARG0 21:0-rel 22:2-ARG1
+bn/abc/00/abc_0010.parse 7 3 gold be be.01 ----- 0:1-ARG1 3:0-rel 4:1-ARG2
+bn/abc/00/abc_0010.parse 10 8 gold be be.03 ----- 8:0-rel
+bn/abc/00/abc_0010.parse 6 3 gold become become.01 ----- 0:2;5:1-ARG1 3:0-rel 4:1-ARG2
+bn/abc/00/abc_0010.parse 10 12 gold sink sink.01 ----- 6:1*10:1-ARG1 12:0-rel
+bn/abc/00/abc_0010.parse 1 12 gold remain remain.01 ----- 10:1-ARG1 12:0-rel 13:1-ARG3
+bn/abc/00/abc_0010.parse 10 9 gold go go.04 ----- 9:0-rel
+bn/abc/00/abc_0010.parse 16 3 gold live live.01 ----- 0:1-ARG0 3:0-rel 4:1-ARGM-LOC
+bn/abc/00/abc_0010.parse 0 32 gold refuel refuel.01 ----- 26:1*30:1-ARG0 26:1*30:1-LINK-PRO 32:0-rel 33:1-ARG1 34:1-ARGM-LOC 36:1-ARGM-TMP
+bn/abc/00/abc_0010.parse 12 11 gold know know.01 ----- 8:1-ARG0 10:0-ARGM-NEG 11:0-rel 12:1-ARG1 13:1-ARGM-TMP
+bn/abc/00/abc_0010.parse 0 18 gold bomb bomb.01 ----- 18:0-rel 19:1-ARG1
+bn/abc/00/abc_0010.parse 11 14 gold remain remain.01 ----- 0:1-ARGM-DIS 7:2-ARG1 14:0-rel 15:1-ARG3
+bn/abc/00/abc_0010.parse 16 17 gold say say.01 ----- 13:2-ARG0 17:0-rel 18:1-ARG1
+bn/abc/00/abc_0010.parse 14 44 gold plan plan.01 ----- 43:1-ARG0 44:0-rel 45:1-ARG1
+bn/abc/00/abc_0010.parse 0 25 gold defend defend.01 ----- 0:1-ARGM-TMP 2:3-ARG0 25:0-rel 26:2-ARG1
+bn/abc/00/abc_0010.parse 0 13 gold punish punish.01 ----- 2:3*9:1-ARG0 13:0-rel 14:2-ARG1
+bn/abc/00/abc_0010.parse 9 16 gold damage damage.01 ----- 16:0-rel
+bn/abc/00/abc_0010.parse 0 8 gold promise promise.01 ----- 0:1-ARGM-TMP 2:3-ARG0 8:0-rel 9:2-ARG2
+bn/abc/00/abc_0010.parse 14 49 gold respond respond.01 ----- 49:0-rel 50:1-ARG0
+bn/abc/00/abc_0010.parse 14 4 gold designate designate.01 ----- 0:1*5:1-ARG1 3:1-ARGM-MNR 4:0-rel 7:2-ARG2
+bn/abc/00/abc_0010.parse 9 7 gold visit visit.01 ----- 0:2*5:1*6:1-ARG0 0:2*5:1-LINK-SLC 7:0-rel 8:1-ARG1
+bn/abc/00/abc_0010.parse 3 9 gold lose lose.02 ----- 0:1-ARG0 9:0-rel 10:1-ARG1 12:1-ARGM-ADV
+bn/abc/00/abc_0010.parse 12 9 gold do do.01 ----- 9:0-rel
+bn/abc/00/abc_0010.parse 13 11 gold search search.01 ----- 11:0-rel 12:1-ARG1
+bn/abc/00/abc_0010.parse 14 25 gold be be.01 ----- 19:1-ARG1 22:1-ARGM-DIS 25:0-rel 26:1-ARG2
+bn/abc/00/abc_0010.parse 15 2 gold believe believe.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
+bn/abc/00/abc_0010.parse 0 38 gold continue continue.01 ----- 37:1-ARG0 38:0-rel 39:2-ARG1
+bn/abc/00/abc_0010.parse 15 9 gold base base.01 ----- 6:1*10:1-ARG1 6:1*10:1-LINK-PSV 9:0-rel 11:1-ARGM-LOC
+bn/abc/00/abc_0010.parse 1 2 gold report report.01 ----- 0:1-ARG0 2:0-rel 4:2-ARG1
+bn/abc/00/abc_0010.parse 3 5 gold take take_on.09 ----- 0:1*3:1-ARG0 5:0,6:1-rel 7:1-ARG1
+bn/abc/00/abc_0010.parse 8 8 gold destroy destroy.01 ----- 7:1*9:1-ARG1 8:0-rel
+bn/abc/00/abc_0010.parse 20 7 gold go go.02 ----- 0:2-ARGM-PRP 7:0-rel 8:1-ARG4
+bn/abc/00/abc_0010.parse 5 17 gold lose lose.02 ----- 12:1*15:1*16:1-ARG0 12:1*15:1-LINK-SLC 17:0-rel 18:1-ARG1

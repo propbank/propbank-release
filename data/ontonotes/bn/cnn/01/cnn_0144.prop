@@ -1,0 +1,15 @@
+bn/cnn/01/cnn_0144.parse 2 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:2-ARG2
+bn/cnn/01/cnn_0144.parse 2 7 gold kill kill.01 ----- 5:1*8:1-ARG1 5:1*8:1-LINK-PSV 7:0-rel 9:1-ARG2
+bn/cnn/01/cnn_0144.parse 3 25 gold leave leave.15 ----- 23:1-ARG0 25:0-rel 26:1-ARG1
+bn/cnn/01/cnn_0144.parse 1 1 gold talk talk.01 ----- 1:0-rel
+bn/cnn/01/cnn_0144.parse 1 10 gold go go_on.15 ----- 7:1*8:1*9:1-ARG1 7:1*8:1-LINK-SLC 10:0,11:1-rel 12:1-ARGM-TMP 14:1-ARGM-LOC
+bn/cnn/01/cnn_0144.parse 1 3 gold follow follow.01 ----- 0:1-ARG1 2:0-ARGM-MOD 3:0-rel 4:2-ARG2
+bn/cnn/01/cnn_0144.parse 2 11 gold clash clash.01 ----- 10:0-ARGM-TMP 11:0-rel 12:1-ARG1 15:1-ARGM-LOC
+bn/cnn/01/cnn_0144.parse 3 11 gold work work.01 ----- 5:3-ARG0 11:0-rel 12:1-ARG3 15:1-ARG1
+bn/cnn/01/cnn_0144.parse 1 7 gold negotiate negotiate.01 ----- 7:0-rel 8:2-ARGM-ADJ
+bn/cnn/01/cnn_0144.parse 3 10 gold be be.03 ----- 10:0-rel
+bn/cnn/01/cnn_0144.parse 1 32 gold violent violent.01 ----- 31:0-ARGM-TMP 32:0-rel
+bn/cnn/01/cnn_0144.parse 0 14 gold consult consult.01 ----- 13:0-ARGM-MNR 14:0-rel 15:1-ARG2
+bn/cnn/01/cnn_0144.parse 3 3 gold say say.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
+bn/cnn/01/cnn_0144.parse 0 6 gold expect expect.01 ----- 0:1*7:1-ARG1 6:0-rel 8:1-ARGM-LOC 10:1-ARGM-TMP 12:1-ARGM-PRP
+bn/cnn/01/cnn_0144.parse 0 5 gold be be.03 ----- 5:0-rel

@@ -1,0 +1,32 @@
+bn/pri/00/pri_0002.parse 0 2 gold continue continue.01 ----- 0:1-ARG1 2:0-rel 3:1-ARGM-LOC
+bn/pri/00/pri_0002.parse 0 9 gold show show.01 ----- 6:1-ARG0 9:0-rel 10:2-ARG1
+bn/pri/00/pri_0002.parse 0 20 gold step step_down.04 ----- 6:1*13:1*19:1-ARG0 20:0,21:1-rel
+bn/pri/00/pri_0002.parse 6 8 gold bang bang.02 ----- 0:1-ARGM-TMP 3:1-ARG0 8:0-rel 9:1-ARG1 13:2-ARGM-ADV
+bn/pri/00/pri_0002.parse 3 3 gold state state.01 ----- 2:0-ARGM-PRD 3:0-rel
+bn/pri/00/pri_0002.parse 4 28 gold mediate mediate.01 ----- 27:1-ARG0 28:0-rel 29:1-ARG1
+bn/pri/00/pri_0002.parse 4 2 gold be be.01 ----- 1:1-ARG1 2:0-rel 3:2-ARG2
+bn/pri/00/pri_0002.parse 3 16 gold describe describe.01 ----- 9:2*14:1*17:1-ARG1 9:2*14:1-LINK-SLC 15:1-ARG0 16:0-rel 18:1-ARG2
+bn/pri/00/pri_0002.parse 6 25 gold conflict conflict.01 ----- 25:0-rel
+bn/pri/00/pri_0002.parse 3 7 gold concern concern.01 ----- 7:0-rel 8:1-ARG0
+bn/pri/00/pri_0002.parse 3 20 gold be be.01 ----- 9:2*14:1*17:1*19:1-ARG1 9:2*14:1-LINK-SLC 20:0-rel 21:1-ARG2
+bn/pri/00/pri_0002.parse 4 19 gold step step_in.02 ----- 14:1*17:1-ARG1 19:0,20:1-rel 21:1-ARGM-PRD
+bn/pri/00/pri_0002.parse 6 22 gold resolve resolve.01 ----- 21:0-ARGM-MNR 22:0-rel 23:1-ARG1
+bn/pri/00/pri_0002.parse 0 1 gold protest protest.02 ----- 0:0-ARG0 1:0-rel
+bn/pri/00/pri_0002.parse 6 14 gold offer offer.01 ----- 3:1*13:1-ARG0 14:0-rel 15:2-ARG1
+bn/pri/00/pri_0002.parse 3 6 gold express express.01 ----- 0:1-ARGM-LOC 4:1-ARG0 6:0-rel 7:2-ARG1
+bn/pri/00/pri_0002.parse 1 6 gold offer offer.01 ----- 0:1-ARGM-TMP 1:2-ARG0 6:0-rel 7:2-ARG1
+bn/pri/00/pri_0002.parse 5 1 gold invite invite.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 8:1-ARG2 10:1-ARGM-PRP
+bn/pri/00/pri_0002.parse 1 9 gold be be.01 ----- 1:2*7:1-ARG1 9:0-rel 10:2-ARG2
+bn/pri/00/pri_0002.parse 6 6 gold have have.01 ----- 6:0-rel
+bn/pri/00/pri_0002.parse 4 12 gold say say.01 ----- 0:1-ARGM-CAU 9:1-ARG0 12:0-rel 13:1-ARG1
+bn/pri/00/pri_0002.parse 5 11 gold talk talk.01 ----- 11:0-rel
+bn/pri/00/pri_0002.parse 3 10 gold mount mount.02 ----- 10:0-rel 11:0-ARG1
+bn/pri/00/pri_0002.parse 1 5 gold have have.01 ----- 5:0-rel
+bn/pri/00/pri_0002.parse 4 15 gold be be.01 ----- 14:1-ARG1 15:0-rel 16:1-ARG2
+bn/pri/00/pri_0002.parse 3 2 gold write write.01 ----- 2:0-rel 3:0-ARG1
+bn/pri/00/pri_0002.parse 0 14 gold bow bow.01 ----- 6:1*13:1-ARG0 14:0-rel 15:1-ARG1 18:1-ARGM-MNR
+bn/pri/00/pri_0002.parse 4 26 gold help help.01 ----- 14:1*17:1-ARG0 26:0-rel 27:2-ARG1
+bn/pri/00/pri_0002.parse 6 17 gold help help.01 ----- 3:1*13:1*15:1-ARG0 17:0-rel 18:2-ARG1
+bn/pri/00/pri_0002.parse 6 7 gold be be.03 ----- 7:0-rel
+bn/pri/00/pri_0002.parse 2 2 gold report report.01 ----- 0:1-ARG0 2:0-rel 3:1-ARGM-DIR
+bn/pri/00/pri_0002.parse 6 19 gold negotiate negotiate.01 ----- 18:1-ARG0 19:0-rel 20:2-ARG2

@@ -1,0 +1,78 @@
+nw/wsj/18/wsj_1854.parse 4 20 gold be be.03 ----- 20:0-rel
+nw/wsj/18/wsj_1854.parse 1 9 gold single single_out.01 ----- 5:1*8:1-ARG0 9:0,10:1-rel 11:2-ARG1
+nw/wsj/18/wsj_1854.parse 11 5 gold engineer engineer.01 ----- 4:0-ARG1 5:0-rel
+nw/wsj/18/wsj_1854.parse 4 12 gold move move.02 ----- 0:1-ARGM-DIS 7:0-ARGM-ADJ 8:1-ARGM-CAU 11:0-ARGM-ADJ 12:0-rel 21:1-ARGM-TMP 22:0-ARGM-LVB 24:1-ARGM-MNR
+nw/wsj/18/wsj_1854.parse 25 3 gold delay delay.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
+nw/wsj/18/wsj_1854.parse 25 20 gold repair repair.01 ----- 18:1-ARG0 20:0-rel 21:1-ARG1
+nw/wsj/18/wsj_1854.parse 21 5 gold go go.01 ----- 1:1-ARG1 4:0-ARGM-NEG 5:0-rel 6:1-ARGM-DIR 7:1-ARGM-LOC 9:1-ARGM-TMP
+nw/wsj/18/wsj_1854.parse 0 9 gold earthquake earthquake.01 ----- 5:1-ARG1 8:0-ARGM-ADJ 9:0-rel
+nw/wsj/18/wsj_1854.parse 23 6 gold damage damage.01 ----- 0:2*7:1-ARG1 6:0-rel 9:1-ARGM-ADV
+nw/wsj/18/wsj_1854.parse 5 7 gold be be.01 ----- 0:2-ARG1 7:0-rel 8:2-ARG2
+nw/wsj/18/wsj_1854.parse 15 4 gold tout tout.01 ----- 0:1-ARG0 4:0-rel 5:2-ARG1 16:1-ARG2
+nw/wsj/18/wsj_1854.parse 7 21 gold cost cost.01 ----- 18:1-ARG1 20:0-ARGM-MOD 21:0-rel 22:1-ARG3 23:2-ARG2
+nw/wsj/18/wsj_1854.parse 4 14 gold last last.01 ----- 0:1-ARGM-DIS 7:1*23:1-ARG1 13:1-ARGM-TMP 14:0-rel 15:2-ARG2
+nw/wsj/18/wsj_1854.parse 21 3 gold do do.01 ----- 3:0-rel
+nw/wsj/18/wsj_1854.parse 1 19 gold profit profit.01 ----- 13:1*14:1*15:1*17:1-ARG0 13:1*14:1-LINK-SLC 19:0-rel 22:1-ARGM-MNR 25:1-ARG1
+nw/wsj/18/wsj_1854.parse 2 6 gold tout tout.01 ----- 0:1*5:1-ARG0 6:0-rel 7:1-ARG1
+nw/wsj/18/wsj_1854.parse 8 21 gold say say.01 ----- 0:1-ARGM-DIS 3:3-ARG0 21:0-rel 22:1-ARG1
+nw/wsj/18/wsj_1854.parse 6 27 gold end end.01 ----- 10:1*26:1-ARG0 27:0-rel 28:1-ARG1
+nw/wsj/18/wsj_1854.parse 7 4 gold surface surface.01 ----- 1:1-ARG1 4:0-rel
+nw/wsj/18/wsj_1854.parse 17 20 gold rise rise.01 ----- 11:1-ARG1 14:1-ARGM-ADV 20:0-rel 21:1-ARG2 24:1-ARG4
+nw/wsj/18/wsj_1854.parse 10 42 gold report report.01 ----- 36:1*40:1*41:1-ARG0 36:1*40:1-LINK-SLC 42:0-rel 43:1-ARG1 48:1-ARGM-TMP 50:1-ARGM-ADV
+nw/wsj/18/wsj_1854.parse 10 5 gold have have.03 ----- 0:3;10:1-ARG0 5:0-rel 6:1-ARG1
+nw/wsj/18/wsj_1854.parse 8 10 gold end end.02 ----- 3:2*8:1*9:1-ARG1 3:2*8:1-LINK-SLC 10:0-rel 11:1-ARGM-TMP 13:1-ARGM-MNR
+nw/wsj/18/wsj_1854.parse 18 9 gold hit hit.01 ----- 0:1-ARGM-TMP 2:2*10:1-ARG1 9:0-rel 12:1-ARGM-CAU
+nw/wsj/18/wsj_1854.parse 1 16 gold expect expect.01 ----- 13:1*14:1,15:1,17:2-ARG1 13:1*14:1-LINK-SLC 16:0-rel
+nw/wsj/18/wsj_1854.parse 7 10 gold fall fall.01 ----- 0:1-ARGM-TMP 6:1-ARG1 9:1-ARGM-TMP 10:0-rel 12:2-ARGM-ADV
+nw/wsj/18/wsj_1854.parse 23 5 gold be be.03 ----- 5:0-rel
+nw/wsj/18/wsj_1854.parse 18 27 gold damage damage.01 ----- 26:0-ARGM-ADJ 27:0-rel
+nw/wsj/18/wsj_1854.parse 9 10 gold bid bid.02 ----- 0:1-ARGM-ADV 9:1-ARG0 10:0-rel 11:1-ARG3 12:4-ARG1
+nw/wsj/18/wsj_1854.parse 18 8 gold get get.03 ----- 0:1-ARGM-TMP 2:2-ARG1 8:0-rel 9:0-ARG2 12:1-ARGM-CAU
+nw/wsj/18/wsj_1854.parse 23 12 gold say say.01 ----- 10:1-ARG0 12:0-rel 13:1-ARG1
+nw/wsj/18/wsj_1854.parse 6 12 gold use use.01 ----- 10:1-ARG0 11:0-ARGM-MOD 12:0-rel 13:1-ARG1 15:1-ARG2 26:2-ARGM-PRD
+nw/wsj/18/wsj_1854.parse 16 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:2-ARG2
+nw/wsj/18/wsj_1854.parse 4 11 gold trade trade.01 ----- 8:1-ARGM-ADJ 11:0-rel
+nw/wsj/18/wsj_1854.parse 8 24 gold damage damage.01 ----- 23:0-ARG0 24:0-rel
+nw/wsj/18/wsj_1854.parse 8 27 gold hurt hurt.01 ----- 23:1-ARG0 25:0-ARGM-MOD 26:1-ARGM-EXT 27:0-rel 28:2-ARG1
+nw/wsj/18/wsj_1854.parse 9 2 gold prospect prospect.02 ----- 2:0-rel 3:1-ARG1
+nw/wsj/18/wsj_1854.parse 20 6 gold fall fall.01 ----- 0:2;8:1-ARG1 5:1-ARGM-DIS 6:0-rel
+nw/wsj/18/wsj_1854.parse 0 10 gold be be.01 ----- 0:1-ARGM-LOC 3:1-ARGM-TMP 5:2-ARG1 10:0-rel 11:2-ARG2
+nw/wsj/18/wsj_1854.parse 2 33 gold need need.01 ----- 28:1*30:1*31:1-ARG0 28:1*30:1-LINK-SLC 32:0-ARGM-MOD 33:0-rel 34:2-ARG1
+nw/wsj/18/wsj_1854.parse 6 8 gold say say.01 ----- 0:1-ARGM-TMP 2:2-ARG0 8:0-rel 9:1-ARG1
+nw/wsj/18/wsj_1854.parse 26 14 gold perform perform.01 ----- 13:0-ARGM-MNR 14:0-rel 15:0,16:0-ARG0
+nw/wsj/18/wsj_1854.parse 5 18 gold rise rise.01 ----- 12:1*16:1*17:1-ARG1 12:1*16:1-LINK-SLC 18:0-rel 19:1-ARG2 22:1-ARG4
+nw/wsj/18/wsj_1854.parse 6 17 gold excuse excuse.02 ----- 17:0-rel 18:2-ARG1
+nw/wsj/18/wsj_1854.parse 14 29 gold profit profit.01 ----- 28:0-ARGM-ADJ 29:0-rel
+nw/wsj/18/wsj_1854.parse 18 25 gold suffer suffer.01 ----- 16:3-ARG0 25:0-rel 26:2-ARG1
+nw/wsj/18/wsj_1854.parse 8 31 gold profit profit.01 ----- 28:1-ARGM-TMP 31:0-rel
+nw/wsj/18/wsj_1854.parse 2 41 gold transfer transfer.01 ----- 28:1*30:1*31:1*40:1-ARG0 28:1*30:1-LINK-SLC 41:0-rel 42:1-ARG1
+nw/wsj/18/wsj_1854.parse 23 17 gold be be.02 ----- 15:0-ARGM-MOD 16:0-ARGM-NEG 17:0-rel 18:1-ARG1
+nw/wsj/18/wsj_1854.parse 11 8 gold gain gain.01 ----- 0:2-ARG1 8:0-rel 9:1-ARG2 11:1-ARG4
+nw/wsj/18/wsj_1854.parse 20 21 gold report report.01 ----- 9:2*19:1*20:1-ARG0 9:2*19:1-LINK-SLC 21:0-rel 22:1-ARG1 24:1-ARGM-TMP
+nw/wsj/18/wsj_1854.parse 7 16 gold think think.01 ----- 15:1-ARG0 16:0-rel 17:1-ARG1
+nw/wsj/18/wsj_1854.parse 3 12 gold say say.01 ----- 1:2*13:1-ARG1 12:0-rel 14:2-ARG0
+nw/wsj/18/wsj_1854.parse 12 5 gold be be.01 ----- 0:0-ARGM-DIS 1:2-ARG1 5:0-rel 6:1-ARG2
+nw/wsj/18/wsj_1854.parse 0 16 gold make make.05 ----- 14:1-ARG0 16:0-rel 17:1-ARG1
+nw/wsj/18/wsj_1854.parse 6 21 gold raise raise.01 ----- 16:1*18:1-ARGM-ADV 16:1*18:1-LINK-SLC 19:1-ARG0 21:0-rel 22:1-ARG1
+nw/wsj/18/wsj_1854.parse 25 15 gold have have.03 ----- 13:1-ARG0 14:0-ARGM-MOD 15:0-rel 16:1-ARG1
+nw/wsj/18/wsj_1854.parse 2 19 gold set set_up.03 ----- 14:1-ARG0 19:0,20:1-rel 21:2-ARG1
+nw/wsj/18/wsj_1854.parse 4 22 gold make make.LV ----- 12:0-ARGM-PRR 22:0-rel
+nw/wsj/18/wsj_1854.parse 19 15 gold fall fall.01 ----- 13:1-ARG1 15:0-rel 16:1-ARG2 18:1-ARG4
+nw/wsj/18/wsj_1854.parse 19 4 gold fall fall.01 ----- 0:1-ARG1 4:0-rel 5:1-ARG2 7:1-ARG4
+nw/wsj/18/wsj_1854.parse 1 7 gold begin begin.01 ----- 0:1-ARGM-TMP 5:1-ARG0 6:1-ARGM-MNR 7:0-rel 8:2-ARG1
+nw/wsj/18/wsj_1854.parse 26 10 gold be be.01 ----- 0:2-ARG1 10:0-rel 11:1-ARG2 24:1-ARGM-TMP
+nw/wsj/18/wsj_1854.parse 3 3 gold think think.01 ----- 1:1-ARG0 3:0-rel 4:1-ARG2 6:1-ARGM-MNR
+nw/wsj/18/wsj_1854.parse 13 2 gold get get.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
+nw/wsj/18/wsj_1854.parse 14 27 gold report report.01 ----- 0:3-ARG0 26:0-ARGM-ADV 27:0-rel 28:1-ARG1
+nw/wsj/18/wsj_1854.parse 26 1 gold construct construct.01 ----- 0:0-ARGM-MNR 1:0-rel
+nw/wsj/18/wsj_1854.parse 1 21 gold suffer suffer.01 ----- 13:1*14:1*15:1*17:1-ARG0 13:1*14:1-LINK-SLC 21:0-rel 22:1-ARGM-MNR 25:1-ARG1
+nw/wsj/18/wsj_1854.parse 17 2 gold jump jump.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2 6:1-ARG4
+nw/wsj/18/wsj_1854.parse 25 11 gold think think.01 ----- 9:1-ARG0 11:0-rel 12:1-ARG1
+nw/wsj/18/wsj_1854.parse 9 5 gold rebuild rebuild.01 ----- 4:1-ARG0 5:0-rel 6:1-ARG1
+nw/wsj/18/wsj_1854.parse 6 14 gold earthquake earthquake.01 ----- 14:0-rel
+nw/wsj/18/wsj_1854.parse 1 2 gold open open.02 ----- 2:0-rel 3:0-ARG1
+nw/wsj/18/wsj_1854.parse 7 13 gold indicate indicate.01 ----- 12:1-ARG0 13:0-rel 14:1-ARG1
+nw/wsj/18/wsj_1854.parse 24 3 gold lose lose.01 ----- 0:1-ARG1 3:0-rel 4:1-ARG2 6:1-ARG4
+nw/wsj/18/wsj_1854.parse 2 2 gold jump jump_in.04 ----- 0:1-ARG0 2:0,3:1-rel 5:2-ARGM-PRD
+nw/wsj/18/wsj_1854.parse 22 5 gold fall fall.01 ----- 0:1-ARG1 5:0-rel 6:1-ARG2 8:1-ARG4
+nw/wsj/18/wsj_1854.parse 21 12 gold say say.01 ----- 1:2*13:1-ARG1 12:0-rel 14:1-ARG0

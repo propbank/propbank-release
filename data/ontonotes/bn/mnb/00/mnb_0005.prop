@@ -1,0 +1,60 @@
+bn/mnb/00/mnb_0005.parse 11 24 gold impend impend.01 ----- 24:0-rel 25:0-ARG1
+bn/mnb/00/mnb_0005.parse 7 53 gold bomb bomb.01 ----- 50:1*54:1-ARG1 53:0-rel
+bn/mnb/00/mnb_0005.parse 3 20 gold say say.01 ----- 19:1-ARG0 20:0-rel 21:1-ARG1
+bn/mnb/00/mnb_0005.parse 11 9 gold reveal reveal.01 ----- 0:1-ARGM-LOC 6:2*10:1-ARG1 9:0-rel
+bn/mnb/00/mnb_0005.parse 7 1 gold talk talk.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+bn/mnb/00/mnb_0005.parse 7 22 gold take take.LV ----- 22:0-rel 23:1-ARGM-PRR
+bn/mnb/00/mnb_0005.parse 13 34 gold come come.01 ----- 32:1-ARG1 34:0-rel
+bn/mnb/00/mnb_0005.parse 0 5 gold report report.01 ----- 0:1*2:1*6:1-ARG1 0:1*2:1-LINK-SLC 3:1-ARG0 5:0-rel 7:1-ARGM-TMP
+bn/mnb/00/mnb_0005.parse 11 29 gold frustrate frustrate.01 ----- 29:0-rel
+bn/mnb/00/mnb_0005.parse 8 20 gold explode explode.01 ----- 20:0-rel
+bn/mnb/00/mnb_0005.parse 12 2 gold warn warn.01 ----- 0:1-ARG0 1:1-ARGM-DIS 2:0-rel 3:1-ARG1
+bn/mnb/00/mnb_0005.parse 11 27 gold resign resign.01 ----- 12:2-ARG0 26:1-ARGM-TMP 27:0-rel 28:1-ARGM-MNR 30:2-ARGM-TMP
+bn/mnb/00/mnb_0005.parse 1 2 gold warn warn.01 ----- 0:1*3:1-ARG2 2:0-rel 4:1-ARGM-TMP 10:1-ARG1
+bn/mnb/00/mnb_0005.parse 13 11 gold pinpoint pinpoint.01 ----- 5:1-ARG0 8:0-ARGM-MOD 9:0-ARGM-NEG 11:0-rel 12:1-ARG1
+bn/mnb/00/mnb_0005.parse 7 23 gold act act.02 ----- 6:1*15:1*16:1*20:1-ARG0 6:1*15:1-LINK-SLC 22:0-ARGM-LVB 23:0-rel 24:1-ARGM-GOL 30:1-ARGM-LOC
+bn/mnb/00/mnb_0005.parse 7 10 gold know know.01 ----- 9:1-ARG0 10:0-rel 11:2-ARG1
+bn/mnb/00/mnb_0005.parse 4 8 gold be be.01 ----- 6:1-ARG1 8:0-rel 9:2-ARG2
+bn/mnb/00/mnb_0005.parse 8 1 gold report report.01 ----- 1:0-rel
+bn/mnb/00/mnb_0005.parse 7 19 gold go go.04 ----- 19:0-rel
+bn/mnb/00/mnb_0005.parse 9 6 gold warn warn.01 ----- 1:0-ARGM-TMP 3:2-ARGM-ADJ 6:0-rel
+bn/mnb/00/mnb_0005.parse 3 27 gold load load.01 ----- 25:1-ARG0 27:0-rel 28:1-ARG2 30:1-ARG1 34:1-ARGM-LOC
+bn/mnb/00/mnb_0005.parse 10 13 gold prevent prevent.01 ----- 10:1*11:1-ARG0 13:0-rel 14:1-ARG1
+bn/mnb/00/mnb_0005.parse 7 64 gold bomb bomb.01 ----- 61:1*65:1-ARG1 64:0-rel
+bn/mnb/00/mnb_0005.parse 9 9 gold issue issue.01 ----- 0:1*10:1-ARG1 8:1-ARGM-ADV 9:0-rel 11:2-ARGM-TMP
+bn/mnb/00/mnb_0005.parse 7 17 gold be be.03 ----- 17:0-rel
+bn/mnb/00/mnb_0005.parse 1 1 gold be be.03 ----- 1:0-rel
+bn/mnb/00/mnb_0005.parse 10 7 gold be be.01 ----- 5:1-ARG1 7:0-rel 8:1-ARG2
+bn/mnb/00/mnb_0005.parse 10 3 gold insist insist.01 ----- 0:1-ARG0 2:1-ARGM-TMP 3:0-rel 4:1-ARG1
+bn/mnb/00/mnb_0005.parse 6 21 gold warn warn.01 ----- 21:0-rel 22:1-ARG1
+bn/mnb/00/mnb_0005.parse 13 30 gold have have.01 ----- 30:0-rel
+bn/mnb/00/mnb_0005.parse 11 35 gold bomb bomb.01 ----- 34:0-ARG1 35:0-rel
+bn/mnb/00/mnb_0005.parse 6 19 gold issue issue.01 ----- 9:2-ARG0 19:0-rel 20:2-ARG1
+bn/mnb/00/mnb_0005.parse 7 56 gold issue issue.01 ----- 40:1*57:1-ARG1 43:1-ARGM-ADV 56:0-rel 58:2-ARGM-TMP
+bn/mnb/00/mnb_0005.parse 13 31 gold see see.01 ----- 27:2-ARG0 29:0-ARGM-MOD 31:0-rel 32:2-ARG1
+bn/mnb/00/mnb_0005.parse 7 41 gold warn warn.01 ----- 41:0-rel
+bn/mnb/00/mnb_0005.parse 7 42 gold be be.03 ----- 42:0-rel
+bn/mnb/00/mnb_0005.parse 0 8 gold involve involve.01 ----- 0:2-ARG2 8:0-rel 9:2-ARG1
+bn/mnb/00/mnb_0005.parse 8 13 gold disseminate disseminate.01 ----- 0:1*14:1-ARG1 3:1-ARGM-DIS 10:1-ARGM-ADV 13:0-rel 15:2-ARGM-TMP
+bn/mnb/00/mnb_0005.parse 11 8 gold be be.03 ----- 8:0-rel
+bn/mnb/00/mnb_0005.parse 3 15 gold detain detain.01 ----- 0:1-ARGM-MNR 13:1-ARG0 15:0-rel 16:2-ARG1
+bn/mnb/00/mnb_0005.parse 7 63 gold be be.03 ----- 63:0-rel
+bn/mnb/00/mnb_0005.parse 10 19 gold be be.02 ----- 19:0-rel 20:1-ARGM-ADV 21:1-ARG1 23:1-ARGM-DIS
+bn/mnb/00/mnb_0005.parse 12 10 gold come come.01 ----- 4:2-ARG1 9:0-ARGM-MOD 10:0-rel 11:1-ARGM-TMP
+bn/mnb/00/mnb_0005.parse 4 4 gold claim claim.01 ----- 0:1-ARG0 3:1-ARGM-ADV 4:0-rel 5:1-ARG1
+bn/mnb/00/mnb_0005.parse 10 16 gold bomb bomb.01 ----- 15:0-ARG1 16:0-rel
+bn/mnb/00/mnb_0005.parse 9 7 gold be be.03 ----- 7:0-rel
+bn/mnb/00/mnb_0005.parse 11 22 gold warn warn.01 ----- 12:2-ARG0 21:1-ARGM-DIS 22:0-rel 23:1-ARG1
+bn/mnb/00/mnb_0005.parse 13 3 gold say say.01 ----- 0:1-ARG0 2:1-ARGM-TMP 3:0-rel 4:1-ARG1
+bn/mnb/00/mnb_0005.parse 7 52 gold be be.03 ----- 52:0-rel
+bn/mnb/00/mnb_0005.parse 6 7 gold reveal reveal.01 ----- 0:1-ARGM-TMP 4:2-ARG0 7:0-rel 8:1-ARG1
+bn/mnb/00/mnb_0005.parse 8 5 gold understand understand.01 ----- 4:1-ARG0 5:0-rel 6:1-ARG1
+bn/mnb/00/mnb_0005.parse 8 8 gold be be.03 ----- 8:0-rel
+bn/mnb/00/mnb_0005.parse 6 3 gold hear hearing.02 ----- 2:0-ARG0 3:0-rel
+bn/mnb/00/mnb_0005.parse 13 20 gold grow grow.01 ----- 20:0-rel 21:0;22:1*26:1-ARG1
+bn/mnb/00/mnb_0005.parse 3 24 gold help help.01 ----- 16:1*18:1*21:0*22:1-ARG0 16:1*18:1-LINK-SLC 23:1-ARGM-ADV 24:0-rel 25:2-ARG1
+bn/mnb/00/mnb_0005.parse 11 3 gold hear hearing.02 ----- 2:0-ARGM-MNR 3:0-rel 4:1-ARGM-TMP
+bn/mnb/00/mnb_0005.parse 13 18 gold be be.02 ----- 18:0-rel 19:2-ARG1
+bn/mnb/00/mnb_0005.parse 3 2 gold damage damage.01 ----- 2:0-rel 3:0-ARG1
+bn/mnb/00/mnb_0005.parse 13 10 gold have have.01 ----- 10:0-rel
+bn/mnb/00/mnb_0005.parse 7 38 gold testify testify.01 ----- 34:1-ARG0 38:0-rel 39:1-ARG1

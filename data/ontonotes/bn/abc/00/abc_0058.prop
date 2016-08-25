@@ -1,0 +1,5 @@
+bn/abc/00/abc_0058.parse 0 2 gold play play.02 ----- 0:1-ARG0 2:0-rel 3:2;8:1-ARG1 7:1-ARGM-TMP
+bn/abc/00/abc_0058.parse 0 21 gold be be.03 ----- 21:0-rel
+bn/abc/00/abc_0058.parse 1 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
+bn/abc/00/abc_0058.parse 1 16 gold appear appear.01 ----- 2:1*8:1*21:1-ARGM-TMP 2:1*8:1-LINK-SLC 9:2-ARG1 16:0-rel 17:1-ARGM-LOC
+bn/abc/00/abc_0058.parse 0 22 gold honor honor.01 ----- 9:1*13:1*28:1-ARGM-LOC 9:1*13:1-LINK-SLC 14:2*23:1-ARG1 22:0-rel 24:1-ARGM-LOC

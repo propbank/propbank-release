@@ -1,0 +1,12 @@
+bn/cnn/02/cnn_0217.parse 1 11 gold dock dock.01 ----- 0:1*10:1-ARG1 11:0-rel 12:1-ARGM-MNR 13:1-ARGM-LOC
+bn/cnn/02/cnn_0217.parse 3 5 gold dock dock.01 ----- 5:0-rel
+bn/cnn/02/cnn_0217.parse 1 4 gold drop drop.01 ----- 0:1-ARG0 4:0,6:1-rel 5:1-ARG1 7:1-ARGM-TMP 9:1-ARGM-TMP
+bn/cnn/02/cnn_0217.parse 6 3 gold carry carry.01 ----- 0:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:1-ARG1 6:1-ARGM-DIR 9:1-ARGM-TMP
+bn/cnn/02/cnn_0217.parse 3 9 gold open open.01 ----- 0:3-ARGM-TMP 7:1-ARG0 9:0-rel 10:2-ARG1
+bn/cnn/02/cnn_0217.parse 0 7 gold settle settle.03 ----- 0:1-ARG0 7:0-rel 8:1-ARGM-PRD 9:1-ARG4
+bn/cnn/02/cnn_0217.parse 0 6 gold be be.03 ----- 6:0-rel
+bn/cnn/02/cnn_0217.parse 2 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
+bn/cnn/02/cnn_0217.parse 4 8 gold spend spend.02 ----- 0:2-ARG0 7:0-ARGM-MOD 8:0-rel 9:1-ARG1 13:1-ARG2
+bn/cnn/02/cnn_0217.parse 5 2 gold replace replace.01 ----- 0:1-ARG0 2:0-rel 3:3-ARG1
+bn/cnn/02/cnn_0217.parse 2 5 gold fly fly.01 ----- 3:0-ARGM-ADJ 4:0-ARGM-ADJ 5:0-rel 6:1-ARGM-GOL 10:1-ARGM-TMP
+bn/cnn/02/cnn_0217.parse 1 15 gold orbit orbit.01 ----- 15:0-rel 16:0-ARG0

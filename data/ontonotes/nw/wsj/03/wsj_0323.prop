@@ -1,0 +1,15 @@
+nw/wsj/03/wsj_0323.parse 2 4 gold specify specify.01 ----- 0:1-ARG0 3:0-ARGM-NEG 4:0-rel 5:2-ARG1
+nw/wsj/03/wsj_0323.parse 2 2 gold do do.01 ----- 2:0-rel
+nw/wsj/03/wsj_0323.parse 0 6 gold concern concern.01 ----- 4:0-ARGM-ADJ 5:0-ARG0 6:0-rel
+nw/wsj/03/wsj_0323.parse 0 16 gold profit profit.01 ----- 14:0-ARG0 15:0-ARGM-ADJ 16:0-rel 17:1-ARGM-TMP
+nw/wsj/03/wsj_0323.parse 1 1 gold rise rise.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2 4:1-ARG4 8:1-ARG3
+nw/wsj/03/wsj_0323.parse 5 2 gold have have.01 ----- 2:0-rel
+nw/wsj/03/wsj_0323.parse 3 9 gold be be.01 ----- 4:1-ARG1 9:0-rel 10:0-ARGM-NEG 11:1-ARG2 18:1-ARGM-CAU
+nw/wsj/03/wsj_0323.parse 3 8 gold profit profit.01 ----- 4:0-ARG0 5:1-ARGM-TMP 8:0-rel
+nw/wsj/03/wsj_0323.parse 4 8 gold profit profit.01 ----- 0:1-ARGM-TMP 5:1-ARG0 6:0-ARGM-LVB 7:0-ARGM-ADJ 8:0-rel 9:1-ARG2 14:1-ARGM-TMP 20:1-ARG1
+nw/wsj/03/wsj_0323.parse 0 7 gold base base.01 ----- 3:1*8:1-ARG1 3:1*8:1-LINK-PSV 7:0-rel 9:1-ARGM-LOC
+nw/wsj/03/wsj_0323.parse 0 12 gold say say.01 ----- 0:2-ARG0 12:0-rel 13:1-ARG1
+nw/wsj/03/wsj_0323.parse 5 3 gold forecast forecast.01 ----- 0:1-ARG0 3:0-rel 4:2-ARG1
+nw/wsj/03/wsj_0323.parse 3 2 gold say say.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
+nw/wsj/03/wsj_0323.parse 0 29 gold surge surge.01 ----- 14:2-ARG1 23:1-ARGM-TMP 29:0-rel 30:1-ARG4 41:1-ARG3
+nw/wsj/03/wsj_0323.parse 4 6 gold have have.LV ----- 6:0-rel 8:0-ARGM-PRR

@@ -1,0 +1,14 @@
+bn/cnn/02/cnn_0224.parse 3 4 gold say say.01 ----- 0:1-ARG0 4:0-rel 5:1-ARG1
+bn/cnn/02/cnn_0224.parse 1 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+bn/cnn/02/cnn_0224.parse 3 13 gold be be.03 ----- 13:0-rel
+bn/cnn/02/cnn_0224.parse 2 5 gold be be.03 ----- 5:0-rel
+bn/cnn/02/cnn_0224.parse 1 16 gold be be.03 ----- 16:0-rel
+bn/cnn/02/cnn_0224.parse 0 6 gold bomb bomb.01 ----- 3:0-ARG1 4:0-ARGM-ADJ 5:0-ARGM-ADJ 6:0-rel 7:1-ARGM-TMP
+bn/cnn/02/cnn_0224.parse 2 6 gold kill kill.01 ----- 0:2*7:1-ARG1 6:0-rel
+bn/cnn/02/cnn_0224.parse 1 17 gold stop stop.01 ----- 14:1*23:1-ARGM-TMP 15:1*18:1-ARG1 17:0-rel 19:1-ARG0
+bn/cnn/02/cnn_0224.parse 1 5 gold blow blow_up.06 ----- 3:1-ARG0 5:0,7:1-rel 6:1-ARG1 8:1-ARGM-LOC 14:2-ARGM-TMP
+bn/cnn/02/cnn_0224.parse 0 1 gold have have.01 ----- 1:0-rel
+bn/cnn/02/cnn_0224.parse 2 14 gold be be.03 ----- 14:0-rel
+bn/cnn/02/cnn_0224.parse 0 2 gold experience experience.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
+bn/cnn/02/cnn_0224.parse 2 15 gold hurt hurt.01 ----- 10:3*16:1-ARG1 15:0-rel
+bn/cnn/02/cnn_0224.parse 3 14 gold claim claim.01 ----- 6:2-ARG0 14:0-rel 15:1-ARG1
