@@ -1089,10 +1089,6 @@ def start(input_fname, conll_fname, output_fname, encoding, changes):
     conll_file = codecs.open(conll_fname, "r", encoding)
     for line in conll_file:
         if(line.strip() == ""):
-            print ">>>>>", len(sentences) == len(w_list[i]), len(w_list[i])
-            if not len(sentences) == len(w_list[i]):
-              print(sentences)
-              print w_list[i]
             assert len(sentences) == len(w_list[i]), "the example should contain the same number of words as the words in the parse"
 
 

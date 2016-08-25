@@ -1,18 +1,22 @@
-import json, codecs, os, logging
+import json, codecs, os, logging, argparse
 import skeleton2conll
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger('setup')
-33
 
-j =json.load(codecs.open("localtreepaths.json",'r','utf-8'))
 
+
+
+##########################################
+########## An inefficient pile of dictionaries for the slight changes in directory structure, etc. which we see in each release...
+############################################
 localpaths = {}
 localpaths['ontonotes'] = os.path.abspath('../../data/ontonotes/')
 localpaths['ewt'] = os.path.abspath("../../data/google/ewt/")
 localpaths['questionbank'] = os.path.abspath("../../data/google/questionbank/")
 
 metadata = {'ontonotes':'data/files/data/english/annotations/', "ewt":"data/", "questionbank":'data/'}
-modifications = {'ontonotes':[], "ewt":[("/00",'/penntree')], "questionbank":[('questionbank/00','')]}	
+modifications = {'ontonotes':[], "ewt":[("/00",'/penntree')], "questionbank":[('questionbank/00','')]}    
 filemoddict = {"questionbank":[('QB-revised','QB-revised.v1')]}
 flagdict = {"questionbank":["--topless"],"ewt":["--topless"], "ontonotes":[]}
 
@@ -36,38 +40,46 @@ metadata['bolt-df-7'], metadata['bolt-df-6'], metadata['bolt-df-5'], metadata['b
 flagdict['bolt-df-7'],flagdict['bolt-df-6'],flagdict['bolt-df-5'],flagdict['bolt-df-4'],flagdict['bolt-df-3'],flagdict['bolt-df-2'],flagdict['bolt-df-1'] = ['--topless'], ['--topless'],['--topless'],['--topless'], ['--topless'],['--topless'],['--topless']
 
 
+def flesh_out_all_skel_files(corpora):
+    for a_project in corpora:
+        if os.path.exists(corpora[a_project]):
+            for any_folder, __, list_of_files in os.walk(localpaths[a_project]):
+                for each_file in [x for x in list_of_files if ".gold_skel" in x]:        
+                    parse_folder= os.path.normpath(corpora[a_project]+metadata.get(a_project,"")+any_folder.replace(localpaths[a_project],""))
+                    for element in modifications[a_project]:
+                        parse_folder = parse_folder.replace(element[0], element[1])
+                    for each_parse_file in [x for x in os.listdir(parse_folder)]:
+                        tempparsefile = each_parse_file
+                        if a_project in filemoddict:
+                            for term in filemoddict[a_project]:
+                                tempparsefile = tempparsefile.replace(term[0],term[1])
+                        if each_file.replace(".gold_skel","") in tempparsefile and (tempparsefile.endswith(".parse") or tempparsefile.endswith(".tree")):
+                            skeleton2conll.start(parse_folder+"/"+each_parse_file, any_folder+"/"+each_file, any_folder+"/"+each_file.replace(".gold_skel",".gold_conll"), 'utf8', ["-trace","--text"]+flagdict.get(a_project,[]))
+
+
+if __name__ == "__main__":
+    corpora = {}
+    boltpackages =json.load(codecs.open("boltreleases.json",'r','utf-8'))
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--ontonotes", help="Location of extracted ontonotes 5.0", default=False)
+    parser.add_argument("--ewt", help="Location of extracted English Web Treebank top directory (LDC2012T13", default=False)
+    parser.add_argument("--questionbank", help="Location of extracted questionbank directory", default=False)
+    parser.add_argument("--bolt", help="base directory of bolt folders (assuming bolt LDC packages listed in boltreleases.json)", default=False)
+    args = parser.parse_args()
+    if args.ontonotes:
+        corpora["ontonotes"] = args.ontonotes
+    if args.ewt:
+        corpora["ewt"] = args.ewt
+    if args.questionbank:
+        corpora["questionbank"] = args.questionbank
+    if args.bolt:
+        for each_release in boltpackages:
+            if os.path.exists(os.path.normpath(args.bolt+'/'+boltpackages[each_release])):
+                corpora[each_release] = os.path.normpath(args.bolt+'/'+boltpackages[each_release])
+    flesh_out_all_skel_files(corpora)
 
 
 
-for a_project in j:
 
-	if os.path.exists(j[a_project]):
-		#if a_project in ["ontonotes", 'ewt', 'questionbank']:
-		#	continue
-		#elif "-sms" in a_project or '-cts' in a_project:
-		#	continue
-		for any_folder, __, list_of_files in os.walk(localpaths[a_project]):
-			#print any_folder
-			print any_folder
-			for each_file in [x for x in list_of_files if ".gold_skel" in x]:		
-				#print(each_file)
-				j[a_project]
-				parse_folder= os.path.normpath(j[a_project]+metadata.get(a_project,"")+any_folder.replace(localpaths[a_project],""))
-
-				for element in modifications[a_project]:
-					
-					parse_folder = parse_folder.replace(element[0], element[1])
-				#print parse_folder, os.path.exists(parse_folder)
-				for each_parse_file in [x for x in os.listdir(parse_folder)]:
-					
-					tempparsefile = each_parse_file
-					if a_project in filemoddict:
-						for term in filemoddict[a_project]:
-							tempparsefile = tempparsefile.replace(term[0],term[1])
-					#print tempparsefile, each_file, each_file.replace(".gold_skel","") in tempparsefile
-					if each_file.replace(".gold_skel","") in tempparsefile and (tempparsefile.endswith(".parse") or tempparsefile.endswith(".tree")):
-						print each_file, each_parse_file
-						#
-						print a_project, any_folder.replace(localpaths[a_project],""), each_file, each_parse_file
-						#print os.path.exists(parse_folder+"/"+each_parse_file) and os.path.exists(any_folder+"/"+each_file)
-						skeleton2conll.start(parse_folder+"/"+each_parse_file, any_folder+"/"+each_file, any_folder+"/"+each_file.replace(".gold_skel",".gold_conll"), 'utf8', ["-trace","--text"]+flagdict.get(a_project,[]))
+    
