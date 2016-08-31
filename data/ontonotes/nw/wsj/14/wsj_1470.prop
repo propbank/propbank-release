@@ -61,6 +61,7 @@ nw/wsj/14/wsj_1470.parse 36 17 gold paint paint.01 ----- 14:1*18:1-ARG1 15:0-ARG
 nw/wsj/14/wsj_1470.parse 10 3 gold contest contest.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
 nw/wsj/14/wsj_1470.parse 38 5 gold get get.04 ----- 1:1*3:1-ARG0 5:0-rel 6:1-ARG1 8:1-ARGM-DIR 12:1-ARGM-DIR
 nw/wsj/14/wsj_1470.parse 37 10 gold hear hear.01 ----- 0:3-ARG1 9:1-ARGM-TMP 10:0-rel 11:1-ARGM-LOC
+nw/wsj/14/wsj_1470.parse 46 13 gold practice practice.01 ----- 0:2*12:1-ARG0 13:0-rel 14:1-ARG1
 nw/wsj/14/wsj_1470.parse 29 10 gold custody custody.01 ----- 10:0-rel
 nw/wsj/14/wsj_1470.parse 11 6 gold fail fail.01 ----- 3:1-ARG1 6:0-rel 7:2-ARG2
 nw/wsj/14/wsj_1470.parse 35 9 gold say say.01 ----- 0:3*11:1-ARG1 9:0-rel 12:2-ARG0
@@ -125,7 +126,6 @@ nw/wsj/14/wsj_1470.parse 9 10 gold test test.01 ----- 6:1-ARG1 9:0-ARGM-TMP 10:0
 nw/wsj/14/wsj_1470.parse 2 26 gold compensate compensate.01 ----- 8:1*14:1*15:1-ARG0 8:1*14:1-LINK-SLC 26:0-rel 27:2-ARG2
 nw/wsj/14/wsj_1470.parse 30 0 gold design design.01 ----- 0:0-rel
 nw/wsj/14/wsj_1470.parse 21 7 gold brush brush_up.03 ----- 4:1*5:1-ARG0 7:0,8:1-rel 9:1-ARG1
-nw/wsj/14/wsj_1470.parse 46 13 gold practice practice.01 ----- 0:3*12:1-ARG0 13:0-rel
 nw/wsj/14/wsj_1470.parse 44 1 gold survey survey.01 ----- 0:0-ARG0 1:0-rel 2:1-ARG1
 nw/wsj/14/wsj_1470.parse 17 26 gold learn learn.01 ----- 13:1*14:1*27:1-ARG1 13:1*14:1-LINK-SLC 15:1-ARG0 25:0-ARGM-NEG 26:0-rel 28:1-ARGM-LOC
 nw/wsj/14/wsj_1470.parse 24 15 gold require require.01 ----- 0:1-ARGM-LOC 9:1*16:1-ARG2 15:0-rel 18:1-ARG1

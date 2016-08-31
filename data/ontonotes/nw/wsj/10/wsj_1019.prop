@@ -22,6 +22,7 @@ nw/wsj/10/wsj_1019.parse 8 18 gold concern concern.01 ----- 18:0-rel 19:1-ARG0
 nw/wsj/10/wsj_1019.parse 9 11 gold say say.01 ----- 0:0-ARGM-DIS 1:2-ARG0 11:0-rel 12:1-ARG1
 nw/wsj/10/wsj_1019.parse 9 14 gold do do.01 ----- 14:0-rel
 nw/wsj/10/wsj_1019.parse 12 18 gold trade trade.01 ----- 17:0-ARG1 18:0-rel
+nw/wsj/10/wsj_1019.parse 26 5 gold hope hope.01 ----- 0:1-ARGM-DIS 2:1-ARG0 5:0-rel 6:2-ARG1
 nw/wsj/10/wsj_1019.parse 10 43 gold step step_up.03 ----- 42:1-ARG0 43:0,44:1-rel 45:2-ARG1
 nw/wsj/10/wsj_1019.parse 8 16 gold have have.01 ----- 16:0-rel
 nw/wsj/10/wsj_1019.parse 18 5 gold be be.03 ----- 5:0-rel
@@ -115,6 +116,7 @@ nw/wsj/10/wsj_1019.parse 19 2 gold be be.03 ----- 2:0-rel
 nw/wsj/10/wsj_1019.parse 19 16 gold have have.03 ----- 15:1-ARG0 16:0-rel 17:2-ARG1 21:1-ARGM-LOC
 nw/wsj/10/wsj_1019.parse 6 2 gold be be.03 ----- 2:0-rel
 nw/wsj/10/wsj_1019.parse 17 7 gold lose lose.02 ----- 1:1-ARG0 7:0-rel 8:1-ARG1 10:1-ARGM-LOC
+nw/wsj/10/wsj_1019.parse 6 1 gold approve approve.01 ----- 0:1-ARGM-DIS 1:0-rel 4:1-ARG1
 nw/wsj/10/wsj_1019.parse 18 15 gold trade trade.01 ----- 14:0-ARGM-MNR 15:0-rel
 nw/wsj/10/wsj_1019.parse 9 26 gold trade trade.01 ----- 24:0-ARG1 26:0-rel
 nw/wsj/10/wsj_1019.parse 16 32 gold account account.01 ----- 25:1*28:1*29:1-ARG0 25:1*28:1-LINK-SLC 30:1-ARGM-TMP 32:0-rel 33:1-ARG1
@@ -128,14 +130,12 @@ nw/wsj/10/wsj_1019.parse 10 60 gold swing swing.03 ----- 54:1-ARG1 58:0-ARGM-MNR
 nw/wsj/10/wsj_1019.parse 31 8 gold halt halt.01 ----- 7:0-ARG1 8:0-rel
 nw/wsj/10/wsj_1019.parse 4 10 gold approve approve.01 ----- 6:0-ARGM-MNR 7:1-ARGM-TMP 10:0-rel
 nw/wsj/10/wsj_1019.parse 32 10 gold leave leave.11 ----- 1:1-ARGM-ADV 7:1-ARG0 8:0-ARGM-MOD 10:0-rel 11:1-ARGM-MNR
-nw/wsj/10/wsj_1019.parse 6 1 gold approve approve.01 ----- 0:1-ARGM-DIS 1:0-rel 1:1*3:1-ARG1
 nw/wsj/10/wsj_1019.parse 0 5 gold be be.03 ----- 5:0-rel
 nw/wsj/10/wsj_1019.parse 23 9 gold have have.01 ----- 9:0-rel
 nw/wsj/10/wsj_1019.parse 16 15 gold confirm confirm.01 ----- 9:2-ARG0 15:0-rel 16:1-ARG1
 nw/wsj/10/wsj_1019.parse 28 6 gold be be.01 ----- 3:1-ARG1 6:0-rel 7:1-ARG2 13:1-ARGM-CAU
 nw/wsj/10/wsj_1019.parse 33 11 gold trade trade.01 ----- 8:2-ARGM-TMP 11:0-rel 12:1-ARGM-LOC
 nw/wsj/10/wsj_1019.parse 0 13 gold trade trade.01 ----- 12:0-ARG1 13:0-rel
-nw/wsj/10/wsj_1019.parse 26 5 gold hope hope.01 ----- 0:1-ARGM-DIS 2:1-ARG0 5:0-rel 6:2-ARG1
 nw/wsj/10/wsj_1019.parse 16 21 gold want want.01 ----- 17:1-ARG0 20:0-ARGM-NEG 21:0-rel 22:2-ARG1
 nw/wsj/10/wsj_1019.parse 8 26 gold attract attract.01 ----- 20:2-ARG0 25:0-ARGM-MOD 26:0-rel 27:3-ARG1
 nw/wsj/10/wsj_1019.parse 30 18 gold suggest suggest.01 ----- 0:2-ARGM-ADV 16:1-ARG0 18:0-rel 19:1-ARG1

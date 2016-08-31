@@ -15,6 +15,7 @@ nw/wsj/12/wsj_1264.parse 2 10 gold worry worry.02 ----- 0:1-ARGM-LOC 7:1*11:1-AR
 nw/wsj/12/wsj_1264.parse 24 14 gold limit limit.01 ----- 14:0-rel 15:0-ARG1
 nw/wsj/12/wsj_1264.parse 21 20 gold say say.01 ----- 0:2*21:1-ARG1 18:1-ARG0 20:0-rel
 nw/wsj/12/wsj_1264.parse 30 8 gold consider consider.01 ----- 4:1*9:1-ARG1 6:1-ARG0 8:0-rel
+nw/wsj/12/wsj_1264.parse 25 17 gold break break.02 ----- 8:1*14:1*15:1-ARG0 17:0-rel 18:1-ARG1 20:1-ARGM-ADV
 nw/wsj/12/wsj_1264.parse 18 8 gold raise raise.01 ----- 0:3-ARG0 8:0-rel 9:1-ARG1
 nw/wsj/12/wsj_1264.parse 16 1 gold be be.03 ----- 1:0-rel
 nw/wsj/12/wsj_1264.parse 19 6 gold interview interview.01 ----- 5:0-ARGM-MNR 6:0-rel 7:1-ARGM-LOC
@@ -51,7 +52,6 @@ nw/wsj/12/wsj_1264.parse 2 8 gold be be.03 ----- 8:0-rel
 nw/wsj/12/wsj_1264.parse 22 5 gold be be.03 ----- 5:0-rel
 nw/wsj/12/wsj_1264.parse 18 3 gold absent absent.01 ----- 0:1-ARG1 3:0-rel 4:1-ARG2
 nw/wsj/12/wsj_1264.parse 10 16 gold indicate indicate.01 ----- 1:1-ARGM-ADV 8:2-ARG0 16:0-rel 17:1-ARG1
-nw/wsj/12/wsj_1264.parse 25 17 gold break break.02 ----- 5:2*15:1-ARG0 17:0-rel
 nw/wsj/12/wsj_1264.parse 0 2 gold be be.03 ----- 2:0-rel
 nw/wsj/12/wsj_1264.parse 17 12 gold be be.01 ----- 0:1-ARGM-DIS 2:2-ARG1 12:0-rel 13:1-ARG2
 nw/wsj/12/wsj_1264.parse 3 4 gold talk talk.01 ----- 0:0-ARGM-DIS 1:1-ARG0 3:1-ARGM-DIS 4:0-rel 5:1-ARG1

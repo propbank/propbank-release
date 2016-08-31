@@ -404,6 +404,7 @@ nw/wsj/20/wsj_2013.parse 156 17 gold indict indict.01 ----- 0:2-ARG0 16:1*18:1-A
 nw/wsj/20/wsj_2013.parse 148 4 gold request request.01 ----- 4:0-rel
 nw/wsj/20/wsj_2013.parse 125 6 gold allow allow.01 ----- 4:1-ARG0 6:0-rel 7:2-ARG1
 nw/wsj/20/wsj_2013.parse 13 49 gold beat beat.01 ----- 35:1-ARG0 48:1-ARGM-MNR 49:0-rel 50:1*51:1-ARG1
+nw/wsj/20/wsj_2013.parse 146 6 gold go go_on.25 ----- 0:1-ARG1-DSP 6:0,7:1-rel 4:1-ARG0 10:2-ARGM-ADV
 nw/wsj/20/wsj_2013.parse 55 7 gold be be.03 ----- 7:0-rel
 nw/wsj/20/wsj_2013.parse 28 28 gold send send.01 ----- 0:1-ARG0 5:1-ARGM-TMP 28:0-rel 29:1-ARG2 30:2-ARG1
 nw/wsj/20/wsj_2013.parse 125 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
@@ -572,7 +573,6 @@ nw/wsj/20/wsj_2013.parse 36 11 gold advance advance.01 ----- 6:2-ARG0 10:0-ARGM-
 nw/wsj/20/wsj_2013.parse 6 10 gold telephone telephone.01 ----- 7:1*8:1*9:1-ARG0 7:1*8:1-LINK-SLC 10:0-rel 11:1-ARG1 15:2-ARGM-PRP 19:1-ARGM-TMP
 nw/wsj/20/wsj_2013.parse 55 18 gold find find.01 ----- 14:1*15:1*19:1-ARG1 18:0-rel 20:1-ARGM-MNR
 nw/wsj/20/wsj_2013.parse 93 11 gold run run.10 ----- 9:0-ARG1 11:0-rel
-nw/wsj/20/wsj_2013.parse 146 6 gold go go_on.25 ----- 0:1*8:1-ARG1 6:0,7:1-rel
 nw/wsj/20/wsj_2013.parse 113 38 gold catch catch.03 ----- 23:1*39:1-ARG1 36:1-ARGM-TMP 38:0-rel 40:1-ARG2
 nw/wsj/20/wsj_2013.parse 45 17 gold assign assign.01 ----- 16:0-ARGM-ADJ 17:0-rel 19:2-ARG1
 nw/wsj/20/wsj_2013.parse 70 36 gold call call.01 ----- 31:1*37:1-ARG1 31:1*37:1-LINK-PSV 36:0-rel 40:2-ARG2

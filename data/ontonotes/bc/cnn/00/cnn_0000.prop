@@ -309,6 +309,7 @@ bc/cnn/00/cnn_0000.parse 224 22 gold rule rule.01 ----- 22:0-rel
 bc/cnn/00/cnn_0000.parse 482 14 gold hold hold.04 ----- 7:1*8:1*37:1-ARGM-LOC 7:1*8:1-LINK-SLC 9:2*15:1;17:1-ARG1 14:0-rel 16:1-ARGM-TMP
 bc/cnn/00/cnn_0000.parse 533 13 gold believe believe.01 ----- 12:1-ARG0 13:0-rel 14:1-ARG1
 bc/cnn/00/cnn_0000.parse 227 9 gold contact contact.01 ----- 4:1*7:1-ARG0 9:0-rel 10:1-ARG1
+bc/cnn/00/cnn_0000.parse 415 14 gold be be.01 ----- 12:2-ARG1 14:0-rel 15:1-ARG2
 bc/cnn/00/cnn_0000.parse 480 26 gold combat combat.01 ----- 26:0-rel
 bc/cnn/00/cnn_0000.parse 99 19 gold see see.01 ----- 17:1-ARG0 18:1-ARGM-ADV 19:0-rel 20:2-ARG1
 bc/cnn/00/cnn_0000.parse 123 12 gold speak speak.01 ----- 10:1-ARG0 12:0-rel 13:1-ARGM-ADV
@@ -405,7 +406,6 @@ bc/cnn/00/cnn_0000.parse 567 7 gold redeem redeem.01 ----- 6:0-ARG1 7:0-rel
 bc/cnn/00/cnn_0000.parse 287 5 gold be be.01 ----- 4:1-ARG1 5:0-rel 6:1-ARG2
 bc/cnn/00/cnn_0000.parse 326 8 gold be be.01 ----- 7:1-ARG1 8:0-rel 9:1-ARGM-ADV 10:2-ARG2
 bc/cnn/00/cnn_0000.parse 573 10 gold treat treat.01 ----- 2:1*8:1-ARG0 2:1*8:1-LINK-PRO 10:0-rel 11:1-ARG1 12:1-ARGM-DIS 13:1-ARG2
-bc/cnn/00/cnn_0000.parse 415 14 gold be be.01 ----- 12:2-ARG1 14:0-rel 15:1-ARG2
 bc/cnn/00/cnn_0000.parse 261 10 gold show show.01 ----- 3:2-ARG0 10:0-rel 11:1-ARG2 12:2-ARG1
 bc/cnn/00/cnn_0000.parse 125 38 gold sustain sustain.02 ----- 37:1-ARG0 38:0-rel 39:2-ARG1 44:1-ARGM-MNR
 bc/cnn/00/cnn_0000.parse 338 8 gold be be.01 ----- 0:1-ARGM-DIS 8:0-rel 9:1-ARG2 10:1-ARG1

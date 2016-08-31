@@ -13,6 +13,7 @@ ewt/weblog/00/blogspot.com_dakbangla_20050210141134_ENG_20050210_141134.xml.pars
 ewt/weblog/00/blogspot.com_dakbangla_20050210141134_ENG_20050210_141134.xml.parse 18 23 gold rule rule.03 ----- 19:1*21:1*22:1-ARG0 19:1*21:1-LINK-SLC 23:0-rel 24:1-ARG1
 ewt/weblog/00/blogspot.com_dakbangla_20050210141134_ENG_20050210_141134.xml.parse 32 2 gold implicate implicate.01 ----- 2:0-rel 3:1-ARG0
 ewt/weblog/00/blogspot.com_dakbangla_20050210141134_ENG_20050210_141134.xml.parse 62 4 gold acknowledge acknowledge.01 ----- 0:2*5:1-ARG0 3:1-ARGM-ADV 4:0-rel 6:1-ARG1
+ewt/weblog/00/blogspot.com_dakbangla_20050210141134_ENG_20050210_141134.xml.parse 45 14 gold purchase purchase.01 ----- 0:2*10:1*15:1-ARG1 14:0-rel 16:1-ARGM-DIR
 ewt/weblog/00/blogspot.com_dakbangla_20050210141134_ENG_20050210_141134.xml.parse 16 26 gold be be.01 ----- 12:2-ARG1 26:0-rel 27:1-ARG2
 ewt/weblog/00/blogspot.com_dakbangla_20050210141134_ENG_20050210_141134.xml.parse 1 7 gold become become.01 ----- 0:1-ARGM-TMP 4:1-ARG1 7:0-rel 8:1-ARG2
 ewt/weblog/00/blogspot.com_dakbangla_20050210141134_ENG_20050210_141134.xml.parse 25 22 gold turn turn.01 ----- 0:1-ARGM-ADV 21:1-ARG0 22:0-rel 23:1-ARGM-DIR
@@ -90,7 +91,6 @@ ewt/weblog/00/blogspot.com_dakbangla_20050210141134_ENG_20050210_141134.xml.pars
 ewt/weblog/00/blogspot.com_dakbangla_20050210141134_ENG_20050210_141134.xml.parse 33 6 gold have have.01 ----- 6:0-rel
 ewt/weblog/00/blogspot.com_dakbangla_20050210141134_ENG_20050210_141134.xml.parse 21 14 gold quote quote.01 ----- 0:2-ARG0 14:0-rel 15:2-ARG2
 ewt/weblog/00/blogspot.com_dakbangla_20050210141134_ENG_20050210_141134.xml.parse 11 5 gold come come.04 ----- 0:2-ARG1 5:0-rel 6:1-ARG2 8:1-ARGM-TMP
-ewt/weblog/00/blogspot.com_dakbangla_20050210141134_ENG_20050210_141134.xml.parse 45 14 gold purchase purchase.01 ----- 0:3*10:1*15:1-ARG1 14:0-rel
 ewt/weblog/00/blogspot.com_dakbangla_20050210141134_ENG_20050210_141134.xml.parse 69 10 gold be be.01 ----- 5:1*8:1*9:1-ARG1 5:1*8:1-LINK-SLC 10:0-rel 11:1-ARG2
 ewt/weblog/00/blogspot.com_dakbangla_20050210141134_ENG_20050210_141134.xml.parse 36 3 gold do do.02 ----- 1:1-ARG0 3:0-rel 4:1-ARGM-MNR 5:1-ARG2
 ewt/weblog/00/blogspot.com_dakbangla_20050210141134_ENG_20050210_141134.xml.parse 30 25 gold bring bring.01 ----- 16:1*24:1-ARG0 25:0-rel 26:1-ARG3 27:1-ARG1 28:1-ARG2
@@ -117,7 +117,6 @@ ewt/weblog/00/blogspot.com_dakbangla_20050210141134_ENG_20050210_141134.xml.pars
 ewt/weblog/00/blogspot.com_dakbangla_20050210141134_ENG_20050210_141134.xml.parse 47 31 gold be be.03 ----- 31:0-rel
 ewt/weblog/00/blogspot.com_dakbangla_20050210141134_ENG_20050210_141134.xml.parse 54 4 gold maintain maintain.01 ----- 0:1-ARGM-TMP 2:1-ARG0 4:0-rel 5:1-ARG1 7:1-ARGM-LOC
 ewt/weblog/00/blogspot.com_dakbangla_20050210141134_ENG_20050210_141134.xml.parse 0 3 gold implicate implicate.01 ----- 3:0-rel 4:1-ARG0
-ewt/weblog/00/blogspot.com_dakbangla_20050210141134_ENG_20050210_141134.xml.parse 45 9 gold believe believe.01 ----- 0:3,10:2-ARG1 9:0-rel
 ewt/weblog/00/blogspot.com_dakbangla_20050210141134_ENG_20050210_141134.xml.parse 23 3 gold issue issue.01 ----- 0:1*4:1-ARG1 0:1*4:1-LINK-PSV 3:0-rel 5:1-ARGM-TMP
 ewt/weblog/00/blogspot.com_dakbangla_20050210141134_ENG_20050210_141134.xml.parse 43 11 gold know know.01 ----- 0:1-ARGM-ADV 3:2-ARG1 10:0-ARGM-EXT 11:0-rel 12:1-ARG0
 ewt/weblog/00/blogspot.com_dakbangla_20050210141134_ENG_20050210_141134.xml.parse 44 5 gold be be.03 ----- 5:0-rel
@@ -125,6 +124,7 @@ ewt/weblog/00/blogspot.com_dakbangla_20050210141134_ENG_20050210_141134.xml.pars
 ewt/weblog/00/blogspot.com_dakbangla_20050210141134_ENG_20050210_141134.xml.parse 49 27 gold confiscate confiscate.01 ----- 27:0-rel 28:1-ARG1
 ewt/weblog/00/blogspot.com_dakbangla_20050210141134_ENG_20050210_141134.xml.parse 37 32 gold exploit exploit.01 ----- 9:3*30:1-ARG0 32:0-rel 33:1-ARG1
 ewt/weblog/00/blogspot.com_dakbangla_20050210141134_ENG_20050210_141134.xml.parse 12 3 gold flock flock.02 ----- 0:1*1:1*2:1-ARG0 0:1*1:1-LINK-SLC 3:0-rel 4:1-ARG1 5:2-ARGM-PRP
+ewt/weblog/00/blogspot.com_dakbangla_20050210141134_ENG_20050210_141134.xml.parse 45 9 gold believe believe.01 ----- 0:2,10:2-ARG1 9:0-rel
 ewt/weblog/00/blogspot.com_dakbangla_20050210141134_ENG_20050210_141134.xml.parse 0 16 gold come come.04 ----- 1:1-ARGM-TMP 12:1-ARG1 15:1-ARGM-ADV 16:0-rel 17:1-ARG2
 ewt/weblog/00/blogspot.com_dakbangla_20050210141134_ENG_20050210_141134.xml.parse 32 15 gold come come.04 ----- 0:1-ARGM-TMP 11:1-ARG1 14:1-ARGM-ADV 15:0-rel 16:1-ARG2
 ewt/weblog/00/blogspot.com_dakbangla_20050210141134_ENG_20050210_141134.xml.parse 23 25 gold heighten high.02 ----- 21:1-ARG1 24:0,26:1-ARGM-CXN 25:0-rel

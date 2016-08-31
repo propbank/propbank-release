@@ -17,6 +17,7 @@ nw/wsj/22/wsj_2205.parse 11 4 gold trade trade.01 ----- 4:0-rel
 nw/wsj/22/wsj_2205.parse 17 11 gold panic panic.01 ----- 11:0-rel
 nw/wsj/22/wsj_2205.parse 8 2 gold go go.06 ----- 0:0-ARGM-MNR 1:1-ARG1 2:0-rel 3:1-ARGM-TMP 4:1-ARGM-LOC
 nw/wsj/22/wsj_2205.parse 24 22 gold have have.03 ----- 8:2*20:1-ARG0 22:0-rel 23:1-ARG1
+nw/wsj/22/wsj_2205.parse 34 8 gold say say.01 ----- 0:1-ARG1-DSP	 6:1-ARG0 8:0-rel 11:2-ARGM-MNR
 nw/wsj/22/wsj_2205.parse 26 3 gold do do.01 ----- 3:0-rel
 nw/wsj/22/wsj_2205.parse 17 30 gold run run.01 ----- 19:1*28:1*29:1-ARG0 19:1*28:1-LINK-SLC 30:0-rel 31:1-ARG1
 nw/wsj/22/wsj_2205.parse 22 14 gold be be.03 ----- 14:0-rel
@@ -101,7 +102,6 @@ nw/wsj/22/wsj_2205.parse 53 1 gold shout shout.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG
 nw/wsj/22/wsj_2205.parse 19 11 gold have have.03 ----- 4:2*8:1,15:1-ARGM-LOC 4:2*8:1-LINK-SLC 9:1-ARG0 11:0-rel 12:1-ARG1
 nw/wsj/22/wsj_2205.parse 24 18 gold smoke smoke.01 ----- 16:0-ARGM-NEG 18:0-rel
 nw/wsj/22/wsj_2205.parse 25 15 gold recover recover.02 ----- 0:1-ARGM-LOC 12:1-ARG0 15:0-rel 16:1-ARG1
-nw/wsj/22/wsj_2205.parse 34 8 gold say say.01 ----- 0:1*10:1-ARG1 8:0-rel
 nw/wsj/22/wsj_2205.parse 56 2 gold be be.01 ----- 1:1-ARG1 2:0-rel 3:1-ARG2
 nw/wsj/22/wsj_2205.parse 28 24 gold put put.01 ----- 18:2*23:1-ARG0 24:0,25:1-rel 26:1-ARG1
 nw/wsj/22/wsj_2205.parse 5 9 gold be be.01 ----- 0:1-ARGM-GOL 8:1-ARG1 9:0-rel 10:2-ARG2

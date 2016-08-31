@@ -12,7 +12,6 @@ nw/wsj/21/wsj_2110.parse 3 11 gold operate operate.01 ----- 7:2-ARG0 11:0-rel
 nw/wsj/21/wsj_2110.parse 2 11 gold trade trade.01 ----- 6:1*8:1*9:1-ARG0 6:1*8:1-LINK-SLC 11:0-rel 12:1-ARG4
 nw/wsj/21/wsj_2110.parse 27 1 gold add add.02 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:1-ARG2
 nw/wsj/21/wsj_2110.parse 22 16 gold execute execute.02 ----- 12:1*17:1-ARG1 16:0-rel
-nw/wsj/21/wsj_2110.parse 1 6 gold propose propose.01 ----- 4:1-ARG0 5:0-ARGM-MOD 6:0-rel 7:1-ARG1 9:1-ARGM-TMP
 nw/wsj/21/wsj_2110.parse 17 22 gold consider consider.01 ----- 21:1*23:1-ARG1 21:1*23:1-LINK-PRO 22:0-rel 24:1-ARGM-PRD
 nw/wsj/21/wsj_2110.parse 10 30 gold be be.01 ----- 17:2*28:1-ARG1 30:0-rel 31:1-ARG2
 nw/wsj/21/wsj_2110.parse 13 20 gold do do.01 ----- 20:0-rel
@@ -66,6 +65,7 @@ nw/wsj/21/wsj_2110.parse 19 9 gold trade trade.01 ----- 8:0-ARGM-MNR 9:0-rel
 nw/wsj/21/wsj_2110.parse 16 8 gold trade trade.01 ----- 7:0-ARGM-MNR 8:0-rel
 nw/wsj/21/wsj_2110.parse 7 5 gold trade trade.01 ----- 4:0-ARGM-MNR 5:0-rel
 nw/wsj/21/wsj_2110.parse 21 9 gold begin begin.01 ----- 7:1-ARG1 9:0-rel
+nw/wsj/21/wsj_2110.parse 1 6 gold propose propose.01 ----- 4:1-ARG0 5:0-ARGM-MOD 6:0-rel 7:1-ARG1 9:1-ARGM-TMP
 nw/wsj/21/wsj_2110.parse 3 2 gold explode explode.02 ----- 0:1-ARG1 2:0-rel 3:1-ARGM-TMP 5:1-ARGM-TMP
 nw/wsj/21/wsj_2110.parse 1 17 gold show show.01 ----- 13:1*15:1*16:1-ARG0 13:1*15:1-LINK-SLC 17:0-rel 18:2-ARG1
 nw/wsj/21/wsj_2110.parse 0 10 gold trade trade.01 ----- 9:0-ARGM-MNR 10:0-rel 11:1-ARGM-LOC

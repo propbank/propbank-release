@@ -16,6 +16,7 @@ nw/wsj/10/wsj_1026.parse 35 5 gold have have.01 ----- 5:0-rel
 nw/wsj/10/wsj_1026.parse 23 23 gold price price.01 ----- 23:0-rel
 nw/wsj/10/wsj_1026.parse 2 11 gold take take.01 ----- 0:1-ARGM-TMP 9:1-ARG1 11:0-rel 12:1-ARG2 14:2-ARGM-ADV
 nw/wsj/10/wsj_1026.parse 9 15 gold worry worry.02 ----- 9:2*12:1-ARGM-TMP 9:2*12:1-LINK-SLC 13:1-ARG0 15:0-rel 16:1-ARGM-TMP 17:1-ARG1
+nw/wsj/10/wsj_1026.parse 48 16 gold result result.01 ----- 3:1-ARGM-ADV 13:1-ARG2 15:0-ARGM-MOD 16:0-rel
 nw/wsj/10/wsj_1026.parse 50 1 gold be be.02 ----- 1:0-rel 2:1-ARGM-ADV 3:1-ARG1
 nw/wsj/10/wsj_1026.parse 38 29 gold buy buy.01 ----- 22:1*25:1*26:1-ARG0 22:1*25:1-LINK-SLC 28:1-ARGM-ADV 29:0-rel 30:1-ARG1 31:1-ARG3
 nw/wsj/10/wsj_1026.parse 44 2 gold be be.03 ----- 2:0-rel
@@ -26,7 +27,6 @@ nw/wsj/10/wsj_1026.parse 44 12 gold lack lack.01 ----- 12:0-rel 13:1-ARG1
 nw/wsj/10/wsj_1026.parse 28 15 gold be be.03 ----- 15:0-rel
 nw/wsj/10/wsj_1026.parse 40 2 gold note note.01 ----- 0:1-ARG0 1:1-ARGM-DIS 2:0-rel 3:1-ARG1
 nw/wsj/10/wsj_1026.parse 26 9 gold support support.01 ----- 0:3-ARG0 8:1-ARGM-DIS 9:0-rel 10:1-ARG1
-nw/wsj/10/wsj_1026.parse 48 16 gold result result.01 ----- 3:1-ARGM-ADV 13:1-ARG2 15:0-ARGM-MOD 16:0-rel
 nw/wsj/10/wsj_1026.parse 19 28 gold continue continue.01 ----- 28:0-rel 29:0,30:0-ARG1
 nw/wsj/10/wsj_1026.parse 3 20 gold resist resist.01 ----- 19:0-ARGM-EXT 20:0-rel
 nw/wsj/10/wsj_1026.parse 1 32 gold session session.01 ----- 32:0-rel

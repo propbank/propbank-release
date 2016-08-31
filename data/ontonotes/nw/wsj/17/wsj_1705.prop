@@ -8,6 +8,7 @@ nw/wsj/17/wsj_1705.parse 42 11 gold urge urge.01 ----- 1:1-ARGM-LOC 8:1-ARG0 11:
 nw/wsj/17/wsj_1705.parse 43 24 gold do do.01 ----- 24:0-rel
 nw/wsj/17/wsj_1705.parse 32 16 gold sniff sniff.02 ----- 0:2*18:1-ARG1 16:0-rel 19:2-ARG0
 nw/wsj/17/wsj_1705.parse 48 31 gold discontinue discontinue.01 ----- 25:2*29:1-ARG0 25:2*29:1-LINK-PRO 31:0-rel 32:1-ARG1
+nw/wsj/17/wsj_1705.parse 23 6 gold say say.01 ----- 0:1-ARG1-DSP 5:1-ARG0 6:0-rel
 nw/wsj/17/wsj_1705.parse 26 15 gold see see.01 ----- 11:1*13:1*14:1-ARG0 11:1*13:1-LINK-SLC 15:0-rel 16:3-ARG1
 nw/wsj/17/wsj_1705.parse 17 30 gold proclaim proclaim.01 ----- 0:1-ARGM-DIS 3:2-ARG0 29:1-ARGM-MNR 30:0-rel 33:2-ARG1
 nw/wsj/17/wsj_1705.parse 27 10 gold fail fail.01 ----- 10:0-rel 11:0,12:0-ARG1
@@ -58,7 +59,6 @@ nw/wsj/17/wsj_1705.parse 24 15 gold work work.01 ----- 13:1-ARG0 15:0-rel
 nw/wsj/17/wsj_1705.parse 47 24 gold say say.01 ----- 0:1-ARG0 4:2-ARGM-ADV 24:0-rel 25:1-ARG1
 nw/wsj/17/wsj_1705.parse 8 18 gold be be.01 ----- 17:1-ARG1 18:0-rel 19:2-ARG2
 nw/wsj/17/wsj_1705.parse 18 2 gold do do.01 ----- 2:0-rel
-nw/wsj/17/wsj_1705.parse 23 6 gold say say.01 ----- 0:1*7:1-ARG1 6:0-rel
 nw/wsj/17/wsj_1705.parse 30 4 gold sell sell.01 ----- 1:1-ARGM-ADV 3:1-ARG1 4:0-rel 5:1-ARGM-LOC
 nw/wsj/17/wsj_1705.parse 8 24 gold be be.01 ----- 19:1*22:1*23:1-ARG1 19:1*22:1-LINK-SLC 24:0-rel 25:1-ARGM-TMP 26:1-ARG2
 nw/wsj/17/wsj_1705.parse 1 20 gold go go.02 ----- 1:1-ARG0 20:0-rel

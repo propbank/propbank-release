@@ -34,7 +34,6 @@ pt/nt/44/nt_4420.parse 15 9 gold sit sit.01 ----- 2:2-ARG1 9:0-rel 10:1-ARG2
 pt/nt/44/nt_4420.parse 45 1 gold tell tell.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG2 4:2-ARG1
 pt/nt/44/nt_4420.parse 60 6 gold buy buy.01 ----- 2:1*4:1*7:1-ARG1 2:1*4:1-LINK-SLC 5:1-ARG0 6:0-rel 8:1-ARG3
 pt/nt/44/nt_4420.parse 50 7 gold finish finish.01 ----- 6:1-ARG0 7:0-rel 8:1-ARG1
-pt/nt/44/nt_4420.parse 51 17 gold do do.02 ----- 5:1*14:1*18:1-ARG1 5:1*14:1-LINK-SLC 15:1-ARG0 17:0-rel
 pt/nt/44/nt_4420.parse 34 1 gold do do.01 ----- 1:0-rel
 pt/nt/44/nt_4420.parse 30 10 gold come come.01 ----- 0:1-ARGM-TMP 4:1-ARG1 10:0-rel 11:1-ARG4
 pt/nt/44/nt_4420.parse 5 2 gold decide decide.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:2-ARG1
@@ -177,6 +176,7 @@ pt/nt/44/nt_4420.parse 13 3 gold plan plan.01 ----- 1:1-ARG0 3:0-rel 4:2-ARG1
 pt/nt/44/nt_4420.parse 60 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 pt/nt/44/nt_4420.parse 25 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2 4:2-ARGM-TMP
 pt/nt/44/nt_4420.parse 73 11 gold do do.02 ----- 10:1-ARG0 11:0-rel
+pt/nt/44/nt_4420.parse 51 17 gold do do.02 ----- 5:1*14:1*18:1-ARG1 5:1*14:1-LINK-SLC 15:1-ARG0 17:0-rel
 pt/nt/44/nt_4420.parse 44 1 gold tell tell.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG2 9:2-ARG1
 pt/nt/44/nt_4420.parse 57 12 gold have have.01 ----- 12:0-rel
 pt/nt/44/nt_4420.parse 55 18 gold blame blame.01 ----- 15:1-ARG0 16:0-ARGM-MOD 17:0-ARGM-NEG 18:0-rel 19:1-ARG1 20:1-ARGM-ADV

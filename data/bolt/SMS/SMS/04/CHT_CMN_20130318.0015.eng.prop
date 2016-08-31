@@ -1,101 +1,101 @@
-SMS/04/CHT_CMN_20130318.0015.eng.tree 0 1 gold invite invite.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:1-ARG2 5:1-ARGM-TMP 7:1-ARGM-DIS
-SMS/04/CHT_CMN_20130318.0015.eng.tree 1 2 gold let let.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:2-ARG1 9:1-ARGM-DIS
-SMS/04/CHT_CMN_20130318.0015.eng.tree 1 4 gold invite invite.01 ----- 3:1-ARG0 4:0-rel 5:1-ARG1 6:1-ARG2
-SMS/04/CHT_CMN_20130318.0015.eng.tree 2 4 gold drink drink.01 ----- 0:1-ARGM-DIS 2:1-ARG0 4:0-rel 5:1-ARGM-TMP
-SMS/04/CHT_CMN_20130318.0015.eng.tree 3 2 gold let let.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:3-ARG1
-SMS/04/CHT_CMN_20130318.0015.eng.tree 3 7 gold invite invite.01 ----- 3:2-ARG0 7:0-rel 8:1-ARG1 9:2-ARG2
-SMS/04/CHT_CMN_20130318.0015.eng.tree 3 12 gold eat eat.01 ----- 8:1*9:1-ARG0 12:0-rel 13:1-ARG1
-SMS/04/CHT_CMN_20130318.0015.eng.tree 4 4 gold be be.01 ----- 0:1-ARGM-DIS 3:1-ARG1 4:0-rel 5:1-ARG2
-SMS/04/CHT_CMN_20130318.0015.eng.tree 4 5 gold okay okay.01 ----- 0:1-ARGM-DIS 3:1-ARG1 5:0-rel
-SMS/04/CHT_CMN_20130318.0015.eng.tree 4 8 gold go go.06 ----- 7:1-ARG0 8:0-rel 9:1-ARG2 10:1-ARG1
-SMS/04/CHT_CMN_20130318.0015.eng.tree 4 16 gold seem seem.01 ----- 16:0-rel 17:1-ARG1
-SMS/04/CHT_CMN_20130318.0015.eng.tree 4 19 gold have have.01 ----- 19:0-rel
-SMS/04/CHT_CMN_20130318.0015.eng.tree 4 21 gold see see.01 ----- 18:1-ARG0 20:0-ARGM-NEG 21:0-rel 22:1-ARG1 23:1-ARGM-TMP
-SMS/04/CHT_CMN_20130318.0015.eng.tree 6 1 gold have have.01 ----- 1:0-rel
-SMS/04/CHT_CMN_20130318.0015.eng.tree 6 2 gold be be.03 ----- 2:0-rel
-SMS/04/CHT_CMN_20130318.0015.eng.tree 6 3 gold crave crave.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1 6:1-ARGM-TMP
+SMS/04/CHT_CMN_20130318.0015.eng.tree 30 16 gold depress depress.01 ----- 2:2*12:1*13:1-ARG0 2:2*12:1-LINK-SLC 15:0-ARGM-EXT 16:0-rel
+SMS/04/CHT_CMN_20130318.0015.eng.tree 42 2 gold turn turn_out.11 ----- 0:1-ARGM-DIS 1:1-ARG1 2:0,3:1-rel 4:1-ARG2
+SMS/04/CHT_CMN_20130318.0015.eng.tree 41 3 gold think overthink.06 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel
 SMS/04/CHT_CMN_20130318.0015.eng.tree 8 3 gold see see.01 ----- 2:1-ARG0 3:0-rel 4:1-ARG1 5:1-ARGM-LOC
-SMS/04/CHT_CMN_20130318.0015.eng.tree 8 9 gold talk talk.01 ----- 7:1-ARGM-ADV 8:1-ARG0 9:0-rel 10:1-ARG2
-SMS/04/CHT_CMN_20130318.0015.eng.tree 9 1 gold do do.01 ----- 1:0-rel
-SMS/04/CHT_CMN_20130318.0015.eng.tree 9 3 gold dream dream.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:1-ARG1 7:1-ARGM-DIS
-SMS/04/CHT_CMN_20130318.0015.eng.tree 10 3 gold want want.01 ----- 0:1-ARGM-TMP 2:1-ARG0 3:0-rel 4:2-ARG1
-SMS/04/CHT_CMN_20130318.0015.eng.tree 10 6 gold continue continue.01 ----- 2:1*4:1-ARG0 6:0-rel 7:2-ARG1
-SMS/04/CHT_CMN_20130318.0015.eng.tree 10 9 gold get get.03 ----- 2:1*4:1*7:1-ARG1 9:0-rel 10:1-ARG2
-SMS/04/CHT_CMN_20130318.0015.eng.tree 10 10 gold drunk drunk.01 ----- 2:1*4:1*7:1-ARG1 10:0-rel
-SMS/04/CHT_CMN_20130318.0015.eng.tree 11 0 gold do do.01 ----- 0:0-rel
-SMS/04/CHT_CMN_20130318.0015.eng.tree 11 2 gold go go.08 ----- 1:1-ARG1 2:0-rel 3:1-ARG2 4:1-ARG3 7:1-ARGM-TMP
-SMS/04/CHT_CMN_20130318.0015.eng.tree 11 3 gold wrong wrong.02 ----- 1:1-ARG1 3:0-rel 4:1-ARG2 7:1-ARGM-TMP
-SMS/04/CHT_CMN_20130318.0015.eng.tree 12 1 gold have have.01 ----- 1:0-rel
-SMS/04/CHT_CMN_20130318.0015.eng.tree 12 3 gold get get.01 ----- 0:1*8:1-ARGM-CAU 2:1-ARG0 3:0-rel 4:1-ARG1 7:1-ARGM-DIS
-SMS/04/CHT_CMN_20130318.0015.eng.tree 12 11 gold have have.01 ----- 11:0-rel
-SMS/04/CHT_CMN_20130318.0015.eng.tree 12 13 gold recover recover.01 ----- 10:1-ARG1 12:1-ARGM-EXT 13:0-rel 15:1-ARGM-DIS
-SMS/04/CHT_CMN_20130318.0015.eng.tree 13 4 gold have have.03 ----- 3:1-ARG0 4:0-rel 5:1-ARG1 6:2-ARGM-PRP
-SMS/04/CHT_CMN_20130318.0015.eng.tree 13 9 gold say say.01 ----- 6:1*10:1-ARG1 7:1-ARG0 9:0-rel
-SMS/04/CHT_CMN_20130318.0015.eng.tree 13 13 gold say say.01 ----- 0:1-ARGM-DIS 2:1-ARGM-ADV 12:1-ARG0 13:0-rel 14:1-ARG1 15:1-ARGM-MNR
-SMS/04/CHT_CMN_20130318.0015.eng.tree 14 1 gold be be.01 ----- 0:1*8:1-ARGM-CAU 1:0-rel 2:1-ARG1 3:1-ARG2
-SMS/04/CHT_CMN_20130318.0015.eng.tree 14 5 gold get get.03 ----- 4:1-ARG1 5:0-rel 6:1-ARG2
-SMS/04/CHT_CMN_20130318.0015.eng.tree 14 7 gold nervous nervous.01 ----- 4:1-ARG1 6:0-ARGM-EXT 7:0-rel
-SMS/04/CHT_CMN_20130318.0015.eng.tree 16 3 gold work work.01 ----- 0:1-ARGM-ADV 2:1-ARG0 3:0-rel 4:1-ARG2 6:1-ARG1
-SMS/04/CHT_CMN_20130318.0015.eng.tree 16 9 gold sell sell.01 ----- 8:0-ARGM-LOC 9:0-rel
-SMS/04/CHT_CMN_20130318.0015.eng.tree 17 1 gold let let.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
+SMS/04/CHT_CMN_20130318.0015.eng.tree 44 7 gold say say.01 ----- 6:1-ARG0 7:0-rel
+SMS/04/CHT_CMN_20130318.0015.eng.tree 50 7 gold go go.04 ----- 7:0-rel
 SMS/04/CHT_CMN_20130318.0015.eng.tree 17 3 gold have have.03 ----- 2:1-ARG0 3:0-rel 4:1-ARG1 6:1-ARGM-COM 7:2-ARGM-TMP
-SMS/04/CHT_CMN_20130318.0015.eng.tree 17 9 gold recover recover.01 ----- 7:1*13:1-ARGM-TMP 8:1-ARG1 9:0-rel 10:1-ARG2
-SMS/04/CHT_CMN_20130318.0015.eng.tree 18 3 gold be be.01 ----- 0:1-ARG1 1:0-ARGM-MOD 2:0-ARGM-NEG 3:0-rel 4:1-ARG2
+SMS/04/CHT_CMN_20130318.0015.eng.tree 10 6 gold continue continue.01 ----- 2:1*4:1-ARG0 6:0-rel 7:2-ARG1
+SMS/04/CHT_CMN_20130318.0015.eng.tree 3 2 gold let let.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:3-ARG1
 SMS/04/CHT_CMN_20130318.0015.eng.tree 18 6 gold dream dream.01 ----- 6:0-rel
-SMS/04/CHT_CMN_20130318.0015.eng.tree 18 7 gold be be.01 ----- 6:1-ARG1 7:0-rel 8:0-ARGM-NEG 9:1-ARG2
-SMS/04/CHT_CMN_20130318.0015.eng.tree 19 2 gold call call.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG1 4:2-ARG2
-SMS/04/CHT_CMN_20130318.0015.eng.tree 21 1 gold use use.03 ----- 1:0-rel
-SMS/04/CHT_CMN_20130318.0015.eng.tree 21 4 gold manage manage.01 ----- 0:1*2:1-ARG0 4:0-rel 5:1-ARG1 6:1-ARGM-TMP
-SMS/04/CHT_CMN_20130318.0015.eng.tree 22 1 gold have have.03 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
-SMS/04/CHT_CMN_20130318.0015.eng.tree 22 4 gold relate relation.03 ----- 3:0-ARGM-ADJ 4:0-rel 5:1-ARG2
-SMS/04/CHT_CMN_20130318.0015.eng.tree 23 2 gold know know.02 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1 6:1-ARGM-DIS
+SMS/04/CHT_CMN_20130318.0015.eng.tree 50 6 gold be be.03 ----- 6:0-rel
+SMS/04/CHT_CMN_20130318.0015.eng.tree 44 10 gold have have.02 ----- 10:0-rel
+SMS/04/CHT_CMN_20130318.0015.eng.tree 50 10 gold date date.02 ----- 2:1*4:1*5:1*8:1-ARG0 2:1*4:1-LINK-SLC 10:0-rel 11:1-ARG1
+SMS/04/CHT_CMN_20130318.0015.eng.tree 2 4 gold drink drink.01 ----- 0:1-ARGM-DIS 2:1-ARG0 4:0-rel 5:1-ARGM-TMP
 SMS/04/CHT_CMN_20130318.0015.eng.tree 24 2 gold spend spend.02 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:2-ARG1 6:1-ARGM-MNR
-SMS/04/CHT_CMN_20130318.0015.eng.tree 25 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-ADV 3:1-ARG2
-SMS/04/CHT_CMN_20130318.0015.eng.tree 27 1 gold do do.01 ----- 1:0-rel
+SMS/04/CHT_CMN_20130318.0015.eng.tree 32 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2 5:1-ARGM-DIS
+SMS/04/CHT_CMN_20130318.0015.eng.tree 11 2 gold go go.08 ----- 1:1-ARG1 2:0-rel 3:1-ARG2 4:1-ARG3 7:1-ARGM-TMP
+SMS/04/CHT_CMN_20130318.0015.eng.tree 47 3 gold wrong wrong.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:1-ARG1
+SMS/04/CHT_CMN_20130318.0015.eng.tree 42 7 gold introduce introduce.01 ----- 5:1*8:1-ARG1 7:0-rel 9:1-ARG0 12:1-ARGM-ADV
+SMS/04/CHT_CMN_20130318.0015.eng.tree 0 1 gold invite invite.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:1-ARG2 5:1-ARGM-TMP 7:1-ARGM-DIS
+SMS/04/CHT_CMN_20130318.0015.eng.tree 4 19 gold have have.01 ----- 19:0-rel
+SMS/04/CHT_CMN_20130318.0015.eng.tree 6 1 gold have have.01 ----- 1:0-rel
+SMS/04/CHT_CMN_20130318.0015.eng.tree 52 3 gold care care.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel
+SMS/04/CHT_CMN_20130318.0015.eng.tree 4 5 gold okay okay.01 ----- 0:1-ARGM-DIS 3:1-ARG1 5:0-rel
+SMS/04/CHT_CMN_20130318.0015.eng.tree 4 21 gold see see.01 ----- 18:1-ARG0 20:0-ARGM-NEG 21:0-rel 22:1-ARG1 23:1-ARGM-TMP
+SMS/04/CHT_CMN_20130318.0015.eng.tree 21 1 gold use use.03 ----- 1:0-rel
+SMS/04/CHT_CMN_20130318.0015.eng.tree 46 1 gold go go.06 ----- 0:1-ARG0 1:0-rel 2:1-ARG2 3:1-ARG1 7:1-ARGM-DIS
+SMS/04/CHT_CMN_20130318.0015.eng.tree 48 1 gold earn earn.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:1-ARGM-MNR
+SMS/04/CHT_CMN_20130318.0015.eng.tree 8 9 gold talk talk.01 ----- 7:1-ARGM-ADV 8:1-ARG0 9:0-rel 10:1-ARG2
+SMS/04/CHT_CMN_20130318.0015.eng.tree 36 3 gold resign resign.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:1-ARG1 6:1-ARGM-TMP
+SMS/04/CHT_CMN_20130318.0015.eng.tree 22 1 gold have have.03 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
+SMS/04/CHT_CMN_20130318.0015.eng.tree 29 3 gold wonder wonder.02 ----- 0:1-ARGM-DIS 2:0-ARGM-NEG 3:0-rel
+SMS/04/CHT_CMN_20130318.0015.eng.tree 17 1 gold let let.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
+SMS/04/CHT_CMN_20130318.0015.eng.tree 11 3 gold wrong wrong.02 ----- 1:1-ARG1 3:0-rel 4:1-ARG2 7:1-ARGM-TMP
+SMS/04/CHT_CMN_20130318.0015.eng.tree 37 5 gold be be.03 ----- 5:0-rel
+SMS/04/CHT_CMN_20130318.0015.eng.tree 40 1 gold do do.01 ----- 1:0-rel
+SMS/04/CHT_CMN_20130318.0015.eng.tree 18 7 gold be be.01 ----- 6:1-ARG1 7:0-rel 8:0-ARGM-NEG 9:1-ARG2
 SMS/04/CHT_CMN_20130318.0015.eng.tree 27 4 gold ask ask.01 ----- 0:1*6:1-ARGM-CAU 2:0-ARGM-NEG 3:1-ARG0 4:0-rel 5:1-ARG2
+SMS/04/CHT_CMN_20130318.0015.eng.tree 14 7 gold nervous nervous.01 ----- 4:1-ARG1 6:0-ARGM-EXT 7:0-rel
+SMS/04/CHT_CMN_20130318.0015.eng.tree 27 1 gold do do.01 ----- 1:0-rel
+SMS/04/CHT_CMN_20130318.0015.eng.tree 39 4 gold recruit recruit.01 ----- 0:1*2:1-ARG0 4:0-rel 5:1-ARG1
+SMS/04/CHT_CMN_20130318.0015.eng.tree 30 1 gold be be.02 ----- 1:0-rel 2:2-ARG1 12:2-ARGM-ADV
+SMS/04/CHT_CMN_20130318.0015.eng.tree 25 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-ADV 3:1-ARG2
+SMS/04/CHT_CMN_20130318.0015.eng.tree 46 14 gold go go.02 ----- 9:1-ARGM-DIS 12:1-ARG0 14:0-rel 15:1-ARG1 19:1-ARGM-DIS
+SMS/04/CHT_CMN_20130318.0015.eng.tree 6 3 gold crave crave.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1 6:1-ARGM-TMP
+SMS/04/CHT_CMN_20130318.0015.eng.tree 39 9 gold see see.01 ----- 8:1-ARG0 9:0-rel 10:1-ARG1 11:1-ARGM-LOC
+SMS/04/CHT_CMN_20130318.0015.eng.tree 4 16 gold seem seem.01 ----- 16:0-rel 17:1-ARG1
+SMS/04/CHT_CMN_20130318.0015.eng.tree 4 4 gold be be.01 ----- 0:1-ARGM-DIS 3:1-ARG1 4:0-rel 5:1-ARG2
+SMS/04/CHT_CMN_20130318.0015.eng.tree 21 4 gold manage manage.01 ----- 0:1*2:1-ARG0 4:0-rel 5:1-ARG1 6:1-ARGM-TMP
+SMS/04/CHT_CMN_20130318.0015.eng.tree 6 2 gold be be.03 ----- 2:0-rel
+SMS/04/CHT_CMN_20130318.0015.eng.tree 22 4 gold relate relation.03 ----- 3:0-ARGM-ADJ 4:0-rel 5:1-ARG2
+SMS/04/CHT_CMN_20130318.0015.eng.tree 40 3 gold wrong wrong.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:1-ARG1
+SMS/04/CHT_CMN_20130318.0015.eng.tree 36 1 gold have have.01 ----- 1:0-rel
+SMS/04/CHT_CMN_20130318.0015.eng.tree 41 1 gold do do.01 ----- 1:0-rel
+SMS/04/CHT_CMN_20130318.0015.eng.tree 1 4 gold invite invite.01 ----- 3:1-ARG0 4:0-rel 5:1-ARG1 6:1-ARG2
+SMS/04/CHT_CMN_20130318.0015.eng.tree 18 3 gold be be.01 ----- 0:1-ARG1 1:0-ARGM-MOD 2:0-ARGM-NEG 3:0-rel 4:1-ARG2
+SMS/04/CHT_CMN_20130318.0015.eng.tree 3 7 gold invite invite.01 ----- 3:2-ARG0 7:0-rel 8:1-ARG1 9:2-ARG2
+SMS/04/CHT_CMN_20130318.0015.eng.tree 30 14 gold be be.01 ----- 2:2*12:1*13:1-ARG1 2:2*12:1-LINK-SLC 14:0-rel 15:1-ARG2
+SMS/04/CHT_CMN_20130318.0015.eng.tree 12 11 gold have have.01 ----- 11:0-rel
+SMS/04/CHT_CMN_20130318.0015.eng.tree 3 12 gold eat eat.01 ----- 8:1*9:1-ARG0 12:0-rel 13:1-ARG1
+SMS/04/CHT_CMN_20130318.0015.eng.tree 39 1 gold come come.01 ----- 0:1-ARG1 1:0-rel 2:2-ARGM-PRP
+SMS/04/CHT_CMN_20130318.0015.eng.tree 37 7 gold work work.01 ----- 0:1-ARGM-TMP 3:1-ARG0 6:1-ARGM-TMP 7:0-rel 8:1-ARG2
+SMS/04/CHT_CMN_20130318.0015.eng.tree 16 3 gold work work.01 ----- 0:1-ARGM-ADV 2:1-ARG0 3:0-rel 4:1-ARG2 6:1-ARG1
+SMS/04/CHT_CMN_20130318.0015.eng.tree 23 2 gold know know.02 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1 6:1-ARGM-DIS
+SMS/04/CHT_CMN_20130318.0015.eng.tree 13 13 gold say say.01 ----- 0:1-ARGM-DIS 2:1-ARGM-ADV 12:1-ARG0 13:0-rel 14:1-ARG1 15:1-ARGM-MNR
+SMS/04/CHT_CMN_20130318.0015.eng.tree 14 5 gold get get.03 ----- 4:1-ARG1 5:0-rel 6:1-ARG2
+SMS/04/CHT_CMN_20130318.0015.eng.tree 12 13 gold recover recover.01 ----- 10:1-ARG1 12:1-ARGM-EXT 13:0-rel 15:1-ARGM-DIS
 SMS/04/CHT_CMN_20130318.0015.eng.tree 27 10 gold be be.01 ----- 8:1*15:1-ARGM-TMP 9:1-ARG1 10:0-rel 11:1-ARG2 12:1-ARGM-TMP
-SMS/04/CHT_CMN_20130318.0015.eng.tree 27 11 gold drunk drunk.01 ----- 8:1*15:1-ARGM-TMP 9:1-ARG1 11:0-rel 12:1-ARGM-TMP
+SMS/04/CHT_CMN_20130318.0015.eng.tree 10 10 gold drunk drunk.01 ----- 2:1*4:1*7:1-ARG1 10:0-rel
+SMS/04/CHT_CMN_20130318.0015.eng.tree 52 1 gold do do.01 ----- 1:0-rel
+SMS/04/CHT_CMN_20130318.0015.eng.tree 12 3 gold get get.01 ----- 0:1*8:1-ARGM-CAU 2:1-ARG0 3:0-rel 4:1-ARG1 7:1-ARGM-DIS
+SMS/04/CHT_CMN_20130318.0015.eng.tree 12 1 gold have have.01 ----- 1:0-rel
+SMS/04/CHT_CMN_20130318.0015.eng.tree 19 2 gold call call.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG1 4:2-ARG2
+SMS/04/CHT_CMN_20130318.0015.eng.tree 34 8 gold come come.01 ----- 6:1-ARG1 8:0-rel 10:1-ARGM-TMP
+SMS/04/CHT_CMN_20130318.0015.eng.tree 11 0 gold do do.01 ----- 0:0-rel
+SMS/04/CHT_CMN_20130318.0015.eng.tree 9 3 gold dream dream.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:1-ARG1 7:1-ARGM-DIS
+SMS/04/CHT_CMN_20130318.0015.eng.tree 43 1 gold come come_on.25 ----- 0:1-ARG1 1:0,2:1-rel
+SMS/04/CHT_CMN_20130318.0015.eng.tree 44 4 gold case case.03 ----- 4:0-rel
+SMS/04/CHT_CMN_20130318.0015.eng.tree 17 9 gold recover recover.01 ----- 7:1*13:1-ARGM-TMP 8:1-ARG1 9:0-rel 10:1-ARG2
+SMS/04/CHT_CMN_20130318.0015.eng.tree 51 4 gold kid kid.01 ----- 2:1-ARG0 4:0-rel
+SMS/04/CHT_CMN_20130318.0015.eng.tree 44 2 gold be be.01 ----- 1:1-ARG1 2:0-rel 3:1-ARG2 5:1-ARGM-ADV
 SMS/04/CHT_CMN_20130318.0015.eng.tree 27 18 gold seem seem.01 ----- 8:2-ARGM-TMP 18:0-rel 19:1-ARG1
 SMS/04/CHT_CMN_20130318.0015.eng.tree 27 21 gold sing sing.01 ----- 20:1-ARG0 21:0-rel 22:1-ARG1 24:1-ARGM-COM 26:1-ARGM-MNR
-SMS/04/CHT_CMN_20130318.0015.eng.tree 29 3 gold wonder wonder.02 ----- 0:1-ARGM-DIS 2:0-ARGM-NEG 3:0-rel
-SMS/04/CHT_CMN_20130318.0015.eng.tree 30 1 gold be be.02 ----- 1:0-rel 2:2-ARG1 12:2-ARGM-ADV
-SMS/04/CHT_CMN_20130318.0015.eng.tree 30 14 gold be be.01 ----- 2:2*12:1*13:1-ARG1 2:2*12:1-LINK-SLC 14:0-rel 15:1-ARG2
-SMS/04/CHT_CMN_20130318.0015.eng.tree 30 16 gold depress depress.01 ----- 2:2*12:1*13:1-ARG0 2:2*12:1-LINK-SLC 15:0-ARGM-EXT 16:0-rel
-SMS/04/CHT_CMN_20130318.0015.eng.tree 32 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2 5:1-ARGM-DIS
-SMS/04/CHT_CMN_20130318.0015.eng.tree 34 3 gold leave leave.15 ----- 0:1-ARGM-DIS 2:1-ARG0 3:0-rel
-SMS/04/CHT_CMN_20130318.0015.eng.tree 34 8 gold come come.01 ----- 6:1-ARG1 8:0-rel 10:1-ARGM-TMP
-SMS/04/CHT_CMN_20130318.0015.eng.tree 35 0 gold be be.01 ----- 0:0-rel 1:2-ARG1 3:1-ARG2
-SMS/04/CHT_CMN_20130318.0015.eng.tree 36 1 gold have have.01 ----- 1:0-rel
-SMS/04/CHT_CMN_20130318.0015.eng.tree 36 3 gold resign resign.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:1-ARG1 6:1-ARGM-TMP
-SMS/04/CHT_CMN_20130318.0015.eng.tree 37 5 gold be be.03 ----- 5:0-rel
-SMS/04/CHT_CMN_20130318.0015.eng.tree 37 7 gold work work.01 ----- 0:1-ARGM-TMP 3:1-ARG0 6:1-ARGM-TMP 7:0-rel 8:1-ARG2
-SMS/04/CHT_CMN_20130318.0015.eng.tree 39 1 gold come come.01 ----- 0:1-ARG1 1:0-rel 2:2-ARGM-PRP
-SMS/04/CHT_CMN_20130318.0015.eng.tree 39 4 gold recruit recruit.01 ----- 0:1*2:1-ARG0 4:0-rel 5:1-ARG1
-SMS/04/CHT_CMN_20130318.0015.eng.tree 39 9 gold see see.01 ----- 8:1-ARG0 9:0-rel 10:1-ARG1 11:1-ARGM-LOC
-SMS/04/CHT_CMN_20130318.0015.eng.tree 40 1 gold do do.01 ----- 1:0-rel
-SMS/04/CHT_CMN_20130318.0015.eng.tree 40 3 gold wrong wrong.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:1-ARG1
-SMS/04/CHT_CMN_20130318.0015.eng.tree 41 1 gold do do.01 ----- 1:0-rel
-SMS/04/CHT_CMN_20130318.0015.eng.tree 41 3 gold think overthink.06 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel
-SMS/04/CHT_CMN_20130318.0015.eng.tree 42 2 gold turn turn_out.11 ----- 0:1-ARGM-DIS 1:1-ARG1 2:0,3:1-rel 4:1-ARG2
-SMS/04/CHT_CMN_20130318.0015.eng.tree 42 6 gold be be.03 ----- 6:0-rel
-SMS/04/CHT_CMN_20130318.0015.eng.tree 42 7 gold introduce introduce.01 ----- 5:1*8:1-ARG1 7:0-rel 9:1-ARG0 12:1-ARGM-ADV
-SMS/04/CHT_CMN_20130318.0015.eng.tree 43 1 gold come come_on.25 ----- 0:1-ARG1 1:0,2:1-rel
-SMS/04/CHT_CMN_20130318.0015.eng.tree 44 2 gold be be.01 ----- 1:1-ARG1 2:0-rel 3:1-ARG2 5:1-ARGM-ADV
-SMS/04/CHT_CMN_20130318.0015.eng.tree 44 4 gold case case.03 ----- 4:0-rel
-SMS/04/CHT_CMN_20130318.0015.eng.tree 44 7 gold say say.01 ----- 6:1-ARG0 7:0-rel
-SMS/04/CHT_CMN_20130318.0015.eng.tree 44 10 gold have have.02 ----- 10:0-rel
 SMS/04/CHT_CMN_20130318.0015.eng.tree 44 13 gold jump jump.03 ----- 9:1*11:1-ARG0 13:0-rel 14:1-ARGM-DIR 15:1-ARGM-DIR
-SMS/04/CHT_CMN_20130318.0015.eng.tree 46 1 gold go go.06 ----- 0:1-ARG0 1:0-rel 2:1-ARG2 3:1-ARG1 7:1-ARGM-DIS
-SMS/04/CHT_CMN_20130318.0015.eng.tree 46 14 gold go go.02 ----- 9:1-ARGM-DIS 12:1-ARG0 14:0-rel 15:1-ARG1 19:1-ARGM-DIS
-SMS/04/CHT_CMN_20130318.0015.eng.tree 47 1 gold do do.01 ----- 1:0-rel
-SMS/04/CHT_CMN_20130318.0015.eng.tree 47 3 gold wrong wrong.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:1-ARG1
-SMS/04/CHT_CMN_20130318.0015.eng.tree 48 1 gold earn earn.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:1-ARGM-MNR
 SMS/04/CHT_CMN_20130318.0015.eng.tree 50 1 gold have have.03 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
-SMS/04/CHT_CMN_20130318.0015.eng.tree 50 6 gold be be.03 ----- 6:0-rel
-SMS/04/CHT_CMN_20130318.0015.eng.tree 50 7 gold go go.04 ----- 7:0-rel
-SMS/04/CHT_CMN_20130318.0015.eng.tree 50 10 gold date date.02 ----- 2:1*4:1*5:1*8:1-ARG0 2:1*4:1-LINK-SLC 10:0-rel 11:1-ARG1
+SMS/04/CHT_CMN_20130318.0015.eng.tree 27 11 gold drunk drunk.01 ----- 8:1*15:1-ARGM-TMP 9:1-ARG1 11:0-rel 12:1-ARGM-TMP
+SMS/04/CHT_CMN_20130318.0015.eng.tree 13 4 gold have have.03 ----- 3:1-ARG0 4:0-rel 5:1-ARG1 6:2-ARGM-PRP
+SMS/04/CHT_CMN_20130318.0015.eng.tree 13 9 gold say say.01 ----- 6:1*10:1-ARG1 7:1-ARG0 9:0-rel
+SMS/04/CHT_CMN_20130318.0015.eng.tree 14 1 gold be be.01 ----- 0:1*8:1-ARGM-CAU 1:0-rel 2:1-ARG1 3:1-ARG2
+SMS/04/CHT_CMN_20130318.0015.eng.tree 16 9 gold sell sell.01 ----- 8:0-ARGM-LOC 9:0-rel
+SMS/04/CHT_CMN_20130318.0015.eng.tree 1 2 gold let let.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:2-ARG1 9:1-ARGM-DIS
+SMS/04/CHT_CMN_20130318.0015.eng.tree 34 3 gold leave leave.15 ----- 0:1-ARGM-DIS 2:1-ARG0 3:0-rel
+SMS/04/CHT_CMN_20130318.0015.eng.tree 4 8 gold go go.06 ----- 7:1-ARG0 8:0-rel 9:1-ARG2 10:1-ARG1
+SMS/04/CHT_CMN_20130318.0015.eng.tree 10 3 gold want want.01 ----- 0:1-ARGM-TMP 2:1-ARG0 3:0-rel 4:2-ARG1
+SMS/04/CHT_CMN_20130318.0015.eng.tree 10 9 gold get get.03 ----- 2:1*4:1*7:1-ARG1 9:0-rel 10:1-ARG2
+SMS/04/CHT_CMN_20130318.0015.eng.tree 42 6 gold be be.03 ----- 6:0-rel
 SMS/04/CHT_CMN_20130318.0015.eng.tree 51 3 gold be be.03 ----- 3:0-rel
-SMS/04/CHT_CMN_20130318.0015.eng.tree 51 4 gold kid kid.01 ----- 2:1-ARG0 4:0-rel
-SMS/04/CHT_CMN_20130318.0015.eng.tree 52 1 gold do do.01 ----- 1:0-rel
-SMS/04/CHT_CMN_20130318.0015.eng.tree 52 3 gold care care.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel
 SMS/04/CHT_CMN_20130318.0015.eng.tree 52 6 gold do do.02 ----- 5:1-ARG0 6:0-rel 7:1-ARG1 11:1-ARGM-TMP
+SMS/04/CHT_CMN_20130318.0015.eng.tree 47 1 gold do do.01 ----- 1:0-rel
+SMS/04/CHT_CMN_20130318.0015.eng.tree 9 1 gold do do.01 ----- 1:0-rel
+SMS/04/CHT_CMN_20130318.0015.eng.tree 35 0 gold be be.01 ----- 0:0-rel 1:2-ARG1 3:1-ARG2

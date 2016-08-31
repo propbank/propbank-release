@@ -21,6 +21,7 @@ mz/sinorama/10/ectb_1013.parse 110 14 gold view view.02 ----- 13:0-ARG0 14:0-rel
 mz/sinorama/10/ectb_1013.parse 191 26 gold organize organize.01 ----- 26:0-rel 27:0-ARG1
 mz/sinorama/10/ectb_1013.parse 81 1 gold compare compare.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:1-ARG2
 mz/sinorama/10/ectb_1013.parse 154 9 gold renovate renovate.01 ----- 9:0-rel
+mz/sinorama/10/ectb_1013.parse 96 28 gold be be.01 ----- 24:1*26:1,29:1-ARG2 24:1*26:1-LINK-SLC 27:1-ARG1 28:0-rel 31:1-ARGM-TMP
 mz/sinorama/10/ectb_1013.parse 18 6 gold be be.02 ----- 6:0-rel 8:1-ARG1
 mz/sinorama/10/ectb_1013.parse 163 30 gold govern govern.01 ----- 29:1-ARG0 30:0-rel 31:1-ARG1
 mz/sinorama/10/ectb_1013.parse 204 11 gold test test.01 ----- 1:1-ARGM-TMP 7:1-ARG0 10:1-ARGM-TMP 11:0-rel 12:2-ARG2
@@ -518,7 +519,6 @@ mz/sinorama/10/ectb_1013.parse 177 10 gold allow allow.01 ----- 9:1-ARG0 10:0-re
 mz/sinorama/10/ectb_1013.parse 29 25 gold write write.01 ----- 23:1*37:1-ARGM-TMP 24:1-ARG0 25:0-rel 26:2-ARG1
 mz/sinorama/10/ectb_1013.parse 15 16 gold invest invest.01 ----- 11:1*13:1*14:1-ARG0 11:1*13:1-LINK-SLC 16:0-rel 17:1-ARG2
 mz/sinorama/10/ectb_1013.parse 144 11 gold profit profit.01 ----- 10:0-ARGM-ADJ 11:0-rel 12:1-ARG0
-mz/sinorama/10/ectb_1013.parse 96 28 gold be be.01 ----- 24:1*26:1,29:1-ARG2 24:1*26:1-LINK-SLC 27:1-ARG1 28:0-rel 31:1-ARGM-TMP
 mz/sinorama/10/ectb_1013.parse 100 25 gold be be.01 ----- 24:1-ARG1 25:0-rel 26:1-ARG2 27:1-ARGM-LOC
 mz/sinorama/10/ectb_1013.parse 127 13 gold believe believe.01 ----- 1:1*11:1-ARG0 1:1*11:1-LINK-PSV 13:0-rel 14:1-ARG1
 mz/sinorama/10/ectb_1013.parse 143 8 gold leave leave.14 ----- 0:1-ARG0 7:1-ARGM-ADV 8:0-rel 9:1-ARG1 12:1-ARGM-ADV

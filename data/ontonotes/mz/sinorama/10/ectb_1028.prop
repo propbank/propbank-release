@@ -160,6 +160,7 @@ mz/sinorama/10/ectb_1028.parse 76 13 gold price price.01 ----- 12:0-ARG1 13:0-re
 mz/sinorama/10/ectb_1028.parse 44 24 gold change change.01 ----- 11:2*22:1-ARG0 24:0-rel 25:1-ARG1
 mz/sinorama/10/ectb_1028.parse 82 5 gold be be.01 ----- 0:2-ARG1 5:0-rel 7:1-ARGM-ADV 27:2-ARG2
 mz/sinorama/10/ectb_1028.parse 25 7 gold call call.01 ----- 3:1*8:1-ARG1 3:1*8:1-LINK-PSV 7:0-rel 9:2-ARG2
+mz/sinorama/10/ectb_1028.parse 78 12 gold retire retire.01 ----- 4:2*10:1-ARG0 12:0-rel 13:1-ARGM-MNR
 mz/sinorama/10/ectb_1028.parse 119 9 gold sweep sweep_up.03 ----- 0:1-ARGM-DIS 3:1-ARGM-TMP 6:1*10:1-ARG1 9:0,11:1-rel 12:1-ARG2
 mz/sinorama/10/ectb_1028.parse 80 28 gold go go.04 ----- 28:0-rel
 mz/sinorama/10/ectb_1028.parse 184 16 gold succeed succeed.01 ----- 16:0-rel
@@ -752,7 +753,6 @@ mz/sinorama/10/ectb_1028.parse 110 9 gold do do.01 ----- 9:0-rel
 mz/sinorama/10/ectb_1028.parse 58 33 gold regret regret.01 ----- 32:1-ARG0 33:0-rel 34:2-ARG1
 mz/sinorama/10/ectb_1028.parse 127 4 gold benefit benefit.01 ----- 3:1-ARG1 4:0-rel
 mz/sinorama/10/ectb_1028.parse 102 12 gold get get.03 ----- 0:1-ARGM-DIS 2:1-ARGM-TMP 7:1-ARG1 9:0-ARGM-MOD 10:1-ARGM-ADV 12:0-rel 13:1-ARG2
-mz/sinorama/10/ectb_1028.parse 78 12 gold retire retire.01 ----- 4:3*10:1-ARG0 12:0-rel
 mz/sinorama/10/ectb_1028.parse 77 9 gold start start.01 ----- 0:2-ARG0 9:0-rel 10:1-ARG1 14:2-ARGM-ADV
 mz/sinorama/10/ectb_1028.parse 160 8 gold hope hope.01 ----- 2:1*7:1-ARG0 8:0-rel 10:2-ARG1
 mz/sinorama/10/ectb_1028.parse 65 16 gold have have.01 ----- 16:0-rel

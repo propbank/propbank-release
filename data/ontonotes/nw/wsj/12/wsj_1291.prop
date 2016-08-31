@@ -10,7 +10,6 @@ nw/wsj/12/wsj_1291.parse 7 2 gold represent represent.01 ----- 0:1-ARG0 2:0-rel 
 nw/wsj/12/wsj_1291.parse 15 9 gold sell sell.01 ----- 9:0-rel 10:1-ARGM-TMP
 nw/wsj/12/wsj_1291.parse 0 7 gold operate operate.01 ----- 0:1*4:1*5:1-ARG1 0:1*4:1-LINK-SLC 7:0-rel 8:1-ARGM-MNR
 nw/wsj/12/wsj_1291.parse 6 12 gold purchase purchase.01 ----- 0:1-ARGM-DIS 3:2-ARG0 11:0-ARGM-MOD 12:0-rel 13:3-ARG1
-nw/wsj/12/wsj_1291.parse 10 6 gold set set.01 ----- 0:2*7:1;11:1-ARG1 6:0-rel 8:1-ARGM-TMP 11:1-ARG2
 nw/wsj/12/wsj_1291.parse 13 8 gold take take_over.12 ----- 5:2-ARG0 8:0-rel 9:2-ARG1
 nw/wsj/12/wsj_1291.parse 7 9 gold accept accept.01 ----- 0:2*7:1-ARG0 9:0-rel 10:2-ARG1
 nw/wsj/12/wsj_1291.parse 5 5 gold receive receive.01 ----- 4:1-ARG0 5:0-rel 6:2-ARG1
@@ -48,6 +47,7 @@ nw/wsj/12/wsj_1291.parse 16 15 gold work work_out.02 ----- 14:1-ARG0 15:0,16:1-r
 nw/wsj/12/wsj_1291.parse 11 7 gold file file.01 ----- 1:1*8:1-ARG1 1:1*8:1-LINK-PSV 7:0-rel 9:1-ARG2
 nw/wsj/12/wsj_1291.parse 12 5 gold acquire acquire.01 ----- 0:1-ARGM-TMP 4:1-ARG0 5:0-rel 6:2-ARG1
 nw/wsj/12/wsj_1291.parse 2 6 gold be be.01 ----- 0:1*3:1*4:1-ARG1 0:1*3:1-LINK-SLC 6:0-rel 7:1-ARG2
+nw/wsj/12/wsj_1291.parse 10 6 gold set set.01 ----- 0:2*7:1;11:1-ARG1 6:0-rel 8:1-ARGM-TMP
 nw/wsj/12/wsj_1291.parse 15 5 gold finance finance.01 ----- 5:0-rel
 nw/wsj/12/wsj_1291.parse 1 24 gold resign resign.01 ----- 0:1-ARGM-LOC 4:3-ARG0 23:0-ARGM-MOD 24:0-rel 25:1-ARG1
 nw/wsj/12/wsj_1291.parse 2 14 gold be be.03 ----- 14:0-rel

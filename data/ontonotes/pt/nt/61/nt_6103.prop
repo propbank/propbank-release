@@ -29,6 +29,7 @@ pt/nt/61/nt_6103.parse 44 2 gold be be.03 ----- 2:0-rel
 pt/nt/61/nt_6103.parse 34 2 gold be be.01 ----- 0:1-ARG1 1:0-ARGM-MOD 2:0-rel 3:2-ARG2
 pt/nt/61/nt_6103.parse 14 6 gold destroy destroy.01 ----- 0:1-ARGM-TMP 1:1*7:1-ARG1 6:0-rel 8:1-ARG2
 pt/nt/61/nt_6103.parse 10 3 gold die die.01 ----- 0:1-ARG1 3:0-rel
+pt/nt/61/nt_6103.parse 33 3 gold wait wait.01 ----- 0:0-ARGM-DIS 1:1-ARG1 3:0-rel 4:1-ARG2
 pt/nt/61/nt_6103.parse 23 10 gold surprise surprise.01 ----- 0:0-ARGM-DIS 1:2-ARG0 9:0-ARGM-MOD 10:0-rel 11:1-ARG1 12:1-ARGM-MNR
 pt/nt/61/nt_6103.parse 29 6 gold devote devote.01 ----- 0:1*7:1-ARG1 2:0-ARGM-MOD 6:0-rel 8:1-ARG2
 pt/nt/61/nt_6103.parse 5 2 gold be be.01 ----- 2:0-rel 3:1-ARG2 4:1-ARG1
@@ -95,7 +96,6 @@ pt/nt/61/nt_6103.parse 38 10 gold be be.01 ----- 8:1-ARG1 10:0-rel 11:1-ARG2
 pt/nt/61/nt_6103.parse 19 2 gold be be.03 ----- 2:0-rel
 pt/nt/61/nt_6103.parse 27 3 gold destroy destroy.01 ----- 0:1*4:1-ARG1 1:0-ARGM-MOD 3:0-rel 5:1-ARGM-MNR
 pt/nt/61/nt_6103.parse 7 12 gold do do.02 ----- 5:1*7:1*13:1-ARG1 5:1*7:1-LINK-SLC 8:1*10:1-ARG0 12:0-rel
-pt/nt/61/nt_6103.parse 33 3 gold wait wait.01 ----- 0:0-ARGM-DIS 1:1-ARG1 3:0-rel 4:1-ARG2
 pt/nt/61/nt_6103.parse 19 19 gold understand understand.01 ----- 14:1*16:1*21:1-ARGM-MNR 14:1*16:1-LINK-SLC 17:1-ARG0 19:0-rel 20:1-ARG1
 pt/nt/61/nt_6103.parse 37 4 gold be be.01 ----- 0:1*2:1-ARG1 4:0-rel 5:1-ARG2
 pt/nt/61/nt_6103.parse 10 19 gold make make.01 ----- 6:1*17:1*20:1-ARG1 19:0-rel

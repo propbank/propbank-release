@@ -64,6 +64,7 @@ nw/wsj/16/wsj_1692.parse 30 17 gold pay pay.01 ----- 15:1-ARG0 17:0-rel 18:1-ARG
 nw/wsj/16/wsj_1692.parse 27 14 gold hang hang.01 ----- 14:0-rel 15:0-ARG1
 nw/wsj/16/wsj_1692.parse 29 20 gold put put.03 ----- 14:1*18:1-ARG0 20:0-rel 21:1-ARG1 24:1-ARG2 26:1-ARGM-TMP
 nw/wsj/16/wsj_1692.parse 21 12 gold deny deny.01 ----- 0:2-ARG0 12:0-rel 13:1-ARG1
+nw/wsj/16/wsj_1692.parse 30 8 gold continue continue.01 ----- 6:1-ARG0 7:0-ARGM-MOD 8:0-rel 9:2-ARG1 14:1-ARGM-ADV
 nw/wsj/16/wsj_1692.parse 22 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 nw/wsj/16/wsj_1692.parse 44 7 gold write write.01 ----- 0:2*5:1*6:1-ARG0 0:2*5:1-LINK-SLC 7:0-rel 8:1-ARG1
 nw/wsj/16/wsj_1692.parse 12 17 gold represent represent.01 ----- 0:1-ARG2 11:1-ARG0 17:0-rel 18:2-ARG1
@@ -129,7 +130,6 @@ nw/wsj/16/wsj_1692.parse 23 35 gold accrue accrue.01 ----- 33:1*36:1-ARG1 33:1*3
 nw/wsj/16/wsj_1692.parse 4 14 gold drop drop.01 ----- 0:1-ARGM-TMP 9:2-ARG1 14:0-rel 15:1-ARG3 20:1-ARG4 28:2-ARGM-ADV
 nw/wsj/16/wsj_1692.parse 6 9 gold uphold uphold.01 ----- 0:2-ARGM-TMP 4:1-ARG0 9:0-rel 10:3-ARG1
 nw/wsj/16/wsj_1692.parse 20 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
-nw/wsj/16/wsj_1692.parse 30 8 gold continue continue.01 ----- 6:1-ARG0 7:0-ARGM-MOD 8:0-rel 9:2-ARG1 14:1-ARGM-ADV
 nw/wsj/16/wsj_1692.parse 8 23 gold involve involve.01 ----- 21:1-ARG2 23:0-rel 24:1-ARG1
 nw/wsj/16/wsj_1692.parse 9 18 gold say say.01 ----- 1:2*19:1-ARG1 16:1-ARG0 18:0-rel
 nw/wsj/16/wsj_1692.parse 9 8 gold affect affect.01 ----- 6:1-ARG0 7:0-ARGM-MOD 8:0-rel 9:2-ARG1

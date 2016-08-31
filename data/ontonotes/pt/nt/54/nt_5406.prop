@@ -27,7 +27,6 @@ pt/nt/54/nt_5406.parse 46 1 gold tell tell.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG2 3:
 pt/nt/54/nt_5406.parse 57 4 gold claim claim.01 ----- 0:1*2:1*3:1-ARG0 0:1*2:1-LINK-SLC 4:0-rel 5:2-ARG1
 pt/nt/54/nt_5406.parse 8 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 pt/nt/54/nt_5406.parse 57 12 gold have have.01 ----- 12:0-rel
-pt/nt/54/nt_5406.parse 15 9 gold bring bring.01 ----- 0:2-ARGM-TMP 8:1-ARG0 9:0-rel 10:1-ARG1
 pt/nt/54/nt_5406.parse 57 13 gold go go.02 ----- 0:2-ARG0 13:0-rel 14:1-ARGM-DIR
 pt/nt/54/nt_5406.parse 21 4 gold destroy destroy.01 ----- 0:1-ARG0 4:0-rel 5:1-ARG1
 pt/nt/54/nt_5406.parse 30 1 gold take take.LV ----- 1:0-rel 2:1-ARGM-PRR
@@ -127,6 +126,7 @@ pt/nt/54/nt_5406.parse 3 0 gold do do.01 ----- 0:0-rel
 pt/nt/54/nt_5406.parse 32 6 gold give give.01 ----- 0:1-ARGM-LOC 5:1-ARG0 6:0-rel 7:1-ARG2 8:1-ARG1
 pt/nt/54/nt_5406.parse 47 9 gold take take.LV ----- 9:0-rel 10:1-ARGM-PRR
 pt/nt/54/nt_5406.parse 6 11 gold agree agree.01 ----- 0:1-ARG0 9:0-ARGM-MOD 10:0-ARGM-NEG 11:0-rel 12:1-ARG1
+pt/nt/54/nt_5406.parse 15 9 gold bring bring.01 ----- 0:2-ARGM-TMP 8:1-ARG0 9:0-rel 10:1-ARG1
 pt/nt/54/nt_5406.parse 3 2 gold mean mean.01 ----- 1:1-ARG1 2:0-rel 3:1-ARG2
 pt/nt/54/nt_5406.parse 18 6 gold be be.01 ----- 0:1*1:1*2:1*4:1-ARG1 0:1*1:1-LINK-SLC 6:0-rel 7:1-ARG2
 pt/nt/54/nt_5406.parse 2 11 gold be be.01 ----- 9:1-ARGM-ADV 10:1-ARG1 11:0-rel 12:1-ARG2

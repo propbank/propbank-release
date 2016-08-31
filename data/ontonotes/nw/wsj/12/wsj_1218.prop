@@ -18,6 +18,7 @@ nw/wsj/12/wsj_1218.parse 40 25 gold flow flow.01 ----- 25:0-rel 26:0-ARG1
 nw/wsj/12/wsj_1218.parse 12 7 gold suggest suggest.01 ----- 0:1-ARGM-LOC 4:1-ARG0 7:0-rel 8:1-ARG1
 nw/wsj/12/wsj_1218.parse 2 13 gold be be.01 ----- 0:2-ARG1 13:0-rel 14:1-ARG2 16:1-ARGM-TMP
 nw/wsj/12/wsj_1218.parse 37 23 gold flash flash.01 ----- 0:1-ARGM-LOC 6:3-ARG0 22:1-ARGM-TMP 23:0-rel 24:1-ARG1 27:1-ARGM-MNR 30:1-ARGM-ADV
+nw/wsj/12/wsj_1218.parse 13 23 gold fertilize fertilize.01 ----- 20:1-ARG1 23:0-rel 22:1;25:1-ARGM-TMP
 nw/wsj/12/wsj_1218.parse 16 10 gold take take_out.11 ----- 0:0-ARGM-DIS 1:1-ARGM-LOC 5:1*11:1-ARG1 7:0-ARGM-MOD 9:1-ARGM-TMP 10:0,12:1-rel 16:2-ARGM-TMP
 nw/wsj/12/wsj_1218.parse 44 23 gold contradict contradict.01 ----- 0:2*22:1-ARG0 0:2*22:1-LINK-PRO 23:0-rel 24:1-ARG1
 nw/wsj/12/wsj_1218.parse 26 5 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 5:0-rel 6:3-ARG2
@@ -45,7 +46,6 @@ nw/wsj/12/wsj_1218.parse 19 44 gold feed feed.01 ----- 43:1-ARG2 44:0-rel 45:1-A
 nw/wsj/12/wsj_1218.parse 29 19 gold use use.01 ----- 14:1*20:1-ARG1 17:0-ARGM-MOD 19:0-rel 21:2-ARG2
 nw/wsj/12/wsj_1218.parse 18 3 gold find find.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1 6:1-ARGM-LOC
 nw/wsj/12/wsj_1218.parse 38 47 gold flash flash.01 ----- 42:1*48:1-ARGM-TMP 43:1-ARG1 47:0-rel
-nw/wsj/12/wsj_1218.parse 13 23 gold fertilize fertilize.01 ----- 20:2*24:1;25:1-ARG1 23:0-rel 25:1-ARGM-TMP
 nw/wsj/12/wsj_1218.parse 38 2 gold flash flash.01 ----- 1:0-ARGM-MNR 2:0-rel 3:0,4:0-ARG1
 nw/wsj/12/wsj_1218.parse 31 6 gold poke poke.01 ----- 5:1-ARG0 6:0-rel 7:1-ARG2 8:1-ARG1
 nw/wsj/12/wsj_1218.parse 29 12 gold see see.01 ----- 0:2-ARG0 12:0-rel 13:1-ARG1

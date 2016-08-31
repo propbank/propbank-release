@@ -37,6 +37,7 @@ nw/wsj/03/wsj_0343.parse 13 10 gold avoid avoid.01 ----- 8:1-ARG0 10:0-rel 11:2-
 nw/wsj/03/wsj_0343.parse 14 17 gold expire expire.01 ----- 0:1-ARGM-TMP 6:2-ARG1 17:0-rel
 nw/wsj/03/wsj_0343.parse 0 39 gold cut cut.02 ----- 37:1-ARG0 39:0-rel 40:1-ARG1
 nw/wsj/03/wsj_0343.parse 16 50 gold default default.01 ----- 49:0-ARGM-ADJ 50:0-rel
+nw/wsj/03/wsj_0343.parse 13 18 gold tell tell.01 ----- 0:3-ARG1-DSP 17:1-ARG0 18:0-rel 19:0-ARG2
 nw/wsj/03/wsj_0343.parse 7 9 gold make make.LV ----- 9:0-rel 11:0-ARGM-PRR
 nw/wsj/03/wsj_0343.parse 5 36 gold counter counter.01 ----- 28:1*34:1-ARG0 28:1*34:1-LINK-PRO 36:0-rel 37:2-ARG1
 nw/wsj/03/wsj_0343.parse 13 11 gold default default.01 ----- 11:0-rel 12:1-ARG1
@@ -74,7 +75,6 @@ nw/wsj/03/wsj_0343.parse 6 16 gold hope hope.01 ----- 0:1*15:1-ARG0 16:0-rel 17:
 nw/wsj/03/wsj_0343.parse 4 31 gold stall stall.01 ----- 22:1-ARG1 30:0-ARGM-TMP 31:0-rel 32:1-ARGM-LOC
 nw/wsj/03/wsj_0343.parse 7 1 gold want want.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 nw/wsj/03/wsj_0343.parse 2 15 gold combine combine.01 ----- 0:1*14:1-ARG0 0:1*14:1-LINK-PRO 15:0-rel 16:1-ARG1 17:1-ARG2
-nw/wsj/03/wsj_0343.parse 13 18 gold tell tell.01 ----- 0:2,1:0,2:0,3:0,4:0*5:1,6:0,7:1,8:1,9:0,9:1,11:1,12:0,13:0,14:0,15:0,23:0,24:0,25:0,26:0,27:1,28:0,29:0,30:2,31:0,32:0,33:0,34:1,35:0,36:0-ARG1 5:1*7:1-LINK-PSV 17:1-ARG0 18:0-rel 19:0-ARG2
 nw/wsj/03/wsj_0343.parse 10 8 gold veto veto.01 ----- 8:0-rel 9:1-ARG0
 nw/wsj/03/wsj_0343.parse 15 3 gold default default.01 ----- 3:0-rel
 nw/wsj/03/wsj_0343.parse 6 5 gold attach attach.01 ----- 0:1*3:1-ARG0 5:0-rel 6:1-ARG1 11:1-ARG2

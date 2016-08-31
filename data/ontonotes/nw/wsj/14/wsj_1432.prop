@@ -162,6 +162,7 @@ nw/wsj/14/wsj_1432.parse 15 21 gold expand expand.01 ----- 0:2-ARG0 20:0-ARGM-MO
 nw/wsj/14/wsj_1432.parse 18 9 gold push push.01 ----- 0:2-ARG0 9:0-rel 10:1-ARGM-DIR 11:2,20:1-ARG1 15:1-ARGM-EXT 26:1-ARGM-ADV
 nw/wsj/14/wsj_1432.parse 32 41 gold fly fly.01 ----- 41:0-rel 42:1-ARG0
 nw/wsj/14/wsj_1432.parse 27 30 gold cooperate cooperate.01 ----- 22:1*26:1*35:1-ARG1 22:1*26:1-LINK-SLC 28:1-ARG0 30:0-rel 31:1-ARGM-TMP
+nw/wsj/14/wsj_1432.parse 5 10 gold cut cut.01 ----- 0:0-ARGM-DIS 1:2-ARG0 10:0-rel 11:1-ARG2
 nw/wsj/14/wsj_1432.parse 20 25 gold leave leave.15 ----- 20:1*22:1*23:1-ARG0 20:1*22:1-LINK-SLC 25:0-rel 26:2-ARG2
 nw/wsj/14/wsj_1432.parse 31 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:0-ARGM-NEG 3:1-ARG2
 nw/wsj/14/wsj_1432.parse 23 28 gold look look.04 ----- 27:1-ARG0 28:0-rel 29:2-ARG1
@@ -171,7 +172,6 @@ nw/wsj/14/wsj_1432.parse 24 4 gold speculate speculate.01 ----- 4:0-rel 5:1-ARG1
 nw/wsj/14/wsj_1432.parse 47 6 gold protect protect.01 ----- 5:1-ARG0 6:0-rel 7:2-ARG1
 nw/wsj/14/wsj_1432.parse 40 7 gold move move.01 ----- 7:0-rel 8:1-ARG2
 nw/wsj/14/wsj_1432.parse 37 19 gold be be.03 ----- 19:0-rel
-nw/wsj/14/wsj_1432.parse 5 10 gold cut cut.01 ----- 0:0-ARGM-DIS 1:2-ARG0 10:0-rel 11:1-ARG2
 nw/wsj/14/wsj_1432.parse 37 11 gold fly fly.01 ----- 9:0-ARG0 10:0-ARGM-TMP 11:0-rel 12:1-ARGM-GOL
 nw/wsj/14/wsj_1432.parse 16 8 gold use use.01 ----- 0:1*9:1-ARG1 6:0-ARGM-MOD 8:0-rel 10:1-ARGM-ADV 11:2-ARG2 25:1-ARGM-ADV
 nw/wsj/14/wsj_1432.parse 38 1 gold expand expand.01 ----- 0:0-ARG2 1:0-rel 2:1-ARG4

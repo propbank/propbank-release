@@ -186,7 +186,7 @@ ontonotes/nw/wsj/12/wsj_1218    9   5   [WORD]     ,               *            
 ontonotes/nw/wsj/12/wsj_1218    9   6   [WORD]    CC               *                 -             -       *        * 
 ontonotes/nw/wsj/12/wsj_1218    9   7   [WORD]  PRP$          (S(NP*                 -             -       *   (ARG1* 
 ontonotes/nw/wsj/12/wsj_1218    9   8   [WORD]   NNP               *)                -             -       *        *)
-ontonotes/nw/wsj/12/wsj_1218    9   9   [WORD]   VBN          (VP=3*))         extract    extract.01       *      (V*)
+ontonotes/nw/wsj/12/wsj_1218    9   9   [WORD]   VBN            (VP*))         extract    extract.01       *      (V*)
 ontonotes/nw/wsj/12/wsj_1218    9  10   [WORD]     .               *))               -             -       *        * 
 
 ontonotes/nw/wsj/12/wsj_1218   10   0   [WORD]   VBG    (TOP(S(S(VP*                    use      use.01     (V*)       *        *        *   (ARGM-ADV*            *        *        * 
@@ -279,31 +279,31 @@ ontonotes/nw/wsj/12/wsj_1218   12  25   [WORD]    DT           (NP*             
 ontonotes/nw/wsj/12/wsj_1218   12  26   [WORD]    NN              *)))))))))))))))              -            -           *)           *     *            *)       *)
 ontonotes/nw/wsj/12/wsj_1218   12  27   [WORD]     .              *))                           -            -           *            *     *            *        * 
 
-ontonotes/nw/wsj/12/wsj_1218   13   0   [WORD]    IN     (TOP(S(PP*                       -             -         *            *   (ARGM-DIS*                   *  
-ontonotes/nw/wsj/12/wsj_1218   13   1   [WORD]    NN           (NP*))                     -             -         *            *            *)                  *  
-ontonotes/nw/wsj/12/wsj_1218   13   2   [WORD]     ,              *                       -             -         *            *            *                   *  
-ontonotes/nw/wsj/12/wsj_1218   13   3   [WORD]    JJ        (NP(NP*                       -             -    (ARG0*            *       (ARG0*                   *  
-ontonotes/nw/wsj/12/wsj_1218   13   4   [WORD]   NNS              *)                      -             -         *)           *            *                   *  
-ontonotes/nw/wsj/12/wsj_1218   13   5   [WORD]    WP    (SBAR(WHNP*)                      -             -  (R-ARG0*)           *            *                   *  
-ontonotes/nw/wsj/12/wsj_1218   13   6   [WORD]   VBP         (S(VP*                    have       have.04       (V*)           *            *                   *  
-ontonotes/nw/wsj/12/wsj_1218   13   7   [WORD]    DT      (S(NP(NP*                       -             -    (ARG1*       (ARG1*            *                   *  
-ontonotes/nw/wsj/12/wsj_1218   13   8   [WORD]    NN              *                       -             -         *            *            *                   *  
-ontonotes/nw/wsj/12/wsj_1218   13   9   [WORD]   POS              *)                      -             -         *            *            *                   *  
-ontonotes/nw/wsj/12/wsj_1218   13  10   [WORD]   NNS              *)                      -             -         *            *)           *                   *  
-ontonotes/nw/wsj/12/wsj_1218   13  11   [WORD]   VBN           (VP*               fertilize  fertilize.01         *          (V*)           *                   *  
-ontonotes/nw/wsj/12/wsj_1218   13  12   [WORD]    IN           (PP*                       -             -         *   (ARGM-LOC*            *                   *  
-ontonotes/nw/wsj/12/wsj_1218   13  13   [WORD]    DT           (NP*                       -             -         *            *            *                   *  
-ontonotes/nw/wsj/12/wsj_1218   13  14   [WORD]    NN              *                       -             -         *            *            *                   *  
-ontonotes/nw/wsj/12/wsj_1218   13  15   [WORD]    NN              *))))))))               -             -         *)           *)           *)                  *  
-ontonotes/nw/wsj/12/wsj_1218   13  16   [WORD]    RB         (ADVP*)                      -             -         *            *   (ARGM-TMP*)                  *  
-ontonotes/nw/wsj/12/wsj_1218   13  17   [WORD]   VBP           (VP*                    have       have.04         *            *          (V*)                  *  
-ontonotes/nw/wsj/12/wsj_1218   13  18   [WORD]    JJ      (S(NP(NP*                       -             -         *            *       (ARG1*              (ARG1*  
-ontonotes/nw/wsj/12/wsj_1218   13  19   [WORD]   NNS              *))                     -             -         *            *            *                   *) 
-ontonotes/nw/wsj/12/wsj_1218   13  20   [WORD]   VBN           (VP*               fertilize  fertilize.01         *            *            *                 (V*) 
-ontonotes/nw/wsj/12/wsj_1218   13  21   [WORD]    IN           (PP*                       -             -         *            *            *   (ARGM-TMP(C-ARG1*  
-ontonotes/nw/wsj/12/wsj_1218   13  22   [WORD]    DT           (NP*                       -             -         *            *            *                   *  
-ontonotes/nw/wsj/12/wsj_1218   13  23   [WORD]    NN              *)))))                  -             -         *            *            *)                  *))
-ontonotes/nw/wsj/12/wsj_1218   13  24   [WORD]     .              *))                     -             -         *            *            *                   *  
+ontonotes/nw/wsj/12/wsj_1218   13   0   [WORD]    IN     (TOP(S(PP*                       -             -         *            *   (ARGM-DIS*            * 
+ontonotes/nw/wsj/12/wsj_1218   13   1   [WORD]    NN           (NP*))                     -             -         *            *            *)           * 
+ontonotes/nw/wsj/12/wsj_1218   13   2   [WORD]     ,              *                       -             -         *            *            *            * 
+ontonotes/nw/wsj/12/wsj_1218   13   3   [WORD]    JJ        (NP(NP*                       -             -    (ARG0*            *       (ARG0*            * 
+ontonotes/nw/wsj/12/wsj_1218   13   4   [WORD]   NNS              *)                      -             -         *)           *            *            * 
+ontonotes/nw/wsj/12/wsj_1218   13   5   [WORD]    WP    (SBAR(WHNP*)                      -             -  (R-ARG0*)           *            *            * 
+ontonotes/nw/wsj/12/wsj_1218   13   6   [WORD]   VBP         (S(VP*                    have       have.04       (V*)           *            *            * 
+ontonotes/nw/wsj/12/wsj_1218   13   7   [WORD]    DT      (S(NP(NP*                       -             -    (ARG1*       (ARG1*            *            * 
+ontonotes/nw/wsj/12/wsj_1218   13   8   [WORD]    NN              *                       -             -         *            *            *            * 
+ontonotes/nw/wsj/12/wsj_1218   13   9   [WORD]   POS              *)                      -             -         *            *            *            * 
+ontonotes/nw/wsj/12/wsj_1218   13  10   [WORD]   NNS              *)                      -             -         *            *)           *            * 
+ontonotes/nw/wsj/12/wsj_1218   13  11   [WORD]   VBN           (VP*               fertilize  fertilize.01         *          (V*)           *            * 
+ontonotes/nw/wsj/12/wsj_1218   13  12   [WORD]    IN           (PP*                       -             -         *   (ARGM-LOC*            *            * 
+ontonotes/nw/wsj/12/wsj_1218   13  13   [WORD]    DT           (NP*                       -             -         *            *            *            * 
+ontonotes/nw/wsj/12/wsj_1218   13  14   [WORD]    NN              *                       -             -         *            *            *            * 
+ontonotes/nw/wsj/12/wsj_1218   13  15   [WORD]    NN              *))))))))               -             -         *)           *)           *)           * 
+ontonotes/nw/wsj/12/wsj_1218   13  16   [WORD]    RB         (ADVP*)                      -             -         *            *   (ARGM-TMP*)           * 
+ontonotes/nw/wsj/12/wsj_1218   13  17   [WORD]   VBP           (VP*                    have       have.04         *            *          (V*)           * 
+ontonotes/nw/wsj/12/wsj_1218   13  18   [WORD]    JJ      (S(NP(NP*                       -             -         *            *       (ARG1*       (ARG1* 
+ontonotes/nw/wsj/12/wsj_1218   13  19   [WORD]   NNS              *))                     -             -         *            *            *            *)
+ontonotes/nw/wsj/12/wsj_1218   13  20   [WORD]   VBN           (VP*               fertilize  fertilize.01         *            *            *          (V*)
+ontonotes/nw/wsj/12/wsj_1218   13  21   [WORD]    IN           (PP*                       -             -         *            *            *   (ARGM-TMP* 
+ontonotes/nw/wsj/12/wsj_1218   13  22   [WORD]    DT           (NP*                       -             -         *            *            *            * 
+ontonotes/nw/wsj/12/wsj_1218   13  23   [WORD]    NN              *)))))                  -             -         *            *            *)           *)
+ontonotes/nw/wsj/12/wsj_1218   13  24   [WORD]     .              *))                     -             -         *            *            *            * 
 
 ontonotes/nw/wsj/12/wsj_1218   14   0   [WORD]   WRB    (TOP(S(SBAR(WHADVP*)                   -             -       *   (ARGM-TMP*)    *   (ARGM-TMP* 
 ontonotes/nw/wsj/12/wsj_1218   14   1   [WORD]    DT                 (S(NP*                    -             -       *       (ARG1*     *            * 
@@ -339,7 +339,7 @@ ontonotes/nw/wsj/12/wsj_1218   15   7   [WORD]    NN            (NP*))))))      
 ontonotes/nw/wsj/12/wsj_1218   15   8   [WORD]    CC               *                   -           -           *     *        * 
 ontonotes/nw/wsj/12/wsj_1218   15   9   [WORD]    JJ          (S(NP*                   -           -           *     *   (ARG1* 
 ontonotes/nw/wsj/12/wsj_1218   15  10   [WORD]   NNS               *)                  -           -           *     *        *)
-ontonotes/nw/wsj/12/wsj_1218   15  11   [WORD]   VBN          (VP=3*))           discard  discard.01           *     *      (V*)
+ontonotes/nw/wsj/12/wsj_1218   15  11   [WORD]   VBN            (VP*))           discard  discard.01           *     *      (V*)
 ontonotes/nw/wsj/12/wsj_1218   15  12   [WORD]     .               *))                 -           -           *     *        * 
 
 ontonotes/nw/wsj/12/wsj_1218   16   0   [WORD]    CC       (TOP(S*                    -            -    *   (ARGM-DIS*)  (ARGM-DIS*)  (ARGM-DIS*)           * 

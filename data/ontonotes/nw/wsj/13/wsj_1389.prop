@@ -5,6 +5,7 @@ nw/wsj/13/wsj_1389.parse 17 4 gold say say.01 ----- 3:1-ARG0 4:0-rel
 nw/wsj/13/wsj_1389.parse 18 33 gold use use.01 ----- 31:0-ARGM-PRD 32:0-ARG1 33:0-rel 34:1-ARG0
 nw/wsj/13/wsj_1389.parse 12 19 gold be be.01 ----- 12:2-ARG1 19:0-rel 20:0-ARGM-NEG 21:1-ARGM-ADV 22:1-ARG2
 nw/wsj/13/wsj_1389.parse 21 12 gold improve improve.01 ----- 6:1*9:1*10:1-ARG0 6:1*9:1-LINK-SLC 11:1-ARGM-ADV 12:0-rel 13:2-ARG1
+nw/wsj/13/wsj_1389.parse 12 8 gold say say.01 ----- 0:1*9:1-ARG1-DSP 8:0-rel 7:0-ARG0
 nw/wsj/13/wsj_1389.parse 23 23 gold seem seem.01 ----- 13:1-ARGM-TMP 15:2,24:2-ARG1 22:0-ARGM-NEG 23:0-rel
 nw/wsj/13/wsj_1389.parse 12 15 gold measure measure.01 ----- 12:1*16:1-ARG1 12:1*16:1-LINK-PSV 15:0-rel 17:1-ARGM-MNR
 nw/wsj/13/wsj_1389.parse 2 22 gold dampen damp.04 ----- 0:2-ARG0 21:0-ARGM-MOD 22:0-rel 23:1-ARG1 25:1-ARGM-TMP
@@ -95,7 +96,6 @@ nw/wsj/13/wsj_1389.parse 18 31 gold increase increase.01 ----- 31:0-rel 32:0,33:
 nw/wsj/13/wsj_1389.parse 11 2 gold doubt doubt.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 nw/wsj/13/wsj_1389.parse 8 3 gold present present.01 ----- 1:1*4:1-ARG1 1:1*4:1-LINK-PSV 3:0-rel 5:1-ARGM-LOC
 nw/wsj/13/wsj_1389.parse 17 10 gold mature maturate.03 ----- 9:0-ARGM-ADJ 10:0-rel 11:1-ARG1
-nw/wsj/13/wsj_1389.parse 12 8 gold say say.01 ----- 0:1*9:1-ARG1 8:0-rel
 nw/wsj/13/wsj_1389.parse 26 26 gold say say.01 ----- 1:2*27:1-ARG1 18:2-ARG0 26:0-rel
 nw/wsj/13/wsj_1389.parse 10 5 gold burden burden.01 ----- 4:0-ARG0 5:0-rel
 nw/wsj/13/wsj_1389.parse 3 2 gold wave wave.04 ----- 2:0-rel 3:1-ARG1

@@ -7,6 +7,7 @@ pt/nt/43/nt_4301.parse 31 5 gold be be.01 ----- 0:1-ARG1 5:0-rel 6:2-ARG2
 pt/nt/43/nt_4301.parse 6 4 gold name name.01 ----- 2:1*5:1-ARG1 2:1*5:1-LINK-PSV 4:0-rel 6:2-ARG2
 pt/nt/43/nt_4301.parse 99 2 gold say say.01 ----- 0:1-ARGM-TMP 1:1-ARG0 2:0-rel 5:2-ARG1
 pt/nt/43/nt_4301.parse 60 9 gold know know.01 ----- 5:1-ARG0 6:1-ARGM-ADV 8:0-ARGM-NEG 9:0-rel 10:2-ARG1
+pt/nt/43/nt_4301.parse 38 4 gold be be.01 ----- 4:0-rel 5:1-ARG1 6:1-ARG2
 pt/nt/43/nt_4301.parse 103 10 gold say say.01 ----- 8:1*18:1-ARGM-TMP 9:1-ARG0 10:0-rel 11:1-ARG1
 pt/nt/43/nt_4301.parse 42 8 gold tell tell.01 ----- 3:1*5:1-ARG1 3:1*5:1-LINK-SLC 6:1-ARG0 8:0-rel 9:2-ARG2
 pt/nt/43/nt_4301.parse 77 2 gold follow follow.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG2 4:1-ARGM-TMP
@@ -229,7 +230,6 @@ pt/nt/43/nt_4301.parse 15 1 gold come come.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG4
 pt/nt/43/nt_4301.parse 32 5 gold send send.01 ----- 0:2-ARG0 5:0-rel 6:1-ARG1 10:1-ARG2 12:2-ARGM-PRP
 pt/nt/43/nt_4301.parse 102 2 gold see see.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:3-ARG1
 pt/nt/43/nt_4301.parse 83 1 gold look look.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
-pt/nt/43/nt_4301.parse 38 4 gold be be.01 ----- 4:0-rel 5:1-ARG1 6:1-ARG2
 pt/nt/43/nt_4301.parse 27 16 gold receive receive.01 ----- 12:1-ARG2 14:2-ARG0 16:0-rel 17:2-ARG1
 pt/nt/43/nt_4301.parse 60 7 gold do do.01 ----- 7:0-rel
 pt/nt/43/nt_4301.parse 61 9 gold baptize baptize.02 ----- 6:1*7:1-ARG0 9:0-rel 10:1-ARGM-MNR
