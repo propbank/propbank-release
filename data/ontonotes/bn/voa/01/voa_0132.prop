@@ -28,17 +28,18 @@ bn/voa/01/voa_0132.parse 6 34 gold be be.01 ----- 32:1-ARG1 34:0-rel 35:1-ARG2
 bn/voa/01/voa_0132.parse 4 24 gold make make.01 ----- 20:1*25:1-ARG2 21:0-ARGM-MOD 22:1-ARGM-TMP 24:0-rel 26:1-ARG1
 bn/voa/01/voa_0132.parse 11 28 gold be be.01 ----- 20:1*22:1*23:1*26:1-ARG1 20:1*22:1-LINK-SLC 28:0-rel 29:2-ARG2
 bn/voa/01/voa_0132.parse 10 20 gold give give_up.07 ----- 18:1-ARGM-DIS 19:1-ARG0 20:0,21:1-rel
+bn/voa/01/voa_0132.parse 20 10 gold think think.01 ----- 7:1-ARG0 9:1-ARGM-ADV 10:0-rel 11:1-ARG2
 bn/voa/01/voa_0132.parse 17 25 gold look look.02 ----- 23:1-ARG0 24:1-ARGM-ADV 25:0-rel 26:1-ARG1
 bn/voa/01/voa_0132.parse 19 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
+bn/voa/01/voa_0132.parse 16 1 gold perform perform.01 ----- 0:1-ARG0 1:0-rel 2:2-ARGM-PRD
 bn/voa/01/voa_0132.parse 15 63 gold know know.06 ----- 62:1-ARG0 63:0-rel
 bn/voa/01/voa_0132.parse 6 42 gold maintain maintain.01 ----- 39:1-ARG0 41:1-ARGM-TMP 42:0-rel 43:2-ARG1
+bn/voa/01/voa_0132.parse 10 30 gold do do.02 ----- 25:1*31:1-ARG1 26:2-ARG0 30:0-rel
 bn/voa/01/voa_0132.parse 15 12 gold love love.01 ----- 12:0-rel
 bn/voa/01/voa_0132.parse 6 5 gold have have.02 ----- 5:0-rel
 bn/voa/01/voa_0132.parse 2 20 gold steal steal.01 ----- 17:1*22:1-ARGM-MNR 18:1-ARG0 20:0-rel 21:1-ARG1
 bn/voa/01/voa_0132.parse 7 3 gold be be.01 ----- 0:1-ARG1 2:1-ARGM-TMP 3:0-rel 4:1-ARG2
 bn/voa/01/voa_0132.parse 1 2 gold have have.LV ----- 2:0-rel 4:0-ARGM-PRR
-bn/voa/01/voa_0132.parse 12 9 gold show show.04 ----- 9:0-rel
-bn/voa/01/voa_0132.parse 4 4 gold make make.01 ----- 0:2-ARG0 4:0-rel 5:1-ARG2 6:1-ARG1
 bn/voa/01/voa_0132.parse 6 51 gold want want.01 ----- 50:1-ARG0 51:0-rel 52:2-ARG1
 bn/voa/01/voa_0132.parse 15 20 gold reach reach.03 ----- 17:1*18:1*19:1-ARG0 17:1*18:1-LINK-SLC 20:0-rel 21:1-ARGM-DIR 22:1-ARG2
 bn/voa/01/voa_0132.parse 18 33 gold see see.01 ----- 25:1*27:1*38:1-ARGM-LOC 25:1*27:1-LINK-SLC 28:2-ARGM-ADV 32:1-ARG0 33:0-rel 34:2-ARG1
@@ -48,9 +49,9 @@ bn/voa/01/voa_0132.parse 6 55 gold have have.03 ----- 52:1-ARG0 55:0-rel 56:1-AR
 bn/voa/01/voa_0132.parse 10 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 bn/voa/01/voa_0132.parse 13 2 gold change change.01 ----- 0:1-ARG1 2:0-rel 3:1-ARGM-CAU
 bn/voa/01/voa_0132.parse 18 23 gold get get.05 ----- 8:1-ARGM-ADV 10:3-ARGM-DIS 13:1-ARGM-ADV 22:1-ARG1 23:0-rel 24:1-ARG2
+bn/voa/01/voa_0132.parse 2 6 gold write write.01 ----- 0:1*5:1-ARG0 6:0-rel 7:1-ARGM-MNR
 bn/voa/01/voa_0132.parse 5 38 gold present present.01 ----- 36:1*39:1-ARG1 38:0-rel 40:1-ARGM-MNR
 bn/voa/01/voa_0132.parse 20 8 gold be be.03 ----- 8:0-rel
-bn/voa/01/voa_0132.parse 15 3 gold need need.01 ----- 0:1*1:1*4:1-ARG1 0:1*1:1-LINK-SLC 2:1-ARG0 3:0-rel
 bn/voa/01/voa_0132.parse 11 18 gold be be.01 ----- 17:1-ARG1 18:0-rel 19:1-ARGM-ADV 20:2-ARG2 33:3-ARGM-DIS
 bn/voa/01/voa_0132.parse 19 10 gold know know.01 ----- 9:1-ARG0 10:0-rel 11:1-ARG1
 bn/voa/01/voa_0132.parse 10 11 gold be be.01 ----- 10:1-ARG1 11:0-rel 12:2-ARG2
@@ -66,9 +67,11 @@ bn/voa/01/voa_0132.parse 18 11 gold know know.06 ----- 10:1-ARG0 11:0-rel
 bn/voa/01/voa_0132.parse 15 53 gold know know.06 ----- 52:1-ARG0 53:0-rel
 bn/voa/01/voa_0132.parse 3 5 gold be be.01 ----- 0:1-ARGM-ADV 4:1-ARG1 5:0-rel 6:2-ARG2
 bn/voa/01/voa_0132.parse 15 26 gold go go.23 ----- 17:1*18:1*19:1-ARG0 17:1*18:1-LINK-SLC 26:0-rel 27:1-ARGM-DIS 29:1-ARG1
+bn/voa/01/voa_0132.parse 21 6 gold say say.01 ----- 4:1*10:1-ARGM-TMP 5:1-ARG0 6:0-rel 7:1-ARG1
+bn/voa/01/voa_0132.parse 12 9 gold show show.04 ----- 9:0-rel
 bn/voa/01/voa_0132.parse 19 20 gold project project.02 ----- 17:1*21:1-ARG1 19:1-ARG0 20:0-rel
+bn/voa/01/voa_0132.parse 4 4 gold make make.01 ----- 0:2-ARG0 4:0-rel 5:1-ARG2 6:1-ARG1
 bn/voa/01/voa_0132.parse 15 5 gold be be.01 ----- 0:2-ARG1 5:0-rel 9:3-ARG2
-bn/voa/01/voa_0132.parse 22 22 gold puzzle puzzle.01 ----- 21:1-ARG0 22:0-rel
 bn/voa/01/voa_0132.parse 6 23 gold develop develop.02 ----- 22:1-ARG0 23:0-rel 24:1-ARG1 26:2-ARGM-ADV
 bn/voa/01/voa_0132.parse 19 24 gold know know.06 ----- 23:1-ARG0 24:0-rel
 bn/voa/01/voa_0132.parse 4 18 gold believe believe.01 ----- 12:1*17:1-ARG0 18:0-rel 19:1-ARG1
@@ -77,25 +80,23 @@ bn/voa/01/voa_0132.parse 11 25 gold want want.01 ----- 20:1*22:1*23:1-ARG0 20:1*
 bn/voa/01/voa_0132.parse 23 8 gold have have.01 ----- 8:0-rel
 bn/voa/01/voa_0132.parse 10 6 gold do do.01 ----- 6:0-rel
 bn/voa/01/voa_0132.parse 6 28 gold know know.01 ----- 22:1*26:1-ARG0 27:1-ARGM-TMP 28:0-rel 29:1-ARG1
-bn/voa/01/voa_0132.parse 20 10 gold think think.01 ----- 7:1-ARG0 9:1-ARGM-ADV 10:0-rel 11:1-ARG2
+bn/voa/01/voa_0132.parse 22 22 gold puzzle puzzle.01 ----- 21:1-ARG0 22:0-rel
+bn/voa/01/voa_0132.parse 20 2 gold say say.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG1
 bn/voa/01/voa_0132.parse 15 48 gold be be.01 ----- 42:1*46:1-ARG1 48:0-rel 49:1-ARG2
 bn/voa/01/voa_0132.parse 15 31 gold know know.01 ----- 30:1-ARG0 31:0-rel 32:1-ARG1
 bn/voa/01/voa_0132.parse 13 9 gold be be.01 ----- 8:1-ARG1 9:0-rel 10:1-ARG2
 bn/voa/01/voa_0132.parse 19 4 gold be be.01 ----- 2:1*5:1-ARG2 3:1-ARG1 4:0-rel 8:1-ARGM-DIS
 bn/voa/01/voa_0132.parse 18 17 gold be be.03 ----- 17:0-rel
 bn/voa/01/voa_0132.parse 14 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
-bn/voa/01/voa_0132.parse 10 30 gold do do.02 ----- 25:1*31:1-ARG1 26:2-ARG0 30:0-rel
-bn/voa/01/voa_0132.parse 1 4 gold look look.01 ----- 0:1-ARG0 2:0-ARGM-LVB 4:0-rel 5:1-ARG1
 bn/voa/01/voa_0132.parse 6 38 gold want want.01 ----- 37:1-ARG0 38:0-rel 39:2-ARG1
 bn/voa/01/voa_0132.parse 15 45 gold want want.01 ----- 42:1-ARG0 44:0-ARGM-NEG 45:0-rel 46:2-ARG1
 bn/voa/01/voa_0132.parse 22 18 gold puzzle puzzle.01 ----- 1:2*15:1-ARG0 18:0-rel
-bn/voa/01/voa_0132.parse 2 6 gold write write.01 ----- 0:1*5:1-ARG0 6:0-rel 7:1-ARGM-MNR
-bn/voa/01/voa_0132.parse 16 1 gold perform perform.01 ----- 0:1-ARG0 1:0-rel 2:2-ARGM-PRD
 bn/voa/01/voa_0132.parse 0 16 gold star star.01 ----- 11:1-ARG2 16:0-rel 17:1-ARG1
 bn/voa/01/voa_0132.parse 22 25 gold puzzle puzzle.01 ----- 21:1-ARG0 25:0-rel 27:1-ARGM-TMP
 bn/voa/01/voa_0132.parse 20 31 gold be be.01 ----- 30:1-ARG1 31:0-rel 32:1-ARG2
 bn/voa/01/voa_0132.parse 18 18 gold tell tell.01 ----- 15:1*20:1-ARG1 16:1-ARG0 18:0-rel 19:1-ARG2
 bn/voa/01/voa_0132.parse 23 3 gold think think.01 ----- 0:1-ARGM-TMP 1:1-ARG0 3:0-rel 4:1-ARG1
+bn/voa/01/voa_0132.parse 1 4 gold look look.01 ----- 0:1-ARG0 2:0-ARGM-LVB 4:0-rel 5:1-ARG1
 bn/voa/01/voa_0132.parse 13 13 gold change change.01 ----- 8:1*11:1-ARG1 13:0-rel
 bn/voa/01/voa_0132.parse 1 10 gold adapt adapt.01 ----- 7:0-ARGM-TMP 8:1-ARG2 10:0-rel 11:1-ARG1
 bn/voa/01/voa_0132.parse 4 0 gold fame fame.01 ----- 0:0-rel 1:0-ARG1
@@ -103,8 +104,8 @@ bn/voa/01/voa_0132.parse 7 1 gold have have.01 ----- 1:0-rel
 bn/voa/01/voa_0132.parse 26 10 gold steal steal.01 ----- 7:1*12:1-ARGM-MNR 8:1-ARG0 10:0-rel 11:1-ARG1
 bn/voa/01/voa_0132.parse 19 15 gold be be.01 ----- 14:1-ARG1 15:0-rel 16:1-ARGM-ADV 17:2-ARG2
 bn/voa/01/voa_0132.parse 4 43 gold set set_out.07 ----- 31:1-ARGM-MNR 40:1-ARG0 43:0,44:1-rel 45:2-ARG1
+bn/voa/01/voa_0132.parse 15 3 gold need need.01 ----- 0:1*1:1*4:1-ARG1 0:1*1:1-LINK-SLC 2:1-ARG0 3:0-rel
 bn/voa/01/voa_0132.parse 22 16 gold puzzle puzzle.01 ----- 1:2*15:1-ARG0 16:0-rel
-bn/voa/01/voa_0132.parse 15 40 gold know know.01 ----- 39:1-ARG0 40:0-rel 41:1-ARG1
 bn/voa/01/voa_0132.parse 8 7 gold be be.01 ----- 5:1-ARG1 7:0-rel 8:2-ARG2
 bn/voa/01/voa_0132.parse 3 25 gold love love.01 ----- 24:0-ARG1 25:0-rel 26:0-ARG0
 bn/voa/01/voa_0132.parse 20 25 gold be be.01 ----- 24:1-ARG1 25:0-rel 26:2-ARG2
@@ -114,13 +115,12 @@ bn/voa/01/voa_0132.parse 17 1 gold sneak sneak.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG
 bn/voa/01/voa_0132.parse 12 12 gold know know.06 ----- 11:1-ARG0 12:0-rel
 bn/voa/01/voa_0132.parse 6 13 gold be be.03 ----- 13:0-rel
 bn/voa/01/voa_0132.parse 16 3 gold cover cover.02 ----- 0:1*2:1-ARG1 3:0-rel 4:2-ARGM-EXT 7:1-ARG2
-bn/voa/01/voa_0132.parse 21 6 gold say say.01 ----- 4:1*10:1-ARGM-TMP 5:1-ARG0 6:0-rel 7:1-ARG1
-bn/voa/01/voa_0132.parse 20 2 gold say say.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG1
 bn/voa/01/voa_0132.parse 15 71 gold do do.02 ----- 68:1*72:1-ARG1 69:1-ARG0 71:0-rel
+bn/voa/01/voa_0132.parse 15 40 gold know know.01 ----- 39:1-ARG0 40:0-rel 41:1-ARG1
 bn/voa/01/voa_0132.parse 24 10 gold mean mean.01 ----- 7:1-ARGM-ADV 8:1-ARG1 9:1-ARGM-ADV 10:0-rel 11:3-ARG2
-bn/voa/01/voa_0132.parse 14 4 gold liken like.02 ----- 2:1*5:1-ARG1 3:1-ARG0 4:0-rel 6:1-ARGM-ADV
 bn/voa/01/voa_0132.parse 6 8 gold make make.01 ----- 4:1*6:1-ARG0 8:0-rel 9:2-ARG1
 bn/voa/01/voa_0132.parse 5 13 gold be be.01 ----- 12:1-ARG1 13:0-rel 14:1-ARG2 15:1-ARGM-CAU
 bn/voa/01/voa_0132.parse 26 24 gold introduce introduce.01 ----- 0:2-ARG0 15:1-ARGM-DIS 24:0-rel 25:1-ARG1 28:1-ARGM-PRD
 bn/voa/01/voa_0132.parse 25 2 gold narrate narrate.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 bn/voa/01/voa_0132.parse 11 34 gold know know.06 ----- 33:1-ARG0 34:0-rel
+bn/voa/01/voa_0132.parse 14 4 gold liken like.02 ----- 2:1*5:1-ARG1 3:1-ARG0 4:0-rel 6:1-ARGM-ADV

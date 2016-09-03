@@ -1,3 +1,4 @@
+nw/wsj/15/wsj_1585.parse 0 32 gold applaud applaud.01 ----- 0:1-ARGM-ADV 31:1-ARG0 32:0-rel 33:2-ARG1
 nw/wsj/15/wsj_1585.parse 3 24 gold have have.02 ----- 24:0-rel
 nw/wsj/15/wsj_1585.parse 4 3 gold earn earn.01 ----- 1:1-ARG0 3:0-rel 4:2-ARG1 10:2-ARGM-CAU
 nw/wsj/15/wsj_1585.parse 8 33 gold allow allow.01 ----- 26:2*34:1;35:1-ARG1 32:0-ARGM-NEG 33:0-rel 35:1-ARGM-MNR
@@ -11,12 +12,14 @@ nw/wsj/15/wsj_1585.parse 3 27 gold pay pay.01 ----- 23:1*25:1-ARG0 24:0-ARGM-MOD
 nw/wsj/15/wsj_1585.parse 4 15 gold limit limit.01 ----- 14:0-ARG1 15:0-rel
 nw/wsj/15/wsj_1585.parse 9 8 gold lift lift.02 ----- 0:1*5:1*23:1-ARGM-TMP 0:1*5:1-LINK-SLC 6:1-ARG0 8:0-rel 9:1-ARG1 15:1-ARG2
 nw/wsj/15/wsj_1585.parse 6 14 gold increase increase.01 ----- 14:0-rel 15:2,18:0-ARG1
-nw/wsj/15/wsj_1585.parse 0 32 gold applaud applaud.01 ----- 0:1-ARGM-ADV 31:1-ARG0 32:0-rel 33:2-ARG1
 nw/wsj/15/wsj_1585.parse 7 15 gold include include.01 ----- 0:1*13:1-ARG0 15:0-rel 16:2-ARG1 20:1-ARG2
 nw/wsj/15/wsj_1585.parse 7 2 gold need need.01 ----- 0:1-ARG0 1:1-ARGM-TMP 2:0-rel 3:2-ARG1 11:1-ARGM-PRP
 nw/wsj/15/wsj_1585.parse 0 22 gold limit limit.01 ----- 19:1-ARG0 21:0-ARG1 22:0-rel 23:1-ARGM-GOL
 nw/wsj/15/wsj_1585.parse 8 28 gold test test.01 ----- 27:0-ARG1 28:0-rel
+nw/wsj/15/wsj_1585.parse 0 35 gold endorse endorse.01 ----- 33:0-ARG0 34:0-ARGM-MNR 35:0-rel 36:2-ARG1
+nw/wsj/15/wsj_1585.parse 8 31 gold be be.03 ----- 31:0-rel
 nw/wsj/15/wsj_1585.parse 0 17 gold repeal repeal.01 ----- 4:1*14:1*15:1-ARG0 4:1*14:1-LINK-SLC 16:0-ARGM-MOD 17:0-rel 18:2-ARG1
+nw/wsj/15/wsj_1585.parse 5 1 gold eliminate eliminate.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 nw/wsj/15/wsj_1585.parse 9 14 gold limit limit.01 ----- 10:0-ARGM-ADJ 11:1,13:0-ARG1 14:0-rel
 nw/wsj/15/wsj_1585.parse 5 10 gold reduce reduce.01 ----- 0:2-ARG0 5:0-ARGM-MOD 6:1-ARGM-MNR 10:0-rel 11:1-ARG1
 nw/wsj/15/wsj_1585.parse 3 6 gold want want.01 ----- 2:1*4:1*5:1-ARG0 2:1*4:1-LINK-SLC 6:0-rel 7:2-ARG1
@@ -33,11 +36,8 @@ nw/wsj/15/wsj_1585.parse 3 20 gold have have.03 ----- 15:1*18:1*21:1-ARG1 15:1*1
 nw/wsj/15/wsj_1585.parse 8 7 gold be be.01 ----- 1:3-ARG1 7:0-rel 8:2-ARG2
 nw/wsj/15/wsj_1585.parse 8 20 gold be be.03 ----- 20:0-rel
 nw/wsj/15/wsj_1585.parse 4 19 gold have have.02 ----- 18:0-ARGM-MOD 19:0-rel
-nw/wsj/15/wsj_1585.parse 0 35 gold endorse endorse.01 ----- 33:0-ARG0 34:0-ARGM-MNR 35:0-rel 36:2-ARG1
 nw/wsj/15/wsj_1585.parse 3 1 gold imagine imagine.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 nw/wsj/15/wsj_1585.parse 0 39 gold repeal repeal.01 ----- 33:1*36:1*37:1-ARG0 33:1*36:1-LINK-SLC 39:0-rel 40:1-ARG1
-nw/wsj/15/wsj_1585.parse 8 31 gold be be.03 ----- 31:0-rel
-nw/wsj/15/wsj_1585.parse 5 1 gold eliminate eliminate.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 nw/wsj/15/wsj_1585.parse 8 21 gold hold hold.02 ----- 19:0-ARGM-MOD 21:0-rel 22:2-ARG1 25:1-ARGM-ADV
 nw/wsj/15/wsj_1585.parse 7 3 gold support support.01 ----- 3:0-rel 4:1-ARG0
 nw/wsj/15/wsj_1585.parse 6 0 gold repeal repeal.01 ----- 0:0-rel

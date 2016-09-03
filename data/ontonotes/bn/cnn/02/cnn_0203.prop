@@ -3,11 +3,11 @@ bn/cnn/02/cnn_0203.parse 2 5 gold make make.LV ----- 5:0-rel 6:1-ARGM-PRR
 bn/cnn/02/cnn_0203.parse 0 8 gold have have.01 ----- 8:0-rel
 bn/cnn/02/cnn_0203.parse 2 10 gold be be.03 ----- 10:0-rel
 bn/cnn/02/cnn_0203.parse 0 9 gold launch launch.01 ----- 6:1-ARG0 9:0-rel 10:2-ARG1
+bn/cnn/02/cnn_0203.parse 2 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bn/cnn/02/cnn_0203.parse 0 4 gold report report.01 ----- 0:1-ARG0 4:0-rel 5:1-ARG1
 bn/cnn/02/cnn_0203.parse 1 10 gold comment comment.01 ----- 0:1*5:1*6:1*8:1-ARG0 0:1*5:1-LINK-SLC 10:0-rel 11:1-ARG3
 bn/cnn/02/cnn_0203.parse 1 3 gold brief brief.01 ----- 0:2;5:2-ARG0 3:0-rel 4:1-ARG1
 bn/cnn/02/cnn_0203.parse 0 3 gold be be.03 ----- 3:0-rel
 bn/cnn/02/cnn_0203.parse 2 9 gold operate operate.01 ----- 8:0-ARGM-ADJ 9:0-rel
-bn/cnn/02/cnn_0203.parse 2 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bn/cnn/02/cnn_0203.parse 1 7 gold refuse refuse.01 ----- 0:1*5:1*6:1-ARG0 0:1*5:1-LINK-SLC 7:0-rel 8:2-ARG1
 bn/cnn/02/cnn_0203.parse 2 11 gold conduct conduct.01 ----- 8:1*12:1-ARG1 11:0-rel

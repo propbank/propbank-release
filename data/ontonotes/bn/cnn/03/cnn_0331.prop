@@ -5,24 +5,23 @@ bn/cnn/03/cnn_0331.parse 18 0 gold join join.04 ----- 0:0-rel 1:1-ARG1 2:1-ARGM-
 bn/cnn/03/cnn_0331.parse 1 2 gold report report.01 ----- 0:1-ARG0 2:0-rel 3:1-ARGM-TMP 4:2-ARG1
 bn/cnn/03/cnn_0331.parse 18 5 gold be be.03 ----- 5:0-rel
 bn/cnn/03/cnn_0331.parse 14 2 gold look look.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
-bn/cnn/03/cnn_0331.parse 3 16 gold be be.03 ----- 16:0-rel
-bn/cnn/03/cnn_0331.parse 15 10 gold dead deadly.04 ----- 9:0-ARGM-ADJ 10:0-rel
 bn/cnn/03/cnn_0331.parse 8 3 gold tornado tornado.01 ----- 3:0-rel 4:1-ARGM-LOC 7:1-ARGM-LOC
-bn/cnn/03/cnn_0331.parse 19 5 gold give give.01 ----- 0:1-ARGM-DIS 3:0-ARGM-MOD 4:1-ARG0 5:0-rel 6:1-ARG2 7:2-ARG1
 bn/cnn/03/cnn_0331.parse 10 2 gold be be.03 ----- 2:0-rel
 bn/cnn/03/cnn_0331.parse 3 1 gold remain remain.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG3
 bn/cnn/03/cnn_0331.parse 14 7 gold be be.01 ----- 4:1*5:1*6:1-ARG1 4:1*5:1-LINK-SLC 7:0-rel 8:1-ARGM-ADV 9:1-ARG2
+bn/cnn/03/cnn_0331.parse 7 4 gold scratch scratch.02 ----- 0:2-ARG0 4:0-rel 5:1-ARG1
 bn/cnn/03/cnn_0331.parse 2 9 gold grow grow.01 ----- 5:1-ARG1 9:0-rel
 bn/cnn/03/cnn_0331.parse 15 11 gold be be.01 ----- 0:2-ARG1 11:0-rel 12:2-ARG2
 bn/cnn/03/cnn_0331.parse 13 11 gold rip rip.01 ----- 0:1-ARGM-TMP 2:1-ARGM-LOC 6:1-ARG0 11:0-rel 12:1-ARGM-MNR 13:1-ARG1
 bn/cnn/03/cnn_0331.parse 9 10 gold strike strike.01 ----- 9:1-ARG2 10:0-rel 11:1-ARG1
-bn/cnn/03/cnn_0331.parse 11 8 gold be be.03 ----- 8:0-rel
 bn/cnn/03/cnn_0331.parse 11 13 gold cut cut.01 ----- 11:1*21:1-ARGM-TMP 12:1-ARG0 13:0-rel 14:1-ARG2
 bn/cnn/03/cnn_0331.parse 2 8 gold have have.01 ----- 8:0-rel
 bn/cnn/03/cnn_0331.parse 6 8 gold dead deadly.04 ----- 8:0-rel 9:0-ARG0
 bn/cnn/03/cnn_0331.parse 3 12 gold show show.01 ----- 11:1-ARG0 12:0-rel 13:1-ARG1
+bn/cnn/03/cnn_0331.parse 3 16 gold be be.03 ----- 16:0-rel
+bn/cnn/03/cnn_0331.parse 15 10 gold dead deadly.04 ----- 9:0-ARGM-ADJ 10:0-rel
 bn/cnn/03/cnn_0331.parse 15 4 gold prove prove.01 ----- 2:1,5:2-ARG1 4:0-rel
-bn/cnn/03/cnn_0331.parse 13 16 gold uproot uproot.01 ----- 0:1-ARGM-TMP 2:1-ARGM-LOC 6:1-ARG0 16:0-rel 17:2-ARG1
+bn/cnn/03/cnn_0331.parse 9 9 gold twister twister.01 ----- 9:0-rel
 bn/cnn/03/cnn_0331.parse 8 1 gold capture capture.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 bn/cnn/03/cnn_0331.parse 10 3 gold kill kill.01 ----- 0:1*4:1-ARG1 3:0-rel 5:1-ARGM-LOC
 bn/cnn/03/cnn_0331.parse 16 3 gold tell tell.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG2 5:1-ARG1
@@ -30,18 +29,19 @@ bn/cnn/03/cnn_0331.parse 12 2 gold have have.01 ----- 2:0-rel
 bn/cnn/03/cnn_0331.parse 16 8 gold die die.01 ----- 6:1-ARG1 8:0-rel 9:1-ARGM-LOC
 bn/cnn/03/cnn_0331.parse 2 1 gold be be.02 ----- 1:0-rel 2:1-ARG1
 bn/cnn/03/cnn_0331.parse 11 4 gold say say.01 ----- 0:1-ARGM-LOC 3:1-ARG0 4:0-rel 5:1-ARG1
+bn/cnn/03/cnn_0331.parse 19 5 gold give give.01 ----- 0:1-ARGM-DIS 3:0-ARGM-MOD 4:1-ARG0 5:0-rel 6:1-ARG2 7:2-ARG1
 bn/cnn/03/cnn_0331.parse 12 3 gold be be.03 ----- 3:0-rel
-bn/cnn/03/cnn_0331.parse 7 4 gold scratch scratch.02 ----- 0:2-ARG0 4:0-rel 5:1-ARG1
 bn/cnn/03/cnn_0331.parse 3 18 gold spread spread.03 ----- 14:1-ARG1 17:1-ARGM-DIS 18:0-rel 19:1-ARGM-LOC
 bn/cnn/03/cnn_0331.parse 5 2 gold check check_in.04 ----- 0:1-ARG0 2:0,3:1-rel 4:1-ARGM-LOC
-bn/cnn/03/cnn_0331.parse 9 9 gold twister twister.01 ----- 9:0-rel
+bn/cnn/03/cnn_0331.parse 13 16 gold uproot uproot.01 ----- 0:1-ARGM-TMP 2:1-ARGM-LOC 6:1-ARG0 16:0-rel 17:2-ARG1
 bn/cnn/03/cnn_0331.parse 9 3 gold declare declare.01 ----- 0:1-ARG0 3:0-rel 4:2-ARG1 8:1-ARGM-TMP
 bn/cnn/03/cnn_0331.parse 6 3 gold search search.01 ----- 0:2-ARGM-ADV 3:0-rel 4:1-ARG1
+bn/cnn/03/cnn_0331.parse 12 4 gold declare declare.01 ----- 0:1*5:1-ARG1 4:0-rel 6:2-ARG3 9:1-ARGM-LOC
 bn/cnn/03/cnn_0331.parse 7 3 gold destroy destroy.01 ----- 3:0-rel
 bn/cnn/03/cnn_0331.parse 9 2 gold have have.01 ----- 2:0-rel
 bn/cnn/03/cnn_0331.parse 14 9 gold miss miss.01 ----- 4:1*5:1*6:1-ARG1 4:1*5:1-LINK-SLC 8:1-ARGM-TMP 9:0-rel
-bn/cnn/03/cnn_0331.parse 12 4 gold declare declare.01 ----- 0:1*5:1-ARG1 4:0-rel 6:2-ARG3 9:1-ARGM-LOC
 bn/cnn/03/cnn_0331.parse 0 2 gold grow grow.01 ----- 2:0-rel 3:0-ARG1
 bn/cnn/03/cnn_0331.parse 15 7 gold be be.01 ----- 2:1*5:1-ARG1 2:1*5:1-LINK-PRO 7:0-rel 8:1-ARG2
-bn/cnn/03/cnn_0331.parse 1 10 gold die die.01 ----- 9:0-ARGM-ADJ 10:0-rel
+bn/cnn/03/cnn_0331.parse 11 8 gold be be.03 ----- 8:0-rel
 bn/cnn/03/cnn_0331.parse 13 8 gold demolish demolish.01 ----- 0:1-ARGM-TMP 2:1-ARGM-LOC 6:1-ARG0 8:0-rel 9:1-ARG1
+bn/cnn/03/cnn_0331.parse 1 10 gold die die.01 ----- 9:0-ARGM-ADJ 10:0-rel

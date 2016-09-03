@@ -4,8 +4,8 @@ bn/cnn/00/cnn_0061.parse 2 5 gold put put.02 ----- 1:1-ARG0 5:0-rel 6:1-ARG1
 bn/cnn/00/cnn_0061.parse 6 4 gold kill kill.01 ----- 0:1*5:1-ARG1 4:0-rel 6:1-ARG2 11:4-ARGM-PRD
 bn/cnn/00/cnn_0061.parse 1 11 gold talk talk.01 ----- 10:0-ARG1 11:0-rel
 bn/cnn/00/cnn_0061.parse 0 15 gold discuss discuss.01 ----- 0:2*13:1-ARG0 15:0-rel 16:2-ARG1
-bn/cnn/00/cnn_0061.parse 3 14 gold die die.01 ----- 12:1-ARG1 14:0-rel 15:1-ARGM-CAU 18:1-ARGM-TMP
 bn/cnn/00/cnn_0061.parse 0 17 gold form form.01 ----- 16:1-ARG0 17:0-rel 18:1-ARG1
+bn/cnn/00/cnn_0061.parse 3 14 gold die die.01 ----- 12:1-ARG1 14:0-rel 15:1-ARGM-CAU 18:1-ARGM-TMP
 bn/cnn/00/cnn_0061.parse 1 2 gold warn warn.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1 7:1-ARGM-CAU
 bn/cnn/00/cnn_0061.parse 3 7 gold be be.03 ----- 7:0-rel
 bn/cnn/00/cnn_0061.parse 6 9 gold violent violent.01 ----- 8:0-ARGM-TMP 9:0-rel

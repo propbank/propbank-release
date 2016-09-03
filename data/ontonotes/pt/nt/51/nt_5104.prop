@@ -6,22 +6,20 @@ pt/nt/51/nt_5104.parse 16 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 pt/nt/51/nt_5104.parse 32 3 gold greet greet.01 ----- 0:1-ARG0 1:0-ARGM-LVB 2:0-ARGM-DIR 3:0-rel 4:1-ARG1
 pt/nt/51/nt_5104.parse 5 11 gold tell tell.01 ----- 6:1*9:1-ARG0 6:1*9:1-LINK-PRO 11:0-rel 12:1-ARG2 13:1-ARG1
 pt/nt/51/nt_5104.parse 21 8 gold send send.01 ----- 0:2-ARG0 7:1-ARGM-ADV 8:0-rel 9:1-ARG1
-pt/nt/51/nt_5104.parse 36 16 gold give give.01 ----- 11:1*13:1*18:1-ARG1 11:1*13:1-LINK-SLC 14:1-ARG0 16:0-rel 17:1-ARG2
 pt/nt/51/nt_5104.parse 14 7 gold serve serve.01 ----- 6:1-ARG0 7:0-rel 8:1-ARG2 10:1-ARGM-COM
+pt/nt/51/nt_5104.parse 38 1 gold remember remember.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:2-ARG2
 pt/nt/51/nt_5104.parse 17 1 gold want want.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 pt/nt/51/nt_5104.parse 24 1 gold greet greet.01 ----- 0:0-ARGM-DIS 1:0-rel 2:1-ARG0
 pt/nt/51/nt_5104.parse 31 0 gold greet greet.01 ----- 0:0-rel 1:1-ARGM-DIS 2:1-ARG0
 pt/nt/51/nt_5104.parse 7 17 gold make make.02 ----- 15:1-ARG0 17:0-rel 18:2-ARG1
+pt/nt/51/nt_5104.parse 11 2 gold talk talk.01 ----- 0:1*3:1-ARGM-TMP 1:1-ARG0 2:0-rel
 pt/nt/51/nt_5104.parse 8 12 gold make make.02 ----- 10:1-ARG0 12:0-rel 13:2-ARG1
 pt/nt/51/nt_5104.parse 7 2 gold pray pray.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
-pt/nt/51/nt_5104.parse 5 5 gold give give.01 ----- 3:1-ARG0 4:0-ARGM-MOD 5:0-rel 6:1-ARG2 7:2-ARG1
 pt/nt/51/nt_5104.parse 16 4 gold be be.03 ----- 4:0-rel
 pt/nt/51/nt_5104.parse 36 10 gold do do.LV ----- 10:0-rel 12:0-ARGM-PRR
-pt/nt/51/nt_5104.parse 34 4 gold read read.01 ----- 1:1*5:1-ARG1 4:0-rel 6:1-ARG2
 pt/nt/51/nt_5104.parse 9 13 gold be be.01 ----- 10:1*11:1*12:1-ARG1 10:1*11:1-LINK-SLC 13:0-rel 14:0-ARGM-NEG 15:1-ARG2
 pt/nt/51/nt_5104.parse 36 1 gold tell tell.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG2 5:2-ARG1
 pt/nt/51/nt_5104.parse 7 9 gold tell tell.01 ----- 4:1*7:1-ARG0 9:0-rel 10:1-ARG2 11:2-ARG1
-pt/nt/51/nt_5104.parse 15 2 gold tell tell.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG2 4:2-ARG1
 pt/nt/51/nt_5104.parse 32 1 gold give give.LV ----- 1:0-rel 3:0-ARGM-PRR
 pt/nt/51/nt_5104.parse 39 3 gold be be.01 ----- 0:2-ARG1 3:0-rel 4:1-ARG2
 pt/nt/51/nt_5104.parse 6 6 gold do do.02 ----- 5:1-ARG0 6:0-rel 7:1-ARG1
@@ -40,19 +38,17 @@ pt/nt/51/nt_5104.parse 30 1 gold know know.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 pt/nt/51/nt_5104.parse 2 2 gold stop stop.01 ----- 0:1-ARG0 1:1-ARGM-NEG 2:0-rel 3:2-ARG1
 pt/nt/51/nt_5104.parse 34 3 gold be be.03 ----- 3:0-rel
 pt/nt/51/nt_5104.parse 15 7 gold be be.03 ----- 7:0-rel
+pt/nt/51/nt_5104.parse 4 2 gold pray pray.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARGM-GOL
 pt/nt/51/nt_5104.parse 3 7 gold pray pray.01 ----- 6:1-ARG0 7:0-rel
 pt/nt/51/nt_5104.parse 23 5 gold welcome welcome.01 ----- 0:1-ARGM-ADV 4:1-ARG0 5:0-rel 6:1-ARG1
-pt/nt/51/nt_5104.parse 19 2 gold tell tell.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG2 4:2-ARG1
 pt/nt/51/nt_5104.parse 15 8 gold happen happen.01 ----- 4:1*5:1*6:1-ARG1 4:1*5:1-LINK-SLC 8:0-rel 9:1-ARG2
 pt/nt/51/nt_5104.parse 37 1 gold be be.01 ----- 0:1*2:1-ARG2 1:0-rel 3:3-ARG1
-pt/nt/51/nt_5104.parse 11 2 gold talk talk.01 ----- 0:1*3:1-ARGM-TMP 1:1-ARG0 2:0-rel
-pt/nt/51/nt_5104.parse 38 1 gold remember remember.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:2-ARG2
 pt/nt/51/nt_5104.parse 13 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 pt/nt/51/nt_5104.parse 22 2 gold have have.01 ----- 2:0-rel
 pt/nt/51/nt_5104.parse 24 9 gold be be.03 ----- 9:0-rel
-pt/nt/51/nt_5104.parse 1 1 gold remember remember.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 pt/nt/51/nt_5104.parse 16 5 gold send send.01 ----- 2:1*7:1-ARGM-CAU 3:1-ARG0 5:0-rel 6:1-ARG1
 pt/nt/51/nt_5104.parse 28 2 gold struggle struggle.02 ----- 0:1-ARG0 1:1-ARGM-TMP 2:0-rel 3:1-ARGM-GOL 5:1-ARGM-LOC
+pt/nt/51/nt_5104.parse 36 16 gold give give.01 ----- 11:1*13:1*18:1-ARG1 11:1*13:1-LINK-SLC 14:1-ARG0 16:0-rel 17:1-ARG2
 pt/nt/51/nt_5104.parse 20 13 gold greet greet.01 ----- 12:0-ARG0 13:0-rel
 pt/nt/51/nt_5104.parse 18 2 gold send send.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1 4:1-ARGM-COM
 pt/nt/51/nt_5104.parse 36 6 gold be be.01 ----- 2:1*5:1-ARG1 2:1*5:1-LINK-PRO 6:0-rel 7:2-ARG2
@@ -63,33 +59,34 @@ pt/nt/51/nt_5104.parse 37 4 gold greet greet.01 ----- 3:0-ARG0 4:0-rel 5:1-ARGM-
 pt/nt/51/nt_5104.parse 22 9 gold do do.02 ----- 6:1*10:1-ARG1 7:1-ARG0 9:0-rel 11:1-ARG2
 pt/nt/51/nt_5104.parse 35 3 gold read read.01 ----- 0:0-ARGM-DIS 1:1-ARGM-DIS 2:1-ARG0 3:0-rel 4:2-ARG1
 pt/nt/51/nt_5104.parse 36 12 gold work work.01 ----- 2:1*5:1*8:1-ARG0 2:1*5:1-LINK-PRO 10:0-ARGM-LVB 12:0-rel 13:2-ARGM-ADJ
-pt/nt/51/nt_5104.parse 4 2 gold pray pray.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARGM-GOL
 pt/nt/51/nt_5104.parse 8 8 gold be be.01 ----- 6:1*7:1-ARG1 8:0-rel 9:2-ARG2
+pt/nt/51/nt_5104.parse 17 17 gold encourage encourage.02 ----- 14:1*15:1-ARG0 17:0-rel 18:1-ARG1
 pt/nt/51/nt_5104.parse 29 8 gold be be.01 ----- 3:1*6:1-ARG1 8:0-rel 9:1-ARG2
 pt/nt/51/nt_5104.parse 3 9 gold be be.01 ----- 6:1-ARG1 9:0-rel 10:1-ARG2
 pt/nt/51/nt_5104.parse 25 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 pt/nt/51/nt_5104.parse 9 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2 3:1-ARGM-MNR
 pt/nt/51/nt_5104.parse 30 5 gold work work.01 ----- 3:1-ARG0 5:0-rel 6:1-ARGM-MNR 7:1-ARG2
 pt/nt/51/nt_5104.parse 30 4 gold have have.01 ----- 4:0-rel
+pt/nt/51/nt_5104.parse 34 4 gold read read.01 ----- 1:1*5:1-ARG1 4:0-rel 6:1-ARG2
 pt/nt/51/nt_5104.parse 23 2 gold come come.01 ----- 1:1-ARG1 2:0-rel
 pt/nt/51/nt_5104.parse 34 16 gold read read.01 ----- 13:1*17:1-ARG1 15:1-ARGM-ADV 16:0-rel 18:1-ARG2
+pt/nt/51/nt_5104.parse 26 1 gold have have.01 ----- 1:0-rel
+pt/nt/51/nt_5104.parse 15 2 gold tell tell.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG2 4:2-ARG1
 pt/nt/51/nt_5104.parse 12 7 gold answer answer.01 ----- 1:1*5:1-ARG0 7:0-rel 8:1-ARG1 9:1-ARGM-MNR
 pt/nt/51/nt_5104.parse 5 1 gold pray pray.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 pt/nt/51/nt_5104.parse 7 16 gold have have.01 ----- 16:0-rel
 pt/nt/51/nt_5104.parse 8 1 gold pray pray.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
-pt/nt/51/nt_5104.parse 10 1 gold use use.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 4:1-ARGM-MNR
 pt/nt/51/nt_5104.parse 17 4 gold know know.01 ----- 2:1-ARG0 4:0-rel 5:2-ARG1
 pt/nt/51/nt_5104.parse 17 12 gold be be.03 ----- 12:0-rel
 pt/nt/51/nt_5104.parse 27 13 gold greet greet.01 ----- 12:0-ARG0 13:0-rel
-pt/nt/51/nt_5104.parse 26 1 gold have have.01 ----- 1:0-rel
 pt/nt/51/nt_5104.parse 35 8 gold write write.01 ----- 4:1*6:1*9:1-ARG1 4:1*6:1-LINK-SLC 7:1-ARG0 8:0-rel 10:1-ARG2
 pt/nt/51/nt_5104.parse 3 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2 5:1-ARGM-MNR
 pt/nt/51/nt_5104.parse 17 13 gold send send.02 ----- 11:1-ARG0 13:0-rel 14:1-ARG1 15:2-ARG2
-pt/nt/51/nt_5104.parse 17 17 gold encourage encourage.02 ----- 14:1*15:1-ARG0 17:0-rel 18:1-ARG1
-pt/nt/51/nt_5104.parse 27 11 gold send send.01 ----- 0:2-ARG0 11:0-rel 12:1-ARG1
 pt/nt/51/nt_5104.parse 29 16 gold want want.01 ----- 13:1*14:1*17:1-ARG1 13:1*14:1-LINK-SLC 15:1-ARG0 16:0-rel 18:1-ARG2
 pt/nt/51/nt_5104.parse 14 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 pt/nt/51/nt_5104.parse 17 7 gold be be.01 ----- 5:1*8:1-ARG2 6:1-ARG1 7:0-rel
+pt/nt/51/nt_5104.parse 5 5 gold give give.01 ----- 3:1-ARG0 4:0-ARGM-MOD 5:0-rel 6:1-ARG2 7:2-ARG1
+pt/nt/51/nt_5104.parse 1 1 gold remember remember.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 pt/nt/51/nt_5104.parse 29 1 gold pray pray.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 pt/nt/51/nt_5104.parse 24 11 gold call call.01 ----- 5:1*7:1*8:1*12:1-ARG1 5:1*7:1-LINK-SLC 10:1-ARGM-ADV 11:0-rel 13:2-ARG2
 pt/nt/51/nt_5104.parse 26 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2 6:1-ARGM-GOL
@@ -97,4 +94,7 @@ pt/nt/51/nt_5104.parse 6 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2 4:1-ARG
 pt/nt/51/nt_5104.parse 8 5 gold say say.01 ----- 3:1-ARG0 4:0-ARGM-MOD 5:0-rel 6:2-ARG1
 pt/nt/51/nt_5104.parse 22 4 gold tell tell.01 ----- 1:1-ARG0 3:1-ARGM-TMP 4:0-rel 5:1-ARG2 6:2-ARG1
 pt/nt/51/nt_5104.parse 34 14 gold be be.03 ----- 14:0-rel
+pt/nt/51/nt_5104.parse 19 2 gold tell tell.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG2 4:2-ARG1
+pt/nt/51/nt_5104.parse 10 1 gold use use.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 4:1-ARGM-MNR
 pt/nt/51/nt_5104.parse 7 6 gold continue continue.01 ----- 4:1-ARG0 5:0-ARGM-MOD 6:0-rel 7:2-ARG1
+pt/nt/51/nt_5104.parse 27 11 gold send send.01 ----- 0:2-ARG0 11:0-rel 12:1-ARG1

@@ -1,6 +1,6 @@
 bn/abc/00/abc_0052.parse 2 9 gold be be.01 ----- 0:2-ARG1 9:0-rel 10:1-ARG2
 bn/abc/00/abc_0052.parse 3 7 gold underinflate underinflate.01 ----- 4:1*5:1*6:1-ARG0 4:1*5:1-LINK-SLC 7:0-rel 8:1-ARG1
-bn/abc/00/abc_0052.parse 20 2 gold mean mean.01 ----- 0:1-ARG1 2:0-rel 3:2;7:1-ARG2 5:1-ARG3
+bn/abc/00/abc_0052.parse 18 2 gold have have.03 ----- 0:1-ARG0 2:0-rel 3:1-ARG1 6:1-ARGM-TMP
 bn/abc/00/abc_0052.parse 24 13 gold be be.01 ----- 9:1-ARG1 11:0-ARGM-MOD 12:1-ARGM-ADV 13:0-rel 14:1-ARG2 15:1-ARGM-ADV
 bn/abc/00/abc_0052.parse 19 19 gold follow follow.02 ----- 18:1-ARG1 19:0-rel 20:1-ARG2 22:1-ARGM-DIR
 bn/abc/00/abc_0052.parse 22 5 gold finish finish.01 ----- 0:1*3:1-ARG0 5:0-rel 6:1-ARGM-PRD 7:1-ARGM-TMP
@@ -11,40 +11,39 @@ bn/abc/00/abc_0052.parse 14 6 gold serve serve.01 ----- 5:0-ARGM-ADJ 6:0-rel
 bn/abc/00/abc_0052.parse 6 17 gold have have.01 ----- 17:0-rel
 bn/abc/00/abc_0052.parse 6 22 gold relieve relieve.01 ----- 22:0-rel
 bn/abc/00/abc_0052.parse 8 4 gold be be.01 ----- 3:1-ARGM-TMP 4:0-rel 5:1-ARG2 8:2-ARG1
-bn/abc/00/abc_0052.parse 24 17 gold restore restore.01 ----- 16:1-ARG0 17:0-rel 18:2-ARG1
-bn/abc/00/abc_0052.parse 14 9 gold infuse infuse.01 ----- 0:1-ARGM-ADV 8:1-ARG0 9:0-rel 10:3-ARG1 17:1-ARG2
 bn/abc/00/abc_0052.parse 17 6 gold have have.03 ----- 0:2-ARG0 6:0-rel 7:3-ARG1
 bn/abc/00/abc_0052.parse 7 5 gold close close.01 ----- 3:1-ARG0 4:0-ARGM-MOD 5:0-rel 6:1-ARG1 8:1-ARGM-PRP
-bn/abc/00/abc_0052.parse 22 14 gold be be.01 ----- 8:1*12:1*20:1-ARGM-TMP 8:1*12:1-LINK-SLC 13:1-ARG1 14:0-rel 15:1-ARG2
 bn/abc/00/abc_0052.parse 13 5 gold lobby lobby.01 ----- 0:3-ARG0 5:0-rel 6:1-ARG2 7:2-ARG1
 bn/abc/00/abc_0052.parse 1 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bn/abc/00/abc_0052.parse 15 18 gold do do.02 ----- 0:0-ARGM-DIS 1:1-ARGM-LOC 13:1*19:1-ARG1 16:1-ARGM-TMP 18:0-rel
-bn/abc/00/abc_0052.parse 10 15 gold employ employ.01 ----- 0:1-ARGM-ADV 12:1-ARG0 14:1-ARGM-TMP 15:0-rel 16:1-ARG1
-bn/abc/00/abc_0052.parse 8 6 gold concern concern.01 ----- 6:0-rel
-bn/abc/00/abc_0052.parse 18 8 gold be be.03 ----- 8:0-rel
 bn/abc/00/abc_0052.parse 4 4 gold be be.01 ----- 0:2-ARG1 4:0-rel 5:1-ARG2 7:1-ARGM-TMP
+bn/abc/00/abc_0052.parse 10 15 gold employ employ.01 ----- 0:1-ARGM-ADV 12:1-ARG0 14:1-ARGM-TMP 15:0-rel 16:1-ARG1
+bn/abc/00/abc_0052.parse 18 8 gold be be.03 ----- 8:0-rel
+bn/abc/00/abc_0052.parse 24 17 gold restore restore.01 ----- 16:1-ARG0 17:0-rel 18:2-ARG1
 bn/abc/00/abc_0052.parse 15 10 gold live live.01 ----- 2:1*7:1*11:1-ARGM-LOC 2:1*7:1-LINK-SLC 8:1-ARG0 10:0-rel
 bn/abc/00/abc_0052.parse 5 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2 7:1-ARGM-TMP 9:2-ARGM-ADV
 bn/abc/00/abc_0052.parse 3 15 gold recommend recommend.01 ----- 11:1*14:1-ARG0 11:1*14:1-LINK-PRO 15:0-rel 16:1-ARG1
 bn/abc/00/abc_0052.parse 22 10 gold retire retire.01 ----- 8:0-ARG0 9:0-ARGM-ADJ 10:0-rel 12:2-ARGM-TMP
 bn/abc/00/abc_0052.parse 5 20 gold have have.01 ----- 20:0-rel
+bn/abc/00/abc_0052.parse 24 2 gold absolve absolve.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 bn/abc/00/abc_0052.parse 6 18 gold bring bring.01 ----- 0:2-ARG0 18:0-rel 19:2-ARG1
 bn/abc/00/abc_0052.parse 22 2 gold liken like.02 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:2-ARG1
+bn/abc/00/abc_0052.parse 8 6 gold concern concern.01 ----- 6:0-rel
+bn/abc/00/abc_0052.parse 22 14 gold be be.01 ----- 8:1*12:1*20:1-ARGM-TMP 8:1*12:1-LINK-SLC 13:1-ARG1 14:0-rel 15:1-ARG2
 bn/abc/00/abc_0052.parse 24 23 gold sell sell.01 ----- 16:1-ARG0 23:0-rel 24:1-ARG1
 bn/abc/00/abc_0052.parse 22 19 gold quit quit.01 ----- 13:1*17:1-ARG0 19:0-rel
 bn/abc/00/abc_0052.parse 15 17 gold be be.03 ----- 17:0-rel
 bn/abc/00/abc_0052.parse 18 9 gold lay lay_off.02 ----- 7:1*10:1-ARG1 9:0,11:1-rel 12:1-ARGM-TMP
-bn/abc/00/abc_0052.parse 18 2 gold have have.03 ----- 0:1-ARG0 2:0-rel 3:1-ARG1 6:1-ARGM-TMP
+bn/abc/00/abc_0052.parse 20 2 gold mean mean.01 ----- 0:1-ARG1 2:0-rel 3:2;7:1-ARG2 5:1-ARG3
 bn/abc/00/abc_0052.parse 13 9 gold keep keep.02 ----- 6:1*7:1-ARG0 9:0-rel 10:1,12:2-ARG1
 bn/abc/00/abc_0052.parse 19 4 gold be be.01 ----- 0:1*3:1-ARG1 4:0-rel 5:2-ARG2 13:2-ARGM-ADV 18:2-ARGM-ADV
-bn/abc/00/abc_0052.parse 5 19 gold sell sell.01 ----- 18:0-ARG1 19:0-rel
 bn/abc/00/abc_0052.parse 19 16 gold speak speak.01 ----- 14:1-ARG0 16:0-rel
+bn/abc/00/abc_0052.parse 5 19 gold sell sell.01 ----- 18:0-ARG1 19:0-rel
 bn/abc/00/abc_0052.parse 8 9 gold be be.03 ----- 9:0-rel
 bn/abc/00/abc_0052.parse 3 23 gold process process.02 ----- 22:0-ARG1 23:0-rel 24:1-ARGM-LOC
 bn/abc/00/abc_0052.parse 6 13 gold bring bring_about.05 ----- 4:2-ARG0 13:0,14:1-rel 15:1-ARG1
 bn/abc/00/abc_0052.parse 1 4 gold be be.02 ----- 4:0-rel 5:1-ARG1
 bn/abc/00/abc_0052.parse 0 6 gold blame blame.01 ----- 0:1-ARG0 5:1-ARGM-TMP 6:0-rel 7:2-ARG1 11:1-ARG2
-bn/abc/00/abc_0052.parse 24 2 gold absolve absolve.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 bn/abc/00/abc_0052.parse 21 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bn/abc/00/abc_0052.parse 7 1 gold fear fear.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bn/abc/00/abc_0052.parse 8 10 gold point point.01 ----- 8:1*11:1-ARG2 10:0-rel
@@ -57,6 +56,7 @@ bn/abc/00/abc_0052.parse 1 7 gold flaw flaw.01 ----- 6:0-ARG1 7:0-rel
 bn/abc/00/abc_0052.parse 22 27 gold have have.03 ----- 24:1-ARGM-DIS 26:1-ARG0 27:0-rel 28:1-ARG1
 bn/abc/00/abc_0052.parse 6 5 gold process process.02 ----- 5:0-rel
 bn/abc/00/abc_0052.parse 0 15 gold link link.01 ----- 12:1*16:1-ARG1 12:1*16:1-LINK-PSV 15:0-rel 17:1-ARG2
+bn/abc/00/abc_0052.parse 14 9 gold infuse infuse.01 ----- 0:1-ARGM-ADV 8:1-ARG0 9:0-rel 10:3-ARG1 17:1-ARG2
 bn/abc/00/abc_0052.parse 10 7 gold be be.03 ----- 7:0-rel
 bn/abc/00/abc_0052.parse 15 14 gold damage damage.01 ----- 14:0-rel
 bn/abc/00/abc_0052.parse 8 14 gold single single_out.01 ----- 8:1*15:1-ARG1 14:0,16:1-rel 17:1-ARG3

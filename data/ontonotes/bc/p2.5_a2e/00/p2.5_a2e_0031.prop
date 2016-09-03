@@ -1,6 +1,7 @@
 bc/p2.5_a2e/00/p2.5_a2e_0031.parse 2 45 gold be be.03 ----- 45:0-rel
 bc/p2.5_a2e/00/p2.5_a2e_0031.parse 2 58 gold enrich enrich.01 ----- 56:1-ARG0 58:0-rel 59:1-ARG1 65:2-ARGM-PRP
 bc/p2.5_a2e/00/p2.5_a2e_0031.parse 2 8 gold see see.01 ----- 0:2*9:1-ARG1 8:0-rel 10:1-ARG2 36:1-ARGM-ADV
+bc/p2.5_a2e/00/p2.5_a2e_0031.parse 0 13 gold include include.01 ----- 5:1*11:1*12:1-ARG2 5:1*11:1-LINK-SLC 13:0-rel 14:1-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0031.parse 2 46 gold convince convince.01 ----- 38:2*47:1-ARG1 46:0-rel 48:1-ARG2
 bc/p2.5_a2e/00/p2.5_a2e_0031.parse 2 7 gold be be.03 ----- 7:0-rel
 bc/p2.5_a2e/00/p2.5_a2e_0031.parse 2 26 gold address address.02 ----- 24:1-ARG0 25:1-ARGM-ADV 26:0-rel 27:2-ARG1
@@ -8,19 +9,19 @@ bc/p2.5_a2e/00/p2.5_a2e_0031.parse 1 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:
 bc/p2.5_a2e/00/p2.5_a2e_0031.parse 1 16 gold freeze freeze.01 ----- 3:2*14:1-ARG0 16:0-rel 17:1-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0031.parse 1 54 gold deprive deprive.01 ----- 52:1-ARG0 54:0-rel 55:2-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0031.parse 1 13 gold agree agree.01 ----- 3:2-ARG0 12:1-ARGM-TMP 13:0-rel 14:2-ARG1 21:1-ARGM-CAU 35:2-ARGM-CAU
+bc/p2.5_a2e/00/p2.5_a2e_0031.parse 1 6 gold develop develop.01 ----- 6:0-rel 7:0-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0031.parse 1 49 gold set set.02 ----- 47:1-ARG0 48:0-ARGM-MOD 49:0-rel 50:2-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0031.parse 1 11 gold have have.01 ----- 11:0-rel
 bc/p2.5_a2e/00/p2.5_a2e_0031.parse 3 19 gold request request.01 ----- 3:1*15:1*37:1-ARGM-PRD 3:1*15:1-LINK-SLC 17:1-ARG0 19:0-rel 20:2;29:1-ARG1 23:1-ARG2
-bc/p2.5_a2e/00/p2.5_a2e_0031.parse 0 13 gold include include.01 ----- 5:1*11:1*12:1-ARG2 5:1*11:1-LINK-SLC 13:0-rel 14:1-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0031.parse 1 44 gold develop develop.01 ----- 44:0-rel 45:0-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0031.parse 3 9 gold operate operate.01 ----- 3:1*7:1*8:1-ARG1 3:1*7:1-LINK-SLC 9:0-rel 10:1-ARG4
 bc/p2.5_a2e/00/p2.5_a2e_0031.parse 3 40 gold be be.01 ----- 0:2-ARG1 39:0-ARGM-MOD 40:0-rel 41:2-ARG2 50:1-ARGM-PRD
 bc/p2.5_a2e/00/p2.5_a2e_0031.parse 3 18 gold be be.03 ----- 18:0-rel
 bc/p2.5_a2e/00/p2.5_a2e_0031.parse 4 6 gold receive receive.01 ----- 3:1-ARG0 4:0-ARGM-MOD 5:0-ARGM-NEG 6:0-rel 7:2-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0031.parse 2 13 gold constitute constitute.01 ----- 11:1-ARG0 12:0-ARGM-NEG 13:0-rel 14:2-ARG1 23:1-ARGM-CAU
+bc/p2.5_a2e/00/p2.5_a2e_0031.parse 0 18 gold meet meet.03 ----- 0:2-ARG0 18:0-rel 19:1-ARGM-TMP 21:1-ARG1 28:2-ARGM-PRP
 bc/p2.5_a2e/00/p2.5_a2e_0031.parse 3 1 gold construct construct.01 ----- 1:0-rel 2:1-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0031.parse 2 67 gold extract extract.01 ----- 65:1-ARG0 67:0-rel 68:2-ARG1
-bc/p2.5_a2e/00/p2.5_a2e_0031.parse 2 61 gold recycle recycle.01 ----- 56:1-ARG0 61:0-rel 62:1-ARG1 65:2-ARGM-PRP
 bc/p2.5_a2e/00/p2.5_a2e_0031.parse 2 18 gold proliferate proliferate.01 ----- 18:0-rel 19:1-ARG0
 bc/p2.5_a2e/00/p2.5_a2e_0031.parse 0 46 gold present present.01 ----- 44:1*47:1-ARG1 44:1*47:1-LINK-PSV 46:0-rel 48:1-ARGM-LOC 62:1-ARG2
 bc/p2.5_a2e/00/p2.5_a2e_0031.parse 0 42 gold apply apply.02 ----- 42:0-rel 43:1-ARG1
@@ -30,9 +31,8 @@ bc/p2.5_a2e/00/p2.5_a2e_0031.parse 2 63 gold spend spend.01 ----- 63:0-rel 64:0-
 bc/p2.5_a2e/00/p2.5_a2e_0031.parse 3 75 gold produce produce.01 ----- 68:1*73:1-ARG0 75:0-rel 76:1-ARG1 77:2-ARGM-PRP
 bc/p2.5_a2e/00/p2.5_a2e_0031.parse 1 27 gold result result.01 ----- 25:1-ARG1 26:0-ARGM-MOD 27:0-rel 28:1-ARG2
 bc/p2.5_a2e/00/p2.5_a2e_0031.parse 2 52 gold increase increase.01 ----- 37:1*48:0*49:1-ARG0 50:0-ARGM-MOD 51:0-ARGM-NEG 52:0-rel 53:3-ARG1
-bc/p2.5_a2e/00/p2.5_a2e_0031.parse 0 18 gold meet meet.03 ----- 0:2-ARG0 18:0-rel 19:1-ARGM-TMP 21:1-ARG1 28:2-ARGM-PRP
 bc/p2.5_a2e/00/p2.5_a2e_0031.parse 0 30 gold examine examine.01 ----- 0:2*28:1-ARG0 30:0-rel 31:2-ARG1 40:1-ARGM-ADV
 bc/p2.5_a2e/00/p2.5_a2e_0031.parse 2 3 gold submit submit.01 ----- 0:1*4:1-ARG1 0:1*4:1-LINK-PSV 3:0-rel 5:1-ARG0
+bc/p2.5_a2e/00/p2.5_a2e_0031.parse 2 61 gold recycle recycle.01 ----- 56:1-ARG0 61:0-rel 62:1-ARG1 65:2-ARGM-PRP
 bc/p2.5_a2e/00/p2.5_a2e_0031.parse 3 79 gold make make.01 ----- 68:1*73:1*77:1-ARG0 79:0-rel 80:1-ARG1
-bc/p2.5_a2e/00/p2.5_a2e_0031.parse 1 6 gold develop develop.01 ----- 6:0-rel 7:0-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0031.parse 3 70 gold use use.01 ----- 68:1-ARG0 69:0-ARGM-MOD 70:0-rel 71:1-ARG1 73:2-ARG2

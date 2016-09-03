@@ -3,16 +3,16 @@ nw/wsj/04/wsj_0479.parse 4 15 gold plan plan.01 ----- 15:0-rel 16:0-ARG1
 nw/wsj/04/wsj_0479.parse 0 3 gold say say.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
 nw/wsj/04/wsj_0479.parse 0 8 gold agree agree.01 ----- 5:1-ARG0 8:0-rel 9:2-ARG1
 nw/wsj/04/wsj_0479.parse 3 18 gold say say.01 ----- 0:2-ARG0 18:0-rel 19:1-ARG1
+nw/wsj/04/wsj_0479.parse 3 29 gold streamline streamline.01 ----- 0:2*27:1-ARG0 0:2*27:1-LINK-PRO 29:0-rel 30:1-ARG1
 nw/wsj/04/wsj_0479.parse 4 18 gold be be.01 ----- 14:1-ARG1 17:0-ARGM-MOD 18:0-rel 19:2-ARG2
 nw/wsj/04/wsj_0479.parse 2 1 gold propose propose.01 ----- 1:0-rel 2:0-ARG1
 nw/wsj/04/wsj_0479.parse 2 3 gold require require.01 ----- 0:1-ARG0 3:0-rel 4:2-ARG1
-nw/wsj/04/wsj_0479.parse 0 11 gold acquire acquire.01 ----- 5:1*9:1-ARG0 11:0-rel 12:1-ARG1 18:1-ARG2 25:1-ARG3
 nw/wsj/04/wsj_0479.parse 4 16 gold purchase purchase.01 ----- 15:0-ARGM-ADJ 16:0-rel
-nw/wsj/04/wsj_0479.parse 3 29 gold streamline streamline.01 ----- 0:2*27:1-ARG0 0:2*27:1-LINK-PRO 29:0-rel 30:1-ARG1
+nw/wsj/04/wsj_0479.parse 4 32 gold form form.02 ----- 14:1-ARG0 31:0-ARGM-MOD 32:0-rel 33:2-ARG1
 nw/wsj/04/wsj_0479.parse 4 12 gold say say.01 ----- 0:2-ARG0 12:0-rel 13:1-ARG1
 nw/wsj/04/wsj_0479.parse 1 22 gold include include.01 ----- 20:1-ARG2 22:0-rel 23:3-ARG1
-nw/wsj/04/wsj_0479.parse 2 11 gold monitor monitor.01 ----- 6:1*9:1*10:1-ARG0 6:1*9:1-LINK-SLC 11:0-rel 12:2-ARG1
 nw/wsj/04/wsj_0479.parse 3 11 gold include include.01 ----- 8:1*12:1-ARG1 8:1*12:1-LINK-PSV 11:0-rel 13:1-ARG2
+nw/wsj/04/wsj_0479.parse 0 11 gold acquire acquire.01 ----- 5:1*9:1-ARG0 11:0-rel 12:1-ARG1 18:1-ARG2 25:1-ARG3
 nw/wsj/04/wsj_0479.parse 3 22 gold be be.01 ----- 20:1-ARG1 22:0-rel 23:2-ARG2
 nw/wsj/04/wsj_0479.parse 1 40 gold process process.01 ----- 39:0-ARG1 40:0-rel
 nw/wsj/04/wsj_0479.parse 3 7 gold operate operate.01 ----- 0:1*5:1*6:1-ARG0 0:1*5:1-LINK-SLC 7:0-rel 8:2-ARG1
@@ -20,4 +20,4 @@ nw/wsj/04/wsj_0479.parse 4 39 gold stand stand.04 ----- 38:1-ARG1 39:0-rel 41:1-
 nw/wsj/04/wsj_0479.parse 1 14 gold operate operate.01 ----- 13:0-ARG1 14:0-rel 15:1-ARGM-LOC
 nw/wsj/04/wsj_0479.parse 1 18 gold say say.01 ----- 0:2-ARG0 18:0-rel 19:1-ARG1
 nw/wsj/04/wsj_0479.parse 1 11 gold concern concern.01 ----- 4:0-ARGM-ADJ 5:2-ARGM-LOC 9:1-ARG0 11:0-rel 12:1-ARGM-ADJ
-nw/wsj/04/wsj_0479.parse 4 32 gold form form.02 ----- 14:1-ARG0 31:0-ARGM-MOD 32:0-rel 33:2-ARG1
+nw/wsj/04/wsj_0479.parse 2 11 gold monitor monitor.01 ----- 6:1*9:1*10:1-ARG0 6:1*9:1-LINK-SLC 11:0-rel 12:2-ARG1

@@ -1,10 +1,13 @@
 nw/xinhua/02/chtb_0246.parse 4 1 gold approve approve.01 ----- 1:0-rel 2:1-ARG0
 nw/xinhua/02/chtb_0246.parse 6 31 gold review review.01 ----- 27:1-ARG0 31:0-rel 32:1-ARG1
 nw/xinhua/02/chtb_0246.parse 8 12 gold suffer suffer.01 ----- 3:1*11:1-ARG0 12:0-rel 13:1-ARG1
+nw/xinhua/02/chtb_0246.parse 18 56 gold effort effort.01 ----- 4:1-ARGM-LOC 10:1-ARG0 54:0-ARGM-LVB 55:0-ARGM-MNR 56:0-rel 60:1-ARG1
 nw/xinhua/02/chtb_0246.parse 13 17 gold shoulder shoulder.01 ----- 0:1-ARGM-ADV 16:1-ARG0 17:0-rel 18:1-ARG1
 nw/xinhua/02/chtb_0246.parse 1 50 gold commemorate commemorate.01 ----- 50:0-rel 51:1-ARG1
+nw/xinhua/02/chtb_0246.parse 14 7 gold implement implement.01 ----- 3:1-ARG0 6:0-ARGM-MOD 7:0-rel 8:1-ARG1
 nw/xinhua/02/chtb_0246.parse 6 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 nw/xinhua/02/chtb_0246.parse 16 23 gold make make.LV ----- 23:0-rel 26:0-ARGM-PRR
+nw/xinhua/02/chtb_0246.parse 15 10 gold use use.01 ----- 0:1-ARG2 8:1-ARG0 9:0-ARGM-MOD 10:0-rel 11:1-ARG1
 nw/xinhua/02/chtb_0246.parse 13 4 gold peace peace.01 ----- 3:0-ARG1 4:0-rel
 nw/xinhua/02/chtb_0246.parse 16 5 gold be be.01 ----- 4:1-ARG1 5:0-rel 6:3-ARG2
 nw/xinhua/02/chtb_0246.parse 16 26 gold contribute contribute.01 ----- 4:1-ARG0 23:0-ARGM-LVB 25:0-ARGM-ADJ 26:0-rel 27:1-ARG2
@@ -12,43 +15,38 @@ nw/xinhua/02/chtb_0246.parse 3 6 gold hold hold.04 ----- 0:1-ARGM-TMP 2:1-ARG0 5
 nw/xinhua/02/chtb_0246.parse 18 14 gold abide abide.01 ----- 4:1-ARGM-LOC 10:1-ARG0 13:1-ARGM-MNR 14:0-rel 15:1-ARG1 29:2-ARGM-ADV
 nw/xinhua/02/chtb_0246.parse 12 12 gold challenge challenge.01 ----- 11:0-ARGM-MNR 12:0-rel
 nw/xinhua/02/chtb_0246.parse 13 2 gold maintain maintain.01 ----- 1:1-ARG0 2:0-rel 3:2-ARG1
-nw/xinhua/02/chtb_0246.parse 15 10 gold use use.01 ----- 0:1-ARG2 8:1-ARG0 9:0-ARGM-MOD 10:0-rel 11:1-ARG1
-nw/xinhua/02/chtb_0246.parse 18 56 gold effort effort.01 ----- 4:1-ARGM-LOC 10:1-ARG0 54:0-ARGM-LVB 55:0-ARGM-MNR 56:0-rel 60:1-ARG1
 nw/xinhua/02/chtb_0246.parse 11 21 gold take take.14 ----- 5:1-ARGM-TMP 8:1-ARGM-ADV 17:1-ARG1 21:0-rel 22:1-ARG2 23:1-ARGM-LOC
 nw/xinhua/02/chtb_0246.parse 18 1 gold point point_out.02 ----- 0:1-ARG0 1:0,2:1-rel 3:1-ARG1
 nw/xinhua/02/chtb_0246.parse 10 7 gold have have.01 ----- 7:0-rel
 nw/xinhua/02/chtb_0246.parse 14 1 gold expect expect.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
-nw/xinhua/02/chtb_0246.parse 18 31 gold fulfill fulfill.01 ----- 10:1*29:1-ARG0 30:1-ARGM-MNR 31:0-rel 32:1-ARG1
 nw/xinhua/02/chtb_0246.parse 1 43 gold participate participate.01 ----- 37:1-ARG0 38:0-ARGM-MOD 39:1-ARGM-MNR 43:0-rel 44:1;46:2-ARG1
 nw/xinhua/02/chtb_0246.parse 7 10 gold shoulder shoulder.01 ----- 7:1*11:1-ARG1 7:1*11:1-LINK-PSV 10:0-rel 12:1-ARG0
-nw/xinhua/02/chtb_0246.parse 7 27 gold replace replace.01 ----- 7:3*28:1-ARG1 23:0-ARGM-MOD 24:0-ARGM-NEG 25:1-ARGM-ADV 27:0-rel 29:1-ARG2
 nw/xinhua/02/chtb_0246.parse 6 5 gold commemorate commemorate.01 ----- 4:1-ARG0 5:0-rel 6:2-ARG1
+nw/xinhua/02/chtb_0246.parse 18 31 gold fulfill fulfill.01 ----- 10:1*29:1-ARG0 30:1-ARGM-MNR 31:0-rel 32:1-ARG1
 nw/xinhua/02/chtb_0246.parse 4 20 gold anniversary anniversary.01 ----- 15:1-ARG0 19:0-ARG2 20:0-rel
-nw/xinhua/02/chtb_0246.parse 6 23 gold provide provide.01 ----- 14:1*20:1*21:1-ARG0 14:1*20:1-LINK-SLC 22:0-ARGM-MOD 23:0-rel 24:1-ARG1
 nw/xinhua/02/chtb_0246.parse 7 26 gold be be.03 ----- 26:0-rel
 nw/xinhua/02/chtb_0246.parse 13 21 gold have have.03 ----- 0:1-ARGM-ADV 16:1-ARG0 21:0-rel 22:2-ARG1
 nw/xinhua/02/chtb_0246.parse 18 79 gold protect protect.01 ----- 61:1-ARG0 79:0-rel 80:2-ARG1
-nw/xinhua/02/chtb_0246.parse 5 3 gold form form.02 ----- 0:1*4:1-ARG1 3:0-rel 5:1-ARG0 26:1-ARGM-ADV
 nw/xinhua/02/chtb_0246.parse 4 14 gold commemorate commemorate.01 ----- 13:1-ARG0 14:0-rel 15:2-ARG1
 nw/xinhua/02/chtb_0246.parse 1 17 gold anniversary anniversary.01 ----- 12:1-ARG0 16:0-ARG2 17:0-rel
 nw/xinhua/02/chtb_0246.parse 11 20 gold have have.01 ----- 20:0-rel
-nw/xinhua/02/chtb_0246.parse 14 7 gold implement implement.01 ----- 3:1-ARG0 6:0-ARGM-MOD 7:0-rel 8:1-ARG1
-nw/xinhua/02/chtb_0246.parse 11 15 gold end end.01 ----- 14:0-ARG1 15:0-rel
+nw/xinhua/02/chtb_0246.parse 5 3 gold form form.02 ----- 0:1*4:1-ARG1 3:0-rel 5:1-ARG0 26:1-ARGM-ADV
 nw/xinhua/02/chtb_0246.parse 8 8 gold have have.03 ----- 0:1-ARGM-DIS 3:1-ARG0 7:1-ARGM-DIS 8:0-rel 9:1-ARG1 11:2-ARGM-PRD
-nw/xinhua/02/chtb_0246.parse 11 2 gold point point_out.02 ----- 0:1-ARG0 2:0,3:1-rel 4:1-ARG1
+nw/xinhua/02/chtb_0246.parse 11 15 gold end end.01 ----- 14:0-ARG1 15:0-rel
 nw/xinhua/02/chtb_0246.parse 7 9 gold mission mission.01 ----- 8:0-ARG1 9:0-rel
+nw/xinhua/02/chtb_0246.parse 2 2 gold be be.03 ----- 2:0-rel
 nw/xinhua/02/chtb_0246.parse 1 87 gold resolve resolve.02 ----- 83:0-ARGM-ADJ 84:1-ARG0 87:0-rel
+nw/xinhua/02/chtb_0246.parse 7 4 gold have have.01 ----- 4:0-rel
 nw/xinhua/02/chtb_0246.parse 6 35 gold look look_forward.03 ----- 27:1-ARG0 35:0,36:1-rel 37:1-ARG1
-nw/xinhua/02/chtb_0246.parse 10 4 gold aim aim.01 ----- 0:1-ARG0 4:0-rel
-nw/xinhua/02/chtb_0246.parse 16 29 gold birth birth.01 ----- 29:0-rel 30:1-ARG1
 nw/xinhua/02/chtb_0246.parse 18 42 gold work work.01 ----- 40:1-ARG0 42:0-rel 43:0-ARGM-LVB 45:1-ARGM-MNR
 nw/xinhua/02/chtb_0246.parse 7 19 gold influence influence.01 ----- 17:0-ARG0 18:0-ARGM-MNR 19:0-rel 20:1-ARG1
-nw/xinhua/02/chtb_0246.parse 14 28 gold support support.01 ----- 25:0-ARGM-EXT 28:0-rel 29:1-ARG0
+nw/xinhua/02/chtb_0246.parse 18 64 gold peace peace.01 ----- 63:0-ARG1 64:0-rel
 nw/xinhua/02/chtb_0246.parse 17 1 gold be be.03 ----- 1:0-rel
 nw/xinhua/02/chtb_0246.parse 4 8 gold establish establish.01 ----- 0:1-ARGM-ADV 7:1-ARG0 8:0-rel 9:2-ARG1 21:1-ARGM-TMP
 nw/xinhua/02/chtb_0246.parse 18 59 gold contribute contribute.01 ----- 4:1-ARGM-LOC 10:1-ARG0 54:0-ARGM-LVB 58:0-ARGM-MNR 59:0-rel 60:1-ARG2
 nw/xinhua/02/chtb_0246.parse 11 34 gold be be.03 ----- 34:0-rel
 nw/xinhua/02/chtb_0246.parse 18 83 gold develop develop.01 ----- 83:0-rel 84:0-ARG1
+nw/xinhua/02/chtb_0246.parse 6 23 gold provide provide.01 ----- 14:1*20:1*21:1-ARG0 14:1*20:1-LINK-SLC 22:0-ARGM-MOD 23:0-rel 24:1-ARG1
 nw/xinhua/02/chtb_0246.parse 11 37 gold change change.01 ----- 29:2*38:1-ARG1 36:1-ARGM-MNR 37:0-rel 39:1-ARGM-ADV
 nw/xinhua/02/chtb_0246.parse 19 22 gold give give.01 ----- 0:1-ARGM-LOC 4:2-ARG0 22:0-rel 23:2-ARG1
 nw/xinhua/02/chtb_0246.parse 13 8 gold promote promote.02 ----- 1:1-ARG0 8:0-rel 9:2-ARG1 12:1-ARG2
@@ -58,11 +56,11 @@ nw/xinhua/02/chtb_0246.parse 18 62 gold maintain maintain.01 ----- 61:1-ARG0 62:
 nw/xinhua/02/chtb_0246.parse 1 11 gold commemorate commemorate.01 ----- 10:1-ARG0 11:0-rel 12:2-ARG1
 nw/xinhua/02/chtb_0246.parse 2 5 gold anniversary anniversary.01 ----- 4:0-ARG2 5:0-rel 6:1-ARG1
 nw/xinhua/02/chtb_0246.parse 14 38 gold handle handle.01 ----- 3:1-ARG0 23:1-ARGM-ADV 33:0-ARGM-MOD 34:1-ARGM-TMP 38:0-rel 39:1-ARG1 42:2-ARGM-MNR
-nw/xinhua/02/chtb_0246.parse 18 43 gold do do.LV ----- 42:0-ARGM-PRR 43:0-rel
 nw/xinhua/02/chtb_0246.parse 19 24 gold speak speak.01 ----- 24:0-rel 25:1-ARG1
 nw/xinhua/02/chtb_0246.parse 6 13 gold be be.01 ----- 4:2-ARG1 13:0-rel 14:2-ARG2
 nw/xinhua/02/chtb_0246.parse 7 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 nw/xinhua/02/chtb_0246.parse 1 40 gold support support.01 ----- 37:1-ARG0 38:0-ARGM-MOD 39:1-ARGM-MNR 40:0-rel 41:1*46:2-ARG1
+nw/xinhua/02/chtb_0246.parse 7 27 gold replace replace.01 ----- 7:3*28:1-ARG1 23:0-ARGM-MOD 24:0-ARGM-NEG 25:1-ARGM-ADV 27:0-rel 29:1-ARG2
 nw/xinhua/02/chtb_0246.parse 8 16 gold defeat defeat.01 ----- 16:0-rel
 nw/xinhua/02/chtb_0246.parse 10 11 gold adhere adhere.02 ----- 8:0-ARGM-NEG 10:1-ARGM-EXT 11:0-rel
 nw/xinhua/02/chtb_0246.parse 18 53 gold have have.01 ----- 53:0-rel
@@ -71,29 +69,31 @@ nw/xinhua/02/chtb_0246.parse 18 11 gold have have.01 ----- 11:0-rel
 nw/xinhua/02/chtb_0246.parse 18 71 gold resolve resolve.01 ----- 68:1-ARGM-MNR 71:0-rel 72:1-ARG1
 nw/xinhua/02/chtb_0246.parse 18 20 gold set set.01 ----- 16:1*21:1-ARG1 16:1*21:1-LINK-PSV 20:0-rel 22:1-ARGM-DIR 23:1-ARG2
 nw/xinhua/02/chtb_0246.parse 1 18 gold hold hold.04 ----- 1:2*19:1-ARG1 1:2*19:1-LINK-PSV 18:0-rel 20:1-ARGM-TMP
-nw/xinhua/02/chtb_0246.parse 2 2 gold be be.03 ----- 2:0-rel
 nw/xinhua/02/chtb_0246.parse 18 36 gold support support.01 ----- 10:1*29:1-ARG0 35:1-ARGM-MNR 36:0-rel 37:2-ARG1
-nw/xinhua/02/chtb_0246.parse 7 4 gold have have.01 ----- 4:0-rel
+nw/xinhua/02/chtb_0246.parse 10 4 gold aim aim.01 ----- 0:1-ARG0 4:0-rel
 nw/xinhua/02/chtb_0246.parse 6 47 gold promote promote.02 ----- 14:1*20:1*21:1-ARG0 14:1*20:1-LINK-SLC 22:0-ARGM-MOD 42:1-ARGM-TMP 46:1-ARGM-EXT 47:0-rel 48:2-ARG1
 nw/xinhua/02/chtb_0246.parse 7 5 gold prove prove.01 ----- 3:1-ARG0 5:0-rel 6:1-ARG1
 nw/xinhua/02/chtb_0246.parse 11 35 gold be be.03 ----- 35:0-rel
-nw/xinhua/02/chtb_0246.parse 12 10 gold face face.01 ----- 0:1-ARGM-ADV 6:1-ARG0 10:0-rel 11:1-ARG1
+nw/xinhua/02/chtb_0246.parse 18 43 gold do do.LV ----- 42:0-ARGM-PRR 43:0-rel
 nw/xinhua/02/chtb_0246.parse 8 6 gold have have.01 ----- 6:0-rel
 nw/xinhua/02/chtb_0246.parse 18 12 gold be be.03 ----- 12:0-rel
 nw/xinhua/02/chtb_0246.parse 1 72 gold range range.01 ----- 70:0-ARG2 72:0-rel 73:0,74:0-ARG1
 nw/xinhua/02/chtb_0246.parse 1 78 gold accord accord.02 ----- 78:0-rel 79:1-ARG2
+nw/xinhua/02/chtb_0246.parse 11 2 gold point point_out.02 ----- 0:1-ARG0 2:0,3:1-rel 4:1-ARG1
 nw/xinhua/02/chtb_0246.parse 11 12 gold come come.04 ----- 9:1-ARG1 12:0-rel 13:1-ARG2
 nw/xinhua/02/chtb_0246.parse 6 8 gold anniversary anniversary.01 ----- 7:0-ARG2 8:0-rel 9:1-ARG1
 nw/xinhua/02/chtb_0246.parse 16 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
-nw/xinhua/02/chtb_0246.parse 18 64 gold peace peace.01 ----- 63:0-ARG1 64:0-rel
 nw/xinhua/02/chtb_0246.parse 5 2 gold be be.03 ----- 2:0-rel
 nw/xinhua/02/chtb_0246.parse 9 2 gold possess possess.01 ----- 0:1-ARG0 1:1-ARGM-TMP 2:0-rel 3:2-ARG1
 nw/xinhua/02/chtb_0246.parse 15 2 gold build build_up.05 ----- 1:1-ARG0 2:0,3:1-rel 4:1-ARG1
 nw/xinhua/02/chtb_0246.parse 19 27 gold develop develop.02 ----- 26:1-ARG0 27:0-rel 28:2-ARG1
 nw/xinhua/02/chtb_0246.parse 18 54 gold make make.LV ----- 54:0-rel 56:0-ARGM-PRR 59:0-ARGM-PRR
 nw/xinhua/02/chtb_0246.parse 14 13 gold adapt adapt.01 ----- 3:1-ARG1 6:0-ARGM-MOD 12:1-ARGM-ADV 13:0-rel 14:1-ARG2
+nw/xinhua/02/chtb_0246.parse 16 29 gold bear bear.02 ----- 29:0-rel 30:1-ARG1
 nw/xinhua/02/chtb_0246.parse 8 9 gold complicate complicate.01 ----- 9:0-rel
 nw/xinhua/02/chtb_0246.parse 18 66 gold seek seek.01 ----- 61:1-ARG0 66:0-rel 67:2-ARG1
+nw/xinhua/02/chtb_0246.parse 12 10 gold face face.01 ----- 0:1-ARGM-ADV 6:1-ARG0 10:0-rel 11:1-ARG1
+nw/xinhua/02/chtb_0246.parse 14 28 gold support support.01 ----- 25:0-ARGM-EXT 28:0-rel 29:1-ARG0
 nw/xinhua/02/chtb_0246.parse 18 88 gold promote promote.02 ----- 88:0-rel 89:1-ARG1
 nw/xinhua/02/chtb_0246.parse 12 9 gold be be.03 ----- 9:0-rel
 nw/xinhua/02/chtb_0246.parse 1 35 gold say say.01 ----- 0:1-ARGM-TMP 22:2-ARG0 35:0-rel 36:1-ARG1

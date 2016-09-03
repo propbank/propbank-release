@@ -3,7 +3,6 @@ nw/wsj/00/wsj_0091.parse 6 8 gold be be.03 ----- 8:0-rel
 nw/wsj/00/wsj_0091.parse 6 25 gold agree agree.01 ----- 0:2-ARGM-TMP 19:1-ARG0 25:0-rel 26:2-ARG1
 nw/wsj/00/wsj_0091.parse 5 30 gold have have.01 ----- 30:0-rel
 nw/wsj/00/wsj_0091.parse 4 6 gold get get.05 ----- 0:1*4:1-ARG1 6:0-rel 7:1-ARG2
-nw/wsj/00/wsj_0091.parse 0 31 gold turn turn_down.05 ----- 16:1*30:1-ARG0 31:0,32:1-rel 33:3-ARG1
 nw/wsj/00/wsj_0091.parse 0 53 gold replace replace.01 ----- 49:1-ARG2 51:0-ARGM-MOD 52:1-ARGM-NEG 53:0-rel 54:1-ARG1
 nw/wsj/00/wsj_0091.parse 6 29 gold enter enter.01 ----- 19:1*26:1-ARG0 27:1-ARGM-NEG 29:0-rel 30:1-ARG1
 nw/wsj/00/wsj_0091.parse 3 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
@@ -11,8 +10,10 @@ nw/wsj/00/wsj_0091.parse 1 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-ADV 3
 nw/wsj/00/wsj_0091.parse 5 31 gold be be.03 ----- 31:0-rel
 nw/wsj/00/wsj_0091.parse 0 24 gold be be.01 ----- 22:1-ARG1 24:0-rel 25:1-ARG2
 nw/wsj/00/wsj_0091.parse 3 6 gold go go.01 ----- 2:1*7:1-ARG4 3:2-ARG1 6:0-rel
+nw/wsj/00/wsj_0091.parse 2 19 gold finance finance.01 ----- 19:0-rel 20:2-ARG1
 nw/wsj/00/wsj_0091.parse 0 19 gold lose lose.02 ----- 16:1-ARG0 19:0-rel 20:1-ARG1 29:1-ARG3 44:1-ARGM-CAU
 nw/wsj/00/wsj_0091.parse 2 35 gold have have.03 ----- 24:2*32:1*33:1-ARG0 24:2*32:1-LINK-SLC 34:1-ARGM-ADV 35:0-rel 36:3-ARG1
+nw/wsj/00/wsj_0091.parse 0 31 gold turn turn_down.05 ----- 16:1*30:1-ARG0 31:0,32:1-rel 33:3-ARG1
 nw/wsj/00/wsj_0091.parse 0 18 gold have have.01 ----- 18:0-rel
 nw/wsj/00/wsj_0091.parse 6 16 gold apply apply.01 ----- 14:1-ARG0 16:0-rel
 nw/wsj/00/wsj_0091.parse 0 14 gold say say.01 ----- 0:2-ARG0 14:0-rel 15:1-ARG1
@@ -24,7 +25,6 @@ nw/wsj/00/wsj_0091.parse 2 18 gold obtain obtain.01 ----- 0:4-ARG0 18:0-rel 19:2
 nw/wsj/00/wsj_0091.parse 2 41 gold call call.01 ----- 36:2*42:1-ARG1 36:2*42:1-LINK-PRO 41:0-rel 43:2-ARG2
 nw/wsj/00/wsj_0091.parse 5 10 gold suit sue.02 ----- 0:1-ARG0 8:1-ARGM-TMP 9:1-ARGM-TMP 10:0-rel 11:1-ARG1 14:2-ARG2
 nw/wsj/00/wsj_0091.parse 4 3 gold want want.01 ----- 0:1-ARG0 2:1-ARGM-DIS 3:0-rel 4:2-ARG1
-nw/wsj/00/wsj_0091.parse 2 19 gold finance finance.01 ----- 19:0-rel 20:2-ARG1
 nw/wsj/00/wsj_0091.parse 0 47 gold feel feel.02 ----- 45:1-ARG0 46:1-ARGM-ADV 47:0-rel 48:1-ARG1
 nw/wsj/00/wsj_0091.parse 5 15 gold claim claim.01 ----- 0:1*14:1-ARG0 15:0-rel 16:1-ARG1
 nw/wsj/00/wsj_0091.parse 6 21 gold drop drop.05 ----- 0:2-ARGM-TMP 19:1*26:1-ARG0 21:0-rel 22:1-ARG1

@@ -7,9 +7,9 @@ nw/wsj/04/wsj_0426.parse 30 20 gold die die.01 ----- 20:0-rel
 nw/wsj/04/wsj_0426.parse 40 9 gold demonstrate demonstrate.01 ----- 1:1*7:1-ARG0 9:0-rel 10:1-ARGM-MNR 11:1-ARG1
 nw/wsj/04/wsj_0426.parse 9 15 gold favor favor.01 ----- 8:2*13:1*14:1-ARG0 8:2*13:1-LINK-SLC 15:0-rel 16:2-ARG1
 nw/wsj/04/wsj_0426.parse 23 18 gold have have.01 ----- 18:0-rel
-nw/wsj/04/wsj_0426.parse 49 8 gold strengthen strengthen.01 ----- 0:0-ARGM-DIS 1:1-ARG0 3:1-ARGM-DIS 6:0-ARGM-MOD 7:1-ARGM-ADV 8:0-rel 9:2-ARG1
 nw/wsj/04/wsj_0426.parse 47 19 gold be be.01 ----- 15:1*17:1-ARG1 15:1*17:1-LINK-PRO 19:0-rel 20:1-ARG2
 nw/wsj/04/wsj_0426.parse 48 9 gold reduce reduce.01 ----- 0:3-ARG0 7:0-ARGM-MOD 8:1-ARGM-MNR 9:0-rel 10:2-ARG1
+nw/wsj/04/wsj_0426.parse 42 25 gold be be.01 ----- 17:1-ARG1 20:1-ARGM-ADV 25:0-rel 26:0-ARGM-NEG 27:1-ARG2
 nw/wsj/04/wsj_0426.parse 47 16 gold show show.01 ----- 16:0-rel 17:2-ARG1
 nw/wsj/04/wsj_0426.parse 36 6 gold introduce introduce.02 ----- 3:1-ARG0 6:0-rel 7:2-ARG1
 nw/wsj/04/wsj_0426.parse 29 7 gold occur occur.01 ----- 6:1-ARG1 7:0-rel
@@ -21,6 +21,7 @@ nw/wsj/04/wsj_0426.parse 44 14 gold say say.01 ----- 0:2*15:1-ARG1 14:0-rel 16:2
 nw/wsj/04/wsj_0426.parse 7 18 gold have have.01 ----- 18:0-rel
 nw/wsj/04/wsj_0426.parse 12 17 gold require require.01 ----- 15:0-ARGM-ADJ 16:0-ARGM-PRP 17:0-rel
 nw/wsj/04/wsj_0426.parse 12 14 gold meet meet.01 ----- 13:1-ARG0 14:0-rel 15:1-ARG1
+nw/wsj/04/wsj_0426.parse 22 30 gold wreck wreck.01 ----- 29:0-ARG1 30:0-rel 31:2-ARGM-ADJ
 nw/wsj/04/wsj_0426.parse 37 11 gold disprove disprove.01 ----- 8:1*9:1-ARG0 8:1*9:1-LINK-PRO 11:0-rel 12:1-ARG1
 nw/wsj/04/wsj_0426.parse 8 3 gold agree agree.01 ----- 0:1-ARG0 3:0-rel 4:2-ARG1
 nw/wsj/04/wsj_0426.parse 26 19 gold work work.01 ----- 14:1-ARG0 19:0-rel 20:1-ARGM-MNR 22:1-ARG1
@@ -29,32 +30,31 @@ nw/wsj/04/wsj_0426.parse 22 4 gold incorporate incorporate.02 ----- 2:1*5:1-ARG1
 nw/wsj/04/wsj_0426.parse 30 35 gold have have.01 ----- 35:0-rel
 nw/wsj/04/wsj_0426.parse 16 30 gold invalidate invalidate.01 ----- 24:1*26:1*31:1-ARG1 24:1*26:1-LINK-SLC 27:1-ARG0 30:0-rel
 nw/wsj/04/wsj_0426.parse 8 9 gold vote vote.01 ----- 8:0-ARG0 9:0-rel 10:1-ARG1
-nw/wsj/04/wsj_0426.parse 28 14 gold deter deter.01 ----- 8:2-ARG0 14:0-rel 15:1-ARG1 17:1-ARG2
 nw/wsj/04/wsj_0426.parse 42 8 gold note note.01 ----- 0:1-ARG0 8:0-rel 9:1-ARG1
 nw/wsj/04/wsj_0426.parse 19 7 gold pass pass.01 ----- 1:1-ARGM-DIS 3:1-ARG0 5:1-ARGM-TMP 7:0-rel 8:2-ARG1
 nw/wsj/04/wsj_0426.parse 36 9 gold show show.01 ----- 7:1-ARG0 9:0-rel 10:3-ARG1
+nw/wsj/04/wsj_0426.parse 30 9 gold say say.01 ----- 0:2-ARG0 9:0-rel 10:1-ARG1
 nw/wsj/04/wsj_0426.parse 27 1 gold acknowledge acknowledge.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 nw/wsj/04/wsj_0426.parse 45 5 gold get get.04 ----- 0:1*3:1-ARG0 5:0-rel 6:2-ARG1
 nw/wsj/04/wsj_0426.parse 32 17 gold amend amend.01 ----- 17:0-rel 18:2-ARG2
 nw/wsj/04/wsj_0426.parse 10 23 gold institute institute.01 ----- 0:2*22:1-ARG0 23:0-rel 24:2-ARG1
+nw/wsj/04/wsj_0426.parse 49 8 gold strengthen strengthen.01 ----- 0:0-ARGM-DIS 1:1-ARG0 3:1-ARGM-DIS 6:0-ARGM-MOD 7:1-ARGM-ADV 8:0-rel 9:2-ARG1
 nw/wsj/04/wsj_0426.parse 22 16 gold kill kill.01 ----- 15:1-ARG0 16:0-rel 17:1-ARG1 22:1-ARGM-DIS
-nw/wsj/04/wsj_0426.parse 9 6 gold be be.02 ----- 6:0-rel 7:1-ARGM-ADV 8:3-ARG1
 nw/wsj/04/wsj_0426.parse 40 29 gold explain explain.01 ----- 27:1-ARG0 29:0-rel 30:1-ARG1
 nw/wsj/04/wsj_0426.parse 19 16 gold kill kill.01 ----- 13:1*14:1*15:1-ARG0 13:1*14:1-LINK-SLC 16:0-rel 17:1-ARG1 18:1-ARGM-LOC
 nw/wsj/04/wsj_0426.parse 28 25 gold say say.01 ----- 1:2*26:1-ARG1 25:0-rel 27:2-ARG0
 nw/wsj/04/wsj_0426.parse 4 15 gold be be.01 ----- 6:2-ARG1 14:0-ARGM-MOD 15:0-rel 16:1-ARG2 17:1-ARGM-LOC
 nw/wsj/04/wsj_0426.parse 18 11 gold die die.01 ----- 11:0-rel
+nw/wsj/04/wsj_0426.parse 44 6 gold provide provide.01 ----- 6:0-rel
 nw/wsj/04/wsj_0426.parse 39 2 gold do do.01 ----- 2:0-rel
-nw/wsj/04/wsj_0426.parse 27 19 gold be be.01 ----- 18:1-ARG1 19:0-rel 20:0-ARGM-NEG 21:1-ARG2
+nw/wsj/04/wsj_0426.parse 10 4 gold introduce introduce.02 ----- 0:1*5:1-ARG1 0:1*5:1-LINK-PSV 4:0-rel 6:1-ARG0
 nw/wsj/04/wsj_0426.parse 22 27 gold cause cause.01 ----- 15:1-ARG0 26:1-ARGM-MNR 27:0-rel 28:2-ARG1
 nw/wsj/04/wsj_0426.parse 32 36 gold mete mete_out.01 ----- 31:1*33:1-ARG0 31:1*33:1-LINK-PRO 36:0,37:1-rel 38:1-ARG1 39:1-ARGM-MNR
-nw/wsj/04/wsj_0426.parse 38 3 gold be be.01 ----- 1:1-ARG1 3:0-rel 4:2-ARG2
+nw/wsj/04/wsj_0426.parse 19 10 gold permit permit.01 ----- 8:1-ARG0 10:0-rel 11:2-ARG1
+nw/wsj/04/wsj_0426.parse 2 18 gold urge urge.01 ----- 0:2-ARGM-PRD 8:2-ARG0 17:1-ARGM-TMP 18:0-rel 19:1-ARG1 21:2-ARG2
 nw/wsj/04/wsj_0426.parse 45 19 gold be be.03 ----- 19:0-rel
-nw/wsj/04/wsj_0426.parse 32 29 gold sentence sentence.01 ----- 28:0-ARG2 29:0-rel
 nw/wsj/04/wsj_0426.parse 7 20 gold get get.05 ----- 0:1-ARG0 3:1-ARGM-TMP 19:1-ARGM-TMP 20:0-rel 21:1-ARG1 29:1-ARG2
-nw/wsj/04/wsj_0426.parse 5 15 gold turn turn_out.11 ----- 7:1*17:2-ARG1 13:1-ARGM-ADV 14:0-ARGM-MOD 15:0,16:1-rel
 nw/wsj/04/wsj_0426.parse 32 31 gold jurisdiction jurisdiction.01 ----- 31:0-rel 32:1-ARGM-PRD
-nw/wsj/04/wsj_0426.parse 37 14 gold cause cause.01 ----- 13:1-ARG0 14:0-rel 15:1-ARG1
 nw/wsj/04/wsj_0426.parse 26 3 gold distract distract.01 ----- 1:1-ARG0 3:0-rel 4:1-ARG1 5:1-ARG2
 nw/wsj/04/wsj_0426.parse 24 21 gold mean mean.01 ----- 20:1-ARG1 21:0-rel 22:1-ARG2
 nw/wsj/04/wsj_0426.parse 30 37 gold happen happen.01 ----- 34:1-ARG1 36:0-ARGM-NEG 37:0-rel 38:1-ARGM-TMP
@@ -66,53 +66,49 @@ nw/wsj/04/wsj_0426.parse 13 24 gold condemn condemn.01 ----- 3:1*6:1*19:1*22:1-A
 nw/wsj/04/wsj_0426.parse 6 4 gold rid rid.01 ----- 0:1-ARGM-DIS 1:1-ARG0 4:0-rel 5:1-ARGM-MNR 6:1-ARG1
 nw/wsj/04/wsj_0426.parse 27 16 gold contend contend.01 ----- 15:1-ARG0 16:0-rel 17:1-ARG1
 nw/wsj/04/wsj_0426.parse 46 7 gold prompt prompt.01 ----- 0:0-ARGM-DIS 1:1-ARGM-ADV 5:1-ARG0 6:0-ARGM-MOD 7:0-rel 8:1-ARG1 12:1-ARGM-ADV
-nw/wsj/04/wsj_0426.parse 2 23 gold revive revive.01 ----- 19:1*21:1-ARG0 23:0-rel 24:1-ARG1
-nw/wsj/04/wsj_0426.parse 24 28 gold exercise exercise.01 ----- 23:1-ARG0 27:0-ARGM-NEG 28:0-rel 29:1-ARG1 32:1-ARGM-TMP
-nw/wsj/04/wsj_0426.parse 29 14 gold retribute retribute.01 ----- 13:0-ARGM-ADJ 14:0-rel 16:1-ARG2
+nw/wsj/04/wsj_0426.parse 45 21 gold attack attack.01 ----- 17:1*22:1-ARG1 18:0-ARGM-MOD 20:1-ARGM-MNR 21:0-rel 23:1-ARGM-LOC 27:1-ARGM-TMP
 nw/wsj/04/wsj_0426.parse 26 13 gold make make.02 ----- 10:1*25:1-ARGM-MNR 11:1-ARG0 13:0-rel 14:2-ARG1
 nw/wsj/04/wsj_0426.parse 31 12 gold deter deter.01 ----- 10:1-ARG0 12:0-rel 13:1-ARG1
 nw/wsj/04/wsj_0426.parse 16 7 gold administer administer.01 ----- 6:0-ARGM-MNR 7:0-rel 8:0,9:0-ARG1
 nw/wsj/04/wsj_0426.parse 44 31 gold punish punish.01 ----- 29:0-ARG3 31:0-rel
-nw/wsj/04/wsj_0426.parse 38 14 gold meet meet.01 ----- 11:1*15:1-ARG1 12:1-ARG0 14:0-rel
 nw/wsj/04/wsj_0426.parse 34 11 gold have have.01 ----- 11:0-rel
 nw/wsj/04/wsj_0426.parse 43 2 gold amend amend.01 ----- 1:0-ARG0 2:0-rel
+nw/wsj/04/wsj_0426.parse 24 28 gold exercise exercise.01 ----- 23:1-ARG0 27:0-ARGM-NEG 28:0-rel 29:1-ARG1 32:1-ARGM-TMP
+nw/wsj/04/wsj_0426.parse 2 23 gold revive revive.01 ----- 19:1*21:1-ARG0 23:0-rel 24:1-ARG1
+nw/wsj/04/wsj_0426.parse 23 8 gold be be.01 ----- 0:1-ARGM-DIS 3:2-ARG1 6:0-ARGM-MOD 8:0-rel 9:1-ARG2 14:1-ARGM-ADV 28:1-ARGM-ADV
 nw/wsj/04/wsj_0426.parse 36 12 gold apply apply.02 ----- 10:1-ARGM-MNR 12:0-rel 13:1-ARG1 17:1-ARGM-TMP
 nw/wsj/04/wsj_0426.parse 32 3 gold leave leave.11 ----- 1:1-ARG0 3:0-rel 4:1-ARG1
 nw/wsj/04/wsj_0426.parse 15 22 gold allow allow.01 ----- 19:1-ARG0 22:0-rel 23:2-ARG1
 nw/wsj/04/wsj_0426.parse 47 15 gold convict convict.01 ----- 15:0-rel 16:1-ARGM-PRD
 nw/wsj/04/wsj_0426.parse 14 7 gold have have.01 ----- 7:0-rel
-nw/wsj/04/wsj_0426.parse 31 17 gold have have.01 ----- 17:0-rel
 nw/wsj/04/wsj_0426.parse 34 5 gold suggest suggest.01 ----- 0:2-ARG0 5:0-rel 6:1-ARG1
 nw/wsj/04/wsj_0426.parse 31 4 gold resuscitate resuscitate.01 ----- 3:1*15:1-ARG0 4:0-rel 5:2-ARG1
 nw/wsj/04/wsj_0426.parse 41 5 gold purport purport.01 ----- 0:3-ARG0 5:0-rel 6:2-ARG1
 nw/wsj/04/wsj_0426.parse 47 32 gold torture torture.01 ----- 28:1*30:1*31:1-ARG0 28:1*30:1-LINK-SLC 32:0-rel 33:1-ARG1
 nw/wsj/04/wsj_0426.parse 35 11 gold sentence sentence.01 ----- 6:2-ARG0 11:0-rel
+nw/wsj/04/wsj_0426.parse 0 7 gold order order.01 ----- 0:1-ARG0 7:0-rel 8:1-ARG1 10:2-ARG2
 nw/wsj/04/wsj_0426.parse 5 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2
 nw/wsj/04/wsj_0426.parse 13 5 gold have have.02 ----- 5:0-rel
 nw/wsj/04/wsj_0426.parse 25 15 gold argue argue.01 ----- 1:2*16:1-ARG1 15:0-rel 17:1-ARG0
 nw/wsj/04/wsj_0426.parse 42 13 gold rule rule.01 ----- 10:1-ARG0 13:0-rel 14:1-ARGM-TMP 16:1-ARG3
-nw/wsj/04/wsj_0426.parse 42 25 gold be be.01 ----- 17:1-ARG1 20:1-ARGM-ADV 25:0-rel 26:0-ARGM-NEG 27:1-ARG2
 nw/wsj/04/wsj_0426.parse 37 5 gold burden burden.01 ----- 5:0-rel 6:1*9:2-ARG0
 nw/wsj/04/wsj_0426.parse 45 2 gold fail fail.01 ----- 0:1-ARG1 2:0-rel 3:2-ARG2
 nw/wsj/04/wsj_0426.parse 33 1 gold amend amend.01 ----- 1:0-rel
 nw/wsj/04/wsj_0426.parse 27 6 gold be be.03 ----- 6:0-rel
 nw/wsj/04/wsj_0426.parse 10 11 gold revive revive.01 ----- 0:2-ARG0 10:0-ARGM-MOD 11:0-rel 12:1-ARG1 21:1-ARGM-MNR
-nw/wsj/04/wsj_0426.parse 44 6 gold provide provide.01 ----- 6:0-rel
+nw/wsj/04/wsj_0426.parse 9 6 gold be be.02 ----- 6:0-rel 7:1-ARGM-ADV 8:3-ARG1
 nw/wsj/04/wsj_0426.parse 32 35 gold have have.01 ----- 35:0-rel
-nw/wsj/04/wsj_0426.parse 23 8 gold be be.01 ----- 0:1-ARGM-DIS 3:2-ARG1 6:0-ARGM-MOD 8:0-rel 9:1-ARG2 14:1-ARGM-ADV 28:1-ARGM-ADV
+nw/wsj/04/wsj_0426.parse 3 25 gold commit commit.02 ----- 18:1*23:1*24:1-ARG0 18:1*23:1-LINK-SLC 25:0-rel 26:1-ARG1
+nw/wsj/04/wsj_0426.parse 37 14 gold cause cause.01 ----- 13:1-ARG0 14:0-rel 15:1-ARG1
 nw/wsj/04/wsj_0426.parse 8 29 gold allege allege.01 ----- 29:0-rel 30:0,31:0-ARG1
 nw/wsj/04/wsj_0426.parse 47 9 gold narrow narrow.01 ----- 3:2*7:1-ARG0 9:0-rel 10:1-ARG1 13:2-ARG4
 nw/wsj/04/wsj_0426.parse 13 27 gold die die.01 ----- 27:0-rel
-nw/wsj/04/wsj_0426.parse 45 21 gold attack attack.01 ----- 17:1*22:1-ARG1 18:0-ARGM-MOD 20:1-ARGM-MNR 21:0-rel 23:1-ARGM-LOC 27:1-ARGM-TMP
 nw/wsj/04/wsj_0426.parse 8 6 gold allow allow.01 ----- 0:1*4:1-ARG0 6:0-rel 7:3;21:2-ARG1 14:1-ARGM-TMP
 nw/wsj/04/wsj_0426.parse 15 4 gold block block.01 ----- 0:0-ARGM-DIS 1:1-ARG0 4:0-rel 5:1-ARG1 7:1-ARG2 15:1-ARGM-PRD
-nw/wsj/04/wsj_0426.parse 22 30 gold wreck wreck.01 ----- 29:0-ARG1 30:0-rel 31:2-ARGM-ADJ
-nw/wsj/04/wsj_0426.parse 37 3 gold shift shift.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:1;9:2-ARG1 7:1-ARG2
 nw/wsj/04/wsj_0426.parse 20 13 gold involve involve.01 ----- 0:1-ARGM-LOC 10:1-ARG2 13:0-rel 14:1-ARG1
 nw/wsj/04/wsj_0426.parse 21 19 gold be be.03 ----- 19:0-rel
 nw/wsj/04/wsj_0426.parse 7 13 gold amend amend.01 ----- 10:1-ARG1 13:0-rel
 nw/wsj/04/wsj_0426.parse 22 33 gold result result.01 ----- 28:1*31:1*32:1-ARG1 28:1*31:1-LINK-SLC 33:0-rel 34:1-ARG2
-nw/wsj/04/wsj_0426.parse 19 10 gold permit permit.01 ----- 8:1-ARG0 10:0-rel 11:2-ARG1
 nw/wsj/04/wsj_0426.parse 45 8 gold incorporate incorporate.02 ----- 6:1-ARG1 8:0-rel 9:1-ARG2
 nw/wsj/04/wsj_0426.parse 3 7 gold declare declare.01 ----- 0:1-ARG1-DSP 6:1-ARG0 7:0-rel
 nw/wsj/04/wsj_0426.parse 7 9 gold attach attach.01 ----- 0:1*4:1*7:1-ARG0 9:0-rel 10:2-ARG1 14:1-ARG2
@@ -131,22 +127,27 @@ nw/wsj/04/wsj_0426.parse 23 7 gold have have.01 ----- 7:0-rel
 nw/wsj/04/wsj_0426.parse 20 28 gold deter deter.01 ----- 15:1-ARG0 20:1-ARGM-PRD 27:0-ARGM-MOD 28:0-rel 29:1-ARG1
 nw/wsj/04/wsj_0426.parse 9 3 gold concede concede.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
 nw/wsj/04/wsj_0426.parse 40 14 gold do do.01 ----- 14:0-rel
-nw/wsj/04/wsj_0426.parse 2 18 gold urge urge.01 ----- 0:2-ARGM-PRD 8:2-ARG0 17:1-ARGM-TMP 18:0-rel 19:1-ARG1 21:2-ARG2
+nw/wsj/04/wsj_0426.parse 28 14 gold deter deter.01 ----- 8:2-ARG0 14:0-rel 15:1-ARG1 17:1-ARG2
+nw/wsj/04/wsj_0426.parse 13 8 gold consider consider.01 ----- 3:1*6:1-ARG0 8:0-rel 9:1-ARG1 18:1-ARGM-TMP
+nw/wsj/04/wsj_0426.parse 24 11 gold ban ban.01 ----- 5:2-ARG0 11:0-rel 12:1-ARG1
+nw/wsj/04/wsj_0426.parse 27 19 gold be be.01 ----- 18:1-ARG1 19:0-rel 20:0-ARGM-NEG 21:1-ARG2
+nw/wsj/04/wsj_0426.parse 38 3 gold be be.01 ----- 1:1-ARG1 3:0-rel 4:2-ARG2
 nw/wsj/04/wsj_0426.parse 5 19 gold be be.01 ----- 7:1*17:1-ARG1 19:0-rel 20:2-ARG2
 nw/wsj/04/wsj_0426.parse 21 6 gold be be.01 ----- 0:1-ARGM-DIS 6:0-rel 7:1-ARG2 8:1-ARG1
 nw/wsj/04/wsj_0426.parse 1 2 gold fly flee.05 ----- 0:1-ARG0 2:0-rel 3:1-ARGM-MNR
 nw/wsj/04/wsj_0426.parse 0 12 gold lay lie.07 ----- 8:1*10:1-ARG1 12:0-rel 13:1-ARG2
 nw/wsj/04/wsj_0426.parse 11 6 gold sweep sweep.01 ----- 0:1-ARGM-TMP 3:1-ARG0 6:0-rel 7:1-ARGM-DIR 8:1-ARG1 14:2-ARGM-PRD 19:1-ARGM-PRD
+nw/wsj/04/wsj_0426.parse 31 17 gold have have.01 ----- 17:0-rel
 nw/wsj/04/wsj_0426.parse 35 5 gold invade invade.01 ----- 0:0-ARGM-DIS 1:1-ARG0 4:0-ARGM-MOD 5:0-rel 6:3-ARG1 13:1-ARGM-MNR
 nw/wsj/04/wsj_0426.parse 33 2 gold prompt prompt.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
+nw/wsj/04/wsj_0426.parse 32 29 gold sentence sentence.01 ----- 28:0-ARG2 29:0-rel
 nw/wsj/04/wsj_0426.parse 3 3 gold punish punish.01 ----- 2:0-ARGM-ADJ 3:0-rel
-nw/wsj/04/wsj_0426.parse 14 8 gold reintroduce reintroduce.02 ----- 0:1-ARGM-TMP 5:1-ARG0 8:0-rel 9:1-ARG1
 nw/wsj/04/wsj_0426.parse 0 2 gold enter enter.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 nw/wsj/04/wsj_0426.parse 16 22 gold die die.01 ----- 22:0-rel
 nw/wsj/04/wsj_0426.parse 4 1 gold be be.02 ----- 1:0-rel 2:2-ARG1
+nw/wsj/04/wsj_0426.parse 29 14 gold retribute retribute.01 ----- 13:0-ARGM-ADJ 14:0-rel 16:1-ARG2
 nw/wsj/04/wsj_0426.parse 33 20 gold punish punish.01 ----- 19:0-ARG3 20:0-rel
 nw/wsj/04/wsj_0426.parse 28 3 gold be be.01 ----- 1:1-ARG1 3:0-rel 4:1-ARG2
-nw/wsj/04/wsj_0426.parse 33 17 gold kill kill.01 ----- 14:1-ARG0 15:0-ARGM-MOD 17:0-rel 19:1-ARG1
 nw/wsj/04/wsj_0426.parse 40 5 gold be be.01 ----- 1:1-ARG1 3:0-ARGM-MOD 4:0-ARGM-NEG 5:0-rel 6:1-ARG2
 nw/wsj/04/wsj_0426.parse 8 26 gold focus focus.01 ----- 21:1*24:1-ARG1 21:1*24:1-LINK-PRO 26:0-rel 27:1-ARG2
 nw/wsj/04/wsj_0426.parse 29 10 gold be be.01 ----- 0:1-ARG1 2:1-ARGM-ADV 10:0-rel 11:1-ARGM-DIS 12:1-ARG2
@@ -154,40 +155,39 @@ nw/wsj/04/wsj_0426.parse 16 4 gold establish establish.01 ----- 0:1-ARG0 3:0-ARG
 nw/wsj/04/wsj_0426.parse 6 3 gold be be.03 ----- 3:0-rel
 nw/wsj/04/wsj_0426.parse 36 2 gold allow allow.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:2-ARG1
 nw/wsj/04/wsj_0426.parse 18 5 gold add add.02 ----- 0:1-ARG0 3:0-ARGM-MOD 4:1-ARGM-DIS 5:0-rel 6:2-ARG1
+nw/wsj/04/wsj_0426.parse 32 32 gold show show.01 ----- 32:0-rel 33:2-ARG1
 nw/wsj/04/wsj_0426.parse 24 26 gold do do.01 ----- 26:0-rel
 nw/wsj/04/wsj_0426.parse 42 36 gold sentence sentence.01 ----- 34:0-ARGM-ADJ 35:0-ARG2 36:0-rel
 nw/wsj/04/wsj_0426.parse 46 3 gold survive survive.01 ----- 2:1-ARG0 3:0-rel
 nw/wsj/04/wsj_0426.parse 32 15 gold attach attach.01 ----- 0:1-ARGM-TMP 6:2-ARG0 15:0-rel 16:2-ARG1
 nw/wsj/04/wsj_0426.parse 8 34 gold sentence sentence.01 ----- 33:0-ARG2 34:0-rel
+nw/wsj/04/wsj_0426.parse 17 11 gold assassinate assassinate.01 ----- 10:0-ARG1 11:0-rel
 nw/wsj/04/wsj_0426.parse 15 3 gold have have.01 ----- 3:0-rel
 nw/wsj/04/wsj_0426.parse 21 12 gold receive receive.01 ----- 9:1-ARG0 11:0-ARGM-MOD 12:0-rel 13:1-ARG1
 nw/wsj/04/wsj_0426.parse 48 1 gold narrow narrow.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 4:1-ARGM-MNR
 nw/wsj/04/wsj_0426.parse 3 12 gold protect protect.01 ----- 1:1-ARG3 11:0-ARGM-MOD 12:0-rel 13:1-ARG1 17:1-ARG2
-nw/wsj/04/wsj_0426.parse 17 11 gold assassinate assassinate.01 ----- 10:0-ARG1 11:0-rel
+nw/wsj/04/wsj_0426.parse 38 14 gold meet meet.01 ----- 11:1*15:1-ARG1 12:1-ARG0 14:0-rel
 nw/wsj/04/wsj_0426.parse 23 19 gold be be.01 ----- 15:1-ARG1 19:0-rel 20:1-ARG2 22:1-ARGM-TMP
 nw/wsj/04/wsj_0426.parse 32 25 gold escape escape.01 ----- 22:1-ARG0 25:0-rel 26:1-ARG1 30:1-ARGM-LOC
 nw/wsj/04/wsj_0426.parse 11 11 gold punish punish.01 ----- 9:0-ARG3 11:0-rel
 nw/wsj/04/wsj_0426.parse 20 33 gold be be.01 ----- 30:1-ARG1 31:0-ARGM-MOD 33:0-rel
-nw/wsj/04/wsj_0426.parse 30 9 gold say say.01 ----- 0:2-ARG0 9:0-rel 10:1-ARG1
-nw/wsj/04/wsj_0426.parse 0 7 gold order order.01 ----- 0:1-ARG0 7:0-rel 8:1-ARG1 10:2-ARG2
 nw/wsj/04/wsj_0426.parse 47 2 gold force force.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:2-ARG1 7:2-ARG2
 nw/wsj/04/wsj_0426.parse 25 8 gold be be.01 ----- 1:1-ARGM-ADV 5:1-ARG1 8:0-rel 9:2-ARG2
 nw/wsj/04/wsj_0426.parse 24 15 gold take take.14 ----- 0:2-ARG1 15:0-rel 16:1-ARG2 17:1-ARGM-TMP 20:2-ARGM-ADV
 nw/wsj/04/wsj_0426.parse 27 7 gold execute execute.01 ----- 3:1*8:1-ARG1 5:0-ARGM-MOD 7:0-rel 9:1-ARGM-LOC
 nw/wsj/04/wsj_0426.parse 22 11 gold be be.01 ----- 0:2;15:2-ARG1 11:0-rel 12:1-ARG2
 nw/wsj/04/wsj_0426.parse 0 17 gold shoot shoot.02 ----- 0:1-ARG0 17:0-rel 18:1-ARG1 19:1-ARG3
-nw/wsj/04/wsj_0426.parse 3 25 gold commit commit.02 ----- 18:1*23:1*24:1-ARG0 18:1*23:1-LINK-SLC 25:0-rel 26:1-ARG1
+nw/wsj/04/wsj_0426.parse 14 8 gold reintroduce reintroduce.02 ----- 0:1-ARGM-TMP 5:1-ARG0 8:0-rel 9:1-ARG1
+nw/wsj/04/wsj_0426.parse 37 3 gold shift shift.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:1;9:2-ARG1 7:1-ARG2
 nw/wsj/04/wsj_0426.parse 16 9 gold sentence sentence.01 ----- 6:1-ARGM-ADJ 8:0-ARG2 9:0-rel 10:1-ARG3
 nw/wsj/04/wsj_0426.parse 12 6 gold permit permit.01 ----- 1:1-ARGM-TMP 4:1-ARG0 6:0-rel 7:2-ARG1 12:1-ARGM-ADV
 nw/wsj/04/wsj_0426.parse 43 8 gold legislate legislate.01 ----- 0:1-ARG0 3:0-ARGM-MOD 5:1-ARGM-ADV 8:0-rel 9:1-ARGM-MNR
 nw/wsj/04/wsj_0426.parse 29 22 gold argue argue.01 ----- 0:2*24:1-ARG1 20:1-ARG0 22:0-rel
-nw/wsj/04/wsj_0426.parse 24 11 gold ban ban.01 ----- 5:2-ARG0 11:0-rel 12:1-ARG1
+nw/wsj/04/wsj_0426.parse 5 15 gold turn turn_out.11 ----- 7:1*17:2-ARG1 13:1-ARGM-ADV 14:0-ARGM-MOD 15:0,16:1-rel
 nw/wsj/04/wsj_0426.parse 20 6 gold surround surround.01 ----- 1:2-ARG1 6:0-rel 7:1-ARG2
 nw/wsj/04/wsj_0426.parse 26 2 gold be be.03 ----- 2:0-rel
-nw/wsj/04/wsj_0426.parse 13 8 gold consider consider.01 ----- 3:1*6:1-ARG0 8:0-rel 9:1-ARG1 18:1-ARGM-TMP
+nw/wsj/04/wsj_0426.parse 33 17 gold kill kill.01 ----- 14:1-ARG0 15:0-ARGM-MOD 17:0-rel 19:1-ARG1
 nw/wsj/04/wsj_0426.parse 35 3 gold amend amend.01 ----- 2:0-ARG0 3:0-rel
-nw/wsj/04/wsj_0426.parse 32 32 gold show show.01 ----- 32:0-rel 33:2-ARG1
-nw/wsj/04/wsj_0426.parse 10 4 gold introduce introduce.02 ----- 0:1*5:1-ARG1 0:1*5:1-LINK-PSV 4:0-rel 6:1-ARG0
 nw/wsj/04/wsj_0426.parse 17 3 gold be be.01 ----- 0:1*4:1-ARG2 3:0-rel 5:3-ARG1
 nw/wsj/04/wsj_0426.parse 39 4 gold prove prove.01 ----- 1:1*7:1-ARGM-MNR 3:1-ARG0 4:0-rel 5:1-ARG1
 nw/wsj/04/wsj_0426.parse 15 9 gold occur occur.01 ----- 5:1*8:1-ARG1 9:0-rel 10:1-ARGM-LOC

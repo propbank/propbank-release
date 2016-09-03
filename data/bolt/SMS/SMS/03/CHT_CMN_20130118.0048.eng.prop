@@ -9,18 +9,22 @@ SMS/03/CHT_CMN_20130118.0048.eng.tree 61 2 gold say say.01 ----- 0:1-ARG0 2:0-re
 SMS/03/CHT_CMN_20130118.0048.eng.tree 9 1 gold do do.01 ----- 1:0-rel
 SMS/03/CHT_CMN_20130118.0048.eng.tree 23 18 gold work work.01 ----- 18:0-rel
 SMS/03/CHT_CMN_20130118.0048.eng.tree 32 7 gold look look.01 ----- 4:1*12:1-ARGM-CAU 5:1-ARG0 7:0-rel 8:1-ARG1 10:1-ARGM-TMP
+SMS/03/CHT_CMN_20130118.0048.eng.tree 9 3 gold do do.02 ----- 0:1*7:1-ARGM-MNR 2:1-ARG0 3:0-rel 4:1-ARG1
 SMS/03/CHT_CMN_20130118.0048.eng.tree 57 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-TMP 3:2-ARG2
 SMS/03/CHT_CMN_20130118.0048.eng.tree 1 2 gold be be.01 ----- 1:1-ARG1 2:0-rel 3:1-ARG2
+SMS/03/CHT_CMN_20130118.0048.eng.tree 25 16 gold fear fear.01 ----- 5:1-ARGM-ADV 14:1-ARG0 16:0-rel 17:1-ARG1
 SMS/03/CHT_CMN_20130118.0048.eng.tree 64 21 gold better good.02 ----- 18:1-ARG1 20:0-ARGM-EXT 21:0-rel
 SMS/03/CHT_CMN_20130118.0048.eng.tree 60 3 gold plan plan.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:2-ARG1
 SMS/03/CHT_CMN_20130118.0048.eng.tree 53 10 gold have have.03 ----- 0:1-ARGM-DIS 2:1-ARGM-DIS 5:1-ARG0 10:0-rel 11:1-ARG1
 SMS/03/CHT_CMN_20130118.0048.eng.tree 60 12 gold see see.01 ----- 8:1-ARG0 9:0-ARGM-MOD 12:0-rel 13:1-ARGM-TMP
 SMS/03/CHT_CMN_20130118.0048.eng.tree 67 14 gold call call.02 ----- 10:1-ARG0 11:0-ARGM-LVB 12:1-ARG1 14:0-rel 15:2-ARGM-TMP
+SMS/03/CHT_CMN_20130118.0048.eng.tree 5 3 gold be be.03 ----- 3:0-rel
+SMS/03/CHT_CMN_20130118.0048.eng.tree 19 11 gold be be.02 ----- 11:0-rel 12:1-ARGM-TMP 13:1-ARG1 15:1-ARGM-TMP
+SMS/03/CHT_CMN_20130118.0048.eng.tree 64 19 gold be be.01 ----- 18:1-ARG1 19:0-rel 20:1-ARG2
 SMS/03/CHT_CMN_20130118.0048.eng.tree 31 6 gold make make.LV ----- 6:0-rel 8:0-ARGM-PRR
 SMS/03/CHT_CMN_20130118.0048.eng.tree 67 7 gold touch touch.01 ----- 7:0-rel
 SMS/03/CHT_CMN_20130118.0048.eng.tree 53 29 gold respect respect.01 ----- 29:0-rel
 SMS/03/CHT_CMN_20130118.0048.eng.tree 51 6 gold come come.01 ----- 3:1-ARGM-TMP 4:1-ARG1 5:0-ARGM-MOD 6:0-rel 7:1-ARGM-DIR
-SMS/03/CHT_CMN_20130118.0048.eng.tree 59 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-ADV 3:0-ARGM-NEG 4:1-ARG2
 SMS/03/CHT_CMN_20130118.0048.eng.tree 10 9 gold recruit recruit.01 ----- 8:0-ARG1 9:0-rel 10:0-ARG0
 SMS/03/CHT_CMN_20130118.0048.eng.tree 48 2 gold go go.02 ----- 0:1-ARG0 2:0-rel 3:1-ARG4 4:1-ARGM-TMP
 SMS/03/CHT_CMN_20130118.0048.eng.tree 48 1 gold be be.03 ----- 1:0-rel
@@ -28,42 +32,41 @@ SMS/03/CHT_CMN_20130118.0048.eng.tree 63 5 gold difficult difficult.01 ----- 0:1
 SMS/03/CHT_CMN_20130118.0048.eng.tree 25 15 gold be be.01 ----- 5:1-ARGM-ADV 14:1-ARG1 15:0-rel 16:1-ARG2
 SMS/03/CHT_CMN_20130118.0048.eng.tree 32 17 gold do do.02 ----- 14:1*20:1-ARGM-MNR 16:1-ARG0 17:0-rel 18:1-ARGM-LOC
 SMS/03/CHT_CMN_20130118.0048.eng.tree 61 6 gold be be.03 ----- 6:0-rel
+SMS/03/CHT_CMN_20130118.0048.eng.tree 31 19 gold be be.01 ----- 12:2-ARG1 18:0-ARGM-MOD 19:0-rel 20:2-ARG2
 SMS/03/CHT_CMN_20130118.0048.eng.tree 64 1 gold do do.01 ----- 1:0-rel
 SMS/03/CHT_CMN_20130118.0048.eng.tree 26 12 gold decide decide.01 ----- 10:1-ARG0 11:0-ARGM-MOD 12:0-rel 13:1-ARGM-TMP
 SMS/03/CHT_CMN_20130118.0048.eng.tree 59 4 gold ease easy.05 ----- 0:1-ARG1 2:1-ARGM-ADV 3:0-ARGM-NEG 4:0-rel
+SMS/03/CHT_CMN_20130118.0048.eng.tree 40 9 gold understand understand.01 ----- 0:1-ARGM-ADV 7:1-ARG0 8:0-ARGM-MOD 9:0-rel 10:1-ARG1
 SMS/03/CHT_CMN_20130118.0048.eng.tree 6 12 gold suppose suppose.01 ----- 5:2*13:1-ARG1 11:1-ARG0 12:0-rel
-SMS/03/CHT_CMN_20130118.0048.eng.tree 41 3 gold difficult difficult.01 ----- 3:0-rel 4:2-ARG1
 SMS/03/CHT_CMN_20130118.0048.eng.tree 8 10 gold start start.01 ----- 6:1-ARG1 9:0-ARGM-MOD 10:0-rel 11:1-ARGM-TMP
 SMS/03/CHT_CMN_20130118.0048.eng.tree 26 5 gold enjoy enjoy.01 ----- 4:1-ARG0 5:0-rel 6:1-ARGM-REC 7:1-ARGM-LOC
 SMS/03/CHT_CMN_20130118.0048.eng.tree 8 3 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARG1 3:0-rel 4:1-ARG2
+SMS/03/CHT_CMN_20130118.0048.eng.tree 57 7 gold change change.01 ----- 3:1*5:1,8:1-ARG2 3:1*5:1-LINK-SLC 6:1-ARG1 7:0-rel 10:1-ARGM-TMP
 SMS/03/CHT_CMN_20130118.0048.eng.tree 41 0 gold be be.01 ----- 0:0-rel 3:1-ARG2 4:2-ARG1
 SMS/03/CHT_CMN_20130118.0048.eng.tree 26 15 gold get get.01 ----- 14:1-ARG0 15:0-rel 16:1-ARG1
-SMS/03/CHT_CMN_20130118.0048.eng.tree 40 9 gold understand understand.01 ----- 0:1-ARGM-ADV 7:1-ARG0 8:0-ARGM-MOD 9:0-rel 10:1-ARG1
 SMS/03/CHT_CMN_20130118.0048.eng.tree 54 3 gold live live.01 ----- 1:1-ARG0 2:1-ARGM-TMP 3:0-rel 4:1-ARGM-LOC
 SMS/03/CHT_CMN_20130118.0048.eng.tree 33 8 gold relate relate.01 ----- 4:1-ARG1 6:0-ARGM-NEG 7:0-ARGM-EXT 8:0-rel 9:1-ARG2
+SMS/03/CHT_CMN_20130118.0048.eng.tree 55 7 gold change change.01 ----- 5:1-ARG1 7:0-rel 8:1-ARG2
 SMS/03/CHT_CMN_20130118.0048.eng.tree 59 11 gold settle settle.03 ----- 7:1*9:1-ARG0 11:0-rel 12:1-ARG4
 SMS/03/CHT_CMN_20130118.0048.eng.tree 25 9 gold qualify qualify.02 ----- 6:1-ARG1 8:0-ARGM-NEG 9:0-rel 10:1-ARGM-MNR
 SMS/03/CHT_CMN_20130118.0048.eng.tree 33 5 gold be be.01 ----- 4:1-ARG1 5:0-rel 6:0-ARGM-NEG 7:2-ARG2
-SMS/03/CHT_CMN_20130118.0048.eng.tree 41 6 gold teach teach.01 ----- 4:1-ARG0 6:0-rel 7:1-ARG2 8:1-ARGM-TMP
-SMS/03/CHT_CMN_20130118.0048.eng.tree 5 3 gold be be.03 ----- 3:0-rel
 SMS/03/CHT_CMN_20130118.0048.eng.tree 26 21 gold have have.03 ----- 19:1-ARG0 20:0-ARGM-MOD 21:0-rel 22:2-ARG1
 SMS/03/CHT_CMN_20130118.0048.eng.tree 6 3 gold know know.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel
 SMS/03/CHT_CMN_20130118.0048.eng.tree 63 8 gold get get.03 ----- 6:1-ARG1 8:0-rel 9:1-ARG2
 SMS/03/CHT_CMN_20130118.0048.eng.tree 67 17 gold come come.01 ----- 15:1*20:1-ARGM-TMP 16:1-ARG1 17:0-rel 18:1-ARGM-DIR 19:1-ARGM-TMP
 SMS/03/CHT_CMN_20130118.0048.eng.tree 59 6 gold do do.01 ----- 6:0-rel
+SMS/03/CHT_CMN_20130118.0048.eng.tree 41 3 gold difficult difficult.01 ----- 3:0-rel 4:2-ARG1
 SMS/03/CHT_CMN_20130118.0048.eng.tree 49 4 gold leave leave.11 ----- 0:1-ARGM-ADV 2:1-ARG0 3:0-ARGM-MOD 4:0-rel 5:1-ARGM-TMP
-SMS/03/CHT_CMN_20130118.0048.eng.tree 55 7 gold change change.01 ----- 5:1-ARG1 7:0-rel 8:1-ARG2
-SMS/03/CHT_CMN_20130118.0048.eng.tree 61 12 gold be be.01 ----- 12:0-rel 13:1-ARG1 14:1-ARG2
+SMS/03/CHT_CMN_20130118.0048.eng.tree 67 5 gold get get.03 ----- 0:1-ARGM-DIS 2:1-ARGM-DIS 4:1-ARG1 5:0-rel 6:1-ARG2 8:1-ARGM-TMP
 SMS/03/CHT_CMN_20130118.0048.eng.tree 66 28 gold overexert overexert.01 ----- 28:0-rel
 SMS/03/CHT_CMN_20130118.0048.eng.tree 16 5 gold better good.02 ----- 0:0-ARGM-DIS 1:1-ARG1 3:0-ARGM-NEG 4:0-ARGM-ADV 5:0-rel
 SMS/03/CHT_CMN_20130118.0048.eng.tree 22 9 gold look look.01 ----- 0:1-ARGM-DIS 1:1-ARGM-DIS 3:1-ARGM-DIS 5:1-ARG0 6:0-ARGM-MOD 7:0-ARGM-LVB 9:0-rel
 SMS/03/CHT_CMN_20130118.0048.eng.tree 13 2 gold submit submit.01 ----- 0:1-ARG0 1:1-ARGM-ADV 2:0-rel 3:1-ARG1 5:1-ARG2
 SMS/03/CHT_CMN_20130118.0048.eng.tree 5 4 gold go go.02 ----- 0:1*6:1-ARGM-TMP 1:0-ARGM-MOD 2:1-ARG0 4:0-rel 5:1-ARG4
-SMS/03/CHT_CMN_20130118.0048.eng.tree 15 2 gold visit visit.01 ----- 0:1-ARG0 1:1-ARGM-ADV 2:0-rel 3:2-ARG1
-SMS/03/CHT_CMN_20130118.0048.eng.tree 45 3 gold simplify simple.02 ----- 0:1-ARGM-DIS 1:1-ARG1 3:0-rel
 SMS/03/CHT_CMN_20130118.0048.eng.tree 60 30 gold stay stay.01 ----- 18:1-ARGM-ADV 28:1-ARG1 29:0-ARGM-MOD 30:0-rel 31:1-ARG3
 SMS/03/CHT_CMN_20130118.0048.eng.tree 53 28 gold show show.01 ----- 15:1-ARGM-ADV 17:1-ARGM-MNR 24:1-ARG0 26:1-ARGM-TMP 28:0-rel 29:1-ARG1 30:1-ARG2
 SMS/03/CHT_CMN_20130118.0048.eng.tree 64 16 gold feel feel.02 ----- 15:1-ARG0 16:0-rel 17:1-ARG1
+SMS/03/CHT_CMN_20130118.0048.eng.tree 46 21 gold make make.01 ----- 10:1-ARGM-TMP 13:2-ARGM-TMP 19:1-ARG0 20:0-ARGM-MOD 21:0-rel 22:1-ARG1 23:1-ARG2 25:1-ARGM-ADV
 SMS/03/CHT_CMN_20130118.0048.eng.tree 8 4 gold right right.06 ----- 0:1-ARGM-DIS 2:1-ARG2 4:0-rel
 SMS/03/CHT_CMN_20130118.0048.eng.tree 14 1 gold be be.02 ----- 1:0-rel 2:1-ARG1
 SMS/03/CHT_CMN_20130118.0048.eng.tree 54 0 gold do do.01 ----- 0:0-rel
@@ -74,88 +77,85 @@ SMS/03/CHT_CMN_20130118.0048.eng.tree 38 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 
 SMS/03/CHT_CMN_20130118.0048.eng.tree 30 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2 3:1-ARGM-DIS
 SMS/03/CHT_CMN_20130118.0048.eng.tree 17 3 gold look look.01 ----- 0:1*10:1-ARGM-LOC 1:0-ARGM-MOD 2:1-ARG0 3:0-rel 4:1-ARG1
 SMS/03/CHT_CMN_20130118.0048.eng.tree 33 21 gold have have.02 ----- 21:0-rel
-SMS/03/CHT_CMN_20130118.0048.eng.tree 46 15 gold know know.01 ----- 13:1*17:1-ARGM-TMP 14:1-ARG0 15:0-rel 16:1-ARG1
+SMS/03/CHT_CMN_20130118.0048.eng.tree 0 0 gold be be.01 ----- 0:0-rel 1:1-ARG1 2:1-ARG2
+SMS/03/CHT_CMN_20130118.0048.eng.tree 15 2 gold visit visit.01 ----- 0:1-ARG0 1:1-ARGM-ADV 2:0-rel 3:2-ARG1
 SMS/03/CHT_CMN_20130118.0048.eng.tree 47 11 gold teach teach.01 ----- 9:1-ARG0 11:0-rel 12:1-ARG2
 SMS/03/CHT_CMN_20130118.0048.eng.tree 45 2 gold be be.01 ----- 0:1-ARGM-DIS 1:1-ARG1 2:0-rel 3:1-ARG2
-SMS/03/CHT_CMN_20130118.0048.eng.tree 66 9 gold care care.03 ----- 4:1*6:1-ARG0 8:0-ARGM-LVB 9:0-rel 10:1-ARG1
 SMS/03/CHT_CMN_20130118.0048.eng.tree 59 8 gold plan plan.01 ----- 7:1-ARG0 8:0-rel 9:2-ARG1
-SMS/03/CHT_CMN_20130118.0048.eng.tree 20 2 gold start start.01 ----- 2:0-rel 3:1-ARG1
 SMS/03/CHT_CMN_20130118.0048.eng.tree 66 8 gold take take.LV ----- 8:0-rel 9:1-ARGM-PRR
 SMS/03/CHT_CMN_20130118.0048.eng.tree 33 26 gold study study.01 ----- 19:1*22:1-ARG0 24:0-ARG1 26:0-rel
 SMS/03/CHT_CMN_20130118.0048.eng.tree 16 2 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 2:0-rel 3:0-ARGM-NEG 4:1-ARG2
+SMS/03/CHT_CMN_20130118.0048.eng.tree 45 3 gold simplify simple.02 ----- 0:1-ARGM-DIS 1:1-ARG1 3:0-rel
 SMS/03/CHT_CMN_20130118.0048.eng.tree 39 11 gold be be.01 ----- 5:2-ARG1 11:0-rel 12:1-ARG2
 SMS/03/CHT_CMN_20130118.0048.eng.tree 43 3 gold difficult difficult.01 ----- 0:1-ARG1 2:0-ARGM-NEG 3:0-rel
 SMS/03/CHT_CMN_20130118.0048.eng.tree 65 8 gold ask ask.01 ----- 6:1-ARG0 7:0-ARGM-MOD 8:0-rel 9:1-ARG2
 SMS/03/CHT_CMN_20130118.0048.eng.tree 10 4 gold do do.01 ----- 4:0-rel
-SMS/03/CHT_CMN_20130118.0048.eng.tree 47 4 gold right right.06 ----- 0:1-ARGM-DIS 2:1-ARG2 4:0-rel
 SMS/03/CHT_CMN_20130118.0048.eng.tree 66 5 gold have have.02 ----- 5:0-rel
 SMS/03/CHT_CMN_20130118.0048.eng.tree 31 8 gold prepare prepare.02 ----- 0:1-ARGM-DIS 2:1-ARGM-ADV 5:1-ARG0 6:0-ARGM-LVB 8:0-rel 9:1-ARGM-TMP
 SMS/03/CHT_CMN_20130118.0048.eng.tree 60 10 gold wait wait.01 ----- 8:1-ARG1 9:0-ARGM-MOD 10:0-rel
+SMS/03/CHT_CMN_20130118.0048.eng.tree 41 6 gold teach teach.01 ----- 4:1-ARG0 6:0-rel 7:1-ARG2 8:1-ARGM-TMP
 SMS/03/CHT_CMN_20130118.0048.eng.tree 19 1 gold be be.02 ----- 1:0-rel 2:1-ARG1 3:1-ARGM-TMP
 SMS/03/CHT_CMN_20130118.0048.eng.tree 47 7 gold choose choose.01 ----- 6:0-ARGM-NEG 7:0-rel 8:1-ARG1
 SMS/03/CHT_CMN_20130118.0048.eng.tree 52 9 gold be be.01 ----- 1:1-ARGM-DIS 7:1-ARG1 9:0-rel 10:1-ARG2
-SMS/03/CHT_CMN_20130118.0048.eng.tree 61 14 gold interest interest.01 ----- 13:1-ARG1 14:0-rel
 SMS/03/CHT_CMN_20130118.0048.eng.tree 66 21 gold do do.01 ----- 21:0-rel
 SMS/03/CHT_CMN_20130118.0048.eng.tree 60 23 gold have have.03 ----- 22:1-ARG0 23:0-rel 24:2-ARG1
 SMS/03/CHT_CMN_20130118.0048.eng.tree 66 15 gold take take.LV ----- 15:0-rel 16:1-ARGM-PRR
 SMS/03/CHT_CMN_20130118.0048.eng.tree 46 6 gold learn learn.01 ----- 5:1-ARG0 6:0-rel 7:1-ARG1 8:1-ARGM-ADV
-SMS/03/CHT_CMN_20130118.0048.eng.tree 19 11 gold be be.02 ----- 11:0-rel 12:1-ARGM-TMP 13:1-ARG1 15:1-ARGM-TMP
+SMS/03/CHT_CMN_20130118.0048.eng.tree 23 6 gold look look.01 ----- 2:1*4:1-ARG0 6:0-rel 7:1-ARG1 10:1-ARGM-LOC
 SMS/03/CHT_CMN_20130118.0048.eng.tree 6 1 gold do do.01 ----- 1:0-rel
 SMS/03/CHT_CMN_20130118.0048.eng.tree 24 0 gold be be.01 ----- 0:0-rel 1:1-ARG1 2:1-ARG2 5:1-ARGM-TMP
 SMS/03/CHT_CMN_20130118.0048.eng.tree 62 2 gold be be.01 ----- 0:1-ARG1 1:0-ARGM-MOD 2:0-rel 3:2-ARG2 11:1-ARGM-DIS
 SMS/03/CHT_CMN_20130118.0048.eng.tree 63 4 gold be be.01 ----- 0:1-ARGM-DIS 3:0-ARGM-MOD 4:0-rel 5:1-ARG2 6:2-ARG1 11:1-ARGM-DIS
-SMS/03/CHT_CMN_20130118.0048.eng.tree 40 2 gold engage engage.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG2
 SMS/03/CHT_CMN_20130118.0048.eng.tree 32 15 gold be be.03 ----- 15:0-rel
+SMS/03/CHT_CMN_20130118.0048.eng.tree 39 13 gold simplify simple.02 ----- 5:2-ARG1 12:0-ARGM-EXT 13:0-rel
 SMS/03/CHT_CMN_20130118.0048.eng.tree 44 2 gold be be.03 ----- 2:0-rel
 SMS/03/CHT_CMN_20130118.0048.eng.tree 31 10 gold advance advance.01 ----- 10:0-rel
 SMS/03/CHT_CMN_20130118.0048.eng.tree 66 16 gold care care.03 ----- 14:1-ARG0 15:0-ARGM-LVB 16:0-rel 17:1-ARG1
+SMS/03/CHT_CMN_20130118.0048.eng.tree 47 4 gold right right.06 ----- 0:1-ARGM-DIS 2:1-ARG2 4:0-rel
 SMS/03/CHT_CMN_20130118.0048.eng.tree 25 20 gold look look.01 ----- 18:1-ARG0 19:0-ARGM-MOD 20:0-rel 21:1-ARG1
 SMS/03/CHT_CMN_20130118.0048.eng.tree 32 3 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARG1 3:0-rel 4:2-ARG2
+SMS/03/CHT_CMN_20130118.0048.eng.tree 46 15 gold know know.01 ----- 13:1*17:1-ARGM-TMP 14:1-ARG0 15:0-rel 16:1-ARG1
 SMS/03/CHT_CMN_20130118.0048.eng.tree 32 11 gold advance advance.01 ----- 11:0-rel
-SMS/03/CHT_CMN_20130118.0048.eng.tree 67 5 gold get get.03 ----- 0:1-ARGM-DIS 2:1-ARGM-DIS 4:1-ARG1 5:0-rel 6:1-ARG2 8:1-ARGM-TMP
-SMS/03/CHT_CMN_20130118.0048.eng.tree 58 6 gold alright alright.01 ----- 0:1-ARGM-DIS 1:1-ARGM-DIS 4:1-ARG1 5:0,6:0-rel 7:2-ARG2
+SMS/03/CHT_CMN_20130118.0048.eng.tree 61 12 gold be be.01 ----- 12:0-rel 13:1-ARG1 14:1-ARG2
 SMS/03/CHT_CMN_20130118.0048.eng.tree 34 1 gold be be.03 ----- 1:0-rel
-SMS/03/CHT_CMN_20130118.0048.eng.tree 10 6 gold know know.01 ----- 0:1-ARGM-ADV 5:1-ARG0 6:0-rel 7:1-ARG1 11:1-ARGM-GOL
-SMS/03/CHT_CMN_20130118.0048.eng.tree 23 6 gold look look.01 ----- 2:1*4:1-ARG0 6:0-rel 7:1-ARG1 10:1-ARGM-LOC
 SMS/03/CHT_CMN_20130118.0048.eng.tree 8 8 gold holiday holiday.01 ----- 8:0-rel
 SMS/03/CHT_CMN_20130118.0048.eng.tree 49 13 gold arrive arrive.01 ----- 0:1-ARGM-ADV 2:1-ARG1 3:0-ARGM-MOD 13:0-rel 14:1-ARG4 15:1-ARGM-TMP
-SMS/03/CHT_CMN_20130118.0048.eng.tree 44 3 gold link link.01 ----- 0:1*4:1-ARG1 1:0-ARGM-MOD 3:0-rel 5:1-ARG3
+SMS/03/CHT_CMN_20130118.0048.eng.tree 58 6 gold alright alright.01 ----- 0:1-ARGM-DIS 1:1-ARGM-DIS 4:1-ARG1 5:0,6:0-rel 7:2-ARG2
+SMS/03/CHT_CMN_20130118.0048.eng.tree 10 6 gold know know.01 ----- 0:1-ARGM-ADV 5:1-ARG0 6:0-rel 7:1-ARG1 11:1-ARGM-GOL
 SMS/03/CHT_CMN_20130118.0048.eng.tree 27 3 gold do do.02 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:1-ARGM-MNR 5:1-ARG1 9:1-ARGM-TMP
 SMS/03/CHT_CMN_20130118.0048.eng.tree 47 3 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARG1 3:0-rel 4:1-ARG2
 SMS/03/CHT_CMN_20130118.0048.eng.tree 61 7 gold recruit recruit.01 ----- 4:1-ARG0 7:0-rel 8:1-ARG1 9:1-ARGM-TMP
+SMS/03/CHT_CMN_20130118.0048.eng.tree 53 19 gold give give.01 ----- 18:1-ARG0 19:0-rel 20:2-ARG1
 SMS/03/CHT_CMN_20130118.0048.eng.tree 40 5 gold work work.01 ----- 4:0-ARG1 5:0-rel
-SMS/03/CHT_CMN_20130118.0048.eng.tree 32 19 gold work work.01 ----- 19:0-rel
-SMS/03/CHT_CMN_20130118.0048.eng.tree 39 13 gold simplify simple.02 ----- 5:2-ARG1 12:0-ARGM-EXT 13:0-rel
 SMS/03/CHT_CMN_20130118.0048.eng.tree 31 25 gold hunt hunt.01 ----- 24:0-ARG1 25:0-rel
 SMS/03/CHT_CMN_20130118.0048.eng.tree 22 7 gold have have.LV ----- 7:0-rel 9:0-ARGM-PRR
 SMS/03/CHT_CMN_20130118.0048.eng.tree 46 4 gold let let.01 ----- 0:1-ARGM-DIS 1:1-ARGM-DIS 3:1-ARG0 4:0-rel 5:2-ARG1
 SMS/03/CHT_CMN_20130118.0048.eng.tree 20 8 gold be be.02 ----- 0:1-ARGM-TMP 7:0-ARGM-MOD 8:0-rel 9:1-ARG1 10:1-ARGM-LOC
 SMS/03/CHT_CMN_20130118.0048.eng.tree 36 2 gold do do.02 ----- 0:1*3:1-ARG1 1:1-ARG0 2:0-rel
 SMS/03/CHT_CMN_20130118.0048.eng.tree 26 17 gold score score.01 ----- 17:0-rel
-SMS/03/CHT_CMN_20130118.0048.eng.tree 31 19 gold be be.01 ----- 12:2-ARG1 18:0-ARGM-MOD 19:0-rel 20:2-ARG2
-SMS/03/CHT_CMN_20130118.0048.eng.tree 64 19 gold be be.01 ----- 18:1-ARG1 19:0-rel 20:1-ARG2
+SMS/03/CHT_CMN_20130118.0048.eng.tree 59 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-ADV 3:0-ARGM-NEG 4:1-ARG2
+SMS/03/CHT_CMN_20130118.0048.eng.tree 40 2 gold engage engage.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG2
 SMS/03/CHT_CMN_20130118.0048.eng.tree 25 7 gold do do.01 ----- 7:0-rel
 SMS/03/CHT_CMN_20130118.0048.eng.tree 25 12 gold examine examination.02 ----- 12:0-rel
-SMS/03/CHT_CMN_20130118.0048.eng.tree 57 7 gold change change.01 ----- 3:1*5:1,8:1-ARG2 3:1*5:1-LINK-SLC 6:1-ARG1 7:0-rel 10:1-ARGM-TMP
-SMS/03/CHT_CMN_20130118.0048.eng.tree 56 1 gold change change.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-TMP
 SMS/03/CHT_CMN_20130118.0048.eng.tree 50 5 gold stay stay.01 ----- 0:2*6:1-ARGM-TMP 3:0-ARGM-MOD 4:1-ARG1 5:0-rel
 SMS/03/CHT_CMN_20130118.0048.eng.tree 64 12 gold ask ask.01 ----- 10:1-ARG0 11:0-ARGM-MOD 12:0-rel 13:1-ARG2
-SMS/03/CHT_CMN_20130118.0048.eng.tree 43 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:0-ARGM-NEG 3:1-ARG2
 SMS/03/CHT_CMN_20130118.0048.eng.tree 36 4 gold be be.01 ----- 0:2-ARG1 4:0-rel 5:1-ARG2
-SMS/03/CHT_CMN_20130118.0048.eng.tree 9 3 gold do do.02 ----- 0:1*7:1-ARGM-MNR 2:1-ARG0 3:0-rel 4:1-ARG1
+SMS/03/CHT_CMN_20130118.0048.eng.tree 32 19 gold work work.01 ----- 19:0-rel
+SMS/03/CHT_CMN_20130118.0048.eng.tree 66 9 gold care care.03 ----- 4:1*6:1-ARG0 8:0-ARGM-LVB 9:0-rel 10:1-ARG1
 SMS/03/CHT_CMN_20130118.0048.eng.tree 25 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-TMP 3:1-ARG2
 SMS/03/CHT_CMN_20130118.0048.eng.tree 21 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 SMS/03/CHT_CMN_20130118.0048.eng.tree 67 11 gold give give.LV ----- 11:0-rel 14:0-ARGM-PRR
 SMS/03/CHT_CMN_20130118.0048.eng.tree 39 3 gold say say.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:1-ARGM-ADV 3:0-rel 4:1-ARG1
-SMS/03/CHT_CMN_20130118.0048.eng.tree 38 3 gold difficult difficult.01 ----- 0:1-ARG1 3:0-rel
 SMS/03/CHT_CMN_20130118.0048.eng.tree 23 3 gold want want.01 ----- 0:1-ARGM-DIS 2:1-ARG0 3:0-rel 4:2-ARG1
 SMS/03/CHT_CMN_20130118.0048.eng.tree 27 1 gold do do.01 ----- 1:0-rel
+SMS/03/CHT_CMN_20130118.0048.eng.tree 61 14 gold interest interest.01 ----- 13:1-ARG1 14:0-rel
 SMS/03/CHT_CMN_20130118.0048.eng.tree 23 15 gold go go.02 ----- 13:0-ARGM-NEG 14:1-ARG0 15:0-rel 16:1-ARG4 19:1-ARGM-LOC
-SMS/03/CHT_CMN_20130118.0048.eng.tree 46 21 gold make make.01 ----- 10:1-ARGM-TMP 13:2-ARGM-TMP 19:1-ARG0 20:0-ARGM-MOD 21:0-rel 22:1-ARG1 23:1-ARG2 25:1-ARGM-ADV
+SMS/03/CHT_CMN_20130118.0048.eng.tree 56 1 gold change change.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-TMP
 SMS/03/CHT_CMN_20130118.0048.eng.tree 66 24 gold damage damage.01 ----- 14:1-ARG0 22:0-ARGM-NEG 24:0-rel 25:1-ARG1 27:1-ARG2
-SMS/03/CHT_CMN_20130118.0048.eng.tree 0 0 gold be be.01 ----- 0:0-rel 1:1-ARG1 2:1-ARG2
-SMS/03/CHT_CMN_20130118.0048.eng.tree 53 19 gold give give.01 ----- 18:1-ARG0 19:0-rel 20:2-ARG1
+SMS/03/CHT_CMN_20130118.0048.eng.tree 44 3 gold link link.01 ----- 0:1*4:1-ARG1 1:0-ARGM-MOD 3:0-rel 5:1-ARG3
 SMS/03/CHT_CMN_20130118.0048.eng.tree 30 2 gold uncertain uncertain.01 ----- 0:1-ARG0 2:0-rel 3:1-ARGM-ADV
-SMS/03/CHT_CMN_20130118.0048.eng.tree 25 16 gold fear fear.01 ----- 5:1-ARGM-ADV 14:1-ARG0 16:0-rel 17:1-ARG1
+SMS/03/CHT_CMN_20130118.0048.eng.tree 38 3 gold difficult difficult.01 ----- 0:1-ARG1 3:0-rel
+SMS/03/CHT_CMN_20130118.0048.eng.tree 43 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:0-ARGM-NEG 3:1-ARG2
 SMS/03/CHT_CMN_20130118.0048.eng.tree 28 1 gold be be.02 ----- 1:0-rel 2:1-ARG1
+SMS/03/CHT_CMN_20130118.0048.eng.tree 20 2 gold start start.01 ----- 2:0-rel 3:1-ARG1
 SMS/03/CHT_CMN_20130118.0048.eng.tree 34 3 gold learn learn.01 ----- 0:1*4:1-ARG1 2:1-ARG0 3:0-rel

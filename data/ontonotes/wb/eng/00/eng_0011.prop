@@ -1,24 +1,23 @@
 wb/eng/00/eng_0011.parse 29 6 gold strain strain.04 ----- 1:1-ARG1 6:0-rel 7:1-ARGM-LOC 14:1-ARGM-MNR
 wb/eng/00/eng_0011.parse 75 10 gold be be.01 ----- 7:1-ARG1 10:0-rel 11:1-ARG2
 wb/eng/00/eng_0011.parse 41 31 gold scavenge scavenge.01 ----- 28:1*32:1-ARG1 28:1*32:1-LINK-PSV 31:0-rel 33:1-ARG2
-wb/eng/00/eng_0011.parse 63 3 gold become become.01 ----- 1:1-ARG1 3:0-rel 4:2-ARG2
+wb/eng/00/eng_0011.parse 88 17 gold defend defend.01 ----- 13:1-ARG0 17:0-rel 18:2-ARG1
 wb/eng/00/eng_0011.parse 70 5 gold establish establish.01 ----- 5:0-rel 6:0-ARG1
+wb/eng/00/eng_0011.parse 36 19 gold revolt revolutionize.05 ----- 15:1*17:1*18:1-ARG0 15:1*17:1-LINK-SLC 19:0-rel 20:1-ARG1 21:1-ARGM-TMP
 wb/eng/00/eng_0011.parse 55 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2 4:1-ARGM-CAU
 wb/eng/00/eng_0011.parse 86 19 gold join join.01 ----- 0:0-ARGM-DIS 1:1-ARGM-TMP 14:1*20:1-ARG1 19:0-rel 21:1-ARG0
 wb/eng/00/eng_0011.parse 81 8 gold feel feel.01 ----- 0:1-ARGM-LOC 2:1*9:1-ARG1 5:2;10:1-ARGM-MNR 8:0-rel
 wb/eng/00/eng_0011.parse 55 41 gold employ employ.02 ----- 32:1*39:1*42:1-ARG1 32:1*39:1-LINK-SLC 40:1-ARG0 41:0-rel
 wb/eng/00/eng_0011.parse 11 2 gold be be.01 ----- 0:1-ARGM-EXT 1:1-ARG1 2:0-rel 3:1-ARG2
-wb/eng/00/eng_0011.parse 31 13 gold imply imply.01 ----- 0:0-ARGM-DIS 1:1-ARGM-ADV 9:1-ARG0 12:1-ARGM-MNR 13:0-rel 14:1-ARG1
 wb/eng/00/eng_0011.parse 85 2 gold use use.03 ----- 2:0-rel
 wb/eng/00/eng_0011.parse 24 7 gold seem seem.01 ----- 7:0-rel 8:2-ARG1
 wb/eng/00/eng_0011.parse 32 38 gold chip chip.01 ----- 37:1-ARG0 38:0,39:1-rel 40:1-ARG1 41:2-ARGM-PRP
-wb/eng/00/eng_0011.parse 83 5 gold go go_on.15 ----- 2:1*4:1-ARG1 5:0,6:1-rel 7:1-ARGM-COM 10:1-ARGM-TMP
 wb/eng/00/eng_0011.parse 41 10 gold hold hold.01 ----- 8:1*11:1-ARG1 8:1*11:1-LINK-PSV 10:0-rel 12:1-ARGM-MNR 13:1-ARGM-LOC 15:1-ARG0
 wb/eng/00/eng_0011.parse 22 22 gold make make.01 ----- 19:1*23:1-ARG1 19:1*23:1-LINK-PSV 22:0-rel 24:1-ARG2
-wb/eng/00/eng_0011.parse 32 23 gold begin begin.01 ----- 0:1-ARGM-LOC 12:1-ARGM-TMP 14:2-ARG1 23:0-rel 24:1-ARG2
 wb/eng/00/eng_0011.parse 76 11 gold be be.01 ----- 6:2-ARG1 10:0-ARGM-MOD 11:0-rel 12:1-ARG2
 wb/eng/00/eng_0011.parse 63 22 gold explain explain.01 ----- 13:1*20:1-ARG0 22:0-rel 23:1-ARG1
 wb/eng/00/eng_0011.parse 77 13 gold create create.01 ----- 0:1*2:1*16:1-ARGM-LOC 0:1*2:1-LINK-SLC 3:2-ARG0 13:0-rel 14:1-ARG1
+wb/eng/00/eng_0011.parse 63 3 gold become become.01 ----- 1:1-ARG1 3:0-rel 4:2-ARG2
 wb/eng/00/eng_0011.parse 5 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2
 wb/eng/00/eng_0011.parse 46 2 gold make make.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:2-ARG1
 wb/eng/00/eng_0011.parse 60 33 gold express express.01 ----- 28:1*30:1*31:1-ARG0 28:1*30:1-LINK-SLC 33:0-rel 34:2-ARG1
@@ -26,7 +25,6 @@ wb/eng/00/eng_0011.parse 18 1 gold take take.04 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 wb/eng/00/eng_0011.parse 46 8 gold recall recall.02 ----- 3:1*4:1*5:1-ARG0 3:1*4:1-LINK-SLC 6:1-ARGM-EXT 8:0-rel 9:1-ARG1
 wb/eng/00/eng_0011.parse 57 5 gold advance advance.01 ----- 0:1-ARGM-TMP 3:1-ARG0 5:0-rel 6:1-ARG1 7:1-ARGM-PRD
 wb/eng/00/eng_0011.parse 30 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
-wb/eng/00/eng_0011.parse 32 31 gold be be.01 ----- 30:1-ARG1 31:0-rel 32:2-ARG2
 wb/eng/00/eng_0011.parse 55 16 gold promote promote.02 ----- 8:1-ARG0 16:0-rel 17:1-ARG1
 wb/eng/00/eng_0011.parse 62 4 gold topple topple.01 ----- 0:1*5:1-ARG1 4:0-rel 6:1-ARG0
 wb/eng/00/eng_0011.parse 77 12 gold be be.03 ----- 12:0-rel
@@ -36,50 +34,54 @@ wb/eng/00/eng_0011.parse 73 14 gold be be.03 ----- 14:0-rel
 wb/eng/00/eng_0011.parse 85 5 gold be be.01 ----- 0:1*3:1-ARG1 5:0-rel 6:1-ARG2
 wb/eng/00/eng_0011.parse 55 9 gold draw draw.02 ----- 8:1-ARG0 9:0-rel 10:1-ARG2
 wb/eng/00/eng_0011.parse 7 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2
+wb/eng/00/eng_0011.parse 32 31 gold be be.01 ----- 30:1-ARG1 31:0-rel 32:2-ARG2
 wb/eng/00/eng_0011.parse 27 17 gold be be.01 ----- 14:1-ARG1 17:0-rel 18:2-ARG2
-wb/eng/00/eng_0011.parse 73 15 gold trade trade.01 ----- 0:2-ARGM-PRD 8:2*16:1-ARG1 15:0-rel 17:1-ARGM-DIR 18:1-ARG3
 wb/eng/00/eng_0011.parse 33 1 gold put put.03 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 4:2-ARG2
+wb/eng/00/eng_0011.parse 73 15 gold trade trade.01 ----- 0:2-ARGM-PRD 8:2*16:1-ARG1 15:0-rel 17:1-ARGM-DIR 18:1-ARG3
 wb/eng/00/eng_0011.parse 28 1 gold speak speak.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+wb/eng/00/eng_0011.parse 18 14 gold open open.01 ----- 2:1-ARG1 6:1-ARGM-LOC 14:0-rel 15:1-ARGM-TMP
 wb/eng/00/eng_0011.parse 50 8 gold register register.01 ----- 0:0-ARGM-DIS 1:2-ARG1 8:0-rel 9:1-ARGM-MNR
 wb/eng/00/eng_0011.parse 25 15 gold turn turn.02 ----- 7:2*13:1*14:1-ARG0 7:2*13:1-LINK-SLC 15:0-rel 16:2-ARG1 22:1-ARG2
 wb/eng/00/eng_0011.parse 2 3 gold go go.02 ----- 0:1-ARG0 2:1-ARGM-TMP 3:0-rel
-wb/eng/00/eng_0011.parse 77 17 gold be be.01 ----- 0:2-ARG1 17:0-rel 18:1-ARG2
 wb/eng/00/eng_0011.parse 17 6 gold be be.01 ----- 0:2-ARG1 6:0-rel 7:3-ARG2
 wb/eng/00/eng_0011.parse 64 4 gold range range.01 ----- 0:0-ARGM-DIS 1:1-ARG1 3:0-ARGM-MOD 4:0-rel 5:1-ARG2 9:2-ARGM-PRD
 wb/eng/00/eng_0011.parse 78 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2 6:2-ARGM-TMP
 wb/eng/00/eng_0011.parse 36 7 gold recall recall.02 ----- 0:1-ARGM-DIS 2:2-ARG0 7:0-rel 8:2-ARG1
 wb/eng/00/eng_0011.parse 59 13 gold coexist coexist.01 ----- 3:3-ARG1 11:0-ARGM-MOD 12:1-ARGM-MNR 13:0-rel
+wb/eng/00/eng_0011.parse 31 13 gold imply imply.01 ----- 0:0-ARGM-DIS 1:1-ARGM-ADV 9:1-ARG0 12:1-ARGM-MNR 13:0-rel 14:1-ARG1
 wb/eng/00/eng_0011.parse 17 15 gold border border.01 ----- 13:1-ARG1 15:0-rel 16:1-ARG2
 wb/eng/00/eng_0011.parse 68 23 gold convince convince.01 ----- 0:3-ARG0 23:0-rel 24:1-ARG1 25:1-ARG2
-wb/eng/00/eng_0011.parse 81 4 gold be be.03 ----- 4:0-rel
+wb/eng/00/eng_0011.parse 76 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 wb/eng/00/eng_0011.parse 27 12 gold assert assert.03 ----- 0:0-ARGM-DIS 1:2-ARG0 12:0-rel 13:1-ARG1
-wb/eng/00/eng_0011.parse 62 18 gold polish polish_up.03 ----- 7:1*9:1*10:1-ARG0 7:1*9:1-LINK-SLC 17:1-ARGM-ADV 18:0,19:1-rel 20:2-ARG1
 wb/eng/00/eng_0011.parse 88 10 gold center center.01 ----- 0:3-ARG1 9:0-ARGM-MOD 10:0-rel 11:1-ARG2
-wb/eng/00/eng_0011.parse 9 14 gold read read.01 ----- 0:1*9:1-ARG0 14:0-rel 15:1;21:2-ARG3
 wb/eng/00/eng_0011.parse 61 6 gold congeal congeal.01 ----- 0:1*3:1*4:1-ARG1 0:1*3:1-LINK-SLC 6:0-rel 7:1-ARGM-TMP
 wb/eng/00/eng_0011.parse 82 1 gold program program.01 ----- 0:0-ARGM-ADJ 1:0-rel 2:1-ARGM-LOC
+wb/eng/00/eng_0011.parse 27 7 gold ruin ruin.01 ----- 7:0-rel 8:0-ARG1
 wb/eng/00/eng_0011.parse 88 21 gold wrought wrought.01 ----- 18:1*22:1-ARG1 18:1*22:1-LINK-PSV 21:0-rel 23:1-ARGM-TMP
 wb/eng/00/eng_0011.parse 21 14 gold make make.01 ----- 13:1-ARG0 14:0-rel 15:1-ARG1
 wb/eng/00/eng_0011.parse 42 3 gold go go_on.15 ----- 0:1*2:1-ARG1 3:0,4:1-rel 5:1-ARGM-COM 8:1-ARGM-TMP
 wb/eng/00/eng_0011.parse 65 18 gold suggest suggest.01 ----- 0:2-ARGM-ADV 9:1-ARGM-DIS 11:2-ARG0 18:0-rel 19:1-ARG1
+wb/eng/00/eng_0011.parse 68 15 gold close close.01 ----- 0:2*13:1*14:1-ARG1 0:2*13:1-LINK-SLC 15:0-rel 16:1-ARGM-TMP 17:1-ARGM-LOC
 wb/eng/00/eng_0011.parse 48 4 gold do do.01 ----- 4:0-rel
 wb/eng/00/eng_0011.parse 82 16 gold be be.03 ----- 16:0-rel
 wb/eng/00/eng_0011.parse 29 23 gold become become.01 ----- 0:1-ARGM-TMP 21:1-ARG1 23:0-rel 24:2-ARG2
 wb/eng/00/eng_0011.parse 66 11 gold elaborate elaborate.01 ----- 9:0-ARGM-ADJ 11:0-rel 14:1-ARG1
 wb/eng/00/eng_0011.parse 0 1 gold forget forget.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+wb/eng/00/eng_0011.parse 56 15 gold have have.03 ----- 4:2*13:1*14:1-ARG0 4:2*13:1-LINK-SLC 15:0-rel 16:3-ARG1
 wb/eng/00/eng_0011.parse 19 17 gold sprawl sprawl.01 ----- 13:1-ARG1 16:1-ARGM-TMP 17:0-rel 18:2-ARG2
 wb/eng/00/eng_0011.parse 61 16 gold hold hold.01 ----- 14:1-ARG0 16:0-rel 17:2-ARG1
-wb/eng/00/eng_0011.parse 82 22 gold wreck wreck.01 ----- 21:0-ARG1 22:0-rel
+wb/eng/00/eng_0011.parse 63 16 gold write write.01 ----- 1:2*17:1-ARG1 13:1-ARG0 15:1-ARGM-MNR 16:0-rel 18:1-ARGM-TMP 20:2-ARGM-PRP
 wb/eng/00/eng_0011.parse 80 9 gold handle handle.01 ----- 0:1*6:1*7:1-ARG0 9:0-rel 10:1-ARG1
-wb/eng/00/eng_0011.parse 27 7 gold ruin ruin.01 ----- 7:0-rel 8:0-ARG1
-wb/eng/00/eng_0011.parse 23 2 gold possess possess.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
-wb/eng/00/eng_0011.parse 56 15 gold have have.03 ----- 4:2*13:1*14:1-ARG0 4:2*13:1-LINK-SLC 15:0-rel 16:3-ARG1
 wb/eng/00/eng_0011.parse 34 2 gold uncover uncover.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:2-ARG1
+wb/eng/00/eng_0011.parse 23 2 gold possess possess.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
+wb/eng/00/eng_0011.parse 77 17 gold be be.01 ----- 0:2-ARG1 17:0-rel 18:1-ARG2
+wb/eng/00/eng_0011.parse 80 4 gold be be.03 ----- 4:0-rel
 wb/eng/00/eng_0011.parse 29 32 gold burst burst.02 ----- 21:1*30:1-ARG1 32:0-rel
 wb/eng/00/eng_0011.parse 39 22 gold galvanize galvanize.03 ----- 22:0-rel 23:0-ARG1
 wb/eng/00/eng_0011.parse 54 1 gold use use.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1 12:1-ARG2
 wb/eng/00/eng_0011.parse 40 3 gold unfold unfold.01 ----- 0:1*15:1-ARG0 3:0-rel 4:2,8:1-ARG1
 wb/eng/00/eng_0011.parse 88 15 gold repeal repeal.01 ----- 13:1-ARG0 15:0-rel 18:2-ARG1
+wb/eng/00/eng_0011.parse 82 22 gold wreck wreck.01 ----- 21:0-ARG1 22:0-rel
 wb/eng/00/eng_0011.parse 16 1 gold look look.01 ----- 0:1-ARG0 1:0-rel 2:1-ARGM-DIR
 wb/eng/00/eng_0011.parse 64 10 gold encompass encompass.01 ----- 1:1*9:1-ARG0 10:0-rel 11:3-ARG1
 wb/eng/00/eng_0011.parse 58 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
@@ -90,17 +92,18 @@ wb/eng/00/eng_0011.parse 35 5 gold lurk lurk.01 ----- 0:1-ARG0 5:0-rel 6:1-ARGM-
 wb/eng/00/eng_0011.parse 21 6 gold record record.01 ----- 0:1-ARGM-MNR 4:1-ARG0 6:0-rel 7:3-ARG1
 wb/eng/00/eng_0011.parse 74 14 gold be be.01 ----- 0:2-ARG1 14:0-rel 15:2-ARG2
 wb/eng/00/eng_0011.parse 9 18 gold think think.01 ----- 0:1*9:1-ARG0 18:0-rel 19:1;21:2-ARG1
-wb/eng/00/eng_0011.parse 61 2 gold view view.02 ----- 1:0-ARG2 2:0-rel 3:2-ARGM-ADJ
+wb/eng/00/eng_0011.parse 27 27 gold find find.01 ----- 24:1*28:1-ARG1 24:1*28:1-LINK-PSV 27:0-rel 29:1-ARGM-LOC
 wb/eng/00/eng_0011.parse 74 28 gold precede precede.01 ----- 22:1*26:1*27:1-ARG1 22:1*26:1-LINK-SLC 28:0-rel 29:1-ARG2
 wb/eng/00/eng_0011.parse 19 10 gold be be.01 ----- 4:1*8:1*9:1-ARG1 4:1*8:1-LINK-SLC 10:0-rel 11:1-ARG2 12:1-ARGM-LOC
 wb/eng/00/eng_0011.parse 10 17 gold go go.02 ----- 0:0-ARGM-DIS 1:2-ARG0 16:1-ARGM-TMP 17:0-rel
+wb/eng/00/eng_0011.parse 23 8 gold represent represent.01 ----- 6:1-ARG0 8:0-rel 9:3-ARG1 18:1-ARGM-MNR
 wb/eng/00/eng_0011.parse 32 15 gold carve carve.01 ----- 15:0-rel 16:0-ARG1
 wb/eng/00/eng_0011.parse 62 3 gold be be.03 ----- 3:0-rel
 wb/eng/00/eng_0011.parse 22 34 gold mind mind.05 ----- 33:0-ARGM-ADJ 34:0-rel
-wb/eng/00/eng_0011.parse 37 15 gold achieve achieve.01 ----- 0:1-ARG0 2:2-ARGM-MNR 15:0-rel 16:1-ARG1
-wb/eng/00/eng_0011.parse 31 15 gold hide hide.01 ----- 15:0-rel 16:0-ARG1
-wb/eng/00/eng_0011.parse 88 17 gold defend defend.01 ----- 13:1-ARG0 17:0-rel 18:2-ARG1
+wb/eng/00/eng_0011.parse 39 5 gold mix mix.01 ----- 0:1-ARG0 5:0-rel 6:2-ARG1
+wb/eng/00/eng_0011.parse 66 13 gold consolidate consolidate.01 ----- 9:0-ARGM-ADJ 13:0-rel 14:1-ARG1
 wb/eng/00/eng_0011.parse 9 1 gold do do.01 ----- 1:0-rel
+wb/eng/00/eng_0011.parse 83 5 gold go go_on.15 ----- 2:1*4:1-ARG1 5:0,6:1-rel 7:1-ARGM-COM 10:1-ARGM-TMP
 wb/eng/00/eng_0011.parse 38 6 gold follow follow.02 ----- 0:3-ARG0 6:0-rel 7:1-ARG1
 wb/eng/00/eng_0011.parse 80 15 gold contradict contradict.01 ----- 14:1-ARG0 15:0-rel 16:2-ARG1
 wb/eng/00/eng_0011.parse 20 21 gold multitask multitask.01 ----- 19:1-ARG0 21:0-rel
@@ -109,17 +112,17 @@ wb/eng/00/eng_0011.parse 63 8 gold make make.01 ----- 4:1*6:1*7:1-ARG0 4:1*6:1-L
 wb/eng/00/eng_0011.parse 86 15 gold have have.01 ----- 15:0-rel
 wb/eng/00/eng_0011.parse 13 11 gold be be.03 ----- 11:0-rel
 wb/eng/00/eng_0011.parse 62 11 gold devalue devalue.01 ----- 7:1*9:1*10:1-ARG0 7:1*9:1-LINK-SLC 11:0-rel 12:2-ARG1
-wb/eng/00/eng_0011.parse 27 27 gold find find.01 ----- 24:1*28:1-ARG1 24:1*28:1-LINK-PSV 27:0-rel 29:1-ARGM-LOC
+wb/eng/00/eng_0011.parse 37 15 gold achieve achieve.01 ----- 0:1-ARG0 2:2-ARGM-MNR 15:0-rel 16:1-ARG1
 wb/eng/00/eng_0011.parse 6 4 gold go go_on.15 ----- 1:1*3:1-ARG1 4:0,5:1-rel 6:1-ARGM-COM 9:1-ARGM-TMP
 wb/eng/00/eng_0011.parse 8 2 gold beat beat.03 ----- 1:1-ARG0 2:0-rel 3:1-ARG1
 wb/eng/00/eng_0011.parse 79 16 gold come come.01 ----- 9:1*14:1*15:1-ARG1 9:1*14:1-LINK-SLC 16:0-rel 17:1-ARGM-MNR
 wb/eng/00/eng_0011.parse 19 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 wb/eng/00/eng_0011.parse 67 2 gold mark mark.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
+wb/eng/00/eng_0011.parse 40 6 gold ruin ruin.01 ----- 6:0-rel 7:0-ARG1
 wb/eng/00/eng_0011.parse 31 20 gold be be.01 ----- 15:2-ARG1 20:0-rel 21:1-ARG2
 wb/eng/00/eng_0011.parse 82 17 gold describe describe.01 ----- 0:2*18:1-ARG1 13:0-ARGM-MOD 14:1-ARGM-MNR 17:0-rel 19:1-ARG2
 wb/eng/00/eng_0011.parse 61 10 gold be be.01 ----- 0:2-ARG1 10:0-rel 11:1-ARG2
 wb/eng/00/eng_0011.parse 27 14 gold disintegrate disintegrate.01 ----- 14:0-rel
-wb/eng/00/eng_0011.parse 18 14 gold open open.01 ----- 2:1-ARG1 6:1-ARGM-LOC 14:0-rel 15:1-ARGM-TMP
 wb/eng/00/eng_0011.parse 1 5 gold study study.01 ----- 0:1*3:1*6:1-ARG1 0:1*3:1-LINK-SLC 4:1-ARG0 5:0-rel 7:1-ARGM-LOC
 wb/eng/00/eng_0011.parse 48 5 gold evoke evoke.01 ----- 0:2-ARG0 5:0-rel 6:2-ARG1
 wb/eng/00/eng_0011.parse 32 43 gold liberate liberate.01 ----- 41:1-ARG0 43:0-rel 44:2-ARG1
@@ -131,41 +134,42 @@ wb/eng/00/eng_0011.parse 14 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 wb/eng/00/eng_0011.parse 10 9 gold sum sum_up.01 ----- 1:1*3:1*14:1-ARGM-TMP 1:1*3:1-LINK-SLC 4:1-ARG0 7:0-ARGM-MOD 8:1-ARGM-MNR 9:0,10:1-rel 11:1-ARG1
 wb/eng/00/eng_0011.parse 11 6 gold have have.01 ----- 6:0-rel
 wb/eng/00/eng_0011.parse 24 16 gold accommodate accommodate.01 ----- 0:0-ARGM-DIS 1:1-ARG0 5:1-ARGM-MNR 14:0-ARGM-MOD 15:1-ARGM-ADV 16:0-rel 17:2-ARG1
+wb/eng/00/eng_0011.parse 32 23 gold begin begin.01 ----- 0:1-ARGM-LOC 12:1-ARGM-TMP 14:2-ARG1 23:0-rel 24:1-ARG2
+wb/eng/00/eng_0011.parse 81 4 gold be be.03 ----- 4:0-rel
 wb/eng/00/eng_0011.parse 11 7 gold go go.08 ----- 4:1-ARG1 7:0-rel 8:1-ARG2
-wb/eng/00/eng_0011.parse 51 4 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 4:0-rel 5:0-ARGM-NEG 6:1-ARG2
 wb/eng/00/eng_0011.parse 20 2 gold include include.01 ----- 0:1-ARG2 2:0-rel 3:3-ARG1
 wb/eng/00/eng_0011.parse 83 3 gold be be.03 ----- 3:0-rel
 wb/eng/00/eng_0011.parse 75 2 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 2:0-rel 3:1-ARGM-ADV 4:2-ARG2
-wb/eng/00/eng_0011.parse 76 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 wb/eng/00/eng_0011.parse 22 7 gold run run.01 ----- 5:1-ARG1 7:0-rel 12:1-ARGM-MNR 17:1-ARGM-MNR
-wb/eng/00/eng_0011.parse 68 15 gold close close.01 ----- 0:2*13:1*14:1-ARG1 0:2*13:1-LINK-SLC 15:0-rel 16:1-ARGM-TMP 17:1-ARGM-LOC
 wb/eng/00/eng_0011.parse 12 22 gold come come.04 ----- 9:1*26:1-ARGM-TMP 10:3-ARG1 22:0-rel 23:1-ARG2
-wb/eng/00/eng_0011.parse 63 16 gold write write.01 ----- 1:2*17:1-ARG1 13:1-ARG0 15:1-ARGM-MNR 16:0-rel 18:1-ARGM-TMP 20:2-ARGM-PRP
 wb/eng/00/eng_0011.parse 22 26 gold bind bind.01 ----- 25:1*27:1-ARG1 25:1*27:1-LINK-PSV 26:0-rel 28:1-ARG3
 wb/eng/00/eng_0011.parse 70 2 gold undermine undermine.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
 wb/eng/00/eng_0011.parse 87 6 gold approach approach.01 ----- 0:2-ARG1 5:1-ARGM-TMP 6:0-rel 7:1-ARGM-MNR 9:2-ARG2
+wb/eng/00/eng_0011.parse 62 18 gold polish polish_up.03 ----- 7:1*9:1*10:1-ARG0 7:1*9:1-LINK-SLC 17:1-ARGM-ADV 18:0,19:1-rel 20:2-ARG1
 wb/eng/00/eng_0011.parse 88 33 gold be be.01 ----- 28:2-ARG1 33:0-rel 34:1-ARG2
-wb/eng/00/eng_0011.parse 39 5 gold mix mix.01 ----- 0:1-ARG0 5:0-rel 6:2-ARG1
-wb/eng/00/eng_0011.parse 66 13 gold consolidate consolidate.01 ----- 9:0-ARGM-ADJ 13:0-rel 14:1-ARG1
+wb/eng/00/eng_0011.parse 77 14 gold increase increase.01 ----- 14:0-rel 15:0-ARG1
 wb/eng/00/eng_0011.parse 28 14 gold have have.01 ----- 14:0-rel
+wb/eng/00/eng_0011.parse 9 14 gold read read.01 ----- 0:1*9:1-ARG0 14:0-rel 15:1;21:2-ARG3
 wb/eng/00/eng_0011.parse 20 13 gold exploit exploit.01 ----- 3:2*10:1*11:1-ARG0 3:2*10:1-LINK-SLC 12:1-ARGM-MNR 13:0-rel 14:2-ARG1
-wb/eng/00/eng_0011.parse 80 4 gold be be.03 ----- 4:0-rel
+wb/eng/00/eng_0011.parse 61 2 gold view view.02 ----- 1:0-ARG2 2:0-rel 3:2-ARGM-ADJ
 wb/eng/00/eng_0011.parse 55 29 gold be be.01 ----- 26:2*28:1;31:1-ARG1 29:0-rel 30:1-ARG2
 wb/eng/00/eng_0011.parse 3 3 gold be be.01 ----- 0:1-ARGM-TMP 2:1-ARG1 3:0-rel 5:1-ARG2
 wb/eng/00/eng_0011.parse 48 8 gold come come.04 ----- 6:1-ARG1 8:0-rel 9:1-ARG2 10:1-ARGM-LOC
 wb/eng/00/eng_0011.parse 56 40 gold embrace embrace.01 ----- 39:1-ARG0 40:0-rel 41:1-ARG1 42:1-ARGM-TMP
 wb/eng/00/eng_0011.parse 69 7 gold set set.02 ----- 0:2-ARG0 7:0-rel 8:1-ARG1 10:1-ARGM-GOL
+wb/eng/00/eng_0011.parse 9 2 gold spend spend.02 ----- 0:1-ARG0 2:0-rel 3:2-ARG1 9:2-ARG2
 wb/eng/00/eng_0011.parse 80 5 gold equip equip.01 ----- 0:1*6:1-ARG1 2:1-ARGM-DIS 5:0-rel 7:2-ARG2 13:1-ARGM-CAU
 wb/eng/00/eng_0011.parse 47 3 gold cover cover.03 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
 wb/eng/00/eng_0011.parse 44 10 gold cohabit cohabit.01 ----- 0:0-ARGM-DIS 1:2-ARG0 9:1-ARGM-MNR 10:0-rel 11:1-ARG1
 wb/eng/00/eng_0011.parse 79 3 gold wade wade.01 ----- 0:0-ARGM-DIS 1:1-ARG0 3:0-rel 4:1-ARGM-DIR 6:2-ARGM-PRD
+wb/eng/00/eng_0011.parse 32 49 gold lock lock.01 ----- 44:1*50:1-ARG1 44:1*50:1-LINK-PSV 48:1-ARGM-TMP 49:0-rel 51:1-ARGM-LOC
 wb/eng/00/eng_0011.parse 61 17 gold dominate dominate.01 ----- 17:0-rel 18:1-ARG1
 wb/eng/00/eng_0011.parse 65 1 gold look look.01 ----- 0:1-ARG0 1:0-rel 2:1-ARGM-DIR
 wb/eng/00/eng_0011.parse 13 5 gold be be.01 ----- 0:1-ARGM-EXT 2:1-ARGM-ADV 4:1-ARG1 5:0-rel 6:1-ARG2
 wb/eng/00/eng_0011.parse 60 37 gold view view.02 ----- 34:0-ARG0 35:0-ARGM-REC 36:0-ARGM-ADJ 37:0-rel 38:1-ARG1
-wb/eng/00/eng_0011.parse 37 4 gold kill kill_off.02 ----- 0:1*2:1-ARG0 3:1-ARGM-MNR 4:0,5:1-rel 6:1-ARG1 9:1-ARGM-MNR
-wb/eng/00/eng_0011.parse 10 15 gold be be.03 ----- 15:0-rel
+wb/eng/00/eng_0011.parse 51 4 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 4:0-rel 5:0-ARGM-NEG 6:1-ARG2
 wb/eng/00/eng_0011.parse 42 1 gold be be.03 ----- 1:0-rel
+wb/eng/00/eng_0011.parse 22 31 gold have have.03 ----- 19:2-ARG0 31:0-rel 32:1-ARG1
 wb/eng/00/eng_0011.parse 25 1 gold be be.02 ----- 1:0-rel 2:2-ARG1
 wb/eng/00/eng_0011.parse 86 18 gold be be.03 ----- 18:0-rel
 wb/eng/00/eng_0011.parse 26 11 gold transform transform.01 ----- 0:1*10:1-ARG0 11:0-rel 12:2-ARG1 16:1-ARG2
@@ -174,29 +178,25 @@ wb/eng/00/eng_0011.parse 71 2 gold tip tip_over.03 ----- 0:1-ARG0 2:0,4:1-rel 3:
 wb/eng/00/eng_0011.parse 66 2 gold do do.01 ----- 2:0-rel
 wb/eng/00/eng_0011.parse 79 2 gold have have.01 ----- 2:0-rel
 wb/eng/00/eng_0011.parse 23 5 gold incline incline.01 ----- 4:0-ARGM-ADJ 5:0-rel 6:2-ARG1
+wb/eng/00/eng_0011.parse 37 4 gold kill kill_off.02 ----- 0:1*2:1-ARG0 3:1-ARGM-MNR 4:0,5:1-rel 6:1-ARG1 9:1-ARGM-MNR
+wb/eng/00/eng_0011.parse 9 10 gold look look.01 ----- 0:1*9:1-ARG0 10:0-rel 11:1;21:2-ARG1
 wb/eng/00/eng_0011.parse 41 19 gold look look.02 ----- 0:2-ARG0 19:0-rel 20:1-ARG1
 wb/eng/00/eng_0011.parse 59 17 gold be be.01 ----- 0:1-ARG1 15:0-ARGM-NEG 16:1-ARGM-TMP 17:0-rel 18:1-ARG2
 wb/eng/00/eng_0011.parse 12 5 gold be be.01 ----- 0:2-ARG1 5:0-rel 6:1-ARG2 9:2-ARGM-TMP
 wb/eng/00/eng_0011.parse 6 2 gold be be.03 ----- 2:0-rel
 wb/eng/00/eng_0011.parse 22 11 gold separate separate.01 ----- 5:1-ARG1 11:0-rel 12:1-ARGM-MNR 17:1-ARGM-MNR
 wb/eng/00/eng_0011.parse 33 6 gold work work.01 ----- 2:1*4:1-ARG0 6:0-rel
-wb/eng/00/eng_0011.parse 40 6 gold ruin ruin.01 ----- 6:0-rel 7:0-ARG1
 wb/eng/00/eng_0011.parse 56 45 gold demand demand.01 ----- 43:1-ARG0 44:1-ARGM-ADV 45:0-rel 46:1-ARG1
 wb/eng/00/eng_0011.parse 60 3 gold be be.03 ----- 3:0-rel
-wb/eng/00/eng_0011.parse 36 19 gold revolt revolutionize.05 ----- 15:1*17:1*18:1-ARG0 15:1*17:1-LINK-SLC 19:0-rel 20:1-ARG1 21:1-ARGM-TMP
-wb/eng/00/eng_0011.parse 23 8 gold represent represent.01 ----- 6:1-ARG0 8:0-rel 9:3-ARG1 18:1-ARGM-MNR
 wb/eng/00/eng_0011.parse 22 9 gold mix mix.01 ----- 5:1-ARG0 9:0-rel 12:1-ARGM-MNR 17:1-ARGM-MNR
+wb/eng/00/eng_0011.parse 31 15 gold hide hide.01 ----- 15:0-rel 16:0-ARG1
 wb/eng/00/eng_0011.parse 45 5 gold be be.01 ----- 0:1-ARG1 5:0-rel 7:2-ARG2
 wb/eng/00/eng_0011.parse 40 16 gold articulate articulate.01 ----- 0:2-ARGM-ADV 15:1-ARG0 16:0-rel 17:2-ARG1
 wb/eng/00/eng_0011.parse 13 12 gold make make.01 ----- 9:1*14:1-ARGM-LOC 10:1*13:1-ARG1 12:0-rel
-wb/eng/00/eng_0011.parse 9 2 gold spend spend.02 ----- 0:1-ARG0 2:0-rel 3:2-ARG1 9:2-ARG2
 wb/eng/00/eng_0011.parse 13 18 gold subscribe subscribe.01 ----- 7:1-ARG0 9:2-ARGM-LOC 16:1-ARGM-TMP 18:0-rel 19:1-ARG1
 wb/eng/00/eng_0011.parse 29 22 gold space space.03 ----- 21:0-ARGM-ADJ 22:0-rel
-wb/eng/00/eng_0011.parse 32 49 gold lock lock.01 ----- 44:1*50:1-ARG1 44:1*50:1-LINK-PSV 48:1-ARGM-TMP 49:0-rel 51:1-ARGM-LOC
-wb/eng/00/eng_0011.parse 22 31 gold have have.03 ----- 19:2-ARG0 31:0-rel 32:1-ARG1
+wb/eng/00/eng_0011.parse 10 15 gold be be.03 ----- 15:0-rel
 wb/eng/00/eng_0011.parse 64 21 gold imagine imagine.01 ----- 11:2*18:1*22:1-ARG1 11:2*18:1-LINK-SLC 19:1-ARG0 20:0-ARGM-MOD 21:0-rel
-wb/eng/00/eng_0011.parse 9 10 gold look look.01 ----- 0:1*9:1-ARG0 10:0-rel 11:1;21:2-ARG1
 wb/eng/00/eng_0011.parse 60 5 gold chart chart.01 ----- 0:2*6:1-ARG1 4:1-ARGM-TMP 5:0-rel 7:1-ARGM-PRD
 wb/eng/00/eng_0011.parse 84 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2 6:3-ARGM-ADV
 wb/eng/00/eng_0011.parse 59 14 gold have have.01 ----- 14:0-rel
-wb/eng/00/eng_0011.parse 77 14 gold increase increase.01 ----- 14:0-rel 15:0-ARG1

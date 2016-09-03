@@ -1,26 +1,24 @@
 bn/voa/00/voa_0074.parse 13 30 gold schedule schedule.01 ----- 27:1*31:1-ARG1 30:0-rel 32:2-ARG2 37:1-ARG3
+bn/voa/00/voa_0074.parse 8 24 gold stop stop.01 ----- 18:1*21:1-ARG0 23:1-ARGM-TMP 24:0-rel 25:2-ARG1 30:1-ARGM-CAU
 bn/voa/00/voa_0074.parse 12 7 gold have have.03 ----- 0:1-ARGM-DIS 2:1-ARGM-ADV 5:2-ARG0 7:0-rel 8:2-ARG1
 bn/voa/00/voa_0074.parse 1 11 gold be be.03 ----- 11:0-rel
 bn/voa/00/voa_0074.parse 3 14 gold have have.01 ----- 14:0-rel
 bn/voa/00/voa_0074.parse 2 12 gold be be.03 ----- 12:0-rel
 bn/voa/00/voa_0074.parse 8 17 gold order order.01 ----- 10:1*15:1-ARG0 17:0-rel 18:1-ARG1 21:2-ARG2
-bn/voa/00/voa_0074.parse 12 14 gold keep keep.02 ----- 5:2*13:1-ARG0 5:2*13:1-LINK-PRO 14:0-rel 17:2-ARG1
-bn/voa/00/voa_0074.parse 9 9 gold give give.01 ----- 4:1*10:1-ARG1 9:0-rel
 bn/voa/00/voa_0074.parse 9 21 gold be be.03 ----- 21:0-rel
 bn/voa/00/voa_0074.parse 4 9 gold decide decide.01 ----- 8:0-ARGM-TMP 9:0-rel 10:2-ARG1
 bn/voa/00/voa_0074.parse 15 10 gold make make.LV ----- 6:0-ARGM-PRR 10:0-rel
 bn/voa/00/voa_0074.parse 13 25 gold say say.01 ----- 23:1-ARG0 25:0-rel 26:1-ARG1
 bn/voa/00/voa_0074.parse 15 7 gold have have.01 ----- 7:0-rel
-bn/voa/00/voa_0074.parse 1 12 gold reevaluate reevaluate.01 ----- 6:2*13:1-ARG1 12:0-rel
 bn/voa/00/voa_0074.parse 9 6 gold instruct instruct.01 ----- 4:0-ARGM-NEG 5:0-ARGM-ADJ 6:0-rel
 bn/voa/00/voa_0074.parse 15 9 gold be be.03 ----- 9:0-rel
 bn/voa/00/voa_0074.parse 0 29 gold have have.01 ----- 29:0-rel
 bn/voa/00/voa_0074.parse 14 14 gold be be.03 ----- 14:0-rel
 bn/voa/00/voa_0074.parse 7 19 gold say say.01 ----- 18:1-ARG0 19:0-rel 20:1-ARG1
 bn/voa/00/voa_0074.parse 15 32 gold repair repair.01 ----- 32:0-rel
+bn/voa/00/voa_0074.parse 1 12 gold reevaluate reevaluate.01 ----- 6:2*13:1-ARG1 12:0-rel
 bn/voa/00/voa_0074.parse 9 20 gold be be.03 ----- 20:0-rel
-bn/voa/00/voa_0074.parse 14 15 gold load load.01 ----- 0:1*16:1-ARG2 15:0-rel 17:1-ARG1
-bn/voa/00/voa_0074.parse 5 17 gold dead deadly.04 ----- 17:0-rel 20:0,21:0-ARG0
+bn/voa/00/voa_0074.parse 13 3 gold have have.01 ----- 3:0-rel
 bn/voa/00/voa_0074.parse 8 13 gold have have.01 ----- 13:0-rel
 bn/voa/00/voa_0074.parse 2 13 gold put put.03 ----- 0:1-ARGM-TMP 5:2*14:1-ARG1 13:0-rel 15:1-ARG2
 bn/voa/00/voa_0074.parse 6 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
@@ -29,20 +27,24 @@ bn/voa/00/voa_0074.parse 3 16 gold be be.03 ----- 16:0-rel
 bn/voa/00/voa_0074.parse 4 1 gold move move.02 ----- 1:0-rel
 bn/voa/00/voa_0074.parse 15 3 gold say say.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
 bn/voa/00/voa_0074.parse 8 5 gold dispute dispute.01 ----- 0:1-ARG0 4:1-ARGM-TMP 5:0-rel 6:2-ARG2
-bn/voa/00/voa_0074.parse 8 24 gold stop stop.01 ----- 18:1*21:1-ARG0 23:1-ARGM-TMP 24:0-rel 25:2-ARG1 30:1-ARGM-CAU
 bn/voa/00/voa_0074.parse 9 23 gold evaluate evaluate.01 ----- 16:2*24:1-ARG1 22:1-ARGM-TMP 23:0-rel
 bn/voa/00/voa_0074.parse 8 14 gold decide decide.01 ----- 10:1-ARG0 14:0-rel 15:2-ARG1
 bn/voa/00/voa_0074.parse 0 7 gold steer steer_clear.02 ----- 4:1-ARG0 7:0,8:0-rel 9:1-ARG1 13:1-ARGM-ADV 27:1-ARGM-ADV
-bn/voa/00/voa_0074.parse 1 4 gold report report.01 ----- 0:2-ARG0 4:0-rel 5:1-ARG1
-bn/voa/00/voa_0074.parse 9 14 gold acknowledge acknowledge.01 ----- 13:1-ARG0 14:0-rel 15:1-ARG1
+bn/voa/00/voa_0074.parse 4 12 gold place place.01 ----- 10:1-ARG0 12:0-rel 13:2-ARG1 19:1-ARG2 25:1-ARGM-PRP
 bn/voa/00/voa_0074.parse 9 8 gold be be.03 ----- 8:0-rel
 bn/voa/00/voa_0074.parse 0 20 gold bomb bomb.01 ----- 18:0-ARGM-ADJ 19:0-ARG0 20:0-rel 21:1-ARG1 25:1-ARGM-LOC
 bn/voa/00/voa_0074.parse 14 13 gold be be.03 ----- 13:0-rel
 bn/voa/00/voa_0074.parse 6 13 gold affect affect.01 ----- 4:2-ARG0 13:0-rel 14:3-ARG1
+bn/voa/00/voa_0074.parse 12 14 gold keep keep.02 ----- 5:2*13:1-ARG0 5:2*13:1-LINK-PRO 14:0-rel 17:2-ARG1
+bn/voa/00/voa_0074.parse 9 14 gold acknowledge acknowledge.01 ----- 13:1-ARG0 14:0-rel 15:1-ARG1
+bn/voa/00/voa_0074.parse 7 11 gold term term.01 ----- 9:1*12:1-ARG1 10:1-ARG0 11:0-rel 13:2-ARG3
 bn/voa/00/voa_0074.parse 14 5 gold be be.03 ----- 5:0-rel
+bn/voa/00/voa_0074.parse 9 9 gold give give.01 ----- 4:1*10:1-ARG1 9:0-rel
 bn/voa/00/voa_0074.parse 2 11 gold have have.01 ----- 11:0-rel
 bn/voa/00/voa_0074.parse 7 23 gold be be.03 ----- 23:0-rel
 bn/voa/00/voa_0074.parse 0 2 gold deny deny.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
+bn/voa/00/voa_0074.parse 1 4 gold report report.01 ----- 0:2-ARG0 4:0-rel 5:1-ARG1
+bn/voa/00/voa_0074.parse 14 15 gold load load.01 ----- 0:1*16:1-ARG2 15:0-rel 17:1-ARG1
 bn/voa/00/voa_0074.parse 8 32 gold fear fear.01 ----- 32:0-rel 33:1-ARG1
 bn/voa/00/voa_0074.parse 11 10 gold do do.02 ----- 9:1-ARG0 10:0-rel 11:1-ARG1 12:1-ARGM-TMP
 bn/voa/00/voa_0074.parse 8 7 gold report report.01 ----- 6:0-ARG0 7:0-rel
@@ -58,14 +60,12 @@ bn/voa/00/voa_0074.parse 9 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 bn/voa/00/voa_0074.parse 8 8 gold say say.01 ----- 6:1-ARG0 8:0-rel 9:1-ARG1
 bn/voa/00/voa_0074.parse 8 3 gold be be.03 ----- 3:0-rel
 bn/voa/00/voa_0074.parse 5 9 gold elevate elevate.01 ----- 0:2*10:1-ARG1 9:0-rel 11:1-ARG2 13:2-ARGM-TMP
-bn/voa/00/voa_0074.parse 13 3 gold have have.01 ----- 3:0-rel
+bn/voa/00/voa_0074.parse 5 17 gold dead deadly.04 ----- 17:0-rel 20:0,21:0-ARG0
 bn/voa/00/voa_0074.parse 10 1 gold be be.03 ----- 1:0-rel
-bn/voa/00/voa_0074.parse 3 17 gold place place.01 ----- 7:2*18:1-ARG1 15:1-ARGM-TMP 17:0-rel 19:1-ARG2
 bn/voa/00/voa_0074.parse 8 26 gold use use.01 ----- 18:1*21:1*25:1-ARG0 26:0-rel 27:1-ARG1
 bn/voa/00/voa_0074.parse 14 20 gold own own.01 ----- 19:0-ARG0 20:0-rel 21:1,23:0-ARG1
 bn/voa/00/voa_0074.parse 7 24 gold specify specify.01 ----- 21:1*25:1-ARG1 24:0-rel
 bn/voa/00/voa_0074.parse 5 15 gold follow follow.01 ----- 13:1-ARG1 14:1-ARGM-TMP 15:0-rel 16:2-ARG2
-bn/voa/00/voa_0074.parse 4 12 gold place place.01 ----- 10:1-ARG0 12:0-rel 13:2-ARG1 19:1-ARG2 25:1-ARGM-PRP
 bn/voa/00/voa_0074.parse 7 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bn/voa/00/voa_0074.parse 4 2 gold order order.01 ----- 0:1*3:1-ARG2 0:1*3:1-LINK-PSV 2:0-rel 4:1-ARGM-TMP
 bn/voa/00/voa_0074.parse 13 29 gold be be.03 ----- 29:0-rel
@@ -74,12 +74,12 @@ bn/voa/00/voa_0074.parse 7 5 gold order order.01 ----- 3:1*6:1-ARG2 5:0-rel 7:1-
 bn/voa/00/voa_0074.parse 5 21 gold bomb bomb.01 ----- 17:0-ARGM-ADJ 18:1-ARGM-TMP 20:0-ARG0 21:0-rel 22:1-ARG1
 bn/voa/00/voa_0074.parse 9 7 gold have have.01 ----- 7:0-rel
 bn/voa/00/voa_0074.parse 14 6 gold tow tow.01 ----- 0:1*7:1-ARG1 6:0-rel 8:1-ARG2
-bn/voa/00/voa_0074.parse 15 6 gold decide decide.01 ----- 5:0-ARGM-NEG 6:0-rel 8:1-ARGM-TMP 10:0-ARGM-LVB 12:1-ARGM-ADV
 bn/voa/00/voa_0074.parse 15 24 gold return return.02 ----- 16:1*22:1-ARG0 24:0-rel 25:1-ARG1 27:1-ARG2 31:1-ARGM-PRP
 bn/voa/00/voa_0074.parse 6 5 gold heighten heighten.01 ----- 5:0-rel 6:0-ARG1
-bn/voa/00/voa_0074.parse 7 11 gold term term.01 ----- 9:1*12:1-ARG1 10:1-ARG0 11:0-rel 13:2-ARG3
 bn/voa/00/voa_0074.parse 15 20 gold take take.01 ----- 13:1*15:1*21:1-ARG1 13:1*15:1-LINK-SLC 16:1-ARG0 19:0-ARGM-MOD 20:0-rel 22:2-ARGM-PRP
 bn/voa/00/voa_0074.parse 1 10 gold be be.03 ----- 10:0-rel
 bn/voa/00/voa_0074.parse 7 4 gold be be.03 ----- 4:0-rel
+bn/voa/00/voa_0074.parse 3 17 gold place place.01 ----- 7:2*18:1-ARG1 15:1-ARGM-TMP 17:0-rel 19:1-ARG2
 bn/voa/00/voa_0074.parse 3 5 gold say say.01 ----- 0:2-ARG0 5:0-rel 6:1-ARG1
 bn/voa/00/voa_0074.parse 13 36 gold trip trip.03 ----- 27:1*31:1*32:1-ARG0 34:0-ARGM-LVB 36:0-rel
+bn/voa/00/voa_0074.parse 15 6 gold decide decide.01 ----- 5:0-ARGM-NEG 6:0-rel 8:1-ARGM-TMP 10:0-ARGM-LVB 12:1-ARGM-ADV

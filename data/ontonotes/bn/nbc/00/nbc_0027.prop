@@ -3,18 +3,19 @@ bn/nbc/00/nbc_0027.parse 4 19 gold serve serve.01 ----- 13:1*17:1*18:1-ARG0 13:1
 bn/nbc/00/nbc_0027.parse 7 3 gold commemorate commemorate.01 ----- 0:1-ARG2 2:0-ARGM-MOD 3:0-rel 4:2-ARG1
 bn/nbc/00/nbc_0027.parse 6 17 gold form form.02 ----- 14:1*15:1*16:1-ARG0 14:1*15:1-LINK-SLC 17:0-rel 18:1-ARG1
 bn/nbc/00/nbc_0027.parse 13 4 gold intrude intrude.01 ----- 3:0-ARGM-EXT 4:0-rel
-bn/nbc/00/nbc_0027.parse 16 14 gold be be.01 ----- 13:1-ARG1 14:0-rel 17:1-ARG2
 bn/nbc/00/nbc_0027.parse 13 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bn/nbc/00/nbc_0027.parse 20 11 gold be be.01 ----- 10:1-ARG1 11:0-rel 12:2-ARG2
 bn/nbc/00/nbc_0027.parse 9 4 gold build build.01 ----- 2:1-ARG0 4:0-rel 5:1-ARG1
 bn/nbc/00/nbc_0027.parse 15 7 gold be be.01 ----- 4:1-ARG1 7:0-rel 8:1-ARG2
 bn/nbc/00/nbc_0027.parse 17 7 gold be be.02 ----- 5:0-ARGM-MOD 6:0-ARGM-NEG 7:0-rel 8:1-ARG1
 bn/nbc/00/nbc_0027.parse 0 31 gold mark mark.01 ----- 29:1-ARG0 31:0-rel 32:2-ARG1
+bn/nbc/00/nbc_0027.parse 16 14 gold be be.01 ----- 13:1-ARG1 14:0-rel 17:1-ARG2
 bn/nbc/00/nbc_0027.parse 16 11 gold say say.01 ----- 0:2;5:1-ARG0 3:1-ARGM-DIS 11:0-rel 12:1-ARG1
 bn/nbc/00/nbc_0027.parse 8 27 gold be be.01 ----- 22:1-ARGM-TMP 24:2-ARG1 27:0-rel 28:1-ARG2
 bn/nbc/00/nbc_0027.parse 7 7 gold kill kill.01 ----- 4:1*8:1-ARG1 4:1*8:1-LINK-PSV 7:0-rel 9:1-ARGM-LOC
 bn/nbc/00/nbc_0027.parse 5 1 gold be be.03 ----- 1:0-rel
 bn/nbc/00/nbc_0027.parse 14 12 gold believe believe.01 ----- 0:1-ARG0 12:0-rel 13:1-ARG1
+bn/nbc/00/nbc_0027.parse 12 5 gold have have.01 ----- 5:0-rel
 bn/nbc/00/nbc_0027.parse 16 22 gold be be.01 ----- 21:1-ARG1 22:0-rel 23:1-ARG2
 bn/nbc/00/nbc_0027.parse 15 3 gold want want.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:2-ARG1
 bn/nbc/00/nbc_0027.parse 12 6 gold file file.01 ----- 0:2-ARG0 6:0-rel 7:2-ARG1
@@ -31,25 +32,24 @@ bn/nbc/00/nbc_0027.parse 8 7 gold last last.01 ----- 0:2-ARG1 7:0-rel 8:2-ARG2
 bn/nbc/00/nbc_0027.parse 20 15 gold remember remember.01 ----- 12:1*25:1-ARGM-CAU 13:1-ARG0 14:1-ARGM-TMP 15:0-rel 16:2-ARG1
 bn/nbc/00/nbc_0027.parse 18 3 gold sound sound.01 ----- 0:0-ARGM-DIS 1:1-ARG1 3:0-rel 4:1-ARG2
 bn/nbc/00/nbc_0027.parse 0 23 gold be be.03 ----- 23:0-rel
-bn/nbc/00/nbc_0027.parse 4 22 gold war war.01 ----- 22:0-rel
 bn/nbc/00/nbc_0027.parse 20 19 gold fight fight.01 ----- 16:1*17:1*18:1-ARG0 16:1*17:1-LINK-SLC 19:0-rel 22:1-ARG1
+bn/nbc/00/nbc_0027.parse 4 22 gold war war.01 ----- 22:0-rel
 bn/nbc/00/nbc_0027.parse 20 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 bn/nbc/00/nbc_0027.parse 14 18 gold detract detract.01 ----- 14:1-ARG1 17:0-ARGM-MOD 18:0-rel 19:1-ARG2
 bn/nbc/00/nbc_0027.parse 8 12 gold take take.10 ----- 12:0-rel 13:1-ARG1 14:2-ARG0
 bn/nbc/00/nbc_0027.parse 6 13 gold feature feature.01 ----- 0:1-ARGM-PRD 10:1-ARG0 12:0-ARGM-MOD 13:0-rel 14:2-ARG1
 bn/nbc/00/nbc_0027.parse 4 6 gold call call.01 ----- 0:3-ARG0 6:0-rel 7:1-ARG1 8:2-ARG2
-bn/nbc/00/nbc_0027.parse 12 5 gold have have.01 ----- 5:0-rel
 bn/nbc/00/nbc_0027.parse 5 2 gold fight fight.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG2 6:2-ARGM-ADV
 bn/nbc/00/nbc_0027.parse 19 4 gold protest protest.02 ----- 3:0-ARG0 4:0-rel
 bn/nbc/00/nbc_0027.parse 2 15 gold be be.01 ----- 3:2*10:1*13:0*14:1-ARG1 3:2*10:1-LINK-SLC 15:0-rel 16:1-ARG2
 bn/nbc/00/nbc_0027.parse 0 3 gold campaign campaign.01 ----- 3:0-rel
+bn/nbc/00/nbc_0027.parse 19 1 gold bicker bicker.01 ----- 0:0-ARGM-ADJ 1:0-rel
 bn/nbc/00/nbc_0027.parse 8 6 gold have have.01 ----- 6:0-rel
 bn/nbc/00/nbc_0027.parse 8 16 gold win win.01 ----- 14:1-ARG0 16:0-rel 17:1-ARG2
 bn/nbc/00/nbc_0027.parse 0 34 gold begin begin.01 ----- 33:0-ARGM-TMP 34:0-rel 35:1-ARG1
 bn/nbc/00/nbc_0027.parse 16 6 gold former former.01 ----- 6:0-rel 7:0-ARG1
 bn/nbc/00/nbc_0027.parse 0 21 gold ceremony ceremony.01 ----- 19:1-ARGM-ADJ 21:0-rel
 bn/nbc/00/nbc_0027.parse 15 1 gold do do.01 ----- 1:0-rel
-bn/nbc/00/nbc_0027.parse 19 1 gold bicker bicker.01 ----- 0:0-ARGM-ADJ 1:0-rel
 bn/nbc/00/nbc_0027.parse 0 24 gold hold hold.04 ----- 0:1-ARGM-TMP 13:1-ARGM-TMP 15:1-ARGM-LOC 18:1*25:1-ARG1 22:0-ARGM-MOD 24:0-rel 26:1-ARGM-LOC 29:2-ARGM-PRP
 bn/nbc/00/nbc_0027.parse 14 2 gold fight fight.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1 5:1-ARGM-LOC
 bn/nbc/00/nbc_0027.parse 12 12 gold move move.01 ----- 7:1*9:1*10:1-ARG0 7:1*9:1-LINK-SLC 12:0-rel 13:1-ARG1 15:1-ARGM-DIR

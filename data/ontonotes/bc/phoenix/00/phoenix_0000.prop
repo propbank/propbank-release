@@ -21,7 +21,8 @@ bc/phoenix/00/phoenix_0000.parse 31 3 gold give give.01 ----- 0:1-ARG0 3:0-rel 4
 bc/phoenix/00/phoenix_0000.parse 223 9 gold want want.01 ----- 7:1*10:1-ARG1 8:1-ARG0 9:0-rel
 bc/phoenix/00/phoenix_0000.parse 446 6 gold know know.01 ----- 0:1-ARGM-DIS 2:1-ARGM-TMP 5:1-ARG0 6:0-rel 7:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 39 14 gold work work.01 ----- 9:1*12:1*13:1-ARG0 9:1*12:1-LINK-SLC 14:0-rel 15:1-ARGM-LOC
-bc/phoenix/00/phoenix_0000.parse 101 8 gold have have.03 ----- 7:1-ARG0 8:0-rel 9:2-ARG1
+bc/phoenix/00/phoenix_0000.parse 396 19 gold be be.03 ----- 19:0-rel
+bc/phoenix/00/phoenix_0000.parse 223 23 gold be be.01 ----- 23:0-rel 24:1-ARG2 25:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 222 8 gold be be.01 ----- 6:1-ARG1 8:0-rel 9:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 192 28 gold say say.01 ----- 21:1-ARG0 28:0-rel 29:1-ARG2 36:3-ARG1
 bc/phoenix/00/phoenix_0000.parse 134 5 gold break break.01 ----- 3:1*4:1-ARG0 5:0-rel 6:1-ARG1
@@ -44,7 +45,10 @@ bc/phoenix/00/phoenix_0000.parse 210 15 gold suspend suspend.01 ----- 12:1*16:1-
 bc/phoenix/00/phoenix_0000.parse 246 14 gold worry worry.02 ----- 11:1-ARG0 13:0-ARGM-NEG 14:0-rel 15:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 61 9 gold play play.01 ----- 1:1*7:1-ARG0 9:0-rel 10:1-ARGM-MNR
 bc/phoenix/00/phoenix_0000.parse 95 2 gold fight fight_back.04 ----- 0:1-ARGM-TMP 1:1-ARG0 2:0,3:1-rel
+bc/phoenix/00/phoenix_0000.parse 229 1 gold be be.01 ----- 0:1-ARG1 1:0-rel
+bc/phoenix/00/phoenix_0000.parse 267 6 gold talk talk.01 ----- 0:1-ARGM-TMP 3:1-ARG0 5:0-ARGM-NEG 6:0-rel 7:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 304 25 gold become become.01 ----- 13:1*24:1-ARG1 25:0-rel 26:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 17 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 262 7 gold be be.01 ----- 6:1-ARG1 7:0-rel 8:1-ARG2 11:1-ARGM-DIS
 bc/phoenix/00/phoenix_0000.parse 43 4 gold be be.01 ----- 0:1-ARGM-TMP 2:1-ARG1 4:0-rel 5:3-ARG2
 bc/phoenix/00/phoenix_0000.parse 362 2 gold be be.01 ----- 1:1-ARG1 2:0-rel 3:0-ARGM-NEG 4:2-ARG2
@@ -58,21 +62,19 @@ bc/phoenix/00/phoenix_0000.parse 80 13 gold think think.01 ----- 12:1-ARG0 13:0-
 bc/phoenix/00/phoenix_0000.parse 79 12 gold be be.01 ----- 11:1-ARG1 12:0-rel 13:0-ARGM-NEG 14:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 193 14 gold bring bring.01 ----- 12:1-ARG0 14:0-rel 15:1-ARG3 16:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 115 12 gold be be.03 ----- 12:0-rel
+bc/phoenix/00/phoenix_0000.parse 17 6 gold have have.01 ----- 6:0-rel
 bc/phoenix/00/phoenix_0000.parse 154 13 gold take take.01 ----- 7:1-ARGM-TMP 8:1-ARG0 13:0-rel 14:1-ARG1 16:2-ARGM-PRP
 bc/phoenix/00/phoenix_0000.parse 39 8 gold be be.01 ----- 0:3-ARG1 8:0-rel 9:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 52 4 gold call call.01 ----- 0:1-ARGM-DIS 2:1-ARG0 3:0-ARGM-MOD 4:0-rel 5:1-ARG1 6:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 345 2 gold be be.01 ----- 1:1-ARG1 2:0-rel 3:2-ARG2
-bc/phoenix/00/phoenix_0000.parse 302 14 gold reunite reunite.01 ----- 4:2*15:1-ARG1 14:0-rel 16:1-ARG2
-bc/phoenix/00/phoenix_0000.parse 238 2 gold be be.01 ----- 0:1*9:1-ARGM-TMP 1:1-ARG1 2:0-rel 3:1-ARG2 7:1-ARGM-ADV
 bc/phoenix/00/phoenix_0000.parse 363 24 gold be be.01 ----- 23:1-ARG1 24:0-rel 25:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 325 1 gold do do.01 ----- 1:0-rel
 bc/phoenix/00/phoenix_0000.parse 373 9 gold be be.01 ----- 0:1-ARGM-ADV 2:1-ARGM-TMP 5:2-ARG1 9:0-rel 10:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 202 18 gold take take.14 ----- 16:2-ARG1 18:0-rel 19:1-ARG2 20:1-ARGM-LOC
 bc/phoenix/00/phoenix_0000.parse 244 7 gold see see.01 ----- 2:1*6:1-ARG0 7:0-rel 8:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 448 22 gold be be.03 ----- 22:0-rel
-bc/phoenix/00/phoenix_0000.parse 275 11 gold hit hit.01 ----- 10:1-ARG2 11:0-rel 12:1-ARG1
+bc/phoenix/00/phoenix_0000.parse 372 4 gold see see.01 ----- 0:1-ARGM-DIS 2:1-ARG0 3:0-ARGM-MOD 4:0-rel 5:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 215 2 gold be be.01 ----- 1:1-ARG1 2:0-rel 3:1-ARG2
-bc/phoenix/00/phoenix_0000.parse 88 6 gold raid raid.01 ----- 4:0-ARGM-DIR 6:0-rel
 bc/phoenix/00/phoenix_0000.parse 267 22 gold be be.01 ----- 21:1-ARG1 22:0-rel 23:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 157 6 gold expose expose.01 ----- 2:2-ARG0 6:0-rel 7:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 96 4 gold do do.01 ----- 4:0-rel
@@ -83,11 +85,14 @@ bc/phoenix/00/phoenix_0000.parse 382 23 gold do do.02 ----- 22:1-ARG0 23:0-rel 2
 bc/phoenix/00/phoenix_0000.parse 278 1 gold think think.01 ----- 0:1-ARG0 1:0-rel 3:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 387 10 gold be be.01 ----- 0:1-ARGM-DIS 7:1-ARGM-DIS 9:1-ARG1 10:0-rel 11:0-ARGM-NEG 12:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 159 5 gold take take.01 ----- 0:1-ARGM-DIS 1:2-ARGM-TMP 4:1-ARG0 5:0-rel 6:1-ARG1
+bc/phoenix/00/phoenix_0000.parse 168 4 gold say say.01 ----- 2:1*6:1-ARGM-TMP 3:1-ARG0 4:0-rel 5:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 57 3 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARG1 3:0-rel 4:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 313 19 gold go go.02 ----- 17:1-ARG0 19:0-rel 20:1-ARG4
 bc/phoenix/00/phoenix_0000.parse 405 1 gold be be.03 ----- 1:0-rel
 bc/phoenix/00/phoenix_0000.parse 416 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2 4:1-ARGM-TMP
 bc/phoenix/00/phoenix_0000.parse 113 14 gold do do.01 ----- 14:0-rel
 bc/phoenix/00/phoenix_0000.parse 249 3 gold remember remember.01 ----- 1:1-ARG0 2:1-ARGM-TMP 3:0-rel 4:2-ARG1
+bc/phoenix/00/phoenix_0000.parse 128 18 gold understand understand.01 ----- 17:1-ARG0 18:0-rel
 bc/phoenix/00/phoenix_0000.parse 224 4 gold have have.01 ----- 4:0-rel
 bc/phoenix/00/phoenix_0000.parse 113 16 gold understand understand.01 ----- 12:1-ARG0 13:1-ARGM-ADV 15:0-ARGM-NEG 16:0-rel 17:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 184 9 gold be be.01 ----- 6:1-ARGM-TMP 8:1-ARG1 9:0-rel 10:2-ARG2
@@ -97,7 +102,6 @@ bc/phoenix/00/phoenix_0000.parse 208 22 gold be be.03 ----- 22:0-rel
 bc/phoenix/00/phoenix_0000.parse 260 7 gold let let.01 ----- 5:1-ARG0 6:0-ARGM-MOD 7:0-rel 8:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 63 6 gold be be.03 ----- 6:0-rel
 bc/phoenix/00/phoenix_0000.parse 128 7 gold kill kill.01 ----- 6:1-ARG0 7:0-rel 8:1-ARG1
-bc/phoenix/00/phoenix_0000.parse 210 34 gold go go.02 ----- 33:1-ARG0 34:0-rel 35:1-ARG4
 bc/phoenix/00/phoenix_0000.parse 373 29 gold be be.01 ----- 28:1-ARG1 29:0-rel 30:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 192 5 gold remember remember.01 ----- 0:0-ARGM-DIS 3:1-ARGM-TMP 4:1-ARG0 5:0-rel 6:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 175 3 gold have have.03 ----- 0:1-ARG0 3:0-rel 4:2-ARG1
@@ -117,23 +121,19 @@ bc/phoenix/00/phoenix_0000.parse 199 1 gold be be.03 ----- 1:0-rel
 bc/phoenix/00/phoenix_0000.parse 326 7 gold be be.01 ----- 4:1-ARG1 7:0-rel 9:3-ARG2
 bc/phoenix/00/phoenix_0000.parse 349 15 gold discover discover.01 ----- 3:1-ARGM-TMP 12:1-ARGM-DIS 14:1-ARG0 15:0-rel 16:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 322 2 gold be be.01 ----- 1:1-ARG1 2:0-rel 3:1-ARG2
-bc/phoenix/00/phoenix_0000.parse 17 11 gold ask ask.01 ----- 2:1*4:1*12:1-ARG1 2:1*4:1-LINK-SLC 5:1*9:1-ARG0 11:0-rel
 bc/phoenix/00/phoenix_0000.parse 244 5 gold go go.05 ----- 1:1-ARGM-TMP 2:1-ARG0 3:0-ARGM-MOD 5:0-rel 6:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 335 24 gold think think.01 ----- 14:1-ARGM-TMP 15:2-ARGM-TMP 23:1-ARG0 24:0-rel 26:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 208 9 gold perform perform.01 ----- 2:1*5:1*6:1-ARG0 2:1*5:1-LINK-SLC 8:0-ARGM-NEG 9:0-rel 10:1-ARGM-MNR
 bc/phoenix/00/phoenix_0000.parse 386 4 gold serve serve.01 ----- 1:1-ARG0 3:1-ARGM-NEG 4:0-rel 5:1-ARG1 9:2-ARGM-ADV
 bc/phoenix/00/phoenix_0000.parse 222 12 gold be be.01 ----- 11:1-ARG1 12:0-rel 14:1-ARG2
-bc/phoenix/00/phoenix_0000.parse 292 14 gold work work.01 ----- 2:1*10:1-ARG0 14:0-rel
 bc/phoenix/00/phoenix_0000.parse 320 32 gold stand stand_out.06 ----- 30:1-ARG1 31:0-ARGM-MOD 32:0,33:1-rel
 bc/phoenix/00/phoenix_0000.parse 123 1 gold come come.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-DIR
 bc/phoenix/00/phoenix_0000.parse 27 13 gold spend spend.02 ----- 11:1-ARG0 13:0-rel 14:1-ARG1 16:1-ARGM-LOC
 bc/phoenix/00/phoenix_0000.parse 302 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 159 10 gold run run.02 ----- 0:1-ARGM-TMP 1:2-ARGM-TMP 4:1-ARG0 10:0-rel 11:1-ARG1
-bc/phoenix/00/phoenix_0000.parse 396 19 gold be be.03 ----- 19:0-rel
 bc/phoenix/00/phoenix_0000.parse 72 1 gold have have.02 ----- 1:0-rel
+bc/phoenix/00/phoenix_0000.parse 245 5 gold be be.01 ----- 4:1-ARG1 5:0-rel 6:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 210 24 gold let let.01 ----- 21:1-ARG0 23:0-ARGM-NEG 24:0-rel 25:2-ARG1
-bc/phoenix/00/phoenix_0000.parse 8 5 gold sleep sleep.01 ----- 2:1*14:1-ARGM-TMP 3:1-ARG0 5:0-rel 6:1-ARGM-EXT
-bc/phoenix/00/phoenix_0000.parse 223 23 gold be be.01 ----- 23:0-rel 24:1-ARG2 25:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 438 10 gold talk talk.01 ----- 6:1-ARG0 10:0-rel 11:2-ARGM-PRP
 bc/phoenix/00/phoenix_0000.parse 396 20 gold paralyze paralyze.01 ----- 16:1*21:1-ARG1 20:0-rel
 bc/phoenix/00/phoenix_0000.parse 208 34 gold be be.02 ----- 34:0-rel 35:1-ARGM-DIS 36:2-ARG1
@@ -153,7 +153,6 @@ bc/phoenix/00/phoenix_0000.parse 91 0 gold do do.01 ----- 0:0-rel
 bc/phoenix/00/phoenix_0000.parse 99 5 gold be be.02 ----- 5:0-rel 6:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 240 2 gold feel feel.02 ----- 0:1-ARG0 1:1-ARGM-TMP 2:0-rel 4:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 344 10 gold reinstate reinstate.01 ----- 10:0-rel 11:0-ARG1
-bc/phoenix/00/phoenix_0000.parse 73 16 gold get get.01 ----- 7:1*10:1*20:1-ARGM-MNR 7:1*10:1-LINK-SLC 11:1-ARG0 12:0-ARGM-MOD 16:0-rel 17:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 58 11 gold be be.02 ----- 11:0-rel 12:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 451 11 gold continue continue.01 ----- 5:1*9:1*10:1-ARG1 5:1*9:1-LINK-SLC 11:0-rel 12:1-ARGM-TMP
 bc/phoenix/00/phoenix_0000.parse 241 11 gold go go.05 ----- 9:1-ARG0 11:0-rel 12:2-ARG1
@@ -166,17 +165,16 @@ bc/phoenix/00/phoenix_0000.parse 115 13 gold curse curse.01 ----- 10:1-ARG0 13:0
 bc/phoenix/00/phoenix_0000.parse 16 5 gold wear wear.01 ----- 2:1*3:1-ARG0 5:0-rel 6:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 165 6 gold hack hack.01 ----- 2:1*4:1-ARG0 6:0-rel 7:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 421 3 gold look look.01 ----- 1:1-ARG0 2:1-ARGM-ADV 3:0-rel 4:1-ARGM-DIR
-bc/phoenix/00/phoenix_0000.parse 307 5 gold be be.01 ----- 3:1-ARG1 5:0-rel 6:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 101 8 gold have have.03 ----- 7:1-ARG0 8:0-rel 9:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 320 4 gold be be.01 ----- 0:1*2:1*3:1-ARG1 0:1*2:1-LINK-SLC 4:0-rel 5:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 190 17 gold go go.02 ----- 14:1-ARG0 15:0-ARGM-MOD 16:0-ARGM-NEG 17:0-rel 18:1-ARG4
 bc/phoenix/00/phoenix_0000.parse 419 25 gold be be.01 ----- 24:1-ARG1 25:0-rel 26:1-ARG2
-bc/phoenix/00/phoenix_0000.parse 322 9 gold feel feel.01 ----- 5:1-ARGM-TMP 7:1-ARG0 9:0-rel 10:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 236 20 gold express express.01 ----- 16:1*19:1-ARG0 20:0-rel 21:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 444 1 gold read read.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 430 1 gold get get.LV ----- 1:0-rel 3:0-ARGM-PRR
 bc/phoenix/00/phoenix_0000.parse 268 1 gold give give.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG2 4:1-ARG1
-bc/phoenix/00/phoenix_0000.parse 372 4 gold see see.01 ----- 0:1-ARGM-DIS 2:1-ARG0 3:0-ARGM-MOD 4:0-rel 5:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 18 26 gold have have.01 ----- 26:0-rel
+bc/phoenix/00/phoenix_0000.parse 357 2 gold get get.05 ----- 0:1-ARG1 1:1-ARGM-ADV 2:0-rel 3:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 337 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 46 10 gold go go.06 ----- 7:1*8:1*9:1-ARG1 7:1*8:1-LINK-SLC 10:0-rel 11:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 269 6 gold be be.01 ----- 4:1*12:1-ARGM-TMP 5:1-ARG1 6:0-rel 7:1-ARG2 10:1-ARGM-DIS
@@ -189,7 +187,6 @@ bc/phoenix/00/phoenix_0000.parse 438 28 gold take take.04 ----- 27:1-ARG0 28:0-r
 bc/phoenix/00/phoenix_0000.parse 193 24 gold feel feel.01 ----- 21:1*27:1-ARGM-CAU 23:1-ARG0 24:0-rel 25:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 204 16 gold be be.02 ----- 16:0-rel 17:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 19 6 gold be be.01 ----- 0:2-ARG1 6:0-rel 7:2-ARG2
-bc/phoenix/00/phoenix_0000.parse 402 3 gold move move.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-ARGM-NEG 3:0-rel 4:1-ARGM-EXT
 bc/phoenix/00/phoenix_0000.parse 349 23 gold get get.05 ----- 21:1*26:1-ARGM-TMP 22:1-ARG1 23:0-rel 24:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 120 7 gold take take.03 ----- 5:1-ARG0 6:0-ARGM-MOD 7:0-rel 8:1-ARG1 9:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 305 12 gold be be.03 ----- 12:0-rel
@@ -201,30 +198,31 @@ bc/phoenix/00/phoenix_0000.parse 149 2 gold be be.01 ----- 0:1*4:1-ARG2 2:0-rel 
 bc/phoenix/00/phoenix_0000.parse 18 3 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARG1 3:0-rel 4:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 26 9 gold be be.01 ----- 1:1-ARGM-TMP 4:2-ARG1 9:0-rel 10:1-ARG2 11:1-ARGM-TMP
 bc/phoenix/00/phoenix_0000.parse 241 6 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARGM-TMP 2:1-ARG1 6:0-rel 7:1-ARGM-DIS 9:2-ARG2
-bc/phoenix/00/phoenix_0000.parse 130 1 gold send send.03 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+bc/phoenix/00/phoenix_0000.parse 169 28 gold get get.01 ----- 15:1*26:1-ARG0 28:0-rel 29:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 212 63 gold teach teach.01 ----- 54:1-ARGM-TMP 57:1-ARG0 58:0-ARGM-MOD 63:0-rel 64:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 287 7 gold take take.01 ----- 5:2-ARG0 7:0-rel 8:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 92 7 gold crack crack.02 ----- 4:1-ARGM-DIS 6:1-ARG0 7:0-rel 8:1-ARG1 10:2-ARGM-PRD
 bc/phoenix/00/phoenix_0000.parse 210 30 gold do do.01 ----- 30:0-rel
 bc/phoenix/00/phoenix_0000.parse 370 8 gold see see.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-ARGM-MOD 8:0-rel 9:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 137 1 gold take take.LV ----- 1:0-rel 3:0-ARGM-PRR
+bc/phoenix/00/phoenix_0000.parse 320 24 gold have have.03 ----- 23:1-ARG0 24:0-rel 25:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 425 2 gold look look.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 314 4 gold be be.01 ----- 3:1-ARG1 4:0-rel 5:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 267 4 gold do do.01 ----- 4:0-rel
 bc/phoenix/00/phoenix_0000.parse 245 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 10 3 gold rub rub.01 ----- 0:1-ARGM-TMP 2:1-ARG0 3:0-rel 4:2-ARG3 10:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 394 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2 3:1-ARGM-ADV
 bc/phoenix/00/phoenix_0000.parse 198 10 gold change change.01 ----- 6:1*7:1*8:1-ARG0 6:1*7:1-LINK-SLC 10:0-rel 11:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 382 10 gold play play.02 ----- 9:1-ARG0 10:0-rel 11:2-ARG1
-bc/phoenix/00/phoenix_0000.parse 156 7 gold be be.01 ----- 6:1-ARG1 7:0-rel 8:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 325 3 gold take take.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:1-ARG1
-bc/phoenix/00/phoenix_0000.parse 343 17 gold take take.01 ----- 10:1*15:1-ARG0 17:0-rel 18:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 212 28 gold say say.01 ----- 21:1-ARG0 28:0-rel 29:1-ARG2 36:3-ARG1
 bc/phoenix/00/phoenix_0000.parse 105 22 gold yell yell.01 ----- 11:2-ARGM-TMP 21:1-ARG0 22:0-rel 23:1-ARGM-DIR 25:2-ARG1
+bc/phoenix/00/phoenix_0000.parse 193 4 gold be be.01 ----- 0:2-ARG1 4:0-rel 5:2-ARG2 11:1-ARGM-CAU
+bc/phoenix/00/phoenix_0000.parse 84 14 gold endure endure.01 ----- 9:1*12:1-ARG1 14:0-rel 15:1-ARG2 16:1-ARGM-TMP
+bc/phoenix/00/phoenix_0000.parse 240 11 gold give give.01 ----- 4:1-ARGM-DIS 6:1-ARG0 7:0-ARGM-MOD 11:0-rel 12:1-ARG2 13:1-ARG1 14:1-ARGM-LOC
 bc/phoenix/00/phoenix_0000.parse 138 6 gold be be.01 ----- 2:1*4:1-ARG1 6:0-rel 7:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 131 10 gold come come_on.08 ----- 9:1-ARG1 10:0,11:1-rel
 bc/phoenix/00/phoenix_0000.parse 59 3 gold mean mean.01 ----- 0:1*4:1-ARG2 2:1-ARG0 3:0-rel 5:2-ARGM-PRD
-bc/phoenix/00/phoenix_0000.parse 33 3 gold check check.01 ----- 2:1-ARG0 3:0-rel 4:2-ARG2
-bc/phoenix/00/phoenix_0000.parse 128 18 gold understand understand.01 ----- 17:1-ARG0 18:0-rel
 bc/phoenix/00/phoenix_0000.parse 268 9 gold be be.01 ----- 8:1-ARG1 9:0-rel 10:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 128 2 gold tell tell.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG2 5:3-ARG1
 bc/phoenix/00/phoenix_0000.parse 110 23 gold seem seem.01 ----- 14:1-ARGM-TMP 22:1,26:1-ARG1 23:0-rel 24:1-ARGM-EXT
@@ -232,61 +230,54 @@ bc/phoenix/00/phoenix_0000.parse 394 7 gold walk walk.01 ----- 5:1-ARG0 6:0-ARGM
 bc/phoenix/00/phoenix_0000.parse 412 8 gold have have.03 ----- 0:1-ARGM-DIS 5:1-ARGM-TMP 7:1-ARG0 8:0-rel 9:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 165 3 gold have have.02 ----- 3:0-rel
 bc/phoenix/00/phoenix_0000.parse 276 5 gold turn turn.01 ----- 4:1-ARG0 5:0-rel 6:1-ARG1 8:2-ARGM-PRP
-bc/phoenix/00/phoenix_0000.parse 383 7 gold be be.01 ----- 0:1*8:1-ARG2 2:1*5:1-ARG1 7:0-rel
 bc/phoenix/00/phoenix_0000.parse 84 1 gold do do.01 ----- 1:0-rel
 bc/phoenix/00/phoenix_0000.parse 120 1 gold come come.02 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 247 2 gold go go.02 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG4 6:1-ARGM-MNR
 bc/phoenix/00/phoenix_0000.parse 230 4 gold do do.02 ----- 0:1-ARGM-DIS 2:0-ARGM-DIS 3:1-ARG0 4:0-rel 5:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 403 7 gold go go.08 ----- 5:1-ARG1 7:0-rel 8:1-ARG2
-bc/phoenix/00/phoenix_0000.parse 193 22 gold be be.03 ----- 22:0-rel
 bc/phoenix/00/phoenix_0000.parse 449 1 gold sigh sigh.01 ----- 0:1-ARG0 1:0-rel 3:2-ARG1
-bc/phoenix/00/phoenix_0000.parse 169 28 gold get get.01 ----- 15:1*26:1-ARG0 28:0-rel 29:2-ARG1
-bc/phoenix/00/phoenix_0000.parse 261 8 gold be be.01 ----- 0:1-ARGM-DIS 8:0-rel 9:1-ARG1 10:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 10 1 gold do do.01 ----- 1:0-rel
 bc/phoenix/00/phoenix_0000.parse 4 5 gold think think.01 ----- 0:1-ARGM-DIS 2:1-ARG0 4:0-ARGM-NEG 5:0-rel 6:1-ARG2
-bc/phoenix/00/phoenix_0000.parse 445 8 gold mean mean.01 ----- 7:1-ARG0 8:0-rel
 bc/phoenix/00/phoenix_0000.parse 382 4 gold play play.02 ----- 2:1-ARG0 4:0-rel 5:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 142 4 gold be be.01 ----- 3:1-ARG1 4:0-rel 5:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 254 11 gold see see.01 ----- 10:1-ARG0 11:0-rel 12:1-ARG1 13:1-ARGM-TMP
-bc/phoenix/00/phoenix_0000.parse 395 17 gold get get.03 ----- 15:1-ARGM-TMP 16:1-ARG1 17:0-rel 18:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 144 9 gold call call.01 ----- 2:2*10:1-ARG1 2:2*10:1-LINK-PSV 9:0-rel 11:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 137 3 gold whack whack.01 ----- 0:1-ARG0 1:0-ARGM-LVB 3:0-rel
 bc/phoenix/00/phoenix_0000.parse 175 1 gold have have.03 ----- 0:1-ARG0 1:0-rel
-bc/phoenix/00/phoenix_0000.parse 212 59 gold take take_up.31 ----- 54:1-ARGM-TMP 57:1-ARG0 58:0-ARGM-MOD 59:0,60:1-rel 61:1-ARG1
+bc/phoenix/00/phoenix_0000.parse 210 32 gold let let.01 ----- 21:1-ARG0 31:0-ARGM-NEG 32:0-rel 33:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 314 7 gold be be.01 ----- 0:1-ARGM-LOC 3:2-ARG1 7:0-rel 8:1-ARGM-TMP 9:0-ARGM-NEG 10:3-ARG2
 bc/phoenix/00/phoenix_0000.parse 223 6 gold do do.02 ----- 0:1-ARGM-ADV 5:1-ARG0 6:0-rel 7:2-ARG1
-bc/phoenix/00/phoenix_0000.parse 51 11 gold be be.03 ----- 11:0-rel
-bc/phoenix/00/phoenix_0000.parse 189 18 gold be be.01 ----- 13:2-ARG1 17:0-ARGM-MOD 18:0-rel 19:1-ARG2
-bc/phoenix/00/phoenix_0000.parse 140 4 gold be be.01 ----- 3:1-ARG1 4:0-rel 5:1-ARG2
-bc/phoenix/00/phoenix_0000.parse 303 7 gold have have.03 ----- 5:1-ARG0 7:0-rel 8:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 271 14 gold be be.01 ----- 0:1-ARGM-DIS 2:2-ARGM-TMP 9:1-ARGM-LOC 13:1-ARG1 14:0-rel 15:0-ARGM-EXT 16:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 307 12 gold think think.01 ----- 10:1-ARG0 11:0-ARGM-NEG 12:0-rel 13:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 60 11 gold be be.03 ----- 11:0-rel
+bc/phoenix/00/phoenix_0000.parse 157 1 gold let let.01 ----- 0:1-ARG0 1:0-rel 2:3-ARG1
 bc/phoenix/00/phoenix_0000.parse 441 45 gold sample sample.01 ----- 45:0-rel
-bc/phoenix/00/phoenix_0000.parse 229 1 gold be be.01 ----- 0:1-ARG1 1:0-rel
-bc/phoenix/00/phoenix_0000.parse 267 6 gold talk talk.01 ----- 0:1-ARGM-TMP 3:1-ARG0 5:0-ARGM-NEG 6:0-rel 7:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 306 19 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARGM-TMP 5:1-ARG1 8:2-ARGM-PRD 19:0-rel 20:1-ARG2
-bc/phoenix/00/phoenix_0000.parse 22 3 gold be be.03 ----- 3:0-rel
 bc/phoenix/00/phoenix_0000.parse 306 9 gold face face.01 ----- 5:1*8:1-ARG0 9:0-rel 10:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 176 8 gold be be.01 ----- 0:1-ARGM-ADV 7:1-ARG1 8:0-rel 10:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 84 5 gold defend defend.01 ----- 0:1*4:1-ARG0 5:0-rel 6:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 63 7 gold fight fight.01 ----- 1:1*4:1-ARG0 7:0-rel 8:1-ARG1 11:1-ARGM-ADV
-bc/phoenix/00/phoenix_0000.parse 11 7 gold rub rub.01 ----- 0:1-ARGM-DIS 2:1-ARGM-TMP 6:1-ARG0 7:0-rel 8:1-ARGM-PRD 9:1-ARG3
+bc/phoenix/00/phoenix_0000.parse 408 38 gold turn turn.02 ----- 36:1-ARGM-TMP 37:1-ARG1 38:0-rel 39:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 42 18 gold be be.03 ----- 18:0-rel
 bc/phoenix/00/phoenix_0000.parse 374 22 gold mean mean.01 ----- 19:1-ARG1 21:0-ARGM-NEG 22:0-rel 23:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 183 2 gold be be.01 ----- 0:1*4:1-ARG2 2:0-rel 3:1-ARG1 5:1-ARGM-TMP
 bc/phoenix/00/phoenix_0000.parse 246 2 gold want want.01 ----- 0:1-ARG0 1:1-ARGM-ADV 2:0-rel 3:2-ARG1
-bc/phoenix/00/phoenix_0000.parse 6 2 gold have have.02 ----- 2:0-rel
+bc/phoenix/00/phoenix_0000.parse 304 2 gold turn turn.02 ----- 2:0-rel 3:1-ARG2 6:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 169 19 gold take take.LV ----- 19:0-rel 21:0-ARGM-PRR
-bc/phoenix/00/phoenix_0000.parse 17 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 187 8 gold go go.02 ----- 0:1-ARGM-TMP 2:1-ARGM-TMP 7:1-ARG0 8:0-rel 9:1-ARG3 11:1-ARG4
-bc/phoenix/00/phoenix_0000.parse 47 7 gold say say.01 ----- 6:1-ARG0 7:0-rel 8:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 42 19 gold treat treat.01 ----- 0:0-ARGM-DIS 1:1-ARGM-TMP 4:1-ARGM-CAU 9:2-ARGM-TMP 16:1*20:1-ARG1 19:0-rel 21:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 276 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 18 45 gold say say.01 ----- 40:1*43:1-ARG0 45:0-rel 47:2-ARG1
+bc/phoenix/00/phoenix_0000.parse 132 5 gold take take.LV ----- 5:0-rel 7:0-ARGM-PRR
 bc/phoenix/00/phoenix_0000.parse 50 3 gold die die.01 ----- 0:1-ARGM-DIS 2:1-ARG1 3:0-rel 4:1-ARGM-TMP
 bc/phoenix/00/phoenix_0000.parse 101 3 gold be be.01 ----- 1:1*5:1-ARGM-TMP 2:1-ARG1 3:0-rel 4:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 382 13 gold go go.02 ----- 11:1-ARG0 13:0-rel 14:1-ARGM-DIR 15:2-ARGM-PRP
+bc/phoenix/00/phoenix_0000.parse 201 2 gold get get.05 ----- 1:1-ARG1 2:0-rel 3:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 215 13 gold copy copy.01 ----- 12:1-ARG0 13:0-rel 14:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 333 13 gold pick pick_up.04 ----- 12:1-ARG0 13:0,15:1-rel 14:1-ARG1
-bc/phoenix/00/phoenix_0000.parse 334 7 gold try try.01 ----- 2:1*5:1-ARG0 7:0-rel
-bc/phoenix/00/phoenix_0000.parse 258 16 gold cry cry.02 ----- 13:1-ARG0 15:0-ARGM-NEG 16:0-rel
+bc/phoenix/00/phoenix_0000.parse 347 4 gold be be.01 ----- 0:2-ARG1 4:0-rel 5:0-ARGM-NEG 6:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 270 4 gold happen happen.01 ----- 2:1*5:1-ARGM-MNR 3:1-ARG1 4:0-rel 7:1-ARGM-DIS
+bc/phoenix/00/phoenix_0000.parse 406 1 gold be be.03 ----- 1:0-rel
 bc/phoenix/00/phoenix_0000.parse 381 6 gold play play.02 ----- 0:1-ARGM-DIS 5:1-ARG0 6:0-rel 7:1-ARG1 9:1-ARGM-TMP
 bc/phoenix/00/phoenix_0000.parse 379 1 gold do do.01 ----- 1:0-rel
 bc/phoenix/00/phoenix_0000.parse 88 10 gold be be.01 ----- 9:1-ARG1 10:0-rel 11:1-ARG2 13:1-ARGM-DIS
@@ -297,83 +288,84 @@ bc/phoenix/00/phoenix_0000.parse 299 11 gold be be.01 ----- 0:1-ARGM-DIS 3:1-ARG
 bc/phoenix/00/phoenix_0000.parse 396 3 gold get get.01 ----- 2:1-ARG0 3:0-rel 7:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 166 12 gold look look.09 ----- 12:0-rel
 bc/phoenix/00/phoenix_0000.parse 246 17 gold hold hold.01 ----- 16:1-ARG0 17:0-rel 18:1-ARG1
+bc/phoenix/00/phoenix_0000.parse 354 2 gold act act.02 ----- 1:1-ARG0 2:0-rel 3:1-ARGM-TMP
 bc/phoenix/00/phoenix_0000.parse 71 18 gold want want.01 ----- 13:1*16:1*17:1-ARG0 13:1*16:1-LINK-SLC 18:0-rel 19:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 372 7 gold work work.01 ----- 5:1*8:1-ARGM-MNR 6:1-ARG0 7:0-rel
 bc/phoenix/00/phoenix_0000.parse 166 15 gold do do.01 ----- 15:0-rel
 bc/phoenix/00/phoenix_0000.parse 374 12 gold be be.01 ----- 8:1*10:1-ARG1 12:0-rel 13:2-ARG2
-bc/phoenix/00/phoenix_0000.parse 28 27 gold preserve preserve.01 ----- 18:2-ARGM-TMP 21:1*28:1-ARG1 27:0-rel 29:1-ARGM-LOC
 bc/phoenix/00/phoenix_0000.parse 335 10 gold be be.01 ----- 9:1-ARG1 10:0-rel 11:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 88 2 gold dig dig.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 213 2 gold fun fun.01 ----- 2:0-rel
 bc/phoenix/00/phoenix_0000.parse 92 14 gold be be.01 ----- 13:1-ARG1 14:0-rel 15:1-ARG2
-bc/phoenix/00/phoenix_0000.parse 18 27 gold shoot shoot.03 ----- 21:1*24:1*25:1-ARG0 21:1*24:1-LINK-SLC 27:0-rel 28:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 413 9 gold get get.03 ----- 0:1-ARGM-DIS 2:1-ARGM-TMP 7:1-ARG1 8:0-ARGM-MOD 9:0-rel 10:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 98 4 gold get get.01 ----- 0:1*2:1-ARG0 4:0-rel 5:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 105 31 gold be be.03 ----- 31:0-rel
 bc/phoenix/00/phoenix_0000.parse 277 2 gold look look.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1 5:1-ARGM-MNR
 bc/phoenix/00/phoenix_0000.parse 305 13 gold reinstate reinstate.01 ----- 7:1*14:1-ARG1 11:0-ARGM-MOD 13:0-rel 15:1-ARGM-LOC
+bc/phoenix/00/phoenix_0000.parse 223 27 gold be be.01 ----- 25:1-ARG1 27:0-rel 28:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 192 38 gold take take.01 ----- 36:1-ARGM-TMP 37:1-ARG0 38:0-rel 39:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 30 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 26 18 gold maintain maintain.01 ----- 0:1-ARGM-ADV 15:1-ARG0 18:0-rel 19:2-ARG1
-bc/phoenix/00/phoenix_0000.parse 192 33 gold say say.01 ----- 21:2-ARG1-DSP 32:1-ARG0 33:0-rel
+bc/phoenix/00/phoenix_0000.parse 199 3 gold struggle struggle.01 ----- 0:1-ARG0 2:1-ARGM-TMP 3:0-rel 4:1-ARGM-LOC
 bc/phoenix/00/phoenix_0000.parse 112 9 gold stand stand.01 ----- 8:1-ARG1 9:0-rel 10:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 229 4 gold be be.01 ----- 3:1-ARG1 4:0-rel 5:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 80 17 gold be be.01 ----- 17:0-rel 18:1-ARG2 19:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 41 13 gold imprison imprison.01 ----- 1:1-ARGM-TMP 5:2*14:1-ARG1 13:0-rel 15:1-ARGM-TMP 18:1-ARGM-LOC
 bc/phoenix/00/phoenix_0000.parse 110 17 gold think think.01 ----- 15:1*20:1-ARGM-TMP 16:1-ARG0 17:0-rel 18:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 441 4 gold see see.01 ----- 2:1*10:1-ARGM-TMP 3:1-ARG0 4:0-rel 5:1-ARG1 6:1-ARGM-TMP
-bc/phoenix/00/phoenix_0000.parse 86 33 gold hit hit.01 ----- 26:1-ARG0 33:0-rel 34:1-ARG1 35:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 131 5 gold send send.03 ----- 4:1-ARG0 5:0-rel 6:1-ARG1
+bc/phoenix/00/phoenix_0000.parse 404 1 gold be be.01 ----- 0:1*8:1-ARG2 1:0-rel 2:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 363 15 gold be be.01 ----- 14:1-ARG1 15:0-rel 16:3-ARG2
 bc/phoenix/00/phoenix_0000.parse 400 3 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARG1 3:0-rel 4:1-ARG2 5:1-ARGM-TMP
 bc/phoenix/00/phoenix_0000.parse 262 4 gold remember remember.01 ----- 2:1-ARGM-TMP 3:1-ARG0 4:0-rel 5:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 295 7 gold be be.01 ----- 0:1-ARGM-DIS 6:1-ARG1 7:0-rel 8:1-ARG2
-bc/phoenix/00/phoenix_0000.parse 10 3 gold rub rub.01 ----- 0:1-ARGM-TMP 2:1-ARG0 3:0-rel 4:2-ARG3 10:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 80 21 gold be be.01 ----- 19:1-ARG1 21:0-rel 22:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 61 4 gold do do.01 ----- 4:0-rel
+bc/phoenix/00/phoenix_0000.parse 362 13 gold get get.01 ----- 10:1-ARG0 11:0-ARGM-MOD 12:0-ARGM-NEG 13:0-rel 14:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 452 5 gold collaborate collaborate.01 ----- 0:2*6:1-ARG2 4:1-ARG0 5:0-rel
 bc/phoenix/00/phoenix_0000.parse 408 4 gold name name.01 ----- 3:1-ARG0 4:0-rel 5:1-ARG1 6:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 403 13 gold go go.08 ----- 10:1-ARGM-TMP 11:1-ARG1 13:0-rel 14:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 438 7 gold be be.03 ----- 7:0-rel
 bc/phoenix/00/phoenix_0000.parse 8 12 gold wake wake_up.02 ----- 9:1-ARG1 10:0-ARGM-MOD 11:0-ARGM-NEG 12:0,13:1-rel
 bc/phoenix/00/phoenix_0000.parse 6 5 gold shave shave.01 ----- 1:1*3:1-ARG0 5:0-rel 6:1-ARG1 7:1-ARGM-TMP
+bc/phoenix/00/phoenix_0000.parse 17 11 gold ask ask.01 ----- 2:1*4:1*12:1-ARG1 2:1*4:1-LINK-SLC 5:1*9:1-ARG0 11:0-rel
 bc/phoenix/00/phoenix_0000.parse 320 11 gold do do.02 ----- 0:2*8:1*9:1-ARG0 0:2*8:1-LINK-SLC 11:0-rel 12:1-ARGM-MNR 13:1-ARGM-LOC
 bc/phoenix/00/phoenix_0000.parse 420 3 gold mean mean.01 ----- 0:1*4:1-ARG2 2:1-ARG0 3:0-rel
 bc/phoenix/00/phoenix_0000.parse 18 42 gold have have.02 ----- 42:0-rel
 bc/phoenix/00/phoenix_0000.parse 377 6 gold look look.01 ----- 0:1-ARGM-DIS 2:1-ARG0 4:1-ARGM-TMP 6:0-rel
 bc/phoenix/00/phoenix_0000.parse 419 1 gold get get.03 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
-bc/phoenix/00/phoenix_0000.parse 219 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 267 19 gold feel feel.02 ----- 11:1-ARG0 19:0-rel 20:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 86 20 gold get get.03 ----- 19:1-ARG1 20:0-rel 21:2-ARG2
-bc/phoenix/00/phoenix_0000.parse 42 18 gold be be.03 ----- 18:0-rel
+bc/phoenix/00/phoenix_0000.parse 438 21 gold tell tell.01 ----- 11:1-ARG0 21:0-rel 22:1-ARG1
+bc/phoenix/00/phoenix_0000.parse 270 1 gold remember remember.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 202 10 gold graduate graduate.01 ----- 9:1-ARG1 10:0-rel 11:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 73 2 gold be be.01 ----- 0:1-ARGM-DIS 1:1-ARG1 2:0-rel 7:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 292 12 gold live live.01 ----- 2:1*10:1-ARG0 12:0-rel
 bc/phoenix/00/phoenix_0000.parse 143 8 gold let let.01 ----- 7:1-ARG0 8:0-rel 9:2-ARG1
-bc/phoenix/00/phoenix_0000.parse 216 7 gold do do.01 ----- 7:0-rel
+bc/phoenix/00/phoenix_0000.parse 97 1 gold hit hit.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 113 8 gold say say.01 ----- 7:1-ARG0 8:0-rel 10:1-ARGM-DIS 12:2-ARG1
-bc/phoenix/00/phoenix_0000.parse 10 1 gold do do.01 ----- 1:0-rel
 bc/phoenix/00/phoenix_0000.parse 204 7 gold be be.02 ----- 7:0-rel 8:3-ARG1
 bc/phoenix/00/phoenix_0000.parse 90 2 gold pick pick_up.04 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0,3:1-rel 4:1-ARG1
-bc/phoenix/00/phoenix_0000.parse 135 1 gold take take.LV ----- 1:0-rel 3:0-ARGM-PRR
 bc/phoenix/00/phoenix_0000.parse 349 18 gold have have.03 ----- 17:1-ARG0 18:0-rel 19:1-ARG1 21:2-ARGM-TMP
 bc/phoenix/00/phoenix_0000.parse 28 6 gold fish fish.01 ----- 6:0-rel
 bc/phoenix/00/phoenix_0000.parse 110 1 gold get get.03 ----- 0:1-ARG1 1:0-rel 2:1-ARG2 5:1-ARGM-TMP
+bc/phoenix/00/phoenix_0000.parse 119 2 gold say say.01 ----- 0:1*3:1-ARG1 1:1-ARG0 2:0-rel
 bc/phoenix/00/phoenix_0000.parse 325 8 gold do do.01 ----- 8:0-rel
 bc/phoenix/00/phoenix_0000.parse 236 15 gold do do.01 ----- 15:0-rel
 bc/phoenix/00/phoenix_0000.parse 375 10 gold do do.02 ----- 7:1*8:1-ARG0 10:0-rel 11:1-ARG1
-bc/phoenix/00/phoenix_0000.parse 154 18 gold see see.01 ----- 16:1-ARG0 18:0-rel
 bc/phoenix/00/phoenix_0000.parse 373 26 gold think think.01 ----- 25:1-ARG0 26:0-rel 28:3-ARG1
 bc/phoenix/00/phoenix_0000.parse 300 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 45 1 gold change change.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG3 9:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 302 14 gold reunite reunite.01 ----- 4:2*15:1-ARG1 14:0-rel 16:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 67 2 gold be be.01 ----- 0:1-ARGM-DIS 1:1-ARG1 2:0-rel 3:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 42 14 gold start start.01 ----- 11:1-ARG1 14:0-rel
 bc/phoenix/00/phoenix_0000.parse 114 7 gold have have.03 ----- 6:1-ARG0 7:0-rel 8:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 192 43 gold take take.01 ----- 41:1-ARGM-TMP 42:1-ARG0 43:0-rel 44:1-ARG1
-bc/phoenix/00/phoenix_0000.parse 357 2 gold get get.05 ----- 0:1-ARG1 1:1-ARGM-ADV 2:0-rel 3:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 18 27 gold shoot shoot.03 ----- 21:1*24:1*25:1-ARG0 21:1*24:1-LINK-SLC 27:0-rel 28:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 212 38 gold take take.01 ----- 36:1-ARGM-TMP 37:1-ARG0 38:0-rel 39:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 258 10 gold think think.01 ----- 9:1-ARG0 10:0-rel 11:1-ARG1
-bc/phoenix/00/phoenix_0000.parse 141 2 gold hear hear.01 ----- 1:1-ARG0 2:0-rel
+bc/phoenix/00/phoenix_0000.parse 65 0 gold be be.01 ----- 0:0-rel 1:1-ARG1 2:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 180 9 gold be be.01 ----- 2:2-ARG1 9:0-rel 10:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 115 18 gold be be.03 ----- 18:0-rel
 bc/phoenix/00/phoenix_0000.parse 63 3 gold have have.02 ----- 3:0-rel
 bc/phoenix/00/phoenix_0000.parse 447 11 gold write write.01 ----- 1:1*10:1-ARG0 1:1*10:1-LINK-PRO 9:1*13:1-ARGM-CAU 11:0-rel 12:1-ARG1
@@ -381,15 +373,12 @@ bc/phoenix/00/phoenix_0000.parse 177 10 gold be be.01 ----- 9:1-ARG1 10:0-rel 11
 bc/phoenix/00/phoenix_0000.parse 305 25 gold thrill thrill.01 ----- 18:2*26:1-ARG1 25:0-rel
 bc/phoenix/00/phoenix_0000.parse 318 5 gold be be.01 ----- 0:1-ARGM-DIS 2:0-ARGM-DIS 3:1-ARG1 5:0-rel 9:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 302 11 gold release release.01 ----- 4:2*12:1-ARG1 11:0-rel
-bc/phoenix/00/phoenix_0000.parse 84 14 gold endure endure.01 ----- 9:1*12:1-ARG1 14:0-rel 15:1-ARG2 16:1-ARGM-TMP
-bc/phoenix/00/phoenix_0000.parse 438 21 gold tell tell.01 ----- 11:1-ARG0 21:0-rel 22:1-ARG1
+bc/phoenix/00/phoenix_0000.parse 16 1 gold force force.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 238 23 gold be be.01 ----- 14:1*17:1*18:1-ARG1 14:1*17:1-LINK-SLC 23:0-rel 24:2-ARG2
-bc/phoenix/00/phoenix_0000.parse 210 22 gold do do.01 ----- 22:0-rel
 bc/phoenix/00/phoenix_0000.parse 198 5 gold do do.02 ----- 0:0-ARGM-DIS 1:2-ARG0 5:0-rel 6:2-ARG1
-bc/phoenix/00/phoenix_0000.parse 84 3 gold dare dare.01 ----- 0:1*4:1-ARG1 2:0-ARGM-NEG 3:0-rel 5:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 61 6 gold want want.01 ----- 1:1-ARG0 3:1-ARGM-TMP 5:0-ARGM-NEG 6:0-rel 7:2-ARG1
+bc/phoenix/00/phoenix_0000.parse 192 63 gold teach teach.01 ----- 54:1-ARGM-TMP 57:1-ARG0 58:0-ARGM-MOD 63:0-rel 64:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 359 3 gold be be.01 ----- 0:1-ARGM-DIS 3:0-rel 4:1-ARG2 6:2-ARG1
-bc/phoenix/00/phoenix_0000.parse 121 1 gold come come.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-DIR
 bc/phoenix/00/phoenix_0000.parse 135 3 gold whack whack.01 ----- 0:1-ARG0 1:0-ARGM-LVB 3:0-rel
 bc/phoenix/00/phoenix_0000.parse 5 9 gold manage manage.01 ----- 1:1*10:1-ARG1 7:1-ARG0 9:0-rel
 bc/phoenix/00/phoenix_0000.parse 328 3 gold have have.01 ----- 3:0-rel
@@ -401,72 +390,69 @@ bc/phoenix/00/phoenix_0000.parse 335 27 gold want want.01 ----- 26:1-ARG0 27:0-r
 bc/phoenix/00/phoenix_0000.parse 319 7 gold be be.01 ----- 6:1-ARG1 7:0-rel 8:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 36 0 gold do do.01 ----- 0:0-rel
 bc/phoenix/00/phoenix_0000.parse 173 3 gold be be.02 ----- 3:0-rel 4:1-ARG1
+bc/phoenix/00/phoenix_0000.parse 84 3 gold dare dare.01 ----- 0:1*4:1-ARG1 2:0-ARGM-NEG 3:0-rel 5:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 281 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 192 59 gold take take_up.31 ----- 54:1-ARGM-TMP 57:1-ARG0 58:0-ARGM-MOD 59:0,60:1-rel 61:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 330 8 gold send send.01 ----- 4:1*6:1-ARG0 8:0-rel 9:1-ARG1 12:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 200 2 gold get get.05 ----- 0:1*5:1-ARGM-TMP 1:1-ARG1 2:0-rel 3:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 103 16 gold change change.01 ----- 2:1-ARGM-ADV 9:1-ARGM-ADV 12:1-ARGM-TMP 15:1-ARG0 16:0-rel 17:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 96 6 gold take take_out.11 ----- 0:2*7:1-ARG1 5:1-ARG0 6:0,8:1-rel
-bc/phoenix/00/phoenix_0000.parse 18 49 gold liken like.02 ----- 47:1-ARG0 48:0-ARGM-MOD 49:0-rel 50:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 200 10 gold do do.01 ----- 10:0-rel
 bc/phoenix/00/phoenix_0000.parse 192 50 gold teach teach.01 ----- 41:1-ARGM-DIS 42:1-ARG0 50:0-rel 51:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 129 6 gold hand hand_over.02 ----- 3:1-ARG0 5:1-ARGM-TMP 6:0,8:1-rel 7:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 448 4 gold read read.01 ----- 0:1-ARG0 3:1-ARGM-TMP 4:0-rel 5:3-ARG1
 bc/phoenix/00/phoenix_0000.parse 373 18 gold be be.01 ----- 17:1-ARG1 18:0-rel 19:1-ARGM-ADV 20:2-ARG2
+bc/phoenix/00/phoenix_0000.parse 391 2 gold remember remember.01 ----- 1:1-ARG0 2:0-rel 3:3-ARG1
 bc/phoenix/00/phoenix_0000.parse 8 23 gold be be.01 ----- 22:1-ARG1 23:0-rel 24:1-ARG2
-bc/phoenix/00/phoenix_0000.parse 91 2 gold crack crack.02 ----- 1:1-ARG0 2:0-rel 3:2-ARG1 6:2-ARGM-PRD
+bc/phoenix/00/phoenix_0000.parse 317 19 gold be be.03 ----- 19:0-rel
 bc/phoenix/00/phoenix_0000.parse 127 0 gold whack whack.01 ----- 0:0-rel
 bc/phoenix/00/phoenix_0000.parse 284 20 gold see see.01 ----- 14:1*18:1-ARG0 20:0-rel 21:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 14 2 gold wear wear.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG1
-bc/phoenix/00/phoenix_0000.parse 296 18 gold be be.01 ----- 14:1-ARGM-TMP 17:1-ARG1 18:0-rel 19:1-ARG2
-bc/phoenix/00/phoenix_0000.parse 72 17 gold be be.01 ----- 13:1*15:1-ARG1 17:0-rel 18:1-ARG2
-bc/phoenix/00/phoenix_0000.parse 192 63 gold teach teach.01 ----- 54:1-ARGM-TMP 57:1-ARG0 58:0-ARGM-MOD 63:0-rel 64:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 18 20 gold say say.01 ----- 19:1-ARG0 20:0-rel 21:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 166 11 gold say say.01 ----- 0:0-ARGM-DIS 3:2-ARG0 11:0-rel 12:2-ARG1
-bc/phoenix/00/phoenix_0000.parse 343 13 gold sign sign_up.03 ----- 10:1-ARG0 12:0-ARGM-MOD 13:0,14:1-rel 15:2-ARG3
 bc/phoenix/00/phoenix_0000.parse 112 3 gold feel feel.01 ----- 0:1-ARGM-TMP 2:1-ARG0 3:0-rel 5:2-ARGM-PRD
 bc/phoenix/00/phoenix_0000.parse 196 6 gold come come.01 ----- 0:1-ARGM-TMP 2:1-ARG1 6:0-rel
 bc/phoenix/00/phoenix_0000.parse 220 2 gold be be.01 ----- 1:1-ARG1 2:0-rel 3:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 33 3 gold check check.01 ----- 2:1-ARG0 3:0-rel 4:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 24 2 gold be be.01 ----- 0:1*4:1-ARGM-TMP 1:1-ARG1 2:0-rel 3:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 441 28 gold be be.01 ----- 23:1*26:1*27:1-ARG1 23:1*26:1-LINK-SLC 28:0-rel 29:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 343 8 gold think think.01 ----- 0:2-ARG0 7:1-ARGM-NEG 8:0-rel 9:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 143 12 gold play play.01 ----- 9:1*11:1-ARG0 12:0-rel
+bc/phoenix/00/phoenix_0000.parse 121 1 gold come come.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-DIR
 bc/phoenix/00/phoenix_0000.parse 47 13 gold be be.03 ----- 13:0-rel
+bc/phoenix/00/phoenix_0000.parse 9 3 gold need need.01 ----- 0:0-ARGM-DIS 2:1-ARG0 3:0-rel 4:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 217 15 gold think think.01 ----- 10:1-ARGM-TMP 14:1-ARG0 15:0-rel 16:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 313 1 gold think think.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 195 4 gold have have.01 ----- 4:0-rel
 bc/phoenix/00/phoenix_0000.parse 169 3 gold lose lose.02 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-ARGM-NEG 3:0-rel 4:1-ARG1 6:1-ARG3
 bc/phoenix/00/phoenix_0000.parse 119 6 gold count count.04 ----- 0:2-ARG1 5:0-ARGM-NEG 6:0-rel
 bc/phoenix/00/phoenix_0000.parse 9 6 gold polish polish.01 ----- 2:1*4:1-ARG0 6:0-rel 7:1-ARG1 8:1-ARGM-MNR
-bc/phoenix/00/phoenix_0000.parse 68 6 gold be be.01 ----- 0:1-ARGM-DIS 2:2-ARG1 6:0-rel 7:1-ARG2
-bc/phoenix/00/phoenix_0000.parse 224 27 gold be be.01 ----- 26:1-ARG1 27:0-rel 28:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 88 6 gold raid raid.01 ----- 4:0-ARGM-DIR 6:0-rel
 bc/phoenix/00/phoenix_0000.parse 82 10 gold dig dig_out.03 ----- 4:1*7:1-ARGM-TMP 4:1*7:1-LINK-SLC 8:1-ARG0 10:0,11:1-rel 12:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 125 13 gold fight fight.01 ----- 8:1-ARG0 13:0-rel
 bc/phoenix/00/phoenix_0000.parse 12 0 gold be be.01 ----- 0:0-rel 1:1-ARG1 2:1-ARG2 3:1-ARGM-TMP
-bc/phoenix/00/phoenix_0000.parse 374 4 gold be be.01 ----- 2:1*3:1-ARG1 4:0-rel 5:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 417 5 gold be be.01 ----- 3:1*7:1-ARG2 5:0-rel 6:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 200 8 gold change change.01 ----- 0:2-ARGM-TMP 6:1-ARG1 8:0-rel
-bc/phoenix/00/phoenix_0000.parse 84 11 gold have have.02 ----- 11:0-rel
 bc/phoenix/00/phoenix_0000.parse 28 5 gold go go.05 ----- 0:2-ARG0 5:0-rel 6:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 399 3 gold be be.03 ----- 3:0-rel
-bc/phoenix/00/phoenix_0000.parse 188 14 gold pass pass.03 ----- 8:1-ARGM-ADV 9:1-ARG1 12:0-ARGM-NEG 13:1-ARGM-TMP 14:0-rel
 bc/phoenix/00/phoenix_0000.parse 103 27 gold be be.01 ----- 22:1*28:1-ARG2 23:1*25:1-ARG1 27:0-rel
-bc/phoenix/00/phoenix_0000.parse 440 13 gold be be.03 ----- 13:0-rel
+bc/phoenix/00/phoenix_0000.parse 334 3 gold run run.02 ----- 2:1-ARG0 3:0-rel 4:1-ARGM-DIR 5:2-ARGM-PRP
 bc/phoenix/00/phoenix_0000.parse 189 24 gold be be.01 ----- 23:1-ARG1 24:0-rel 25:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 163 2 gold have have.01 ----- 2:0-rel
-bc/phoenix/00/phoenix_0000.parse 234 4 gold encounter encounter.01 ----- 0:1-ARGM-TMP 3:1-ARG0 4:0-rel 5:3-ARG1
-bc/phoenix/00/phoenix_0000.parse 222 4 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARG1 4:0-rel 6:5-ARG2
-bc/phoenix/00/phoenix_0000.parse 351 17 gold do do.01 ----- 17:0-rel
+bc/phoenix/00/phoenix_0000.parse 212 9 gold be be.02 ----- 9:0-rel 13:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 243 1 gold be be.02 ----- 0:1-ARG1 1:0-rel
 bc/phoenix/00/phoenix_0000.parse 167 18 gold be be.01 ----- 13:1-ARGM-TMP 14:0-ARGM-MOD 15:0-ARGM-NEG 16:1-ARG1 18:0-rel 19:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 335 5 gold love love.01 ----- 3:1-ARG0 5:0-rel 6:1-ARG1 7:2-ARGM-TMP
 bc/phoenix/00/phoenix_0000.parse 108 19 gold write write.01 ----- 4:2-ARGM-LOC 17:1-ARG0 19:0-rel 20:1-ARGM-MNR 23:2-ARG1 32:1-ARGM-PRD
 bc/phoenix/00/phoenix_0000.parse 208 17 gold be be.01 ----- 16:1-ARG1 17:0-rel 18:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 258 6 gold cry cry.02 ----- 1:2-ARG0 6:0-rel
-bc/phoenix/00/phoenix_0000.parse 18 45 gold say say.01 ----- 40:1*43:1-ARG0 45:0-rel 47:2-ARG1
-bc/phoenix/00/phoenix_0000.parse 80 29 gold be be.01 ----- 28:1-ARG1 29:0-rel 30:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 361 8 gold be be.01 ----- 0:1-ARGM-TMP 7:1-ARG1 8:0-rel 10:1-ARGM-TMP 11:3-ARG2
 bc/phoenix/00/phoenix_0000.parse 86 27 gold rush rush.01 ----- 26:1-ARG0 27:0-rel 28:1-ARGM-DIR 29:1-ARGM-ADV
 bc/phoenix/00/phoenix_0000.parse 356 4 gold be be.03 ----- 4:0-rel
 bc/phoenix/00/phoenix_0000.parse 79 26 gold manage manage.02 ----- 23:1*27:1-ARGM-MNR 24:0-ARGM-MOD 25:1-ARG0 26:0-rel
 bc/phoenix/00/phoenix_0000.parse 46 6 gold do do.02 ----- 0:2-ARGM-TMP 4:1-ARG0 5:1-ARGM-TMP 6:0-rel 7:2-ARG1 15:2-ARGM-PRP
 bc/phoenix/00/phoenix_0000.parse 356 1 gold think think.01 ----- 0:1-ARG0 1:0-rel 3:2-ARG1
-bc/phoenix/00/phoenix_0000.parse 267 13 gold give give.01 ----- 11:1-ARG0 13:0-rel 14:1-ARG2 16:1-ARG1
+bc/phoenix/00/phoenix_0000.parse 131 13 gold take take.01 ----- 9:1-ARG0 13:0-rel 14:1-ARG1 16:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 427 16 gold see see.01 ----- 8:1*13:1*17:1-ARG1 8:1*13:1-LINK-SLC 14:1-ARG0 15:1-ARGM-TMP 16:0-rel 18:1-ARGM-PRD
 bc/phoenix/00/phoenix_0000.parse 28 14 gold chase chase.01 ----- 0:2-ARG0 14:0-rel 15:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 374 25 gold know know.01 ----- 24:1-ARG0 25:0-rel 26:2-ARG1
@@ -475,13 +461,12 @@ bc/phoenix/00/phoenix_0000.parse 375 4 gold come come.01 ----- 0:1-ARGM-DIS 1:1-
 bc/phoenix/00/phoenix_0000.parse 221 3 gold go go.06 ----- 0:1-ARG1 2:1-ARG0 3:0-rel 4:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 366 1 gold project project.01 ----- 1:0-rel 2:0-ARG0
 bc/phoenix/00/phoenix_0000.parse 403 21 gold cross cross.02 ----- 18:1*20:1-ARG0 21:0-rel 22:1-ARGM-DIR 24:1-ARGM-MNR
+bc/phoenix/00/phoenix_0000.parse 206 4 gold be be.01 ----- 0:2*5:1-ARG1 4:0-rel 6:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 205 15 gold educate educate.01 ----- 10:1*12:1*13:1-ARG0 10:1*12:1-LINK-SLC 15:0-rel 16:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 324 15 gold think think.01 ----- 14:1-ARG0 15:0-rel 16:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 65 7 gold say say.01 ----- 3:1-ARG0 4:1-ARGM-DIS 6:0-ARGM-MOD 7:0-rel 8:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 125 11 gold fight fight.01 ----- 8:1-ARG0 11:0-rel
 bc/phoenix/00/phoenix_0000.parse 105 13 gold be be.01 ----- 11:1*19:1-ARGM-TMP 12:1-ARG1 13:0-rel 14:1-ARG2
-bc/phoenix/00/phoenix_0000.parse 278 14 gold forgive forgive.01 ----- 12:1-ARG0 13:0-ARGM-MOD 14:0-rel 15:1-ARG1
-bc/phoenix/00/phoenix_0000.parse 337 5 gold be be.02 ----- 5:0-rel 6:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 233 2 gold be be.01 ----- 0:1*6:1-ARGM-TMP 1:1-ARG1 2:0-rel 3:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 82 3 gold remember remember.01 ----- 2:1-ARG0 3:0-rel 4:2,19:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 212 50 gold teach teach.01 ----- 41:1-ARGM-TMP 42:1-ARG0 50:0-rel 51:1-ARG2
@@ -489,101 +474,115 @@ bc/phoenix/00/phoenix_0000.parse 197 21 gold be be.03 ----- 21:0-rel
 bc/phoenix/00/phoenix_0000.parse 449 12 gold express express.01 ----- 5:1*13:1-ARG1 6:1*10:1-ARG0 12:0-rel
 bc/phoenix/00/phoenix_0000.parse 244 12 gold think think.01 ----- 11:1-ARG0 12:0-rel
 bc/phoenix/00/phoenix_0000.parse 231 3 gold help help.01 ----- 0:1-ARGM-DIS 2:1-ARG0 3:0-rel 4:1-ARG2
-bc/phoenix/00/phoenix_0000.parse 168 4 gold say say.01 ----- 2:1*6:1-ARGM-TMP 3:1-ARG0 4:0-rel 5:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 236 17 gold go go.06 ----- 14:1*22:1-ARGM-MNR 16:1-ARG0 17:0-rel 18:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 95 12 gold mess mess.01 ----- 9:1*11:1-ARG0 12:0-rel 13:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 226 6 gold say say.01 ----- 0:1-ARGM-DIS 2:1-ARGM-DIS 4:1-ARGM-TMP 5:1-ARG0 6:0-rel 8:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 212 22 gold bring bring.01 ----- 21:1-ARG0 22:0-rel 23:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 394 10 gold turn turn.01 ----- 5:1-ARG0 6:0-ARGM-MOD 10:0-rel 11:1-ARGM-MNR
+bc/phoenix/00/phoenix_0000.parse 238 2 gold be be.01 ----- 0:1*9:1-ARGM-TMP 1:1-ARG1 2:0-rel 3:1-ARG2 7:1-ARGM-ADV
 bc/phoenix/00/phoenix_0000.parse 9 1 gold do do.01 ----- 1:0-rel
-bc/phoenix/00/phoenix_0000.parse 0 9 gold have have.01 ----- 9:0-rel
+bc/phoenix/00/phoenix_0000.parse 275 11 gold hit hit.01 ----- 10:1-ARG2 11:0-rel 12:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 215 24 gold study study.01 ----- 22:1-ARG0 24:0-rel
-bc/phoenix/00/phoenix_0000.parse 200 2 gold get get.05 ----- 0:1*5:1-ARGM-TMP 1:1-ARG1 2:0-rel 3:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 367 3 gold project project.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:1-ARGM-ADV 3:0-rel
 bc/phoenix/00/phoenix_0000.parse 122 2 gold have have.03 ----- 1:1-ARG0 2:0-rel 3:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 444 13 gold think think.01 ----- 6:1-ARGM-TMP 12:1-ARG0 13:0-rel 14:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 73 13 gold overcome overcome.01 ----- 7:1*10:1-ARGM-MNR 7:1*10:1-LINK-SLC 11:1-ARG0 12:0-ARGM-MOD 13:0-rel 14:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 448 27 gold make make.01 ----- 15:3-ARG0 27:0-rel 28:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 241 13 gold see see.01 ----- 9:1*12:1-ARG0 13:0-rel 14:1-ARG1 16:1-ARGM-MNR
-bc/phoenix/00/phoenix_0000.parse 313 19 gold go go.02 ----- 17:1-ARG0 19:0-rel 20:1-ARG4
 bc/phoenix/00/phoenix_0000.parse 86 11 gold hit hit.01 ----- 0:1-ARGM-TMP 1:2-ARG2 11:0-rel 12:1-ARG1 13:1-ARGM-LOC
 bc/phoenix/00/phoenix_0000.parse 274 21 gold throw throw.01 ----- 0:1-ARGM-DIS 1:1-ARGM-TMP 3:1-ARG0 4:0-ARGM-MOD 21:0-rel 22:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 444 10 gold be be.01 ----- 6:1-ARGM-TMP 8:1-ARG1 9:1-ARGM-ADV 10:0-rel
 bc/phoenix/00/phoenix_0000.parse 118 1 gold think think.01 ----- 0:1-ARG0 1:0-rel 3:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 412 10 gold transfuse transfuse.101 ----- 10:0-rel
+bc/phoenix/00/phoenix_0000.parse 8 5 gold sleep sleep.01 ----- 2:1*14:1-ARGM-TMP 3:1-ARG0 5:0-rel 6:1-ARGM-EXT
 bc/phoenix/00/phoenix_0000.parse 440 19 gold see see.01 ----- 0:1-ARGM-TMP 1:1-ARGM-TMP 8:2-ARGM-TMP 18:1-ARG0 19:0-rel 20:1-ARG1 22:1-ARGM-TMP
 bc/phoenix/00/phoenix_0000.parse 5 2 gold shave shave.01 ----- 2:0-rel 3:0-ARG1
 bc/phoenix/00/phoenix_0000.parse 444 17 gold be be.01 ----- 15:1-ARG1 16:0-ARGM-MOD 17:0-rel 18:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 18 49 gold liken like.02 ----- 47:1-ARG0 48:0-ARGM-MOD 49:0-rel 50:2-ARG1
+bc/phoenix/00/phoenix_0000.parse 322 9 gold feel feel.01 ----- 5:1-ARGM-TMP 7:1-ARG0 9:0-rel 10:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 406 2 gold name name.02 ----- 0:1*3:1-ARG1 2:0-rel 4:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 22 4 gold tell tell.01 ----- 0:0-ARGM-DIS 1:1-ARGM-TMP 2:1-ARG0 4:0-rel 5:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 279 6 gold be be.01 ----- 2:1-ARGM-DIS 6:0-rel 7:1-ARG2 10:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 450 2 gold be be.03 ----- 2:0-rel
 bc/phoenix/00/phoenix_0000.parse 302 10 gold be be.03 ----- 10:0-rel
-bc/phoenix/00/phoenix_0000.parse 333 17 gold read read.01 ----- 12:1-ARG0 17:0-rel 18:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 370 3 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 2:0-ARGM-MOD 3:0-rel 4:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 307 9 gold do do.01 ----- 9:0-rel
+bc/phoenix/00/phoenix_0000.parse 383 7 gold be be.01 ----- 0:1*8:1-ARG2 2:1*5:1-ARG1 7:0-rel
+bc/phoenix/00/phoenix_0000.parse 445 8 gold mean mean.01 ----- 7:1-ARG0 8:0-rel
+bc/phoenix/00/phoenix_0000.parse 212 59 gold take take_up.31 ----- 54:1-ARGM-TMP 57:1-ARG0 58:0-ARGM-MOD 59:0,60:1-rel 61:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 154 3 gold denounce denounce.01 ----- 0:1*4:1-ARG1 3:0-rel
 bc/phoenix/00/phoenix_0000.parse 254 2 gold see see.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG1
+bc/phoenix/00/phoenix_0000.parse 11 7 gold rub rub.01 ----- 0:1-ARGM-DIS 2:1-ARGM-TMP 6:1-ARG0 7:0-rel 8:1-ARGM-PRD 9:1-ARG3
 bc/phoenix/00/phoenix_0000.parse 133 1 gold take take.LV ----- 1:0-rel 3:0-ARGM-PRR
+bc/phoenix/00/phoenix_0000.parse 251 2 gold remember remember.01 ----- 0:1-ARG0 1:1-ARGM-TMP 2:0-rel 3:1-ARG1 4:1-ARGM-TMP
 bc/phoenix/00/phoenix_0000.parse 0 21 gold ask ask.01 ----- 15:1*19:1-ARG0 21:0-rel 22:1-ARG2 23:1-ARG1
+bc/phoenix/00/phoenix_0000.parse 395 17 gold get get.03 ----- 15:1-ARGM-TMP 16:1-ARG1 17:0-rel 18:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 296 18 gold be be.01 ----- 14:1-ARGM-TMP 17:1-ARG1 18:0-rel 19:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 358 9 gold be be.01 ----- 8:1-ARG1 9:0-rel 10:0-ARGM-NEG 11:2-ARG2
+bc/phoenix/00/phoenix_0000.parse 28 27 gold preserve preserve.01 ----- 18:2-ARGM-TMP 21:1*28:1-ARG1 27:0-rel 29:1-ARGM-LOC
 bc/phoenix/00/phoenix_0000.parse 335 4 gold have have.01 ----- 4:0-rel
-bc/phoenix/00/phoenix_0000.parse 223 27 gold be be.01 ----- 25:1-ARG1 27:0-rel 28:1-ARG2
-bc/phoenix/00/phoenix_0000.parse 199 3 gold struggle struggle.01 ----- 0:1-ARG0 2:1-ARGM-TMP 3:0-rel 4:1-ARGM-LOC
+bc/phoenix/00/phoenix_0000.parse 6 2 gold have have.02 ----- 2:0-rel
 bc/phoenix/00/phoenix_0000.parse 322 8 gold be be.03 ----- 8:0-rel
 bc/phoenix/00/phoenix_0000.parse 204 10 gold organize organize.01 ----- 10:0-rel 13:0-ARG1
-bc/phoenix/00/phoenix_0000.parse 362 13 gold get get.01 ----- 10:1-ARG0 11:0-ARGM-MOD 12:0-ARGM-NEG 13:0-rel 14:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 451 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 105 41 gold fight fight.01 ----- 37:1*39:1-ARG0 41:0-rel 42:1-ARG1
-bc/phoenix/00/phoenix_0000.parse 197 6 gold criticize criticize.01 ----- 0:2*7:1-ARG1 6:0-rel 8:1-ARG2 12:1-ARGM-LOC
 bc/phoenix/00/phoenix_0000.parse 197 4 gold be be.03 ----- 4:0-rel
 bc/phoenix/00/phoenix_0000.parse 210 8 gold go go.02 ----- 5:1-ARGM-TMP 7:1-ARG0 8:0-rel 9:1-ARG4
 bc/phoenix/00/phoenix_0000.parse 128 16 gold do do.01 ----- 16:0-rel
 bc/phoenix/00/phoenix_0000.parse 432 10 gold play play.02 ----- 5:1*7:1*11:1-ARG1 5:1*7:1-LINK-SLC 8:1-ARG0 10:0-rel
 bc/phoenix/00/phoenix_0000.parse 71 21 gold fight fight.01 ----- 13:1*16:1*17:1*19:1-ARG0 13:1*16:1-LINK-SLC 21:0-rel 22:1-ARG1
+bc/phoenix/00/phoenix_0000.parse 216 7 gold do do.01 ----- 7:0-rel
 bc/phoenix/00/phoenix_0000.parse 44 5 gold leave leave.13 ----- 0:2-ARG0 5:0-rel 6:1,10:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 46 23 gold take take.01 ----- 4:1*15:1-ARG0 21:1-ARGM-TMP 23:0-rel 24:1-ARG1 25:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 301 4 gold be be.02 ----- 0:1-ARGM-TMP 4:0-rel 5:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 119 4 gold do do.01 ----- 4:0-rel
 bc/phoenix/00/phoenix_0000.parse 344 5 gold fail fail.01 ----- 0:0-ARGM-DIS 1:1-ARG1 3:1-ARGM-DIS 5:0-rel 6:2-ARGM-TMP
-bc/phoenix/00/phoenix_0000.parse 210 26 gold go go.02 ----- 25:1-ARG0 26:0-rel 27:1-ARG4
+bc/phoenix/00/phoenix_0000.parse 72 17 gold be be.01 ----- 13:1*15:1-ARG1 17:0-rel 18:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 246 7 gold see see.01 ----- 0:1*3:1*6:1-ARG0 7:0-rel 8:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 438 8 gold talk talk.01 ----- 6:1-ARG0 8:0-rel 11:2-ARGM-PRP
 bc/phoenix/00/phoenix_0000.parse 249 7 gold see see.01 ----- 4:1*8:1-ARG1 6:1-ARG0 7:0-rel
 bc/phoenix/00/phoenix_0000.parse 325 17 gold try try.01 ----- 14:1-ARG0 16:0-ARGM-NEG 17:0-rel
 bc/phoenix/00/phoenix_0000.parse 223 17 gold be be.01 ----- 16:1-ARG1 17:0-rel 18:1-ARG2
-bc/phoenix/00/phoenix_0000.parse 334 3 gold run run.02 ----- 2:1-ARG0 3:0-rel 4:1-ARGM-DIR 5:2-ARGM-PRP
+bc/phoenix/00/phoenix_0000.parse 440 13 gold be be.03 ----- 13:0-rel
+bc/phoenix/00/phoenix_0000.parse 351 17 gold do do.01 ----- 17:0-rel
 bc/phoenix/00/phoenix_0000.parse 397 3 gold be be.03 ----- 3:0-rel
 bc/phoenix/00/phoenix_0000.parse 391 7 gold do do.02 ----- 3:2*8:1-ARG1 6:1-ARG0 7:0-rel
-bc/phoenix/00/phoenix_0000.parse 404 1 gold be be.01 ----- 0:1*8:1-ARG2 1:0-rel 2:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 107 11 gold stand stand.01 ----- 8:1-ARG1 11:0-rel 12:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 267 13 gold give give.01 ----- 11:1-ARG0 13:0-rel 14:1-ARG2 16:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 320 10 gold have have.01 ----- 10:0-rel
 bc/phoenix/00/phoenix_0000.parse 368 7 gold realize realize.01 ----- 1:1-ARGM-TMP 3:1-ARGM-LOC 5:1-ARG0 6:1-ARGM-ADV 7:0-rel 8:1-ARG1
+bc/phoenix/00/phoenix_0000.parse 135 1 gold take take.LV ----- 1:0-rel 3:0-ARGM-PRR
+bc/phoenix/00/phoenix_0000.parse 278 14 gold forgive forgive.01 ----- 12:1-ARG0 13:0-ARGM-MOD 14:0-rel 15:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 212 6 gold remember remember.01 ----- 0:1-ARGM-DIS 3:1-ARGM-TMP 5:1-ARG0 6:0-rel 7:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 180 6 gold liken like.02 ----- 2:1*4:1*8:1-ARGM-CAU 2:1*4:1-LINK-SLC 5:1-ARG0 6:0-rel 7:1-ARG1
+bc/phoenix/00/phoenix_0000.parse 0 9 gold have have.01 ----- 9:0-rel
 bc/phoenix/00/phoenix_0000.parse 384 3 gold report report.01 ----- 3:0-rel 5:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 180 15 gold bring bring_up.02 ----- 14:1-ARG0 15:0,16:1-rel 17:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 443 1 gold give give.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 210 34 gold go go.02 ----- 33:1-ARG0 34:0-rel 35:1-ARG4
 bc/phoenix/00/phoenix_0000.parse 190 23 gold go go.02 ----- 14:1-ARG0 21:0-ARGM-MOD 22:0-ARGM-NEG 23:0-rel 24:1-ARG4
 bc/phoenix/00/phoenix_0000.parse 37 0 gold be be.02 ----- 0:0-rel 2:2-ARG1
-bc/phoenix/00/phoenix_0000.parse 317 19 gold be be.03 ----- 19:0-rel
+bc/phoenix/00/phoenix_0000.parse 91 2 gold crack crack.02 ----- 1:1-ARG0 2:0-rel 3:2-ARG1 6:2-ARGM-PRD
 bc/phoenix/00/phoenix_0000.parse 165 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:3-ARG1
 bc/phoenix/00/phoenix_0000.parse 335 1 gold think think.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 166 7 gold reason reason.01 ----- 0:0-ARGM-DIS 3:2-ARG0 7:0-rel 8:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 125 9 gold fight fight.01 ----- 8:1-ARG0 9:0-rel
 bc/phoenix/00/phoenix_0000.parse 59 5 gold force force.01 ----- 5:0-rel 6:1-ARG1 7:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 342 18 gold pass pass.07 ----- 0:1-ARGM-DIS 2:1-ARG1 17:0-ARGM-NEG 18:0-rel 19:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 336 3 gold do do.01 ----- 3:0-rel
 bc/phoenix/00/phoenix_0000.parse 33 1 gold have have.04 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 443 8 gold take take.01 ----- 7:1-ARG0 8:0-rel 9:1-ARG1 10:1-ARG2 13:2-ARGM-PRP
 bc/phoenix/00/phoenix_0000.parse 314 22 gold move move.01 ----- 17:1*19:1*24:1-ARGM-MNR 17:1*19:1-LINK-SLC 20:1-ARG0 22:0-rel 23:1-ARGM-DIR
+bc/phoenix/00/phoenix_0000.parse 140 4 gold be be.01 ----- 3:1-ARG1 4:0-rel 5:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 246 5 gold go go.05 ----- 0:1*3:1-ARG0 5:0-rel 6:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 79 16 gold be be.01 ----- 10:1-ARGM-ADV 15:1-ARG1 16:0-rel 17:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 347 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
-bc/phoenix/00/phoenix_0000.parse 119 2 gold say say.01 ----- 0:1*3:1-ARG1 1:1-ARG0 2:0-rel
 bc/phoenix/00/phoenix_0000.parse 452 3 gold do do.01 ----- 3:0-rel
 bc/phoenix/00/phoenix_0000.parse 393 1 gold think think.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 47 14 gold call call.01 ----- 9:1*15:1-ARG1 11:0-ARGM-MOD 12:0-ARGM-NEG 14:0-rel 16:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 377 5 gold come come.01 ----- 0:1-ARGM-DIS 2:1-ARG1 4:1-ARGM-TMP 5:0-rel 6:1-ARGM-PRD
 bc/phoenix/00/phoenix_0000.parse 421 8 gold be be.01 ----- 0:1-ARGM-ADV 6:1-ARG1 8:0-rel 9:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 68 6 gold be be.01 ----- 0:1-ARGM-DIS 2:2-ARG1 6:0-rel 7:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 328 12 gold work work.01 ----- 10:1-ARG0 11:0-ARGM-MOD 12:0-rel 13:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 326 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 379 5 gold do do.01 ----- 5:0-rel
@@ -604,7 +603,8 @@ bc/phoenix/00/phoenix_0000.parse 266 6 gold liken like.02 ----- 5:1-ARG0 6:0-rel
 bc/phoenix/00/phoenix_0000.parse 126 4 gold take take.LV ----- 4:0-rel 6:0-ARGM-PRR
 bc/phoenix/00/phoenix_0000.parse 136 1 gold take take.LV ----- 1:0-rel 3:0-ARGM-PRR
 bc/phoenix/00/phoenix_0000.parse 90 7 gold rush rush.01 ----- 0:1-ARGM-DIS 1:1-ARG0 7:0-rel 8:1-ARG1
-bc/phoenix/00/phoenix_0000.parse 278 6 gold express express.01 ----- 6:0-rel 7:1-ARG0
+bc/phoenix/00/phoenix_0000.parse 343 13 gold sign sign_up.03 ----- 10:1-ARG0 12:0-ARGM-MOD 13:0,14:1-rel 15:2-ARG3
+bc/phoenix/00/phoenix_0000.parse 305 5 gold be be.01 ----- 0:1-ARGM-TMP 2:1-ARG1 5:0-rel 6:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 82 15 gold raid raid.01 ----- 13:0-ARGM-DIR 15:0-rel
 bc/phoenix/00/phoenix_0000.parse 58 17 gold be be.01 ----- 16:1-ARG1 17:0-rel 18:0-ARGM-NEG 19:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 255 15 gold be be.01 ----- 14:1-ARG1 15:0-rel 16:1-ARG2
@@ -626,9 +626,8 @@ bc/phoenix/00/phoenix_0000.parse 355 22 gold do do.02 ----- 21:1-ARG0 22:0-rel 2
 bc/phoenix/00/phoenix_0000.parse 27 6 gold transfer transfer.01 ----- 0:1-ARGM-TMP 3:1-ARG0 6:0-rel 7:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 382 1 gold be be.02 ----- 1:0-rel 2:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 249 0 gold do do.01 ----- 0:0-rel
-bc/phoenix/00/phoenix_0000.parse 182 2 gold be be.01 ----- 0:1*5:1-ARG2 2:0-rel 6:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 173 12 gold let let.01 ----- 10:1-ARG0 11:1-ARGM-ADV 12:0-rel 13:2-ARG1
-bc/phoenix/00/phoenix_0000.parse 441 28 gold be be.01 ----- 23:1*26:1*27:1-ARG1 23:1*26:1-LINK-SLC 28:0-rel 29:2-ARG2
+bc/phoenix/00/phoenix_0000.parse 219 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 254 6 gold be be.01 ----- 0:1-ARGM-DIS 1:2-ARG1 6:0-rel 7:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 359 8 gold go go.02 ----- 4:1*6:1*14:1-ARGM-TMP 4:1*6:1-LINK-SLC 7:1-ARG0 8:0-rel 9:1-ARG4
 bc/phoenix/00/phoenix_0000.parse 18 7 gold be be.02 ----- 7:0-rel 8:2-ARG1
@@ -638,23 +637,19 @@ bc/phoenix/00/phoenix_0000.parse 383 1 gold be be.03 ----- 1:0-rel
 bc/phoenix/00/phoenix_0000.parse 115 6 gold fight fight.01 ----- 4:1-ARG0 6:0-rel 7:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 174 4 gold be be.01 ----- 3:1-ARG1 4:0-rel 5:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 34 4 gold count count.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:1-ARGM-NEG 4:0-rel 5:2-ARG1 7:1-ARGM-MNR
-bc/phoenix/00/phoenix_0000.parse 235 2 gold become become.01 ----- 0:1-ARG1 2:0-rel 3:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 306 15 gold change change.01 ----- 10:1*12:1*13:1-ARG0 10:1*12:1-LINK-SLC 14:0-ARGM-MOD 15:0-rel 16:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 440 3 gold go go.02 ----- 2:1-ARG0 3:0-rel 4:1-ARG4
 bc/phoenix/00/phoenix_0000.parse 284 17 gold go go.04 ----- 17:0-rel
-bc/phoenix/00/phoenix_0000.parse 9 3 gold need need.01 ----- 0:0-ARGM-DIS 2:1-ARG0 3:0-rel 4:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 236 8 gold liken like.02 ----- 4:1-ARG0 8:0-rel 9:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 126 6 gold whack whack.01 ----- 3:1-ARG0 4:0-ARGM-LVB 6:0-rel
 bc/phoenix/00/phoenix_0000.parse 58 3 gold force force.01 ----- 1:1-ARG1 3:0-rel
-bc/phoenix/00/phoenix_0000.parse 36 2 gold see see.01 ----- 1:1-ARG0 2:0-rel
+bc/phoenix/00/phoenix_0000.parse 22 3 gold be be.03 ----- 3:0-rel
 bc/phoenix/00/phoenix_0000.parse 274 13 gold toss toss.01 ----- 0:1-ARGM-DIS 1:1-ARGM-TMP 3:1-ARG0 4:0-ARGM-MOD 13:0-rel 14:1-ARG1 16:1-ARGM-DIR
 bc/phoenix/00/phoenix_0000.parse 427 1 gold have have.01 ----- 1:0-rel
 bc/phoenix/00/phoenix_0000.parse 188 11 gold have have.01 ----- 11:0-rel
-bc/phoenix/00/phoenix_0000.parse 0 16 gold have have.01 ----- 16:0-rel
 bc/phoenix/00/phoenix_0000.parse 138 0 gold be be.01 ----- 0:0-rel 1:0-ARGM-NEG 2:1-ARG1 3:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 141 0 gold do do.01 ----- 0:0-rel
 bc/phoenix/00/phoenix_0000.parse 351 19 gold matter matter.01 ----- 16:1-ARG1 18:0-ARGM-NEG 19:0-rel
-bc/phoenix/00/phoenix_0000.parse 193 4 gold be be.01 ----- 0:2-ARG1 4:0-rel 5:2-ARG2 11:1-ARGM-CAU
 bc/phoenix/00/phoenix_0000.parse 361 4 gold be be.01 ----- 3:1-ARG1 4:0-rel 5:1-ARGM-ADV
 bc/phoenix/00/phoenix_0000.parse 107 4 gold go go.02 ----- 0:1-ARGM-TMP 3:1-ARG0 4:0-rel 5:1-ARG4
 bc/phoenix/00/phoenix_0000.parse 169 30 gold excuse excuse.02 ----- 15:1*26:1-ARG0 30:0-rel 31:1-ARG3
@@ -673,54 +668,64 @@ bc/phoenix/00/phoenix_0000.parse 304 21 gold change change.01 ----- 0:1-ARGM-ADV
 bc/phoenix/00/phoenix_0000.parse 159 27 gold hack hack.01 ----- 25:1-ARG0 26:0-ARGM-MOD 27:0-rel 28:1-ARG1 30:1-ARGM-PRD
 bc/phoenix/00/phoenix_0000.parse 105 32 gold yell yell.01 ----- 30:1-ARG0 32:0-rel 33:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 216 12 gold think think.01 ----- 11:1-ARG0 12:0-rel 13:1-ARG1
-bc/phoenix/00/phoenix_0000.parse 408 38 gold turn turn.02 ----- 36:1-ARGM-TMP 37:1-ARG1 38:0-rel 39:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 132 7 gold whack whack.01 ----- 4:1-ARG0 5:0-ARGM-LVB 7:0-rel 8:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 351 11 gold feel feel.02 ----- 0:1-ARGM-DIS 2:1-ARGM-TMP 4:2-ARGM-PRD 10:1-ARG0 11:0-rel 13:1-ARGM-DIS 15:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 303 12 gold become become.01 ----- 5:1-ARG1 12:0-rel 13:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 292 14 gold work work.01 ----- 2:1*10:1-ARG0 14:0-rel
 bc/phoenix/00/phoenix_0000.parse 41 12 gold be be.03 ----- 12:0-rel
 bc/phoenix/00/phoenix_0000.parse 146 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-ADV 3:3-ARG2
 bc/phoenix/00/phoenix_0000.parse 344 8 gold take take.01 ----- 6:1*12:1-ARGM-TMP 7:1-ARG0 8:0-rel 9:1-ARG1
+bc/phoenix/00/phoenix_0000.parse 448 2 gold have have.01 ----- 2:0-rel
+bc/phoenix/00/phoenix_0000.parse 307 5 gold be be.01 ----- 3:1-ARG1 5:0-rel 6:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 362 15 gold bear bear.06 ----- 14:0-ARG1 15:0-rel
-bc/phoenix/00/phoenix_0000.parse 305 5 gold be be.01 ----- 0:1-ARGM-TMP 2:1-ARG1 5:0-rel 6:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 355 6 gold have have.02 ----- 6:0-rel
+bc/phoenix/00/phoenix_0000.parse 261 8 gold be be.01 ----- 0:1-ARGM-DIS 8:0-rel 9:1-ARG1 10:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 14 0 gold do do.01 ----- 0:0-rel
 bc/phoenix/00/phoenix_0000.parse 383 4 gold suppose suppose.02 ----- 2:1-ARG1 4:0-rel 5:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 34 3 gold do do.01 ----- 3:0-rel
 bc/phoenix/00/phoenix_0000.parse 166 17 gold understand understand.01 ----- 12:1-ARGM-DIS 14:1-ARG0 16:0-ARGM-NEG 17:0-rel 18:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 5 4 gold be be.01 ----- 0:1-ARGM-ADV 1:1-ARG1 4:0-rel 5:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 142 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+bc/phoenix/00/phoenix_0000.parse 189 8 gold look look.01 ----- 3:1*7:1-ARG0 8:0-rel 9:1-ARG1 11:1-ARGM-TMP
 bc/phoenix/00/phoenix_0000.parse 274 6 gold pick pick_up.04 ----- 0:1-ARGM-DIS 1:1-ARGM-TMP 3:1-ARG0 4:0-ARGM-MOD 6:0,7:1-rel 8:2-ARG1
-bc/phoenix/00/phoenix_0000.parse 183 2 gold be be.01 ----- 0:1*4:1-ARG2 2:0-rel 3:1-ARG1 5:1-ARGM-TMP
 bc/phoenix/00/phoenix_0000.parse 165 9 gold have have.02 ----- 9:0-rel
-bc/phoenix/00/phoenix_0000.parse 304 2 gold turn turn.02 ----- 2:0-rel 3:1-ARG2 6:1-ARG1
+bc/phoenix/00/phoenix_0000.parse 51 11 gold be be.03 ----- 11:0-rel
+bc/phoenix/00/phoenix_0000.parse 189 18 gold be be.01 ----- 13:2-ARG1 17:0-ARGM-MOD 18:0-rel 19:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 224 27 gold be be.01 ----- 26:1-ARG1 27:0-rel 28:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 333 3 gold send send.02 ----- 0:1-ARGM-TMP 2:1-ARG0 3:0-rel 4:1-ARG1 5:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 173 8 gold be be.01 ----- 7:1-ARG1 8:0-rel
+bc/phoenix/00/phoenix_0000.parse 403 19 gold start start.01 ----- 17:1-ARGM-TMP 18:1,20:2-ARG1 19:0-rel
+bc/phoenix/00/phoenix_0000.parse 258 16 gold cry cry.02 ----- 13:1-ARG0 15:0-ARGM-NEG 16:0-rel
 bc/phoenix/00/phoenix_0000.parse 326 21 gold be be.01 ----- 20:1-ARG1 21:0-rel 22:1-ARG2 24:1-ARGM-LOC
-bc/phoenix/00/phoenix_0000.parse 406 1 gold be be.03 ----- 1:0-rel
 bc/phoenix/00/phoenix_0000.parse 184 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 450 12 gold meet meet.02 ----- 10:1-ARG0 12:0-rel 13:3-ARG1 22:1-ARGM-LOC
 bc/phoenix/00/phoenix_0000.parse 412 3 gold get get.01 ----- 2:1-ARG0 3:0-rel
+bc/phoenix/00/phoenix_0000.parse 47 7 gold say say.01 ----- 6:1-ARG0 7:0-rel 8:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 296 27 gold be be.01 ----- 23:1-ARGM-TMP 26:1-ARG1 27:0-rel 28:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 449 9 gold want want.01 ----- 6:1-ARG0 8:1-ARGM-ADV 9:0-rel 10:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 170 3 gold ruin ruin.01 ----- 1:1*6:1-ARG1 2:1-ARGM-EXT 3:0-rel
 bc/phoenix/00/phoenix_0000.parse 0 18 gold want want.01 ----- 15:1-ARG0 17:1-ARGM-TMP 18:0-rel 19:2-ARG1
+bc/phoenix/00/phoenix_0000.parse 114 4 gold feel feel.01 ----- 0:1-ARGM-TMP 3:1-ARG0 4:0-rel 5:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 128 11 gold pay pay.01 ----- 5:1-ARGM-ADV 9:1-ARG0 10:0-ARGM-MOD 11:0-rel 12:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 212 33 gold say say.01 ----- 21:2-ARG1-DSP 32:1-ARG0 33:0-rel
 bc/phoenix/00/phoenix_0000.parse 105 38 gold have have.02 ----- 38:0-rel
 bc/phoenix/00/phoenix_0000.parse 116 8 gold think think.01 ----- 4:1*6:1*9:1-ARGM-MNR 4:1*6:1-LINK-SLC 7:1-ARG0 8:0-rel
 bc/phoenix/00/phoenix_0000.parse 342 4 gold go go.05 ----- 0:1-ARGM-DIS 2:1-ARG0 4:0-rel 5:2-ARG1
+bc/phoenix/00/phoenix_0000.parse 374 4 gold be be.01 ----- 2:1*3:1-ARG1 4:0-rel 5:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 396 8 gold inflame inflame.01 ----- 8:0-rel 9:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 115 2 gold feel feel.02 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 4:3-ARG1
+bc/phoenix/00/phoenix_0000.parse 278 6 gold express express.01 ----- 6:0-rel 7:1-ARG0
 bc/phoenix/00/phoenix_0000.parse 59 1 gold do do.01 ----- 1:0-rel
+bc/phoenix/00/phoenix_0000.parse 193 22 gold be be.03 ----- 22:0-rel
 bc/phoenix/00/phoenix_0000.parse 436 13 gold write write.01 ----- 9:1*11:1*14:1-ARG1 9:1*11:1-LINK-SLC 12:1-ARG0 13:0-rel
+bc/phoenix/00/phoenix_0000.parse 84 11 gold have have.02 ----- 11:0-rel
 bc/phoenix/00/phoenix_0000.parse 342 7 gold take take.01 ----- 2:1*5:1-ARG0 7:0-rel 8:2-ARG1
-bc/phoenix/00/phoenix_0000.parse 417 5 gold be be.01 ----- 3:1*7:1-ARG2 5:0-rel 6:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 390 5 gold be be.01 ----- 4:1-ARG1 5:0-rel 6:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 110 7 gold pass pass_by.17 ----- 6:1-ARG0 7:0,8:1-rel 9:1-ARGM-TMP
-bc/phoenix/00/phoenix_0000.parse 361 8 gold be be.01 ----- 0:1-ARGM-TMP 7:1-ARG1 8:0-rel 10:1-ARGM-TMP 11:3-ARG2
+bc/phoenix/00/phoenix_0000.parse 80 29 gold be be.01 ----- 28:1-ARG1 29:0-rel 30:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 224 19 gold achieve achieve.01 ----- 18:1-ARG0 19:0-rel 20:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 352 10 gold be be.01 ----- 0:1-ARGM-TMP 3:1-ARGM-LOC 9:1-ARG1 10:0-rel 11:1-ARG2
-bc/phoenix/00/phoenix_0000.parse 206 4 gold be be.01 ----- 0:2*5:1-ARG1 4:0-rel 6:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 378 5 gold be be.01 ----- 4:1-ARG1 5:0-rel 6:1-ARGM-TMP 7:2-ARG2
-bc/phoenix/00/phoenix_0000.parse 132 5 gold take take.LV ----- 5:0-rel 7:0-ARGM-PRR
 bc/phoenix/00/phoenix_0000.parse 441 14 gold be be.03 ----- 14:0-rel
 bc/phoenix/00/phoenix_0000.parse 168 12 gold ease ease.02 ----- 0:1-ARGM-DIS 2:2-ARGM-TMP 8:1-ARG1 11:1-ARGM-TMP 12:0-rel
 bc/phoenix/00/phoenix_0000.parse 224 6 gold decide decide.01 ----- 1:1*13:1-ARGM-TMP 2:2-ARG0 5:1-ARGM-TMP 6:0-rel 7:1-ARG1
@@ -732,11 +737,11 @@ bc/phoenix/00/phoenix_0000.parse 83 9 gold throw throw.01 ----- 0:1,5:1-ARG0 9:0
 bc/phoenix/00/phoenix_0000.parse 390 2 gold say say.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 4:3-ARG1
 bc/phoenix/00/phoenix_0000.parse 333 57 gold be be.01 ----- 54:1-ARGM-DIS 56:1-ARG1 57:0-rel 58:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 326 15 gold attend attend.01 ----- 9:1-ARGM-TMP 12:1-ARG0 15:0-rel 16:1-ARG1
+bc/phoenix/00/phoenix_0000.parse 303 7 gold have have.03 ----- 5:1-ARG0 7:0-rel 8:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 192 22 gold bring bring.01 ----- 21:1-ARG0 22:0-rel 23:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 420 1 gold do do.01 ----- 1:0-rel
 bc/phoenix/00/phoenix_0000.parse 200 15 gold change change.01 ----- 11:0-ARGM-NEG 12:1-ARG1 15:0-rel
 bc/phoenix/00/phoenix_0000.parse 333 7 gold deliver deliver.01 ----- 4:1*5:1-ARG0 7:0-rel 8:1-ARG1
-bc/phoenix/00/phoenix_0000.parse 33 6 gold see see.01 ----- 2:1*4:1-ARG0 6:0-rel 7:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 268 14 gold give give.01 ----- 7:1-ARGM-TMP 13:1-ARG0 14:0-rel 15:1-ARG2 17:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 5 12 gold be be.01 ----- 12:0-rel 13:0-ARGM-NEG 14:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 238 19 gold run run.01 ----- 14:1*17:1*18:1-ARG0 14:1*17:1-LINK-SLC 19:0-rel 20:1-ARG1
@@ -746,26 +751,29 @@ bc/phoenix/00/phoenix_0000.parse 445 4 gold find find.01 ----- 0:1-ARG0 2:0-ARGM
 bc/phoenix/00/phoenix_0000.parse 318 13 gold have have.01 ----- 13:0-rel
 bc/phoenix/00/phoenix_0000.parse 162 9 gold surround surround.01 ----- 6:2-ARG1 9:0-rel 10:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 317 12 gold reinstate reinstate.01 ----- 11:1-ARG0 12:0-rel 13:1-ARG1
-bc/phoenix/00/phoenix_0000.parse 215 13 gold copy copy.01 ----- 12:1-ARG0 13:0-rel 14:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 204 25 gold be be.01 ----- 25:0-rel 26:1-ARG1 27:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 235 2 gold become become.01 ----- 0:1-ARG1 2:0-rel 3:2-ARG2
+bc/phoenix/00/phoenix_0000.parse 188 14 gold pass pass.03 ----- 8:1-ARGM-ADV 9:1-ARG1 12:0-ARGM-NEG 13:1-ARGM-TMP 14:0-rel
 bc/phoenix/00/phoenix_0000.parse 256 3 gold cry cry.02 ----- 2:1-ARG0 3:0-rel 4:1-ARG1 6:1-ARGM-PRD
 bc/phoenix/00/phoenix_0000.parse 217 3 gold help help.01 ----- 0:1-ARG0 2:1-ARGM-ADV 3:0-rel 4:1-ARG2 5:1-ARGM-EXT
 bc/phoenix/00/phoenix_0000.parse 210 14 gold be be.03 ----- 14:0-rel
 bc/phoenix/00/phoenix_0000.parse 271 4 gold go go.02 ----- 2:1*7:1-ARGM-TMP 3:1-ARG0 4:0-rel 5:1-ARG4
 bc/phoenix/00/phoenix_0000.parse 182 8 gold move move.01 ----- 6:1*11:1-ARGM-TMP 7:1-ARG0 8:0-rel 9:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 2 6 gold have have.03 ----- 0:1-ARGM-ADV 1:1,5:1-ARG0 3:1-ARGM-ADV 6:0-rel 7:2-ARG1
-bc/phoenix/00/phoenix_0000.parse 180 9 gold be be.01 ----- 2:2-ARG1 9:0-rel 10:1-ARG2
-bc/phoenix/00/phoenix_0000.parse 448 2 gold have have.01 ----- 2:0-rel
+bc/phoenix/00/phoenix_0000.parse 167 2 gold do do.02 ----- 1:1-ARG0 2:0-rel 3:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 409 2 gold do do.01 ----- 2:0-rel
 bc/phoenix/00/phoenix_0000.parse 23 3 gold start start.01 ----- 2:1-ARG0 3:0-rel 4:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 0 3 gold be be.01 ----- 2:1-ARG1 3:0-rel 4:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 352 13 gold wreck wreck.01 ----- 12:0-ARGM-ADJ 13:0-rel
 bc/phoenix/00/phoenix_0000.parse 197 5 gold be be.03 ----- 5:0-rel
+bc/phoenix/00/phoenix_0000.parse 334 7 gold try try.01 ----- 2:1*5:1-ARG0 7:0-rel
 bc/phoenix/00/phoenix_0000.parse 382 17 gold report report.01 ----- 15:1-ARG0 17:0-rel 18:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 436 6 gold want want.01 ----- 2:1*4:1*7:1-ARG1 2:1*4:1-LINK-SLC 5:1-ARG0 6:0-rel
 bc/phoenix/00/phoenix_0000.parse 150 0 gold be be.01 ----- 0:0-rel 1:1-ARG1 3:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 366 13 gold be be.01 ----- 8:1-ARGM-DIS 12:1-ARG1 13:0-rel 14:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 33 6 gold see see.01 ----- 2:1*4:1-ARG0 6:0-rel 7:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 169 21 gold whack whack.01 ----- 14:1-ARGM-TMP 15:1-ARG0 19:0-ARGM-LVB 21:0-rel 22:1-ARG1 26:2-ARGM-PRP
+bc/phoenix/00/phoenix_0000.parse 234 4 gold encounter encounter.01 ----- 0:1-ARGM-TMP 3:1-ARG0 4:0-rel 5:3-ARG1
 bc/phoenix/00/phoenix_0000.parse 333 24 gold read read.01 ----- 23:1-ARG0 24:0-rel 25:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 441 30 gold float float.01 ----- 29:1-ARG1 30:0-rel 31:1-ARGM-LOC
 bc/phoenix/00/phoenix_0000.parse 374 20 gold do do.01 ----- 20:0-rel
@@ -773,6 +781,7 @@ bc/phoenix/00/phoenix_0000.parse 168 10 gold have have.01 ----- 10:0-rel
 bc/phoenix/00/phoenix_0000.parse 170 0 gold be be.03 ----- 0:0-rel
 bc/phoenix/00/phoenix_0000.parse 386 2 gold have have.01 ----- 2:0-rel
 bc/phoenix/00/phoenix_0000.parse 294 2 gold go go.02 ----- 0:1-ARG0 2:0-rel 3:1-ARG4 5:1-ARGM-LOC
+bc/phoenix/00/phoenix_0000.parse 222 4 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARG1 4:0-rel 6:5-ARG2
 bc/phoenix/00/phoenix_0000.parse 144 13 gold be be.02 ----- 13:0-rel 14:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 306 28 gold do do.02 ----- 5:1*26:1-ARG0 5:1*26:1-LINK-PRO 25:1*29:1-ARG1 28:0-rel
 bc/phoenix/00/phoenix_0000.parse 25 2 gold be be.03 ----- 2:0-rel
@@ -782,11 +791,10 @@ bc/phoenix/00/phoenix_0000.parse 419 11 gold look look.01 ----- 10:1-ARG0 11:0-r
 bc/phoenix/00/phoenix_0000.parse 60 12 gold consider consider.01 ----- 0:1-ARGM-TMP 7:1-ARGM-DIS 12:0-rel 13:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 316 8 gold be be.01 ----- 0:1-ARGM-TMP 4:1-ARGM-TMP 7:1-ARG1 8:0-rel 9:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 171 1 gold slash slash.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:1-ARGM-TMP
-bc/phoenix/00/phoenix_0000.parse 426 8 gold evaporate evaporate.01 ----- 0:1-ARGM-TMP 2:1-ARGM-CAU 6:2-ARG1 8:0-rel
 bc/phoenix/00/phoenix_0000.parse 348 5 gold admire admire.01 ----- 0:1-ARGM-TMP 3:1-ARG0 4:1-ARGM-ADV 5:0-rel 6:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 240 8 gold give give.01 ----- 4:1-ARGM-DIS 6:1-ARG0 7:0-ARGM-MOD 8:0-rel 9:1-ARG2
-bc/phoenix/00/phoenix_0000.parse 61 16 gold tease tease.02 ----- 14:1-ARG0 15:0-ARGM-MOD 16:0-rel 17:1-ARG1 19:2-ARGM-ADV
-bc/phoenix/00/phoenix_0000.parse 212 9 gold be be.02 ----- 9:0-rel 13:2-ARG1
+bc/phoenix/00/phoenix_0000.parse 26 8 gold have have.01 ----- 8:0-rel
+bc/phoenix/00/phoenix_0000.parse 154 18 gold see see.01 ----- 16:1-ARG0 18:0-rel
 bc/phoenix/00/phoenix_0000.parse 260 10 gold go go.02 ----- 8:1-ARG0 10:0-rel
 bc/phoenix/00/phoenix_0000.parse 431 1 gold get get.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 422 3 gold finish finish.01 ----- 2:1-ARG0 3:0-rel 4:1-ARG1
@@ -794,8 +802,8 @@ bc/phoenix/00/phoenix_0000.parse 216 9 gold study study.01 ----- 6:1-ARG0 8:0-AR
 bc/phoenix/00/phoenix_0000.parse 238 34 gold liken like.02 ----- 0:2-ARGM-TMP 12:1-ARGM-DIS 14:2,35:1-ARG1 33:1-ARG0 34:0-rel
 bc/phoenix/00/phoenix_0000.parse 288 1 gold graduate graduate.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2 5:1-ARGM-TMP
 bc/phoenix/00/phoenix_0000.parse 387 3 gold give give_up.07 ----- 2:1-ARG0 3:0,5:1-rel 4:1-ARG1
+bc/phoenix/00/phoenix_0000.parse 347 14 gold get get.05 ----- 9:1*12:1-ARG1 14:0-rel 15:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 93 5 gold be be.03 ----- 5:0-rel
-bc/phoenix/00/phoenix_0000.parse 296 4 gold be be.01 ----- 0:1-ARGM-ADV 1:1-ARGM-TMP 3:1-ARG1 4:0-rel 5:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 58 27 gold survive survive.01 ----- 22:1*24:1*28:1-ARGM-MNR 22:1*24:1-LINK-SLC 25:1-ARG0 27:0-rel
 bc/phoenix/00/phoenix_0000.parse 345 8 gold have have.01 ----- 8:0-rel
 bc/phoenix/00/phoenix_0000.parse 72 14 gold have have.02 ----- 14:0-rel
@@ -803,6 +811,7 @@ bc/phoenix/00/phoenix_0000.parse 257 9 gold cry cry.02 ----- 6:1-ARG0 7:0-ARGM-M
 bc/phoenix/00/phoenix_0000.parse 134 2 gold know know.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 208 7 gold do do.01 ----- 7:0-rel
 bc/phoenix/00/phoenix_0000.parse 384 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
+bc/phoenix/00/phoenix_0000.parse 216 3 gold be be.01 ----- 2:1-ARG1 3:0-rel 4:0-ARGM-NEG 5:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 225 1 gold think think.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 136 3 gold whack whack.01 ----- 0:1-ARG0 1:0-ARGM-LVB 3:0-rel
 bc/phoenix/00/phoenix_0000.parse 162 3 gold stand stand.01 ----- 0:1-ARGM-TMP 1:1-ARG0 3:0-rel 4:1-ARG2 6:3-ARGM-ADV
@@ -811,69 +820,63 @@ bc/phoenix/00/phoenix_0000.parse 51 12 gold confer confer.02 ----- 0:1,14:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 112 6 gold look look.01 ----- 5:1-ARG0 6:0-rel 7:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 189 4 gold put put.02 ----- 3:1-ARG0 4:0-rel 5:1-ARG1 7:2-ARGM-PRD
 bc/phoenix/00/phoenix_0000.parse 87 1 gold do do.01 ----- 1:0-rel
-bc/phoenix/00/phoenix_0000.parse 270 1 gold remember remember.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 378 1 gold look look.01 ----- 0:1-ARG0 1:0-rel
-bc/phoenix/00/phoenix_0000.parse 245 5 gold be be.01 ----- 4:1-ARG1 5:0-rel 6:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 2 16 gold shave shave.01 ----- 14:1-ARGM-ADV 15:1-ARG0 16:0-rel 17:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 47 3 gold correct correct.01 ----- 0:1-ARG0 2:1-ARGM-TMP 3:0-rel 4:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 87 4 gold come come.03 ----- 0:1*5:1-ARG2 2:1-ARG1 4:0-rel
 bc/phoenix/00/phoenix_0000.parse 354 0 gold do do.01 ----- 0:0-rel
-bc/phoenix/00/phoenix_0000.parse 405 2 gold call call.01 ----- 0:1*3:1-ARG1 2:0-rel 4:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 347 10 gold hope hope.01 ----- 9:1-ARG0 10:0-rel 11:1-ARGM-ADV 12:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 302 23 gold separate separate.01 ----- 17:1*19:1,24:1-ARG2 17:1*19:1-LINK-SLC 20:1-ARG1 23:0-rel 26:1-ARGM-TMP
 bc/phoenix/00/phoenix_0000.parse 390 12 gold be be.01 ----- 11:1*16:1-ARGM-CAU 12:0-rel 13:1-ARG1 14:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 163 4 gold say say.01 ----- 0:0-ARGM-DIS 1:1-ARG0 3:1-ARGM-TMP 4:0-rel 5:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 65 11 gold be be.01 ----- 9:1-ARG1 11:0-rel 12:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 305 24 gold be be.03 ----- 24:0-rel
+bc/phoenix/00/phoenix_0000.parse 61 16 gold tease tease.02 ----- 14:1-ARG0 15:0-ARGM-MOD 16:0-rel 17:1-ARG1 19:2-ARGM-ADV
 bc/phoenix/00/phoenix_0000.parse 276 10 gold look look.01 ----- 4:1*8:1-ARG0 10:0-rel
 bc/phoenix/00/phoenix_0000.parse 151 3 gold be be.01 ----- 0:1-ARGM-DIS 1:1-ARG1 2:0-ARGM-MOD 3:0-rel 4:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 140 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 313 29 gold become become.01 ----- 28:1-ARG1 29:0-rel 30:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 32 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG2 6:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 325 15 gold do do.01 ----- 15:0-rel
-bc/phoenix/00/phoenix_0000.parse 315 6 gold reinstate reinstate.01 ----- 0:1-ARGM-DIS 2:1-ARGM-TMP 4:1-ARGM-MNR 5:1-ARG0 6:0-rel 7:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 303 3 gold be be.01 ----- 0:1-ARG1 3:0-rel 4:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 330 5 gold want want.01 ----- 2:1-ARGM-DIS 4:1-ARG0 5:0-rel 6:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 224 9 gold be be.01 ----- 8:1-ARG1 9:0-rel 10:1-ARG2
-bc/phoenix/00/phoenix_0000.parse 342 16 gold do do.01 ----- 16:0-rel
 bc/phoenix/00/phoenix_0000.parse 382 30 gold be be.01 ----- 29:1-ARG1 30:0-rel 31:1-ARGM-TMP 32:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 193 13 gold be be.03 ----- 13:0-rel
 bc/phoenix/00/phoenix_0000.parse 416 11 gold be be.01 ----- 7:1-ARGM-ADV 10:1-ARG1 11:0-rel 12:1-ARG2 15:1-ARGM-DIS
 bc/phoenix/00/phoenix_0000.parse 188 5 gold change change.01 ----- 2:1-ARG1 5:0-rel
 bc/phoenix/00/phoenix_0000.parse 346 11 gold pass pass.07 ----- 0:1-ARGM-TMP 4:3-ARG1 11:0-rel 12:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 195 6 gold study study.01 ----- 3:1-ARG0 5:1-ARGM-TMP 6:0-rel 7:1-ARGM-MNR
-bc/phoenix/00/phoenix_0000.parse 347 4 gold be be.01 ----- 0:2-ARG1 4:0-rel 5:0-ARGM-NEG 6:1-ARG2
-bc/phoenix/00/phoenix_0000.parse 210 32 gold let let.01 ----- 21:1-ARG0 31:0-ARGM-NEG 32:0-rel 33:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 208 14 gold say say.01 ----- 12:1-ARG0 13:0-ARGM-MOD 14:0-rel 15:1-ARG1
-bc/phoenix/00/phoenix_0000.parse 354 2 gold act act.02 ----- 1:1-ARG0 2:0-rel 3:1-ARGM-TMP
 bc/phoenix/00/phoenix_0000.parse 434 15 gold be be.01 ----- 14:1-ARG1 15:0-rel 17:1-ARGM-DIS 19:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 266 1 gold be be.01 ----- 0:1*4:1-ARG2 1:0-rel 5:3-ARG1
 bc/phoenix/00/phoenix_0000.parse 345 9 gold take take.01 ----- 3:1*6:1*12:1-ARGM-TMP 3:1*6:1-LINK-SLC 7:1-ARG0 9:0-rel 10:1-ARG1
-bc/phoenix/00/phoenix_0000.parse 114 4 gold feel feel.01 ----- 0:1-ARGM-TMP 3:1-ARG0 4:0-rel 5:1-ARG1
-bc/phoenix/00/phoenix_0000.parse 399 4 gold paralyze paralyze.01 ----- 0:1*5:1-ARG1 4:0-rel
 bc/phoenix/00/phoenix_0000.parse 71 2 gold have have.02 ----- 2:0-rel
+bc/phoenix/00/phoenix_0000.parse 86 33 gold hit hit.01 ----- 26:1-ARG0 33:0-rel 34:1-ARG1 35:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 311 9 gold think think.01 ----- 0:1-ARGM-TMP 4:1-ARGM-DIS 6:1-ARG0 8:1-ARGM-NEG 9:0-rel 10:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 17 8 gold want want.01 ----- 5:1-ARG0 7:1-ARGM-TMP 8:0-rel 9:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 108 18 gold have have.01 ----- 18:0-rel
 bc/phoenix/00/phoenix_0000.parse 143 3 gold be be.01 ----- 2:1-ARG1 3:0-rel 4:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 210 22 gold do do.01 ----- 22:0-rel
 bc/phoenix/00/phoenix_0000.parse 33 11 gold miss miss.01 ----- 10:1-ARG1 11:0-rel
+bc/phoenix/00/phoenix_0000.parse 431 3 gold fun fun.01 ----- 0:1-ARG0 3:0-rel
 bc/phoenix/00/phoenix_0000.parse 260 3 gold think think.01 ----- 0:1-ARGM-DIS 1:1-ARGM-TMP 2:1-ARG0 3:0-rel 5:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 215 19 gold be be.01 ----- 19:0-rel 20:1-ARG2 22:2-ARG1
-bc/phoenix/00/phoenix_0000.parse 131 13 gold take take.01 ----- 9:1-ARG0 13:0-rel 14:1-ARG1 16:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 141 2 gold hear hear.01 ----- 1:1-ARG0 2:0-rel
+bc/phoenix/00/phoenix_0000.parse 192 33 gold say say.01 ----- 21:2-ARG1-DSP 32:1-ARG0 33:0-rel
 bc/phoenix/00/phoenix_0000.parse 432 17 gold get get.01 ----- 13:1*15:1*18:1-ARG1 13:1*15:1-LINK-SLC 16:1-ARG0 17:0-rel
-bc/phoenix/00/phoenix_0000.parse 347 14 gold get get.05 ----- 9:1*12:1-ARG1 14:0-rel 15:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 24 6 gold be be.01 ----- 0:2-ARGM-TMP 5:1-ARG1 6:0-rel 7:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 343 6 gold have have.01 ----- 6:0-rel
-bc/phoenix/00/phoenix_0000.parse 320 24 gold have have.03 ----- 23:1-ARG0 24:0-rel 25:1-ARG1
-bc/phoenix/00/phoenix_0000.parse 391 2 gold remember remember.01 ----- 1:1-ARG0 2:0-rel 3:3-ARG1
-bc/phoenix/00/phoenix_0000.parse 132 7 gold whack whack.01 ----- 4:1-ARG0 5:0-ARGM-LVB 7:0-rel 8:1-ARG1
+bc/phoenix/00/phoenix_0000.parse 447 16 gold express express.01 ----- 15:1-ARG0 16:0-rel 17:3-ARG1
+bc/phoenix/00/phoenix_0000.parse 210 26 gold go go.02 ----- 25:1-ARG0 26:0-rel 27:1-ARG4
 bc/phoenix/00/phoenix_0000.parse 281 9 gold say say.01 ----- 7:1-ARG0 8:0-ARGM-MOD 9:0-rel
+bc/phoenix/00/phoenix_0000.parse 402 3 gold move move.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-ARGM-NEG 3:0-rel 4:1-ARGM-EXT
 bc/phoenix/00/phoenix_0000.parse 340 12 gold be be.03 ----- 12:0-rel
 bc/phoenix/00/phoenix_0000.parse 411 1 gold take take.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
-bc/phoenix/00/phoenix_0000.parse 240 11 gold give give.01 ----- 4:1-ARGM-DIS 6:1-ARG0 7:0-ARGM-MOD 11:0-rel 12:1-ARG2 13:1-ARG1 14:1-ARGM-LOC
+bc/phoenix/00/phoenix_0000.parse 296 4 gold be be.01 ----- 0:1-ARGM-ADV 1:1-ARGM-TMP 3:1-ARG1 4:0-rel 5:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 337 5 gold be be.02 ----- 5:0-rel 6:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 375 5 gold look look.01 ----- 0:1-ARGM-DIS 1:1-ARG0 3:1-ARGM-TMP 5:0-rel 6:1-ARG1 8:2-ARGM-PRP
-bc/phoenix/00/phoenix_0000.parse 216 3 gold be be.01 ----- 2:1-ARG1 3:0-rel 4:0-ARGM-NEG 5:1-ARG2
-bc/phoenix/00/phoenix_0000.parse 403 19 gold start start.01 ----- 17:1-ARGM-TMP 18:1,20:2-ARG1 19:0-rel
-bc/phoenix/00/phoenix_0000.parse 17 6 gold have have.01 ----- 6:0-rel
+bc/phoenix/00/phoenix_0000.parse 343 17 gold take take.01 ----- 10:1*15:1-ARG0 17:0-rel 18:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 324 19 gold get get.01 ----- 16:1*20:1-ARG1 17:1-ARG0 18:0-ARGM-MOD 19:0-rel
 bc/phoenix/00/phoenix_0000.parse 440 10 gold make make.LV ----- 10:0-rel 11:1-ARGM-PRR
 bc/phoenix/00/phoenix_0000.parse 128 1 gold be be.03 ----- 1:0-rel
@@ -881,39 +884,38 @@ bc/phoenix/00/phoenix_0000.parse 257 4 gold think think.01 ----- 0:1-ARGM-TMP 3:
 bc/phoenix/00/phoenix_0000.parse 26 24 gold esteem esteem.01 ----- 23:0-ARGM-MNR 24:0-rel 25:0,26:0-ARG1
 bc/phoenix/00/phoenix_0000.parse 282 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 358 3 gold be be.01 ----- 2:1-ARG1 3:0-rel 4:1-ARGM-ADV
+bc/phoenix/00/phoenix_0000.parse 333 17 gold read read.01 ----- 12:1-ARG0 17:0-rel 18:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 95 10 gold dare dare.01 ----- 5:1-ARGM-TMP 9:1*11:1-ARG1 10:0-rel 12:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 73 16 gold get get.01 ----- 7:1*10:1*20:1-ARGM-MNR 7:1*10:1-LINK-SLC 11:1-ARG0 12:0-ARGM-MOD 16:0-rel 17:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 373 34 gold be be.01 ----- 33:1-ARG1 34:0-rel 35:1-ARG2
-bc/phoenix/00/phoenix_0000.parse 251 2 gold remember remember.01 ----- 0:1-ARG0 1:1-ARGM-TMP 2:0-rel 3:1-ARG1 4:1-ARGM-TMP
-bc/phoenix/00/phoenix_0000.parse 336 3 gold do do.01 ----- 3:0-rel
-bc/phoenix/00/phoenix_0000.parse 447 16 gold express express.01 ----- 15:1-ARG0 16:0-rel 17:3-ARG1
+bc/phoenix/00/phoenix_0000.parse 130 1 gold send send.03 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+bc/phoenix/00/phoenix_0000.parse 197 6 gold criticize criticize.01 ----- 0:2*7:1-ARG1 6:0-rel 8:1-ARG2 12:1-ARGM-LOC
 bc/phoenix/00/phoenix_0000.parse 333 53 gold think think.01 ----- 52:1-ARG0 53:0-rel 54:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 432 27 gold be be.01 ----- 27:0-rel 28:0-ARGM-NEG 29:1-ARG1 30:1-ARG2
-bc/phoenix/00/phoenix_0000.parse 16 1 gold force force.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 45 7 gold behave behave.01 ----- 5:0-ARG1 7:0-rel 8:0-ARG0
 bc/phoenix/00/phoenix_0000.parse 129 4 gold have have.01 ----- 4:0-rel
 bc/phoenix/00/phoenix_0000.parse 99 1 gold do do.01 ----- 1:0-rel
 bc/phoenix/00/phoenix_0000.parse 107 10 gold be be.03 ----- 10:0-rel
 bc/phoenix/00/phoenix_0000.parse 246 12 gold do do.01 ----- 12:0-rel
 bc/phoenix/00/phoenix_0000.parse 144 4 gold direct direct.01 ----- 2:1*5:1-ARG1 2:1*5:1-LINK-PSV 4:0-rel 6:1-ARG0
-bc/phoenix/00/phoenix_0000.parse 246 5 gold go go.05 ----- 0:1*3:1-ARG0 5:0-rel 6:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 196 23 gold live live.01 ----- 12:2*21:1-ARG0 23:0-rel
 bc/phoenix/00/phoenix_0000.parse 156 1 gold denounce denounce.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 205 7 gold see see.03 ----- 7:0-rel
 bc/phoenix/00/phoenix_0000.parse 441 39 gold write write.01 ----- 35:1*37:1*40:1-ARG1 35:1*37:1-LINK-SLC 38:1-ARG0 39:0-rel
 bc/phoenix/00/phoenix_0000.parse 228 2 gold be be.01 ----- 0:1-ARG1 1:1-ARGM-ADV 2:0-rel 3:0-ARGM-NEG 4:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 182 2 gold be be.01 ----- 0:1*5:1-ARG2 2:0-rel 6:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 435 6 gold write write.01 ----- 0:1-ARGM-DIS 2:1-ARGM-MNR 4:1-ARGM-DIS 6:0-rel 7:1-ARG1
+bc/phoenix/00/phoenix_0000.parse 36 2 gold see see.01 ----- 1:1-ARG0 2:0-rel
 bc/phoenix/00/phoenix_0000.parse 190 1 gold go go.02 ----- 0:1-ARG0 1:0-rel 2:1-ARG4 3:1-ARGM-TMP
-bc/phoenix/00/phoenix_0000.parse 72 4 gold show show.01 ----- 0:1*2:1-ARG0 4:0-rel 5:1-ARG1 7:2-ARGM-TMP
 bc/phoenix/00/phoenix_0000.parse 345 24 gold be be.01 ----- 23:1-ARG1 24:0-rel 25:2-ARG2
-bc/phoenix/00/phoenix_0000.parse 65 0 gold be be.01 ----- 0:0-rel 1:1-ARG1 2:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 197 22 gold get get.03 ----- 18:1-ARG1 22:0-rel 23:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 342 16 gold do do.01 ----- 16:0-rel
 bc/phoenix/00/phoenix_0000.parse 304 15 gold leave leave_behind.18 ----- 0:1-ARGM-ADV 13:1-ARG0 15:0,16:1-rel 17:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 18 13 gold introduce introduce.01 ----- 11:1*15:1-ARGM-TMP 12:1-ARG0 13:0-rel 14:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 313 4 gold be be.01 ----- 3:1-ARG1 4:0-rel 5:1-ARG2
-bc/phoenix/00/phoenix_0000.parse 450 12 gold meet meet.02 ----- 10:1-ARG0 12:0-rel 13:3-ARG1 22:1-ARGM-LOC
+bc/phoenix/00/phoenix_0000.parse 33 9 gold be be.02 ----- 9:0-rel 10:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 356 7 gold work work.09 ----- 3:1-ARG0 5:1-ARGM-ADV 6:0-ARGM-NEG 7:0-rel
 bc/phoenix/00/phoenix_0000.parse 11 4 gold shave shave.01 ----- 3:1-ARG0 4:0-rel 5:1-ARG1
-bc/phoenix/00/phoenix_0000.parse 201 2 gold get get.05 ----- 1:1-ARG1 2:0-rel 3:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 393 4 gold be be.01 ----- 3:1-ARG1 4:0-rel 5:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 154 2 gold be be.03 ----- 2:0-rel
 bc/phoenix/00/phoenix_0000.parse 169 16 gold run run.02 ----- 14:1-ARGM-TMP 15:1-ARG0 16:0-rel 17:1-ARG1
@@ -921,43 +923,41 @@ bc/phoenix/00/phoenix_0000.parse 162 19 gold hack hack.01 ----- 13:1-ARGM-DIS 15
 bc/phoenix/00/phoenix_0000.parse 201 10 gold settle settle.03 ----- 9:1-ARG0 10:0-rel 11:1-ARG4
 bc/phoenix/00/phoenix_0000.parse 230 9 gold be be.01 ----- 5:1*7:1*8:1-ARG1 5:1*7:1-LINK-SLC 9:0-rel 10:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 23 1 gold let let.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
-bc/phoenix/00/phoenix_0000.parse 33 9 gold be be.02 ----- 9:0-rel 10:2-ARG1
-bc/phoenix/00/phoenix_0000.parse 26 8 gold have have.01 ----- 8:0-rel
 bc/phoenix/00/phoenix_0000.parse 450 3 gold introduce introduce.01 ----- 0:1-ARGM-TMP 1:1*4:1-ARG1 3:0-rel 5:1-ARG0
 bc/phoenix/00/phoenix_0000.parse 82 9 gold be be.03 ----- 9:0-rel
 bc/phoenix/00/phoenix_0000.parse 447 23 gold be be.01 ----- 0:3*15:2-ARG1 23:0-rel 24:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 432 19 gold be be.01 ----- 0:3-ARG1 19:0-rel 20:2-ARG2
-bc/phoenix/00/phoenix_0000.parse 79 6 gold be be.02 ----- 6:0-rel 7:1-ARG1
-bc/phoenix/00/phoenix_0000.parse 157 1 gold let let.01 ----- 0:1-ARG0 1:0-rel 2:3-ARG1
 bc/phoenix/00/phoenix_0000.parse 335 30 gold be be.01 ----- 26:1*28:1-ARG1 30:0-rel 31:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 401 4 gold move move.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-ARGM-MOD 3:0-ARGM-NEG 4:0-rel 5:1-ARGM-EXT
-bc/phoenix/00/phoenix_0000.parse 189 8 gold look look.01 ----- 3:1*7:1-ARG0 8:0-rel 9:1-ARG1 11:1-ARGM-TMP
+bc/phoenix/00/phoenix_0000.parse 58 2 gold be be.03 ----- 2:0-rel
 bc/phoenix/00/phoenix_0000.parse 240 18 gold put put.01 ----- 4:1-ARGM-DIS 6:1-ARG0 7:0-ARGM-MOD 18:0-rel 19:2;25:2-ARG1 22:1-ARG2
-bc/phoenix/00/phoenix_0000.parse 18 20 gold say say.01 ----- 19:1-ARG0 20:0-rel 21:2-ARG1
+bc/phoenix/00/phoenix_0000.parse 405 2 gold call call.01 ----- 0:1*3:1-ARG1 2:0-rel 4:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 258 19 gold look look.02 ----- 12:1-ARGM-ADV 17:1-ARG0 18:0-ARGM-MOD 19:0-rel 20:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 192 8 gold be be.02 ----- 8:0-rel 13:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 28 11 gold hunt hunt.01 ----- 0:2-ARG0 11:0-rel 12:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 419 15 gold see see.01 ----- 9:1-ARGM-ADV 13:1-ARG0 14:0-ARGM-MOD 15:0-rel 16:1-ARG1
-bc/phoenix/00/phoenix_0000.parse 330 5 gold want want.01 ----- 2:1-ARGM-DIS 4:1-ARG0 5:0-rel 6:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 97 7 gold be be.01 ----- 6:1-ARG1 7:0-rel 8:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 226 21 gold be be.01 ----- 8:1-ARGM-TMP 12:1-ARGM-DIS 14:1-ARGM-LOC 20:1-ARG1 21:0-rel 22:0-ARGM-NEG 24:1-ARGM-ADV 25:1-ARG2
-bc/phoenix/00/phoenix_0000.parse 431 3 gold fun fun.01 ----- 0:1-ARG0 3:0-rel
+bc/phoenix/00/phoenix_0000.parse 399 4 gold paralyze paralyze.01 ----- 0:1*5:1-ARG1 4:0-rel
+bc/phoenix/00/phoenix_0000.parse 426 8 gold evaporate evaporate.01 ----- 0:1-ARGM-TMP 2:1-ARGM-CAU 6:2-ARG1 8:0-rel
 bc/phoenix/00/phoenix_0000.parse 311 7 gold have have.01 ----- 7:0-rel
+bc/phoenix/00/phoenix_0000.parse 338 3 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARG1 3:0-rel 4:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 80 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 bc/phoenix/00/phoenix_0000.parse 287 15 gold change change.01 ----- 14:1-ARG1 15:0-rel 17:1-ARGM-DIS
+bc/phoenix/00/phoenix_0000.parse 315 6 gold reinstate reinstate.01 ----- 0:1-ARGM-DIS 2:1-ARGM-TMP 4:1-ARGM-MNR 5:1-ARG0 6:0-rel 7:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 443 15 gold read read.01 ----- 7:1*13:1-ARG0 15:0-rel 16:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 223 2 gold be be.01 ----- 1:1-ARG1 2:0-rel 3:1-ARG2
 bc/phoenix/00/phoenix_0000.parse 328 5 gold think think.01 ----- 0:1-ARGM-DIS 2:1-ARG0 4:0-ARGM-NEG 5:0-rel 9:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 441 15 gold hold hold.01 ----- 12:1-ARG0 15:0-rel 16:2;23:3-ARG1 19:1-ARGM-LOC
-bc/phoenix/00/phoenix_0000.parse 167 2 gold do do.02 ----- 1:1-ARG0 2:0-rel 3:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 284 7 gold graduate graduate.01 ----- 6:1-ARG1 7:0-rel 8:1-ARG2
-bc/phoenix/00/phoenix_0000.parse 97 1 gold hit hit.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
+bc/phoenix/00/phoenix_0000.parse 72 4 gold show show.01 ----- 0:1*2:1-ARG0 4:0-rel 5:1-ARG1 7:2-ARGM-TMP
 bc/phoenix/00/phoenix_0000.parse 379 8 gold have have.03 ----- 4:1-ARG0 6:0-ARGM-NEG 7:1-ARGM-ADV 8:0-rel 9:1-ARG1
 bc/phoenix/00/phoenix_0000.parse 440 14 gold eat eat.01 ----- 8:1*16:1-ARGM-TMP 9:1-ARG0 14:0-rel 15:1-ARGM-MNR
 bc/phoenix/00/phoenix_0000.parse 253 1 gold cry cry.02 ----- 0:1-ARG0 1:0-rel 2:2-ARGM-MNR
+bc/phoenix/00/phoenix_0000.parse 18 52 gold introduce introduce.01 ----- 47:1*50:1-ARG0 52:0-rel 53:2-ARG1
 bc/phoenix/00/phoenix_0000.parse 6 0 gold do do.01 ----- 0:0-rel
 bc/phoenix/00/phoenix_0000.parse 139 3 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARG1 3:0-rel 4:1-ARG2
-bc/phoenix/00/phoenix_0000.parse 58 2 gold be be.03 ----- 2:0-rel
-bc/phoenix/00/phoenix_0000.parse 18 52 gold introduce introduce.01 ----- 47:1*50:1-ARG0 52:0-rel 53:2-ARG1
-bc/phoenix/00/phoenix_0000.parse 338 3 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARG1 3:0-rel 4:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 79 6 gold be be.02 ----- 6:0-rel 7:1-ARG1
+bc/phoenix/00/phoenix_0000.parse 156 7 gold be be.01 ----- 6:1-ARG1 7:0-rel 8:1-ARG2
+bc/phoenix/00/phoenix_0000.parse 0 16 gold have have.01 ----- 16:0-rel
 bc/phoenix/00/phoenix_0000.parse 258 14 gold do do.01 ----- 14:0-rel

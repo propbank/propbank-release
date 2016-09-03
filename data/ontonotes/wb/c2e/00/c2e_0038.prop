@@ -1,5 +1,6 @@
 wb/c2e/00/c2e_0038.parse 5 27 gold be be.03 ----- 27:0-rel
 wb/c2e/00/c2e_0038.parse 8 42 gold spend spend.02 ----- 41:1-ARG0 42:0-rel 43:1-ARG1 46:1-ARGM-LOC
+wb/c2e/00/c2e_0038.parse 14 8 gold fun fun.01 ----- 8:0-rel
 wb/c2e/00/c2e_0038.parse 19 3 gold be be.03 ----- 3:0-rel
 wb/c2e/00/c2e_0038.parse 28 3 gold be be.01 ----- 0:1-ARG1 3:0-rel 4:1-ARG2
 wb/c2e/00/c2e_0038.parse 24 8 gold register register.02 ----- 0:1-ARGM-CAU 6:1-ARGM-DIS 7:1-ARG0 8:0-rel 9:1-ARGM-TMP 10:1-ARGM-ADV
@@ -11,7 +12,6 @@ wb/c2e/00/c2e_0038.parse 6 2 gold call call.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1 1
 wb/c2e/00/c2e_0038.parse 7 7 gold think think.01 ----- 5:1*8:1-ARG2 6:1-ARG0 7:0-rel 10:1-ARGM-ADV
 wb/c2e/00/c2e_0038.parse 16 13 gold increase increase.01 ----- 0:2-ARG0 11:0-ARGM-MOD 12:1-ARGM-ADV 13:0-rel 14:2-ARG1 22:1-ARGM-TMP
 wb/c2e/00/c2e_0038.parse 7 2 gold float float.01 ----- 2:0-rel 3:0-ARG1
-wb/c2e/00/c2e_0038.parse 27 5 gold contact contact.01 ----- 0:1-ARGM-PRP 3:1-ARGM-DIS 4:1-ARG0 5:0-rel 6:1-ARG1
 wb/c2e/00/c2e_0038.parse 10 13 gold use use.01 ----- 8:1*14:1-ARG1 8:1*14:1-LINK-PSV 13:0-rel 15:1-ARG0
 wb/c2e/00/c2e_0038.parse 6 22 gold float float.01 ----- 21:1-ARG1 22:0-rel 23:1-ARGM-LOC
 wb/c2e/00/c2e_0038.parse 17 4 gold welcome welcome.01 ----- 0:1-ARG0 3:1-ARGM-MNR 4:0-rel 5:2-ARG1 22:2-ARG2
@@ -20,13 +20,11 @@ wb/c2e/00/c2e_0038.parse 25 3 gold sell sell.01 ----- 0:1*4:1-ARG1 1:0-ARGM-MOD 
 wb/c2e/00/c2e_0038.parse 2 7 gold lose lose.02 ----- 6:1-ARG1 7:0-rel 9:1-ARGM-LOC
 wb/c2e/00/c2e_0038.parse 16 17 gold feel feel.03 ----- 15:0-ARG2 17:0-rel 18:0-ARG1
 wb/c2e/00/c2e_0038.parse 8 24 gold host host.01 ----- 19:1*25:1-ARG1 19:1*25:1-LINK-PSV 24:0-rel 26:1-ARG0
-wb/c2e/00/c2e_0038.parse 14 8 gold fun fun.01 ----- 8:0-rel
-wb/c2e/00/c2e_0038.parse 14 2 gold be be.02 ----- 1:0-ARGM-MOD 2:0-rel 3:2-ARG1
 wb/c2e/00/c2e_0038.parse 8 8 gold be be.01 ----- 0:2-ARGM-TMP 5:1-ARG1 6:0-ARGM-MOD 7:0-ARGM-NEG 8:0-rel 9:1-ARG2
 wb/c2e/00/c2e_0038.parse 12 3 gold be be.01 ----- 0:2-ARG1 3:0-rel 4:1-ARG2
 wb/c2e/00/c2e_0038.parse 16 0 gold steam steam.02 ----- 0:0-rel 1:0,2:0,3:0-ARG1
-wb/c2e/00/c2e_0038.parse 17 14 gold love love.01 ----- 10:1*12:1*13:1-ARG0 10:1*12:1-LINK-SLC 14:0-rel 15:1-ARG1
 wb/c2e/00/c2e_0038.parse 17 17 gold love love.01 ----- 10:1*12:1*13:1-ARG0 10:1*12:1-LINK-SLC 17:0-rel 18:1-ARG1
+wb/c2e/00/c2e_0038.parse 16 27 gold be be.01 ----- 23:1*25:1*26:1-ARG1 23:1*25:1-LINK-SLC 27:0-rel 28:1-ARGM-TMP 29:0-ARGM-NEG 30:1-ARG2
 wb/c2e/00/c2e_0038.parse 17 24 gold attend attend.01 ----- 5:2*22:1-ARG0 24:0-rel 25:1-ARG1
 wb/c2e/00/c2e_0038.parse 28 6 gold follow follow.04 ----- 5:1-ARG1 6:0-rel
 wb/c2e/00/c2e_0038.parse 15 8 gold have have.03 ----- 4:1*7:1-ARG0 8:0-rel 9:3-ARG1
@@ -39,22 +37,25 @@ wb/c2e/00/c2e_0038.parse 18 4 gold fun fun.01 ----- 4:0-rel
 wb/c2e/00/c2e_0038.parse 3 3 gold welcome welcome.01 ----- 2:1-ARG0 3:0-rel 4:2-ARG1
 wb/c2e/00/c2e_0038.parse 6 17 gold float float.01 ----- 17:0-rel 18:0-ARG1
 wb/c2e/00/c2e_0038.parse 11 9 gold be be.01 ----- 0:2-ARG1 9:0-rel 10:2-ARG2
-wb/c2e/00/c2e_0038.parse 16 27 gold be be.01 ----- 23:1*25:1*26:1-ARG1 23:1*25:1-LINK-SLC 27:0-rel 28:1-ARGM-TMP 29:0-ARGM-NEG 30:1-ARG2
+wb/c2e/00/c2e_0038.parse 14 2 gold be be.02 ----- 1:0-ARGM-MOD 2:0-rel 3:2-ARG1
 wb/c2e/00/c2e_0038.parse 21 5 gold follow follow.04 ----- 4:1-ARG1 5:0-rel
 wb/c2e/00/c2e_0038.parse 7 11 gold be be.01 ----- 0:1-ARGM-TMP 5:2-ARG1 11:0-rel 12:1-ARGM-ADV 13:2-ARG2
+wb/c2e/00/c2e_0038.parse 27 5 gold contact contact.01 ----- 0:1-ARGM-PRP 3:1-ARGM-DIS 4:1-ARG0 5:0-rel 6:1-ARG1
 wb/c2e/00/c2e_0038.parse 5 5 gold have have.01 ----- 5:0-rel
 wb/c2e/00/c2e_0038.parse 10 3 gold have have.01 ----- 3:0-rel
 wb/c2e/00/c2e_0038.parse 25 10 gold take take.01 ----- 7:1*11:1-ARG1 10:0-rel
 wb/c2e/00/c2e_0038.parse 8 35 gold let let.01 ----- 19:2-ARG0 33:0-ARGM-MOD 34:1-ARGM-ADV 35:0-rel 36:2-ARG1
+wb/c2e/00/c2e_0038.parse 25 2 gold be be.03 ----- 2:0-rel
 wb/c2e/00/c2e_0038.parse 10 4 gold attend attend.01 ----- 0:1*1:1*2:1-ARG0 0:1*1:1-LINK-SLC 4:0-rel
+wb/c2e/00/c2e_0038.parse 17 14 gold love love.01 ----- 10:1*12:1*13:1-ARG0 10:1*12:1-LINK-SLC 14:0-rel 15:1-ARG1
 wb/c2e/00/c2e_0038.parse 24 17 gold attend attend.01 ----- 11:1*15:1-ARG0 17:0-rel 18:1-ARG1
 wb/c2e/00/c2e_0038.parse 11 6 gold mind mind.05 ----- 4:1-ARG0 6:0-rel
 wb/c2e/00/c2e_0038.parse 5 31 gold celebrate celebrate.01 ----- 30:1-ARG0 31:0-rel 32:1-ARG1
-wb/c2e/00/c2e_0038.parse 24 12 gold have have.01 ----- 12:0-rel
 wb/c2e/00/c2e_0038.parse 8 37 gold feel feel.03 ----- 36:1-ARG0 37:0-rel 38:2-ARG1
 wb/c2e/00/c2e_0038.parse 19 2 gold have have.01 ----- 2:0-rel
 wb/c2e/00/c2e_0038.parse 10 21 gold be be.01 ----- 0:2-ARG1 21:0-rel 22:1-ARG2
 wb/c2e/00/c2e_0038.parse 15 6 gold regret regret.01 ----- 0:1-ARGM-TMP 4:1-ARG0 5:0-ARGM-MOD 6:0-rel 7:2-ARG1
+wb/c2e/00/c2e_0038.parse 24 12 gold have have.01 ----- 12:0-rel
 wb/c2e/00/c2e_0038.parse 9 8 gold have have.01 ----- 8:0-rel
 wb/c2e/00/c2e_0038.parse 13 20 gold gather gather.01 ----- 14:1*22:1-ARGM-TMP 15:2-ARG0 20:0-rel 21:1-ARGM-PRD
 wb/c2e/00/c2e_0038.parse 10 7 gold remember remember.01 ----- 0:2-ARG0 5:0-ARGM-MOD 6:1-ARGM-MNR 7:0-rel 8:2-ARG1
@@ -64,6 +65,5 @@ wb/c2e/00/c2e_0038.parse 14 6 gold joke joke.01 ----- 6:0-rel
 wb/c2e/00/c2e_0038.parse 20 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2
 wb/c2e/00/c2e_0038.parse 0 1 gold welcome welcome.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 wb/c2e/00/c2e_0038.parse 8 12 gold feel feel.03 ----- 5:1*10:1-ARG0 12:0-rel 13:1-ARG1
-wb/c2e/00/c2e_0038.parse 25 2 gold be be.03 ----- 2:0-rel
 wb/c2e/00/c2e_0038.parse 12 6 gold know know.01 ----- 0:2-ARG1 4:0-ARGM-EXT 6:0-rel 7:1-ARG2
 wb/c2e/00/c2e_0038.parse 19 4 gold set set.02 ----- 0:1*5:1-ARG1 4:0-rel 6:1-ARG2

@@ -1,4 +1,5 @@
 nw/wsj/00/wsj_0038.parse 1 7 gold say say.01 ----- 0:1-ARG0 7:0-rel 8:1-ARG1
+nw/wsj/00/wsj_0038.parse 3 3 gold be be.03 ----- 3:0-rel
 nw/wsj/00/wsj_0038.parse 3 32 gold elaborate elaborate.01 ----- 27:1*30:1-ARG0 32:0-rel
 nw/wsj/00/wsj_0038.parse 3 4 gold swap swap.01 ----- 0:1*5:1-ARG1 2:0-ARGM-MOD 4:0-rel 6:1-ARG3 12:1-ARGM-MNR
 nw/wsj/00/wsj_0038.parse 5 4 gold expect expect.01 ----- 3:1-ARG0 4:0-rel 5:2-ARG1
@@ -6,9 +7,7 @@ nw/wsj/00/wsj_0038.parse 1 6 gold concern concern.01 ----- 1:1-ARGM-LOC 4:1-ARG0
 nw/wsj/00/wsj_0038.parse 3 21 gold be be.01 ----- 13:1*15:1*20:1-ARG1 13:1*15:1-LINK-SLC 21:0-rel 22:2-ARG2
 nw/wsj/00/wsj_0038.parse 0 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 nw/wsj/00/wsj_0038.parse 1 16 gold buy buy.01 ----- 13:1-ARG0 16:0-rel 17:3-ARG1 24:1-ARG3
-nw/wsj/00/wsj_0038.parse 3 18 gold say say.01 ----- 16:1-ARG0 18:0-rel 19:1-ARG1
 nw/wsj/00/wsj_0038.parse 0 8 gold issue issue.01 ----- 4:1*6:1-ARG0 8:0-rel 9:3-ARG1
-nw/wsj/00/wsj_0038.parse 5 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 nw/wsj/00/wsj_0038.parse 3 29 gold decline decline.02 ----- 27:1-ARG0 29:0-rel 30:2-ARG1
 nw/wsj/00/wsj_0038.parse 1 12 gold entitle entitle.01 ----- 9:1-ARG0 12:0-rel 13:2-ARG1
 nw/wsj/00/wsj_0038.parse 4 5 gold be be.01 ----- 0:2-ARG1 5:0-rel 6:3-ARG2
@@ -16,5 +15,6 @@ nw/wsj/00/wsj_0038.parse 1 27 gold accrue accrue.01 ----- 27:0-rel 28:0-ARG1
 nw/wsj/00/wsj_0038.parse 1 33 gold purchase purchase.01 ----- 33:0-rel
 nw/wsj/00/wsj_0038.parse 0 5 gold agree agree.01 ----- 4:1-ARG0 5:0-rel 6:2-ARG1
 nw/wsj/00/wsj_0038.parse 2 2 gold expire expire.01 ----- 0:1-ARG1 2:0-rel 3:2-ARGM-TMP
-nw/wsj/00/wsj_0038.parse 3 3 gold be be.03 ----- 3:0-rel
+nw/wsj/00/wsj_0038.parse 3 18 gold say say.01 ----- 16:1-ARG0 18:0-rel 19:1-ARG1
+nw/wsj/00/wsj_0038.parse 5 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 nw/wsj/00/wsj_0038.parse 5 7 gold complete complete.01 ----- 3:1*5:1-ARG0 7:0-rel 8:1-ARG1 10:1-ARGM-TMP

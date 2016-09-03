@@ -6,48 +6,49 @@ bn/nbc/00/nbc_0033.parse 2 7 gold send send.02 ----- 2:1*4:1-ARGM-TMP 2:1*4:1-LI
 bn/nbc/00/nbc_0033.parse 5 1 gold do do.01 ----- 1:0-rel
 bn/nbc/00/nbc_0033.parse 11 15 gold package package.01 ----- 10:1*16:1-ARG1 15:0-rel
 bn/nbc/00/nbc_0033.parse 16 19 gold sell sell.01 ----- 17:0-ARG0 18:0-ARGM-TMP 19:0-rel
+bn/nbc/00/nbc_0033.parse 22 9 gold help help.01 ----- 5:1*7:1-ARG0 9:0-rel 10:2-ARG1
 bn/nbc/00/nbc_0033.parse 2 42 gold survive survive.01 ----- 40:0-ARG0 41:0-ARGM-ADJ 42:0-rel
 bn/nbc/00/nbc_0033.parse 22 6 gold survive survive.01 ----- 5:1-ARG0 6:0-rel 7:2-ARGM-PRP
 bn/nbc/00/nbc_0033.parse 17 11 gold be be.01 ----- 9:1-ARG1 11:0-rel 12:1-ARG2
 bn/nbc/00/nbc_0033.parse 2 53 gold watch watch.01 ----- 48:1*50:1*54:1-ARG1 48:1*50:1-LINK-SLC 51:1-ARG0 53:0-rel
-bn/nbc/00/nbc_0033.parse 22 9 gold help help.01 ----- 5:1*7:1-ARG0 9:0-rel 10:2-ARG1
 bn/nbc/00/nbc_0033.parse 7 19 gold pick pick.01 ----- 6:2*10:1*24:1-ARGM-LOC 6:2*10:1-LINK-SLC 17:1-ARG0 19:0-rel 20:1-ARG1 21:1-ARG2
-bn/nbc/00/nbc_0033.parse 2 55 gold be be.01 ----- 48:2-ARG1 55:0-rel 56:1-ARG2
 bn/nbc/00/nbc_0033.parse 17 10 gold price price.01 ----- 9:0-ARG1 10:0-rel
-bn/nbc/00/nbc_0033.parse 16 33 gold task task.01 ----- 32:0-ARGM-ADJ 33:0-rel 34:1-ARGM-LOC
+bn/nbc/00/nbc_0033.parse 11 18 gold label label.01 ----- 10:1*19:1-ARG1 18:0-rel
 bn/nbc/00/nbc_0033.parse 2 21 gold purchase purchase.01 ----- 20:1*22:1-ARG1 21:0-rel 23:1-ARGM-LOC
 bn/nbc/00/nbc_0033.parse 0 17 gold be be.01 ----- 0:2-ARGM-ADV 14:1-ARG1 16:0-ARGM-MOD 17:0-rel 18:2-ARG2
 bn/nbc/00/nbc_0033.parse 12 8 gold play play.01 ----- 6:1-ARG0 8:0-rel 9:1-ARG1
+bn/nbc/00/nbc_0033.parse 16 30 gold be be.01 ----- 11:3-ARG1 30:0-rel 31:2-ARG2 38:2-ARGM-TMP
 bn/nbc/00/nbc_0033.parse 15 23 gold revive revive.01 ----- 16:1*21:1-ARG0 23:0-rel 24:2-ARG1
 bn/nbc/00/nbc_0033.parse 16 16 gold double double.01 ----- 11:1*15:1-ARG0 11:1*15:1-LINK-PRO 16:0-rel 17:1-ARG1 20:1-ARGM-TMP 22:1-ARG4
 bn/nbc/00/nbc_0033.parse 16 9 gold say say.01 ----- 0:2-ARG0 9:0-rel 10:1-ARG1
 bn/nbc/00/nbc_0033.parse 18 2 gold be be.03 ----- 2:0-rel
 bn/nbc/00/nbc_0033.parse 15 6 gold survive survive.01 ----- 6:0-rel 8:3-ARGM-DIS 13:1-ARGM-TMP 16:1*21:1-ARG0
+bn/nbc/00/nbc_0033.parse 10 5 gold begin begin.01 ----- 0:1*3:1-ARG0 5:0-rel 6:1-ARG1
 bn/nbc/00/nbc_0033.parse 16 51 gold increase increase.01 ----- 39:1*58:1-ARGM-TMP 40:1-ARG1 43:1-ARGM-PRD 49:0-ARGM-MOD 50:1-ARGM-ADV 51:0-rel 52:1-ARG2
 bn/nbc/00/nbc_0033.parse 8 1 gold walk walk.01 ----- 0:1-ARG0 1:0-rel 2:1-ARGM-DIR 7:2-ARGM-TMP
+bn/nbc/00/nbc_0033.parse 2 10 gold ship ship.01 ----- 8:1*9:1-ARG0 10:0-rel 12:3-ARG1
 bn/nbc/00/nbc_0033.parse 19 3 gold drive drive.01 ----- 0:1*4:1-ARG1 3:0-rel 5:1-ARGM-DIR
-bn/nbc/00/nbc_0033.parse 10 5 gold begin begin.01 ----- 0:1*3:1-ARG0 5:0-rel 6:1-ARG1
-bn/nbc/00/nbc_0033.parse 10 10 gold trip trip.03 ----- 7:1-ARGM-ADJ 10:0-rel
 bn/nbc/00/nbc_0033.parse 11 26 gold ship ship.01 ----- 10:1*27:1-ARG1 22:2-ARGM-TMP 26:0-rel
 bn/nbc/00/nbc_0033.parse 11 13 gold wrap wrap.01 ----- 0:2-ARGM-ADV 10:1*14:1-ARG1 13:0-rel
 bn/nbc/00/nbc_0033.parse 11 6 gold order order.02 ----- 6:0-rel
 bn/nbc/00/nbc_0033.parse 1 4 gold look look.01 ----- 1:0-ARG0 2:0-ARGM-TMP 3:0-ARGM-LOC 4:0-rel 5:1-ARG1
 bn/nbc/00/nbc_0033.parse 15 20 gold holiday holiday.01 ----- 19:0-ARGM-ADJ 20:0-rel
+bn/nbc/00/nbc_0033.parse 2 55 gold be be.01 ----- 48:2-ARG1 55:0-rel 56:1-ARG2
 bn/nbc/00/nbc_0033.parse 6 6 gold order order.02 ----- 0:2-ARGM-PRP 5:1-ARG0 6:0-rel 7:3-ARG1
-bn/nbc/00/nbc_0033.parse 11 18 gold label label.01 ----- 10:1*19:1-ARG1 18:0-rel
 bn/nbc/00/nbc_0033.parse 19 21 gold bring bring.01 ----- 0:1*22:1-ARG1 14:1-ARGM-TMP 21:0-rel 23:1-ARG2
-bn/nbc/00/nbc_0033.parse 16 30 gold be be.01 ----- 11:3-ARG1 30:0-rel 31:2-ARG2 38:2-ARGM-TMP
 bn/nbc/00/nbc_0033.parse 1 18 gold continue continue.01 ----- 0:1-ARGM-MNR 17:1-ARG0 18:0-rel 19:1-ARG1 23:1-ARGM-TMP 24:1-ARGM-MNR
 bn/nbc/00/nbc_0033.parse 9 1 gold put put.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:1-ARG2
 bn/nbc/00/nbc_0033.parse 7 1 gold order order.02 ----- 1:0-rel
 bn/nbc/00/nbc_0033.parse 7 12 gold be be.03 ----- 12:0-rel
-bn/nbc/00/nbc_0033.parse 4 17 gold try try.01 ----- 0:2-ARG0 17:0-rel 18:2-ARG1
 bn/nbc/00/nbc_0033.parse 18 3 gold spend spend.01 ----- 0:0-ARGM-DIS 1:1-ARG0 3:0-rel 4:1-ARG3 5:1-ARG1
 bn/nbc/00/nbc_0033.parse 19 2 gold be be.03 ----- 2:0-rel
+bn/nbc/00/nbc_0033.parse 16 33 gold task task.01 ----- 32:0-ARGM-ADJ 33:0-rel 34:1-ARGM-LOC
 bn/nbc/00/nbc_0033.parse 16 41 gold sell sell.01 ----- 40:0-ARGM-LOC 41:0-rel
 bn/nbc/00/nbc_0033.parse 2 38 gold fight fight.01 ----- 27:2-ARG0 37:1-ARGM-TMP 38:0-rel 39:1-ARG2
 bn/nbc/00/nbc_0033.parse 2 46 gold say say.01 ----- 45:1-ARG0 46:0-rel 47:1-ARG1
 bn/nbc/00/nbc_0033.parse 11 12 gold be be.03 ----- 12:0-rel
+bn/nbc/00/nbc_0033.parse 10 10 gold trip trip.03 ----- 7:1-ARGM-ADJ 10:0-rel
+bn/nbc/00/nbc_0033.parse 4 17 gold try try.01 ----- 0:2-ARG0 17:0-rel 18:2-ARG1
 bn/nbc/00/nbc_0033.parse 12 14 gold be be.01 ----- 13:1-ARG1 14:0-rel 15:1-ARG2
 bn/nbc/00/nbc_0033.parse 3 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2 8:1-ARGM-TMP
 bn/nbc/00/nbc_0033.parse 17 16 gold have have.03 ----- 15:1-ARG0 16:0-rel 17:1-ARG1 19:1-ARGM-LOC
@@ -60,7 +61,6 @@ bn/nbc/00/nbc_0033.parse 19 8 gold sort sort.01 ----- 0:1*9:1-ARG1 8:0-rel 10:1-
 bn/nbc/00/nbc_0033.parse 6 2 gold find find.01 ----- 0:1*5:1-ARG0 2:0,3:1-rel
 bn/nbc/00/nbc_0033.parse 15 17 gold need need.01 ----- 0:1-ARGM-ADV 16:1-ARG0 17:0-rel 18:1-ARG1 21:2-ARGM-PRP
 bn/nbc/00/nbc_0033.parse 17 3 gold be be.01 ----- 0:1-ARG1 3:0-rel 4:0-ARGM-NEG 5:1-ARG2 8:1-ARGM-CAU
-bn/nbc/00/nbc_0033.parse 2 10 gold ship ship.01 ----- 8:1*9:1-ARG0 10:0-rel 12:3-ARG1
 bn/nbc/00/nbc_0033.parse 16 5 gold track track.01 ----- 0:1*3:1*4:1-ARG0 0:1*3:1-LINK-SLC 5:0-rel 6:1-ARG1
 bn/nbc/00/nbc_0033.parse 4 20 gold steady steady.01 ----- 0:2*18:1-ARG0 0:2*18:1-LINK-PRO 20:0-rel 21:1-ARG1 22:1-ARGM-MNR
 bn/nbc/00/nbc_0033.parse 7 13 gold process process.01 ----- 6:2*10:1*24:1-ARGM-LOC 6:2*10:1-LINK-SLC 11:1*14:1-ARG1 13:0-rel

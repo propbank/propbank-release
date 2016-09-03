@@ -1,9 +1,9 @@
 wb/a2e/00/a2e_0002.parse 14 62 gold have have.LV ----- 62:0-rel 65:0-ARGM-PRR
+wb/a2e/00/a2e_0002.parse 0 1 gold rejoice rejoice.01 ----- 0:1-ARG0 1:0-rel 3:2-ARGM-DIS
 wb/a2e/00/a2e_0002.parse 20 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 wb/a2e/00/a2e_0002.parse 6 17 gold be be.01 ----- 14:1-ARG1 17:0-rel 18:1-ARG2
 wb/a2e/00/a2e_0002.parse 7 13 gold be be.01 ----- 4:2-ARG1 13:0-rel 14:1-ARG2
 wb/a2e/00/a2e_0002.parse 7 9 gold keep keep.01 ----- 4:2-ARG0 9:0-rel 10:1-ARG1
-wb/a2e/00/a2e_0002.parse 5 23 gold be be.03 ----- 23:0-rel
 wb/a2e/00/a2e_0002.parse 22 14 gold reject reject.01 ----- 5:2*12:1*13:1-ARG0 5:2*12:1-LINK-SLC 14:0-rel 15:1-ARG1
 wb/a2e/00/a2e_0002.parse 24 6 gold fight fight.01 ----- 2:2-ARG0 6:0-rel 7:1-ARG1 8:1-ARGM-CAU
 wb/a2e/00/a2e_0002.parse 9 20 gold narrate narrate.01 ----- 19:1-ARG1 20:0-rel 22:1-ARG0
@@ -13,8 +13,6 @@ wb/a2e/00/a2e_0002.parse 18 13 gold strike strike.01 ----- 4:2*12:1-ARG0 13:0-re
 wb/a2e/00/a2e_0002.parse 14 5 gold tell tell.01 ----- 0:1-ARGM-MNR 3:1-ARG0 5:0-rel 6:1-ARG2 8:3-ARGM-DIS
 wb/a2e/00/a2e_0002.parse 14 67 gold peace peace.01 ----- 63:1-ARG0 67:0-rel
 wb/a2e/00/a2e_0002.parse 10 9 gold be be.01 ----- 7:1-ARG1 9:0-rel 10:1-ARG2
-wb/a2e/00/a2e_0002.parse 14 4 gold be be.03 ----- 4:0-rel
-wb/a2e/00/a2e_0002.parse 0 1 gold rejoice rejoice.01 ----- 0:1-ARG0 1:0-rel 3:2-ARGM-DIS
 wb/a2e/00/a2e_0002.parse 8 12 gold salvation salvation.01 ----- 12:0-rel
 wb/a2e/00/a2e_0002.parse 24 4 gold encounter encounter.01 ----- 2:1*3:1-ARG0 4:0-rel 5:1-ARG1
 wb/a2e/00/a2e_0002.parse 23 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2
@@ -25,6 +23,7 @@ wb/a2e/00/a2e_0002.parse 12 15 gold return return.01 ----- 0:2-ARG1 15:0-rel 16:
 wb/a2e/00/a2e_0002.parse 13 51 gold be be.03 ----- 51:0-rel
 wb/a2e/00/a2e_0002.parse 14 65 gold bless bless.01 ----- 60:0-ARGM-MOD 61:1-ARG1 62:0-ARGM-LVB 63:1-ARG0 65:0-rel
 wb/a2e/00/a2e_0002.parse 5 17 gold chase chase.01 ----- 0:2-ARG0 17:0-rel 18:1-ARG1 20:1-ARGM-TMP
+wb/a2e/00/a2e_0002.parse 14 4 gold be be.03 ----- 4:0-rel
 wb/a2e/00/a2e_0002.parse 13 9 gold have have.01 ----- 9:0-rel
 wb/a2e/00/a2e_0002.parse 12 22 gold pride pride.01 ----- 20:1-ARG1 22:0-rel
 wb/a2e/00/a2e_0002.parse 6 5 gold be be.01 ----- 1:2-ARG1 5:0-rel 6:1-ARG2
@@ -32,13 +31,15 @@ wb/a2e/00/a2e_0002.parse 17 8 gold be be.01 ----- 7:0-ARGM-MOD 8:0-rel 9:1-ARG2 
 wb/a2e/00/a2e_0002.parse 13 47 gold bless bless.01 ----- 45:1-ARG0 47:0-rel 48:1-ARG1
 wb/a2e/00/a2e_0002.parse 1 8 gold have have.01 ----- 8:0-rel
 wb/a2e/00/a2e_0002.parse 13 69 gold disobey disobey.01 ----- 69:0-rel
-wb/a2e/00/a2e_0002.parse 28 2 gold be be.01 ----- 0:1*3:1-ARG2 2:0-rel 4:2-ARG1
 wb/a2e/00/a2e_0002.parse 13 55 gold be be.03 ----- 55:0-rel
+wb/a2e/00/a2e_0002.parse 24 1 gold let let.01 ----- 0:1-ARG0 1:0-rel 2:3-ARG1
 wb/a2e/00/a2e_0002.parse 8 15 gold say say.01 ----- 0:2-ARG0 15:0-rel 16:1-ARG3 18:1-ARG1
 wb/a2e/00/a2e_0002.parse 4 7 gold praise praise.01 ----- 0:1-ARGM-TMP 4:1-ARG0 7:0-rel 8:2-ARG1
 wb/a2e/00/a2e_0002.parse 24 10 gold be be.01 ----- 9:1-ARG1 10:0-rel 11:1-ARG2
 wb/a2e/00/a2e_0002.parse 7 20 gold confront confront.01 ----- 20:0-rel
+wb/a2e/00/a2e_0002.parse 28 2 gold be be.01 ----- 0:1*3:1-ARG2 2:0-rel 4:2-ARG1
 wb/a2e/00/a2e_0002.parse 9 10 gold mean mean.01 ----- 9:1-ARG1 10:0-rel 11:2-ARG2
+wb/a2e/00/a2e_0002.parse 5 23 gold be be.03 ----- 23:0-rel
 wb/a2e/00/a2e_0002.parse 4 12 gold humble humble.01 ----- 8:1*10:1*11:1-ARG0 8:1*10:1-LINK-SLC 12:0-rel 13:2-ARG1
 wb/a2e/00/a2e_0002.parse 26 1 gold deserve deserve.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 wb/a2e/00/a2e_0002.parse 4 19 gold defeat defeat.01 ----- 8:1*10:1*11:1-ARG0 8:1*10:1-LINK-SLC 19:0-rel 20:2-ARG1
@@ -50,31 +51,30 @@ wb/a2e/00/a2e_0002.parse 6 12 gold think think.01 ----- 0:1-ARGM-ADV 10:1-ARG0 1
 wb/a2e/00/a2e_0002.parse 13 8 gold end end.01 ----- 7:0-ARGM-MNR 8:0-rel
 wb/a2e/00/a2e_0002.parse 27 4 gold be be.02 ----- 0:1-ARGM-DIS 4:0-rel 5:3-ARG1
 wb/a2e/00/a2e_0002.parse 7 17 gold be be.01 ----- 4:2-ARG1 17:0-rel 18:2-ARG2
-wb/a2e/00/a2e_0002.parse 15 1 gold rejoice rejoice.01 ----- 0:1-ARG0 1:0-rel
 wb/a2e/00/a2e_0002.parse 22 4 gold be be.02 ----- 0:1-ARGM-TMP 3:0-ARGM-MOD 4:0-rel 5:3-ARG1
+wb/a2e/00/a2e_0002.parse 13 11 gold be be.03 ----- 11:0-rel
+wb/a2e/00/a2e_0002.parse 15 1 gold rejoice rejoice.01 ----- 0:1-ARG0 1:0-rel
 wb/a2e/00/a2e_0002.parse 11 2 gold be be.01 ----- 1:1-ARG1 2:0-rel 3:2-ARG2
 wb/a2e/00/a2e_0002.parse 13 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 wb/a2e/00/a2e_0002.parse 5 11 gold be be.01 ----- 9:0-ARGM-MOD 10:1-ARG1 11:0-rel 12:1-ARG2
 wb/a2e/00/a2e_0002.parse 10 27 gold be be.01 ----- 26:1-ARG1 27:0-rel 28:2-ARG2
-wb/a2e/00/a2e_0002.parse 13 11 gold be be.03 ----- 11:0-rel
 wb/a2e/00/a2e_0002.parse 10 21 gold say say.01 ----- 0:2-ARG0 21:0-rel 22:1-ARG3 26:2-ARG1
 wb/a2e/00/a2e_0002.parse 10 13 gold bless bless.01 ----- 12:1-ARG0 13:0-rel 14:1-ARG1
 wb/a2e/00/a2e_0002.parse 10 16 gold grant grant.01 ----- 12:1-ARG0 16:0-rel 17:1-ARG2 18:1-ARG1
 wb/a2e/00/a2e_0002.parse 12 14 gold have have.01 ----- 14:0-rel
-wb/a2e/00/a2e_0002.parse 8 7 gold bless bless.01 ----- 5:0-ARGM-MOD 6:1-ARG0 7:0-rel 8:1-ARG1
 wb/a2e/00/a2e_0002.parse 13 12 gold decree decree.01 ----- 3:1*4:1*14:1-ARG2 3:1*4:1-LINK-SLC 6:1*13:1-ARG1 10:1-ARGM-TMP 12:0-rel 15:1-ARG0 17:1-ARGM-LOC
 wb/a2e/00/a2e_0002.parse 13 64 gold deviate deviate.01 ----- 64:0-rel
 wb/a2e/00/a2e_0002.parse 10 18 gold salvation salvation.01 ----- 18:0-rel
 wb/a2e/00/a2e_0002.parse 18 14 gold terrorize terror.02 ----- 14:0-rel
 wb/a2e/00/a2e_0002.parse 8 10 gold grant grant.01 ----- 5:0-ARGM-MOD 6:1-ARG0 10:0-rel 11:1-ARG2 12:1-ARG1
-wb/a2e/00/a2e_0002.parse 24 1 gold let let.01 ----- 0:1-ARG0 1:0-rel 2:3-ARG1
 wb/a2e/00/a2e_0002.parse 13 19 gold write write.01 ----- 19:0-rel 20:0-ARG1
 wb/a2e/00/a2e_0002.parse 23 5 gold be be.02 ----- 5:0-rel 6:2-ARG1
 wb/a2e/00/a2e_0002.parse 13 29 gold come come.01 ----- 3:1*22:1*30:1-ARG4 3:1*22:1-LINK-SLC 24:2-ARG1 29:0-rel 31:1-ARGM-MNR
 wb/a2e/00/a2e_0002.parse 15 3 gold be be.01 ----- 0:1-ARG1 3:0-rel 4:1-ARG2
 wb/a2e/00/a2e_0002.parse 9 5 gold come come.03 ----- 0:2-ARG1 5:0-rel 6:1-ARG2 8:1-ARGM-ADV 19:2-ARGM-PRD
+wb/a2e/00/a2e_0002.parse 8 7 gold bless bless.01 ----- 5:0-ARGM-MOD 6:1-ARG0 7:0-rel 8:1-ARG1
 wb/a2e/00/a2e_0002.parse 27 17 gold name name.02 ----- 15:1*18:1-ARG1 15:1*18:1-LINK-PSV 17:0-rel 19:1-ARG2
+wb/a2e/00/a2e_0002.parse 16 4 gold forsake forsake.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:1-ARGM-ADV 3:0-ARGM-NEG 4:0-rel 5:2-ARG1
 wb/a2e/00/a2e_0002.parse 1 9 gold return return.01 ----- 0:2-ARG1 9:0-rel 10:1-ARG4
 wb/a2e/00/a2e_0002.parse 21 2 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 2:0-rel 3:2-ARG2
 wb/a2e/00/a2e_0002.parse 13 56 gold leave leave.12 ----- 3:2*53:1*57:1-ARG1 56:0-rel 58:1-ARG0 60:1-ARG2
-wb/a2e/00/a2e_0002.parse 16 4 gold forsake forsake.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:1-ARGM-ADV 3:0-ARGM-NEG 4:0-rel 5:2-ARG1

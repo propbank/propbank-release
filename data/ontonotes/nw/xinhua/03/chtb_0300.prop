@@ -1,19 +1,21 @@
 nw/xinhua/03/chtb_0300.parse 10 39 gold stop stop.01 ----- 33:1-ARG0 38:1-ARGM-ADV 39:0-rel 40:1-ARG1
-nw/xinhua/03/chtb_0300.parse 1 35 gold talk talk.01 ----- 35:0-rel
 nw/xinhua/03/chtb_0300.parse 8 1 gold maintain maintain.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 nw/xinhua/03/chtb_0300.parse 4 20 gold measure measure.02 ----- 19:0-ARGM-ADJ 20:0-rel
 nw/xinhua/03/chtb_0300.parse 2 1 gold talk talk.01 ----- 1:0-rel
+nw/xinhua/03/chtb_0300.parse 10 3 gold require require.01 ----- 3:0-rel 4:1-ARG2
+nw/xinhua/03/chtb_0300.parse 3 27 gold establish establish.01 ----- 25:1-ARG0 27:0-rel 28:1-ARG1 34:1-ARGM-LOC
 nw/xinhua/03/chtb_0300.parse 3 3 gold believe believe.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
 nw/xinhua/03/chtb_0300.parse 10 45 gold decide decide.01 ----- 0:2-ARGM-ADV 42:1-ARG0 45:0-rel 46:2-ARG1
 nw/xinhua/03/chtb_0300.parse 2 29 gold peace peace.01 ----- 29:0-rel
 nw/xinhua/03/chtb_0300.parse 10 1 gold consider consider.02 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
+nw/xinhua/03/chtb_0300.parse 7 31 gold be be.03 ----- 31:0-rel
+nw/xinhua/03/chtb_0300.parse 2 6 gold express express.01 ----- 0:1-ARGM-TMP 3:1-ARG0 6:0-rel 7:2-ARG1 43:1-ARGM-PRD
 nw/xinhua/03/chtb_0300.parse 6 4 gold create create.01 ----- 0:1*2:1-ARG0 4:0-rel 5:2-ARG1
 nw/xinhua/03/chtb_0300.parse 1 40 gold exchange exchange.01 ----- 4:3*39:1-ARG0 4:3*39:1-LINK-PRO 40:0-rel 41:2-ARG1
-nw/xinhua/03/chtb_0300.parse 1 44 gold establish establish.01 ----- 43:1-ARG0 44:0-rel 45:2-ARG1
 nw/xinhua/03/chtb_0300.parse 9 3 gold hold hold.02 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
+nw/xinhua/03/chtb_0300.parse 1 44 gold establish establish.01 ----- 43:1-ARG0 44:0-rel 45:2-ARG1
 nw/xinhua/03/chtb_0300.parse 7 32 gold relax relax.01 ----- 24:2*35:1-ARG1 30:0-ARGM-MOD 32:0-rel
-nw/xinhua/03/chtb_0300.parse 8 20 gold be be.01 ----- 0:2-ARG1 20:0-rel 21:1-ARGM-ADV 22:1-ARG2
-nw/xinhua/03/chtb_0300.parse 2 7 gold satisfy satisfy.01 ----- 7:0-rel 8:1-ARG0
+nw/xinhua/03/chtb_0300.parse 2 11 gold make make.LV ----- 10:0-ARGM-PRR 11:0-rel
 nw/xinhua/03/chtb_0300.parse 5 9 gold measure measure.02 ----- 7:1-ARGM-ADJ 9:0-rel
 nw/xinhua/03/chtb_0300.parse 11 17 gold relax relax.01 ----- 5:2*15:1-ARG0 5:2*15:1-LINK-PRO 17:0-rel 18:2-ARG1
 nw/xinhua/03/chtb_0300.parse 11 14 gold effort effort.01 ----- 5:2*10:1-ARG0 12:0-ARGM-LVB 13:0-ARGM-MNR 14:0-rel 15:2-ARG1
@@ -28,21 +30,18 @@ nw/xinhua/03/chtb_0300.parse 1 50 gold ensure ensure.01 ----- 49:1-ARG0 50:0-rel
 nw/xinhua/03/chtb_0300.parse 4 22 gold take take.01 ----- 19:1*23:1-ARG1 19:1*23:1-LINK-PSV 21:1-ARGM-TMP 22:0-rel 24:1-ARG0
 nw/xinhua/03/chtb_0300.parse 10 20 gold recall recall.01 ----- 16:1-ARG0 20:0-rel 21:3-ARG1
 nw/xinhua/03/chtb_0300.parse 8 10 gold accord accord.01 ----- 0:2-ARG0 10:0-rel 11:1-ARG1 12:1-ARG2
-nw/xinhua/03/chtb_0300.parse 5 8 gold mention mention.01 ----- 7:0-ARGM-LOC 8:0-rel 9:0-ARG1
 nw/xinhua/03/chtb_0300.parse 10 19 gold have have.01 ----- 19:0-rel
 nw/xinhua/03/chtb_0300.parse 1 34 gold hold hold.04 ----- 0:1-ARGM-TMP 4:3-ARG0 34:0-rel 35:1-ARG1 36:1-ARGM-LOC 39:2-ARGM-PRD
 nw/xinhua/03/chtb_0300.parse 3 12 gold relate relation.03 ----- 10:0-ARGM-TMP 11:0-ARG0 12:0-rel
-nw/xinhua/03/chtb_0300.parse 10 3 gold require require.01 ----- 3:0-rel 4:1-ARG2
-nw/xinhua/03/chtb_0300.parse 4 30 gold recall recall.01 ----- 25:1*29:1-ARG0 25:1*29:1-LINK-PRO 30:0-rel 31:1-ARG1 34:1-ARGM-DIR
-nw/xinhua/03/chtb_0300.parse 3 27 gold establish establish.01 ----- 25:1-ARG0 27:0-rel 28:1-ARG1 34:1-ARGM-LOC
 nw/xinhua/03/chtb_0300.parse 7 8 gold pay pay.01 ----- 6:1-ARG0 7:0-ARGM-MOD 8:0-rel 9:1-ARG1 10:1-ARG2
-nw/xinhua/03/chtb_0300.parse 2 6 gold express express.01 ----- 0:1-ARGM-TMP 3:1-ARG0 6:0-rel 7:2-ARG1 43:1-ARGM-PRD
 nw/xinhua/03/chtb_0300.parse 11 9 gold continue continue.01 ----- 5:2-ARG0 9:0-rel 10:2-ARG1
 nw/xinhua/03/chtb_0300.parse 8 3 gold peace peace.01 ----- 3:0-rel 6:1-ARG1
 nw/xinhua/03/chtb_0300.parse 6 13 gold guarantee guarantee.01 ----- 11:0-ARG1 13:0-rel
 nw/xinhua/03/chtb_0300.parse 7 3 gold express express.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
 nw/xinhua/03/chtb_0300.parse 2 23 gold maintain maintain.01 ----- 22:1-ARG0 23:0-rel 24:1-ARG1 36:1-ARGM-TMP
+nw/xinhua/03/chtb_0300.parse 1 35 gold talk talk.01 ----- 35:0-rel
 nw/xinhua/03/chtb_0300.parse 5 11 gold act act.02 ----- 11:0-rel 12:1-ARGM-MNR
+nw/xinhua/03/chtb_0300.parse 8 20 gold be be.01 ----- 0:2-ARG1 20:0-rel 21:1-ARGM-ADV 22:1-ARG2
 nw/xinhua/03/chtb_0300.parse 10 40 gold operate operate.01 ----- 33:1-ARG1 40:0-rel
 nw/xinhua/03/chtb_0300.parse 8 25 gold peace peace.01 ----- 25:0-rel 28:1-ARG1
 nw/xinhua/03/chtb_0300.parse 9 13 gold be be.03 ----- 13:0-rel
@@ -50,18 +49,19 @@ nw/xinhua/03/chtb_0300.parse 6 9 gold establish establish.01 ----- 8:1-ARG0 9:0-
 nw/xinhua/03/chtb_0300.parse 10 37 gold have have.01 ----- 37:0-rel
 nw/xinhua/03/chtb_0300.parse 4 11 gold guarantee guarantee.01 ----- 9:0-ARG1 11:0-rel
 nw/xinhua/03/chtb_0300.parse 1 51 gold peace peace.01 ----- 51:0-rel
+nw/xinhua/03/chtb_0300.parse 2 7 gold satisfy satisfy.01 ----- 7:0-rel 8:1-ARG0
 nw/xinhua/03/chtb_0300.parse 10 48 gold recall recall.01 ----- 42:1*46:1-ARG0 48:0-rel 49:2-ARG1
 nw/xinhua/03/chtb_0300.parse 3 32 gold guarantee guarantee.01 ----- 30:0-ARG1 32:0-rel
-nw/xinhua/03/chtb_0300.parse 7 31 gold be be.03 ----- 31:0-rel
 nw/xinhua/03/chtb_0300.parse 9 23 gold concern concern.01 ----- 21:1*24:1-ARG1 21:1*24:1-LINK-PSV 23:0-rel
-nw/xinhua/03/chtb_0300.parse 2 11 gold make make.LV ----- 10:0-ARGM-PRR 11:0-rel
 nw/xinhua/03/chtb_0300.parse 11 3 gold hope hope.01 ----- 0:1-ARG0 3:0-rel 5:3-ARG1
 nw/xinhua/03/chtb_0300.parse 2 47 gold sign sign.02 ----- 47:0-rel 48:0-ARG0 49:1-ARG1
 nw/xinhua/03/chtb_0300.parse 7 22 gold hope hope.01 ----- 6:1-ARG0 21:1-ARGM-MNR 22:0-rel 23:1-ARG1
 nw/xinhua/03/chtb_0300.parse 4 6 gold establish establish.01 ----- 5:1-ARG0 6:0-rel 7:1-ARG1 13:1-ARGM-LOC
 nw/xinhua/03/chtb_0300.parse 3 23 gold be be.01 ----- 6:1-ARGM-CAU 23:0-rel 24:1-ARG2 25:2-ARG1
+nw/xinhua/03/chtb_0300.parse 5 8 gold mention mention.01 ----- 7:0-ARGM-LOC 8:0-rel 9:0-ARG1
 nw/xinhua/03/chtb_0300.parse 5 3 gold emphasize emphasize.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
 nw/xinhua/03/chtb_0300.parse 9 6 gold relate relate.01 ----- 5:1*7:1-ARG1 5:1*7:1-LINK-PSV 6:0-rel 8:1-ARG2
+nw/xinhua/03/chtb_0300.parse 4 30 gold recall recall.01 ----- 25:1*29:1-ARG0 25:1*29:1-LINK-PRO 30:0-rel 31:1-ARG1 34:1-ARGM-DIR
 nw/xinhua/03/chtb_0300.parse 2 10 gold effort effort.01 ----- 9:0-ARGM-MNR 10:0-rel 11:0-ARGM-LVB 13:1-ARG0
 nw/xinhua/03/chtb_0300.parse 9 2 gold side side.01 ----- 1:0-ARG0 2:0-rel
 nw/xinhua/03/chtb_0300.parse 4 41 gold set set_up.03 ----- 25:1*29:1-ARG0 25:1*29:1-LINK-PRO 41:0,42:1-rel 43:2-ARG1 53:1-ARG2

@@ -14,22 +14,21 @@ ewt/email/00/enronsent06_01.xml.parse 98 14 gold change change.01 ----- 5:1-ARG0
 ewt/email/00/enronsent06_01.xml.parse 63 25 gold let let.01 ----- 23:1-ARG0 24:1-ARGM-ADV 25:0-rel 26:2-ARG1
 ewt/email/00/enronsent06_01.xml.parse 68 3 gold be be.03 ----- 3:0-rel
 ewt/email/00/enronsent06_01.xml.parse 54 1 gold have have.01 ----- 1:0-rel
-ewt/email/00/enronsent06_01.xml.parse 94 8 gold speak speak.01 ----- 5:1-ARG0 8:0-rel
 ewt/email/00/enronsent06_01.xml.parse 57 9 gold need need.01 ----- 6:2-ARG0 9:0-rel 10:1-ARG1
 ewt/email/00/enronsent06_01.xml.parse 50 6 gold instruct instruct.01 ----- 1:1-ARGM-ADJ 6:0-rel 7:1-ARG3
 ewt/email/00/enronsent06_01.xml.parse 62 5 gold settle settle.02 ----- 4:0-ARGM-ADJ 5:0-rel
 ewt/email/00/enronsent06_01.xml.parse 53 11 gold dial dial.01 ----- 10:1-ARG0 11:0-rel 12:1-ARG1
 ewt/email/00/enronsent06_01.xml.parse 18 2 gold believe believe.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG1 4:2-ARGM-TMP
-ewt/email/00/enronsent06_01.xml.parse 18 6 gold see see.01 ----- 4:1*8:1-ARGM-TMP 5:1-ARG0 6:0-rel 7:1-ARG1
+ewt/email/00/enronsent06_01.xml.parse 13 0 gold congratulate congratulate.01 ----- 0:0-rel
+ewt/email/00/enronsent06_01.xml.parse 52 10 gold enter enter.02 ----- 0:1*7:1*8:1-ARG0 10:0-rel 11:2-ARG1
 ewt/email/00/enronsent06_01.xml.parse 32 1 gold await await.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 ewt/email/00/enronsent06_01.xml.parse 84 5 gold administer administer.01 ----- 4:0-ARG1 5:0-rel
 ewt/email/00/enronsent06_01.xml.parse 86 18 gold have have.03 ----- 16:1-ARG0 17:0-ARGM-MOD 18:0-rel 19:1-ARG1 21:1-ARGM-DIS
-ewt/email/00/enronsent06_01.xml.parse 96 1 gold have have.01 ----- 1:0-rel
-ewt/email/00/enronsent06_01.xml.parse 31 1 gold be be.03 ----- 1:0-rel
 ewt/email/00/enronsent06_01.xml.parse 68 4 gold make make.LV ----- 0:1-ARGM-PRR 4:0-rel
 ewt/email/00/enronsent06_01.xml.parse 37 19 gold speak speak.01 ----- 11:1*16:1,20:1-ARGM-LOC 11:1*16:1-LINK-SLC 17:1-ARG0 19:0-rel 22:1-ARGM-TMP 24:1-ARGM-LOC
 ewt/email/00/enronsent06_01.xml.parse 63 5 gold avail available.02 ----- 0:1-ARG2 3:0-ARGM-MOD 5:0-rel 6:1-ARGM-TMP
 ewt/email/00/enronsent06_01.xml.parse 68 1 gold have have.01 ----- 1:0-rel
+ewt/email/00/enronsent06_01.xml.parse 5 14 gold contribute contribute.01 ----- 13:0-ARG0 14:0-rel
 ewt/email/00/enronsent06_01.xml.parse 65 3 gold devote devote.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1 10:1-ARG2
 ewt/email/00/enronsent06_01.xml.parse 50 16 gold follow follow.04 ----- 15:1-ARG1 16:0-rel
 ewt/email/00/enronsent06_01.xml.parse 88 23 gold move move.02 ----- 21:1-ARG0 23:0-rel 24:2-ARG1
@@ -38,7 +37,7 @@ ewt/email/00/enronsent06_01.xml.parse 64 5 gold thank thank.01 ----- 0:1*3:1-ARG
 ewt/email/00/enronsent06_01.xml.parse 43 1 gold talk talk.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG2 4:1-ARGM-TMP
 ewt/email/00/enronsent06_01.xml.parse 99 1 gold fly fly.01 ----- 0:0-ARG1 1:0-rel
 ewt/email/00/enronsent06_01.xml.parse 2 2 gold respond respond.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
-ewt/email/00/enronsent06_01.xml.parse 14 6 gold be be.03 ----- 6:0-rel
+ewt/email/00/enronsent06_01.xml.parse 88 17 gold assert assert.02 ----- 9:2-ARG0 16:0-ARGM-PRD 17:0-rel 18:1-ARG1
 ewt/email/00/enronsent06_01.xml.parse 21 17 gold push push.05 ----- 14:1-ARG0 17:0-rel 18:1-ARG1
 ewt/email/00/enronsent06_01.xml.parse 33 7 gold work work.09 ----- 4:1*6:1-ARG1 7:0-rel 8:1-ARG2
 ewt/email/00/enronsent06_01.xml.parse 102 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
@@ -47,36 +46,32 @@ ewt/email/00/enronsent06_01.xml.parse 86 14 gold think think.01 ----- 0:1-ARG0 1
 ewt/email/00/enronsent06_01.xml.parse 98 21 gold make make.LV ----- 14:0-ARGM-PRR 21:0-rel
 ewt/email/00/enronsent06_01.xml.parse 85 0 gold attach attach.01 ----- 0:0-rel 1:1*4:2-ARG1
 ewt/email/00/enronsent06_01.xml.parse 7 2 gold be be.01 ----- 1:1-ARG1 2:0-rel 3:1-ARG2
+ewt/email/00/enronsent06_01.xml.parse 5 2 gold be be.03 ----- 2:0-rel
 ewt/email/00/enronsent06_01.xml.parse 60 7 gold copy copy.01 ----- 7:0-rel 8:1-ARG1 29:1-ARGM-ADJ
+ewt/email/00/enronsent06_01.xml.parse 94 11 gold think think.01 ----- 10:1-ARG0 11:0-rel 12:1-ARG1
 ewt/email/00/enronsent06_01.xml.parse 15 10 gold work work.01 ----- 9:1-ARG0 10:0-rel 11:1-ARGM-MNR
 ewt/email/00/enronsent06_01.xml.parse 60 0 gold attach attach.01 ----- 0:0-rel 1:1*7:2-ARG1 2:1-ARGM-PRP
-ewt/email/00/enronsent06_01.xml.parse 94 14 gold present present.01 ----- 14:0-rel
 ewt/email/00/enronsent06_01.xml.parse 60 4 gold review review.01 ----- 3:0-ARG0 4:0-rel
+ewt/email/00/enronsent06_01.xml.parse 3 0 gold greet greet.01 ----- 0:0-rel
 ewt/email/00/enronsent06_01.xml.parse 96 6 gold want want.01 ----- 4:1-ARG0 5:0-ARGM-MOD 6:0-rel 7:2-ARG1
 ewt/email/00/enronsent06_01.xml.parse 8 10 gold respond respond.01 ----- 7:1*8:1*9:1-ARG0 7:1*8:1-LINK-SLC 10:0-rel
-ewt/email/00/enronsent06_01.xml.parse 34 20 gold call call.02 ----- 18:1-ARGM-TMP 20:0-rel
 ewt/email/00/enronsent06_01.xml.parse 54 28 gold assist assist.01 ----- 27:0-ARG0 28:0-rel
 ewt/email/00/enronsent06_01.xml.parse 98 18 gold liken like.02 ----- 16:1-ARG0 17:0-ARGM-MOD 18:0-rel 19:2-ARG1
 ewt/email/00/enronsent06_01.xml.parse 97 2 gold consider consider.02 ----- 0:1-ARG0 1:1-ARGM-TMP 2:0-rel 3:1-ARG1
 ewt/email/00/enronsent06_01.xml.parse 68 12 gold call call.02 ----- 11:0-ARGM-MNR 12:0-rel 13:1-ARGM-TMP 16:2-ARGM-PRP
-ewt/email/00/enronsent06_01.xml.parse 5 2 gold be be.03 ----- 2:0-rel
 ewt/email/00/enronsent06_01.xml.parse 20 0 gold thank thank.01 ----- 0:0-rel
 ewt/email/00/enronsent06_01.xml.parse 21 16 gold be be.03 ----- 16:0-rel
-ewt/email/00/enronsent06_01.xml.parse 94 11 gold think think.01 ----- 10:1-ARG0 11:0-rel 12:1-ARG1
 ewt/email/00/enronsent06_01.xml.parse 21 35 gold have have.LV ----- 32:1-ARGM-PRR 35:0-rel
 ewt/email/00/enronsent06_01.xml.parse 66 4 gold settle settle.02 ----- 2:0-ARGM-LVB 4:0-rel
 ewt/email/00/enronsent06_01.xml.parse 60 5 gold be be.03 ----- 5:0-rel
 ewt/email/00/enronsent06_01.xml.parse 32 11 gold file file.01 ----- 0:1-ARG0 9:0-ARGM-MOD 10:1-ARGM-TMP 11:0-rel 12:1-ARGM-LOC
 ewt/email/00/enronsent06_01.xml.parse 102 4 gold be be.03 ----- 4:0-rel
-ewt/email/00/enronsent06_01.xml.parse 96 2 gold mention mention.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 ewt/email/00/enronsent06_01.xml.parse 21 23 gold get get.02 ----- 21:1-ARG0 23:0-rel 24:1-ARG1 28:1-ARGM-ADV 30:1-ARGM-ADV
 ewt/email/00/enronsent06_01.xml.parse 21 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 ewt/email/00/enronsent06_01.xml.parse 31 25 gold let let.01 ----- 24:1-ARG0 25:0-rel 26:2-ARG1
-ewt/email/00/enronsent06_01.xml.parse 29 3 gold have have.03 ----- 0:1-ARGM-DIS 2:1-ARG0 3:0-rel 4:2-ARG1 11:1-ARGM-TMP 13:1-ARGM-COM
-ewt/email/00/enronsent06_01.xml.parse 60 33 gold approve approve.01 ----- 33:0-rel 34:1-ARG1
+ewt/email/00/enronsent06_01.xml.parse 94 14 gold present present.01 ----- 14:0-rel
 ewt/email/00/enronsent06_01.xml.parse 85 2 gold be be.03 ----- 2:0-rel
 ewt/email/00/enronsent06_01.xml.parse 5 6 gold raise raise.02 ----- 0:1*4:1-ARG0 6:0-rel 7:3-ARG1
-ewt/email/00/enronsent06_01.xml.parse 21 2 gold gladden glad.02 ----- 0:1-ARG1 2:0-rel 3:1-ARG0
 ewt/email/00/enronsent06_01.xml.parse 62 16 gold ship ship.01 ----- 0:2*17:1-ARG1 16:0-rel 18:1-ARGM-TMP 19:1-ARGM-MNR 22:1-ARG2
 ewt/email/00/enronsent06_01.xml.parse 94 15 gold be be.01 ----- 13:1-ARG1 15:0-rel 16:1-ARG2
 ewt/email/00/enronsent06_01.xml.parse 9 2 gold respond respond.01 ----- 2:0-rel
@@ -86,20 +81,14 @@ ewt/email/00/enronsent06_01.xml.parse 33 3 gold know know.01 ----- 2:1-ARG0 3:0-
 ewt/email/00/enronsent06_01.xml.parse 15 6 gold look look_forward.03 ----- 4:1-ARGM-EXT 6:0,7:1-rel 8:1-ARG1
 ewt/email/00/enronsent06_01.xml.parse 54 14 gold join join_in.05 ----- 9:2*12:1-ARG0 14:0,15:1-rel
 ewt/email/00/enronsent06_01.xml.parse 22 1 gold let let.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
-ewt/email/00/enronsent06_01.xml.parse 37 18 gold be be.03 ----- 18:0-rel
-ewt/email/00/enronsent06_01.xml.parse 9 4 gold direct direct.01 ----- 4:0-rel
-ewt/email/00/enronsent06_01.xml.parse 3 0 gold greet greet.01 ----- 0:0-rel
 ewt/email/00/enronsent06_01.xml.parse 63 32 gold need need.01 ----- 28:2*33:1-ARG1 31:1-ARG0 32:0-rel
 ewt/email/00/enronsent06_01.xml.parse 90 0 gold comment comment.01 ----- 0:0-rel
 ewt/email/00/enronsent06_01.xml.parse 7 6 gold attend attend.01 ----- 1:1*5:1-ARG0 1:1*5:1-LINK-PRO 6:0-rel
 ewt/email/00/enronsent06_01.xml.parse 61 9 gold be be.01 ----- 1:2-ARG1 9:0-rel 10:1-ARGM-TMP 12:1-ARG2 13:1-ARGM-MNR
-ewt/email/00/enronsent06_01.xml.parse 88 17 gold assert assert.02 ----- 9:2-ARG0 16:0-ARGM-PRD 17:0-rel 18:1-ARG1
 ewt/email/00/enronsent06_01.xml.parse 60 15 gold file file.01 ----- 9:1*12:1*13:1*16:1-ARG1 9:1*12:1-LINK-SLC 15:0-rel 17:1-ARGM-TMP 18:1-ARGM-LOC
 ewt/email/00/enronsent06_01.xml.parse 23 2 gold be be.01 ----- 0:1-ARG1 1:0-ARGM-MOD 2:0-rel 3:1-ARG2
 ewt/email/00/enronsent06_01.xml.parse 99 2 gold get get.05 ----- 0:1-ARG1 2:0-rel 3:1-ARG2 6:1-ARGM-TMP 8:1-ARGM-ADV
-ewt/email/00/enronsent06_01.xml.parse 50 13 gold be be.01 ----- 0:2-ARG1 13:0-rel 14:1-ARG2
 ewt/email/00/enronsent06_01.xml.parse 65 19 gold show show.01 ----- 18:1-ARG1 19:0-rel
-ewt/email/00/enronsent06_01.xml.parse 7 9 gold email email.01 ----- 0:1-ARGM-ADV 7:1-ARGM-DIS 8:1-ARG0 9:0-rel 10:1-ARG2 11:2-ARGM-TMP
 ewt/email/00/enronsent06_01.xml.parse 31 20 gold certify certify.01 ----- 17:0-ARG0 18:0-ARG1 20:0-rel
 ewt/email/00/enronsent06_01.xml.parse 63 4 gold be be.01 ----- 0:1-ARG1 3:0-ARGM-MOD 4:0-rel 5:1-ARG2 6:1-ARGM-TMP
 ewt/email/00/enronsent06_01.xml.parse 38 6 gold be be.03 ----- 6:0-rel
@@ -107,34 +96,32 @@ ewt/email/00/enronsent06_01.xml.parse 31 27 gold know know.01 ----- 26:1-ARG0 27
 ewt/email/00/enronsent06_01.xml.parse 46 1 gold be be.01 ----- 0:1*2:1-ARG2 1:0-rel 3:2-ARG1
 ewt/email/00/enronsent06_01.xml.parse 54 11 gold need need.01 ----- 8:0-ARGM-MOD 9:2-ARG0 11:0-rel 12:2-ARG1
 ewt/email/00/enronsent06_01.xml.parse 41 0 gold thank thank.01 ----- 0:0-rel
-ewt/email/00/enronsent06_01.xml.parse 67 3 gold be be.01 ----- 1:1-ARG1 2:0-ARGM-MOD 3:0-rel 4:1-ARG2
 ewt/email/00/enronsent06_01.xml.parse 54 2 gold ask ask.02 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
+ewt/email/00/enronsent06_01.xml.parse 46 7 gold call call_in.04 ----- 6:1-ARG0 7:0,8:1-rel
 ewt/email/00/enronsent06_01.xml.parse 21 15 gold have have.01 ----- 15:0-rel
 ewt/email/00/enronsent06_01.xml.parse 88 46 gold turn turn.01 ----- 44:1-ARG0 46:0-rel 47:1-ARGM-DIR 48:1-ARG1 50:1-ARGM-GOL
 ewt/email/00/enronsent06_01.xml.parse 37 15 gold confer confer.01 ----- 12:1-ARG0 15:0-rel 16:2-ARGM-ADJ
 ewt/email/00/enronsent06_01.xml.parse 14 7 gold join join.04 ----- 5:1-ARG0 7:0-rel
-ewt/email/00/enronsent06_01.xml.parse 11 1 gold thank thank.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 ewt/email/00/enronsent06_01.xml.parse 38 7 gold appreciate appreciate.02 ----- 0:1*8:1-ARG1 7:0-rel
 ewt/email/00/enronsent06_01.xml.parse 61 16 gold have have.01 ----- 16:0-rel
 ewt/email/00/enronsent06_01.xml.parse 95 5 gold update update.01 ----- 0:1*3:1-ARG0 5:0-rel 6:2-ARG1
 ewt/email/00/enronsent06_01.xml.parse 69 4 gold rest rest.01 ----- 3:1-ARG1 4:0-rel 5:1-ARGM-GOL
 ewt/email/00/enronsent06_01.xml.parse 51 2 gold dial dial.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:2-ARG1
-ewt/email/00/enronsent06_01.xml.parse 67 21 gold ready ready.02 ----- 19:1-ARG1 21:0-rel 22:1-ARGM-TMP
 ewt/email/00/enronsent06_01.xml.parse 37 5 gold be be.03 ----- 5:0-rel
 ewt/email/00/enronsent06_01.xml.parse 10 2 gold contact contact.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1 4:1-ARGM-ADV
 ewt/email/00/enronsent06_01.xml.parse 88 28 gold base base.02 ----- 21:2*29:1-ARG1 28:0-rel 30:1-ARGM-ADV 31:1-ARG2 33:1-ARGM-ADV
-ewt/email/00/enronsent06_01.xml.parse 95 13 gold make make.LV ----- 10:0-ARGM-PRR 13:0-rel
 ewt/email/00/enronsent06_01.xml.parse 98 3 gold know know.01 ----- 2:1-ARG0 3:0-rel
 ewt/email/00/enronsent06_01.xml.parse 94 19 gold go go.06 ----- 13:1*17:1-ARG1 19:0-rel 20:1-ARGM-TMP
 ewt/email/00/enronsent06_01.xml.parse 60 27 gold proceed proceeding.02 ----- 20:3-ARG2 27:0-rel
 ewt/email/00/enronsent06_01.xml.parse 62 14 gold be be.03 ----- 14:0-rel
 ewt/email/00/enronsent06_01.xml.parse 63 15 gold make make.02 ----- 13:1-ARG0 14:0-ARGM-MOD 15:0-rel 16:2-ARG1
+ewt/email/00/enronsent06_01.xml.parse 50 13 gold be be.01 ----- 0:2-ARG1 13:0-rel 14:1-ARG2
 ewt/email/00/enronsent06_01.xml.parse 37 0 gold attach attach.01 ----- 0:0-rel 1:1*7:2-ARG1 2:1-ARGM-PRP
 ewt/email/00/enronsent06_01.xml.parse 94 2 gold discuss discuss.01 ----- 1:1-ARG0 2:0-rel 3:1-ARGM-TMP
-ewt/email/00/enronsent06_01.xml.parse 52 10 gold enter enter.02 ----- 0:1*7:1*8:1-ARG0 10:0-rel 11:2-ARG1
+ewt/email/00/enronsent06_01.xml.parse 30 5 gold use use.01 ----- 3:1-ARG0 4:0-ARGM-MOD 5:0-rel 6:2-ARG1 9:2-ARGM-MNR 12:1-ARGM-TMP
 ewt/email/00/enronsent06_01.xml.parse 88 8 gold refute refute.01 ----- 2:1-ARG0 5:1-ARGM-MNR 8:0-rel 9:3-ARG1
 ewt/email/00/enronsent06_01.xml.parse 31 2 gold follow follow_up.03 ----- 0:1-ARG0 2:0,3:1-rel 4:1-ARGM-COM 8:1-ARG1
-ewt/email/00/enronsent06_01.xml.parse 50 12 gold meet meet.03 ----- 9:0-ARGM-TMP 10:1-ARGM-TMP 12:0-rel
+ewt/email/00/enronsent06_01.xml.parse 14 6 gold be be.03 ----- 6:0-rel
 ewt/email/00/enronsent06_01.xml.parse 61 12 gold avail available.02 ----- 1:2-ARG2 10:1-ARGM-NEG 12:0-rel 13:1-ARGM-MNR
 ewt/email/00/enronsent06_01.xml.parse 98 1 gold let let.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 ewt/email/00/enronsent06_01.xml.parse 32 2 gold approve approve.01 ----- 2:0-rel 3:1-ARG1
@@ -142,57 +129,61 @@ ewt/email/00/enronsent06_01.xml.parse 30 1 gold indicate indicate.01 ----- 0:1-A
 ewt/email/00/enronsent06_01.xml.parse 63 30 gold copy copy.01 ----- 28:1-ARGM-ADJ 30:0-rel
 ewt/email/00/enronsent06_01.xml.parse 30 8 gold help help.01 ----- 6:1-ARG0 8:0-rel
 ewt/email/00/enronsent06_01.xml.parse 70 4 gold thank thank.01 ----- 0:1-ARGM-TMP 3:1-ARG0 4:0-rel 5:2-ARG1 7:1-ARG2
-ewt/email/00/enronsent06_01.xml.parse 86 1 gold have have.01 ----- 1:0-rel
+ewt/email/00/enronsent06_01.xml.parse 11 1 gold thank thank.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 ewt/email/00/enronsent06_01.xml.parse 40 7 gold participate participate.01 ----- 2:1*5:1-ARG0 7:0-rel
 ewt/email/00/enronsent06_01.xml.parse 52 17 gold be be.01 ----- 11:1*15:1*16:1-ARG1 11:1*15:1-LINK-SLC 17:0-rel 18:1-ARG2
 ewt/email/00/enronsent06_01.xml.parse 55 5 gold be be.01 ----- 0:2-ARG1 5:0-rel 6:1-ARG2
-ewt/email/00/enronsent06_01.xml.parse 30 5 gold use use.01 ----- 3:1-ARG0 4:0-ARGM-MOD 5:0-rel 6:2-ARG1 9:2-ARGM-MNR 12:1-ARGM-TMP
-ewt/email/00/enronsent06_01.xml.parse 5 14 gold contribute contribute.01 ----- 13:0-ARG0 14:0-rel
+ewt/email/00/enronsent06_01.xml.parse 63 27 gold know know.01 ----- 26:1-ARG0 27:0-rel 28:3-ARG1
+ewt/email/00/enronsent06_01.xml.parse 94 8 gold speak speak.01 ----- 5:1-ARG0 8:0-rel
 ewt/email/00/enronsent06_01.xml.parse 67 15 gold task task.01 ----- 15:0-rel 16:1-ARG1
 ewt/email/00/enronsent06_01.xml.parse 102 6 gold happen happen.01 ----- 3:1-ARG1 5:1-ARGM-ADV 6:0-rel 7:1-ARGM-TMP
 ewt/email/00/enronsent06_01.xml.parse 64 12 gold participate participate.01 ----- 8:1*10:1*11:1-ARG0 8:1*10:1-LINK-SLC 12:0-rel 13:1-ARG1
 ewt/email/00/enronsent06_01.xml.parse 98 7 gold add add.02 ----- 5:1-ARG0 6:0-ARGM-MOD 7:0-rel 8:1-ARG1
 ewt/email/00/enronsent06_01.xml.parse 60 37 gold settle settle.02 ----- 36:0-ARGM-ADJ 37:0-rel
 ewt/email/00/enronsent06_01.xml.parse 21 8 gold follow follow_up.03 ----- 4:1*6:1-ARG0 8:0,9:1-rel 11:1-ARGM-COM
-ewt/email/00/enronsent06_01.xml.parse 63 27 gold know know.01 ----- 26:1-ARG0 27:0-rel 28:3-ARG1
+ewt/email/00/enronsent06_01.xml.parse 88 26 gold deregulate deregulate.01 ----- 24:1-ARG0 26:0-rel
 ewt/email/00/enronsent06_01.xml.parse 35 0 gold thank thank.01 ----- 0:0-rel
-ewt/email/00/enronsent06_01.xml.parse 13 0 gold congratulate congratulate.01 ----- 0:0-rel
 ewt/email/00/enronsent06_01.xml.parse 14 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 ewt/email/00/enronsent06_01.xml.parse 5 16 gold range range.01 ----- 12:1-ARGM-DIS 13:1-ARG1 15:0-ARGM-MOD 16:0-rel 17:2-ARG3 38:1-ARGM-ADV
 ewt/email/00/enronsent06_01.xml.parse 102 12 gold be be.01 ----- 11:1-ARG1 12:0-rel 13:1-ARG2
-ewt/email/00/enronsent06_01.xml.parse 46 7 gold call call_in.04 ----- 6:1-ARG0 7:0,8:1-rel
 ewt/email/00/enronsent06_01.xml.parse 58 0 gold thank thank.01 ----- 0:0-rel
 ewt/email/00/enronsent06_01.xml.parse 33 1 gold let let.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 ewt/email/00/enronsent06_01.xml.parse 52 5 gold be be.03 ----- 5:0-rel
+ewt/email/00/enronsent06_01.xml.parse 18 6 gold see see.01 ----- 4:1*8:1-ARGM-TMP 5:1-ARG0 6:0-rel 7:1-ARG1
 ewt/email/00/enronsent06_01.xml.parse 21 22 gold have have.01 ----- 22:0-rel
 ewt/email/00/enronsent06_01.xml.parse 88 56 gold control control.01 ----- 51:1-ARG0 56:0-rel
 ewt/email/00/enronsent06_01.xml.parse 62 1 gold copy copy.01 ----- 0:0-ARGM-ADJ 1:0-rel 2:1-ARG1 7:1-ARGM-ADJ
+ewt/email/00/enronsent06_01.xml.parse 96 1 gold have have.01 ----- 1:0-rel
 ewt/email/00/enronsent06_01.xml.parse 89 2 gold order order.01 ----- 1:0-ARG0 2:0-rel 3:1-ARGM-TMP
 ewt/email/00/enronsent06_01.xml.parse 23 7 gold call call.02 ----- 0:1-ARG0 6:0-ARGM-MOD 7:0-rel 8:1-ARG1
 ewt/email/00/enronsent06_01.xml.parse 55 4 gold call call.02 ----- 4:0-rel
+ewt/email/00/enronsent06_01.xml.parse 96 2 gold mention mention.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 ewt/email/00/enronsent06_01.xml.parse 5 3 gold target target.01 ----- 0:1-ARG0 1:0-ARGM-MOD 3:0-rel 4:2-ARG1
 ewt/email/00/enronsent06_01.xml.parse 9 1 gold need need.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 5:1-ARGM-TMP
 ewt/email/00/enronsent06_01.xml.parse 21 32 gold chat chat.01 ----- 32:0-rel 34:1-ARG0 35:0-ARGM-LVB 37:1-ARGM-TMP 40:1-ARGM-TMP 42:1-ARG2 44:1-ARGM-TMP
+ewt/email/00/enronsent06_01.xml.parse 37 18 gold be be.03 ----- 18:0-rel
+ewt/email/00/enronsent06_01.xml.parse 9 4 gold direct direct.01 ----- 4:0-rel
 ewt/email/00/enronsent06_01.xml.parse 57 2 gold let let.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:2-ARG1
+ewt/email/00/enronsent06_01.xml.parse 67 3 gold be be.01 ----- 1:1-ARG1 2:0-ARGM-MOD 3:0-rel 4:1-ARG2
 ewt/email/00/enronsent06_01.xml.parse 61 5 gold declare declare.01 ----- 5:0-rel
 ewt/email/00/enronsent06_01.xml.parse 34 4 gold confirm confirm.01 ----- 0:1-ARGM-DIS 2:0-ARGM-MOD 3:1-ARG0 4:0-rel 5:3-ARG1
 ewt/email/00/enronsent06_01.xml.parse 88 43 gold be be.01 ----- 41:1-ARG1 43:0-rel 44:2-ARG2
 ewt/email/00/enronsent06_01.xml.parse 68 9 gold schedule schedule.01 ----- 7:1-ARG0 8:0-ARGM-MOD 9:0-rel 10:3-ARG1
+ewt/email/00/enronsent06_01.xml.parse 86 1 gold have have.01 ----- 1:0-rel
+ewt/email/00/enronsent06_01.xml.parse 95 13 gold make make.LV ----- 10:0-ARGM-PRR 13:0-rel
 ewt/email/00/enronsent06_01.xml.parse 64 2 gold liken like.02 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:2-ARG1
 ewt/email/00/enronsent06_01.xml.parse 56 3 gold terminate terminate.01 ----- 0:1-ARG1 2:0-ARGM-MOD 3:0-rel 4:1-ARGM-TMP
 ewt/email/00/enronsent06_01.xml.parse 95 2 gold need need.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:2-ARG1
 ewt/email/00/enronsent06_01.xml.parse 8 2 gold invite invite.01 ----- 1:0-ARGM-ADJ 2:0-rel 3:1*6:1-ARG1
 ewt/email/00/enronsent06_01.xml.parse 39 0 gold thank thank.01 ----- 0:0-rel
-ewt/email/00/enronsent06_01.xml.parse 88 26 gold deregulate deregulate.01 ----- 24:1-ARG0 26:0-rel
-ewt/email/00/enronsent06_01.xml.parse 60 63 gold settle settle.02 ----- 63:0-rel
 ewt/email/00/enronsent06_01.xml.parse 94 16 gold better good.02 ----- 13:1-ARG1 16:0-rel 17:2-ARGM-PRP
 ewt/email/00/enronsent06_01.xml.parse 7 3 gold interest interest.01 ----- 1:1-ARG1 3:0-rel 4:1-ARG2
-ewt/email/00/enronsent06_01.xml.parse 22 3 gold regroup regroup.01 ----- 2:1-ARG0 3:0-rel 4:1-ARGM-TMP
 ewt/email/00/enronsent06_01.xml.parse 63 17 gold avail available.02 ----- 16:1-ARG2 17:0-rel 18:1-ARG1
+ewt/email/00/enronsent06_01.xml.parse 22 3 gold regroup regroup.01 ----- 2:1-ARG0 3:0-rel 4:1-ARGM-TMP
 ewt/email/00/enronsent06_01.xml.parse 4 3 gold host host.01 ----- 0:1-ARG0 1:0-ARGM-MOD 3:0-rel 4:2-ARG1 11:1-ARGM-TMP 18:1-ARGM-LOC
 ewt/email/00/enronsent06_01.xml.parse 31 12 gold issue issue.02 ----- 10:0-ARGM-ADJ 11:0-ARGM-ADJ 12:0-rel 14:2-ARG0
-ewt/email/00/enronsent06_01.xml.parse 38 1 gold comment comment.01 ----- 1:0-rel
 ewt/email/00/enronsent06_01.xml.parse 56 1 gold call call.02 ----- 1:0-rel
+ewt/email/00/enronsent06_01.xml.parse 60 63 gold settle settle.02 ----- 63:0-rel
 ewt/email/00/enronsent06_01.xml.parse 60 14 gold be be.03 ----- 14:0-rel
 ewt/email/00/enronsent06_01.xml.parse 62 15 gold be be.03 ----- 15:0-rel
 ewt/email/00/enronsent06_01.xml.parse 53 17 gold be be.01 ----- 0:1-ARGM-DIS 2:2-ARG1 16:0-ARGM-MOD 17:0-rel 18:1-ARG2
@@ -200,41 +191,50 @@ ewt/email/00/enronsent06_01.xml.parse 67 4 gold pride pride.01 ----- 1:1-ARG0 2:
 ewt/email/00/enronsent06_01.xml.parse 85 17 gold be be.01 ----- 12:1*14:1,18:1-ARG2 12:1*14:1-LINK-SLC 15:1-ARG1 16:0-ARGM-MOD 17:0-rel 20:1-ARGM-LOC
 ewt/email/00/enronsent06_01.xml.parse 86 2 gold distribute distribute.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG2 11:1-ARGM-PRP
 ewt/email/00/enronsent06_01.xml.parse 31 30 gold have have.03 ----- 29:1-ARG0 30:0-rel 31:1-ARG1
+ewt/email/00/enronsent06_01.xml.parse 67 21 gold ready ready.02 ----- 19:1-ARG1 21:0-rel 22:1-ARGM-TMP
 ewt/email/00/enronsent06_01.xml.parse 60 40 gold be be.03 ----- 40:0-rel
 ewt/email/00/enronsent06_01.xml.parse 19 8 gold keep keep.02 ----- 6:1-ARG0 8:0-rel 9:1-ARG1 11:2-ARG2 16:2-ARGM-TMP
 ewt/email/00/enronsent06_01.xml.parse 67 18 gold get get.01 ----- 17:1-ARG0 18:0-rel 19:2-ARG1
 ewt/email/00/enronsent06_01.xml.parse 61 18 gold be be.03 ----- 18:0-rel
 ewt/email/00/enronsent06_01.xml.parse 68 19 gold discuss discuss.01 ----- 10:2*16:1*17:1-ARG0 10:2*16:1-LINK-SLC 19:0-rel 20:1-ARG1
 ewt/email/00/enronsent06_01.xml.parse 56 7 gold hang hang_up.03 ----- 5:1-ARG0 7:0,8:1-rel
+ewt/email/00/enronsent06_01.xml.parse 38 1 gold comment comment.01 ----- 1:0-rel
 ewt/email/00/enronsent06_01.xml.parse 88 52 gold command command.02 ----- 51:1-ARG0 52:0-rel
 ewt/email/00/enronsent06_01.xml.parse 85 23 gold confer confer.01 ----- 22:0-ARG0 23:0-rel 24:1-ARGM-LOC 26:1-ARGM-TMP
 ewt/email/00/enronsent06_01.xml.parse 89 5 gold likely likely.01 ----- 0:2,6:2-ARG1 5:0-rel
 ewt/email/00/enronsent06_01.xml.parse 61 19 gold include include.01 ----- 0:1-ARGM-CAU 15:1*20:1-ARG1 17:0-ARGM-NEG 19:0-rel 21:1-ARG2
 ewt/email/00/enronsent06_01.xml.parse 6 3 gold receive receive.01 ----- 0:1-ARG0 2:1-ARGM-TMP 3:0-rel 4:1-ARG1 6:1-ARG2
+ewt/email/00/enronsent06_01.xml.parse 60 33 gold approve approve.01 ----- 33:0-rel 34:1-ARG1
 ewt/email/00/enronsent06_01.xml.parse 29 10 gold call call.02 ----- 9:0-ARGM-MNR 10:0-rel
 ewt/email/00/enronsent06_01.xml.parse 90 3 gold appreciate appreciate.02 ----- 0:1*4:1-ARG1 2:1-ARGM-ADV 3:0-rel
 ewt/email/00/enronsent06_01.xml.parse 37 4 gold review review.01 ----- 3:0-ARG0 4:0-rel
 ewt/email/00/enronsent06_01.xml.parse 10 6 gold question question.01 ----- 6:0-rel
 ewt/email/00/enronsent06_01.xml.parse 21 25 gold follow follow_up.03 ----- 25:0,27:0-rel
 ewt/email/00/enronsent06_01.xml.parse 65 1 gold have have.01 ----- 1:0-rel
-ewt/email/00/enronsent06_01.xml.parse 21 5 gold want want.01 ----- 4:1-ARG0 5:0-rel 6:2-ARG1
+ewt/email/00/enronsent06_01.xml.parse 54 19 gold do do.02 ----- 8:2-ARGM-ADV 17:1-ARG0 18:0-ARGM-MOD 19:0-rel 20:1-ARG1 21:2-ARG3
+ewt/email/00/enronsent06_01.xml.parse 86 12 gold comment comment.01 ----- 12:0-rel
 ewt/email/00/enronsent06_01.xml.parse 60 49 gold settle settle.02 ----- 48:0-ARGM-ADJ 49:0-rel
 ewt/email/00/enronsent06_01.xml.parse 95 10 gold offer offer.01 ----- 10:0-rel 12:1-ARG0 13:0-ARGM-LVB 15:1-ARG3 17:1-ARGM-TMP
+ewt/email/00/enronsent06_01.xml.parse 31 1 gold be be.03 ----- 1:0-rel
 ewt/email/00/enronsent06_01.xml.parse 46 10 gold thank thank.01 ----- 10:0-rel
+ewt/email/00/enronsent06_01.xml.parse 96 9 gold include include.01 ----- 4:1*7:1-ARG0 9:0-rel 10:1-ARG1
+ewt/email/00/enronsent06_01.xml.parse 21 2 gold gladden glad.02 ----- 0:1-ARG1 2:0-rel 3:1-ARG0
+ewt/email/00/enronsent06_01.xml.parse 34 20 gold call call.02 ----- 18:1-ARGM-TMP 20:0-rel
+ewt/email/00/enronsent06_01.xml.parse 7 9 gold email email.01 ----- 0:1-ARGM-ADV 7:1-ARGM-DIS 8:1-ARG0 9:0-rel 10:1-ARG2 11:2-ARGM-TMP
 ewt/email/00/enronsent06_01.xml.parse 64 16 gold process process.02 ----- 15:0-ARG1 16:0-rel
-ewt/email/00/enronsent06_01.xml.parse 86 12 gold comment comment.01 ----- 12:0-rel
-ewt/email/00/enronsent06_01.xml.parse 54 19 gold do do.02 ----- 8:2-ARGM-ADV 17:1-ARG0 18:0-ARGM-MOD 19:0-rel 20:1-ARG1 21:2-ARG3
+ewt/email/00/enronsent06_01.xml.parse 21 5 gold want want.01 ----- 4:1-ARG0 5:0-rel 6:2-ARG1
 ewt/email/00/enronsent06_01.xml.parse 67 12 gold turn turn.01 ----- 0:1-ARGM-ADV 9:1-ARG1 10:1-ARGM-TMP 11:0-ARGM-MOD 12:0-rel 13:1-ARGM-DIR
 ewt/email/00/enronsent06_01.xml.parse 52 6 gold prompt prompt.02 ----- 0:1*7:1-ARG1 4:0-ARGM-MOD 6:0-rel 8:2-ARG2
 ewt/email/00/enronsent06_01.xml.parse 6 1 gold have have.01 ----- 1:0-rel
 ewt/email/00/enronsent06_01.xml.parse 40 4 gold liken like.02 ----- 0:1-ARGM-DIS 2:1-ARG0 3:0-ARGM-MOD 4:0-rel 5:2-ARG1
 ewt/email/00/enronsent06_01.xml.parse 88 27 gold be be.03 ----- 27:0-rel
 ewt/email/00/enronsent06_01.xml.parse 98 11 gold make make.LV ----- 11:0-rel 14:0-ARGM-PRR
+ewt/email/00/enronsent06_01.xml.parse 29 3 gold have have.03 ----- 0:1-ARGM-DIS 2:1-ARG0 3:0-rel 4:2-ARG1 11:1-ARGM-TMP 13:1-ARGM-COM
 ewt/email/00/enronsent06_01.xml.parse 89 8 gold alter alter.01 ----- 0:2*6:1-ARG0 8:0-rel 9:1-ARG1 11:1-ARGM-ADV
 ewt/email/00/enronsent06_01.xml.parse 57 4 gold know know.01 ----- 3:1-ARG0 4:0-rel 5:1-ARG1
 ewt/email/00/enronsent06_01.xml.parse 67 20 gold testify testify.01 ----- 19:0-ARG0 20:0-rel 21:1-ARGM-PRD 22:1-ARGM-TMP
 ewt/email/00/enronsent06_01.xml.parse 19 1 gold seem seem.01 ----- 1:0-rel 2:1*6:2-ARG1
 ewt/email/00/enronsent06_01.xml.parse 56 6 gold have have.01 ----- 6:0-rel
 ewt/email/00/enronsent06_01.xml.parse 66 2 gold have have.LV ----- 2:0-rel 4:0-ARGM-PRR
-ewt/email/00/enronsent06_01.xml.parse 96 9 gold include include.01 ----- 4:1*7:1-ARG0 9:0-rel 10:1-ARG1
+ewt/email/00/enronsent06_01.xml.parse 50 12 gold meet meet.03 ----- 9:0-ARGM-TMP 10:1-ARGM-TMP 12:0-rel
 ewt/email/00/enronsent06_01.xml.parse 88 42 gold solve solve.01 ----- 42:0-rel

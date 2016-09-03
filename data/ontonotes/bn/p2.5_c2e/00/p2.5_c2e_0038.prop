@@ -10,23 +10,25 @@ bn/p2.5_c2e/00/p2.5_c2e_0038.parse 7 8 gold register register.02 ----- 8:0-rel 9
 bn/p2.5_c2e/00/p2.5_c2e_0038.parse 0 40 gold authorize authorize.01 ----- 40:0-rel 41:1-ARG2
 bn/p2.5_c2e/00/p2.5_c2e_0038.parse 5 31 gold test test.01 ----- 29:1-ARG1 31:0-rel
 bn/p2.5_c2e/00/p2.5_c2e_0038.parse 5 29 gold register register.02 ----- 29:0-rel 30:0-ARG1
-bn/p2.5_c2e/00/p2.5_c2e_0038.parse 6 3 gold make make.02 ----- 0:1-ARG0 2:1-ARGM-DIS 3:0-rel 4:2-ARG1
-bn/p2.5_c2e/00/p2.5_c2e_0038.parse 3 13 gold unify unify.01 ----- 10:1-ARGM-LOC 13:0-rel 14:1,16:0-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0038.parse 5 20 gold qualify qualify.02 ----- 19:0-ARG2 20:0-rel
 bn/p2.5_c2e/00/p2.5_c2e_0038.parse 5 14 gold submit submit.01 ----- 0:1-ARG0 2:0-ARGM-MOD 4:1-ARGM-CAU 14:0-rel 15:1-ARG1 22:1-ARGM-MNR
 bn/p2.5_c2e/00/p2.5_c2e_0038.parse 1 15 gold be be.03 ----- 15:0-rel
 bn/p2.5_c2e/00/p2.5_c2e_0038.parse 0 29 gold have have.01 ----- 29:0-rel
+bn/p2.5_c2e/00/p2.5_c2e_0038.parse 1 2 gold have have.01 ----- 2:0-rel
 bn/p2.5_c2e/00/p2.5_c2e_0038.parse 5 16 gold apply apply.01 ----- 16:0-rel
+bn/p2.5_c2e/00/p2.5_c2e_0038.parse 1 16 gold permit permit.01 ----- 7:1-ARGM-TMP 10:2*17:1-ARG2 14:0-ARGM-MOD 16:0-rel 18:2-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0038.parse 2 22 gold recognize recognize.01 ----- 20:1-ARG0 22:0-rel 23:2-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0038.parse 1 3 gold be be.03 ----- 3:0-rel
+bn/p2.5_c2e/00/p2.5_c2e_0038.parse 7 20 gold work work.01 ----- 0:1*18:1*19:1-ARG0 0:1*18:1-LINK-SLC 20:0-rel 21:1-ARGM-LOC
 bn/p2.5_c2e/00/p2.5_c2e_0038.parse 3 8 gold participate participate.01 ----- 5:1-ARG0 7:0-ARGM-MOD 8:0-rel 9:1-ARG1
-bn/p2.5_c2e/00/p2.5_c2e_0038.parse 0 4 gold promote promote.02 ----- 2:1-ARG0 4:0-rel 5:4-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0038.parse 5 18 gold go undergo.28 ----- 0:1-ARG1 2:0-ARGM-MOD 4:1-ARGM-CAU 18:0-rel 19:2-ARG2 22:1-ARGM-MNR
 bn/p2.5_c2e/00/p2.5_c2e_0038.parse 7 27 gold apply apply.01 ----- 27:0-rel 28:1-ARG1
+bn/p2.5_c2e/00/p2.5_c2e_0038.parse 2 5 gold evaluate evaluate.01 ----- 2:1-ARGM-TMP 5:0-rel 6:1*11:1-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0038.parse 7 25 gold submit submit.01 ----- 0:2-ARG0 24:0-ARGM-MOD 25:0-rel 26:2-ARG1 31:1-ARG2
 bn/p2.5_c2e/00/p2.5_c2e_0038.parse 2 29 gold register register.02 ----- 29:0-rel 30:0-ARG1
+bn/p2.5_c2e/00/p2.5_c2e_0038.parse 6 3 gold make make.02 ----- 0:1-ARG0 2:1-ARGM-DIS 3:0-rel 4:2-ARG1
+bn/p2.5_c2e/00/p2.5_c2e_0038.parse 3 13 gold unify unify.01 ----- 10:1-ARGM-LOC 13:0-rel 14:1,16:0-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0038.parse 3 14 gold register register.02 ----- 14:0-rel 15:0-ARG1
-bn/p2.5_c2e/00/p2.5_c2e_0038.parse 1 2 gold have have.01 ----- 2:0-rel
 bn/p2.5_c2e/00/p2.5_c2e_0038.parse 0 46 gold receive receive.01 ----- 42:2-ARG0 46:0-rel 47:1-ARG1 48:1-ARG4
 bn/p2.5_c2e/00/p2.5_c2e_0038.parse 0 36 gold relate relate.01 ----- 35:1*37:1-ARG1 35:1*37:1-LINK-PSV 36:0-rel 38:1-ARG2
 bn/p2.5_c2e/00/p2.5_c2e_0038.parse 6 13 gold evaluate evaluate.01 ----- 10:1-ARGM-TMP 13:0-rel
@@ -35,11 +37,9 @@ bn/p2.5_c2e/00/p2.5_c2e_0038.parse 2 8 gold be be.03 ----- 8:0-rel
 bn/p2.5_c2e/00/p2.5_c2e_0038.parse 1 24 gold register register.02 ----- 24:0-rel 25:0-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0038.parse 6 1 gold notify notify.01 ----- 1:0-rel
 bn/p2.5_c2e/00/p2.5_c2e_0038.parse 7 3 gold obtain obtain.01 ----- 0:1*1:1*2:1-ARG0 0:1*1:1-LINK-SLC 3:0-rel 4:1-ARG1 12:1-ARG2
-bn/p2.5_c2e/00/p2.5_c2e_0038.parse 7 20 gold work work.01 ----- 0:1*18:1*19:1-ARG0 0:1*18:1-LINK-SLC 20:0-rel 21:1-ARGM-LOC
+bn/p2.5_c2e/00/p2.5_c2e_0038.parse 0 4 gold promote promote.02 ----- 2:1-ARG0 4:0-rel 5:4-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0038.parse 0 47 gold qualify qualify.02 ----- 47:0-rel
 bn/p2.5_c2e/00/p2.5_c2e_0038.parse 2 24 gold qualify qualify.02 ----- 24:0-rel 25:1-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0038.parse 7 10 gold qualify qualify.02 ----- 5:1-ARGM-ADJ 8:1-ARG1 10:0-rel
 bn/p2.5_c2e/00/p2.5_c2e_0038.parse 1 20 gold take take.01 ----- 10:2*17:1*18:1-ARG0 20:0-rel 21:3-ARG1
-bn/p2.5_c2e/00/p2.5_c2e_0038.parse 1 16 gold permit permit.01 ----- 7:1-ARGM-TMP 10:2*17:1-ARG2 14:0-ARGM-MOD 16:0-rel 18:2-ARG1
-bn/p2.5_c2e/00/p2.5_c2e_0038.parse 2 5 gold evaluate evaluate.01 ----- 2:1-ARGM-TMP 5:0-rel 6:1*11:1-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0038.parse 1 4 gold decide decide.01 ----- 4:0-rel 6:1-ARG1

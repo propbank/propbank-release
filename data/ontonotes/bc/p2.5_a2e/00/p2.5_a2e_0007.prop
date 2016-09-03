@@ -1,4 +1,4 @@
-bc/p2.5_a2e/00/p2.5_a2e_0007.parse 8 8 gold show show.01 ----- 6:1-ARG0 8:0-rel 9:2-ARG1
+bc/p2.5_a2e/00/p2.5_a2e_0007.parse 3 22 gold relate relate.01 ----- 15:1*16:2*21:1-ARG1 15:1*16:2-LINK-SLC 22:0-rel 23:1-ARG2
 bc/p2.5_a2e/00/p2.5_a2e_0007.parse 0 24 gold mention mention.01 ----- 23:1-ARG0 24:0-rel
 bc/p2.5_a2e/00/p2.5_a2e_0007.parse 4 6 gold threaten threaten.01 ----- 0:1*2:1*7:1-ARG1 0:1*2:1-LINK-SLC 3:1-ARG0 6:0-rel 8:1-ARGM-TMP
 bc/p2.5_a2e/00/p2.5_a2e_0007.parse 3 2 gold threaten threaten.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1 10:1-ARGM-ADV
@@ -10,7 +10,6 @@ bc/p2.5_a2e/00/p2.5_a2e_0007.parse 9 24 gold come come_up.11 ----- 2:2*17:1-ARG0
 bc/p2.5_a2e/00/p2.5_a2e_0007.parse 3 25 gold pardon pardon.01 ----- 24:1-ARG0 25:0-rel 26:2-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0007.parse 7 4 gold do do.01 ----- 4:0-rel
 bc/p2.5_a2e/00/p2.5_a2e_0007.parse 1 12 gold be be.03 ----- 12:0-rel
-bc/p2.5_a2e/00/p2.5_a2e_0007.parse 3 22 gold relate relate.01 ----- 15:1*16:2*21:1-ARG1 15:1*16:2-LINK-SLC 22:0-rel 23:1-ARG2
 bc/p2.5_a2e/00/p2.5_a2e_0007.parse 3 12 gold do do.01 ----- 12:0-rel
 bc/p2.5_a2e/00/p2.5_a2e_0007.parse 6 6 gold do do.01 ----- 6:0-rel
 bc/p2.5_a2e/00/p2.5_a2e_0007.parse 9 11 gold have have.01 ----- 11:0-rel
@@ -19,17 +18,17 @@ bc/p2.5_a2e/00/p2.5_a2e_0007.parse 7 10 gold want want.01 ----- 9:1-ARG0 10:0-re
 bc/p2.5_a2e/00/p2.5_a2e_0007.parse 9 12 gold meet meet.03 ----- 0:1-ARGM-TMP 2:2-ARG0 12:0-rel 13:1-ARGM-LOC 17:2-ARGM-PRP
 bc/p2.5_a2e/00/p2.5_a2e_0007.parse 1 29 gold reach reach.01 ----- 4:2*16:1*27:1-ARG0 29:0-rel 30:2-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0007.parse 8 13 gold fulfill fulfill.01 ----- 12:1-ARG0 13:0-rel 14:1-ARG1
+bc/p2.5_a2e/00/p2.5_a2e_0007.parse 8 8 gold show show.01 ----- 6:1-ARG0 8:0-rel 9:2-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0007.parse 0 8 gold set set.01 ----- 0:1*2:1*9:1-ARG1 0:1*2:1-LINK-SLC 3:2-ARG0 8:0-rel
 bc/p2.5_a2e/00/p2.5_a2e_0007.parse 7 1 gold suspend suspend.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0007.parse 2 7 gold be be.01 ----- 0:2-ARG1 7:0-rel 8:2-ARG2 18:2-ARGM-ADV
 bc/p2.5_a2e/00/p2.5_a2e_0007.parse 3 8 gold elect elect.01 ----- 8:0-rel 9:0-ARG2
 bc/p2.5_a2e/00/p2.5_a2e_0007.parse 9 19 gold discuss discuss.01 ----- 2:2*17:1-ARG0 19:0-rel 20:1-ARG1
-bc/p2.5_a2e/00/p2.5_a2e_0007.parse 1 20 gold repercussion repercussion.01 ----- 20:0-rel 21:1-ARG0
+bc/p2.5_a2e/00/p2.5_a2e_0007.parse 0 7 gold have have.01 ----- 7:0-rel
 bc/p2.5_a2e/00/p2.5_a2e_0007.parse 2 19 gold hold hold.01 ----- 18:1-ARG0 19:0-rel 20:1-ARG1 22:1-ARG3
 bc/p2.5_a2e/00/p2.5_a2e_0007.parse 3 14 gold withdraw withdraw.01 ----- 11:1-ARG0 13:0-ARGM-NEG 14:0-rel 15:2-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0007.parse 5 4 gold announce announce.01 ----- 0:2-ARG0 4:0-rel 5:2-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0007.parse 8 24 gold patrol patrol.01 ----- 24:0-rel
-bc/p2.5_a2e/00/p2.5_a2e_0007.parse 1 13 gold meet meet.03 ----- 0:1-ARGM-TMP 4:2-ARG0 13:0-rel 14:1-ARGM-LOC 16:2-ARGM-PRP
 bc/p2.5_a2e/00/p2.5_a2e_0007.parse 7 12 gold withdraw withdraw.01 ----- 11:1*13:1-ARG1 12:0-rel
 bc/p2.5_a2e/00/p2.5_a2e_0007.parse 9 31 gold satisfy satisfy.01 ----- 27:1*29:1*30:1-ARG0 27:1*29:1-LINK-SLC 31:0-rel 32:2-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0007.parse 5 18 gold mediate mediate.01 ----- 11:1*14:1*19:1-ARG1 11:1*14:1-LINK-SLC 16:1-ARG0 18:0-rel
@@ -37,9 +36,10 @@ bc/p2.5_a2e/00/p2.5_a2e_0007.parse 7 6 gold satisfy satisfy.01 ----- 0:2-ARG0 5:
 bc/p2.5_a2e/00/p2.5_a2e_0007.parse 7 15 gold cancel cancel.01 ----- 11:1*16:1-ARG1 15:0-rel 17:1-ARGM-EXT
 bc/p2.5_a2e/00/p2.5_a2e_0007.parse 6 8 gold satisfy satisfy.02 ----- 0:0-ARGM-DIS 1:2-ARG0 7:0-ARGM-NEG 8:0-rel 9:1-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0007.parse 5 31 gold meet meet.02 ----- 22:1-ARGM-LOC 24:2-ARG0 31:0-rel 32:1-ARGM-TMP
+bc/p2.5_a2e/00/p2.5_a2e_0007.parse 1 20 gold repercussion repercussion.01 ----- 20:0-rel 21:1-ARG0
 bc/p2.5_a2e/00/p2.5_a2e_0007.parse 2 26 gold end end.01 ----- 23:1*33:1-ARGM-MNR 24:1-ARG1 26:0-rel 27:1-ARGM-LOC
 bc/p2.5_a2e/00/p2.5_a2e_0007.parse 8 23 gold march march.01 ----- 0:1-ARGA 3:1-ARGM-ADV 23:0-rel 24:1-ARG0 25:1-ARGM-DIR
 bc/p2.5_a2e/00/p2.5_a2e_0007.parse 8 17 gold conduct conduct.01 ----- 0:1-ARG0 3:1-ARGM-PRP 17:0-rel 18:1-ARG1 19:1-ARGM-MNR
 bc/p2.5_a2e/00/p2.5_a2e_0007.parse 4 10 gold be be.01 ----- 0:2-ARG1 9:0-ARGM-MOD 10:0-rel 11:2-ARG2
-bc/p2.5_a2e/00/p2.5_a2e_0007.parse 0 7 gold have have.01 ----- 7:0-rel
 bc/p2.5_a2e/00/p2.5_a2e_0007.parse 1 18 gold discuss discuss.01 ----- 4:2*16:1-ARG0 18:0-rel 19:2-ARG1
+bc/p2.5_a2e/00/p2.5_a2e_0007.parse 1 13 gold meet meet.03 ----- 0:1-ARGM-TMP 4:2-ARG0 13:0-rel 14:1-ARGM-LOC 16:2-ARGM-PRP

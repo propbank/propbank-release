@@ -7,15 +7,13 @@ bc/msnbc/00/msnbc_0001.parse 477 10 gold do do.02 ----- 2:2-ARG0 10:0-rel 11:1-A
 bc/msnbc/00/msnbc_0001.parse 412 10 gold murder murder.01 ----- 7:1*11:1-ARG1 7:1*11:1-LINK-PSV 9:1-ARGM-ADV 10:0-rel 12:1-ARG0
 bc/msnbc/00/msnbc_0001.parse 452 12 gold be be.01 ----- 9:1*14:1-ARGM-TMP 10:1-ARG1 12:0-rel 13:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 324 14 gold select select.01 ----- 13:0-ARG1 14:0-rel
+bc/msnbc/00/msnbc_0001.parse 475 18 gold generalize generalize.01 ----- 18:0-rel
 bc/msnbc/00/msnbc_0001.parse 144 19 gold be be.03 ----- 19:0-rel
 bc/msnbc/00/msnbc_0001.parse 86 8 gold quote quote.01 ----- 8:0-rel
-bc/msnbc/00/msnbc_0001.parse 476 3 gold think think.01 ----- 1:0-ARGM-DIS 2:1-ARG0 3:0-rel 4:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 311 16 gold be be.02 ----- 16:0-rel 17:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 311 30 gold be be.03 ----- 30:0-rel
+bc/msnbc/00/msnbc_0001.parse 1 11 gold make make.LV ----- 11:0-rel 13:0-ARGM-PRR
 bc/msnbc/00/msnbc_0001.parse 261 16 gold talk talk.01 ----- 15:1-ARG0 16:0-rel 17:1-ARG2
-bc/msnbc/00/msnbc_0001.parse 144 13 gold look look.09 ----- 13:0-rel
 bc/msnbc/00/msnbc_0001.parse 418 50 gold have have.01 ----- 50:0-rel
-bc/msnbc/00/msnbc_0001.parse 301 2 gold interview interview.01 ----- 1:0-ARG0 2:0-rel 3:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 549 1 gold believe believe.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 318 33 gold say say.01 ----- 30:1*34:1-ARG1 32:1-ARG0 33:0-rel 35:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 464 7 gold be be.03 ----- 7:0-rel
@@ -24,6 +22,7 @@ bc/msnbc/00/msnbc_0001.parse 521 2 gold be be.01 ----- 2:0-rel 3:1-ARG2 5:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 344 26 gold do do.02 ----- 13:1*23:1-ARG0 24:0-ARGM-NEG 25:1-ARGM-ADV 26:0-rel 27:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 39 33 gold be be.03 ----- 33:0-rel
 bc/msnbc/00/msnbc_0001.parse 217 2 gold tell tell.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG2 4:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 39 15 gold listen listen.01 ----- 10:1*12:1*13:1-ARG0 10:1*12:1-LINK-SLC 15:0-rel 16:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 209 14 gold name name.01 ----- 10:1*15:1-ARG1 10:1*15:1-LINK-PSV 14:0-rel 16:2-ARG2
 bc/msnbc/00/msnbc_0001.parse 128 6 gold be be.03 ----- 6:0-rel
 bc/msnbc/00/msnbc_0001.parse 76 10 gold say say.01 ----- 5:1-ARG0 6:0-ARGM-MOD 10:0-rel 11:2-ARG1
@@ -38,17 +37,18 @@ bc/msnbc/00/msnbc_0001.parse 1 13 gold comeback comeback.01 ----- 7:2-ARG0 11:0-
 bc/msnbc/00/msnbc_0001.parse 78 2 gold be be.03 ----- 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 248 8 gold be be.03 ----- 8:0-rel
 bc/msnbc/00/msnbc_0001.parse 153 9 gold have have.03 ----- 3:1*5:1*6:1-ARG0 3:1*5:1-LINK-SLC 8:0-ARGM-NEG 9:0-rel 10:2-ARG1
-bc/msnbc/00/msnbc_0001.parse 489 4 gold think think.01 ----- 0:1-ARGM-DIS 1:1-ARGM-DIS 2:1-ARGM-DIS 3:1-ARG0 4:0-rel 5:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 367 3 gold look look.09 ----- 3:0-rel
 bc/msnbc/00/msnbc_0001.parse 144 4 gold clear clarify.10 ----- 2:1-ARG0 4:0-rel 5:2-ARG1
+bc/msnbc/00/msnbc_0001.parse 401 6 gold tell tell.01 ----- 0:1*4:1-ARG0 6:0-rel 7:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 119 80 gold work work.01 ----- 73:2*77:1*81:1-ARG1 73:2*77:1-LINK-SLC 80:0-rel
 bc/msnbc/00/msnbc_0001.parse 354 23 gold have have.01 ----- 23:0-rel
 bc/msnbc/00/msnbc_0001.parse 207 10 gold be be.03 ----- 10:0-rel
 bc/msnbc/00/msnbc_0001.parse 258 7 gold be be.01 ----- 6:1-ARG1 7:0-rel
-bc/msnbc/00/msnbc_0001.parse 197 3 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 3:0-rel 4:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 324 11 gold process process.02 ----- 11:0-rel 12:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 179 10 gold say say.01 ----- 0:1-ARG0 10:0-rel 11:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 32 26 gold occur occur.01 ----- 22:1*24:1*25:1-ARG1 22:1*24:1-LINK-SLC 26:0-rel 27:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 109 13 gold permit permit.01 ----- 13:0-rel
 bc/msnbc/00/msnbc_0001.parse 498 2 gold agree agree.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG2
-bc/msnbc/00/msnbc_0001.parse 247 6 gold be be.01 ----- 0:1-ARGM-DIS 5:1-ARG1 6:0-rel 7:1-ARG2 8:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 308 8 gold die die.01 ----- 3:1*5:1*6:1-ARG1 3:1*5:1-LINK-SLC 7:0-ARGM-MOD 8:0-rel
 bc/msnbc/00/msnbc_0001.parse 345 5 gold find find_out.03 ----- 3:1*7:1-ARG1 4:1-ARG0 5:0,6:1-rel
 bc/msnbc/00/msnbc_0001.parse 499 2 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 2:0-rel 3:1-ARG2
@@ -62,16 +62,15 @@ bc/msnbc/00/msnbc_0001.parse 42 4 gold go go.04 ----- 4:0-rel
 bc/msnbc/00/msnbc_0001.parse 110 11 gold loot loot.01 ----- 10:1-ARG0 11:0-rel
 bc/msnbc/00/msnbc_0001.parse 405 1 gold be be.03 ----- 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 464 12 gold be be.03 ----- 12:0-rel
-bc/msnbc/00/msnbc_0001.parse 29 5 gold give give.01 ----- 0:1-ARG0 2:1-ARGM-ADV 5:0-rel 6:1-ARG2 7:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 455 18 gold look look.01 ----- 0:2-ARGM-TMP 12:1-ARGM-DIS 13:1-ARG0 15:0-ARGM-LVB 18:0-rel 19:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 322 20 gold speak speak.01 ----- 19:1-ARG0 20:0-rel 21:1-ARGM-DIS
 bc/msnbc/00/msnbc_0001.parse 131 0 gold be be.01 ----- 0:0-rel 1:1-ARG1 2:1-ARGM-DIS 3:1-ARG2 7:1-ARGM-ADV
 bc/msnbc/00/msnbc_0001.parse 254 11 gold have have.01 ----- 11:0-rel
-bc/msnbc/00/msnbc_0001.parse 440 14 gold do do.01 ----- 14:0-rel
 bc/msnbc/00/msnbc_0001.parse 518 32 gold excuse excuse.02 ----- 32:0-rel
 bc/msnbc/00/msnbc_0001.parse 119 104 gold see see.01 ----- 102:1*105:1-ARG1 103:1-ARG0 104:0-rel 106:1-ARGM-LOC
 bc/msnbc/00/msnbc_0001.parse 393 2 gold be be.02 ----- 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 5 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 148 5 gold need need.01 ----- 4:1-ARG0 5:0-rel 6:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 300 1 gold let let.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 449 3 gold concede concede.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:1-ARG1 5:1-ARGM-DIS
 bc/msnbc/00/msnbc_0001.parse 206 6 gold know know.01 ----- 0:1-ARGM-DIS 3:1-ARG0 5:0-ARGM-NEG 6:0-rel 7:2-ARG1
@@ -79,7 +78,7 @@ bc/msnbc/00/msnbc_0001.parse 389 3 gold go go.04 ----- 3:0-rel
 bc/msnbc/00/msnbc_0001.parse 265 2 gold show show.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG2 4:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 418 13 gold claim claim.01 ----- 11:1-ARG0 13:0-rel 14:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 150 14 gold do do.02 ----- 9:1*12:1*15:1-ARG1 9:1*12:1-LINK-SLC 13:1-ARG0 14:0-rel
-bc/msnbc/00/msnbc_0001.parse 158 25 gold connect connect.01 ----- 25:0-rel 26:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 90 17 gold be be.01 ----- 16:1-ARG1 17:0-rel 18:2-ARG2
 bc/msnbc/00/msnbc_0001.parse 220 23 gold use use.01 ----- 15:1*20:1*24:1-ARG1 15:1*20:1-LINK-SLC 21:1-ARG0 23:0-rel
 bc/msnbc/00/msnbc_0001.parse 404 4 gold let let.01 ----- 0:1-ARGM-DIS 2:1-ARGM-DIS 3:1-ARG0 4:0-rel 5:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 103 18 gold go go.02 ----- 11:1*14:1-ARG0 18:0-rel 19:1-ARG4
@@ -88,12 +87,12 @@ bc/msnbc/00/msnbc_0001.parse 388 4 gold be be.03 ----- 4:0-rel
 bc/msnbc/00/msnbc_0001.parse 186 4 gold hold hold_up.11 ----- 0:1-ARGM-DIS 1:1*6:1-ARGM-MNR 3:1-ARG1 4:0,5:1-rel
 bc/msnbc/00/msnbc_0001.parse 27 13 gold give give.01 ----- 11:1-ARG0 13:0-rel 14:2-ARG2 18:1-ARG1 21:1-ARGM-DIS 22:2-ARGM-TMP 26:1-ARGM-PRP
 bc/msnbc/00/msnbc_0001.parse 511 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-ADV 3:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 510 6 gold blow blow.08 ----- 2:1*3:1-ARGM-TMP 2:1*3:1-LINK-SLC 4:1-ARG0 6:0-rel 7:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 425 10 gold probation probation.01 ----- 10:0-rel
 bc/msnbc/00/msnbc_0001.parse 270 22 gold make make.02 ----- 11:3*20:1-ARG0 22:0-rel 23:2-ARG1 32:2-ARGM-ADV
-bc/msnbc/00/msnbc_0001.parse 491 10 gold challenge challenge.01 ----- 6:1-ARGM-ADJ 8:0-ARGM-MNR 9:0-ARGM-DIS 10:0-rel
 bc/msnbc/00/msnbc_0001.parse 391 36 gold be be.03 ----- 36:0-rel
+bc/msnbc/00/msnbc_0001.parse 235 8 gold have have.01 ----- 8:0-rel
 bc/msnbc/00/msnbc_0001.parse 452 6 gold do do.02 ----- 4:1-ARG0 5:0-ARGM-NEG 6:0-rel 7:1-ARG1 8:1-ARGM-DIS 9:2-ARGM-TMP
-bc/msnbc/00/msnbc_0001.parse 562 15 gold be be.01 ----- 12:1*16:1-ARG2 13:1-ARG1 15:0-rel
 bc/msnbc/00/msnbc_0001.parse 10 35 gold be be.03 ----- 35:0-rel
 bc/msnbc/00/msnbc_0001.parse 368 20 gold hear hearing.02 ----- 19:0-ARG2 20:0-rel
 bc/msnbc/00/msnbc_0001.parse 92 1 gold mean mean.01 ----- 0:1-ARG0 1:0-rel
@@ -102,11 +101,8 @@ bc/msnbc/00/msnbc_0001.parse 482 1 gold mean mean.01 ----- 0:1-ARG0 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 427 2 gold probation probation.01 ----- 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 106 12 gold see see.01 ----- 9:1*13:1-ARG1 10:1-ARG0 12:0-rel 14:1-ARGM-DIR 18:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 289 6 gold pull pull.01 ----- 0:1*7:1-ARG1 5:1-ARGM-ADV 6:0-rel 8:1-ARG2
-bc/msnbc/00/msnbc_0001.parse 318 31 gold do do.01 ----- 31:0-rel
 bc/msnbc/00/msnbc_0001.parse 399 2 gold know know.02 ----- 1:1-ARG0 2:0-rel 3:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 70 7 gold matter matter.02 ----- 7:0-rel
-bc/msnbc/00/msnbc_0001.parse 359 0 gold look look.09 ----- 0:0-rel
-bc/msnbc/00/msnbc_0001.parse 127 5 gold be be.02 ----- 0:2-ARGM-ADV 5:0-rel 6:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 43 2 gold question question.01 ----- 1:0-ARGM-TMP 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 435 4 gold change change.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-ARGM-NEG 4:0-rel 5:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 182 8 gold come come.01 ----- 2:1*7:1-ARG1 8:0-rel 9:1-ARG4
@@ -117,9 +113,7 @@ bc/msnbc/00/msnbc_0001.parse 198 28 gold be be.01 ----- 27:1-ARG1 28:0-rel 29:2-
 bc/msnbc/00/msnbc_0001.parse 352 6 gold say say.01 ----- 0:3-ARGM-DIS 2:2*7:1-ARG1 6:0-rel
 bc/msnbc/00/msnbc_0001.parse 260 3 gold talk talk.02 ----- 0:1-ARGM-DIS 1:1-ARG0 3:0-rel 4:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 19 5 gold see see.01 ----- 0:1*3:1-ARG0 5:0-rel 6:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 235 8 gold have have.01 ----- 8:0-rel
 bc/msnbc/00/msnbc_0001.parse 438 10 gold be be.03 ----- 10:0-rel
-bc/msnbc/00/msnbc_0001.parse 27 2 gold know know.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 184 5 gold take take.01 ----- 4:1-ARG0 5:0-rel 6:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 389 39 gold keep keep.04 ----- 38:1-ARG0 39:0-rel 40:1-ARG1 41:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 243 9 gold do do.01 ----- 9:0-rel
@@ -131,6 +125,7 @@ bc/msnbc/00/msnbc_0001.parse 154 5 gold be be.03 ----- 5:0-rel
 bc/msnbc/00/msnbc_0001.parse 69 0 gold be be.03 ----- 0:0-rel
 bc/msnbc/00/msnbc_0001.parse 376 3 gold talk talk.01 ----- 0:1*4:1-ARG1 1:1-ARG0 3:0-rel
 bc/msnbc/00/msnbc_0001.parse 34 5 gold be be.03 ----- 5:0-rel
+bc/msnbc/00/msnbc_0001.parse 104 3 gold have have.01 ----- 3:0-rel
 bc/msnbc/00/msnbc_0001.parse 198 18 gold have have.03 ----- 17:1-ARG0 18:0-rel 19:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 85 6 gold demand demand.01 ----- 4:1-ARG0 5:1-ARGM-ADV 6:0-rel 7:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 251 14 gold set set_up.03 ----- 9:1-ARG0 14:0,15:1-rel 16:1-ARG1
@@ -143,9 +138,8 @@ bc/msnbc/00/msnbc_0001.parse 288 4 gold use use.01 ----- 0:2-ARG0 4:0-rel 5:2-AR
 bc/msnbc/00/msnbc_0001.parse 306 65 gold be be.01 ----- 62:1-ARG1 64:0-ARGM-MOD 65:0-rel 66:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 340 19 gold find find_out.03 ----- 3:1*5:1-ARG0 19:0,20:1-rel 21:3-ARG1
 bc/msnbc/00/msnbc_0001.parse 241 3 gold do do.01 ----- 3:0-rel
-bc/msnbc/00/msnbc_0001.parse 260 2 gold have have.01 ----- 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 312 24 gold be be.03 ----- 24:0-rel
-bc/msnbc/00/msnbc_0001.parse 26 1 gold mean mean.01 ----- 0:1-ARG0 1:0-rel
+bc/msnbc/00/msnbc_0001.parse 152 7 gold have have.03 ----- 2:1*3:1*6:1-ARG0 2:1*3:1-LINK-SLC 7:0-rel 8:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 165 17 gold walk walk.01 ----- 17:0-rel 18:1-ARGM-COM
 bc/msnbc/00/msnbc_0001.parse 514 10 gold be be.02 ----- 10:0-rel 11:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 62 2 gold thank thank.01 ----- 0:1-ARGM-DIS 2:0-rel 3:1*6:1-ARG2 4:1-ARGM-EXT
@@ -163,11 +157,12 @@ bc/msnbc/00/msnbc_0001.parse 193 5 gold happen happen.01 ----- 3:1*4:1-ARG1 5:0-
 bc/msnbc/00/msnbc_0001.parse 406 7 gold be be.01 ----- 0:1-ARGM-DIS 6:1-ARG1 7:0-rel 8:2-ARG2
 bc/msnbc/00/msnbc_0001.parse 334 12 gold vote vote.01 ----- 5:1*17:1-ARGM-MNR 6:1*10:1-ARG0 12:0-rel 13:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 27 43 gold relax relax.01 ----- 31:1*41:1-ARG1 43:0-rel 44:1-ARGM-EXT
-bc/msnbc/00/msnbc_0001.parse 180 6 gold kidnap kidnap.01 ----- 4:1*7:1-ARG1 6:0-rel 8:2-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 535 1 gold have have.01 ----- 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 238 2 gold know know.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 202 11 gold process process.01 ----- 8:1-ARG0 10:1-ARGM-TMP 11:0-rel 12:1-ARGM-DIS 13:3-ARG1
+bc/msnbc/00/msnbc_0001.parse 204 8 gold kidnap kidnap.01 ----- 6:1*9:1-ARG1 8:0-rel 10:1-ARGM-TMP 20:1-ARGM-DIS
 bc/msnbc/00/msnbc_0001.parse 119 4 gold be be.03 ----- 4:0-rel
+bc/msnbc/00/msnbc_0001.parse 261 23 gold say say.01 ----- 20:1-ARG0 22:0-ARGM-NEG 23:0-rel 24:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 2 2 gold say say.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 377 3 gold be be.03 ----- 3:0-rel
 bc/msnbc/00/msnbc_0001.parse 295 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
@@ -182,16 +177,11 @@ bc/msnbc/00/msnbc_0001.parse 337 4 gold know know.01 ----- 2:1-ARG0 4:0-rel 5:2-
 bc/msnbc/00/msnbc_0001.parse 132 1 gold do do.01 ----- 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 307 12 gold forget forget.01 ----- 0:0-ARGM-DIS 1:1-ARGM-DIS 2:1-ARGM-ADV 9:1-ARG0 10:0-ARGM-MOD 11:1-ARGM-NEG 12:0-rel 13:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 109 9 gold leave leave.11 ----- 8:1-ARG0 9:0-rel 10:1-ARG1 12:1-ARGM-MNR
-bc/msnbc/00/msnbc_0001.parse 205 3 gold get get.01 ----- 2:1-ARG0 3:0-rel 4:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 521 19 gold call call.01 ----- 18:0-ARGM-ADV 19:0-rel 20:0-ARG2
 bc/msnbc/00/msnbc_0001.parse 418 51 gold know know.01 ----- 48:1-ARG0 49:0-ARGM-MOD 51:0-rel 52:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 405 11 gold be be.03 ----- 11:0-rel
+bc/msnbc/00/msnbc_0001.parse 328 16 gold give give.01 ----- 7:2-ARG0 16:0-rel 17:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 39 25 gold question question.01 ----- 24:1-ARGM-DIS 25:0-rel
-bc/msnbc/00/msnbc_0001.parse 73 5 gold charge charge.05 ----- 2:1*6:1-ARG1 5:0-rel 7:1-ARGM-LOC
-bc/msnbc/00/msnbc_0001.parse 119 54 gold happen happen.01 ----- 52:1*53:1-ARG1 54:0-rel 55:1-ARGM-LOC
 bc/msnbc/00/msnbc_0001.parse 119 24 gold try try.02 ----- 24:0-rel
 bc/msnbc/00/msnbc_0001.parse 488 9 gold happen happen.01 ----- 6:1*8:1-ARG1 9:0-rel 10:1-ARGM-TMP
-bc/msnbc/00/msnbc_0001.parse 239 2 gold thank thank.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1 4:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 390 6 gold know know.01 ----- 1:1*4:1-ARG0 6:0-rel 7:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 418 56 gold offend offend.01 ----- 53:1-ARG0 54:0-ARGM-MOD 55:1-ARGM-ADV 56:0-rel 57:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 237 4 gold say say.01 ----- 0:1-ARGM-DIS 1:1-ARGM-DIS 3:1-ARG0 4:0-rel 5:2-ARG1
@@ -208,7 +198,7 @@ bc/msnbc/00/msnbc_0001.parse 347 1 gold wait wait.01 ----- 0:1-ARG1 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 427 10 gold disappear disappear.01 ----- 8:1-ARG1 10:0-rel
 bc/msnbc/00/msnbc_0001.parse 338 4 gold be be.01 ----- 3:1-ARG1 4:0-rel 5:0-ARGM-NEG 6:1-ARG2 8:1-ARGM-ADV
 bc/msnbc/00/msnbc_0001.parse 251 4 gold be be.01 ----- 0:0-ARGM-DIS 4:0-rel 5:1-ARG1 7:1-ARG2
-bc/msnbc/00/msnbc_0001.parse 39 34 gold be be.03 ----- 34:0-rel
+bc/msnbc/00/msnbc_0001.parse 261 7 gold know know.06 ----- 6:1-ARG0 7:0-rel
 bc/msnbc/00/msnbc_0001.parse 157 20 gold be be.03 ----- 20:0-rel
 bc/msnbc/00/msnbc_0001.parse 268 1 gold thank thank.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 342 3 gold do do.01 ----- 3:0-rel
@@ -218,29 +208,29 @@ bc/msnbc/00/msnbc_0001.parse 306 47 gold say say.01 ----- 44:1*52:1-ARGM-CAU 45:
 bc/msnbc/00/msnbc_0001.parse 73 1 gold mean mean.01 ----- 0:1-ARG0 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 52 11 gold be be.03 ----- 11:0-rel
 bc/msnbc/00/msnbc_0001.parse 493 8 gold take take.01 ----- 7:1-ARG0 8:0-rel 9:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 24 13 gold call call.02 ----- 12:1-ARG0 13:0-rel 14:1-ARGM-DIR
 bc/msnbc/00/msnbc_0001.parse 358 2 gold be be.03 ----- 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 212 12 gold look look.01 ----- 5:2*9:1,13:1-ARG1 5:2*9:1-LINK-SLC 10:1-ARG0 12:0-rel
 bc/msnbc/00/msnbc_0001.parse 503 19 gold strike strike.01 ----- 18:1-ARG0 19:0-rel
 bc/msnbc/00/msnbc_0001.parse 304 34 gold get get.02 ----- 32:1-ARG0 34:0-rel 35:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 13 1 gold let let.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 271 7 gold convict convict.01 ----- 7:0-rel 9:0-ARG1
 bc/msnbc/00/msnbc_0001.parse 544 24 gold be be.03 ----- 24:0-rel
 bc/msnbc/00/msnbc_0001.parse 150 4 gold be be.03 ----- 4:0-rel
+bc/msnbc/00/msnbc_0001.parse 31 2 gold know know.01 ----- 1:1-ARG0 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 305 18 gold show show.04 ----- 16:0-ARG0 17:0-ARG3 18:0-rel
 bc/msnbc/00/msnbc_0001.parse 264 11 gold be be.01 ----- 0:1*10:1-ARG1 11:0-rel 12:1-ARG2 14:1-ARGM-DIS 15:1-ARGM-ADV
 bc/msnbc/00/msnbc_0001.parse 169 5 gold say say.01 ----- 0:2-ARG0 5:0-rel 6:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 262 32 gold have have.01 ----- 32:0-rel
 bc/msnbc/00/msnbc_0001.parse 336 4 gold be be.03 ----- 4:0-rel
 bc/msnbc/00/msnbc_0001.parse 198 25 gold think think.01 ----- 17:1-ARG0 25:0-rel 26:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 465 6 gold happen happen.01 ----- 0:0-ARGM-DIS 1:1-ARG1 3:0-ARGM-MOD 4:0-ARGM-NEG 6:0-rel
 bc/msnbc/00/msnbc_0001.parse 522 5 gold engage engage.01 ----- 0:1-ARGM-DIS 1:2-ARG1 5:0-rel 6:1-ARG2 13:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 225 5 gold be be.01 ----- 0:1-ARG1 5:0-rel 6:2-ARG2
 bc/msnbc/00/msnbc_0001.parse 358 11 gold happen happen.01 ----- 5:1*9:1-ARG1 11:0-rel
 bc/msnbc/00/msnbc_0001.parse 147 0 gold look look.09 ----- 0:0-rel
 bc/msnbc/00/msnbc_0001.parse 25 3 gold let let.01 ----- 2:1-ARG0 3:0-rel 4:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 144 12 gold mean mean.01 ----- 11:1-ARG0 12:0-rel
-bc/msnbc/00/msnbc_0001.parse 401 6 gold tell tell.01 ----- 0:1*4:1-ARG0 6:0-rel 7:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 22 9 gold use use.01 ----- 7:1,10:1-ARG1 7:1*10:1-LINK-PSV 9:0-rel 11:1-ARG0
-bc/msnbc/00/msnbc_0001.parse 119 80 gold work work.01 ----- 73:2*77:1*81:1-ARG1 73:2*77:1-LINK-SLC 80:0-rel
 bc/msnbc/00/msnbc_0001.parse 344 6 gold raise raise.01 ----- 0:1*2:2*3:1*7:1-ARG1 0:1*2:2-LINK-SLC 6:0-rel
 bc/msnbc/00/msnbc_0001.parse 264 17 gold have have.01 ----- 17:0-rel
 bc/msnbc/00/msnbc_0001.parse 344 1 gold concern concern.01 ----- 1:0-rel 2:3-ARGM-ADJ 8:1-ARG0
@@ -254,7 +244,6 @@ bc/msnbc/00/msnbc_0001.parse 305 21 gold be be.03 ----- 21:0-rel
 bc/msnbc/00/msnbc_0001.parse 456 11 gold be be.03 ----- 11:0-rel
 bc/msnbc/00/msnbc_0001.parse 359 6 gold be be.01 ----- 5:1-ARG1 6:0-rel
 bc/msnbc/00/msnbc_0001.parse 359 9 gold be be.01 ----- 0:1-ARGM-DIS 8:1-ARG1 9:0-rel 10:1-ARGM-ADV
-bc/msnbc/00/msnbc_0001.parse 324 11 gold process process.02 ----- 11:0-rel 12:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 117 6 gold frustrate frustrate.01 ----- 5:0-ARGM-NEG 6:0-rel
 bc/msnbc/00/msnbc_0001.parse 205 1 gold have have.01 ----- 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 318 12 gold force force.01 ----- 2:1*11:1-ARG0 2:1*11:1-LINK-PRO 12:0-rel 13:1-ARG1 14:2-ARG2
@@ -263,8 +252,8 @@ bc/msnbc/00/msnbc_0001.parse 495 17 gold do do.01 ----- 17:0-rel
 bc/msnbc/00/msnbc_0001.parse 255 11 gold have have.03 ----- 7:1*9:1*12:1-ARG1 7:1*9:1-LINK-SLC 10:1-ARG0 11:0-rel 13:1-ARGM-MNR
 bc/msnbc/00/msnbc_0001.parse 35 5 gold suspend suspend.01 ----- 0:1-ARGM-ADV 1:1-ARG0 2:0-ARGM-MOD 3:0-ARGM-NEG 5:0-rel 6:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 302 10 gold recollect recollect.01 ----- 9:0-ARG0 10:0-rel
+bc/msnbc/00/msnbc_0001.parse 368 12 gold get get.01 ----- 8:1*10:1-ARG0 12:0-rel 13:1-ARG1 15:1-ARG2 17:1-ARGM-LOC
 bc/msnbc/00/msnbc_0001.parse 341 3 gold be be.01 ----- 2:0-ARG1 3:0-rel 4:1-ARG2
-bc/msnbc/00/msnbc_0001.parse 510 11 gold create create.01 ----- 8:1*12:1-ARG1 8:1*12:1-LINK-PSV 11:0-rel 13:1-ARG0
 bc/msnbc/00/msnbc_0001.parse 4 30 gold grab grab.01 ----- 27:1*44:1-ARGM-TMP 28:1-ARG0 30:0-rel 31:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 7 24 gold grab grab.01 ----- 19:1*21:1*22:1-ARG0 19:1*21:1-LINK-SLC 23:1-ARGM-ADV 24:0-rel 25:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 81 14 gold ask ask.02 ----- 0:0-ARGM-DIS 1:1-ARGM-ADV 10:1-ARGM-DIS 11:1-ARGM-TMP 12:1-ARG0 13:0-ARGM-MOD 14:0-rel 15:1-ARG2 18:2-ARG1
@@ -272,7 +261,6 @@ bc/msnbc/00/msnbc_0001.parse 246 1 gold think think.01 ----- 0:1-ARG0 1:0-rel 2:
 bc/msnbc/00/msnbc_0001.parse 175 2 gold see see.01 ----- 0:1*3:2-ARG1 1:1-ARGM-TMP 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 334 8 gold be be.03 ----- 8:0-rel
 bc/msnbc/00/msnbc_0001.parse 54 29 gold be be.03 ----- 29:0-rel
-bc/msnbc/00/msnbc_0001.parse 115 14 gold leave leave.15 ----- 13:1-ARG0 14:0-rel 15:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 236 0 gold join join.04 ----- 0:0-rel 1:1-ARG1 2:1-ARGM-TMP 3:1-ARGM-MNR 8:2-ARG0
 bc/msnbc/00/msnbc_0001.parse 229 13 gold go go.01 ----- 0:0-ARGM-DIS 1:2-ARGM-ADV 9:1-ARGM-DIS 10:1-ARG1 13:0-rel 14:1-ARGM-DIR 15:1-ARG4
 bc/msnbc/00/msnbc_0001.parse 31 6 gold be be.03 ----- 6:0-rel
@@ -281,21 +269,18 @@ bc/msnbc/00/msnbc_0001.parse 40 10 gold tolerate tolerate.01 ----- 9:0-ARGM-EXT 
 bc/msnbc/00/msnbc_0001.parse 273 12 gold battle battle.01 ----- 11:0-ARGM-MNR 12:0-rel
 bc/msnbc/00/msnbc_0001.parse 464 51 gold let let.01 ----- 31:1-ARG0 49:1-ARGM-DIS 50:0-ARGM-NEG 51:0-rel 52:1-ARG1 53:2-ARGM-PRD
 bc/msnbc/00/msnbc_0001.parse 145 10 gold be be.01 ----- 9:1-ARG1 10:0-rel 11:2-ARG2
-bc/msnbc/00/msnbc_0001.parse 334 4 gold know know.01 ----- 0:0-ARGM-DIS 1:1-ARGM-DIS 2:1-ARG0 4:0-rel 5:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 2 10 gold arrest arrest.01 ----- 10:0-rel
 bc/msnbc/00/msnbc_0001.parse 195 4 gold stay stay.01 ----- 0:1-ARGM-DIS 1:1-ARG1 3:1-ARGM-ADV 4:0-rel 5:1-ARG3 10:1-ARGM-ADV
-bc/msnbc/00/msnbc_0001.parse 98 28 gold know know.06 ----- 27:1-ARG0 28:0-rel
 bc/msnbc/00/msnbc_0001.parse 222 28 gold have have.01 ----- 28:0-rel
-bc/msnbc/00/msnbc_0001.parse 427 3 gold tell tell.01 ----- 0:1-ARGM-TMP 2:1-ARG0 3:0-rel 4:1-ARG2 7:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 412 1 gold come come_up.11 ----- 0:1-ARG1 1:0,2:1-rel
+bc/msnbc/00/msnbc_0001.parse 180 5 gold be be.03 ----- 5:0-rel
 bc/msnbc/00/msnbc_0001.parse 357 26 gold know know.01 ----- 18:1*27:1-ARG1 19:1*24:1-ARG0 26:0-rel
-bc/msnbc/00/msnbc_0001.parse 495 13 gold tell tell.01 ----- 8:2-ARG0 13:0-rel 14:1-ARG2 15:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 309 5 gold broadcast broadcast.01 ----- 4:0-ARGM-ADJ 5:0-rel 6:1-ARGM-TMP
+bc/msnbc/00/msnbc_0001.parse 397 5 gold need need.01 ----- 4:1-ARG0 5:0-rel 6:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 165 4 gold look look.01 ----- 0:0-ARGM-DIS 1:1-ARG0 3:1-ARGM-ADV 4:0-rel 5:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 80 3 gold conduct conduct.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 148 8 gold sit sit_down.02 ----- 4:1*6:1-ARG1 8:0,9:1-rel 10:1-ARG2
-bc/msnbc/00/msnbc_0001.parse 294 1 gold dine dine.01 ----- 0:1-ARG0 1:0-rel 2:1-ARGM-TMP 4:1-ARGM-MNR 7:1-ARGM-LOC
 bc/msnbc/00/msnbc_0001.parse 495 19 gold have have.03 ----- 16:1-ARG0 18:0-ARGM-NEG 19:0-rel 20:2-ARG1
+bc/msnbc/00/msnbc_0001.parse 212 11 gold be be.03 ----- 11:0-rel
 bc/msnbc/00/msnbc_0001.parse 38 2 gold be be.03 ----- 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 14 2 gold see see.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 528 11 gold disintegrate disintegrate.01 ----- 0:3-ARG1 10:1-ARGM-MNR 11:0-rel 12:1-ARGM-PRD
@@ -304,9 +289,8 @@ bc/msnbc/00/msnbc_0001.parse 307 4 gold have have.01 ----- 4:0-rel
 bc/msnbc/00/msnbc_0001.parse 278 1 gold be be.03 ----- 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 256 7 gold be be.03 ----- 7:0-rel
 bc/msnbc/00/msnbc_0001.parse 32 31 gold do do.01 ----- 31:0-rel
-bc/msnbc/00/msnbc_0001.parse 475 18 gold generalize generalize.01 ----- 18:0-rel
+bc/msnbc/00/msnbc_0001.parse 520 27 gold vote vote.01 ----- 25:1-ARG0 26:0-ARGM-MOD 27:0-rel 28:1-ARGM-MNR
 bc/msnbc/00/msnbc_0001.parse 314 17 gold get get.02 ----- 12:2*18:1-ARG1 15:1-ARG0 17:0-rel
-bc/msnbc/00/msnbc_0001.parse 1 11 gold make make.LV ----- 11:0-rel 13:0-ARGM-PRR
 bc/msnbc/00/msnbc_0001.parse 272 3 gold be be.03 ----- 3:0-rel
 bc/msnbc/00/msnbc_0001.parse 28 10 gold punch punch.01 ----- 6:1-ARG0 8:3-ARGM-DIS 10:0-rel 12:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 475 11 gold be be.01 ----- 5:2*9:1*10:1-ARG1 5:2*9:1-LINK-SLC 11:0-rel 12:2-ARG2
@@ -325,30 +309,38 @@ bc/msnbc/00/msnbc_0001.parse 128 7 gold destroy destroy.01 ----- 3:1-ARG1 7:0-re
 bc/msnbc/00/msnbc_0001.parse 519 10 gold welcome welcome.01 ----- 4:2-ARG0 9:0-ARGM-MOD 10:0-rel 11:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 507 2 gold get get.02 ----- 1:1-ARG0 2:0-rel 3:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 366 21 gold unite unite.01 ----- 17:2-ARG1 21:0-rel
+bc/msnbc/00/msnbc_0001.parse 562 15 gold be be.01 ----- 12:1*16:1-ARG2 13:1-ARG1 15:0-rel
 bc/msnbc/00/msnbc_0001.parse 88 47 gold return return.01 ----- 44:1*48:1-ARGM-TMP 45:1-ARG1 46:0-ARGM-MOD 47:0-rel
 bc/msnbc/00/msnbc_0001.parse 456 10 gold have have.01 ----- 10:0-rel
 bc/msnbc/00/msnbc_0001.parse 389 2 gold be be.03 ----- 2:0-rel
+bc/msnbc/00/msnbc_0001.parse 318 31 gold do do.01 ----- 31:0-rel
 bc/msnbc/00/msnbc_0001.parse 100 3 gold do do.01 ----- 3:0-rel
+bc/msnbc/00/msnbc_0001.parse 127 5 gold be be.02 ----- 0:2-ARGM-ADV 5:0-rel 6:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 344 18 gold voice voice.01 ----- 17:0-ARGM-ADJ 18:0-rel 19:1-ARGM-LOC
 bc/msnbc/00/msnbc_0001.parse 102 13 gold have have.01 ----- 13:0-rel
 bc/msnbc/00/msnbc_0001.parse 415 14 gold bludgeon bludgeon.01 ----- 8:1*11:1*13:1-ARG0 8:1*11:1-LINK-PSV 14:0-rel 15:2-ARG1
-bc/msnbc/00/msnbc_0001.parse 152 7 gold have have.03 ----- 2:1*3:1*6:1-ARG0 2:1*3:1-LINK-SLC 7:0-rel 8:2-ARG1
+bc/msnbc/00/msnbc_0001.parse 26 1 gold mean mean.01 ----- 0:1-ARG0 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 439 10 gold take take.01 ----- 4:1*9:1-ARG0 10:0-rel 11:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 555 1 gold call call.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:2-ARG2
 bc/msnbc/00/msnbc_0001.parse 514 3 gold believe believe.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:2-ARG1
+bc/msnbc/00/msnbc_0001.parse 180 6 gold kidnap kidnap.01 ----- 4:1*7:1-ARG1 6:0-rel 8:2-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 142 2 gold think think.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 58 2 gold deal deal.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 96 1 gold be be.02 ----- 1:0-rel 2:1-ARGM-ADV 3:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 385 3 gold go go.02 ----- 0:1-ARGM-DIS 2:1-ARG0 3:0-rel 4:1-ARGM-DIR
 bc/msnbc/00/msnbc_0001.parse 128 11 gold lose lose.02 ----- 10:1*12:1-ARG1 11:0-rel
+bc/msnbc/00/msnbc_0001.parse 521 19 gold call call.01 ----- 18:0-ARGM-ADV 19:0-rel 20:0-ARG2
+bc/msnbc/00/msnbc_0001.parse 73 5 gold charge charge.05 ----- 2:1*6:1-ARG1 5:0-rel 7:1-ARGM-LOC
 bc/msnbc/00/msnbc_0001.parse 298 5 gold blame blame.01 ----- 0:3*6:1-ARG2 5:0-rel 7:1-ARG1 10:1-ARG0
-bc/msnbc/00/msnbc_0001.parse 368 4 gold be be.03 ----- 4:0-rel
+bc/msnbc/00/msnbc_0001.parse 480 2 gold be be.03 ----- 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 8 15 gold set set.01 ----- 12:1*16:1-ARG1 12:1*16:1-LINK-PSV 15:0-rel 17:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 189 6 gold remind remind.01 ----- 0:1-ARGM-DIS 1:2-ARG0 6:0-rel 7:1-ARG2 8:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 323 4 gold tell tell.01 ----- 3:1-ARG0 4:0-rel 5:1-ARG2 6:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 518 24 gold be be.01 ----- 23:1-ARG1 24:0-rel 25:0-ARGM-NEG 26:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 368 49 gold get get.01 ----- 43:1*47:1-ARG0 49:0-rel 50:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 306 57 gold say say.01 ----- 53:1*69:1-ARGM-CAU 54:1-ARG0 56:1-ARGM-DIS 57:0-rel 58:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 224 12 gold happen happen.01 ----- 9:1*10:1-ARG1 12:0-rel 13:1-ARG2 15:1-ARGM-EXT
+bc/msnbc/00/msnbc_0001.parse 510 11 gold create create.01 ----- 8:1*12:1-ARG1 8:1*12:1-LINK-PSV 11:0-rel 13:1-ARG0
 bc/msnbc/00/msnbc_0001.parse 270 1 gold come come_up.11 ----- 0:1-ARG1 1:0,2:1-rel
 bc/msnbc/00/msnbc_0001.parse 220 32 gold have have.01 ----- 32:0-rel
 bc/msnbc/00/msnbc_0001.parse 315 5 gold be be.03 ----- 5:0-rel
@@ -356,6 +348,7 @@ bc/msnbc/00/msnbc_0001.parse 476 12 gold say say.01 ----- 10:1-ARG0 12:0-rel 13:
 bc/msnbc/00/msnbc_0001.parse 149 22 gold do do.02 ----- 19:1*23:1-ARG1 20:1-ARG0 22:0-rel
 bc/msnbc/00/msnbc_0001.parse 254 8 gold have have.01 ----- 8:0-rel
 bc/msnbc/00/msnbc_0001.parse 495 1 gold come come_up.11 ----- 0:1-ARG1 1:0,2:1-rel
+bc/msnbc/00/msnbc_0001.parse 205 3 gold get get.01 ----- 2:1-ARG0 3:0-rel 4:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 418 39 gold know know.01 ----- 36:1-ARG0 37:0-ARGM-MOD 39:0-rel 40:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 4 14 gold see see.01 ----- 0:2-ARG0 4:1-ARGM-TMP 14:0-rel 15:2-ARG1 23:2-ARGM-ADV
 bc/msnbc/00/msnbc_0001.parse 544 4 gold do do.01 ----- 4:0-rel
@@ -366,7 +359,6 @@ bc/msnbc/00/msnbc_0001.parse 366 23 gold say say.01 ----- 17:2-ARG0 23:0-rel 24:
 bc/msnbc/00/msnbc_0001.parse 102 7 gold approach approach.01 ----- 2:1*5:1*6:1-ARG1 2:1*5:1-LINK-SLC 7:0-rel 8:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 14 1 gold have have.01 ----- 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 524 22 gold serve serve.01 ----- 0:1-ARGM-DIS 2:1-ARG0 22:0-rel 23:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 133 13 gold be be.03 ----- 13:0-rel
 bc/msnbc/00/msnbc_0001.parse 546 3 gold have have.01 ----- 3:0-rel
 bc/msnbc/00/msnbc_0001.parse 525 34 gold question question.01 ----- 33:0-ARG0 34:0-rel
 bc/msnbc/00/msnbc_0001.parse 465 5 gold have have.01 ----- 5:0-rel
@@ -377,31 +369,33 @@ bc/msnbc/00/msnbc_0001.parse 451 4 gold say say.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2
 bc/msnbc/00/msnbc_0001.parse 487 13 gold investigate investigate.01 ----- 2:1-ARG0 11:1-ARGM-DIS 13:0-rel 14:1-ARG1 15:1-ARGM-MNR 16:1-ARGM-ADV
 bc/msnbc/00/msnbc_0001.parse 287 7 gold earthquake earthquake.01 ----- 4:1-ARGM-TMP 6:0-ARGM-ADJ 7:0-rel 8:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 212 3 gold be be.01 ----- 0:1-ARGM-ADV 2:1-ARG1 3:0-rel 4:0-ARGM-NEG 5:3-ARG2
-bc/msnbc/00/msnbc_0001.parse 407 1 gold ask ask.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 60 2 gold be be.03 ----- 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 316 5 gold answer answer.01 ----- 5:0-rel 6:2-ARG1 10:3-ARG0
 bc/msnbc/00/msnbc_0001.parse 186 2 gold be be.03 ----- 2:0-rel
-bc/msnbc/00/msnbc_0001.parse 560 2 gold get get.02 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
+bc/msnbc/00/msnbc_0001.parse 373 10 gold be be.03 ----- 10:0-rel
 bc/msnbc/00/msnbc_0001.parse 321 6 gold come come.01 ----- 3:1*4:1-ARG1 6:0-rel 7:1-ARGM-DIR 8:1-ARGM-MNR
 bc/msnbc/00/msnbc_0001.parse 56 3 gold do do.01 ----- 3:0-rel
+bc/msnbc/00/msnbc_0001.parse 222 22 gold call call.02 ----- 20:1-ARG0 22:0-rel 23:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 440 14 gold do do.01 ----- 14:0-rel
 bc/msnbc/00/msnbc_0001.parse 55 6 gold find find.01 ----- 5:1-ARG0 6:0-rel 7:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 28 20 gold know know.06 ----- 19:1-ARG0 20:0-rel
 bc/msnbc/00/msnbc_0001.parse 23 4 gold say say.01 ----- 2:1-ARG0 3:0-ARGM-MOD 4:0-rel 5:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 256 8 gold plan plan.01 ----- 6:1-ARG0 8:0-rel 9:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 119 30 gold provide provide.01 ----- 28:1-ARG0 30:0-rel 31:1-ARGM-DIS 32:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 514 13 gold test test.01 ----- 11:0-ARGM-NEG 12:0-ARGM-ADJ 13:0-rel
 bc/msnbc/00/msnbc_0001.parse 516 27 gold do do.01 ----- 27:0-rel
 bc/msnbc/00/msnbc_0001.parse 118 6 gold go go.04 ----- 5:0-ARGM-NEG 6:0-rel
-bc/msnbc/00/msnbc_0001.parse 412 18 gold suit sue.02 ----- 4:2-ARG0 17:0-ARGM-MOD 18:0-rel 19:1-ARG1 21:1-ARG2
-bc/msnbc/00/msnbc_0001.parse 531 10 gold be be.01 ----- 8:1*28:1-ARGM-TMP 9:1-ARG1 10:0-rel 11:0-ARGM-NEG 12:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 387 1 gold question question.01 ----- 1:0-rel 2:1-ARGM-TMP
+bc/msnbc/00/msnbc_0001.parse 157 9 gold be be.01 ----- 3:1*7:1-ARG1 9:0-rel 10:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 356 28 gold make make.LV ----- 28:0-rel 30:0-ARGM-PRR
 bc/msnbc/00/msnbc_0001.parse 256 11 gold meet meet.03 ----- 6:1*9:1-ARG0 11:0-rel 12:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 525 8 gold oppose oppose.01 ----- 2:1*6:1*7:1-ARG0 2:1*6:1-LINK-SLC 8:0-rel 9:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 105 2 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 2:0-rel 3:2-ARG2
-bc/msnbc/00/msnbc_0001.parse 9 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2 4:1-ARGM-MNR
 bc/msnbc/00/msnbc_0001.parse 21 3 gold believe believe.01 ----- 0:1-ARGM-DIS 1:1-ARGM-ADV 2:1-ARG0 3:0-rel 4:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 262 33 gold see see.01 ----- 31:1-ARG0 33:0-rel 34:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 421 6 gold charge charge.05 ----- 0:2-ARGM-TMP 4:1*7:1-ARG1 6:0-rel 8:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 326 2 gold think think.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 168 9 gold nominate nominate.01 ----- 4:1-ARG1 7:1-ARG2 9:0-rel
 bc/msnbc/00/msnbc_0001.parse 456 4 gold be be.02 ----- 0:1-ARGM-DIS 3:0-ARGM-MOD 4:0-rel 5:2-ARG1
-bc/msnbc/00/msnbc_0001.parse 489 10 gold do do.01 ----- 10:0-rel
 bc/msnbc/00/msnbc_0001.parse 230 4 gold be be.03 ----- 4:0-rel
 bc/msnbc/00/msnbc_0001.parse 298 3 gold die die.01 ----- 0:2-ARGM-ADJ 3:0-rel
 bc/msnbc/00/msnbc_0001.parse 281 4 gold battle battle.01 ----- 4:0-rel 5:1-ARG2
@@ -415,14 +409,12 @@ bc/msnbc/00/msnbc_0001.parse 219 10 gold seem seem.01 ----- 9:1,11:1-ARG1 10:0-r
 bc/msnbc/00/msnbc_0001.parse 408 4 gold do do.02 ----- 2:1*5:1-ARG1 3:1-ARG0 4:0-rel
 bc/msnbc/00/msnbc_0001.parse 293 8 gold get get.LV ----- 8:0-rel 10:0-ARGM-PRR
 bc/msnbc/00/msnbc_0001.parse 487 40 gold happen happen.01 ----- 36:1-ARG1 37:0-ARGM-MOD 39:0-ARGM-NEG 40:0-rel
-bc/msnbc/00/msnbc_0001.parse 312 4 gold know know.01 ----- 1:1-ARGM-ADV 2:1-ARG0 4:0-rel 5:3-ARG1
 bc/msnbc/00/msnbc_0001.parse 442 10 gold suffer suffer.01 ----- 5:1*7:1*8:1-ARG0 5:1*7:1-LINK-SLC 10:0-rel 11:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 18 1 gold know know.01 ----- 0:1-ARG0 1:0-rel
+bc/msnbc/00/msnbc_0001.parse 407 1 gold ask ask.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 516 42 gold do do.01 ----- 42:0-rel
 bc/msnbc/00/msnbc_0001.parse 275 2 gold continue continue.01 ----- 2:0-rel 3:0-ARG1
-bc/msnbc/00/msnbc_0001.parse 4 3 gold have have.01 ----- 3:0-rel
-bc/msnbc/00/msnbc_0001.parse 449 1 gold do do.01 ----- 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 257 20 gold take take.01 ----- 0:1-ARGM-DIS 1:1-ARGM-DIS 6:2-ARGM-TMP 17:1-ARG0 19:0-ARGM-NEG 20:0-rel 21:2*25:1-ARG1 23:1-ARGM-MNR
+bc/msnbc/00/msnbc_0001.parse 26 18 gold be be.03 ----- 18:0-rel
 bc/msnbc/00/msnbc_0001.parse 422 8 gold have have.01 ----- 8:0-rel
 bc/msnbc/00/msnbc_0001.parse 69 4 gold investigate investigate.01 ----- 1:1-ARG0 3:1-ARGM-ADV 4:0-rel 5:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 388 13 gold say say.01 ----- 9:1*14:1-ARG1 11:1-ARG0 12:1-ARGM-ADV 13:0-rel
@@ -431,59 +423,51 @@ bc/msnbc/00/msnbc_0001.parse 60 6 gold take take.LV ----- 6:0-rel 7:1-ARGM-PRR
 bc/msnbc/00/msnbc_0001.parse 531 25 gold say say.01 ----- 22:1*27:1-ARGM-CAU 23:1-ARG0 25:0-rel 26:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 20 5 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARGM-DIS 3:1-ARG1 5:0-rel 6:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 228 3 gold thank thank.01 ----- 0:0-ARGM-DIS 1:1-ARGM-DIS 2:1-ARG0 3:0-rel 4:1-ARG1 5:1-ARGM-ADV 7:1-ARG2
-bc/msnbc/00/msnbc_0001.parse 216 2 gold talk talk.01 ----- 0:1-ARG0 2:0-rel 3:1-ARGM-LOC 4:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 540 4 gold condemn condemn.01 ----- 0:2-ARG0 4:0-rel 5:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 516 4 gold want want.01 ----- 1:1-ARG0 3:0-ARGM-NEG 4:0-rel 5:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 144 15 gold be be.03 ----- 15:0-rel
 bc/msnbc/00/msnbc_0001.parse 245 14 gold think think.01 ----- 13:1-ARG0 14:0-rel
-bc/msnbc/00/msnbc_0001.parse 547 8 gold blame blame.01 ----- 4:1*6:1-ARG0 8:0-rel 9:1-ARG1 10:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 356 17 gold be be.03 ----- 17:0-rel
-bc/msnbc/00/msnbc_0001.parse 4 5 gold lose lose.02 ----- 0:2-ARG0 4:1-ARGM-TMP 5:0-rel 6:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 310 9 gold be be.03 ----- 9:0-rel
 bc/msnbc/00/msnbc_0001.parse 481 9 gold talk talk.01 ----- 0:0-ARGM-DIS 1:2-ARGM-TMP 6:1-ARG0 8:0-ARGM-NEG 9:0-rel 10:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 143 1 gold do do.01 ----- 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 559 1 gold go go.06 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 4:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 283 4 gold have have.02 ----- 4:0-rel
-bc/msnbc/00/msnbc_0001.parse 141 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 4 12 gold loot loot.01 ----- 12:0-rel
 bc/msnbc/00/msnbc_0001.parse 533 15 gold go go.08 ----- 8:2*14:1-ARG1 8:2*14:1-LINK-PRO 15:0-rel 16:1-ARG2 17:1-ARG3
 bc/msnbc/00/msnbc_0001.parse 48 4 gold be be.03 ----- 4:0-rel
+bc/msnbc/00/msnbc_0001.parse 176 3 gold find find.01 ----- 0:1*4:1-ARG1 3:0-rel 5:1-ARGM-TMP 7:1-ARGM-LOC 11:3-ARGM-LOC
 bc/msnbc/00/msnbc_0001.parse 262 12 gold do do.01 ----- 12:0-rel
 bc/msnbc/00/msnbc_0001.parse 214 2 gold speak speak.01 ----- 0:1-ARG0 2:0-rel 3:1-ARGM-LOC
-bc/msnbc/00/msnbc_0001.parse 464 18 gold happen happen.01 ----- 16:1*17:1-ARG1 18:0-rel 19:1-ARGM-LOC
 bc/msnbc/00/msnbc_0001.parse 208 4 gold be be.01 ----- 3:1-ARG1 4:0-rel
 bc/msnbc/00/msnbc_0001.parse 481 7 gold be be.03 ----- 7:0-rel
 bc/msnbc/00/msnbc_0001.parse 32 9 gold have have.03 ----- 8:1-ARG0 9:0-rel 10:3-ARG1
 bc/msnbc/00/msnbc_0001.parse 199 6 gold be be.01 ----- 0:1-ARGM-DIS 5:1-ARG1 6:0-rel 7:1-ARG2 11:1-ARGM-ADV
-bc/msnbc/00/msnbc_0001.parse 212 11 gold be be.03 ----- 11:0-rel
+bc/msnbc/00/msnbc_0001.parse 449 1 gold do do.01 ----- 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 23 7 gold be be.01 ----- 6:1-ARG1 7:0-rel 8:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 496 1 gold take take.LV ----- 1:0-rel 3:0-ARGM-PRR
 bc/msnbc/00/msnbc_0001.parse 59 18 gold be be.03 ----- 18:0-rel
 bc/msnbc/00/msnbc_0001.parse 62 8 gold come come.01 ----- 7:1-ARG1 8:0-rel 9:1-ARG4
 bc/msnbc/00/msnbc_0001.parse 262 26 gold look look.01 ----- 23:1-ARG0 24:0-ARGM-MOD 25:1-ARGM-ADV 26:0-rel 27:1-ARGM-DIR
 bc/msnbc/00/msnbc_0001.parse 544 23 gold have have.01 ----- 23:0-rel
 bc/msnbc/00/msnbc_0001.parse 102 14 gold lose lose.02 ----- 0:0-ARGM-DIS 1:1-ARGM-DIS 2:2-ARG0 12:1-ARGM-ADV 14:0-rel 15:1-ARG1 16:2-ARGM-ADV 20:1-ARGM-CAU
 bc/msnbc/00/msnbc_0001.parse 95 3 gold see see.01 ----- 0:1*4:1-ARG1 1:1-ARG0 3:0-rel 5:1-ARGM-LOC
-bc/msnbc/00/msnbc_0001.parse 83 2 gold do do.01 ----- 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 12 11 gold talk talk.01 ----- 5:1*7:1*9:1-ARG0 11:0-rel 12:1-ARGM-MNR
 bc/msnbc/00/msnbc_0001.parse 133 4 gold compare compare.01 ----- 0:1-ARGM-LOC 3:1-ARG1 4:0-rel 5:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 15 1 gold look look.02 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 67 3 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 3:0-rel 4:2-ARG2
-bc/msnbc/00/msnbc_0001.parse 90 17 gold be be.01 ----- 16:1-ARG1 17:0-rel 18:2-ARG2
-bc/msnbc/00/msnbc_0001.parse 405 15 gold do do.01 ----- 15:0-rel
 bc/msnbc/00/msnbc_0001.parse 53 8 gold be be.01 ----- 4:1*9:1-ARG2 7:1-ARG1 8:0-rel
+bc/msnbc/00/msnbc_0001.parse 288 14 gold bury bury.01 ----- 12:1*15:1-ARG1 12:1*15:1-LINK-PSV 14:0-rel 16:1-ARG2 19:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 152 14 gold involve involve.01 ----- 11:1*15:1-ARG1 12:1-ARGM-TMP 14:0-rel 16:1-ARG2
-bc/msnbc/00/msnbc_0001.parse 465 6 gold happen happen.01 ----- 0:0-ARGM-DIS 1:1-ARG1 3:0-ARGM-MOD 4:0-ARGM-NEG 6:0-rel
 bc/msnbc/00/msnbc_0001.parse 288 11 gold free free.01 ----- 0:2*9:1-ARG0 11:0-rel 12:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 82 9 gold do do.01 ----- 9:0-rel
-bc/msnbc/00/msnbc_0001.parse 146 3 gold be be.01 ----- 1:0-ARGM-DIS 2:1-ARG1 3:0-rel 5:1-ARGM-DIS 6:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 456 12 gold violate violate.01 ----- 5:1*8:1*9:1*13:1-ARG1 5:1*8:1-LINK-SLC 12:0-rel 14:1-ARGM-LOC
 bc/msnbc/00/msnbc_0001.parse 39 2 gold think think.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 525 30 gold have have.01 ----- 30:0-rel
 bc/msnbc/00/msnbc_0001.parse 303 3 gold do do.02 ----- 0:1*4:1-ARG1 1:1-ARG0 3:0-rel
+bc/msnbc/00/msnbc_0001.parse 283 7 gold testify testify.01 ----- 2:1*5:1-ARG0 7:0-rel 8:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 497 6 gold be be.01 ----- 4:1*7:1-ARG2 5:1-ARG1 6:0-rel
 bc/msnbc/00/msnbc_0001.parse 409 8 gold be be.03 ----- 8:0-rel
 bc/msnbc/00/msnbc_0001.parse 214 1 gold be be.03 ----- 1:0-rel
-bc/msnbc/00/msnbc_0001.parse 222 22 gold call call.02 ----- 20:1-ARG0 22:0-rel 23:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 516 2 gold do do.01 ----- 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 335 11 gold have have.03 ----- 10:1-ARG0 11:0-rel 12:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 382 1 gold go go.02 ----- 0:1-ARG0 1:0-rel 2:1-ARGM-DIR
@@ -491,17 +475,11 @@ bc/msnbc/00/msnbc_0001.parse 516 19 gold limit limit.01 ----- 13:1*17:1-ARG0 19:
 bc/msnbc/00/msnbc_0001.parse 326 10 gold be be.03 ----- 10:0-rel
 bc/msnbc/00/msnbc_0001.parse 311 23 gold precondition precondition.01 ----- 23:0-rel 24:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 340 27 gold receive receive.01 ----- 21:2*28:1-ARG1 25:1-ARG0 27:0-rel
-bc/msnbc/00/msnbc_0001.parse 324 8 gold involve involve.01 ----- 2:1*3:1*4:1-ARG1 2:1*3:1-LINK-SLC 7:0-ARGM-ADV 8:0-rel 9:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 205 17 gold be be.03 ----- 17:0-rel
-bc/msnbc/00/msnbc_0001.parse 287 2 gold devastate devastate.01 ----- 2:0-rel 3:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 114 8 gold count count.01 ----- 7:0-ARGM-TMP 8:0-rel
-bc/msnbc/00/msnbc_0001.parse 266 1 gold thank thank.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:1-ARGM-ADV 5:1-ARGM-DIS 6:1-ARGM-DIS
 bc/msnbc/00/msnbc_0001.parse 468 0 gold be be.02 ----- 0:0-rel 2:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 344 15 gold be be.01 ----- 12:0-ARGM-MOD 13:1-ARG1 14:1-ARGM-ADV 15:0-rel 16:2-ARG2 23:2-ARGM-ADV
-bc/msnbc/00/msnbc_0001.parse 422 9 gold serve serve.04 ----- 0:1*7:1-ARG0 9:0-rel 10:2-ARG1 13:1-ARG2
-bc/msnbc/00/msnbc_0001.parse 374 2 gold know know.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARGM-MNR 5:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 71 3 gold open open.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:1-ARGM-ADV 3:0-rel 4:1-ARG1 6:1-ARGM-TMP 7:2-ARGM-TMP
-bc/msnbc/00/msnbc_0001.parse 202 9 gold be be.03 ----- 9:0-rel
 bc/msnbc/00/msnbc_0001.parse 119 72 gold happen happen.01 ----- 69:1*70:1*71:1-ARG1 69:1*70:1-LINK-SLC 72:0-rel
 bc/msnbc/00/msnbc_0001.parse 556 15 gold alert alert.01 ----- 14:0-ARG2 15:0-rel
 bc/msnbc/00/msnbc_0001.parse 286 5 gold be be.03 ----- 5:0-rel
@@ -510,6 +488,7 @@ bc/msnbc/00/msnbc_0001.parse 188 3 gold come come.01 ----- 2:1-ARG1 3:0-rel
 bc/msnbc/00/msnbc_0001.parse 143 22 gold talk talk.01 ----- 16:1*20:1-ARG0 22:0-rel 23:1-ARG2 26:1-ARGM-EXT 28:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 390 15 gold tell tell.01 ----- 12:1-ARG0 15:0-rel 16:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 183 8 gold be be.01 ----- 3:1*6:1-ARG1 8:0-rel 9:2-ARG2
+bc/msnbc/00/msnbc_0001.parse 457 9 gold need need.01 ----- 8:1-ARG0 9:0-rel 10:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 222 9 gold sit sit.01 ----- 8:1-ARG1 9:0-rel 10:1-ARG2 11:2-ARGM-ADV
 bc/msnbc/00/msnbc_0001.parse 215 9 gold believe believe.01 ----- 7:1-ARG0 8:1-ARGM-ADV 9:0-rel 10:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 489 2 gold look look.09 ----- 2:0-rel
@@ -519,71 +498,61 @@ bc/msnbc/00/msnbc_0001.parse 391 26 gold say say.01 ----- 19:1*20:1*27:1-ARG1 25
 bc/msnbc/00/msnbc_0001.parse 413 10 gold matter matter.02 ----- 9:0-ARGM-MNR 10:0-rel
 bc/msnbc/00/msnbc_0001.parse 29 17 gold lose lose.02 ----- 10:2-ARG0 15:1-ARGM-ADV 17:0-rel 18:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 250 6 gold be be.01 ----- 0:3-ARGM-DIS 2:1-ARGM-ADV 3:1-ARG1 6:0-rel 7:2-ARG2
-bc/msnbc/00/msnbc_0001.parse 204 8 gold kidnap kidnap.01 ----- 6:1*9:1-ARG1 8:0-rel 10:1-ARGM-TMP 20:1-ARGM-DIS
+bc/msnbc/00/msnbc_0001.parse 235 1 gold have have.03 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 360 1 gold be be.03 ----- 1:0-rel
-bc/msnbc/00/msnbc_0001.parse 120 6 gold be be.01 ----- 4:1*5:1-ARG1 6:0-rel 7:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 405 26 gold go go.04 ----- 25:0-ARGM-NEG 26:0-rel
 bc/msnbc/00/msnbc_0001.parse 138 2 gold make make.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 84 7 gold have have.01 ----- 7:0-rel
 bc/msnbc/00/msnbc_0001.parse 248 9 gold see see.01 ----- 4:1-ARGM-TMP 7:1*10:1,13:1-ARG1 9:0-rel 11:1-ARGM-LOC
 bc/msnbc/00/msnbc_0001.parse 543 11 gold be be.03 ----- 11:0-rel
-bc/msnbc/00/msnbc_0001.parse 111 7 gold have have.03 ----- 1:0-ARGM-DIS 5:1-ARGM-DIS 6:1-ARG0 7:0-rel 8:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 41 11 gold go go.04 ----- 11:0-rel
 bc/msnbc/00/msnbc_0001.parse 92 20 gold defend defend.01 ----- 17:1*22:1-ARGM-TMP 18:1-ARG0 20:0-rel 21:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 356 35 gold know know.01 ----- 33:1*36:1-ARG1 34:1-ARG0 35:0-rel 37:1-ARG2
-bc/msnbc/00/msnbc_0001.parse 201 15 gold hear hear.01 ----- 0:1-ARGM-DIS 1:1-ARGM-DIS 6:1-ARGM-TMP 14:1-ARG0 15:0-rel 16:1-ARG1 17:1-ARG2 20:1-ARGM-ADV
 bc/msnbc/00/msnbc_0001.parse 311 2 gold be be.02 ----- 2:0-rel 3:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 560 4 gold update update.01 ----- 4:0-rel 5:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 73 3 gold have have.01 ----- 3:0-rel
 bc/msnbc/00/msnbc_0001.parse 254 3 gold know know.06 ----- 2:1-ARG0 3:0-rel
-bc/msnbc/00/msnbc_0001.parse 317 4 gold thank thank.01 ----- 0:1-ARGM-DIS 2:1-ARGM-DIS 3:1-ARGM-DIS 4:0-rel 5:1*9:1-ARG2 6:1-ARGM-EXT 8:1-ARGM-DIS
 bc/msnbc/00/msnbc_0001.parse 426 6 gold hear hear.01 ----- 2:1*4:1-ARGM-TMP 2:1*4:1-LINK-SLC 5:1-ARG0 6:0-rel 7:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 368 24 gold go go.04 ----- 24:0-rel
-bc/msnbc/00/msnbc_0001.parse 519 1 gold assure assure.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 77 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 154 14 gold lose lose.02 ----- 12:1-ARG0 13:1-ARGM-ADV 14:0-rel 15:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 304 6 gold circulate circulate.01 ----- 1:3;7:1-ARG1 6:0-rel
 bc/msnbc/00/msnbc_0001.parse 117 10 gold justify justify.01 ----- 5:1-ARG0 9:0-ARGM-MOD 10:0-rel 11:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 130 4 gold be be.03 ----- 4:0-rel
 bc/msnbc/00/msnbc_0001.parse 203 8 gold begin begin.01 ----- 8:0-rel
 bc/msnbc/00/msnbc_0001.parse 21 7 gold resist resist.01 ----- 5:1-ARG0 7:0-rel
-bc/msnbc/00/msnbc_0001.parse 510 6 gold blow blow.08 ----- 2:1*3:1-ARGM-TMP 2:1*3:1-LINK-SLC 4:1-ARG0 6:0-rel 7:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 30 17 gold involve involve.01 ----- 15:1*18:1-ARG1 15:1*18:1-LINK-PSV 17:0-rel
 bc/msnbc/00/msnbc_0001.parse 91 5 gold be be.01 ----- 0:1-ARGM-DIS 1:1-ARGM-DIS 2:1-ARGM-ADV 4:1-ARG1 5:0-rel 6:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 76 12 gold be be.01 ----- 11:1-ARG1 12:0-rel 13:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 516 44 gold want want.01 ----- 40:1-ARGM-ADV 41:1-ARG0 43:0-ARGM-NEG 44:0-rel 45:1-ARG1 46:1-ARGM-LOC 49:1-ARGM-ADV
 bc/msnbc/00/msnbc_0001.parse 372 8 gold matter matter.02 ----- 8:0-rel
-bc/msnbc/00/msnbc_0001.parse 415 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2 3:1-ARGM-ADV
 bc/msnbc/00/msnbc_0001.parse 88 33 gold have have.03 ----- 2:2*19:1*49:1-ARGM-LOC 2:2*19:1-LINK-SLC 20:2-ARG0 33:0-rel 34:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 475 4 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARGM-DIS 3:1-ARG1 4:0-rel 5:3-ARG2
 bc/msnbc/00/msnbc_0001.parse 306 30 gold know know.01 ----- 19:2*25:1*31:1-ARG1 19:2*25:1-LINK-SLC 26:1-ARG0 27:1-ARGM-ADV 28:0-ARGM-MOD 29:0-ARGM-NEG 30:0-rel
 bc/msnbc/00/msnbc_0001.parse 492 5 gold be be.03 ----- 5:0-rel
-bc/msnbc/00/msnbc_0001.parse 468 38 gold happen happen.01 ----- 36:2-ARG1 38:0-rel 39:1-ARGM-TMP
+bc/msnbc/00/msnbc_0001.parse 412 18 gold suit sue.02 ----- 4:2-ARG0 17:0-ARGM-MOD 18:0-rel 19:1-ARG1 21:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 125 3 gold pull pull.01 ----- 1:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:1-ARG1 6:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 16 1 gold do do.01 ----- 1:0-rel
-bc/msnbc/00/msnbc_0001.parse 504 3 gold be be.03 ----- 3:0-rel
 bc/msnbc/00/msnbc_0001.parse 516 32 gold allow allow.01 ----- 26:1*30:1-ARG0 32:0-rel 33:2-ARG1
-bc/msnbc/00/msnbc_0001.parse 343 1 gold think think.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 531 10 gold be be.01 ----- 8:1*28:1-ARGM-TMP 9:1-ARG1 10:0-rel 11:0-ARGM-NEG 12:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 309 10 gold have have.03 ----- 9:1-ARG0 10:0-rel 11:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 391 37 gold get get.02 ----- 35:1-ARG0 37:0-rel 38:2-ARG1
-bc/msnbc/00/msnbc_0001.parse 401 3 gold go go.04 ----- 3:0-rel
 bc/msnbc/00/msnbc_0001.parse 506 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:4-ARG2
 bc/msnbc/00/msnbc_0001.parse 303 7 gold understand understand.01 ----- 1:1,6:1-ARG0 7:0-rel 8:4-ARG1
 bc/msnbc/00/msnbc_0001.parse 298 20 gold fall fall.01 ----- 20:0-rel 21:0*22:0-ARG1
 bc/msnbc/00/msnbc_0001.parse 357 23 gold want want.01 ----- 19:1-ARG0 23:0-rel 24:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 103 2 gold be be.01 ----- 1:1-ARG1 2:0-rel 3:0-ARGM-NEG 4:1-ARGM-ADV
-bc/msnbc/00/msnbc_0001.parse 387 1 gold question question.01 ----- 1:0-rel 2:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 270 6 gold want want.01 ----- 4:1-ARG0 6:0-rel 7:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 142 19 gold be be.03 ----- 19:0-rel
-bc/msnbc/00/msnbc_0001.parse 10 31 gold say say.01 ----- 20:1-ARG0 30:1-ARGM-TMP 31:0-rel 32:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 395 2 gold be be.01 ----- 0:1-ARGM-DIS 1:1-ARG1 2:0-rel 3:1-ARGM-ADV
-bc/msnbc/00/msnbc_0001.parse 157 9 gold be be.01 ----- 3:1*7:1-ARG1 9:0-rel 10:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 450 2 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 2:0-rel 3:0-ARGM-NEG 4:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 307 5 gold make make.LV ----- 5:0-rel 7:0-ARGM-PRR
 bc/msnbc/00/msnbc_0001.parse 486 11 gold have have.01 ----- 11:0-rel
 bc/msnbc/00/msnbc_0001.parse 81 6 gold charge charge.05 ----- 5:0-ARG0 6:0-rel
 bc/msnbc/00/msnbc_0001.parse 97 3 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARG1 3:0-rel 4:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 189 13 gold choke choke_up.04 ----- 0:1-ARGM-DIS 1:2-ARG0 11:1-ARGM-DIS 12:0-ARGM-MOD 13:0,15:1-rel 14:1-ARG1 16:1-ARGM-EXT
-bc/msnbc/00/msnbc_0001.parse 406 10 gold do do.02 ----- 8:1*11:1-ARG1 9:1-ARG0 10:0-rel
+bc/msnbc/00/msnbc_0001.parse 496 8 gold react react.01 ----- 5:1*12:1-ARGM-MNR 6:1-ARG0 8:0-rel 9:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 413 18 gold get get.02 ----- 16:1-ARG0 18:0-rel 19:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 39 35 gold bring bring.01 ----- 29:2*36:1-ARG1 35:0-rel 37:1-ARG2
-bc/msnbc/00/msnbc_0001.parse 372 9 gold be be.01 ----- 1:1-ARGM-DIS 4:2-ARG1 9:0-rel 10:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 356 7 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARGM-DIS 2:2-ARG1 7:0-rel 8:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 516 14 gold do do.01 ----- 14:0-rel
 bc/msnbc/00/msnbc_0001.parse 362 1 gold promise promise.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:1-ARG2
@@ -593,19 +562,14 @@ bc/msnbc/00/msnbc_0001.parse 262 19 gold look look.01 ----- 11:1*17:1-ARG0 19:0-
 bc/msnbc/00/msnbc_0001.parse 119 86 gold have have.01 ----- 86:0-rel
 bc/msnbc/00/msnbc_0001.parse 440 6 gold get get.04 ----- 5:1-ARG0 6:0-rel 7:2-ARG1 9:1-ARGM-LOC 10:1-ARGM-MNR
 bc/msnbc/00/msnbc_0001.parse 269 1 gold thank thank.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 26 18 gold be be.03 ----- 18:0-rel
-bc/msnbc/00/msnbc_0001.parse 256 4 gold indicate indicate.01 ----- 3:0-ARGM-NEG 4:0-rel 5:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 387 17 gold regard regard.01 ----- 17:0-rel 18:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 443 14 gold change change.01 ----- 3:2*7:1*8:1-ARG0 3:2*7:1-LINK-SLC 9:0-ARGM-MOD 14:0-rel 15:2-ARG1
-bc/msnbc/00/msnbc_0001.parse 292 3 gold accept accept.01 ----- 0:0-ARGM-DIS 1:1-ARG0 3:0-rel 4:1-ARG1 5:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 355 9 gold ask ask.01 ----- 6:0-ARGM-MOD 7:1*10:1-ARG2 9:0-rel
 bc/msnbc/00/msnbc_0001.parse 536 2 gold be be.01 ----- 0:1-ARGM-TMP 1:1-ARG1 2:0-rel 3:2-ARG2
 bc/msnbc/00/msnbc_0001.parse 387 3 gold be be.01 ----- 0:2-ARG1 3:0-rel 5:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 444 5 gold do do.02 ----- 0:1*3:1-ARG0 5:0-rel 6:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 527 7 gold guarantee guarantee.01 ----- 7:0-rel 8:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 206 9 gold be be.01 ----- 8:1-ARG1 9:0-rel
 bc/msnbc/00/msnbc_0001.parse 94 11 gold be be.03 ----- 11:0-rel
-bc/msnbc/00/msnbc_0001.parse 0 2 gold charge charge.05 ----- 0:1*3:1-ARG1 2:0-rel 4:1-ARG2
-bc/msnbc/00/msnbc_0001.parse 445 3 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 3:0-rel 4:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 518 27 gold be be.03 ----- 27:0-rel
 bc/msnbc/00/msnbc_0001.parse 340 7 gold call call.02 ----- 3:1*5:1-ARG0 7:0-rel 8:1-ARG1 10:1-ARGM-PRP
 bc/msnbc/00/msnbc_0001.parse 76 0 gold be be.01 ----- 0:0-rel 3:1-ARG2 4:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 391 21 gold be be.03 ----- 21:0-rel
@@ -615,8 +579,11 @@ bc/msnbc/00/msnbc_0001.parse 119 20 gold hear hearing.02 ----- 19:0-ARGM-TMP 20:
 bc/msnbc/00/msnbc_0001.parse 537 22 gold take take.01 ----- 19:1-ARG0 22:0-rel 23:1-ARG1 24:2-ARGM-MNR
 bc/msnbc/00/msnbc_0001.parse 521 28 gold be be.01 ----- 24:2-ARG1 28:0-rel 29:0-ARGM-NEG 30:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 18 21 gold assemble assemble.02 ----- 2:2-ARGM-TMP 11:1-ARGM-DIS 12:2-ARG0 20:1-ARGM-DIS 21:0-rel 23:2-ARG1
+bc/msnbc/00/msnbc_0001.parse 387 5 gold be be.02 ----- 5:0-rel 7:2-ARG1
+bc/msnbc/00/msnbc_0001.parse 18 1 gold know know.01 ----- 0:1-ARG0 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 10 9 gold let let.01 ----- 0:1-ARGM-TMP 8:1-ARG0 9:0-rel 10:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 532 1 gold come come_up.11 ----- 0:1-ARG1 1:0,2:1-rel
+bc/msnbc/00/msnbc_0001.parse 297 2 gold dump dump.01 ----- 0:1-ARG0 2:0-rel 3:3-ARG1 11:1-ARGM-LOC
 bc/msnbc/00/msnbc_0001.parse 360 3 gold go go.04 ----- 2:0-ARGM-NEG 3:0-rel
 bc/msnbc/00/msnbc_0001.parse 203 16 gold have have.02 ----- 16:0-rel
 bc/msnbc/00/msnbc_0001.parse 464 26 gold have have.01 ----- 26:0-rel
@@ -625,7 +592,6 @@ bc/msnbc/00/msnbc_0001.parse 52 2 gold decide decide.01 ----- 1:1-ARG0 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 327 2 gold be be.01 ----- 2:0-rel 3:0-ARGM-NEG 4:1-ARG1 7:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 386 11 gold have have.01 ----- 11:0-rel
 bc/msnbc/00/msnbc_0001.parse 154 6 gold cut cut.03 ----- 0:0-ARGM-DIS 1:1-ARGM-ADV 3:0-ARGM-MOD 4:1*7:1-ARGM-ADV 6:0-rel 8:1-ARG1 10:1-ARGM-DIS 11:1-ARGM-ADV
-bc/msnbc/00/msnbc_0001.parse 184 3 gold appreciate appreciate.02 ----- 0:0-ARGM-DIS 1:1-ARGM-ADV 2:1-ARG0 3:0-rel 4:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 467 7 gold do do.02 ----- 2:1*8:1-ARG1 3:1*5:1-ARG0 7:0-rel
 bc/msnbc/00/msnbc_0001.parse 10 14 gold be be.03 ----- 14:0-rel
 bc/msnbc/00/msnbc_0001.parse 172 2 gold include include.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:2-ARG1
@@ -633,12 +599,13 @@ bc/msnbc/00/msnbc_0001.parse 391 13 gold hear hear.01 ----- 7:1*14:1-ARG1 8:1*11
 bc/msnbc/00/msnbc_0001.parse 250 4 gold be be.01 ----- 4:0-rel
 bc/msnbc/00/msnbc_0001.parse 413 5 gold be be.01 ----- 4:1-ARG1 5:0-rel 6:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 150 17 gold be be.01 ----- 2:2-ARGM-TMP 9:2-ARG1 16:1-ARGM-DIS 17:0-rel 18:2-ARG2
-bc/msnbc/00/msnbc_0001.parse 326 2 gold think think.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 235 18 gold go go.08 ----- 17:1-ARG1 18:0-rel 19:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 59 20 gold hear hear.01 ----- 17:1-ARG0 19:0-ARGM-NEG 20:0-rel 21:3-ARG1
 bc/msnbc/00/msnbc_0001.parse 32 3 gold let let.01 ----- 0:1-ARGM-DIS 1:0-ARGM-DIS 2:1-ARG0 3:0-rel 4:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 160 7 gold see see.01 ----- 5:1-ARG0 7:0-rel 8:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 9 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2 4:1-ARGM-MNR
 bc/msnbc/00/msnbc_0001.parse 441 2 gold know know.06 ----- 1:1-ARG0 2:0-rel
+bc/msnbc/00/msnbc_0001.parse 415 28 gold die die.01 ----- 28:0-rel
 bc/msnbc/00/msnbc_0001.parse 494 1 gold thank thank.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 265 14 gold suspect suspect.01 ----- 11:1*15:1-ARG1 13:1-ARGM-DIS 14:0-rel 16:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 113 9 gold be be.01 ----- 5:1*7:1*8:1-ARG1 5:1*7:1-LINK-SLC 9:0-rel 10:1-ARG2
@@ -651,10 +618,12 @@ bc/msnbc/00/msnbc_0001.parse 201 13 gold have have.01 ----- 13:0-rel
 bc/msnbc/00/msnbc_0001.parse 549 5 gold be be.01 ----- 3:1-ARG1 5:0-rel 6:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 203 19 gold be be.01 ----- 14:1*17:1-ARG1 19:0-rel 21:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 447 9 gold put put_out.10 ----- 0:1-ARGM-DIS 1:1-ARGM-ADV 5:1-ARGM-TMP 8:1-ARG0 9:0,10:1-rel 11:2-ARG1
+bc/msnbc/00/msnbc_0001.parse 489 10 gold do do.01 ----- 10:0-rel
 bc/msnbc/00/msnbc_0001.parse 371 7 gold say say.01 ----- 4:1-ARG0 5:0-ARGM-MOD 6:0-ARGM-NEG 7:0-rel 8:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 100 9 gold be be.01 ----- 6:1*10:1-ARG2 7:1-ARG1 9:0-rel
 bc/msnbc/00/msnbc_0001.parse 521 21 gold point point_out.02 ----- 5:1-ARG0 21:0,22:1-rel 23:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 263 12 gold come come.01 ----- 4:1*10:1-ARG1 4:1*10:1-LINK-PRO 7:1*9:1-ARGM-TMP 7:1*9:1-LINK-SLC 12:0-rel 13:1-ARG4
+bc/msnbc/00/msnbc_0001.parse 359 0 gold look look.09 ----- 0:0-rel
 bc/msnbc/00/msnbc_0001.parse 236 6 gold be be.03 ----- 6:0-rel
 bc/msnbc/00/msnbc_0001.parse 129 7 gold destroy destroy.01 ----- 0:2*8:1-ARG1 6:0-ARGM-NEG 7:0-rel
 bc/msnbc/00/msnbc_0001.parse 520 34 gold be be.01 ----- 32:1-ARG1 33:1-ARGM-ADV 34:0-rel 35:1-ARG2
@@ -662,10 +631,12 @@ bc/msnbc/00/msnbc_0001.parse 317 11 gold come come.01 ----- 10:1-ARG1 11:0-rel 1
 bc/msnbc/00/msnbc_0001.parse 332 2 gold be be.01 ----- 0:1-ARGM-DIS 1:1-ARG1 2:0-rel 3:2-ARG2
 bc/msnbc/00/msnbc_0001.parse 434 10 gold put put.01 ----- 0:1-ARGM-ADV 6:1-ARG0 7:0-ARGM-MOD 9:1-ARGM-TMP 10:0-rel 11:1-ARGM-DIS 12:2-ARG1 16:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 108 3 gold commit commit.02 ----- 0:1-ARG0 2:1-ARGM-DIS 3:0-rel 4:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 374 7 gold be be.01 ----- 6:1-ARG1 7:0-rel 8:0-ARGM-NEG 9:2-ARG2
 bc/msnbc/00/msnbc_0001.parse 459 10 gold matter matter.02 ----- 9:0-ARGM-ADJ 10:0-rel
 bc/msnbc/00/msnbc_0001.parse 354 14 gold say say.01 ----- 10:1*11:1*12:1*15:1-ARG1 10:1*11:1-LINK-SLC 14:0-rel
 bc/msnbc/00/msnbc_0001.parse 550 2 gold get get.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 342 5 gold make make.01 ----- 0:1-ARGM-DIS 2:1*6:1-ARG1 4:1-ARG0 5:0-rel 7:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 83 2 gold do do.01 ----- 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 285 2 gold be be.01 ----- 0:1-ARGM-DIS 1:1-ARG1 2:0-rel 3:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 270 9 gold know know.01 ----- 4:1*7:1-ARG0 9:0-rel 10:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 190 1 gold do do.01 ----- 1:0-rel
@@ -686,7 +657,6 @@ bc/msnbc/00/msnbc_0001.parse 358 4 gold look look.09 ----- 4:0-rel
 bc/msnbc/00/msnbc_0001.parse 316 0 gold join join.04 ----- 0:0-rel 1:1-ARG1 2:1-ARGM-TMP 3:2-ARGM-PRP 10:3-ARG0
 bc/msnbc/00/msnbc_0001.parse 333 6 gold be be.01 ----- 5:1-ARG1 6:0-rel 7:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 301 8 gold ask ask.02 ----- 0:1-ARGM-LOC 6:1-ARG0 7:1-ARGM-NEG 8:0-rel 9:2-ARG1
-bc/msnbc/00/msnbc_0001.parse 261 7 gold know know.06 ----- 6:1-ARG0 7:0-rel
 bc/msnbc/00/msnbc_0001.parse 27 30 gold allow allow.01 ----- 28:1-ARG0 30:0-rel 31:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 511 8 gold do do.02 ----- 5:1*9:1-ARG1 6:1-ARG0 8:0-rel
 bc/msnbc/00/msnbc_0001.parse 145 15 gold be be.03 ----- 15:0-rel
@@ -694,13 +664,14 @@ bc/msnbc/00/msnbc_0001.parse 358 8 gold go go.04 ----- 7:0-ARGM-NEG 8:0-rel
 bc/msnbc/00/msnbc_0001.parse 265 18 gold be be.01 ----- 8:1*10:1,19:1-ARG2 8:1*10:1-LINK-SLC 11:1*15:1*17:1-ARG1 18:0-rel
 bc/msnbc/00/msnbc_0001.parse 39 26 gold answer answer.01 ----- 23:1-ARG1 26:0-rel
 bc/msnbc/00/msnbc_0001.parse 262 5 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARGM-DIS 3:1-ARGM-DIS 4:1-ARG1 5:0-rel 6:2-ARG2
+bc/msnbc/00/msnbc_0001.parse 294 1 gold dine dine.01 ----- 0:1-ARG0 1:0-rel 2:1-ARGM-TMP 4:1-ARGM-MNR 7:1-ARGM-LOC
 bc/msnbc/00/msnbc_0001.parse 219 8 gold make make.02 ----- 6:1-ARG0 7:1-ARGM-TMP 8:0-rel 9:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 530 3 gold let let.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-ARGM-NEG 3:0-rel 4:3-ARG1
 bc/msnbc/00/msnbc_0001.parse 3 1 gold be be.02 ----- 1:0-rel 2:2-ARG1
-bc/msnbc/00/msnbc_0001.parse 520 5 gold resort resort.01 ----- 0:1-ARG0 4:1-ARGM-ADV 5:0-rel 6:2-ARG1 15:2-ARGM-CAU
 bc/msnbc/00/msnbc_0001.parse 425 6 gold have have.LV ----- 6:0-rel 8:0-ARGM-PRR
-bc/msnbc/00/msnbc_0001.parse 405 29 gold tell tell.01 ----- 23:1*27:1-ARG0 29:0-rel 30:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 437 7 gold be be.03 ----- 7:0-rel
 bc/msnbc/00/msnbc_0001.parse 391 10 gold go go.04 ----- 10:0-rel
+bc/msnbc/00/msnbc_0001.parse 402 7 gold question question.03 ----- 0:1-ARGM-DIS 2:1-ARGM-DIS 3:1-ARG0 6:0-ARGM-NEG 7:0-rel
 bc/msnbc/00/msnbc_0001.parse 353 3 gold assume assume.02 ----- 2:1-ARG0 3:0-rel 4:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 25 20 gold ask ask.01 ----- 14:1-ARG0 20:0-rel 21:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 220 28 gold hear hear.01 ----- 26:1*35:1-ARGM-TMP 27:1-ARG0 28:0-rel 29:1-ARG1
@@ -708,30 +679,32 @@ bc/msnbc/00/msnbc_0001.parse 206 31 gold look look.01 ----- 26:1*28:1,32:1-ARG1 
 bc/msnbc/00/msnbc_0001.parse 507 10 gold call call.02 ----- 0:1-ARGM-ADV 8:1-ARGM-DIS 9:1-ARG0 10:0-rel 13:1-ARGM-DIS 14:3-ARG1
 bc/msnbc/00/msnbc_0001.parse 510 15 gold oppose oppose.01 ----- 14:1*16:1-ARG0 14:1*16:1-LINK-PSV 15:0-rel 17:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 350 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
-bc/msnbc/00/msnbc_0001.parse 162 3 gold find find.01 ----- 0:1-ARGM-TMP 2:1-ARG0 3:0-rel 4:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 505 7 gold convict convict.01 ----- 5:1*8:1-ARG1 5:1*8:1-LINK-PSV 7:0-rel 9:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 518 21 gold claim claim.01 ----- 14:1*15:1*16:1-ARG0 14:1*15:1-LINK-SLC 17:1-ARGM-TMP 21:0-rel 22:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 495 7 gold let let.01 ----- 4:1-ARG0 6:0-ARGM-NEG 7:0-rel 8:3-ARG1
+bc/msnbc/00/msnbc_0001.parse 447 0 gold look look.09 ----- 0:0-rel
 bc/msnbc/00/msnbc_0001.parse 170 6 gold deserve deserve.01 ----- 2:2-ARG0 6:0-rel 7:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 345 1 gold suspect suspect.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 294 12 gold be be.03 ----- 12:0-rel
 bc/msnbc/00/msnbc_0001.parse 328 3 gold imagine imagine.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-ARGM-NEG 3:0-rel 4:1-ARGM-DIS 5:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 464 36 gold look look.01 ----- 31:1-ARG0 36:0-rel 37:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 527 7 gold guarantee guarantee.01 ----- 7:0-rel 8:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 391 0 gold look look.09 ----- 0:0-rel
 bc/msnbc/00/msnbc_0001.parse 345 12 gold believe believe.01 ----- 9:1*10:1-ARG0 12:0-rel 13:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 77 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 239 6 gold take take.01 ----- 5:1-ARG0 6:0-rel 7:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 27 39 gold be be.01 ----- 31:1-ARG1 39:0-rel 40:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 335 2 gold agree agree.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG2 6:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 89 6 gold go go.02 ----- 5:1-ARG0 6:0-rel 7:1-ARG4 10:1-ARGM-ADV
 bc/msnbc/00/msnbc_0001.parse 440 1 gold be be.03 ----- 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 254 12 gold take take.01 ----- 0:0-ARGM-DIS 1:1-ARGM-DIS 10:1-ARG0 12:0-rel 13:1-ARG1 16:1-ARG2
-bc/msnbc/00/msnbc_0001.parse 118 9 gold tolerate tolerate.01 ----- 1:1*7:1-ARG0 9:0-rel 10:1-ARGM-DIS 11:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 249 5 gold observe observe.01 ----- 1:1*3:1*4:1-ARG0 1:1*3:1-LINK-SLC 5:0-rel 6:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 311 37 gold think think.01 ----- 0:2-ARGM-ADV 36:1-ARG0 37:0-rel 38:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 4 3 gold have have.01 ----- 3:0-rel
+bc/msnbc/00/msnbc_0001.parse 372 9 gold be be.01 ----- 1:1-ARGM-DIS 4:2-ARG1 9:0-rel 10:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 250 1 gold know know.06 ----- 0:1-ARG0 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 361 5 gold promise promise.01 ----- 3:1-ARG0 4:0-ARGM-MOD 5:0-rel 6:1-ARG1 7:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 104 8 gold lose lose.02 ----- 0:1-ARGM-DIS 2:1-ARG0 4:1-ARGM-ADV 5:1-ARGM-TMP 8:0-rel 9:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 326 16 gold think think.01 ----- 15:1-ARG0 16:0-rel 17:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 4 17 gold take take.01 ----- 15:1-ARG0 17:0-rel 18:1-ARG1 21:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 255 3 gold see see.01 ----- 0:0-ARGM-DIS 1:1-ARG0 3:0-rel 4:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 345 21 gold want want.01 ----- 20:1-ARG0 21:0-rel 22:2-ARG1
@@ -740,39 +713,42 @@ bc/msnbc/00/msnbc_0001.parse 476 7 gold be be.01 ----- 6:1*10:2-ARG1 7:0-rel 8:1
 bc/msnbc/00/msnbc_0001.parse 310 25 gold be be.03 ----- 25:0-rel
 bc/msnbc/00/msnbc_0001.parse 330 8 gold attend attend.01 ----- 7:1-ARG0 8:0-rel 9:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 421 5 gold be be.03 ----- 5:0-rel
+bc/msnbc/00/msnbc_0001.parse 493 2 gold thank thank.01 ----- 0:1-ARGM-DIS 2:0-rel 3:1*6:1-ARG2 4:1-ARGM-EXT
 bc/msnbc/00/msnbc_0001.parse 376 6 gold be be.01 ----- 0:2-ARG1 6:0-rel
+bc/msnbc/00/msnbc_0001.parse 105 7 gold sleep sleep.01 ----- 3:1*4:1*5:1-ARG0 3:1*4:1-LINK-SLC 6:1-ARGM-MNR 7:0-rel 8:1-ARGM-LOC 11:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 68 6 gold let let.01 ----- 0:1-ARGM-DIS 1:1-ARGM-DIS 2:2-ARGM-DIS 5:1-ARG0 6:0-rel 7:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 552 8 gold perform perform.01 ----- 1:1*3:1*9:1-ARGM-MNR 1:1*3:1-LINK-SLC 4:2-ARG0 8:0-rel 10:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 180 13 gold go go.08 ----- 8:1*11:1*15:1-ARGM-TMP 8:1*11:1-LINK-SLC 12:1-ARG1 13:0-rel 14:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 377 11 gold be be.03 ----- 11:0-rel
 bc/msnbc/00/msnbc_0001.parse 118 25 gold have have.03 ----- 19:1*23:1*26:1-ARG1 19:1*23:1-LINK-SLC 24:1-ARG0 25:0-rel 27:2-ARGM-ADV
+bc/msnbc/00/msnbc_0001.parse 82 24 gold horrify horrify.01 ----- 16:1*25:1-ARG1 24:0-rel
+bc/msnbc/00/msnbc_0001.parse 405 29 gold tell tell.01 ----- 23:1*27:1-ARG0 29:0-rel 30:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 210 2 gold seem seem.01 ----- 0:0-ARGM-DIS 2:0-rel 4:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 208 13 gold say say.01 ----- 8:1*14:1-ARG1 9:1-ARG0 12:1-ARGM-DIS 13:0-rel 15:1-ARG3 17:1-ARGM-DIS 18:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 224 3 gold know know.01 ----- 0:1-ARGM-ADV 2:1-ARG0 3:0-rel 4:3-ARG1
 bc/msnbc/00/msnbc_0001.parse 293 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2 6:2-ARGM-PRP
 bc/msnbc/00/msnbc_0001.parse 298 4 gold be be.03 ----- 4:0-rel
 bc/msnbc/00/msnbc_0001.parse 98 19 gold be be.01 ----- 13:1*20:1-ARG2 14:2-ARG1 19:0-rel
 bc/msnbc/00/msnbc_0001.parse 257 5 gold know know.01 ----- 4:1-ARG0 5:0-rel
-bc/msnbc/00/msnbc_0001.parse 208 13 gold say say.01 ----- 8:1*14:1-ARG1 9:1-ARG0 12:1-ARGM-DIS 13:0-rel 15:1-ARG3 17:1-ARGM-DIS 18:1-ARGM-TMP
+bc/msnbc/00/msnbc_0001.parse 192 3 gold meet meet.02 ----- 0:1-ARGM-DIS 1:1-ARG0 3:0-rel 4:1-ARG1 6:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 227 21 gold feel feel.01 ----- 17:2-ARG0 21:0-rel 22:1-ARG1 37:2-ARGM-ADV
 bc/msnbc/00/msnbc_0001.parse 434 18 gold be be.03 ----- 18:0-rel
 bc/msnbc/00/msnbc_0001.parse 458 14 gold take take.01 ----- 10:1*12:1-ARG0 14:0-rel 15:1-ARG1 16:1-ARG2 18:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 149 1 gold look look.09 ----- 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 143 17 gold be be.01 ----- 16:1-ARG1 17:0-rel 18:1-ARGM-ADV 19:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 60 7 gold act act.02 ----- 4:1-ARGM-DIS 5:1-ARG0 6:0-ARGM-LVB 7:0-rel
+bc/msnbc/00/msnbc_0001.parse 100 5 gold know know.01 ----- 0:2-ARG0 4:0-ARGM-NEG 5:0-rel 6:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 134 7 gold do do.02 ----- 1:1*2:1*8:1-ARG1 1:1*2:1-LINK-SLC 3:1*5:1-ARG0 7:0-rel
 bc/msnbc/00/msnbc_0001.parse 404 6 gold be be.01 ----- 5:1-ARG1 6:0-rel 7:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 227 27 gold know know.02 ----- 23:1*25:1-ARG0 27:0-rel 28:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 38 17 gold take take.LV ----- 15:0-ARGM-PRR 17:0-rel
-bc/msnbc/00/msnbc_0001.parse 272 10 gold be be.03 ----- 10:0-rel
 bc/msnbc/00/msnbc_0001.parse 84 11 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARGM-DIS 3:2-ARG1 11:0-rel 12:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 75 9 gold compare compare.01 ----- 1:1*8:1*10:1-ARG1 9:0-rel 12:1-ARG2
-bc/msnbc/00/msnbc_0001.parse 206 9 gold be be.01 ----- 8:1-ARG1 9:0-rel
 bc/msnbc/00/msnbc_0001.parse 518 20 gold be be.03 ----- 20:0-rel
 bc/msnbc/00/msnbc_0001.parse 90 11 gold come come.01 ----- 8:0-ARGM-MOD 9:1-ARG1 11:0-rel 12:1-ARG4
 bc/msnbc/00/msnbc_0001.parse 419 18 gold stand stand.01 ----- 8:1*16:1-ARG0 8:1*16:1-LINK-PRO 12:1*15:1,19:1-ARG2 12:1*15:1-LINK-SLC 18:0-rel
-bc/msnbc/00/msnbc_0001.parse 22 14 gold be be.01 ----- 7:2-ARG1 14:0-rel 15:0-ARGM-NEG 16:1-ARG2 17:1-ARGM-ADV
-bc/msnbc/00/msnbc_0001.parse 351 2 gold keep keep.04 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1 4:1-ARG2 6:1-ARGM-DIS
 bc/msnbc/00/msnbc_0001.parse 277 9 gold have have.01 ----- 9:0-rel
+bc/msnbc/00/msnbc_0001.parse 216 2 gold talk talk.01 ----- 0:1-ARG0 2:0-rel 3:1-ARGM-LOC 4:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 434 4 gold be be.01 ----- 1:1-ARG1 4:0-rel 5:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 313 7 gold be be.01 ----- 3:1-ARG1 5:1-ARGM-DIS 7:0-rel 8:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 405 21 gold suggest suggest.01 ----- 14:1*18:1-ARG0 21:0-rel 22:1-ARG1
@@ -782,71 +758,69 @@ bc/msnbc/00/msnbc_0001.parse 420 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 bc/msnbc/00/msnbc_0001.parse 279 3 gold get get.02 ----- 1:1-ARG0 3:0-rel 4:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 470 1 gold remember remember.01 ----- 0:1-ARG0 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 318 16 gold come come.01 ----- 13:1*14:1-ARG1 16:0-rel 17:1-ARGM-DIR
-bc/msnbc/00/msnbc_0001.parse 119 98 gold view view.02 ----- 98:0-rel
 bc/msnbc/00/msnbc_0001.parse 468 24 gold act act.01 ----- 14:1*16:1-ARGM-TMP 14:1*16:1-LINK-SLC 17:1-ARG0 23:1-ARGM-DIS 24:0-rel 25:1-ARGM-MNR
 bc/msnbc/00/msnbc_0001.parse 182 1 gold thank thank.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:1-ARGM-ADV 5:1-ARGM-DIS 6:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 539 3 gold get get.04 ----- 2:1-ARG0 3:0-rel 4:2-ARG1
-bc/msnbc/00/msnbc_0001.parse 377 4 gold talk talk.01 ----- 1:1*5:1-ARG1 2:1-ARG0 4:0-rel
 bc/msnbc/00/msnbc_0001.parse 311 40 gold be be.01 ----- 39:1-ARG1 40:0-rel 41:1-ARGM-DIS 42:2-ARG2
+bc/msnbc/00/msnbc_0001.parse 356 30 gold decide decide.01 ----- 27:1-ARG0 28:0-ARGM-LVB 30:0-rel 31:1-ARGM-MNR
 bc/msnbc/00/msnbc_0001.parse 205 13 gold be be.01 ----- 12:1-ARG1 13:0-rel 14:2-ARG2
+bc/msnbc/00/msnbc_0001.parse 146 3 gold be be.01 ----- 1:0-ARGM-DIS 2:1-ARG1 3:0-rel 5:1-ARGM-DIS 6:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 322 14 gold be be.01 ----- 9:1*12:1*13:1-ARG1 9:1*12:1-LINK-SLC 14:0-rel 15:1-ARGM-ADV 16:1-ARG2 18:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 306 46 gold have have.01 ----- 46:0-rel
 bc/msnbc/00/msnbc_0001.parse 54 5 gold add add.01 ----- 3:1-ARG0 4:1-ARGM-ADV 5:0-rel 7:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 312 21 gold know know.01 ----- 15:1*16:1*22:1-ARG1 15:1*16:1-LINK-SLC 17:1*19:1-ARG0 21:0-rel
+bc/msnbc/00/msnbc_0001.parse 240 6 gold know know.01 ----- 4:1*7:1-ARG1 5:1-ARG0 6:0-rel 9:1-ARGM-DIS 10:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 386 12 gold get get.02 ----- 9:1*13:1-ARG1 10:1-ARG0 12:0-rel
 bc/msnbc/00/msnbc_0001.parse 103 7 gold be be.03 ----- 7:0-rel
 bc/msnbc/00/msnbc_0001.parse 548 5 gold be be.03 ----- 5:0-rel
 bc/msnbc/00/msnbc_0001.parse 276 4 gold be be.01 ----- 0:2-ARG1 4:0-rel 5:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 86 4 gold read read.01 ----- 3:1-ARG0 4:0-rel 5:1-ARGM-DIS 7:1-ARG1 9:1-ARGM-TMP
-bc/msnbc/00/msnbc_0001.parse 12 6 gold keep keep.02 ----- 5:1-ARG0 6:0-rel 7:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 356 10 gold be be.01 ----- 9:1-ARG1 10:0-rel 11:2-ARG2
-bc/msnbc/00/msnbc_0001.parse 405 20 gold be be.03 ----- 20:0-rel
 bc/msnbc/00/msnbc_0001.parse 447 7 gold show show.04 ----- 7:0-rel
 bc/msnbc/00/msnbc_0001.parse 137 6 gold request request.01 ----- 5:0-ARGM-ADJ 6:0-rel
 bc/msnbc/00/msnbc_0001.parse 483 11 gold be be.01 ----- 7:2-ARG1 11:0-rel 12:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 362 7 gold answer answer.01 ----- 4:1-ARG0 5:0-ARGM-MOD 6:0-ARGM-NEG 7:0-rel 8:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 289 4 gold be be.03 ----- 4:0-rel
 bc/msnbc/00/msnbc_0001.parse 20 21 gold use use.01 ----- 14:2-ARG0 18:1-ARGM-DIS 19:1-ARGM-DIS 21:0-rel 22:2-ARG1
+bc/msnbc/00/msnbc_0001.parse 159 7 gold thank thank.01 ----- 0:1-ARGM-DIS 2:2-ARGM-DIS 6:1-ARG0 7:0-rel 8:1-ARG1 9:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 357 13 gold testify testify.01 ----- 12:1-ARG0 13:0-rel 14:1-ARGM-MNR 18:2-ARG1
-bc/msnbc/00/msnbc_0001.parse 525 32 gold answer answer.01 ----- 29:1-ARG0 31:0-ARGM-NEG 32:0-rel 33:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 548 2 gold do do.01 ----- 2:0-rel
+bc/msnbc/00/msnbc_0001.parse 506 8 gold have have.01 ----- 8:0-rel
 bc/msnbc/00/msnbc_0001.parse 556 12 gold get get.01 ----- 0:0-ARGM-DIS 1:2-ARGM-TMP 11:1-ARG0 12:0-rel 13:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 119 5 gold ask ask.02 ----- 3:1*6:1-ARG2 5:0-rel 7:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 391 3 gold think think.01 ----- 0:1-ARGM-DIS 2:1-ARG0 3:0-rel 4:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 208 7 gold be be.01 ----- 0:1-ARGM-DIS 6:1-ARG1 7:0-rel 8:2-ARG2
-bc/msnbc/00/msnbc_0001.parse 95 2 gold be be.03 ----- 2:0-rel
+bc/msnbc/00/msnbc_0001.parse 114 2 gold miss miss.02 ----- 0:1-ARG0 2:0-rel 3:2-ARG1 6:1-ARGM-ADV
 bc/msnbc/00/msnbc_0001.parse 276 1 gold search search.01 ----- 0:0-ARG0 1:0-rel 2:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 417 7 gold discover discover.01 ----- 0:0-ARGM-DIS 1:2-ARGM-TMP 4:2*8:1-ARG1 7:0-rel 9:1-ARGM-LOC
 bc/msnbc/00/msnbc_0001.parse 42 7 gold be be.01 ----- 2:1*5:1-ARG1 7:0-rel 8:1-ARG2
-bc/msnbc/00/msnbc_0001.parse 180 5 gold be be.03 ----- 5:0-rel
 bc/msnbc/00/msnbc_0001.parse 203 4 gold know know.06 ----- 3:1-ARG0 4:0-rel
-bc/msnbc/00/msnbc_0001.parse 256 8 gold plan plan.01 ----- 6:1-ARG0 8:0-rel 9:2-ARG1
+bc/msnbc/00/msnbc_0001.parse 260 2 gold have have.01 ----- 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 10 2 gold talk talk.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG2
-bc/msnbc/00/msnbc_0001.parse 520 23 gold prove prove.01 ----- 20:1*21:1*22:1-ARG0 20:1*21:1-LINK-SLC 23:0-rel 24:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 149 10 gold take take.LV ----- 10:0-rel 12:0-ARGM-PRR
 bc/msnbc/00/msnbc_0001.parse 262 29 gold hope hope.01 ----- 8:1*22:1*40:1-ARGM-LOC 8:1*22:1-LINK-SLC 23:1-ARG0 24:0-ARGM-MOD 25:1-ARGM-ADV 29:0-rel 30:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 49 3 gold go go.04 ----- 3:0-rel
 bc/msnbc/00/msnbc_0001.parse 539 1 gold let let.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
-bc/msnbc/00/msnbc_0001.parse 176 3 gold find find.01 ----- 0:1*4:1-ARG1 3:0-rel 5:1-ARGM-TMP 7:1-ARGM-LOC 11:3-ARGM-LOC
-bc/msnbc/00/msnbc_0001.parse 340 1 gold believe believe.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 220 2 gold be be.02 ----- 2:0-rel 5:2-ARG1 26:2-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 219 23 gold be be.01 ----- 17:1*18:1*26:1-ARGM-TMP 17:1*18:1-LINK-SLC 22:1-ARG1 23:0-rel 24:0-ARGM-NEG 25:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 372 13 gold get get.04 ----- 11:1-ARG0 13:0-rel 14:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 506 10 gold register register.02 ----- 0:1-ARG1 9:0-ARGM-NEG 10:0-rel 11:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 38 16 gold be be.03 ----- 16:0-rel
+bc/msnbc/00/msnbc_0001.parse 103 12 gold be be.03 ----- 12:0-rel
 bc/msnbc/00/msnbc_0001.parse 355 15 gold be be.03 ----- 15:0-rel
 bc/msnbc/00/msnbc_0001.parse 497 3 gold see see.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:2-ARG1
+bc/msnbc/00/msnbc_0001.parse 147 4 gold justify justify.01 ----- 0:1-ARGM-DIS 1:1-ARG0 3:0-ARGM-NEG 4:0-rel 5:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 419 6 gold fear fear.01 ----- 5:1-ARG0 6:0-rel 7:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 90 28 gold lead lead.03 ----- 26:1-ARG0 27:1-ARGM-TMP 28:0-rel 29:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 311 49 gold be be.03 ----- 49:0-rel
-bc/msnbc/00/msnbc_0001.parse 368 29 gold assure assure.01 ----- 22:1*25:1-ARG0 27:1-ARGM-MNR 28:1-ARGM-DIS 29:0-rel 30:1-ARG1 31:2-ARGM-MNR
-bc/msnbc/00/msnbc_0001.parse 128 17 gold survive survive.01 ----- 13:1*15:1*16:1-ARG0 13:1*15:1-LINK-SLC 17:0-rel
+bc/msnbc/00/msnbc_0001.parse 88 6 gold have have.01 ----- 6:0-rel
+bc/msnbc/00/msnbc_0001.parse 362 12 gold want want.01 ----- 11:1-ARG0 12:0-rel 13:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 383 1 gold hang hang_on.04 ----- 0:1-ARG1 1:0,2:0-rel 3:1-ARGM-DIS
 bc/msnbc/00/msnbc_0001.parse 543 5 gold be be.03 ----- 5:0-rel
 bc/msnbc/00/msnbc_0001.parse 503 2 gold continue continue.01 ----- 2:0-rel 3:0-ARG1
+bc/msnbc/00/msnbc_0001.parse 13 3 gold ask ask.01 ----- 2:1-ARG0 3:0-rel 4:1-ARG2 5:1-ARGM-TMP 6:1-ARGM-ADV 8:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 88 1 gold be be.02 ----- 1:0-rel 2:3-ARG1
+bc/msnbc/00/msnbc_0001.parse 202 4 gold be be.01 ----- 0:1-ARGM-DIS 1:1-ARGM-DIS 4:0-rel 5:1-ARG2 7:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 527 2 gold be be.03 ----- 2:0-rel
-bc/msnbc/00/msnbc_0001.parse 421 10 gold molest molest.01 ----- 4:1*7:1*9:1-ARG0 10:0-rel 11:1-ARG1 13:1-ARGM-LOC
-bc/msnbc/00/msnbc_0001.parse 314 16 gold be be.03 ----- 16:0-rel
-bc/msnbc/00/msnbc_0001.parse 261 10 gold see see.01 ----- 9:1-ARG0 10:0-rel 11:1-ARG1 12:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 400 2 gold tell tell.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG2 4:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 226 11 gold take take.01 ----- 4:1*10:1-ARG0 11:0-rel 12:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 3 3 gold excuse excuse.02 ----- 2:0-ARGM-NEG 3:0-rel 4:1-ARG1
@@ -854,42 +828,41 @@ bc/msnbc/00/msnbc_0001.parse 354 19 gold think think.01 ----- 7:1-ARGM-ADV 16:1-
 bc/msnbc/00/msnbc_0001.parse 166 2 gold come come.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG4
 bc/msnbc/00/msnbc_0001.parse 389 16 gold take take.01 ----- 13:0-ARGM-MOD 14:1-ARGM-ADV 15:0-ARGM-NEG 16:0-rel 17:1-ARG1 20:2-ARG0
 bc/msnbc/00/msnbc_0001.parse 22 2 gold believe believe.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 6:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 351 2 gold keep keep.04 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1 4:1-ARG2 6:1-ARGM-DIS
 bc/msnbc/00/msnbc_0001.parse 135 6 gold be be.01 ----- 4:1-ARG1 6:0-rel 7:1-ARG2 8:1-ARGM-ADV
-bc/msnbc/00/msnbc_0001.parse 262 37 gold call call.02 ----- 31:1-ARG0 36:0-ARGM-MOD 37:0-rel 38:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 416 2 gold find find.01 ----- 0:1*3:1-ARG1 1:1-ARGM-TMP 2:0-rel 4:1-ARGM-TMP 10:1-ARGM-LOC 13:1-ARGM-ADV
-bc/msnbc/00/msnbc_0001.parse 57 3 gold deal deal.01 ----- 0:0-ARGM-DIS 2:1-ARG0 3:0-rel 4:1-ARG2
-bc/msnbc/00/msnbc_0001.parse 437 7 gold be be.03 ----- 7:0-rel
 bc/msnbc/00/msnbc_0001.parse 314 9 gold tell tell.01 ----- 3:1*6:1*7:1-ARG0 9:0-rel 10:1-ARG2 12:3-ARG1
+bc/msnbc/00/msnbc_0001.parse 82 18 gold look look.01 ----- 16:1-ARG0 18:0-rel 19:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 529 2 gold say say.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG1 4:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 48 8 gold have have.03 ----- 2:1*6:1-ARG0 8:0-rel 9:2-ARG1
-bc/msnbc/00/msnbc_0001.parse 467 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
+bc/msnbc/00/msnbc_0001.parse 405 20 gold be be.03 ----- 20:0-rel
+bc/msnbc/00/msnbc_0001.parse 487 38 gold have have.01 ----- 38:0-rel
 bc/msnbc/00/msnbc_0001.parse 33 5 gold be be.01 ----- 4:1-ARG1 5:0-rel 6:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 113 4 gold be be.02 ----- 4:0-rel 5:2-ARG1
+bc/msnbc/00/msnbc_0001.parse 306 9 gold trust trust.02 ----- 4:1*7:1-ARG0 9:0-rel 10:1-ARG1 11:1-ARGM-ADV
 bc/msnbc/00/msnbc_0001.parse 425 3 gold have have.02 ----- 3:0-rel
 bc/msnbc/00/msnbc_0001.parse 389 27 gold talk talk.01 ----- 26:1-ARG0 27:0-rel 28:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 364 9 gold be be.01 ----- 8:1-ARG1 9:0-rel 10:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 258 4 gold be be.01 ----- 3:1-ARG1 4:0-rel
 bc/msnbc/00/msnbc_0001.parse 98 40 gold be be.03 ----- 40:0-rel
-bc/msnbc/00/msnbc_0001.parse 157 6 gold go go.04 ----- 6:0-rel
 bc/msnbc/00/msnbc_0001.parse 543 12 gold come come.01 ----- 8:2-ARG1 12:0-rel 13:1-ARG4 15:1-ARGM-PRP
 bc/msnbc/00/msnbc_0001.parse 25 23 gold be be.03 ----- 23:0-rel
 bc/msnbc/00/msnbc_0001.parse 526 6 gold assure assure.01 ----- 0:1-ARGM-ADV 2:1*7:1-ARG1 3:0-ARGM-MOD 4:0-ARGM-NEG 6:0-rel 8:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 50 5 gold go go_on.15 ----- 3:1-ARG1 4:1-ARGM-ADV 5:0,6:1-rel 7:2-ARGM-ADV
-bc/msnbc/00/msnbc_0001.parse 90 24 gold happen happen.01 ----- 21:1*22:1*23:1-ARG1 21:1*22:1-LINK-SLC 24:0-rel
+bc/msnbc/00/msnbc_0001.parse 258 11 gold realize realize.01 ----- 0:1-ARGM-DIS 1:3-ARGM-DIS 9:1-ARG0 11:0-rel 12:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 479 5 gold be be.02 ----- 5:0-rel 6:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 446 0 gold look look.09 ----- 0:0-rel
 bc/msnbc/00/msnbc_0001.parse 153 7 gold have have.01 ----- 7:0-rel
 bc/msnbc/00/msnbc_0001.parse 70 5 gold investigate investigate.01 ----- 0:1-ARGM-DIS 1:1-ARGM-DIS 2:1-ARG0 5:0-rel 6:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 255 25 gold meet meet.02 ----- 20:1*23:1-ARG0 25:0-rel
 bc/msnbc/00/msnbc_0001.parse 12 8 gold have have.02 ----- 8:0-rel
+bc/msnbc/00/msnbc_0001.parse 501 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 32 47 gold work work.01 ----- 46:0-ARGM-MNR 47:0-rel 48:0,50:0-ARG0
-bc/msnbc/00/msnbc_0001.parse 152 5 gold know know.01 ----- 4:1-ARG0 5:0-rel
 bc/msnbc/00/msnbc_0001.parse 191 0 gold have have.01 ----- 0:0-rel
-bc/msnbc/00/msnbc_0001.parse 349 2 gold take take.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 4:1-ARG1 6:1-ARGM-MNR
 bc/msnbc/00/msnbc_0001.parse 440 4 gold be be.03 ----- 4:0-rel
 bc/msnbc/00/msnbc_0001.parse 5 8 gold backlash backlash.01 ----- 7:0-ARGM-CAU 8:0-rel
 bc/msnbc/00/msnbc_0001.parse 455 15 v01005 take take.LV ----- 15:0-rel 18:0-ARGM-PRR
 bc/msnbc/00/msnbc_0001.parse 377 8 gold be be.01 ----- 0:1-ARGM-DIS 1:2-ARG1 7:1-ARGM-ADV 8:0-rel 9:1-ARG2
-bc/msnbc/00/msnbc_0001.parse 5 28 gold recover recover.01 ----- 27:0-ARGM-MNR 28:0-rel 29:1-ARGM-LOC
 bc/msnbc/00/msnbc_0001.parse 395 7 gold be be.01 ----- 5:1-ARGM-DIS 6:1-ARG1 7:0-rel 8:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 326 26 gold be be.01 ----- 4:2-ARG1 26:0-rel 27:2-ARG2
 bc/msnbc/00/msnbc_0001.parse 322 7 gold happen happen.01 ----- 3:1*4:1-ARG1 5:0-ARGM-MOD 6:1-ARGM-ADV 7:0-rel 8:1-ARGM-MNR
@@ -898,15 +871,14 @@ bc/msnbc/00/msnbc_0001.parse 326 41 gold be be.01 ----- 35:2*39:1*40:1-ARG1 35:2
 bc/msnbc/00/msnbc_0001.parse 525 15 gold vote vote.01 ----- 12:1-ARG0 13:0-ARGM-MOD 14:0-ARGM-NEG 15:0-rel 16:1-ARG1 18:1-ARGM-CAU
 bc/msnbc/00/msnbc_0001.parse 548 6 gold try try.01 ----- 0:1-ARGM-ADV 4:1-ARG0 6:0-rel 7:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 541 4 gold be be.03 ----- 4:0-rel
-bc/msnbc/00/msnbc_0001.parse 129 5 gold be be.03 ----- 5:0-rel
+bc/msnbc/00/msnbc_0001.parse 65 3 gold be be.01 ----- 0:1-ARG1 3:0-rel 4:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 206 12 gold be be.01 ----- 11:1-ARG1 12:0-rel 13:2-ARG2
 bc/msnbc/00/msnbc_0001.parse 235 5 gold appear appear.02 ----- 0:1,6:2-ARG1 5:0-rel
 bc/msnbc/00/msnbc_0001.parse 157 21 gold justify justify.01 ----- 19:1*22:1-ARG1 21:0-rel
+bc/msnbc/00/msnbc_0001.parse 515 3 gold be be.02 ----- 0:1-ARGM-DIS 3:0-rel 4:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 88 36 gold live live.01 ----- 34:1-ARG0 36:0-rel 37:1-ARGM-LOC 40:1-ARGM-MNR
 bc/msnbc/00/msnbc_0001.parse 287 12 gold rescue rescue.01 ----- 11:0-ARGM-MNR 12:0-rel
-bc/msnbc/00/msnbc_0001.parse 81 3 gold determine determine.01 ----- 2:1-ARG0 3:0-rel 4:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 47 5 gold be be.02 ----- 4:0-ARGM-MOD 5:0-rel
-bc/msnbc/00/msnbc_0001.parse 306 35 gold take take.01 ----- 19:3*33:1*34:1-ARG0 19:3*33:1-LINK-SLC 35:0-rel 36:1-ARG1 37:1-ARGM-DIR
 bc/msnbc/00/msnbc_0001.parse 355 16 gold ask ask.01 ----- 12:1*17:1-ARG2 14:0-ARGM-MOD 16:0-rel 18:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 291 3 gold promise promise.01 ----- 0:1-ARG0 3:0-rel 4:4-ARG2
 bc/msnbc/00/msnbc_0001.parse 8 11 gold be be.01 ----- 6:1*9:1*10:1-ARG1 6:1*9:1-LINK-SLC 11:0-rel 12:2-ARG2
@@ -914,15 +886,14 @@ bc/msnbc/00/msnbc_0001.parse 135 3 gold be be.01 ----- 0:1-ARGM-DIS 1:1-ARG1 3:0
 bc/msnbc/00/msnbc_0001.parse 464 13 gold shock shock.01 ----- 2:1*14:1-ARG1 11:0-ARGM-MOD 13:0-rel 15:1-ARG0
 bc/msnbc/00/msnbc_0001.parse 486 13 gold be be.03 ----- 13:0-rel
 bc/msnbc/00/msnbc_0001.parse 55 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARGM-ADV 4:2-ARG2
+bc/msnbc/00/msnbc_0001.parse 353 10 gold say say.01 ----- 7:1*8:1*11:1-ARG1 10:0-rel
 bc/msnbc/00/msnbc_0001.parse 330 2 gold talk talk.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 26 19 gold work work.01 ----- 11:2*16:1*20:1-ARGM-TMP 11:2*16:1-LINK-SLC 17:1-ARG0 19:0-rel
-bc/msnbc/00/msnbc_0001.parse 496 1 gold take take.LV ----- 1:0-rel 3:0-ARGM-PRR
 bc/msnbc/00/msnbc_0001.parse 169 16 gold make make.02 ----- 13:1*14:1*15:1-ARG0 13:1*14:1-LINK-SLC 16:0-rel 17:2-ARG1
+bc/msnbc/00/msnbc_0001.parse 377 4 gold talk talk.01 ----- 1:1*5:1-ARG1 2:1-ARG0 4:0-rel
 bc/msnbc/00/msnbc_0001.parse 132 5 gold believe believe.01 ----- 4:1-ARG0 5:0-rel 6:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 258 14 gold be be.02 ----- 14:0-rel 15:3-ARG1
 bc/msnbc/00/msnbc_0001.parse 483 4 gold say say.01 ----- 0:0-ARGM-DIS 1:1-ARG0 3:1-ARGM-DIS 4:0-rel 5:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 528 6 gold advise advise.01 ----- 6:0-rel
-bc/msnbc/00/msnbc_0001.parse 90 7 gold mean mean.01 ----- 6:1-ARG1 7:0-rel 8:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 48 1 gold know know.01 ----- 0:1-ARG0 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 452 1 gold do do.02 ----- 0:0-ARGM-NEG 1:0-rel 2:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 123 6 gold mean mean.01 ----- 5:1-ARG0 6:0-rel
@@ -934,41 +905,52 @@ bc/msnbc/00/msnbc_0001.parse 371 11 gold go go.04 ----- 11:0-rel
 bc/msnbc/00/msnbc_0001.parse 306 55 gold have have.01 ----- 55:0-rel
 bc/msnbc/00/msnbc_0001.parse 537 21 gold be be.03 ----- 21:0-rel
 bc/msnbc/00/msnbc_0001.parse 216 11 gold be be.03 ----- 11:0-rel
+bc/msnbc/00/msnbc_0001.parse 413 17 gold have have.01 ----- 17:0-rel
 bc/msnbc/00/msnbc_0001.parse 323 2 gold let let.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:2-ARG1
-bc/msnbc/00/msnbc_0001.parse 504 4 gold focus focus.01 ----- 0:1-ARGM-TMP 2:1-ARG0 4:0-rel 5:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 18 5 gold bring bring.01 ----- 2:1*10:1-ARGM-TMP 3:1*6:1-ARG1 5:0-rel 7:1-ARG3 8:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 119 79 gold be be.03 ----- 79:0-rel
-bc/msnbc/00/msnbc_0001.parse 288 14 gold bury bury.01 ----- 12:1*15:1-ARG1 12:1*15:1-LINK-PSV 14:0-rel 16:1-ARG2 19:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 46 2 gold be be.01 ----- 0:1-ARGM-DIS 1:1-ARG1 2:0-rel 3:2-ARG2
 bc/msnbc/00/msnbc_0001.parse 245 8 gold be be.01 ----- 8:0-rel
 bc/msnbc/00/msnbc_0001.parse 216 1 gold be be.03 ----- 1:0-rel
-bc/msnbc/00/msnbc_0001.parse 261 23 gold say say.01 ----- 20:1-ARG0 22:0-ARGM-NEG 23:0-rel 24:2-ARG1
+bc/msnbc/00/msnbc_0001.parse 476 3 gold think think.01 ----- 1:0-ARGM-DIS 2:1-ARG0 3:0-rel 4:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 242 5 gold be be.01 ----- 4:1-ARG1 5:0-rel 6:2-ARG2
 bc/msnbc/00/msnbc_0001.parse 49 2 gold be be.03 ----- 2:0-rel
+bc/msnbc/00/msnbc_0001.parse 311 16 gold be be.02 ----- 16:0-rel 17:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 386 4 gold be be.01 ----- 3:1-ARG1 4:0-rel 5:0-ARG2
+bc/msnbc/00/msnbc_0001.parse 144 13 gold look look.09 ----- 13:0-rel
 bc/msnbc/00/msnbc_0001.parse 20 12 gold believe believe.01 ----- 8:1*10:1*27:1-ARGM-LOC 8:1*10:1-LINK-SLC 11:1-ARG0 12:0-rel 13:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 492 6 gold do do.02 ----- 4:1-ARG0 6:0-rel 7:1-ARG1 8:1-ARGM-CAU
 bc/msnbc/00/msnbc_0001.parse 326 31 gold be be.03 ----- 31:0-rel
+bc/msnbc/00/msnbc_0001.parse 312 21 gold know know.01 ----- 15:1*16:1*22:1-ARG1 15:1*16:1-LINK-SLC 17:1*19:1-ARG0 21:0-rel
 bc/msnbc/00/msnbc_0001.parse 145 4 gold say say.01 ----- 0:1-ARG0 3:1-ARGM-ADV 4:0-rel 5:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 240 6 gold know know.01 ----- 4:1*7:1-ARG1 5:1-ARG0 6:0-rel 9:1-ARGM-DIS 10:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 489 4 gold think think.01 ----- 0:1-ARGM-DIS 1:1-ARGM-DIS 2:1-ARGM-DIS 3:1-ARG0 4:0-rel 5:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 197 3 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 3:0-rel 4:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 247 6 gold be be.01 ----- 0:1-ARGM-DIS 5:1-ARG1 6:0-rel 7:1-ARG2 8:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 170 0 gold do do.01 ----- 0:0-rel
 bc/msnbc/00/msnbc_0001.parse 5 13 gold be be.01 ----- 10:2-ARG1 13:0-rel 14:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 29 5 gold give give.01 ----- 0:1-ARG0 2:1-ARGM-ADV 5:0-rel 6:1-ARG2 7:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 271 2 gold be be.03 ----- 2:0-rel
+bc/msnbc/00/msnbc_0001.parse 219 31 gold continue continue.01 ----- 29:1-ARG1 31:0-rel
+bc/msnbc/00/msnbc_0001.parse 491 10 gold challenge challenge.01 ----- 6:1-ARGM-ADJ 8:0-ARGM-MNR 9:0-ARGM-DIS 10:0-rel
 bc/msnbc/00/msnbc_0001.parse 436 8 gold change change.01 ----- 0:2*5:1*9:1-ARG1 8:0-rel
+bc/msnbc/00/msnbc_0001.parse 405 15 gold do do.01 ----- 15:0-rel
 bc/msnbc/00/msnbc_0001.parse 149 17 gold be be.03 ----- 17:0-rel
-bc/msnbc/00/msnbc_0001.parse 493 2 gold thank thank.01 ----- 0:1-ARGM-DIS 2:0-rel 3:1*6:1-ARG2 4:1-ARGM-EXT
 bc/msnbc/00/msnbc_0001.parse 438 1 gold join join.04 ----- 0:0-ARGM-DIS 1:0-rel 2:1-ARG1 3:1-ARGM-TMP 6:3-ARG0
 bc/msnbc/00/msnbc_0001.parse 196 5 gold live live.01 ----- 1:2-ARG0 5:0-rel 6:1-ARGM-LOC
+bc/msnbc/00/msnbc_0001.parse 27 2 gold know know.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 293 10 gold update update.01 ----- 0:1*6:1-ARGM-GOL 8:0-ARGM-LVB 10:0-rel 11:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 88 28 gold separate separate.01 ----- 20:2*29:1-ARG1 28:0-rel 30:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 12 6 gold keep keep.02 ----- 5:1-ARG0 6:0-rel 7:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 431 8 gold become become.01 ----- 0:1-ARGM-ADV 7:1-ARG1 8:0-rel 9:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 72 3 gold do do.01 ----- 3:0-rel
+bc/msnbc/00/msnbc_0001.parse 256 4 gold indicate indicate.01 ----- 3:0-ARGM-NEG 4:0-rel 5:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 148 2 gold think think.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 523 9 gold qualify qualify.02 ----- 8:0-ARGM-ADJ 9:0-rel
 bc/msnbc/00/msnbc_0001.parse 24 11 gold have have.04 ----- 1:1-ARGM-DIS 2:1-ARGM-ADV 9:1-ARG0 10:0-ARGM-MOD 11:0-rel 12:2-ARG1
+bc/msnbc/00/msnbc_0001.parse 239 2 gold thank thank.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1 4:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 406 10 gold do do.02 ----- 8:1*11:1-ARG1 9:1-ARG0 10:0-rel
 bc/msnbc/00/msnbc_0001.parse 406 3 gold think think.01 ----- 2:1-ARG0 3:0-rel
 bc/msnbc/00/msnbc_0001.parse 368 9 gold expect expect.01 ----- 8:1-ARG0 9:0-rel 10:2-ARG1
-bc/msnbc/00/msnbc_0001.parse 31 2 gold know know.01 ----- 1:1-ARG0 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 324 6 gold be be.01 ----- 2:1*3:1*4:1-ARG1 2:1*3:1-LINK-SLC 6:0-rel 7:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 274 2 gold talk talk.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 408 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2 6:1-ARGM-DIS
@@ -981,21 +963,29 @@ bc/msnbc/00/msnbc_0001.parse 337 10 gold suppose suppose.02 ----- 7:1-ARG1 9:0-A
 bc/msnbc/00/msnbc_0001.parse 487 23 gold have have.03 ----- 17:1*20:1*24:1-ARG1 17:1*20:1-LINK-SLC 22:1-ARG0 23:0-rel
 bc/msnbc/00/msnbc_0001.parse 246 5 gold see see.01 ----- 3:1*6:1,7:1-ARG1 5:0-rel 8:1-ARGM-LOC 10:1-ARGM-DIS 11:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 116 16 gold disagree disagree.01 ----- 7:1-ARGM-ADV 14:1-ARG0 15:1-ARGM-MNR 16:0-rel 17:1-ARGM-DIS 18:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 98 28 gold know know.06 ----- 27:1-ARG0 28:0-rel
 bc/msnbc/00/msnbc_0001.parse 447 14 gold want want.01 ----- 14:0-rel 16:0-ARG1
 bc/msnbc/00/msnbc_0001.parse 388 8 gold be be.01 ----- 0:2*6:1-ARG1 8:0-rel 9:2-ARG2 15:1-ARGM-DIS
 bc/msnbc/00/msnbc_0001.parse 257 18 gold do do.01 ----- 18:0-rel
-bc/msnbc/00/msnbc_0001.parse 413 17 gold have have.01 ----- 17:0-rel
 bc/msnbc/00/msnbc_0001.parse 525 10 gold claim claim.01 ----- 0:1-ARGM-DIS 1:1-ARGM-ADV 2:2-ARG0 10:0-rel 11:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 159 7 gold thank thank.01 ----- 0:1-ARGM-DIS 2:2-ARGM-DIS 6:1-ARG0 7:0-rel 8:1-ARG1 9:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 2 6 gold use use.01 ----- 4:1*7:1-ARG1 4:1*7:1-LINK-PSV 6:0-rel 8:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 368 4 gold be be.03 ----- 4:0-rel
 bc/msnbc/00/msnbc_0001.parse 235 10 gold log log_on.02 ----- 0:1*6:1-ARG0 9:1-ARGM-TMP 10:0,11:1-rel 12:1-ARG1 14:2-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 66 8 gold be be.03 ----- 8:0-rel
 bc/msnbc/00/msnbc_0001.parse 59 52 gold show show.01 ----- 48:1-ARG0 51:0-ARGM-NEG 52:0-rel 53:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 88 7 gold have have.03 ----- 2:1*4:1*5:1-ARG0 2:1*4:1-LINK-SLC 7:0-rel 8:3-ARG1
 bc/msnbc/00/msnbc_0001.parse 388 5 gold go go.04 ----- 5:0-rel
+bc/msnbc/00/msnbc_0001.parse 41 11 gold go go.04 ----- 11:0-rel
+bc/msnbc/00/msnbc_0001.parse 560 2 gold get get.02 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 138 1 gold do do.01 ----- 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 53 3 gold be be.01 ----- 0:1-ARGM-DIS 1:1-ARGM-DIS 2:1-ARG1 3:0-rel 4:2-ARG2
 bc/msnbc/00/msnbc_0001.parse 223 2 gold be be.03 ----- 2:0-rel
+bc/msnbc/00/msnbc_0001.parse 232 13 gold see see.01 ----- 12:1-ARGM-TMP 13:0-rel 14:2-ARG1
+bc/msnbc/00/msnbc_0001.parse 272 10 gold be be.03 ----- 10:0-rel
 bc/msnbc/00/msnbc_0001.parse 530 13 gold nominate nominate.01 ----- 11:1-ARG2 13:0-rel
+bc/msnbc/00/msnbc_0001.parse 4 5 gold lose lose.02 ----- 0:2-ARG0 4:1-ARGM-TMP 5:0-rel 6:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 141 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 464 18 gold happen happen.01 ----- 16:1*17:1-ARG1 18:0-rel 19:1-ARGM-LOC
 bc/msnbc/00/msnbc_0001.parse 216 10 gold have have.01 ----- 10:0-rel
 bc/msnbc/00/msnbc_0001.parse 257 10 gold go go_out.17 ----- 6:1*16:1-ARGM-TMP 7:1-ARG0 10:0,11:1-rel
 bc/msnbc/00/msnbc_0001.parse 218 13 gold know know.06 ----- 12:1-ARG0 13:0-rel
@@ -1003,26 +993,26 @@ bc/msnbc/00/msnbc_0001.parse 163 5 gold file file.01 ----- 0:1-ARGM-TMP 1:1*6:1-
 bc/msnbc/00/msnbc_0001.parse 304 26 gold seem seem.01 ----- 0:1-ARGM-ADV 26:0-rel 27:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 35 4 gold have have.01 ----- 4:0-rel
 bc/msnbc/00/msnbc_0001.parse 364 2 gold be be.01 ----- 1:1-ARG1 2:0-rel 3:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 374 2 gold know know.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARGM-MNR 5:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 431 1 gold add add.02 ----- 1:0-rel 2:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 418 10 gold prepare prepare.01 ----- 0:1-ARGM-DIS 1:1-ARGM-TMP 2:3-ARG0 10:0-rel 11:1-ARG1 13:1-ARGM-PRD
-bc/msnbc/00/msnbc_0001.parse 409 13 gold get get.01 ----- 6:1*14:1-ARG1 7:1*10:1-ARG0 13:0-rel 15:1-ARG2 18:1-ARGM-DIS
+bc/msnbc/00/msnbc_0001.parse 251 1 gold be be.01 ----- 0:0-ARGM-DIS 1:0-rel 2:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 32 6 gold say say.01 ----- 4:1-ARG0 5:1-ARGM-ADV 6:0-rel 7:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 415 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2 3:1-ARGM-ADV
 bc/msnbc/00/msnbc_0001.parse 270 38 gold be be.01 ----- 24:1*40:1-ARG2 34:2-ARG1 38:0-rel 39:0-ARGM-NEG
-bc/msnbc/00/msnbc_0001.parse 103 12 gold be be.03 ----- 12:0-rel
 bc/msnbc/00/msnbc_0001.parse 39 19 gold look look.01 ----- 10:1*12:1*13:1-ARG0 10:1*12:1-LINK-SLC 19:0-rel 20:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 241 6 gold know know.01 ----- 0:1-ARGM-ADV 2:1-ARG0 4:0-ARGM-NEG 5:1-ARGM-DIS 6:0-rel 7:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 99 4 gold lose lose.02 ----- 0:2-ARG0 4:0-rel 5:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 413 18 gold get get.02 ----- 16:1-ARG0 18:0-rel 19:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 525 32 gold answer answer.01 ----- 29:1-ARG0 31:0-ARGM-NEG 32:0-rel 33:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 475 21 gold talk talk.01 ----- 15:2*19:1,22:1-ARG1 15:2*19:1-LINK-SLC 20:1-ARG0 21:0-rel
 bc/msnbc/00/msnbc_0001.parse 339 6 gold say say.01 ----- 2:1*7:1-ARG1 4:1-ARG0 6:0-rel 8:1-ARGM-LOC 13:1-ARG3
 bc/msnbc/00/msnbc_0001.parse 521 16 gold mock mock.01 ----- 10:1*13:1*14:1-ARG0 10:1*13:1-LINK-SLC 15:1-ARGM-MNR 16:0-rel 17:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 292 3 gold accept accept.01 ----- 0:0-ARGM-DIS 1:1-ARG0 3:0-rel 4:1-ARG1 5:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 445 3 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 3:0-rel 4:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 273 9 gold have have.03 ----- 4:1*7:1-ARG0 9:0-rel 10:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 192 3 gold meet meet.02 ----- 0:1-ARGM-DIS 1:1-ARG0 3:0-rel 4:1-ARG1 6:1-ARGM-TMP
-bc/msnbc/00/msnbc_0001.parse 506 8 gold have have.01 ----- 8:0-rel
 bc/msnbc/00/msnbc_0001.parse 370 1 gold know know.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 348 8 gold say say.01 ----- 5:1*6:1*9:1-ARG1 5:1*6:1-LINK-SLC 7:1-ARG0 8:0-rel 10:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 363 1 gold mean mean.01 ----- 0:1-ARG0 1:0-rel
-bc/msnbc/00/msnbc_0001.parse 415 28 gold die die.01 ----- 28:0-rel
 bc/msnbc/00/msnbc_0001.parse 16 3 gold make make.01 ----- 0:1*4:1-ARG1 2:1-ARG0 3:0-rel 5:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 222 25 gold wonder wonder.01 ----- 8:1*11:1-ARG0 25:0-rel 26:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 437 8 gold go go.04 ----- 8:0-rel
@@ -1037,26 +1027,27 @@ bc/msnbc/00/msnbc_0001.parse 423 9 gold receive receive.01 ----- 2:1*8:1-ARG0 9:
 bc/msnbc/00/msnbc_0001.parse 304 36 gold answer answer.01 ----- 36:0-rel
 bc/msnbc/00/msnbc_0001.parse 220 11 gold do do.01 ----- 11:0-rel
 bc/msnbc/00/msnbc_0001.parse 547 13 gold act act.02 ----- 9:1*11:1-ARG0 12:0-ARGM-NEG 13:0-rel
+bc/msnbc/00/msnbc_0001.parse 549 6 gold wag wag.01 ----- 6:0-rel 7:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 324 26 gold have have.03 ----- 0:0-ARGM-DIS 1:1-ARGM-MNR 25:1-ARG0 26:0-rel 27:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 215 4 gold say say.01 ----- 1:1*5:1-ARG1 2:1-ARG0 4:0-rel
 bc/msnbc/00/msnbc_0001.parse 320 2 gold ask ask.02 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG2 4:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 98 21 gold be be.01 ----- 1:0-ARGM-DIS 2:3-ARG1 21:0-rel 22:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 510 21 gold nominate nominate.01 ----- 18:1-ARG1 21:0-rel 22:1-ARG2
-bc/msnbc/00/msnbc_0001.parse 100 5 gold know know.01 ----- 0:2-ARG0 4:0-ARGM-NEG 5:0-rel 6:2-ARG1
-bc/msnbc/00/msnbc_0001.parse 387 5 gold be be.02 ----- 5:0-rel 7:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 409 1 gold be be.03 ----- 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 437 11 gold get get.03 ----- 5:1*9:1-ARG1 11:0-rel 12:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 215 3 gold have have.01 ----- 3:0-rel
 bc/msnbc/00/msnbc_0001.parse 544 10 gold be be.01 ----- 9:1-ARG1 10:0-rel 11:1-ARGM-TMP 12:2-ARG2 18:2-ARGM-ADV
 bc/msnbc/00/msnbc_0001.parse 149 25 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARGM-DIS 2:1-ARG1 25:0-rel 26:2-ARG2
 bc/msnbc/00/msnbc_0001.parse 51 6 gold do do.01 ----- 6:0-rel
+bc/msnbc/00/msnbc_0001.parse 266 1 gold thank thank.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:1-ARGM-ADV 5:1-ARGM-DIS 6:1-ARGM-DIS
+bc/msnbc/00/msnbc_0001.parse 422 9 gold serve serve.04 ----- 0:1*7:1-ARG0 9:0-rel 10:2-ARG1 13:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 207 11 gold consider consider.02 ----- 8:1*12:1-ARG1 9:0-ARGM-MOD 11:0-rel 13:1-ARGM-DIS 14:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 556 7 gold get get.03 ----- 1:1*3:1*10:1-ARGM-TMP 1:1*3:1-LINK-SLC 4:1-ARG1 7:0-rel 8:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 345 32 gold do do.02 ----- 25:1-ARG0 32:0-rel 33:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 11 10 gold join join.04 ----- 0:2-ARG0 10:0-rel 11:1-ARG1 12:1-ARGM-DIS 13:1-ARGM-TMP 14:1-ARGM-MNR
 bc/msnbc/00/msnbc_0001.parse 304 4 gold question question.01 ----- 1:1-ARGM-EXT 3:0-ARGM-MNR 4:0-rel 5:1*7:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 61 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 387 27 gold view view.02 ----- 21:1-ARG0 24:1-ARG1 27:0-rel
 bc/msnbc/00/msnbc_0001.parse 263 6 gold take take.01 ----- 2:1*17:1-ARGM-PRP 3:1-ARGM-DIS 4:1-ARG0 6:0-rel 7:1-ARG1 9:2-ARG2
-bc/msnbc/00/msnbc_0001.parse 328 16 gold give give.01 ----- 7:2-ARG0 16:0-rel 17:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 486 14 gold give give.01 ----- 0:1*15:1-ARG2 10:0-ARGM-MOD 12:1-ARGM-NEG 14:0-rel 16:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 339 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 bc/msnbc/00/msnbc_0001.parse 240 2 gold tell tell.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG2 4:2-ARG1
@@ -1065,15 +1056,14 @@ bc/msnbc/00/msnbc_0001.parse 370 4 gold be be.03 ----- 4:0-rel
 bc/msnbc/00/msnbc_0001.parse 423 4 gold go go.02 ----- 0:1-ARGM-TMP 2:1-ARG0 3:1-ARGM-MNR 4:0-rel 5:1-ARG4 7:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 94 12 gold call call.01 ----- 7:1*15:1-ARG2 8:1*13:1-ARG1 9:0-ARGM-MOD 10:1-ARGM-ADV 12:0-rel
 bc/msnbc/00/msnbc_0001.parse 234 18 gold leave leave.11 ----- 8:1-ARG0 18:0-rel 19:1-ARGM-COM 21:1-ARGM-MNR 22:1-ARGM-TMP
-bc/msnbc/00/msnbc_0001.parse 114 2 gold miss miss.02 ----- 0:1-ARG0 2:0-rel 3:2-ARG1 6:1-ARGM-ADV
 bc/msnbc/00/msnbc_0001.parse 375 4 gold look look.09 ----- 4:0-rel
 bc/msnbc/00/msnbc_0001.parse 92 19 gold be be.03 ----- 19:0-rel
 bc/msnbc/00/msnbc_0001.parse 462 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 224 11 gold have have.01 ----- 11:0-rel
-bc/msnbc/00/msnbc_0001.parse 325 9 gold do do.01 ----- 9:0-rel
 bc/msnbc/00/msnbc_0001.parse 512 7 gold be be.01 ----- 6:1-ARG1 7:0-rel 8:0-ARGM-NEG 9:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 304 33 gold be be.03 ----- 33:0-rel
 bc/msnbc/00/msnbc_0001.parse 313 1 gold remember remember.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 95 2 gold be be.03 ----- 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 39 6 gold be be.01 ----- 5:1*27:1-ARG1 6:0-rel 7:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 59 36 gold be be.01 ----- 34:1*35:1-ARG1 36:0-rel 37:1-ARGM-DIS 40:3-ARG2
 bc/msnbc/00/msnbc_0001.parse 527 4 gold entitle entitle.01 ----- 0:1*17:1-ARGM-TMP 3:1*5:1-ARG2 4:0-rel 6:1-ARG1
@@ -1084,7 +1074,6 @@ bc/msnbc/00/msnbc_0001.parse 334 1 gold look look.09 ----- 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 137 9 gold make make.01 ----- 1:1*7:1*10:1-ARG1 1:1*7:1-LINK-SLC 8:1-ARG0 9:0-rel 11:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 111 3 gold have have.03 ----- 2:1-ARG0 3:0-rel
 bc/msnbc/00/msnbc_0001.parse 133 15 gold injure injure.01 ----- 6:2*11:1*12:1*18:1-ARG1 6:2*11:1-LINK-SLC 15:0-rel 19:1-ARGM-LOC 23:3-ARGM-TMP
-bc/msnbc/00/msnbc_0001.parse 343 8 gold be be.01 ----- 3:2-ARG1 8:0-rel 9:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 536 6 gold rebut rebut.01 ----- 5:0-ARG0 6:0-rel
 bc/msnbc/00/msnbc_0001.parse 359 22 gold be be.01 ----- 0:1-ARGM-DIS 12:1-ARGM-DIS 18:1-ARGM-DIS 21:1-ARG1 22:0-rel 23:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 337 16 gold come come_out.09 ----- 0:0-ARGM-DIS 1:1-ARGM-ADV 14:1-ARG1 15:0-ARGM-MOD 16:0,17:1-rel
@@ -1094,11 +1083,11 @@ bc/msnbc/00/msnbc_0001.parse 192 29 gold want want.01 ----- 27:1-ARG0 28:0-ARGM-
 bc/msnbc/00/msnbc_0001.parse 59 1 gold look look.09 ----- 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 206 4 gold do do.01 ----- 4:0-rel
 bc/msnbc/00/msnbc_0001.parse 546 6 gold be be.01 ----- 0:2-ARG1 6:0-rel 7:2-ARG2
-bc/msnbc/00/msnbc_0001.parse 306 6 gold have have.02 ----- 6:0-rel
 bc/msnbc/00/msnbc_0001.parse 459 17 gold be be.01 ----- 13:1*18:1-ARG2 15:1-ARG1 17:0-rel
 bc/msnbc/00/msnbc_0001.parse 181 0 gold join join.04 ----- 0:0-rel 1:1-ARG1 2:1-ARGM-TMP 5:2-ARG0
 bc/msnbc/00/msnbc_0001.parse 227 40 gold do do.01 ----- 40:0-rel
 bc/msnbc/00/msnbc_0001.parse 88 25 gold lose lose.02 ----- 2:2*19:1*49:1-ARGM-LOC 2:2*19:1-LINK-SLC 20:2-ARG0 25:0-rel 26:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 520 23 gold prove prove.01 ----- 20:1*21:1*22:1-ARG0 20:1*21:1-LINK-SLC 23:0-rel 24:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 152 13 gold be be.03 ----- 13:0-rel
 bc/msnbc/00/msnbc_0001.parse 240 21 gold be be.01 ----- 11:1*13:1,22:1-ARG2 11:1*13:1-LINK-SLC 18:1-ARGM-DIS 19:1-ARG1 21:0-rel
 bc/msnbc/00/msnbc_0001.parse 151 0 gold be be.01 ----- 0:0-rel 1:1-ARG1 2:2-ARG2
@@ -1109,10 +1098,10 @@ bc/msnbc/00/msnbc_0001.parse 360 6 gold happen happen.01 ----- 0:1*4:1-ARG1 6:0-
 bc/msnbc/00/msnbc_0001.parse 199 2 gold be be.03 ----- 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 206 18 gold be be.03 ----- 18:0-rel
 bc/msnbc/00/msnbc_0001.parse 243 2 gold have have.03 ----- 0:1-ARGM-ADV 1:1-ARG0 2:0-rel 3:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 325 9 gold do do.01 ----- 9:0-rel
 bc/msnbc/00/msnbc_0001.parse 220 18 gold be be.01 ----- 14:1*19:1-ARG2 15:2;20:2-ARG1 18:0-rel
 bc/msnbc/00/msnbc_0001.parse 230 5 gold think think.01 ----- 0:0-ARGM-DIS 1:1-ARGM-DIS 2:1-ARG0 5:0-rel 6:1-ARG2 10:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 258 30 gold indicate indicate.01 ----- 27:1*28:1*29:1-ARG0 27:1*28:1-LINK-SLC 30:0-rel 31:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 460 2 gold remember remember.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 52 7 gold decide decide.01 ----- 0:1-ARGM-DIS 4:1-ARG0 7:0-rel 9:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 314 4 gold be be.03 ----- 4:0-rel
 bc/msnbc/00/msnbc_0001.parse 234 24 gold meet meet.02 ----- 8:1*23:1-ARG0 24:0-rel 25:1-ARG1 26:1-ARGM-LOC
@@ -1136,6 +1125,8 @@ bc/msnbc/00/msnbc_0001.parse 230 3 gold have have.01 ----- 3:0-rel
 bc/msnbc/00/msnbc_0001.parse 219 16 gold be be.01 ----- 15:1-ARG1 16:0-rel 17:1-ARG2 18:2-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 255 22 gold plan plan.01 ----- 20:1-ARG0 22:0-rel 23:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 198 8 gold get get.01 ----- 0:0-ARGM-DIS 1:1-ARGM-ADV 5:1-ARG0 7:0-ARGM-NEG 8:0-rel 9:2-ARG1 13:1-ARGM-TMP 16:1-ARGM-CAU
+bc/msnbc/00/msnbc_0001.parse 491 4 gold get get.02 ----- 3:1-ARG0 4:0-rel 5:1-ARG1 11:1-ARGM-LOC
+bc/msnbc/00/msnbc_0001.parse 340 1 gold believe believe.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 377 12 gold give give.01 ----- 10:1*13:1-ARG1 12:0-rel 14:1-ARG0 18:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 560 1 gold have have.01 ----- 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 563 1 gold do do.02 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:1-ARG2 5:1-ARGM-TMP
@@ -1150,65 +1141,62 @@ bc/msnbc/00/msnbc_0001.parse 393 7 gold find find_out.03 ----- 0:0-ARGM-DIS 4:1-
 bc/msnbc/00/msnbc_0001.parse 170 9 gold know know.01 ----- 2:2*7:1-ARG0 9:0-rel 10:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 96 4 gold excuse excuse.02 ----- 3:0-ARGM-NEG 4:0-rel 5:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 92 7 gold be be.01 ----- 5:1-ARG1 6:0-ARGM-MOD 7:0-rel 9:1-ARG2 10:1-ARGM-LOC 17:2-ARGM-TMP 23:1-ARGM-CAU
+bc/msnbc/00/msnbc_0001.parse 168 2 gold battle battle.01 ----- 2:0-rel 3:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 271 4 gold murder murder.01 ----- 0:0-ARGM-DIS 1:1*5:1-ARG1 3:1-ARGM-ADV 4:0-rel 6:1-ARG0
 bc/msnbc/00/msnbc_0001.parse 68 8 gold start start.01 ----- 7:1-ARG0 8:0-rel 9:1-ARGM-MNR
 bc/msnbc/00/msnbc_0001.parse 28 15 gold grab grab.01 ----- 6:1-ARG0 15:0-rel 16:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 345 27 gold overturn overturn.01 ----- 25:1-ARG0 27:0-rel 28:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 331 4 gold base base.02 ----- 3:0-ARG2 4:0-rel 5:0-ARG1
-bc/msnbc/00/msnbc_0001.parse 232 15 gold leave leave.11 ----- 14:1-ARG0 15:0-rel 16:1-ARG1 18:2-ARGM-PRP
-bc/msnbc/00/msnbc_0001.parse 344 33 gold do do.01 ----- 33:0-rel
+bc/msnbc/00/msnbc_0001.parse 258 35 gold be be.03 ----- 35:0-rel
 bc/msnbc/00/msnbc_0001.parse 279 2 gold have have.01 ----- 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 128 19 gold go go.02 ----- 1:2-ARGM-ADV 13:2-ARG0 18:0-ARGM-MOD 19:0-rel 20:1-ARG4
 bc/msnbc/00/msnbc_0001.parse 83 7 gold be be.02 ----- 7:0-rel 8:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 27 25 gold happen happen.01 ----- 24:1-ARG1 25:0-rel
 bc/msnbc/00/msnbc_0001.parse 318 3 gold have have.03 ----- 0:1-ARGM-DIS 2:1-ARG0 3:0-rel 4:2-ARG1
+bc/msnbc/00/msnbc_0001.parse 317 4 gold thank thank.01 ----- 0:1-ARGM-DIS 2:1-ARGM-DIS 3:1-ARGM-DIS 4:0-rel 5:1*9:1-ARG2 6:1-ARGM-EXT 8:1-ARGM-DIS
 bc/msnbc/00/msnbc_0001.parse 44 10 gold be be.03 ----- 10:0-rel
 bc/msnbc/00/msnbc_0001.parse 480 3 gold get get.06 ----- 0:0-ARGM-DIS 1:1*4:2-ARG1 3:0-rel
 bc/msnbc/00/msnbc_0001.parse 122 19 gold respond respond.01 ----- 4:1-ARG0 7:0-ARGM-NEG 18:1-ARGM-DIS 19:0-rel
 bc/msnbc/00/msnbc_0001.parse 340 26 gold be be.03 ----- 26:0-rel
 bc/msnbc/00/msnbc_0001.parse 464 27 gold be be.01 ----- 21:1*28:1-ARG2 25:0-ARGM-MOD 27:0-rel 29:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 415 31 gold accuse accuse.01 ----- 8:1*32:1-ARG1 8:1*32:1-LINK-PSV 30:1-ARGM-TMP 31:0-rel 33:1-ARGM-ADV 34:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 468 38 gold happen happen.01 ----- 36:2-ARG1 38:0-rel 39:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 552 12 gold do do.01 ----- 12:0-rel
 bc/msnbc/00/msnbc_0001.parse 106 5 gold be be.01 ----- 4:1*6:1-ARG1 5:0-rel 7:2-ARG2
 bc/msnbc/00/msnbc_0001.parse 158 11 gold punch punch.01 ----- 8:1*31:1-ARGM-CAU 9:1-ARG0 10:0-ARGM-MOD 11:0-rel 12:1-ARG1 13:1-ARGM-LOC 19:1-ARGM-DIS 23:1-ARGM-DIS 24:1-ARGM-ADV
 bc/msnbc/00/msnbc_0001.parse 164 2 gold join join.04 ----- 0:1-ARG0 2:0-rel 3:1-ARG1 4:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 245 9 gold be be.01 ----- 7:1*23:1-ARGM-CAU 9:0-rel 10:1-ARG1 15:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 532 5 gold alert alert.01 ----- 4:0-ARG2 5:0-rel 6:1-ARGM-LOC
-bc/msnbc/00/msnbc_0001.parse 133 17 gold involve involve.01 ----- 6:2*11:1*12:1*18:1-ARG1 6:2*11:1-LINK-SLC 14:1-ARGM-DIS 17:0-rel 19:1-ARG2 23:3-ARGM-TMP
-bc/msnbc/00/msnbc_0001.parse 121 2 gold explain explain.01 ----- 0:1-ARG0 2:0-rel 3:1-ARGM-MNR 6:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 28 4 gold look look.01 ----- 0:0-ARGM-DIS 3:1-ARG0 4:0-rel 5:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 282 4 gold provide provide.01 ----- 1:1-ARG0 4:0-rel 5:2;10:1-ARG1 7:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 410 7 gold thank thank.01 ----- 0:1-ARGM-ADV 2:2-ARGM-DIS 7:0-rel 8:1-ARGM-EXT
-bc/msnbc/00/msnbc_0001.parse 235 1 gold have have.03 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 122 22 gold be be.01 ----- 21:1-ARG1 22:0-rel 23:1-ARGM-ADV 24:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 264 18 gold see see.01 ----- 16:1-ARG0 18:0-rel 19:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 286 6 gold happen happen.01 ----- 3:1*4:1-ARG1 6:0-rel
 bc/msnbc/00/msnbc_0001.parse 311 31 gold go go.04 ----- 31:0-rel
+bc/msnbc/00/msnbc_0001.parse 115 14 gold leave leave.15 ----- 13:1-ARG0 14:0-rel 15:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 368 23 gold be be.03 ----- 23:0-rel
-bc/msnbc/00/msnbc_0001.parse 147 4 gold justify justify.01 ----- 0:1-ARGM-DIS 1:1-ARG0 3:0-ARGM-NEG 4:0-rel 5:2-ARG1
+bc/msnbc/00/msnbc_0001.parse 184 3 gold appreciate appreciate.02 ----- 0:0-ARGM-DIS 1:1-ARGM-ADV 2:1-ARG0 3:0-rel 4:2-ARG1
+bc/msnbc/00/msnbc_0001.parse 90 24 gold happen happen.01 ----- 21:1*22:1*23:1-ARG1 21:1*22:1-LINK-SLC 24:0-rel
 bc/msnbc/00/msnbc_0001.parse 490 3 gold know know.06 ----- 2:1-ARG0 3:0-rel
 bc/msnbc/00/msnbc_0001.parse 149 27 gold be be.01 ----- 26:1*30:1-ARG2 27:0-rel 28:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 185 5 gold invite invite.01 ----- 2:1*4:1-ARG0 5:0-rel 6:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 225 2 gold be be.01 ----- 1:1-ARG1 2:0-rel 3:0-ARGM-NEG 4:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 398 4 gold know know.02 ----- 0:1-ARGM-DIS 1:1-ARGM-DIS 3:1-ARG0 4:0-rel 5:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 282 18 gold abort abort.01 ----- 18:0-rel
 bc/msnbc/00/msnbc_0001.parse 82 23 gold be be.03 ----- 23:0-rel
 bc/msnbc/00/msnbc_0001.parse 250 8 gold tip tip.05 ----- 8:0-rel 9:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 339 10 gold face face.01 ----- 9:1-ARG0 10:0-rel 11:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 428 11 gold be be.03 ----- 11:0-rel
 bc/msnbc/00/msnbc_0001.parse 442 9 gold have have.01 ----- 9:0-rel
 bc/msnbc/00/msnbc_0001.parse 261 3 gold stun stun.01 ----- 0:0-ARGM-DIS 1:1*4:1-ARG1 3:0-rel 5:1-ARGM-CAU
 bc/msnbc/00/msnbc_0001.parse 242 2 gold know know.01 ----- 0:1-ARG0 1:1-ARGM-ADV 2:0-rel 3:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 457 2 gold feel feel.02 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 6:1-ARGM-DIS 7:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 425 8 gold contact contact.01 ----- 2:1*4:1-ARG0 6:0-ARGM-LVB 7:0-ARGM-TMP 8:0-rel 9:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 396 1 gold do do.01 ----- 1:0-rel
+bc/msnbc/00/msnbc_0001.parse 111 7 gold have have.03 ----- 1:0-ARGM-DIS 5:1-ARGM-DIS 6:1-ARG0 7:0-rel 8:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 526 12 gold vote vote.01 ----- 9:1-ARG0 10:0-ARGM-MOD 11:0-ARGM-NEG 12:0-rel 13:1-ARGM-MNR 17:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 432 4 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 4:0-rel 5:4-ARG2
 bc/msnbc/00/msnbc_0001.parse 8 14 gold try try.02 ----- 13:0-ARG3 14:0-rel
-bc/msnbc/00/msnbc_0001.parse 147 7 gold happen happen.01 ----- 5:1*6:1-ARG1 7:0-rel
 bc/msnbc/00/msnbc_0001.parse 438 14 gold be be.03 ----- 14:0-rel
-bc/msnbc/00/msnbc_0001.parse 152 27 gold contact contact.01 ----- 26:0-ARGM-MNR 27:0-rel
 bc/msnbc/00/msnbc_0001.parse 326 62 gold nominate nominate.01 ----- 62:0-rel
-bc/msnbc/00/msnbc_0001.parse 258 39 gold meet meet.03 ----- 34:1*37:1-ARG0 39:0-rel
 bc/msnbc/00/msnbc_0001.parse 3 15 gold serve serve.01 ----- 5:1-ARG0 15:0-rel 16:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 131 4 gold do do.01 ----- 4:0-rel
 bc/msnbc/00/msnbc_0001.parse 144 22 gold say say.01 ----- 18:1-ARG0 20:0-ARGM-NEG 21:1-ARGM-ADV 22:0-rel 23:1-ARG1
@@ -1216,11 +1204,9 @@ bc/msnbc/00/msnbc_0001.parse 4 26 gold surface surface.01 ----- 23:1*24:1*25:1-A
 bc/msnbc/00/msnbc_0001.parse 513 3 gold prove prove.01 ----- 3:0-rel
 bc/msnbc/00/msnbc_0001.parse 272 11 gold charge charge.05 ----- 5:1*8:1*17:1-ARGM-LOC 5:1*8:1-LINK-SLC 9:1*12:1-ARG1 11:0-rel 13:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 397 8 gold find find_out.03 ----- 3:1*11:1-ARGM-CAU 4:1*6:1-ARG0 8:0,10:1-rel 9:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 244 7 gold do do.01 ----- 7:0-rel
 bc/msnbc/00/msnbc_0001.parse 19 2 gold go go.02 ----- 0:1-ARG0 2:0-rel 3:2-ARGM-PRP
 bc/msnbc/00/msnbc_0001.parse 389 31 gold be be.01 ----- 30:1-ARG1 31:0-rel 32:2-ARG2
 bc/msnbc/00/msnbc_0001.parse 258 2 gold know know.06 ----- 1:1-ARG0 2:0-rel
-bc/msnbc/00/msnbc_0001.parse 88 6 gold have have.01 ----- 6:0-rel
 bc/msnbc/00/msnbc_0001.parse 537 3 gold write write.01 ----- 0:2-ARG0 3:0-rel 4:1-ARGM-DIR 5:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 483 2 gold be be.03 ----- 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 245 2 gold be be.01 ----- 1:1*6:1-ARGM-CAU 2:0-rel 3:1-ARG1 4:1-ARG2
@@ -1229,9 +1215,8 @@ bc/msnbc/00/msnbc_0001.parse 10 15 gold get get.01 ----- 13:1-ARG0 15:0-rel 16:3
 bc/msnbc/00/msnbc_0001.parse 227 11 gold be be.01 ----- 10:1-ARG1 11:0-rel
 bc/msnbc/00/msnbc_0001.parse 119 59 gold be be.01 ----- 59:0-rel 62:1-ARG2 63:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 248 2 gold think think.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 39 15 gold listen listen.01 ----- 10:1*12:1*13:1-ARG0 10:1*12:1-LINK-SLC 15:0-rel 16:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 548 9 gold walk walk.01 ----- 4:1*7:1-ARG0 9:0-rel 10:1-ARG2
-bc/msnbc/00/msnbc_0001.parse 516 44 gold want want.01 ----- 40:1-ARGM-ADV 41:1-ARG0 43:0-ARGM-NEG 44:0-rel 45:1-ARG1 46:1-ARGM-LOC 49:1-ARGM-ADV
+bc/msnbc/00/msnbc_0001.parse 80 3 gold conduct conduct.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 303 5 gold be be.01 ----- 0:2-ARG1 5:0-rel 6:2-ARG2
 bc/msnbc/00/msnbc_0001.parse 158 28 gold subdue subdue.01 ----- 27:1-ARG0 28:0-rel 29:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 291 2 gold be be.03 ----- 2:0-rel
@@ -1241,7 +1226,6 @@ bc/msnbc/00/msnbc_0001.parse 59 7 gold be be.01 ----- 0:1-ARGM-DIS 1:1-ARGM-DIS 
 bc/msnbc/00/msnbc_0001.parse 346 3 gold wait wait.01 ----- 0:0-ARGM-DIS 2:1-ARG1 3:0-rel
 bc/msnbc/00/msnbc_0001.parse 244 9 gold know know.01 ----- 0:1-ARGM-DIS 6:1-ARG0 8:0-ARGM-NEG 9:0-rel 10:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 157 12 gold conduct conduct.02 ----- 11:0-ARG0 12:0-rel 13:1-ARGM-LOC
-bc/msnbc/00/msnbc_0001.parse 362 12 gold want want.01 ----- 11:1-ARG0 12:0-rel 13:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 177 12 gold identify identify.01 ----- 6:2-ARG0 12:0-rel 13:1-ARG1 15:1-ARGM-MNR
 bc/msnbc/00/msnbc_0001.parse 387 4 gold do do.01 ----- 4:0-rel
 bc/msnbc/00/msnbc_0001.parse 333 2 gold talk talk.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
@@ -1262,15 +1246,17 @@ bc/msnbc/00/msnbc_0001.parse 118 3 gold be be.03 ----- 3:0-rel
 bc/msnbc/00/msnbc_0001.parse 211 7 gold look look.01 ----- 4:1-ARG0 7:0-rel 8:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 348 27 gold be be.01 ----- 12:2-ARG1 27:0-rel 28:2-ARG2
 bc/msnbc/00/msnbc_0001.parse 25 10 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARGM-DIS 7:1-ARGM-DIS 10:0-rel 12:1*14:2-ARG1 13:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 119 98 gold view view.02 ----- 98:0-rel
 bc/msnbc/00/msnbc_0001.parse 119 46 gold know know.01 ----- 45:1-ARG0 46:0-rel 47:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 192 2 gold have have.01 ----- 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 485 1 gold let let.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:1-ARGM-DIR
 bc/msnbc/00/msnbc_0001.parse 514 7 gold say say.01 ----- 4:1*5:1*6:1-ARG0 4:1*5:1-LINK-SLC 7:0-rel 8:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 152 22 gold know know.06 ----- 21:1-ARG0 22:0-rel
+bc/msnbc/00/msnbc_0001.parse 119 54 gold happen happen.01 ----- 52:1*53:1-ARG1 54:0-rel 55:1-ARGM-LOC
 bc/msnbc/00/msnbc_0001.parse 560 11 gold auction auction_off.01 ----- 6:0-ARG0 7:1-ARGM-TMP 9:1-ARGM-ADJ 11:0-rel
-bc/msnbc/00/msnbc_0001.parse 13 3 gold ask ask.01 ----- 2:1-ARG0 3:0-rel 4:1-ARG2 5:1-ARGM-TMP 6:1-ARGM-ADV 8:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 479 1 gold be be.03 ----- 1:0-rel
-bc/msnbc/00/msnbc_0001.parse 202 4 gold be be.01 ----- 0:1-ARGM-DIS 1:1-ARGM-DIS 4:0-rel 5:1-ARG2 7:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 519 1 gold assure assure.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 39 34 gold be be.03 ----- 34:0-rel
 bc/msnbc/00/msnbc_0001.parse 134 4 gold want want.01 ----- 3:1-ARG0 4:0-rel 5:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 376 2 gold be be.03 ----- 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 163 2 gold charge charge.05 ----- 1:0-ARGM-NEG 2:0-rel
@@ -1278,6 +1264,7 @@ bc/msnbc/00/msnbc_0001.parse 119 101 gold explain explain.01 ----- 0:1-ARGM-DIS 
 bc/msnbc/00/msnbc_0001.parse 444 1 gold have have.01 ----- 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 311 9 gold be be.02 ----- 9:0-rel 10:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 311 12 gold deal deal.01 ----- 10:1-ARGM-LOC 12:0-rel
+bc/msnbc/00/msnbc_0001.parse 421 10 gold molest molest.01 ----- 4:1*7:1*9:1-ARG0 10:0-rel 11:1-ARG1 13:1-ARGM-LOC
 bc/msnbc/00/msnbc_0001.parse 53 12 gold make make.02 ----- 11:1-ARG0 12:0-rel 13:3-ARG1
 bc/msnbc/00/msnbc_0001.parse 145 16 gold evaluate evaluate.01 ----- 11:1*12:1*13:1*17:1-ARG1 11:1*12:1-LINK-SLC 14:0-ARGM-MOD 16:0-rel
 bc/msnbc/00/msnbc_0001.parse 234 6 gold believe believe.01 ----- 0:3-ARG0 6:0-rel 7:1-ARG1
@@ -1285,40 +1272,37 @@ bc/msnbc/00/msnbc_0001.parse 163 4 gold be be.03 ----- 4:0-rel
 bc/msnbc/00/msnbc_0001.parse 201 9 gold know know.01 ----- 8:1-ARG0 9:0-rel 10:3-ARG1
 bc/msnbc/00/msnbc_0001.parse 34 2 gold be be.03 ----- 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 368 44 gold be be.03 ----- 44:0-rel
-bc/msnbc/00/msnbc_0001.parse 526 5 gold be be.03 ----- 5:0-rel
 bc/msnbc/00/msnbc_0001.parse 5 25 gold threaten threaten.01 ----- 21:1*22:1*23:1-ARG0 21:1*22:1-LINK-SLC 24:0-ARGM-MOD 25:0-rel 26:2-ARG2
 bc/msnbc/00/msnbc_0001.parse 82 7 gold be be.01 ----- 7:0-rel 8:1-ARG2 13:1-ARGM-DIS 16:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 557 2 gold do do.01 ----- 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 275 17 gold miss miss.02 ----- 17:0-rel 18:0,19:0-ARG1
 bc/msnbc/00/msnbc_0001.parse 531 24 gold be be.03 ----- 24:0-rel
-bc/msnbc/00/msnbc_0001.parse 373 10 gold be be.03 ----- 10:0-rel
 bc/msnbc/00/msnbc_0001.parse 520 41 gold value value.02 ----- 39:1-ARG0 41:0-rel
 bc/msnbc/00/msnbc_0001.parse 436 4 gold need need.01 ----- 0:2-ARG0 4:0-rel 5:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 419 1 gold be be.01 ----- 0:1-ARG1 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 459 1 gold be be.03 ----- 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 59 29 gold be be.01 ----- 27:1-ARG1 29:0-rel
-bc/msnbc/00/msnbc_0001.parse 0 6 gold intoxicate intoxicate.01 ----- 5:0-ARGM-LOC 6:0-rel
+bc/msnbc/00/msnbc_0001.parse 312 4 gold know know.01 ----- 1:1-ARGM-ADV 2:1-ARG0 4:0-rel 5:3-ARG1
+bc/msnbc/00/msnbc_0001.parse 201 15 gold hear hear.01 ----- 0:1-ARGM-DIS 1:1-ARGM-DIS 6:1-ARGM-TMP 14:1-ARG0 15:0-rel 16:1-ARG1 17:1-ARG2 20:1-ARGM-ADV
+bc/msnbc/00/msnbc_0001.parse 261 10 gold see see.01 ----- 9:1-ARG0 10:0-rel 11:1-ARG1 12:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 297 1 gold be be.03 ----- 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 348 15 gold say say.01 ----- 12:1*13:1*16:1-ARG1 12:1*13:1-LINK-SLC 14:1-ARG0 15:0-rel 22:1-ARG2 24:1-ARGM-LOC
-bc/msnbc/00/msnbc_0001.parse 447 0 gold look look.09 ----- 0:0-rel
 bc/msnbc/00/msnbc_0001.parse 262 16 gold have have.02 ----- 16:0-rel
 bc/msnbc/00/msnbc_0001.parse 413 12 gold be be.01 ----- 0:2-ARGM-ADV 7:1-ARGM-ADV 11:1-ARG1 12:0-rel 13:0-ARGM-NEG 14:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 130 6 gold destroy destroy.01 ----- 0:2*7:1-ARG1 5:0-ARGM-NEG 6:0-rel
 bc/msnbc/00/msnbc_0001.parse 326 28 gold state state.01 ----- 28:0-rel 32:0-ARGM-LVB 34:1-ARG0
 bc/msnbc/00/msnbc_0001.parse 159 11 gold come come.01 ----- 10:1-ARG1 11:0-rel 12:1-ARGM-DIR 13:1-ARG4
-bc/msnbc/00/msnbc_0001.parse 389 19 gold hear hearing.02 ----- 18:0-ARG0 19:0-rel
 bc/msnbc/00/msnbc_0001.parse 487 1 gold have have.01 ----- 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 261 2 gold be be.03 ----- 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 119 49 gold know know.01 ----- 47:1*50:1-ARG1 48:1-ARG0 49:0-rel 51:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 405 24 gold be be.03 ----- 24:0-rel
 bc/msnbc/00/msnbc_0001.parse 119 68 gold say say.01 ----- 64:2-ARG0 68:0-rel 69:4-ARG1
 bc/msnbc/00/msnbc_0001.parse 418 9 gold be be.03 ----- 9:0-rel
-bc/msnbc/00/msnbc_0001.parse 457 9 gold need need.01 ----- 8:1-ARG0 9:0-rel 10:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 513 2 gold want want.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1 4:1-ARGM-DIS
+bc/msnbc/00/msnbc_0001.parse 120 6 gold be be.01 ----- 4:1*5:1-ARG1 6:0-rel 7:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 488 5 gold stop stop.03 ----- 1:1*3:1-ARG0 5:0-rel 6:1-ARG1 7:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 533 11 gold criticize criticize.01 ----- 8:2*12:1-ARG1 8:2*12:1-LINK-PSV 11:0-rel 13:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 531 19 gold say say.01 ----- 16:1*20:1-ARG1 17:1-ARG0 19:0-rel
-bc/msnbc/00/msnbc_0001.parse 367 3 gold look look.09 ----- 3:0-rel
 bc/msnbc/00/msnbc_0001.parse 161 0 gold thank thank.01 ----- 0:0-rel 1:1-ARGM-EXT
 bc/msnbc/00/msnbc_0001.parse 280 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2 3:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 6 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
@@ -1326,12 +1310,10 @@ bc/msnbc/00/msnbc_0001.parse 190 3 gold make make.01 ----- 0:1*4:1-ARG1 2:1-ARG0
 bc/msnbc/00/msnbc_0001.parse 55 15 gold do do.02 ----- 4:1-ARGM-TMP 12:1*16:1-ARG1 14:1-ARG0 15:0-rel 17:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 338 1 gold suspect suspect.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 324 29 gold give give.01 ----- 27:1*30:1-ARG1 29:0-rel
-bc/msnbc/00/msnbc_0001.parse 258 11 gold realize realize.01 ----- 0:1-ARGM-DIS 1:3-ARGM-DIS 9:1-ARG0 11:0-rel 12:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 443 14 gold change change.01 ----- 3:2*7:1*8:1-ARG0 3:2*7:1-LINK-SLC 9:0-ARGM-MOD 14:0-rel 15:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 314 5 gold force force.01 ----- 2:0-ARGM-MOD 3:1*6:1-ARG1 5:0-rel 7:2-ARG2
-bc/msnbc/00/msnbc_0001.parse 518 27 gold be be.03 ----- 27:0-rel
 bc/msnbc/00/msnbc_0001.parse 258 10 gold do do.01 ----- 10:0-rel
 bc/msnbc/00/msnbc_0001.parse 30 3 gold do do.01 ----- 3:0-rel
-bc/msnbc/00/msnbc_0001.parse 24 13 gold call call.02 ----- 12:1-ARG0 13:0-rel 14:1-ARGM-DIR
 bc/msnbc/00/msnbc_0001.parse 220 1 gold be be.03 ----- 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 273 6 gold go go.04 ----- 6:0-rel
 bc/msnbc/00/msnbc_0001.parse 158 6 gold imagine imagine.01 ----- 0:0-ARGM-DIS 1:1-ARGM-DIS 3:1-ARG0 4:0-ARGM-MOD 5:0-ARGM-NEG 6:0-rel 7:1-ARGM-DIS 8:2-ARG1
@@ -1344,18 +1326,15 @@ bc/msnbc/00/msnbc_0001.parse 54 2 gold let let.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:
 bc/msnbc/00/msnbc_0001.parse 142 20 gold cope cope.01 ----- 4:2-ARG0 20:0-rel 21:1-ARG1 23:1-ARGM-MNR
 bc/msnbc/00/msnbc_0001.parse 98 26 gold work work.01 ----- 23:1-ARG0 26:0-rel 27:3-ARGM-DIS 29:3-ARG1 33:3-ARGM-ADV
 bc/msnbc/00/msnbc_0001.parse 357 1 gold mean mean.01 ----- 0:1-ARG1 1:0-rel 2:4-ARG2
-bc/msnbc/00/msnbc_0001.parse 122 2 gold remember remember.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 257 13 gold walk walk.01 ----- 6:1*16:1-ARGM-TMP 7:1-ARG0 13:0-rel 14:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 402 7 gold question question.03 ----- 0:1-ARGM-DIS 2:1-ARGM-DIS 3:1-ARG0 6:0-ARGM-NEG 7:0-rel
 bc/msnbc/00/msnbc_0001.parse 322 11 gold process process.02 ----- 10:0-ARG1 11:0-rel 12:2-ARGM-ADJ
 bc/msnbc/00/msnbc_0001.parse 311 50 gold know know.01 ----- 42:1*44:1*45:1*47:1*51:1-ARG1 42:1*44:1-LINK-SLC 50:0-rel 52:1-ARG0
+bc/msnbc/00/msnbc_0001.parse 162 3 gold find find.01 ----- 0:1-ARGM-TMP 2:1-ARG0 3:0-rel 4:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 195 2 gold be be.03 ----- 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 204 7 gold be be.03 ----- 7:0-rel
 bc/msnbc/00/msnbc_0001.parse 192 14 gold take take.01 ----- 7:2*12:1*34:1-ARGM-TMP 7:2*12:1-LINK-SLC 13:1-ARG0 14:0-rel 15:1-ARG1 16:1-ARGM-DIR 17:2-ARGM-PRP
 bc/msnbc/00/msnbc_0001.parse 486 3 gold have have.01 ----- 3:0-rel
-bc/msnbc/00/msnbc_0001.parse 144 25 gold think think.01 ----- 24:1-ARG0 25:0-rel 26:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 298 15 gold be be.03 ----- 15:0-rel
-bc/msnbc/00/msnbc_0001.parse 326 16 gold think think.01 ----- 15:1-ARG0 16:0-rel 17:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 434 3 gold have have.01 ----- 3:0-rel
 bc/msnbc/00/msnbc_0001.parse 122 6 gold be be.03 ----- 6:0-rel
 bc/msnbc/00/msnbc_0001.parse 54 14 gold be be.02 ----- 8:3-ARGM-DIS 14:0-rel 15:0-ARGM-NEG 16:3-ARG1
@@ -1363,35 +1342,37 @@ bc/msnbc/00/msnbc_0001.parse 52 15 gold pursue pursue.01 ----- 10:1*13:1-ARG0 15
 bc/msnbc/00/msnbc_0001.parse 386 8 gold be be.01 ----- 7:1-ARG1 8:0-rel 9:2-ARG2
 bc/msnbc/00/msnbc_0001.parse 292 2 gold be be.03 ----- 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 191 3 gold hear hear.01 ----- 1:1-ARG0 2:1-ARGM-TMP 3:0-rel 4:1-ARG1 6:1-ARGM-TMP
-bc/msnbc/00/msnbc_0001.parse 356 30 gold decide decide.01 ----- 27:1-ARG0 28:0-ARGM-LVB 30:0-rel 31:1-ARGM-MNR
-bc/msnbc/00/msnbc_0001.parse 322 14 gold be be.01 ----- 9:1*12:1*13:1-ARG1 9:1*12:1-LINK-SLC 14:0-rel 15:1-ARGM-ADV 16:1-ARG2 18:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 45 1 gold know know.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
+bc/msnbc/00/msnbc_0001.parse 262 37 gold call call.02 ----- 31:1-ARG0 36:0-ARGM-MOD 37:0-rel 38:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 8 1 gold plead plead.02 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 234 9 gold be be.01 ----- 8:1-ARG1 9:0-rel 10:1-ARG2
-bc/msnbc/00/msnbc_0001.parse 297 2 gold dump dump.01 ----- 0:1-ARG0 2:0-rel 3:3-ARG1 11:1-ARGM-LOC
 bc/msnbc/00/msnbc_0001.parse 88 17 gold have have.03 ----- 8:2*15:1*18:1-ARG1 8:2*15:1-LINK-SLC 16:1-ARG0 17:0-rel
 bc/msnbc/00/msnbc_0001.parse 306 60 gold believe believe.01 ----- 59:1-ARG0 60:0-rel 61:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 306 23 gold know know.01 ----- 19:1*21:1*24:1-ARG1 19:1*21:1-LINK-SLC 22:1-ARG0 23:0-rel
 bc/msnbc/00/msnbc_0001.parse 378 1 gold hang hang_on.04 ----- 0:1-ARG1 1:0,2:1-rel
 bc/msnbc/00/msnbc_0001.parse 492 2 gold think think.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 183 5 gold have have.02 ----- 5:0-rel
+bc/msnbc/00/msnbc_0001.parse 504 3 gold be be.03 ----- 3:0-rel
 bc/msnbc/00/msnbc_0001.parse 201 30 gold go go.04 ----- 30:0-rel
 bc/msnbc/00/msnbc_0001.parse 119 21 gold be be.01 ----- 21:0-rel 22:1-ARG1 23:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 564 1 gold come come_up.11 ----- 0:1-ARG1 1:0,2:1-rel 3:1-ARGM-TMP 4:1-ARGM-LOC
-bc/msnbc/00/msnbc_0001.parse 290 9 gold kill kill.01 ----- 3:2-ARG1 9:0-rel 11:1-ARGM-LOC
 bc/msnbc/00/msnbc_0001.parse 18 16 gold be be.01 ----- 12:1*14:1*15:1-ARG1 12:1*14:1-LINK-SLC 16:0-rel 17:1-ARG2
-bc/msnbc/00/msnbc_0001.parse 529 2 gold say say.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG1 4:1-ARGM-TMP
+bc/msnbc/00/msnbc_0001.parse 314 16 gold be be.03 ----- 16:0-rel
+bc/msnbc/00/msnbc_0001.parse 57 3 gold deal deal.01 ----- 0:0-ARGM-DIS 2:1-ARG0 3:0-rel 4:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 195 15 gold know know.02 ----- 11:1*13:1*16:1-ARG1 11:1*13:1-LINK-SLC 14:1-ARG0 15:0-rel 17:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 440 16 gold think think.01 ----- 15:1-ARG0 16:0-rel
+bc/msnbc/00/msnbc_0001.parse 345 27 gold overturn overturn.01 ----- 25:1-ARG0 27:0-rel 28:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 152 5 gold know know.01 ----- 4:1-ARG0 5:0-rel
 bc/msnbc/00/msnbc_0001.parse 476 24 gold happen happen.01 ----- 21:1*22:1*23:1-ARG1 21:1*22:1-LINK-SLC 24:0-rel 25:1-ARGM-LOC
 bc/msnbc/00/msnbc_0001.parse 93 6 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARGM-LOC 4:1-ARG1 5:0-ARGM-MOD 6:0-rel 7:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 414 1 gold come come_up.11 ----- 0:1-ARG1 1:0,2:1-rel
 bc/msnbc/00/msnbc_0001.parse 110 6 gold loot loot.01 ----- 0:1*5:1-ARG0 6:0-rel
 bc/msnbc/00/msnbc_0001.parse 180 2 gold say say.01 ----- 0:1-ARG0 1:1-ARGM-ADV 2:0-rel 3:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 275 16 gold find find.01 ----- 15:1-ARG0 16:0-rel 17:1-ARG1 20:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 147 2 gold do do.01 ----- 2:0-rel
-bc/msnbc/00/msnbc_0001.parse 258 35 gold be be.03 ----- 35:0-rel
+bc/msnbc/00/msnbc_0001.parse 495 13 gold tell tell.01 ----- 8:2-ARG0 13:0-rel 14:1-ARG2 15:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 78 3 gold go go.04 ----- 3:0-rel
 bc/msnbc/00/msnbc_0001.parse 293 12 gold progress progress.01 ----- 12:0-rel 13:1-ARGM-TMP
+bc/msnbc/00/msnbc_0001.parse 150 19 gold get get.01 ----- 13:1*18:1-ARG0 13:1*18:1-LINK-PRO 19:0-rel 20:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 35 9 gold have have.04 ----- 0:1-ARGM-ADV 1:1-ARG0 2:0-ARGM-MOD 3:0-ARGM-NEG 9:0-rel 10:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 216 12 gold clear clear.02 ----- 5:1*7:1*8:1*13:1-ARG1 5:1*7:1-LINK-SLC 9:1-ARGM-ADV 12:0-rel 14:1-ARGM-DIS 15:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 119 99 gold do do.01 ----- 99:0-rel
@@ -1399,9 +1380,9 @@ bc/msnbc/00/msnbc_0001.parse 345 16 gold vote vote.01 ----- 14:1-ARG0 15:0-ARGM-
 bc/msnbc/00/msnbc_0001.parse 41 10 gold be be.03 ----- 10:0-rel
 bc/msnbc/00/msnbc_0001.parse 477 1 gold blame blame.01 ----- 0:1-ARG0 1:0-rel 2:3-ARG1
 bc/msnbc/00/msnbc_0001.parse 391 17 gold be be.01 ----- 16:1-ARG1 17:0-rel 18:1-ARGM-ADV 19:2-ARG2
-bc/msnbc/00/msnbc_0001.parse 359 2 gold be be.01 ----- 1:1-ARG1 2:0-rel
+bc/msnbc/00/msnbc_0001.parse 401 3 gold go go.04 ----- 3:0-rel
+bc/msnbc/00/msnbc_0001.parse 467 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 bc/msnbc/00/msnbc_0001.parse 516 29 gold want want.01 ----- 26:1-ARG0 28:0-ARGM-NEG 29:0-rel 30:2-ARG1
-bc/msnbc/00/msnbc_0001.parse 412 14 gold convict convict.01 ----- 14:0-rel 16:0-ARG1
 bc/msnbc/00/msnbc_0001.parse 253 12 gold meet meet.02 ----- 11:1-ARG0 12:0-rel 13:1-ARGM-LOC
 bc/msnbc/00/msnbc_0001.parse 427 9 gold be be.03 ----- 9:0-rel
 bc/msnbc/00/msnbc_0001.parse 119 15 gold proceed proceeding.02 ----- 15:0-rel
@@ -1409,41 +1390,47 @@ bc/msnbc/00/msnbc_0001.parse 30 5 gold want want.01 ----- 0:1-ARGM-DIS 1:1-ARG0 
 bc/msnbc/00/msnbc_0001.parse 220 33 gold find find.01 ----- 30:1-ARGM-TMP 31:1-ARG0 33:0-rel 34:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 122 15 gold speak speak.01 ----- 12:1*16:1-ARGM-MNR 13:1-ARG0 15:0-rel
 bc/msnbc/00/msnbc_0001.parse 67 12 gold be be.03 ----- 12:0-rel
-bc/msnbc/00/msnbc_0001.parse 306 9 gold trust trust.02 ----- 4:1*7:1-ARG0 9:0-rel 10:1-ARG1 11:1-ARGM-ADV
+bc/msnbc/00/msnbc_0001.parse 136 3 gold have have.01 ----- 3:0-rel
 bc/msnbc/00/msnbc_0001.parse 255 18 gold indicate indicate.01 ----- 7:2*14:1*17:1-ARG0 7:2*14:1-LINK-SLC 18:0-rel 19:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 480 6 gold be be.02 ----- 6:0-rel 7:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 487 27 gold be be.01 ----- 0:0-ARGM-DIS 1:2-ARGM-ADV 26:1*35:1-ARG1 27:0-rel 28:2-ARG2
 bc/msnbc/00/msnbc_0001.parse 120 3 gold justify justify.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-ARGM-NEG 3:0-rel 4:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 528 9 gold be be.03 ----- 9:0-rel
 bc/msnbc/00/msnbc_0001.parse 415 10 gold charge charge.05 ----- 8:1*11:1-ARG1 8:1*11:1-LINK-PSV 10:0-rel 12:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 298 16 gold hit hit.01 ----- 11:1*13:1*14:1*17:1-ARG1 11:1*13:1-LINK-SLC 16:0-rel 18:1-ARG2
-bc/msnbc/00/msnbc_0001.parse 436 7 gold be be.03 ----- 7:0-rel
+bc/msnbc/00/msnbc_0001.parse 157 6 gold go go.04 ----- 6:0-rel
 bc/msnbc/00/msnbc_0001.parse 547 5 gold want want.01 ----- 0:1-ARGM-ADV 4:1-ARG0 5:0-rel 6:2-ARG1
+bc/msnbc/00/msnbc_0001.parse 232 15 gold leave leave.11 ----- 14:1-ARG0 15:0-rel 16:1-ARG1 18:2-ARGM-PRP
 bc/msnbc/00/msnbc_0001.parse 4 9 gold accuse accuse.01 ----- 0:2*10:1-ARG1 4:1-ARGM-TMP 9:0-rel 11:1-ARG2 23:2-ARGM-ADV
 bc/msnbc/00/msnbc_0001.parse 477 4 gold hire hire.01 ----- 4:0-rel 5:0-ARG1
 bc/msnbc/00/msnbc_0001.parse 79 2 gold be be.01 ----- 0:1-ARGM-DIS 1:1-ARG1 2:0-rel 3:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 562 9 gold tell tell.01 ----- 0:2-ARGM-TMP 7:1-ARG0 8:0-ARGM-MOD 9:0-rel 10:1-ARG2 11:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 115 3 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARG1 3:0-rel 4:2-ARG2
 bc/msnbc/00/msnbc_0001.parse 444 2 gold get get.06 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
+bc/msnbc/00/msnbc_0001.parse 143 30 gold act act.02 ----- 30:0-rel
 bc/msnbc/00/msnbc_0001.parse 229 12 gold do do.01 ----- 12:0-rel
 bc/msnbc/00/msnbc_0001.parse 419 11 gold have have.03 ----- 8:1-ARG0 10:0-ARGM-NEG 11:0-rel 12:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 557 4 gold think think.01 ----- 0:1-ARG1 1:1-ARG0 3:0-ARGM-NEG 4:0-rel 5:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 29 14 gold be be.03 ----- 14:0-rel
 bc/msnbc/00/msnbc_0001.parse 433 1 gold pay pay.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 102 22 gold hear hear.01 ----- 21:1-ARG0 22:0-rel 23:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 427 3 gold tell tell.01 ----- 0:1-ARGM-TMP 2:1-ARG0 3:0-rel 4:1-ARG2 7:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 468 43 gold be be.03 ----- 43:0-rel
 bc/msnbc/00/msnbc_0001.parse 109 5 gold investigate investigate.01 ----- 0:2*6:1-ARG1 5:0-rel 7:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 504 4 gold focus focus.01 ----- 0:1-ARGM-TMP 2:1-ARG0 4:0-rel 5:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 172 7 gold be be.03 ----- 7:0-rel
 bc/msnbc/00/msnbc_0001.parse 430 3 gold know know.01 ----- 0:1-ARG0 3:0-rel 4:2-ARG1
+bc/msnbc/00/msnbc_0001.parse 22 14 gold be be.01 ----- 7:2-ARG1 14:0-rel 15:0-ARGM-NEG 16:1-ARG2 17:1-ARGM-ADV
 bc/msnbc/00/msnbc_0001.parse 1 2 gold face face.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1 6:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 55 13 gold do do.01 ----- 13:0-rel
 bc/msnbc/00/msnbc_0001.parse 334 9 gold go go.04 ----- 9:0-rel
 bc/msnbc/00/msnbc_0001.parse 306 43 gold understand understand.01 ----- 3:2-ARGM-DIS 14:2-ARGM-TMP 41:1-ARG0 42:0-ARGM-MOD 43:0-rel 53:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 144 8 gold say say.01 ----- 5:1*9:1-ARG1 6:1-ARG0 8:0-rel 10:1-ARGM-TMP
+bc/msnbc/00/msnbc_0001.parse 10 31 gold say say.01 ----- 20:1-ARG0 30:1-ARGM-TMP 31:0-rel 32:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 201 33 gold charge charge.05 ----- 28:1*31:1-ARG0 33:0-rel 34:1-ARG1 35:1-ARG2
-bc/msnbc/00/msnbc_0001.parse 374 11 gold be be.03 ----- 11:0-rel
+bc/msnbc/00/msnbc_0001.parse 409 13 gold get get.01 ----- 6:1*14:1-ARG1 7:1*10:1-ARG0 13:0-rel 15:1-ARG2 18:1-ARGM-DIS
 bc/msnbc/00/msnbc_0001.parse 441 14 gold be be.03 ----- 14:0-rel
-bc/msnbc/00/msnbc_0001.parse 85 8 gold explain explain.01 ----- 8:0-rel
-bc/msnbc/00/msnbc_0001.parse 450 2 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 2:0-rel 3:0-ARGM-NEG 4:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 343 1 gold think think.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 143 10 gold say say.01 ----- 4:1*8:1-ARG0 10:0-rel 11:1-ARGM-TMP 15:1-ARGM-TMP 31:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 336 11 gold nominate nominate.01 ----- 9:1-ARG0 11:0-rel
 bc/msnbc/00/msnbc_0001.parse 124 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
@@ -1451,8 +1438,10 @@ bc/msnbc/00/msnbc_0001.parse 326 20 gold come come_out.09 ----- 18:1-ARG1 19:0-A
 bc/msnbc/00/msnbc_0001.parse 357 9 gold testify testify.01 ----- 6:1-ARG0 9:0-rel
 bc/msnbc/00/msnbc_0001.parse 336 5 gold give give.01 ----- 0:1*6:1-ARG2 2:1-ARGM-ADV 5:0-rel 7:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 308 10 gold be be.01 ----- 0:2-ARG1 9:0-ARGM-MOD 10:0-rel 11:1-ARG2 14:1-ARGM-ADV
+bc/msnbc/00/msnbc_0001.parse 520 5 gold resort resort.01 ----- 0:1-ARG0 4:1-ARGM-ADV 5:0-rel 6:2-ARG1 15:2-ARGM-CAU
 bc/msnbc/00/msnbc_0001.parse 354 1 gold know know.01 ----- 0:1-ARG0 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 238 5 gold be be.01 ----- 4:1-ARG1 5:0-rel 6:2-ARG2
+bc/msnbc/00/msnbc_0001.parse 201 36 gold connect connect.01 ----- 36:0-rel 37:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 90 15 gold say say.01 ----- 6:1-ARG0 15:0-rel 16:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 468 21 gold do do.02 ----- 14:1*16:1-ARGM-TMP 14:1*16:1-LINK-SLC 17:1-ARG0 21:0-rel 22:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 448 6 gold concede concede.01 ----- 0:0-ARGM-DIS 1:1-ARGM-ADV 4:1-ARG0 5:0-ARGM-MOD 6:0-rel 11:1-ARG1
@@ -1467,54 +1456,47 @@ bc/msnbc/00/msnbc_0001.parse 390 3 gold liken like.02 ----- 1:1-ARG0 2:0-ARGM-MO
 bc/msnbc/00/msnbc_0001.parse 222 18 gold wait wait.01 ----- 8:1*11:1-ARG1 18:0-rel 19:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 291 10 gold aid aid.01 ----- 10:0-rel
 bc/msnbc/00/msnbc_0001.parse 257 8 gold wake wake_up.02 ----- 6:1*16:1-ARGM-TMP 7:1-ARG1 8:0,9:1-rel
+bc/msnbc/00/msnbc_0001.parse 0 6 gold intoxicate intoxicate.01 ----- 5:0-ARGM-LOC 6:0-rel
 bc/msnbc/00/msnbc_0001.parse 66 7 gold be be.03 ----- 7:0-rel
-bc/msnbc/00/msnbc_0001.parse 105 7 gold sleep sleep.01 ----- 3:1*4:1*5:1-ARG0 3:1*4:1-LINK-SLC 6:1-ARGM-MNR 7:0-rel 8:1-ARGM-LOC 11:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 340 17 gold hear hearing.02 ----- 15:1-ARG0 17:0-rel
 bc/msnbc/00/msnbc_0001.parse 562 4 gold arrange arrange.01 ----- 3:1-ARG0 4:0-rel 5:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 561 9 gold try try.02 ----- 4:2-ARG1 9:0-rel
 bc/msnbc/00/msnbc_0001.parse 487 10 gold have have.01 ----- 10:0-rel
 bc/msnbc/00/msnbc_0001.parse 503 14 gold find find.01 ----- 12:1-ARG0 14:0-rel 15:1-ARG1 17:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 411 1 gold appreciate appreciate.02 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 409 5 gold be be.01 ----- 4:1-ARG1 5:0-rel 6:2-ARG2
 bc/msnbc/00/msnbc_0001.parse 153 1 gold be be.01 ----- 0:0-ARGM-DIS 1:0-rel 2:1-ARG1 3:2-ARG2
 bc/msnbc/00/msnbc_0001.parse 324 19 gold be be.03 ----- 19:0-rel
 bc/msnbc/00/msnbc_0001.parse 505 4 gold find find.02 ----- 3:1-ARG0 4:0-rel 5:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 543 6 gold say say.01 ----- 0:2-ARG0 6:0-rel 7:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 179 23 gold disappear disappear.01 ----- 19:1*21:1*24:1-ARGM-TMP 19:1*21:1-LINK-SLC 22:1-ARG1 23:0-rel
 bc/msnbc/00/msnbc_0001.parse 296 5 gold be be.01 ----- 0:2-ARG1 5:0-rel 6:1-ARG2 8:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 310 10 gold call call_on.05 ----- 0:2-ARG0 10:0-rel 11:1-ARG1 13:2-ARG2
 bc/msnbc/00/msnbc_0001.parse 127 1 gold follow follow.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
-bc/msnbc/00/msnbc_0001.parse 33 10 gold defend defend.01 ----- 0:0-ARGM-DIS 1:1-ARGM-DIS 2:2-ARGM-ADV 7:1-ARG0 9:0-ARGM-NEG 10:0-rel 11:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 344 11 gold include include.01 ----- 0:2-ARG2 11:0-rel 12:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 459 4 gold view view.02 ----- 0:1*19:1-ARGM-MNR 2:1*5:1-ARG1 4:0-rel 6:1-ARGM-MNR 7:1-ARG2 11:1-ARGM-ADV
 bc/msnbc/00/msnbc_0001.parse 524 21 gold have have.01 ----- 21:0-rel
 bc/msnbc/00/msnbc_0001.parse 468 10 gold succeed succeed.01 ----- 7:2-ARG1 10:0-rel
 bc/msnbc/00/msnbc_0001.parse 98 5 gold hear hear.01 ----- 2:1*6:1-ARG1 3:1-ARG0 4:1-ARGM-ADV 5:0-rel 7:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 191 9 gold start start.01 ----- 7:1-ARG1 9:0-rel
-bc/msnbc/00/msnbc_0001.parse 326 11 gold talk talk.01 ----- 6:1*8:1,12:1-ARG1 6:1*8:1-LINK-SLC 9:1-ARG0 11:0-rel
 bc/msnbc/00/msnbc_0001.parse 387 8 gold give give.01 ----- 7:1*9:1-ARG1 7:1*9:1-LINK-PSV 8:0-rel 10:1-ARG2 16:1-ARGM-PRD
 bc/msnbc/00/msnbc_0001.parse 270 16 gold tell tell.01 ----- 10:1*17:1-ARG1 11:3-ARG0 16:0-rel 18:1-ARG2 20:2-ARGM-PRP
+bc/msnbc/00/msnbc_0001.parse 194 3 gold drop drop_off.03 ----- 0:1-ARGM-DIS 1:1-ARG0 3:0,5:1-rel 4:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 179 1 gold admit admit.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 438 4 gold be be.03 ----- 4:0-rel
 bc/msnbc/00/msnbc_0001.parse 335 1 gold do do.01 ----- 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 510 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 bc/msnbc/00/msnbc_0001.parse 389 24 gold be be.01 ----- 0:2-ARG1 24:0-rel 25:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 44 7 gold say say.01 ----- 1:2-ARG0 7:0-rel 8:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 344 4 gold have have.01 ----- 4:0-rel
-bc/msnbc/00/msnbc_0001.parse 515 3 gold be be.02 ----- 0:1-ARGM-DIS 3:0-rel 4:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 25 31 gold lose lose.02 ----- 24:2-ARG0 29:1-ARGM-ADV 31:0-rel 32:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 405 17 gold mean mean.02 ----- 14:1-ARG0 16:0-ARGM-NEG 17:0-rel 18:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 81 20 gold defer defer.02 ----- 15:1*18:1-ARG0 20:0-rel 21:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 437 2 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 2:0-rel 3:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 20 25 gold be be.01 ----- 24:1-ARG1 25:0-rel 26:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 57 1 gold do do.01 ----- 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 83 4 gold think think.01 ----- 0:1-ARGM-DIS 1:1-ARG0 3:0-ARGM-NEG 4:0-rel 5:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 243 12 gold reside reside.01 ----- 0:1-ARGM-ADV 1:1-ARG0 10:0-ARGM-NEG 11:1-ARGM-ADV 12:0-rel 13:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 496 8 gold react react.01 ----- 5:1*12:1-ARGM-MNR 6:1-ARG0 8:0-rel 9:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 33 10 gold defend defend.01 ----- 0:0-ARGM-DIS 1:1-ARGM-DIS 2:2-ARGM-ADV 7:1-ARG0 9:0-ARGM-NEG 10:0-rel 11:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 455 2 gold have have.03 ----- 0:1*11:1-ARGM-TMP 1:1-ARG0 2:0-rel 4:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 38 3 gold bring bring.01 ----- 0:1*8:1-ARGM-TMP 1:1*4:1-ARG1 3:0-rel 5:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 528 15 gold advocate advocate.01 ----- 15:0-rel
-bc/msnbc/00/msnbc_0001.parse 468 32 gold act act.02 ----- 14:1*16:1*33:1-ARGM-TMP 14:1*16:1-LINK-SLC 17:1-ARG0 23:1-ARGM-DIS 31:0-ARGM-NEG 32:0-rel
-bc/msnbc/00/msnbc_0001.parse 66 9 gold counsel counsel.01 ----- 3:1*5:1*6:1-ARG0 3:1*5:1-LINK-SLC 9:0-rel 10:1-ARG1 12:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 70 4 gold be be.03 ----- 4:0-rel
 bc/msnbc/00/msnbc_0001.parse 500 16 gold do do.02 ----- 6:2-ARGM-TMP 12:2-ARG0 16:0-rel 17:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 356 18 gold know know.02 ----- 13:1*15:1*16:1-ARG0 13:1*15:1-LINK-SLC 18:0-rel 19:1-ARG1 21:1-ARGM-TMP
@@ -1522,9 +1504,9 @@ bc/msnbc/00/msnbc_0001.parse 5 18 gold appear appear.02 ----- 16:1*19:1,20:1-ARG
 bc/msnbc/00/msnbc_0001.parse 418 30 gold let let.01 ----- 29:1-ARG0 30:0-rel 31:1-ARG1 32:1-ARGM-DIR 33:1-ARGM-MNR 35:2-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 344 35 gold have have.03 ----- 34:1-ARG0 35:0-rel 36:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 35 11 gold charge charge.05 ----- 10:1*12:1-ARG1 11:0-rel 13:1-ARG2
-bc/msnbc/00/msnbc_0001.parse 479 2 gold get get.06 ----- 0:1*3:2-ARG1 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 227 14 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARGM-DIS 2:1-ARGM-ADV 4:1-ARGM-LOC 13:1-ARG1 14:0-rel 15:1-ARG2 16:1-ARGM-CAU
 bc/msnbc/00/msnbc_0001.parse 318 22 gold tell tell.01 ----- 20:1*21:1-ARG0 22:0-rel 23:1-ARG2 24:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 349 2 gold take take.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 4:1-ARG1 6:1-ARGM-MNR
 bc/msnbc/00/msnbc_0001.parse 1 1 gold be be.03 ----- 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 409 9 gold go go.04 ----- 9:0-rel
 bc/msnbc/00/msnbc_0001.parse 157 1 gold think think.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
@@ -1534,28 +1516,30 @@ bc/msnbc/00/msnbc_0001.parse 452 18 gold throw throw.01 ----- 15:1-ARGM-ADV 16:0
 bc/msnbc/00/msnbc_0001.parse 87 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 391 6 gold be be.01 ----- 5:1-ARG1 6:0-rel 7:2-ARG2 15:1-ARGM-ADV 28:1-ARGM-CAU
 bc/msnbc/00/msnbc_0001.parse 303 24 gold be be.01 ----- 17:2*21:1*25:1-ARG2 17:2*21:1-LINK-SLC 22:1-ARG1 23:0-ARGM-MOD 24:0-rel
-bc/msnbc/00/msnbc_0001.parse 194 3 gold drop drop_off.03 ----- 0:1-ARGM-DIS 1:1-ARG0 3:0,5:1-rel 4:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 326 11 gold talk talk.01 ----- 6:1*8:1,12:1-ARG1 6:1*8:1-LINK-SLC 9:1-ARG0 11:0-rel
 bc/msnbc/00/msnbc_0001.parse 118 13 gold engage engage.01 ----- 11:1-ARG0 13:0-rel 14:1-ARG2 16:1-ARGM-DIS 17:1-ARGM-CAU
 bc/msnbc/00/msnbc_0001.parse 231 1 gold thank thank.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 10 17 gold break break.13 ----- 16:0-ARGM-TMP 17:0-rel 18:0-ARG1
 bc/msnbc/00/msnbc_0001.parse 505 1 gold need need.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 221 3 gold be be.02 ----- 0:1-ARGM-ADV 3:0-rel 4:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 82 24 gold horrify horrify.01 ----- 16:1*25:1-ARG1 24:0-rel
 bc/msnbc/00/msnbc_0001.parse 366 28 gold know know.01 ----- 24:1*26:1-ARG0 28:0-rel 29:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 381 4 gold hang hang_on.04 ----- 0:1-ARG1 4:0,5:1-rel 6:1-ARGM-DIS
 bc/msnbc/00/msnbc_0001.parse 255 21 gold be be.03 ----- 21:0-rel
 bc/msnbc/00/msnbc_0001.parse 520 3 gold be be.03 ----- 3:0-rel
 bc/msnbc/00/msnbc_0001.parse 332 6 gold talk talk.01 ----- 3:1*7:1-ARG1 4:1-ARG0 6:0-rel
+bc/msnbc/00/msnbc_0001.parse 301 2 gold interview interview.01 ----- 1:0-ARG0 2:0-rel 3:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 290 1 gold estimate estimate.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 306 49 gold fear fear.01 ----- 49:0-rel
-bc/msnbc/00/msnbc_0001.parse 286 6 gold happen happen.01 ----- 3:1*4:1-ARG1 6:0-rel
 bc/msnbc/00/msnbc_0001.parse 275 22 gold strike strike.01 ----- 21:1-ARG0 22:0-rel 23:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 531 18 gold be be.03 ----- 18:0-rel
 bc/msnbc/00/msnbc_0001.parse 486 6 gold let let.01 ----- 0:1*7:1-ARG1 2:0-ARGM-MOD 4:1-ARGM-TMP 6:0-rel 8:1-ARGM-DIR
+bc/msnbc/00/msnbc_0001.parse 528 6 gold advise advise.01 ----- 6:0-rel
+bc/msnbc/00/msnbc_0001.parse 158 25 gold connect connect.01 ----- 25:0-rel 26:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 311 20 gold bear bear.06 ----- 17:1*18:1*19:1-ARG1 17:1*18:1-LINK-SLC 20:0-rel 21:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 443 18 gold be be.03 ----- 18:0-rel
 bc/msnbc/00/msnbc_0001.parse 53 19 gold do do.02 ----- 17:1-ARG0 19:0-rel 20:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 412 23 gold let let.01 ----- 19:1*22:1-ARG0 23:0-rel 24:1-ARG1 25:1-ARGM-DIR 26:1-ARGM-MNR
+bc/msnbc/00/msnbc_0001.parse 374 11 gold be be.03 ----- 11:0-rel
 bc/msnbc/00/msnbc_0001.parse 319 5 gold have have.03 ----- 2:1-ARG0 4:0-ARGM-NEG 5:0-rel 6:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 374 12 gold talk talk.01 ----- 9:1*13:1-ARG1 10:1-ARG0 12:0-rel
 bc/msnbc/00/msnbc_0001.parse 245 20 gold be be.01 ----- 19:1-ARG1 20:0-rel 21:1-ARG2
@@ -1570,32 +1554,39 @@ bc/msnbc/00/msnbc_0001.parse 486 5 gold be be.03 ----- 5:0-rel
 bc/msnbc/00/msnbc_0001.parse 389 6 gold come come_out.09 ----- 0:1*1:1*4:1-ARG1 6:0,7:1-rel 8:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 468 44 gold hold hold.01 ----- 40:1*45:1-ARG1 42:0-ARGM-MOD 44:0-rel 46:2-ARG3
 bc/msnbc/00/msnbc_0001.parse 304 30 gold believe believe.01 ----- 28:1-ARG0 30:0-rel 31:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 25 31 gold lose lose.02 ----- 24:2-ARG0 29:1-ARGM-ADV 31:0-rel 32:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 78 6 gold handle handle.01 ----- 0:1*4:1-ARG0 6:0-rel 7:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 119 25 gold be be.01 ----- 25:0-rel 26:1-ARG1 28:2-ARG2
 bc/msnbc/00/msnbc_0001.parse 50 9 gold say say.01 ----- 3:1*7:1-ARG0 9:0-rel 11:2-ARG1
+bc/msnbc/00/msnbc_0001.parse 405 11 gold be be.03 ----- 11:0-rel
+bc/msnbc/00/msnbc_0001.parse 129 5 gold be be.03 ----- 5:0-rel
+bc/msnbc/00/msnbc_0001.parse 287 2 gold devastate devastate.01 ----- 2:0-rel 3:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 254 5 gold have have.01 ----- 5:0-rel
 bc/msnbc/00/msnbc_0001.parse 117 14 gold misconduct misconduct.01 ----- 14:0-rel
 bc/msnbc/00/msnbc_0001.parse 7 16 gold subdue subdue.01 ----- 12:1*14:1*15:1-ARG0 12:1*14:1-LINK-SLC 16:0-rel 17:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 74 0 gold be be.01 ----- 0:0-rel 1:1-ARG1 2:1-ARGM-ADV 5:1-ARGM-DIS
-bc/msnbc/00/msnbc_0001.parse 65 3 gold be be.01 ----- 0:1-ARG1 3:0-rel 4:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 478 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:0-ARGM-NEG 3:2-ARG2
-bc/msnbc/00/msnbc_0001.parse 282 0 gold do do.01 ----- 0:0-rel
 bc/msnbc/00/msnbc_0001.parse 169 11 gold tell tell.01 ----- 7:2-ARG0 11:0-rel 12:1-ARG2 13:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 547 2 gold happen happen.01 ----- 1:1-ARG1 2:0-rel 3:1-ARGM-TMP
+bc/msnbc/00/msnbc_0001.parse 13 1 gold let let.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 318 28 gold say say.01 ----- 27:1-ARG0 28:0-rel
 bc/msnbc/00/msnbc_0001.parse 391 22 gold say say.01 ----- 19:1*20:1*23:1-ARG1 22:0-rel
+bc/msnbc/00/msnbc_0001.parse 355 3 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 3:0-rel 4:4-ARG2
 bc/msnbc/00/msnbc_0001.parse 44 6 gold be be.03 ----- 6:0-rel
 bc/msnbc/00/msnbc_0001.parse 337 8 gold be be.03 ----- 8:0-rel
 bc/msnbc/00/msnbc_0001.parse 5 36 gold be be.01 ----- 30:1*32:1*33:1-ARG1 30:1*32:1-LINK-SLC 35:1-ARGM-TMP 36:0-rel 37:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 240 15 gold think think.01 ----- 14:1-ARG0 15:0-rel 16:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 388 1 gold answer answer.01 ----- 1:0-rel 2:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 491 1 gold think think.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 305 22 gold get get.02 ----- 20:1-ARG0 22:0-rel 23:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 5 28 gold recover recover.01 ----- 27:0-ARGM-MNR 28:0-rel 29:1-ARGM-LOC
 bc/msnbc/00/msnbc_0001.parse 183 1 gold know know.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 258 23 gold have have.03 ----- 19:1*21:1*24:1-ARG1 19:1*21:1-LINK-SLC 22:1-ARG0 23:0-rel
 bc/msnbc/00/msnbc_0001.parse 27 34 gold get get_back.09 ----- 31:1-ARG0 34:0,37:1-rel 35:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 243 12 gold reside reside.01 ----- 0:1-ARGM-ADV 1:1-ARG0 10:0-ARGM-NEG 11:1-ARGM-ADV 12:0-rel 13:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 86 2 gold let let.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 226 3 gold thank thank.01 ----- 0:1-ARGM-DIS 2:1-ARG0 3:0-rel 4:1-ARG1 5:1-ARGM-ADV 7:1-ARGM-DIS 9:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 106 11 gold have have.01 ----- 11:0-rel
-bc/msnbc/00/msnbc_0001.parse 323 4 gold tell tell.01 ----- 3:1-ARG0 4:0-rel 5:1-ARG2 6:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 4 8 gold be be.03 ----- 8:0-rel
 bc/msnbc/00/msnbc_0001.parse 523 3 gold hide hide.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-ARGM-NEG 3:0-rel 4:1-ARGM-LOC
 bc/msnbc/00/msnbc_0001.parse 118 28 gold go go_on.15 ----- 19:1*23:1*26:1-ARG1 19:1*23:1-LINK-SLC 28:0,29:1-rel 30:1-ARGM-TMP
@@ -1603,10 +1594,10 @@ bc/msnbc/00/msnbc_0001.parse 294 13 gold stay stay.01 ----- 0:1-ARG1 13:0-rel 14
 bc/msnbc/00/msnbc_0001.parse 207 3 gold be be.01 ----- 0:1-ARGM-ADV 1:1-ARG1 3:0-rel 4:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 31 5 gold have have.01 ----- 5:0-rel
 bc/msnbc/00/msnbc_0001.parse 98 36 gold sleep sleep.01 ----- 33:2-ARG0 36:0-rel 37:1-ARGM-LOC
-bc/msnbc/00/msnbc_0001.parse 110 9 gold condone condone.01 ----- 0:1*8:1-ARG0 9:0-rel 10:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 476 16 gold blame blame.01 ----- 15:1-ARG0 16:0-rel 17:1-ARG1 20:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 490 17 gold give give.01 ----- 14:1*16:1-ARG0 17:0-rel 18:1-ARG2 19:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 468 30 gold do do.01 ----- 30:0-rel
+bc/msnbc/00/msnbc_0001.parse 81 3 gold determine determine.01 ----- 2:1-ARG0 3:0-rel 4:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 55 9 gold have have.03 ----- 8:1-ARG0 9:0-rel 10:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 44 13 gold drink drink.01 ----- 9:1-ARG0 11:0-ARGM-NEG 12:1-ARGM-ADV 13:0-rel 14:1-ARGM-DIS 15:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 24 4 gold continue continue.01 ----- 3:1-ARG0 4:0-rel 5:2-ARG1
@@ -1617,9 +1608,13 @@ bc/msnbc/00/msnbc_0001.parse 418 26 gold be be.01 ----- 15:3-ARG1 26:0-rel 27:1-
 bc/msnbc/00/msnbc_0001.parse 192 19 gold look look.01 ----- 15:1*17:1-ARG0 19:0-rel 20:1-ARG1 22:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 47 10 gold have have.03 ----- 0:0-ARGM-DIS 1:1-ARGM-TMP 2:1-ARGM-DIS 8:1-ARG0 9:0-ARGM-MOD 10:0-rel 11:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 352 5 gold be be.03 ----- 5:0-rel
+bc/msnbc/00/msnbc_0001.parse 324 8 gold involve involve.01 ----- 2:1*3:1*4:1-ARG1 2:1*3:1-LINK-SLC 7:0-ARGM-ADV 8:0-rel 9:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 202 9 gold be be.03 ----- 9:0-rel
 bc/msnbc/00/msnbc_0001.parse 472 6 gold do do.02 ----- 0:1-ARGM-DIS 1:1-ARGM-LOC 4:1-ARG0 6:0-rel 7:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 134 10 gold get get.05 ----- 3:1-ARG1 10:0-rel 11:1-ARG2 12:1-ARGM-ADV
 bc/msnbc/00/msnbc_0001.parse 367 12 gold happen happen.01 ----- 3:1-ARGM-DIS 10:1-ARG1 11:0-ARGM-MOD 12:0-rel
+bc/msnbc/00/msnbc_0001.parse 306 35 gold take take.01 ----- 19:3*33:1*34:1-ARG0 19:3*33:1-LINK-SLC 35:0-rel 36:1-ARG1 37:1-ARGM-DIR
+bc/msnbc/00/msnbc_0001.parse 0 2 gold charge charge.05 ----- 0:1*3:1-ARG1 2:0-rel 4:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 319 16 gold have have.03 ----- 14:1-ARG0 16:0-rel 17:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 363 5 gold happen happen.01 ----- 2:1-ARG1 3:0-ARGM-MOD 4:0-ARGM-NEG 5:0-rel
 bc/msnbc/00/msnbc_0001.parse 326 53 gold be be.01 ----- 44:2*51:1*52:1-ARG1 44:2*51:1-LINK-SLC 53:0-rel 54:1-ARG2 57:1-ARGM-DIS 58:2-ARGM-TMP
@@ -1631,24 +1626,19 @@ bc/msnbc/00/msnbc_0001.parse 134 9 gold be be.03 ----- 9:0-rel
 bc/msnbc/00/msnbc_0001.parse 527 15 gold rule rule.01 ----- 9:1*16:1-ARGM-MNR 10:1-ARG0 14:0-ARGM-MOD 15:0-rel
 bc/msnbc/00/msnbc_0001.parse 391 33 gold sound sound.01 ----- 32:1-ARG1 33:0-rel 34:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 119 87 gold be be.01 ----- 85:1-ARG1 87:0-rel 88:1-ARG2 92:1-ARGM-DIS
-bc/msnbc/00/msnbc_0001.parse 75 3 gold be be.01 ----- 1:1-ARG1 3:0-rel 4:1-ARGM-ADV 5:1-ARG2 8:2-ARGM-ADV
-bc/msnbc/00/msnbc_0001.parse 548 2 gold do do.01 ----- 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 181 3 gold be be.03 ----- 3:0-rel
 bc/msnbc/00/msnbc_0001.parse 54 23 gold be be.03 ----- 23:0-rel
 bc/msnbc/00/msnbc_0001.parse 319 12 gold have have.03 ----- 10:1-ARG0 12:0-rel
+bc/msnbc/00/msnbc_0001.parse 436 7 gold be be.03 ----- 7:0-rel
+bc/msnbc/00/msnbc_0001.parse 213 4 gold be be.01 ----- 1:0-ARGM-DIS 2:1-ARG1 4:0-rel 5:2-ARG2
 bc/msnbc/00/msnbc_0001.parse 490 11 gold do do.01 ----- 11:0-rel
 bc/msnbc/00/msnbc_0001.parse 86 12 gold go go.02 ----- 11:1-ARG0 12:0-rel 13:1-ARG4
-bc/msnbc/00/msnbc_0001.parse 520 27 gold vote vote.01 ----- 25:1-ARG0 26:0-ARGM-MOD 27:0-rel 28:1-ARGM-MNR
-bc/msnbc/00/msnbc_0001.parse 117 2 gold think think.01 ----- 2:0-rel 3:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 528 17 gold confront confront.01 ----- 17:0-rel
-bc/msnbc/00/msnbc_0001.parse 310 15 gold come come.01 ----- 12:1*13:1-ARG1 15:0-rel 16:1-ARG4
-bc/msnbc/00/msnbc_0001.parse 500 8 gold come come.12 ----- 6:1*11:1-ARGM-TMP 8:0-rel 9:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 30 14 gold excuse excuse.02 ----- 14:0-rel
+bc/msnbc/00/msnbc_0001.parse 282 18 gold abort abort.01 ----- 18:0-rel
 bc/msnbc/00/msnbc_0001.parse 220 13 gold know know.01 ----- 10:1-ARG0 12:0-ARGM-NEG 13:0-rel 14:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 348 0 gold be be.01 ----- 0:0-rel 2:1*4:1-ARG1 3:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 227 43 gold know know.02 ----- 39:1-ARG0 41:0-ARGM-NEG 42:1-ARGM-ADV 43:0-rel 44:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 324 20 gold work work.01 ----- 16:1*17:1*18:1-ARG0 16:1*17:1-LINK-SLC 20:0-rel 21:1-ARG3
-bc/msnbc/00/msnbc_0001.parse 168 2 gold battle battle.01 ----- 2:0-rel 3:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 218 1 gold be be.03 ----- 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 206 30 gold be be.03 ----- 30:0-rel
 bc/msnbc/00/msnbc_0001.parse 59 11 gold see see.01 ----- 9:1-ARG0 11:0-rel 15:1-ARGM-DIS 16:1-ARG1
@@ -1657,17 +1647,17 @@ bc/msnbc/00/msnbc_0001.parse 344 5 gold be be.03 ----- 5:0-rel
 bc/msnbc/00/msnbc_0001.parse 256 2 gold be be.02 ----- 2:0-rel 3:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 257 35 gold know know.06 ----- 34:1-ARG0 35:0-rel
 bc/msnbc/00/msnbc_0001.parse 140 1 gold be be.01 ----- 0:1*2:1-ARG1 1:0-rel 3:2-ARG2
-bc/msnbc/00/msnbc_0001.parse 245 12 gold do do.01 ----- 12:0-rel
 bc/msnbc/00/msnbc_0001.parse 369 1 gold come come_on.08 ----- 0:1-ARG1 1:0,2:1-rel
 bc/msnbc/00/msnbc_0001.parse 561 10 gold bring bring.01 ----- 0:2-ARG0 10:0-rel 11:1-ARG3 12:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 50 16 gold be be.01 ----- 11:1*17:1-ARG2 14:1-ARG1 16:0-rel
+bc/msnbc/00/msnbc_0001.parse 479 2 gold get get.06 ----- 0:1*3:2-ARG1 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 26 10 gold see see.01 ----- 0:3-ARGM-DIS 2:2-ARGM-TMP 9:1-ARG0 10:0-rel 11:3-ARG1
 bc/msnbc/00/msnbc_0001.parse 446 3 gold agree agree.01 ----- 0:1-ARGM-DIS 2:1-ARG0 3:0-rel 4:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 219 1 gold hate hate.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1 5:1-ARGM-CAU
-bc/msnbc/00/msnbc_0001.parse 82 18 gold look look.01 ----- 16:1-ARG0 18:0-rel 19:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 103 10 gold say say.01 ----- 0:0-ARGM-DIS 6:1-ARG0 8:1-ARGM-ADV 9:1-ARGM-ADV 10:0-rel 11:2-ARG1
+bc/msnbc/00/msnbc_0001.parse 244 7 gold do do.01 ----- 7:0-rel
+bc/msnbc/00/msnbc_0001.parse 428 11 gold be be.03 ----- 11:0-rel
 bc/msnbc/00/msnbc_0001.parse 447 3 gold know know.01 ----- 2:1-ARG0 3:0-rel 4:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 353 10 gold say say.01 ----- 7:1*8:1*11:1-ARG1 10:0-rel
 bc/msnbc/00/msnbc_0001.parse 110 2 gold investigate investigate.01 ----- 0:1*3:1-ARG1 2:0-rel 4:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 520 17 gold want want.01 ----- 16:1-ARG0 17:0-rel 18:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 218 6 gold be be.02 ----- 3:1-ARGM-DIS 6:0-rel 8:2-ARG1
@@ -1676,13 +1666,12 @@ bc/msnbc/00/msnbc_0001.parse 198 6 gold do do.01 ----- 6:0-rel
 bc/msnbc/00/msnbc_0001.parse 520 14 gold qualify qualify.02 ----- 10:0-ARG1 11:0-ARGM-ADJ 14:0-rel
 bc/msnbc/00/msnbc_0001.parse 391 9 gold be be.03 ----- 9:0-rel
 bc/msnbc/00/msnbc_0001.parse 319 8 gold look look.09 ----- 8:0-rel
+bc/msnbc/00/msnbc_0001.parse 310 15 gold come come.01 ----- 12:1*13:1-ARG1 15:0-rel 16:1-ARG4
 bc/msnbc/00/msnbc_0001.parse 541 13 gold overreact overreact.01 ----- 6:2*12:1-ARG0 13:0-rel
 bc/msnbc/00/msnbc_0001.parse 496 7 gold be be.03 ----- 7:0-rel
+bc/msnbc/00/msnbc_0001.parse 368 29 gold assure assure.01 ----- 22:1*25:1-ARG0 27:1-ARGM-MNR 28:1-ARGM-DIS 29:0-rel 30:1-ARG1 31:2-ARGM-MNR
 bc/msnbc/00/msnbc_0001.parse 27 5 gold be be.02 ----- 5:0-rel 6:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 116 4 gold say say.01 ----- 2:1-ARG0 3:1-ARGM-ADV 4:0-rel 5:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 397 5 gold need need.01 ----- 4:1-ARG0 5:0-rel 6:2-ARG1
-bc/msnbc/00/msnbc_0001.parse 487 38 gold have have.01 ----- 38:0-rel
-bc/msnbc/00/msnbc_0001.parse 28 20 gold know know.06 ----- 19:1-ARG0 20:0-rel
 bc/msnbc/00/msnbc_0001.parse 524 13 gold argue argue.01 ----- 0:1-ARGM-DIS 2:1-ARG0 12:1-ARGM-ADV 13:0-rel 14:1-ARGM-LOC
 bc/msnbc/00/msnbc_0001.parse 185 1 gold thank thank.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 329 2 gold be be.01 ----- 0:1*1:1-ARG1 2:0-rel 3:1-ARG2
@@ -1693,39 +1682,49 @@ bc/msnbc/00/msnbc_0001.parse 466 2 gold want want.01 ----- 0:1-ARG0 2:0-rel 3:2-
 bc/msnbc/00/msnbc_0001.parse 251 10 gold meet meet.02 ----- 9:1-ARG0 10:0-rel 11:1-ARGM-LOC 12:1-ARGM-MNR
 bc/msnbc/00/msnbc_0001.parse 88 24 gold have have.01 ----- 24:0-rel
 bc/msnbc/00/msnbc_0001.parse 310 22 gold reveal reveal.01 ----- 12:1*13:1-ARG0 22:0-rel 23:2-ARG1
+bc/msnbc/00/msnbc_0001.parse 30 14 gold excuse excuse.02 ----- 14:0-rel
 bc/msnbc/00/msnbc_0001.parse 116 1 gold let let.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
-bc/msnbc/00/msnbc_0001.parse 219 31 gold continue continue.01 ----- 29:1-ARG1 31:0-rel
 bc/msnbc/00/msnbc_0001.parse 275 14 gold help help.01 ----- 12:1-ARG0 14:0-rel 15:2-ARG1
+bc/msnbc/00/msnbc_0001.parse 60 2 gold be be.03 ----- 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 299 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 365 3 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARG1 3:0-rel
+bc/msnbc/00/msnbc_0001.parse 412 14 gold convict convict.01 ----- 14:0-rel 16:0-ARG1
 bc/msnbc/00/msnbc_0001.parse 372 18 gold nominate nominate.01 ----- 11:1*14:1-ARG0 16:0-ARGM-LVB 18:0-rel
 bc/msnbc/00/msnbc_0001.parse 54 25 gold have have.03 ----- 21:1*22:1-ARG0 24:0-ARGM-NEG 25:0-rel
-bc/msnbc/00/msnbc_0001.parse 2 6 gold use use.01 ----- 4:1*7:1-ARG1 4:1*7:1-LINK-PSV 6:0-rel 8:1-ARG2
-bc/msnbc/00/msnbc_0001.parse 388 1 gold answer answer.01 ----- 1:0-rel 2:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 211 10 gold connect connect.01 ----- 10:0-rel 11:1-ARGM-LOC
-bc/msnbc/00/msnbc_0001.parse 232 13 gold see see.01 ----- 12:1-ARGM-TMP 13:0-rel 14:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 544 25 gold say say.01 ----- 18:1*19:1*26:1-ARG1 18:1*19:1-LINK-SLC 20:1-ARG0 25:0-rel 27:1-ARGM-TMP
+bc/msnbc/00/msnbc_0001.parse 290 9 gold kill kill.01 ----- 3:2-ARG1 9:0-rel 11:1-ARGM-LOC
 bc/msnbc/00/msnbc_0001.parse 253 9 gold be be.01 ----- 7:1-ARG1 9:0-rel 10:1-ARG2
-bc/msnbc/00/msnbc_0001.parse 251 1 gold be be.01 ----- 0:0-ARGM-DIS 1:0-rel 2:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 370 8 gold answer answer.01 ----- 8:0-rel
+bc/msnbc/00/msnbc_0001.parse 334 4 gold know know.01 ----- 0:0-ARGM-DIS 1:1-ARGM-DIS 2:1-ARG0 4:0-rel 5:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 496 3 gold look look.01 ----- 0:1-ARG0 1:0-ARGM-LVB 3:0-rel 4:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 50 2 gold let let.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 123 10 gold hear hear.01 ----- 0:1-ARGM-DIS 9:1-ARG0 10:0-rel
 bc/msnbc/00/msnbc_0001.parse 94 16 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARGM-ADV 3:1-ARGM-PRD 7:2-ARG1 16:0-rel 17:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 482 5 gold blame blame.01 ----- 2:2-ARG0 4:0-ARGM-MOD 5:0-rel 6:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 556 7 gold get get.03 ----- 1:1*3:1*10:1-ARGM-TMP 1:1*3:1-LINK-SLC 4:1-ARG1 7:0-rel 8:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 540 4 gold condemn condemn.01 ----- 0:2-ARG0 4:0-rel 5:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 107 2 gold stay stay.01 ----- 0:1-ARG1 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 18 4 gold be be.03 ----- 4:0-rel
+bc/msnbc/00/msnbc_0001.parse 128 17 gold survive survive.01 ----- 13:1*15:1*16:1-ARG0 13:1*15:1-LINK-SLC 17:0-rel
+bc/msnbc/00/msnbc_0001.parse 343 8 gold be be.01 ----- 3:2-ARG1 8:0-rel 9:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 306 6 gold have have.02 ----- 6:0-rel
 bc/msnbc/00/msnbc_0001.parse 143 5 gold be be.01 ----- 4:1-ARG1 5:0-rel 6:0-ARGM-NEG 7:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 74 4 gold know know.06 ----- 3:1-ARG0 4:0-rel
 bc/msnbc/00/msnbc_0001.parse 173 7 gold show show.04 ----- 7:0-rel
-bc/msnbc/00/msnbc_0001.parse 275 16 gold find find.01 ----- 15:1-ARG0 16:0-rel 17:1-ARG1 20:1-ARGM-TMP
-bc/msnbc/00/msnbc_0001.parse 148 5 gold need need.01 ----- 4:1-ARG0 5:0-rel 6:2-ARG1
+bc/msnbc/00/msnbc_0001.parse 90 7 gold mean mean.01 ----- 6:1-ARG1 7:0-rel 8:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 460 2 gold remember remember.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 440 13 gold matter matter.02 ----- 12:0-ARGM-MNR 13:0-rel
 bc/msnbc/00/msnbc_0001.parse 103 16 gold keep keep.02 ----- 11:1*14:1-ARG0 16:0-rel 17:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 331 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 500 2 gold keep keep.04 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG2 5:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 481 3 gold say say.01 ----- 1:1*5:1-ARGM-TMP 2:1-ARG0 3:0-rel 4:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 249 7 gold call call.02 ----- 0:0-ARGM-DIS 1:2-ARG0 7:0-rel 8:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 183 5 gold have have.02 ----- 5:0-rel
 bc/msnbc/00/msnbc_0001.parse 119 9 gold testify testify.01 ----- 3:1*6:1*7:1-ARG0 9:0-rel 10:1-ARGM-LOC 16:2-ARGM-ADV 21:2-ARGM-ADV 25:2-ARGM-ADV
+bc/msnbc/00/msnbc_0001.parse 133 17 gold involve involve.01 ----- 6:2*11:1*12:1*18:1-ARG1 6:2*11:1-LINK-SLC 14:1-ARGM-DIS 17:0-rel 19:1-ARG2 23:3-ARGM-TMP
+bc/msnbc/00/msnbc_0001.parse 121 2 gold explain explain.01 ----- 0:1-ARG0 2:0-rel 3:1-ARGM-MNR 6:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 315 2 gold refuse refuse.01 ----- 1:1-ARG0 2:0-rel
+bc/msnbc/00/msnbc_0001.parse 282 0 gold do do.01 ----- 0:0-rel
 bc/msnbc/00/msnbc_0001.parse 303 2 gold have have.01 ----- 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 348 29 gold be be.01 ----- 28:1-ARG1 29:0-rel 30:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 121 1 gold do do.01 ----- 1:0-rel
@@ -1734,10 +1733,13 @@ bc/msnbc/00/msnbc_0001.parse 362 9 gold question question.01 ----- 9:0-rel 10:2-
 bc/msnbc/00/msnbc_0001.parse 179 4 gold have have.03 ----- 0:1*3:1-ARG0 4:0-rel 5:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 95 8 gold be be.01 ----- 0:2-ARG1 8:0-rel 9:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 227 24 gold get get.04 ----- 23:1-ARG0 24:0-rel 25:2-ARG1
+bc/msnbc/00/msnbc_0001.parse 147 7 gold happen happen.01 ----- 5:1*6:1-ARG1 7:0-rel
+bc/msnbc/00/msnbc_0001.parse 152 27 gold contact contact.01 ----- 26:0-ARGM-MNR 27:0-rel
 bc/msnbc/00/msnbc_0001.parse 306 16 gold know know.01 ----- 14:1*40:1-ARGM-TMP 15:1-ARG0 16:0-rel 17:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 473 6 gold lose lose.02 ----- 0:0-ARGM-DIS 1:1-ARG3 4:1-ARGM-DIS 5:1-ARG0 6:0-rel 7:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 477 21 gold go go.06 ----- 2:2-ARG0 19:0-ARGM-NEG 20:1-ARGM-ADV 21:0-rel 22:1-ARG1 25:1-ARGM-MNR
 bc/msnbc/00/msnbc_0001.parse 195 23 gold graduate graduate.01 ----- 18:1*21:1,24:1-ARG2 18:1*21:1-LINK-SLC 22:1-ARG1 23:0-rel
+bc/msnbc/00/msnbc_0001.parse 547 8 gold blame blame.01 ----- 4:1*6:1-ARG0 8:0-rel 9:1-ARG1 10:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 321 2 gold ask ask.02 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG2 4:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 368 46 gold go go.04 ----- 45:0-ARGM-NEG 46:0-rel
 bc/msnbc/00/msnbc_0001.parse 368 38 gold grandstand grandstand.01 ----- 0:0-ARGM-DIS 1:2-ARG0 37:1-ARGM-ADV 38:0-rel 39:1-ARGM-CAU
@@ -1746,17 +1748,19 @@ bc/msnbc/00/msnbc_0001.parse 457 12 gold take take.01 ----- 8:1*10:1-ARG0 12:0-r
 bc/msnbc/00/msnbc_0001.parse 46 8 gold hear hear.01 ----- 3:1*5:1*9:1-ARG1 3:1*5:1-LINK-SLC 6:1-ARG0 8:0-rel 10:1-ARGM-ADV
 bc/msnbc/00/msnbc_0001.parse 428 12 gold murder murder.01 ----- 0:0-ARGM-DIS 1:1-ARGM-TMP 4:3*13:1-ARG1 12:0-rel 14:1-ARGM-LOC
 bc/msnbc/00/msnbc_0001.parse 12 2 gold be be.01 ----- 0:1-ARGM-DIS 1:1-ARG1 2:0-rel 3:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 526 5 gold be be.03 ----- 5:0-rel
 bc/msnbc/00/msnbc_0001.parse 187 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 312 12 gold know know.01 ----- 5:1*7:1*13:1-ARG1 5:1*7:1-LINK-SLC 9:1-ARG0 10:0-ARGM-MOD 11:0-ARGM-NEG 12:0-rel
 bc/msnbc/00/msnbc_0001.parse 98 25 gold be be.03 ----- 25:0-rel
-bc/msnbc/00/msnbc_0001.parse 207 11 gold consider consider.02 ----- 8:1*12:1-ARG1 9:0-ARGM-MOD 11:0-rel 13:1-ARGM-DIS 14:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 359 16 gold be be.01 ----- 15:1-ARG1 16:0-rel
 bc/msnbc/00/msnbc_0001.parse 201 29 gold be be.03 ----- 29:0-rel
+bc/msnbc/00/msnbc_0001.parse 389 19 gold hear hearing.02 ----- 18:0-ARG0 19:0-rel
 bc/msnbc/00/msnbc_0001.parse 89 4 gold let let.01 ----- 0:1-ARGM-DIS 1:1-ARGM-ADV 2:1-ARGM-TMP 3:1-ARG0 4:0-rel 5:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 23 15 gold have have.03 ----- 13:1-ARG0 15:0-rel 16:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 133 13 gold be be.03 ----- 13:0-rel
 bc/msnbc/00/msnbc_0001.parse 352 1 gold mean mean.01 ----- 0:1-ARG0 1:0-rel
-bc/msnbc/00/msnbc_0001.parse 263 5 gold be be.03 ----- 5:0-rel
 bc/msnbc/00/msnbc_0001.parse 39 50 gold do do.02 ----- 43:1*51:1-ARG1 45:1*48:1-ARG0 50:0-rel
+bc/msnbc/00/msnbc_0001.parse 122 2 gold remember remember.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 372 3 gold know know.01 ----- 2:1-ARG0 3:0-rel
 bc/msnbc/00/msnbc_0001.parse 424 1 gold be be.03 ----- 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 354 13 gold be be.03 ----- 13:0-rel
@@ -1766,78 +1770,77 @@ bc/msnbc/00/msnbc_0001.parse 372 16 gold make make.LV ----- 16:0-rel 18:0-ARGM-P
 bc/msnbc/00/msnbc_0001.parse 290 8 gold be be.03 ----- 8:0-rel
 bc/msnbc/00/msnbc_0001.parse 174 15 gold be be.03 ----- 15:0-rel
 bc/msnbc/00/msnbc_0001.parse 447 22 gold report report.01 ----- 18:1*19:1-ARG0 21:0-ARGM-NEG 22:0-rel 23:1-ARG2 26:1-ARGM-PRP
-bc/msnbc/00/msnbc_0001.parse 150 19 gold get get.01 ----- 13:1*18:1-ARG0 13:1*18:1-LINK-PRO 19:0-rel 20:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 519 15 gold guarantee guarantee.01 ----- 15:0-rel 16:0,17:0-ARG1
 bc/msnbc/00/msnbc_0001.parse 222 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2 3:1-ARGM-DIS 4:3-ARGM-DIS 6:1-ARGM-ADV
+bc/msnbc/00/msnbc_0001.parse 359 2 gold be be.01 ----- 1:1-ARG1 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 103 13 gold try try.01 ----- 11:1-ARG0 13:0-rel 14:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 424 2 gold release release.01 ----- 0:1*3:1-ARG1 2:0-rel 4:1-ARGM-MNR
 bc/msnbc/00/msnbc_0001.parse 362 14 gold answer answer.01 ----- 8:1*10:1*13:1*15:1-ARG1 8:1*10:1-LINK-SLC 14:0-rel
 bc/msnbc/00/msnbc_0001.parse 524 7 gold work work.01 ----- 2:1-ARG0 7:0-rel 8:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 441 15 gold change change.01 ----- 0:1-ARGM-DIS 3:1-ARGM-LOC 12:1*16:1-ARG1 13:0-ARGM-MOD 15:0-rel
 bc/msnbc/00/msnbc_0001.parse 390 13 gold get get.06 ----- 12:1-ARG0 13:0-rel 14:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 136 3 gold have have.01 ----- 3:0-rel
 bc/msnbc/00/msnbc_0001.parse 312 25 gold go go.04 ----- 25:0-rel
 bc/msnbc/00/msnbc_0001.parse 167 1 gold do do.01 ----- 1:0-rel
-bc/msnbc/00/msnbc_0001.parse 480 6 gold be be.02 ----- 6:0-rel 7:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 448 18 gold be be.03 ----- 18:0-rel
 bc/msnbc/00/msnbc_0001.parse 373 12 gold go go.04 ----- 11:0-ARGM-NEG 12:0-rel
-bc/msnbc/00/msnbc_0001.parse 262 33 gold see see.01 ----- 31:1-ARG0 33:0-rel 34:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 374 7 gold be be.01 ----- 6:1-ARG1 7:0-rel 8:0-ARGM-NEG 9:2-ARG2
-bc/msnbc/00/msnbc_0001.parse 143 30 gold act act.02 ----- 30:0-rel
 bc/msnbc/00/msnbc_0001.parse 51 11 gold press press.LV ----- 11:0-rel 12:1-ARGM-PRR
-bc/msnbc/00/msnbc_0001.parse 249 7 gold call call.02 ----- 0:0-ARGM-DIS 1:2-ARG0 7:0-rel 8:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 477 15 gold do do.02 ----- 2:2-ARG0 15:0-rel 16:1-ARG1 17:1-ARGM-MNR
+bc/msnbc/00/msnbc_0001.parse 85 8 gold explain explain.01 ----- 8:0-rel
 bc/msnbc/00/msnbc_0001.parse 233 4 gold miss miss.02 ----- 4:0-rel 5:0-ARG1
 bc/msnbc/00/msnbc_0001.parse 59 50 gold be be.03 ----- 50:0-rel
 bc/msnbc/00/msnbc_0001.parse 353 6 gold be be.01 ----- 5:1-ARG1 6:0-rel 7:2-ARG2
-bc/msnbc/00/msnbc_0001.parse 201 36 gold connect connect.01 ----- 36:0-rel 37:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 559 9 gold show show.04 ----- 9:0-rel
 bc/msnbc/00/msnbc_0001.parse 443 19 gold treat treat.01 ----- 15:1*25:1-ARGM-MNR 16:1*20:1-ARG1 19:0-rel 21:1-ARGM-LOC
 bc/msnbc/00/msnbc_0001.parse 149 18 gold evaluate evaluate.01 ----- 15:1*24:1-ARGM-TMP 16:1-ARG0 18:0-rel 19:2-ARG1
-bc/msnbc/00/msnbc_0001.parse 409 5 gold be be.01 ----- 4:1-ARG1 5:0-rel 6:2-ARG2
-bc/msnbc/00/msnbc_0001.parse 501 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 10 38 gold drink drink.01 ----- 33:1-ARG0 36:0-ARGM-NEG 37:1-ARGM-ADV 38:0-rel 39:1-ARGM-TMP
+bc/msnbc/00/msnbc_0001.parse 179 23 gold disappear disappear.01 ----- 19:1*21:1*24:1-ARGM-TMP 19:1*21:1-LINK-SLC 22:1-ARG1 23:0-rel
 bc/msnbc/00/msnbc_0001.parse 39 14 gold be be.03 ----- 14:0-rel
 bc/msnbc/00/msnbc_0001.parse 150 5 gold represent represent.01 ----- 2:1*8:1-ARGM-TMP 3:1-ARG0 5:0-rel 6:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 354 3 gold be be.01 ----- 2:1-ARG1 3:0-rel 4:1-ARG2 6:1-ARGM-ADV
-bc/msnbc/00/msnbc_0001.parse 104 3 gold have have.01 ----- 3:0-rel
+bc/msnbc/00/msnbc_0001.parse 344 4 gold have have.01 ----- 4:0-rel
 bc/msnbc/00/msnbc_0001.parse 368 14 gold answer answer.01 ----- 14:0-rel
-bc/msnbc/00/msnbc_0001.parse 491 4 gold get get.02 ----- 3:1-ARG0 4:0-rel 5:1-ARG1 11:1-ARGM-LOC
+bc/msnbc/00/msnbc_0001.parse 468 32 gold act act.02 ----- 14:1*16:1*33:1-ARGM-TMP 14:1*16:1-LINK-SLC 17:1-ARG0 23:1-ARGM-DIS 31:0-ARGM-NEG 32:0-rel
+bc/msnbc/00/msnbc_0001.parse 61 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 10 11 gold say say.01 ----- 10:1-ARG0 11:0-rel 12:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 309 1 gold admit admit.01 ----- 0:1-ARG0 1:0-rel 2:1-ARGM-TMP 8:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 133 2 gold mind mind.05 ----- 1:0-ARG0 2:0-rel
-bc/msnbc/00/msnbc_0001.parse 283 7 gold testify testify.01 ----- 2:1*5:1-ARG0 7:0-rel 8:1-ARGM-TMP
+bc/msnbc/00/msnbc_0001.parse 144 25 gold think think.01 ----- 24:1-ARG0 25:0-rel 26:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 233 2 gold file file.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1 7:2-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 283 15 gold know know.01 ----- 13:1-ARG0 14:0-ARGM-MOD 15:0-rel
 bc/msnbc/00/msnbc_0001.parse 20 20 gold use use.01 ----- 20:0-rel
 bc/msnbc/00/msnbc_0001.parse 122 9 gold keep keep.01 ----- 4:1-ARG0 9:0-rel 10:1-ARG1 12:2-ARGM-DIS
 bc/msnbc/00/msnbc_0001.parse 514 1 gold do do.01 ----- 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 544 16 gold invade invade.01 ----- 9:1*15:1-ARG0 9:1*15:1-LINK-PRO 16:0-rel 17:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 355 3 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 3:0-rel 4:4-ARG2
+bc/msnbc/00/msnbc_0001.parse 500 8 gold come come.12 ----- 6:1*11:1-ARGM-TMP 8:0-rel 9:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 188 1 gold know know.01 ----- 0:1-ARG0 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 51 12 gold charge charge.05 ----- 1:1*9:1-ARG0 11:0-ARGM-LVB 12:0-rel
 bc/msnbc/00/msnbc_0001.parse 205 18 gold look look.01 ----- 16:1-ARG0 18:0-rel 19:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 258 23 gold have have.03 ----- 19:1*21:1*24:1-ARG1 19:1*21:1-LINK-SLC 22:1-ARG0 23:0-rel
+bc/msnbc/00/msnbc_0001.parse 66 9 gold counsel counsel.01 ----- 3:1*5:1*6:1-ARG0 3:1*5:1-LINK-SLC 9:0-rel 10:1-ARG1 12:1-ARGM-TMP
 bc/msnbc/00/msnbc_0001.parse 262 3 gold look look.09 ----- 3:0-rel
+bc/msnbc/00/msnbc_0001.parse 110 9 gold condone condone.01 ----- 0:1*8:1-ARG0 9:0-rel 10:2-ARG1
+bc/msnbc/00/msnbc_0001.parse 211 2 gold think think.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 322 22 gold find find_out.03 ----- 0:1-ARG0 1:0-ARGM-MOD 2:1-ARGM-ADV 3:2-ARGM-ADV 22:0,23:1-rel 24:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 480 2 gold be be.03 ----- 2:0-rel
+bc/msnbc/00/msnbc_0001.parse 75 3 gold be be.01 ----- 1:1-ARG1 3:0-rel 4:1-ARGM-ADV 5:1-ARG2 8:2-ARGM-ADV
 bc/msnbc/00/msnbc_0001.parse 345 8 gold lead lead.03 ----- 3:2-ARG0 8:0-rel 9:1-ARG1 10:2-ARG2
-bc/msnbc/00/msnbc_0001.parse 213 4 gold be be.01 ----- 1:0-ARGM-DIS 2:1-ARG1 4:0-rel 5:2-ARG2
 bc/msnbc/00/msnbc_0001.parse 518 29 gold look look.01 ----- 0:1-ARGM-DIS 1:1-ARGM-ADV 11:2-ARG0 28:1-ARGM-ADV 29:0-rel 30:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 549 6 gold wag wag.01 ----- 6:0-rel 7:1-ARG1
+bc/msnbc/00/msnbc_0001.parse 245 12 gold do do.01 ----- 12:0-rel
 bc/msnbc/00/msnbc_0001.parse 438 11 gold go go.04 ----- 11:0-rel
 bc/msnbc/00/msnbc_0001.parse 528 8 gold consent consent.01 ----- 8:0-rel
 bc/msnbc/00/msnbc_0001.parse 176 2 gold be be.03 ----- 2:0-rel
 bc/msnbc/00/msnbc_0001.parse 544 2 gold be be.01 ----- 1:1-ARG1 2:0-rel 3:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 358 6 gold be be.03 ----- 6:0-rel
 bc/msnbc/00/msnbc_0001.parse 54 11 gold be be.02 ----- 11:0-rel
+bc/msnbc/00/msnbc_0001.parse 521 7 gold hear hear.01 ----- 5:1-ARG0 7:0-rel 8:3-ARG1
 bc/msnbc/00/msnbc_0001.parse 222 5 gold know know.06 ----- 4:1-ARG0 5:0-rel
+bc/msnbc/00/msnbc_0001.parse 258 39 gold meet meet.03 ----- 34:1*37:1-ARG0 39:0-rel
 bc/msnbc/00/msnbc_0001.parse 23 14 gold be be.03 ----- 14:0-rel
 bc/msnbc/00/msnbc_0001.parse 286 2 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 2:0-rel 3:2-ARG2
 bc/msnbc/00/msnbc_0001.parse 5 21 gold mistrust mistrust.01 ----- 21:0-rel 22:2-ARGM-ADJ
-bc/msnbc/00/msnbc_0001.parse 331 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
+bc/msnbc/00/msnbc_0001.parse 344 33 gold do do.01 ----- 33:0-rel
 bc/msnbc/00/msnbc_0001.parse 434 19 gold release release.01 ----- 6:1*20:1-ARG1 7:0-ARGM-MOD 19:0-rel
 bc/msnbc/00/msnbc_0001.parse 354 9 gold be be.01 ----- 8:1-ARG1 9:0-rel 10:2-ARG2
+bc/msnbc/00/msnbc_0001.parse 118 9 gold tolerate tolerate.01 ----- 1:1*7:1-ARG0 9:0-rel 10:1-ARGM-DIS 11:2-ARG1
+bc/msnbc/00/msnbc_0001.parse 117 2 gold think think.01 ----- 2:0-rel 3:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 525 27 gold say say.01 ----- 0:1-ARGM-DIS 1:1-ARGM-ADV 2:2-ARG0 13:0-ARGM-MOD 14:0-ARGM-NEG 27:0-rel 28:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 391 31 gold make make.02 ----- 29:1-ARG0 30:1-ARGM-ADV 31:0-rel 32:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 300 3 gold head head.02 ----- 2:1-ARG0 3:0-rel 4:1-ARGM-DIR 5:1-ARGM-TMP 6:1-ARG1
@@ -1845,13 +1848,10 @@ bc/msnbc/00/msnbc_0001.parse 150 1 gold mean mean.01 ----- 0:1-ARG0 1:0-rel
 bc/msnbc/00/msnbc_0001.parse 222 12 gold wait wait.01 ----- 8:1*11:1-ARG1 12:0-rel 13:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 258 36 gold plan plan.01 ----- 32:1-ARGM-TMP 34:1-ARG0 36:0-rel 37:2-ARG1
 bc/msnbc/00/msnbc_0001.parse 54 31 gold have have.03 ----- 16:2*27:1*28:1-ARG0 16:2*27:1-LINK-SLC 30:0-ARGM-NEG 31:0-rel 32:1-ARG1
-bc/msnbc/00/msnbc_0001.parse 368 12 gold get get.01 ----- 8:1*10:1-ARG0 12:0-rel 13:1-ARG1 15:1-ARG2 17:1-ARGM-LOC
 bc/msnbc/00/msnbc_0001.parse 490 13 gold fault fault.01 ----- 10:1-ARG0 12:0-ARGM-NEG 13:0-rel 14:1-ARG1 15:1-ARG2
 bc/msnbc/00/msnbc_0001.parse 466 5 gold stop stop.01 ----- 0:1*3:1-ARG0 5:0-rel 6:1-ARG1 7:1-ARGM-TMP
-bc/msnbc/00/msnbc_0001.parse 211 2 gold think think.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
 bc/msnbc/00/msnbc_0001.parse 41 7 gold occur occur.01 ----- 1:1*8:1-ARGM-TMP 2:2-ARG1 7:0-rel
 bc/msnbc/00/msnbc_0001.parse 311 34 gold vote vote.01 ----- 27:1*35:1-ARGM-MNR 28:1*32:1-ARG0 34:0-rel
-bc/msnbc/00/msnbc_0001.parse 521 7 gold hear hear.01 ----- 5:1-ARG0 7:0-rel 8:3-ARG1
 bc/msnbc/00/msnbc_0001.parse 122 11 gold peace peace.01 ----- 11:0-rel
+bc/msnbc/00/msnbc_0001.parse 263 5 gold be be.03 ----- 5:0-rel
 bc/msnbc/00/msnbc_0001.parse 387 15 gold side side.01 ----- 14:0-ARG1 15:0-rel
-bc/msnbc/00/msnbc_0001.parse 481 3 gold say say.01 ----- 1:1*5:1-ARGM-TMP 2:1-ARG0 3:0-rel 4:1-ARG1

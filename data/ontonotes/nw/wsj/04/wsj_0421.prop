@@ -1,13 +1,13 @@
 nw/wsj/04/wsj_0421.parse 2 15 gold help help.01 ----- 0:2-ARG0 14:0-ARGM-MOD 15:0-rel 16:2-ARG1
 nw/wsj/04/wsj_0421.parse 2 3 gold plan plan.01 ----- 3:0-rel 4:0-ARG1
+nw/wsj/04/wsj_0421.parse 0 5 gold sell sell.01 ----- 0:1*3:1-ARG0 5:0-rel 6:2-ARG1 10:1-ARG2
 nw/wsj/04/wsj_0421.parse 2 20 gold incur incur.01 ----- 18:1*21:1-ARG1 18:1*21:1-LINK-PSV 20:0-rel 22:1-ARG2
-nw/wsj/04/wsj_0421.parse 0 20 gold lease lease.01 ----- 0:1*3:1-ARG0 19:0-ARGM-MOD 20:0-rel 21:1-ARG1 26:1-ARGM-TMP
+nw/wsj/04/wsj_0421.parse 0 28 gold move move.01 ----- 27:1-ARG1 28:0-rel 29:1-ARG2 33:1-ARGM-TMP
 nw/wsj/04/wsj_0421.parse 1 4 gold concern concern.01 ----- 1:1-ARG0 4:0-rel
 nw/wsj/04/wsj_0421.parse 1 7 gold disclose disclose.01 ----- 0:1-ARG0 6:0-ARGM-NEG 7:0-rel 8:2-ARG1
-nw/wsj/04/wsj_0421.parse 0 5 gold sell sell.01 ----- 0:1*3:1-ARG0 5:0-rel 6:2-ARG1 10:1-ARG2
-nw/wsj/04/wsj_0421.parse 1 5 gold do do.01 ----- 5:0-rel
 nw/wsj/04/wsj_0421.parse 2 17 gold reduce reduce.01 ----- 0:2*16:1-ARG0 17:0-rel 18:2-ARG1
+nw/wsj/04/wsj_0421.parse 1 5 gold do do.01 ----- 5:0-rel
+nw/wsj/04/wsj_0421.parse 0 20 gold lease lease.01 ----- 0:1*3:1-ARG0 19:0-ARGM-MOD 20:0-rel 21:1-ARG1 26:1-ARGM-TMP
 nw/wsj/04/wsj_0421.parse 2 32 gold say say.01 ----- 0:3*33:1-ARG1 32:0-rel 34:1-ARG0
-nw/wsj/04/wsj_0421.parse 0 28 gold move move.01 ----- 27:1-ARG1 28:0-rel 29:1-ARG2 33:1-ARGM-TMP
 nw/wsj/04/wsj_0421.parse 0 2 gold agree agree.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
 nw/wsj/04/wsj_0421.parse 1 16 gold close close.03 ----- 10:1*13:1*14:1-ARG1 10:1*13:1-LINK-SLC 15:0-ARGM-MOD 16:0-rel 17:1-ARGM-TMP

@@ -5,14 +5,12 @@ bn/pri/00/pri_0028.parse 4 11 gold pass pass.05 ----- 10:1-ARG0 11:0,14:0-rel 12
 bn/pri/00/pri_0028.parse 18 4 gold tour tour.01 ----- 0:1-ARG0 3:1-ARGM-DIS 4:0-rel 5:2-ARG1
 bn/pri/00/pri_0028.parse 2 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 bn/pri/00/pri_0028.parse 8 11 gold be be.03 ----- 11:0-rel
-bn/pri/00/pri_0028.parse 8 10 gold have have.01 ----- 10:0-rel
 bn/pri/00/pri_0028.parse 4 2 gold take take.01 ----- 0:1-ARGM-TMP 1:1-ARG0 2:0-rel 3:2-ARG1 8:2-ARGM-ADV
 bn/pri/00/pri_0028.parse 8 15 gold kidnap kidnap.01 ----- 5:1*8:1*9:1*13:1-ARG0 5:1*8:1-LINK-SLC 15:0-rel 16:1-ARG1 17:1-ARGM-PRP
 bn/pri/00/pri_0028.parse 31 13 gold bomb bomb.01 ----- 13:0-rel
 bn/pri/00/pri_0028.parse 17 30 gold be be.01 ----- 22:1*24:1*27:0*28:1-ARG1 22:1*24:1-LINK-SLC 29:0-ARGM-MOD 30:0-rel 31:1-ARG2
 bn/pri/00/pri_0028.parse 5 23 gold plot plot.01 ----- 23:0-rel 24:2-ARG1
 bn/pri/00/pri_0028.parse 1 18 gold refuel refuel.01 ----- 17:1-ARG0 18:0-rel 19:1-ARG1
-bn/pri/00/pri_0028.parse 5 26 gold bomb bomb.01 ----- 24:1-ARG0 26:0-rel 27:1-ARG1
 bn/pri/00/pri_0028.parse 4 9 gold say say.01 ----- 1:1*8:1-ARG0 9:0-rel 10:2-ARG1
 bn/pri/00/pri_0028.parse 31 17 gold retire retire.01 ----- 17:0-rel 18:0,19:0-ARG0
 bn/pri/00/pri_0028.parse 19 15 gold be be.01 ----- 14:1-ARG1 15:0-rel 16:1-ARG2
@@ -28,62 +26,66 @@ bn/pri/00/pri_0028.parse 22 10 gold investigate investigate.01 ----- 1:1-ARG0 10
 bn/pri/00/pri_0028.parse 9 10 gold believe believe.01 ----- 8:1,11:2-ARG1 10:0-rel
 bn/pri/00/pri_0028.parse 23 7 gold be be.03 ----- 7:0-rel
 bn/pri/00/pri_0028.parse 7 21 gold make make.01 ----- 20:0-ARG1 21:0-rel
+bn/pri/00/pri_0028.parse 1 3 gold be be.01 ----- 0:1-ARG1 3:0-rel 4:2-ARG2
 bn/pri/00/pri_0028.parse 17 15 gold do do.02 ----- 7:1*12:1*16:1-ARG1 7:1*12:1-LINK-SLC 13:1-ARG0 15:0-rel
 bn/pri/00/pri_0028.parse 11 8 gold bomb bomb.01 ----- 8:0-rel 9:2-ARGM-TMP
 bn/pri/00/pri_0028.parse 7 18 gold turn turn_out.10 ----- 7:2*16:1*17:1-ARG0 7:2*16:1-LINK-SLC 18:0,19:1-rel 20:2-ARG1
 bn/pri/00/pri_0028.parse 28 5 gold be be.01 ----- 4:1-ARG1 5:0-rel 6:1-ARG2
 bn/pri/00/pri_0028.parse 20 9 gold be be.01 ----- 4:1*7:0*8:1-ARG1 9:0-rel 10:1-ARG2
+bn/pri/00/pri_0028.parse 30 22 gold dock dock.01 ----- 19:1-ARG1 22:0-rel 23:1-ARGM-LOC
 bn/pri/00/pri_0028.parse 22 2 gold want want.01 ----- 1:1-ARG0 2:0-rel 3:2-ARG1
+bn/pri/00/pri_0028.parse 11 1 gold have have.01 ----- 1:0-rel
 bn/pri/00/pri_0028.parse 7 4 gold say say.01 ----- 0:1-ARG0 3:1-ARGM-TMP 4:0-rel 5:1-ARG1
+bn/pri/00/pri_0028.parse 22 9 gold be be.03 ----- 9:0-rel
 bn/pri/00/pri_0028.parse 7 26 gold find find.01 ----- 6:1-ARGM-TMP 24:1-ARG0 25:1-ARGM-DIS 26:0-rel 27:2-ARG1
 bn/pri/00/pri_0028.parse 21 6 gold be be.03 ----- 6:0-rel
+bn/pri/00/pri_0028.parse 13 20 gold support support.01 ----- 20:0-rel
 bn/pri/00/pri_0028.parse 13 11 gold confer confer.01 ----- 10:0-ARGM-ADJ 11:0-rel
 bn/pri/00/pri_0028.parse 30 18 gold allow allow.01 ----- 14:1*16:1*17:1-ARG0 14:1*16:1-LINK-SLC 18:0-rel 19:2-ARG1
-bn/pri/00/pri_0028.parse 27 5 gold be be.01 ----- 5:0-rel 6:1-ARG1 7:1-ARG2
 bn/pri/00/pri_0028.parse 26 3 gold say say.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
 bn/pri/00/pri_0028.parse 5 9 gold describe describe.01 ----- 9:0-rel 10:1-ARG1
 bn/pri/00/pri_0028.parse 31 4 gold stage stage.01 ----- 0:1-ARG0 2:0-ARGM-MOD 4:0-rel 5:2-ARG1
+bn/pri/00/pri_0028.parse 15 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bn/pri/00/pri_0028.parse 5 32 gold originate originate.01 ----- 22:2-ARG1 30:0-ARGM-MOD 32:0-rel 33:1-ARGM-LOC
+bn/pri/00/pri_0028.parse 32 4 gold be be.01 ----- 0:1-ARGM-ADV 3:1-ARG1 4:0-rel 5:1-ARG2
 bn/pri/00/pri_0028.parse 5 20 gold suggest suggest.01 ----- 18:1-ARG0 20:0-rel 21:1-ARG1
-bn/pri/00/pri_0028.parse 30 22 gold dock dock.01 ----- 19:1-ARG1 22:0-rel 23:1-ARGM-LOC
 bn/pri/00/pri_0028.parse 8 18 gold ransom ransom.01 ----- 18:0-rel
+bn/pri/00/pri_0028.parse 8 10 gold have have.01 ----- 10:0-rel
 bn/pri/00/pri_0028.parse 0 6 gold be be.01 ----- 5:1-ARG1 6:0-rel 7:1-ARG2
 bn/pri/00/pri_0028.parse 17 11 gold work work.01 ----- 8:1-ARGM-ADJ 10:0-ARG1 11:0-rel 12:2-ARGM-ADJ
-bn/pri/00/pri_0028.parse 11 1 gold have have.01 ----- 1:0-rel
 bn/pri/00/pri_0028.parse 13 8 gold tell tell.01 ----- 0:1-ARGM-TMP 7:1-ARG0 8:0-rel 9:1-ARG2 12:1-ARG1
 bn/pri/00/pri_0028.parse 29 16 gold be be.01 ----- 16:0-rel 17:1-ARG2 18:1-ARG1
-bn/pri/00/pri_0028.parse 28 2 gold show show.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 bn/pri/00/pri_0028.parse 17 21 gold find find.01 ----- 13:1*20:1-ARG0 21:0-rel 22:2-ARG1
 bn/pri/00/pri_0028.parse 24 14 gold have have.01 ----- 14:0-rel
-bn/pri/00/pri_0028.parse 31 3 gold be be.03 ----- 3:0-rel
 bn/pri/00/pri_0028.parse 8 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:2-ARG2
-bn/pri/00/pri_0028.parse 22 9 gold be be.03 ----- 9:0-rel
+bn/pri/00/pri_0028.parse 31 3 gold be be.03 ----- 3:0-rel
+bn/pri/00/pri_0028.parse 5 31 gold have have.01 ----- 31:0-rel
+bn/pri/00/pri_0028.parse 26 10 gold wear wear.01 ----- 5:1-ARG0 10:0-rel 11:1-ARG1
 bn/pri/00/pri_0028.parse 1 11 gold be be.01 ----- 10:1-ARG1 11:0-rel 12:2-ARG2
 bn/pri/00/pri_0028.parse 24 11 gold say say.01 ----- 0:2-ARGM-PRD 7:1-ARG0 11:0-rel 12:1-ARG1
 bn/pri/00/pri_0028.parse 29 10 gold operate operate.01 ----- 10:0-rel
 bn/pri/00/pri_0028.parse 20 16 gold caution caution.01 ----- 0:2-ARGM-TMP 15:1-ARG0 16:0-rel 17:1-ARG1
+bn/pri/00/pri_0028.parse 7 8 gold search search.01 ----- 8:0-rel 9:2-ARGM-TMP 12:1-ARG1 16:2-ARGM-ADJ
 bn/pri/00/pri_0028.parse 24 36 gold transport transport.01 ----- 32:1*34:1*35:1-ARG0 32:1*34:1-LINK-SLC 36:0-rel 37:1-ARG1 39:1-ARG3
 bn/pri/00/pri_0028.parse 0 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bn/pri/00/pri_0028.parse 21 1 gold do do.01 ----- 1:0-rel
 bn/pri/00/pri_0028.parse 3 18 gold serve serve.01 ----- 17:0-ARG1 18:0-rel 19:1-ARGM-LOC
-bn/pri/00/pri_0028.parse 5 31 gold have have.01 ----- 31:0-rel
 bn/pri/00/pri_0028.parse 12 10 gold view view.01 ----- 0:2*8:1-ARG0 10:0-rel 11:1-ARG1 13:1-ARGM-MNR
 bn/pri/00/pri_0028.parse 25 3 gold interview interview.01 ----- 0:1-ARG0 2:1-ARGM-ADV 3:0-rel 4:1-ARG1
 bn/pri/00/pri_0028.parse 29 2 gold describe describe.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1 5:1-ARG2
-bn/pri/00/pri_0028.parse 15 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
+bn/pri/00/pri_0028.parse 27 5 gold be be.01 ----- 5:0-rel 6:1-ARG1 7:1-ARG2
+bn/pri/00/pri_0028.parse 5 26 gold bomb bomb.01 ----- 24:1-ARG0 26:0-rel 27:1-ARG1
 bn/pri/00/pri_0028.parse 24 28 gold build build.01 ----- 26:1-ARG0 28:0-rel 29:2-ARG1
 bn/pri/00/pri_0028.parse 9 3 gold link link.01 ----- 0:1-ARG0 2:1-ARGM-DIS 3:0-rel 4:2-ARG1 19:1-ARG2
 bn/pri/00/pri_0028.parse 11 4 gold see see.01 ----- 0:1*5:1-ARG1 2:0-ARGM-NEG 4:0-rel 6:1-ARGM-TMP
-bn/pri/00/pri_0028.parse 16 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bn/pri/00/pri_0028.parse 27 3 gold be be.01 ----- 0:2-ARG1 3:0-rel 5:1-ARG2
 bn/pri/00/pri_0028.parse 22 13 gold be be.01 ----- 12:1-ARG1 13:0-rel 14:2-ARG2 19:1-ARGM-ADV
 bn/pri/00/pri_0028.parse 17 14 gold have have.01 ----- 14:0-rel
-bn/pri/00/pri_0028.parse 26 10 gold wear wear.01 ----- 5:1-ARG0 10:0-rel 11:1-ARG1
 bn/pri/00/pri_0028.parse 23 8 gold grow grow.02 ----- 0:1*2:1*3:1*5:1-ARG1 0:1*2:1-LINK-SLC 8:0-rel 9:1-ARG2 10:1-ARGM-TMP
 bn/pri/00/pri_0028.parse 8 12 gold know know.02 ----- 12:0-rel 13:2-ARG1
 bn/pri/00/pri_0028.parse 31 30 gold lead lead.02 ----- 17:3*28:1-ARG0 30:0-rel 31:1-ARG1
 bn/pri/00/pri_0028.parse 19 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
-bn/pri/00/pri_0028.parse 13 20 gold support support.01 ----- 20:0-rel
+bn/pri/00/pri_0028.parse 23 4 gold appear appear.02 ----- 0:1*2:1,5:2-ARG1 0:1*2:1-LINK-SLC 4:0-rel
 bn/pri/00/pri_0028.parse 12 5 gold visit visit.01 ----- 0:2-ARG0 5:0-rel 6:1-ARG1 7:1-ARGM-TMP 8:2-ARGM-PRP
 bn/pri/00/pri_0028.parse 22 26 gold do do.02 ----- 25:1-ARG0 26:0-rel 27:1-ARG1 28:1-ARGM-MNR
 bn/pri/00/pri_0028.parse 9 5 gold find find.01 ----- 4:1*6:1-ARG1 4:1*6:1-LINK-PSV 5:0-rel 7:1-ARGM-LOC
@@ -93,20 +95,20 @@ bn/pri/00/pri_0028.parse 4 7 gold decide decide.01 ----- 7:0-rel
 bn/pri/00/pri_0028.parse 20 19 gold be be.01 ----- 18:1-ARG1 19:0-rel 20:1-ARGM-TMP 21:2-ARG2
 bn/pri/00/pri_0028.parse 14 2 gold be be.03 ----- 2:0-rel
 bn/pri/00/pri_0028.parse 5 3 gold say say.01 ----- 0:1-ARGM-LOC 2:1-ARG0 3:0-rel 4:2-ARG1
-bn/pri/00/pri_0028.parse 32 4 gold be be.01 ----- 0:1-ARGM-ADV 3:1-ARG1 4:0-rel 5:1-ARG2
 bn/pri/00/pri_0028.parse 13 2 gold meet meet.03 ----- 1:1*7:1-ARG0 2:0-rel 3:1-ARG1
+bn/pri/00/pri_0028.parse 28 2 gold show show.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 bn/pri/00/pri_0028.parse 19 10 gold mission mission.01 ----- 9:0-ARG1 10:0-rel
 bn/pri/00/pri_0028.parse 22 5 gold be be.03 ----- 5:0-rel
 bn/pri/00/pri_0028.parse 9 13 gold be be.03 ----- 13:0-rel
 bn/pri/00/pri_0028.parse 26 6 gold have have.03 ----- 5:1-ARG0 6:0-rel 7:1-ARG1
-bn/pri/00/pri_0028.parse 23 4 gold appear appear.02 ----- 0:1*2:1,5:2-ARG1 0:1*2:1-LINK-SLC 4:0-rel
 bn/pri/00/pri_0028.parse 14 3 gold be be.03 ----- 3:0-rel
 bn/pri/00/pri_0028.parse 16 6 gold progress progress.01 ----- 6:0-rel 7:1-ARG1
 bn/pri/00/pri_0028.parse 20 25 gold draw draw.01 ----- 23:1-ARG0 25:0-rel 26:1-ARG1
 bn/pri/00/pri_0028.parse 9 14 gold use use.01 ----- 11:1*15:1-ARG1 14:0-rel 16:1-ARG0
 bn/pri/00/pri_0028.parse 6 5 gold have have.03 ----- 0:2-ARG0 5:0-rel 6:2-ARG1
-bn/pri/00/pri_0028.parse 7 8 gold search search.01 ----- 8:0-rel 9:2-ARGM-TMP 12:1-ARG1 16:2-ARGM-ADJ
 bn/pri/00/pri_0028.parse 5 18 gold mount mount.02 ----- 18:0-rel 19:0-ARG1
+bn/pri/00/pri_0028.parse 20 6 gold suspect suspect.01 ----- 5:1-ARG0 6:0-rel 7:1-ARG1
+bn/pri/00/pri_0028.parse 26 16 gold know know.01 ----- 13:1-ARG0 15:0-ARGM-NEG 16:0-rel 17:2-ARG1
 bn/pri/00/pri_0028.parse 24 20 gold believe believe.01 ----- 19:1-ARG0 20:0-rel 21:1-ARG1
 bn/pri/00/pri_0028.parse 18 12 gold describe describe.01 ----- 0:1-ARG0 3:1-ARGM-ADV 12:0-rel 13:1-ARG1 14:1-ARG2
 bn/pri/00/pri_0028.parse 30 10 gold begin begin.01 ----- 0:1-ARGM-LOC 4:1-ARG0 9:1-ARGM-TMP 10:0-rel 11:2-ARG1
@@ -121,21 +123,19 @@ bn/pri/00/pri_0028.parse 10 3 gold go go.02 ----- 0:1-ARGM-TMP 1:1-ARG0 3:0-rel 
 bn/pri/00/pri_0028.parse 25 7 gold put put.03 ----- 0:1-ARG0 2:1-ARGM-DIS 7:0-rel 8:1-ARG2 9:2-ARG1
 bn/pri/00/pri_0028.parse 10 14 gold identify identify.01 ----- 1:1*10:1*12:1-ARG0 14:0-rel 15:2-ARG1
 bn/pri/00/pri_0028.parse 17 3 gold compliment compliment.01 ----- 0:1-ARGM-DIS 2:1-ARG0 3:0-rel 4:1-ARG1 6:1-ARG2
-bn/pri/00/pri_0028.parse 1 3 gold be be.01 ----- 0:1-ARG1 3:0-rel 4:2-ARG2
+bn/pri/00/pri_0028.parse 16 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bn/pri/00/pri_0028.parse 24 1 gold speak speak.01 ----- 0:1*7:1-ARG0 1:0-rel 2:1-ARGM-LOC 6:1-ARGM-TMP
-bn/pri/00/pri_0028.parse 21 7 gold speculate speculate.01 ----- 0:1*4:1-ARG0 7:0-rel
 bn/pri/00/pri_0028.parse 20 2 gold ask ask.01 ----- 0:1*13:1-ARGM-TMP 1:1*3:1-ARG0 2:0-rel 4:2-ARG1
 bn/pri/00/pri_0028.parse 24 15 gold find find.01 ----- 13:1-ARG0 15:0-rel 16:2-ARG1
 bn/pri/00/pri_0028.parse 25 1 gold have have.01 ----- 1:0-rel
-bn/pri/00/pri_0028.parse 26 16 gold know know.01 ----- 13:1-ARG0 15:0-ARGM-NEG 16:0-rel 17:2-ARG1
 bn/pri/00/pri_0028.parse 22 21 gold do do.02 ----- 20:1-ARG0 21:0-rel 22:1-ARG1 23:1-ARGM-MNR 24:1-ARGM-ADV
 bn/pri/00/pri_0028.parse 7 30 gold believe believe.01 ----- 29:1-ARG0 30:0-rel 31:1-ARG1
-bn/pri/00/pri_0028.parse 20 6 gold suspect suspect.01 ----- 5:1-ARG0 6:0-rel 7:1-ARG1
 bn/pri/00/pri_0028.parse 24 24 gold use use.01 ----- 16:1*18:1*21:0*22:1*25:1-ARG1 16:1*18:1-LINK-SLC 24:0-rel 26:2-ARG2
 bn/pri/00/pri_0028.parse 19 7 gold be be.01 ----- 3:2-ARG1 7:0-rel 8:2-ARG2
 bn/pri/00/pri_0028.parse 31 11 gold surround surround.01 ----- 10:1-ARG1 11:0-rel 12:1-ARG2
-bn/pri/00/pri_0028.parse 22 6 gold do do.02 ----- 0:1*7:1-ARG1 1:1*3:1-ARG0 6:0-rel 8:1-ARGM-TMP
+bn/pri/00/pri_0028.parse 21 7 gold speculate speculate.01 ----- 0:1*4:1-ARG0 7:0-rel
 bn/pri/00/pri_0028.parse 26 14 gold do do.01 ----- 14:0-rel
 bn/pri/00/pri_0028.parse 3 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2 9:1-ARGM-TMP
 bn/pri/00/pri_0028.parse 31 23 gold retire retire.01 ----- 23:0-rel 24:0,25:0-ARG0
 bn/pri/00/pri_0028.parse 26 18 gold describe describe.01 ----- 18:0-rel 19:1-ARG1
+bn/pri/00/pri_0028.parse 22 6 gold do do.02 ----- 0:1*7:1-ARG1 1:1*3:1-ARG0 6:0-rel 8:1-ARGM-TMP

@@ -7,7 +7,6 @@ nw/p2.5_c2e/00/p2.5_c2e_0028.parse 8 5 gold carve carve.01 ----- 0:1-ARGM-DIS 2:
 nw/p2.5_c2e/00/p2.5_c2e_0028.parse 0 24 gold rebuild rebuild.01 ----- 21:0-ARGM-MNR 24:0-rel 25:1,27:0-ARG1
 nw/p2.5_c2e/00/p2.5_c2e_0028.parse 7 4 gold see see.01 ----- 0:2-ARG0 4:0-rel 5:2-ARG1
 nw/p2.5_c2e/00/p2.5_c2e_0028.parse 1 8 gold use use.01 ----- 0:1-ARGM-MNR 3:1*9:1-ARG1 5:0-ARGM-MOD 6:0-ARGM-NEG 8:0-rel 10:1-ARGM-TMP
-nw/p2.5_c2e/00/p2.5_c2e_0028.parse 0 41 gold consist consist.01 ----- 0:1-ARGM-ADV 21:3-ARG1 34:0-ARGM-MOD 36:1-ARGM-TMP 40:1-ARGM-ADV 41:0-rel 42:1-ARGM-TMP 45:1-ARG2
 nw/p2.5_c2e/00/p2.5_c2e_0028.parse 6 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:2;12:1-ARG2
 nw/p2.5_c2e/00/p2.5_c2e_0028.parse 0 26 gold cross cross.02 ----- 25:0-ARG0 26:0-rel
 nw/p2.5_c2e/00/p2.5_c2e_0028.parse 2 3 gold know know.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:2-ARG1
@@ -16,6 +15,7 @@ nw/p2.5_c2e/00/p2.5_c2e_0028.parse 10 18 gold tear tear_down.05 ----- 12:1*16:1-
 nw/p2.5_c2e/00/p2.5_c2e_0028.parse 9 27 gold bother bother.01 ----- 21:2*28:1-ARG1 26:1-ARGM-EXT 27:0-rel
 nw/p2.5_c2e/00/p2.5_c2e_0028.parse 4 6 gold have have.01 ----- 6:0-rel
 nw/p2.5_c2e/00/p2.5_c2e_0028.parse 2 7 gold start start.01 ----- 5:1*8:2-ARG1 7:0-rel
+nw/p2.5_c2e/00/p2.5_c2e_0028.parse 9 19 gold believe believe.01 ----- 18:1-ARG0 19:0-rel 20:1-ARG1
 nw/p2.5_c2e/00/p2.5_c2e_0028.parse 10 4 gold occur occur.01 ----- 0:1-ARG1 3:1-ARGM-MNR 4:0-rel 5:1-ARGM-LOC
 nw/p2.5_c2e/00/p2.5_c2e_0028.parse 4 20 gold cross cross.02 ----- 18:1-ARG0 20:0-rel 21:1-ARG1
 nw/p2.5_c2e/00/p2.5_c2e_0028.parse 0 22 gold build build.01 ----- 21:0-ARGM-TMP 22:0-rel 25:1,27:0-ARG1
@@ -24,8 +24,8 @@ nw/p2.5_c2e/00/p2.5_c2e_0028.parse 3 5 gold be be.01 ----- 0:2-ARG1 5:0-rel 6:1-
 nw/p2.5_c2e/00/p2.5_c2e_0028.parse 1 7 gold be be.03 ----- 7:0-rel
 nw/p2.5_c2e/00/p2.5_c2e_0028.parse 10 15 gold start start.01 ----- 9:1-ARGM-TMP 12:1-ARG0 15:0-rel 16:2-ARG1
 nw/p2.5_c2e/00/p2.5_c2e_0028.parse 9 12 gold be be.01 ----- 6:2-ARG1 12:0-rel 13:1-ARG2
-nw/p2.5_c2e/00/p2.5_c2e_0028.parse 9 19 gold believe believe.01 ----- 18:1-ARG0 19:0-rel 20:1-ARG1
-nw/p2.5_c2e/00/p2.5_c2e_0028.parse 3 9 gold rise rise.01 ----- 0:2*7:1-ARG1 9:0-rel 10:1-ARG4
+nw/p2.5_c2e/00/p2.5_c2e_0028.parse 10 14 gold have have.01 ----- 14:0-rel
+nw/p2.5_c2e/00/p2.5_c2e_0028.parse 0 41 gold consist consist.01 ----- 0:1-ARGM-ADV 21:3-ARG1 34:0-ARGM-MOD 36:1-ARGM-TMP 40:1-ARGM-ADV 41:0-rel 42:1-ARGM-TMP 45:1-ARG2
 nw/p2.5_c2e/00/p2.5_c2e_0028.parse 4 7 gold become become.01 ----- 0:1-ARGM-LOC 4:1-ARG1 7:0-rel 8:3-ARG2
 nw/p2.5_c2e/00/p2.5_c2e_0028.parse 0 54 gold cross cross.02 ----- 52:0-ARG1 54:0-rel
 nw/p2.5_c2e/00/p2.5_c2e_0028.parse 0 15 gold close close.02 ----- 6:2*13:1*14:1-ARG1 6:2*13:1-LINK-SLC 15:0-rel 16:3-ARGM-TMP
@@ -33,6 +33,6 @@ nw/p2.5_c2e/00/p2.5_c2e_0028.parse 7 6 gold brand brand.01 ----- 5:1*7:1-ARG1 6:
 nw/p2.5_c2e/00/p2.5_c2e_0028.parse 7 3 gold have have.01 ----- 3:0-rel
 nw/p2.5_c2e/00/p2.5_c2e_0028.parse 10 2 gold be be.03 ----- 2:0-rel
 nw/p2.5_c2e/00/p2.5_c2e_0028.parse 2 10 gold become become.01 ----- 4:1*15:1-ARGM-TMP 5:1*8:1-ARG1 10:0-rel 11:1-ARG2
-nw/p2.5_c2e/00/p2.5_c2e_0028.parse 10 14 gold have have.01 ----- 14:0-rel
 nw/p2.5_c2e/00/p2.5_c2e_0028.parse 3 12 gold convene convene.01 ----- 12:0-rel
+nw/p2.5_c2e/00/p2.5_c2e_0028.parse 3 9 gold rise rise.01 ----- 0:2*7:1-ARG1 9:0-rel 10:1-ARG4
 nw/p2.5_c2e/00/p2.5_c2e_0028.parse 9 25 gold be be.03 ----- 25:0-rel

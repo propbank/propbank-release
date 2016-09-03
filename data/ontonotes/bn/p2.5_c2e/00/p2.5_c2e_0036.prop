@@ -1,7 +1,6 @@
 bn/p2.5_c2e/00/p2.5_c2e_0036.parse 9 33 gold fly fly.01 ----- 0:1-ARGM-DIS 3:1-ARGM-ADV 15:2*34:1-ARG1 33:0-rel 35:1-ARGM-MNR 38:1-ARGM-GOL
 bn/p2.5_c2e/00/p2.5_c2e_0036.parse 3 7 gold be be.01 ----- 0:2-ARG1 7:0-rel 8:2-ARG2
 bn/p2.5_c2e/00/p2.5_c2e_0036.parse 2 18 gold provide provide.01 ----- 17:0-ARGM-ADJ 18:0-rel 19:1-ARG0
-bn/p2.5_c2e/00/p2.5_c2e_0036.parse 8 22 gold give give.01 ----- 17:1*20:1-ARG0 22:0-rel 23:1-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0036.parse 8 3 gold say say.01 ----- 0:1-ARG0 2:1-ARGM-ADV 3:0-rel 4:1-ARG1 14:2-ARGM-ADV
 bn/p2.5_c2e/00/p2.5_c2e_0036.parse 5 7 gold have have.01 ----- 7:0-rel
 bn/p2.5_c2e/00/p2.5_c2e_0036.parse 0 15 gold hold hold.04 ----- 0:4-ARG0 15:0-rel 16:1-ARG1 21:1-ARGM-TMP 22:1-ARGM-LOC 27:2-ARGM-ADV
@@ -13,16 +12,18 @@ bn/p2.5_c2e/00/p2.5_c2e_0036.parse 7 12 gold be be.01 ----- 10:1-ARG1 12:0-rel 1
 bn/p2.5_c2e/00/p2.5_c2e_0036.parse 9 20 gold have have.01 ----- 20:0-rel
 bn/p2.5_c2e/00/p2.5_c2e_0036.parse 5 18 gold be be.01 ----- 3:1-ARGM-TMP 4:1-ARG1 18:0-rel 19:1-ARG2
 bn/p2.5_c2e/00/p2.5_c2e_0036.parse 1 13 gold order order.01 ----- 0:1-ARGM-TMP 5:1-ARG0 13:0-rel 14:1-ARG1 17:1-ARG2
+bn/p2.5_c2e/00/p2.5_c2e_0036.parse 9 22 gold take take.01 ----- 0:1-ARGM-DIS 3:1-ARGM-ADV 15:2*23:1-ARG1 22:0-rel 24:1-ARG2 27:1-ARGM-TMP
+bn/p2.5_c2e/00/p2.5_c2e_0036.parse 8 22 gold give give.01 ----- 17:1*20:1-ARG0 22:0-rel 23:1-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0036.parse 0 28 gold appoint appoint.01 ----- 0:4*27:1-ARG0 28:0-rel 29:2-ARG1 38:2-ARG2
 bn/p2.5_c2e/00/p2.5_c2e_0036.parse 0 8 gold launch launch.01 ----- 0:3*6:1*7:1-ARG0 0:3*6:1-LINK-SLC 8:0-rel 9:1-ARG1 11:1-ARGM-TMP
 bn/p2.5_c2e/00/p2.5_c2e_0036.parse 8 25 gold exercise exercise.01 ----- 17:1*20:1-ARG0 25:0-rel 26:1-ARG1
+bn/p2.5_c2e/00/p2.5_c2e_0036.parse 0 17 gold swear swear_in.06 ----- 17:0,19:0-rel
 bn/p2.5_c2e/00/p2.5_c2e_0036.parse 0 40 gold be be.01 ----- 29:2*38:1-ARG1 40:0-rel 41:2-ARG2
 bn/p2.5_c2e/00/p2.5_c2e_0036.parse 5 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0036.parse 2 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0036.parse 7 15 gold lead lead.01 ----- 13:1-ARG0 15:0-rel 16:1-ARG1 18:1-ARG4
 bn/p2.5_c2e/00/p2.5_c2e_0036.parse 8 9 gold impose impose.01 ----- 5:1-ARG0 8:0-ARGM-MOD 9:0-rel 10:1-ARG1 11:1-ARGM-ADV
 bn/p2.5_c2e/00/p2.5_c2e_0036.parse 4 6 gold declare declare.01 ----- 0:1-ARGM-TMP 5:1-ARG0 6:0-rel 7:2-ARG2
-bn/p2.5_c2e/00/p2.5_c2e_0036.parse 0 17 gold swear swear_in.06 ----- 17:0,19:0-rel
 bn/p2.5_c2e/00/p2.5_c2e_0036.parse 7 29 gold increase increase.01 ----- 13:1-ARG0 29:0-rel 30:2-ARG1 35:2-ARGM-TMP
 bn/p2.5_c2e/00/p2.5_c2e_0036.parse 6 8 gold be be.01 ----- 0:2-ARG1 7:0-ARGM-MOD 8:0-rel 9:1-ARG2
 bn/p2.5_c2e/00/p2.5_c2e_0036.parse 0 33 gold have have.03 ----- 29:1*31:1*32:1-ARG0 29:1*31:1-LINK-SLC 33:0-rel 34:1-ARG1
@@ -33,6 +34,5 @@ bn/p2.5_c2e/00/p2.5_c2e_0036.parse 1 6 gold declare declare.01 ----- 0:1-ARGM-TM
 bn/p2.5_c2e/00/p2.5_c2e_0036.parse 10 7 gold insist insist.01 ----- 0:2-ARGM-TMP 5:1-ARG0 6:1-ARGM-TMP 7:0-rel 8:2-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0036.parse 9 21 gold be be.03 ----- 21:0-rel
 bn/p2.5_c2e/00/p2.5_c2e_0036.parse 10 10 gold be be.01 ----- 9:1-ARG1 10:0-rel 11:2-ARG2
-bn/p2.5_c2e/00/p2.5_c2e_0036.parse 9 22 gold take take.01 ----- 0:1-ARGM-DIS 3:1-ARGM-ADV 15:2*23:1-ARG1 22:0-rel 24:1-ARG2 27:1-ARGM-TMP
 bn/p2.5_c2e/00/p2.5_c2e_0036.parse 5 9 gold take take_over.12 ----- 3:1-ARGM-TMP 4:1-ARG0 8:1-ARGM-EXT 9:0,10:1-rel 11:2-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0036.parse 7 23 gold corrupt corrupt.01 ----- 23:0-rel

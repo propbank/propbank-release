@@ -10,19 +10,19 @@ nw/wsj/11/wsj_1107.parse 0 21 gold think think.01 ----- 20:1-ARG0 21:0-rel 22:1-
 nw/wsj/11/wsj_1107.parse 7 34 gold walk walk.01 ----- 32:0-ARGM-NEG 33:1-ARG0 34:0-rel 35:1-ARGM-DIR 36:1-ARGM-MNR
 nw/wsj/11/wsj_1107.parse 8 34 gold have have.04 ----- 32:1-ARGM-ADV 33:1-ARG0 34:0-rel 35:2-ARG1
 nw/wsj/11/wsj_1107.parse 8 19 gold end end.01 ----- 18:0-ARGM-EXT 19:0-rel 20:1-ARG1
+nw/wsj/11/wsj_1107.parse 7 5 gold be be.03 ----- 5:0-rel
 nw/wsj/11/wsj_1107.parse 10 9 gold be be.01 ----- 0:1-ARG1 2:0-ARGM-MOD 4:1-ARGM-ADV 9:0-rel 10:2-ARG2
 nw/wsj/11/wsj_1107.parse 14 21 gold house house.01 ----- 20:0-ARGM-ADJ 21:0-rel
 nw/wsj/11/wsj_1107.parse 11 8 gold dump dump.01 ----- 0:1-ARGM-MNR 4:1*9:1-ARG1 7:0-ARGM-NEG 8:0-rel 10:1-ARGM-DIR
 nw/wsj/11/wsj_1107.parse 5 10 gold try try.01 ----- 6:1*8:1-ARG0 10:0-rel 11:1-ARG1 14:1-ARGM-LOC
-nw/wsj/11/wsj_1107.parse 2 2 gold deteriorate deteriorate.01 ----- 0:1-ARG1 2:0-rel 3:1-ARGM-MNR 5:2-ARGM-ADV
 nw/wsj/11/wsj_1107.parse 15 54 gold have have.03 ----- 53:1*58:1-ARG0 54:0-rel 55:1-ARG1
-nw/wsj/11/wsj_1107.parse 7 5 gold be be.03 ----- 5:0-rel
 nw/wsj/11/wsj_1107.parse 15 49 gold need need.01 ----- 49:0-rel 50:0-ARG1
 nw/wsj/11/wsj_1107.parse 14 31 gold foreclose foreclose.01 ----- 31:0-rel 32:0-ARG1
 nw/wsj/11/wsj_1107.parse 14 16 gold aggravate aggravate.01 ----- 0:2-ARG0 15:1-ARGM-DIS 16:0-rel 17:2-ARG1 23:1-ARG2
+nw/wsj/11/wsj_1107.parse 8 28 gold pay pay.01 ----- 25:1*29:1-ARG3 25:1*29:1-LINK-PSV 28:0-rel
+nw/wsj/11/wsj_1107.parse 8 65 gold remain remain.01 ----- 63:1-ARG1 65:0-rel 66:1-ARG3
 nw/wsj/11/wsj_1107.parse 2 22 gold fall fall.01 ----- 13:1-ARGM-LOC 18:1-ARG1 21:0-ARGM-MOD 22:0-rel 23:2-ARG4
 nw/wsj/11/wsj_1107.parse 14 72 gold price price.01 ----- 68:1-ARG0 72:0-rel 73:1-ARG1 75:1-ARG2
-nw/wsj/11/wsj_1107.parse 1 5 gold see see.01 ----- 0:1-ARGM-LOC 3:1-ARG0 5:0-rel 6:2-ARG1
 nw/wsj/11/wsj_1107.parse 8 10 gold forgive forgive.01 ----- 2:1*9:1-ARG0 10:0-rel 11:3-ARG2 24:1-ARGM-ADV
 nw/wsj/11/wsj_1107.parse 0 15 gold be be.01 ----- 12:1-ARG1 15:0-rel 16:2-ARG2
 nw/wsj/11/wsj_1107.parse 1 4 gold have have.01 ----- 4:0-rel
@@ -34,19 +34,20 @@ nw/wsj/11/wsj_1107.parse 15 67 gold repeat repeat.01 ----- 64:1-ARG1 67:0-rel 68
 nw/wsj/11/wsj_1107.parse 15 44 gold afford afford.01 ----- 37:1*40:1*41:1-ARG0 37:1*40:1-LINK-SLC 42:0-ARGM-MOD 43:0-ARGM-NEG 44:0-rel 45:1-ARG1
 nw/wsj/11/wsj_1107.parse 14 78 gold be be.01 ----- 77:1-ARG1 78:0-rel 79:1-ARG2
 nw/wsj/11/wsj_1107.parse 15 6 gold sit sit.01 ----- 1:1-ARGM-DIS 3:1-ARG1 5:1-ARGM-TMP 6:0,7:1-rel 8:2-ARGM-ADV
+nw/wsj/11/wsj_1107.parse 2 2 gold deteriorate deteriorate.01 ----- 0:1-ARG1 2:0-rel 3:1-ARGM-MNR 5:2-ARGM-ADV
+nw/wsj/11/wsj_1107.parse 1 12 gold become become.01 ----- 6:1*13:1-ARG2 8:1-ARG1 11:0-ARGM-MOD 12:0-rel
+nw/wsj/11/wsj_1107.parse 15 19 gold resell resell.01 ----- 3:1*20:1-ARG1 5:1-ARGM-TMP 19:0-rel 21:1-ARGM-TMP 23:1-ARGM-CAU 36:1-ARG2
 nw/wsj/11/wsj_1107.parse 15 18 gold be be.03 ----- 18:0-rel
-nw/wsj/11/wsj_1107.parse 8 28 gold pay pay.01 ----- 25:1*29:1-ARG3 25:1*29:1-LINK-PSV 28:0-rel
 nw/wsj/11/wsj_1107.parse 4 5 gold have have.01 ----- 5:0-rel
 nw/wsj/11/wsj_1107.parse 14 26 gold buy buy.01 ----- 0:2*25:1-ARG0 26:0-rel 27:1-ARGM-ADV 29:1-ARGM-ADV 44:1-ARG3
 nw/wsj/11/wsj_1107.parse 15 9 gold deteriorate deteriorate.01 ----- 3:1*8:1-ARG1 9:0-rel 10:1-ARGM-TMP
 nw/wsj/11/wsj_1107.parse 15 50 gold repair repair.01 ----- 49:0-ARGM-PRD 50:0-rel
 nw/wsj/11/wsj_1107.parse 9 3 gold develop develop.02 ----- 2:1-ARG0 3:0-rel 4:2-ARG1
 nw/wsj/11/wsj_1107.parse 4 9 gold keep keep_up.05 ----- 1:2*7:1-ARG0 9:0,10:1-rel 11:1-ARG1
-nw/wsj/11/wsj_1107.parse 15 19 gold resell resell.01 ----- 3:1*20:1-ARG1 5:1-ARGM-TMP 19:0-rel 21:1-ARGM-TMP 23:1-ARGM-CAU 36:1-ARG2
 nw/wsj/11/wsj_1107.parse 4 19 gold do do.02 ----- 14:1*16:1-ARG0 17:0-ARGM-NEG 19:0-rel 20:1-ARG1
 nw/wsj/11/wsj_1107.parse 14 37 gold be be.02 ----- 37:0-rel 39:1-ARGM-DIS 41:2-ARG1
-nw/wsj/11/wsj_1107.parse 1 12 gold become become.01 ----- 6:1*13:1-ARG2 8:1-ARG1 11:0-ARGM-MOD 12:0-rel
-nw/wsj/11/wsj_1107.parse 8 65 gold remain remain.01 ----- 63:1-ARG1 65:0-rel 66:1-ARG3
+nw/wsj/11/wsj_1107.parse 1 5 gold see see.01 ----- 0:1-ARGM-LOC 3:1-ARG0 5:0-rel 6:2-ARG1
+nw/wsj/11/wsj_1107.parse 5 7 gold need need.01 ----- 6:1-ARG0 7:0-rel 8:2-ARG1
 nw/wsj/11/wsj_1107.parse 4 15 gold choose choose.01 ----- 14:1-ARG0 15:0-rel 16:2-ARG1
 nw/wsj/11/wsj_1107.parse 2 6 gold affect affect.01 ----- 5:1-ARG0 6:0-rel 7:2-ARG1
 nw/wsj/11/wsj_1107.parse 7 2 gold foreclose foreclose.01 ----- 2:0-rel 3:0-ARG1
@@ -54,5 +55,4 @@ nw/wsj/11/wsj_1107.parse 3 15 gold exceed exceed.01 ----- 13:1-ARG0 15:0-rel 16:
 nw/wsj/11/wsj_1107.parse 8 52 gold forgive forgive.01 ----- 35:1*54:1-ARG2 52:0-rel 55:1-ARGM-MNR 60:2-ARGM-TMP
 nw/wsj/11/wsj_1107.parse 14 53 gold say say.01 ----- 52:1-ARG0 53:0-rel 54:2-ARG1
 nw/wsj/11/wsj_1107.parse 5 18 gold experiment experiment.01 ----- 15:1-ARGM-MNR 18:0-rel
-nw/wsj/11/wsj_1107.parse 5 7 gold need need.01 ----- 6:1-ARG0 7:0-rel 8:2-ARG1
 nw/wsj/11/wsj_1107.parse 0 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2

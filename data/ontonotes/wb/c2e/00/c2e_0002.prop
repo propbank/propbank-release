@@ -1,10 +1,13 @@
 wb/c2e/00/c2e_0002.parse 12 13 gold lack lack.01 ----- 11:1-ARGM-ADJ 13:0-rel 14:1-ARG1
 wb/c2e/00/c2e_0002.parse 20 16 gold boil boil.01 ----- 16:0-rel 17:0-ARG1
+wb/c2e/00/c2e_0002.parse 32 7 gold produce produce.01 ----- 5:1-ARG0 7:0-rel 8:2-ARG1
 wb/c2e/00/c2e_0002.parse 9 8 gold be be.01 ----- 0:2-ARG1 8:0-rel 10:3-ARG2
+wb/c2e/00/c2e_0002.parse 24 18 gold be be.03 ----- 18:0-rel
 wb/c2e/00/c2e_0002.parse 23 6 gold be be.01 ----- 0:1-ARGM-TMP 5:1-ARG1 6:0-rel 7:1-ARG2
 wb/c2e/00/c2e_0002.parse 6 6 gold bring bring.01 ----- 0:2-ARG0 5:0-ARGM-MOD 6:0-rel 7:2-ARG1
 wb/c2e/00/c2e_0002.parse 19 21 gold consume consume.01 ----- 12:2*19:1*22:1-ARG1 12:2*19:1-LINK-SLC 20:1-ARG0 21:0-rel
 wb/c2e/00/c2e_0002.parse 13 3 gold be be.01 ----- 0:1*5:1-ARGM-TMP 1:1-ARG1 3:0-rel 4:1-ARG2
+wb/c2e/00/c2e_0002.parse 24 19 gold flush flush.01 ----- 10:2*16:1*20:1-ARG1 19:0-rel 21:1-ARGM-DIR 22:1-ARGM-MNR
 wb/c2e/00/c2e_0002.parse 9 5 gold treat treat.05 ----- 0:1*2:1*7:1-ARGM-MNR 0:1*2:1-LINK-SLC 3:1-ARG0 5:0-rel 6:1-ARG1
 wb/c2e/00/c2e_0002.parse 12 5 gold be be.01 ----- 3:1-ARG1 5:0-rel 6:3-ARG2
 wb/c2e/00/c2e_0002.parse 20 12 gold dilute dilute.01 ----- 10:1*13:1-ARG1 10:1*13:1-LINK-PSV 12:0-rel 14:1-ARG5
@@ -12,14 +15,11 @@ wb/c2e/00/c2e_0002.parse 21 3 gold be be.01 ----- 0:1-ARG1 2:0-ARGM-MOD 3:0-rel 
 wb/c2e/00/c2e_0002.parse 34 1 gold click click.01 ----- 0:1-ARG0 1:0-rel 2:2;9:1-ARG1 4:1-ARGM-PRP
 wb/c2e/00/c2e_0002.parse 28 11 gold cause cause.01 ----- 5:2-ARG0 10:0-ARGM-MOD 11:0-rel 12:2-ARG1
 wb/c2e/00/c2e_0002.parse 27 6 gold soak soak.01 ----- 1:1-ARG0 6:0-rel 7:1-ARGM-LOC 10:1-ARGM-TMP
-wb/c2e/00/c2e_0002.parse 24 19 gold flush flush.01 ----- 10:2*16:1*20:1-ARG1 19:0-rel 21:1-ARGM-DIR 22:1-ARGM-MNR
 wb/c2e/00/c2e_0002.parse 8 4 gold be be.03 ----- 4:0-rel
 wb/c2e/00/c2e_0002.parse 7 11 gold prescribe prescribe.02 ----- 0:2-ARGM-ADV 9:1-ARG0 10:0-ARGM-MOD 11:0-rel 13:1-ARG1 15:1-ARG2
-wb/c2e/00/c2e_0002.parse 27 19 gold flush flush.01 ----- 17:1-ARG0 19:0-rel 20:1-ARGM-DIR 21:1-ARG1
 wb/c2e/00/c2e_0002.parse 4 2 gold be be.01 ----- 1:1-ARG1 2:0-rel 3:0-ARGM-NEG 4:2-ARG2
 wb/c2e/00/c2e_0002.parse 26 12 gold control control.01 ----- 11:1-ARG0 12:0-rel 13:2-ARG1
 wb/c2e/00/c2e_0002.parse 25 12 gold cover cover.02 ----- 0:1-ARGM-CAU 7:1*13:1-ARG1 10:1-ARGM-MNR 12:0-rel 14:1-ARG2
-wb/c2e/00/c2e_0002.parse 4 12 gold be be.01 ----- 0:1-ARGM-ADV 11:1-ARG1 12:0-rel 13:1-ARG2
 wb/c2e/00/c2e_0002.parse 8 9 gold absorb absorb.01 ----- 8:1-ARG0 9:0-rel 10:2-ARG1
 wb/c2e/00/c2e_0002.parse 16 7 gold absorb absorb.01 ----- 4:1-ARG0 6:1-ARGM-EXT 7:0-rel 8:1-ARG1 9:1-ARGM-MNR
 wb/c2e/00/c2e_0002.parse 17 4 gold absorb absorb.01 ----- 3:0-ARG0 4:0-rel 5:1-ARG1
@@ -29,29 +29,30 @@ wb/c2e/00/c2e_0002.parse 22 5 gold speak speak.01 ----- 3:1-ARG0 4:1-ARGM-MNR 5:
 wb/c2e/00/c2e_0002.parse 6 4 gold diet diet.01 ----- 3:0-ARG0 4:0-rel
 wb/c2e/00/c2e_0002.parse 26 24 gold flush flush.01 ----- 22:1-ARG0 24:0-rel 25:1-ARGM-DIR 26:1-ARG1 28:1-ARGM-MNR
 wb/c2e/00/c2e_0002.parse 11 18 gold drink drink.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:1-ARGM-ADV 18:0-rel 19:1-ARG1
-wb/c2e/00/c2e_0002.parse 11 3 gold chop chop.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:1-ARGM-ADV 3:0-rel 4:1-ARG1 5:1-ARGM-PRD
 wb/c2e/00/c2e_0002.parse 27 2 gold bathe bathe.01 ----- 1:1-ARG0 2:0-rel 3:1-ARGM-TMP
 wb/c2e/00/c2e_0002.parse 22 17 gold be be.01 ----- 3:2-ARGM-ADV 7:2-ARG1 17:0-rel 18:1-ARG2
 wb/c2e/00/c2e_0002.parse 9 14 gold contain contain.01 ----- 13:1-ARG0 14:0-rel 15:1-ARG1
-wb/c2e/00/c2e_0002.parse 20 2 gold eat eat.01 ----- 1:1-ARG0 2:0-rel
-wb/c2e/00/c2e_0002.parse 2 4 gold want want.01 ----- 0:1*3:1-ARG0 2:0-ARGM-NEG 4:0-rel 5:1-ARG1
 wb/c2e/00/c2e_0002.parse 7 2 gold be be.01 ----- 0:1*1:1-ARG1 2:0-rel 3:2-ARG2
-wb/c2e/00/c2e_0002.parse 29 15 gold affect affect.01 ----- 0:0-ARGM-DIS 1:1-ARGM-ADV 13:1-ARG0 14:0-ARGM-MOD 15:0-rel 16:2-ARG1
+wb/c2e/00/c2e_0002.parse 18 6 gold cause cause.01 ----- 4:1*7:1-ARG1 6:0-rel 8:1-ARG0
 wb/c2e/00/c2e_0002.parse 8 5 gold cause cause.01 ----- 3:1*6:1-ARG1 5:0-rel 7:1-ARG0
 wb/c2e/00/c2e_0002.parse 25 2 gold consume consume.01 ----- 1:1-ARG0 2:0-rel 3:2-ARG1
+wb/c2e/00/c2e_0002.parse 14 8 gold be be.01 ----- 0:2-ARG1 8:0-rel 10:2-ARG2
 wb/c2e/00/c2e_0002.parse 29 7 gold absorb absorb.01 ----- 2:1-ARGM-LOC 5:1-ARG0 6:1-ARGM-ADV 7:0-rel 8:1-ARG1
 wb/c2e/00/c2e_0002.parse 24 6 gold be be.03 ----- 6:0-rel
 wb/c2e/00/c2e_0002.parse 24 7 gold cause cause.01 ----- 0:2*8:1-ARG1 7:0-rel 9:1-ARG0
 wb/c2e/00/c2e_0002.parse 11 9 gold wrap wrap.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:1-ARGM-ADV 9:0-rel 10:1-ARG1 11:1-ARG2
+wb/c2e/00/c2e_0002.parse 25 11 gold be be.03 ----- 11:0-rel
 wb/c2e/00/c2e_0002.parse 30 5 gold eat eat.01 ----- 0:0-ARGM-DIS 1:2-ARG0 4:0-ARGM-MOD 5:0-rel 6:2-ARG1
 wb/c2e/00/c2e_0002.parse 24 15 gold need need.01 ----- 10:2-ARG0 15:0-rel 16:2-ARG1
 wb/c2e/00/c2e_0002.parse 26 5 gold treat treat.05 ----- 0:1*2:1*7:1-ARGM-MNR 0:1*2:1-LINK-SLC 3:1-ARG0 5:0-rel 6:1-ARG1
+wb/c2e/00/c2e_0002.parse 11 3 gold chop chop.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:1-ARGM-ADV 3:0-rel 4:1-ARG1 5:1-ARGM-PRD
 wb/c2e/00/c2e_0002.parse 26 18 gold drink drink.01 ----- 11:1-ARG0 18:0-rel 19:2-ARG1 22:2-ARGM-PRP
-wb/c2e/00/c2e_0002.parse 20 6 gold drink drink.01 ----- 0:1-ARGM-TMP 4:1-ARG0 5:0-ARGM-MOD 6:0-rel 7:2-ARG1
 wb/c2e/00/c2e_0002.parse 31 6 gold be be.01 ----- 0:1-ARGM-ADV 5:1-ARG1 6:0-rel 7:2-ARG2
 wb/c2e/00/c2e_0002.parse 18 5 gold be be.03 ----- 5:0-rel
 wb/c2e/00/c2e_0002.parse 10 9 gold be be.01 ----- 0:1-ARGM-ADV 7:1-ARG1 9:0-rel 10:1-ARG2
 wb/c2e/00/c2e_0002.parse 33 8 gold appear appear.01 ----- 6:1-ARG1 8:0-rel 9:1-ARGM-LOC
+wb/c2e/00/c2e_0002.parse 20 6 gold drink drink.01 ----- 0:1-ARGM-TMP 4:1-ARG0 5:0-ARGM-MOD 6:0-rel 7:2-ARG1
+wb/c2e/00/c2e_0002.parse 20 2 gold eat eat.01 ----- 1:1-ARG0 2:0-rel
 wb/c2e/00/c2e_0002.parse 0 3 gold care care.03 ----- 0:1*12:1-ARGM-MNR 1:0-ARGM-MOD 2:1-ARG0 3:0-rel 4:1-ARG1 7:2-ARGM-TMP
 wb/c2e/00/c2e_0002.parse 14 15 gold massage massage.01 ----- 11:1-ARG0 12:1-ARGM-TMP 15:0-rel 16:2-ARGM-PRP
 wb/c2e/00/c2e_0002.parse 28 14 gold appear appear.01 ----- 12:1-ARG1 14:0-rel 15:1-ARGM-LOC
@@ -68,6 +69,7 @@ wb/c2e/00/c2e_0002.parse 2 1 gold do do.01 ----- 1:0-rel
 wb/c2e/00/c2e_0002.parse 22 13 gold consume consume.01 ----- 10:1*11:1*12:1-ARG0 10:1*11:1-LINK-SLC 13:0-rel 14:2-ARG1
 wb/c2e/00/c2e_0002.parse 6 2 gold adjust adjust.01 ----- 0:1-ARG0 1:1-ARGM-MNR 2:0-rel 3:1-ARG1
 wb/c2e/00/c2e_0002.parse 29 4 gold diet diet.01 ----- 3:0-ARG0 4:0-rel
+wb/c2e/00/c2e_0002.parse 2 4 gold want want.01 ----- 0:1*3:1-ARG0 2:0-ARGM-NEG 4:0-rel 5:1-ARG1
 wb/c2e/00/c2e_0002.parse 26 8 gold be be.01 ----- 0:2-ARG1 8:0-rel 10:2-ARG2
 wb/c2e/00/c2e_0002.parse 17 2 gold improve improve.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:2-ARG1 8:1-ARGM-MNR
 wb/c2e/00/c2e_0002.parse 18 10 gold consume consume.01 ----- 9:1-ARG0 10:0-rel 11:2-ARG1
@@ -77,19 +79,17 @@ wb/c2e/00/c2e_0002.parse 19 5 gold treat treat.05 ----- 0:1*2:1*7:1-ARGM-MNR 0:1
 wb/c2e/00/c2e_0002.parse 16 13 gold eat eat.01 ----- 1:2-ARGM-PRP 11:1-ARG0 12:0-ARGM-MOD 13:0-rel 14:2-ARG1
 wb/c2e/00/c2e_0002.parse 11 14 gold squeeze squeeze.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:1-ARGM-ADV 14:0-rel 15:1-ARG1
 wb/c2e/00/c2e_0002.parse 9 23 gold supplement supplement.01 ----- 10:2-ARGM-TMP 21:1-ARG0 22:0-ARGM-MOD 23:0-rel 24:1-ARG1 25:1-ARG2
+wb/c2e/00/c2e_0002.parse 29 15 gold affect affect.01 ----- 0:0-ARGM-DIS 1:1-ARGM-ADV 13:1-ARG0 14:0-ARGM-MOD 15:0-rel 16:2-ARG1
+wb/c2e/00/c2e_0002.parse 4 12 gold be be.01 ----- 0:1-ARGM-ADV 11:1-ARG1 12:0-rel 13:1-ARG2
 wb/c2e/00/c2e_0002.parse 16 3 gold make make.02 ----- 1:1-ARG0 3:0-rel 4:2-ARG1
 wb/c2e/00/c2e_0002.parse 29 18 gold function function.01 ----- 17:0-ARGM-ADJ 18:0-rel 19:1-ARG0
 wb/c2e/00/c2e_0002.parse 29 22 gold make make.02 ----- 0:0-ARGM-DIS 1:1-ARGM-ADV 13:1-ARG0 14:0-ARGM-MOD 22:0-rel 23:2-ARG1
 wb/c2e/00/c2e_0002.parse 9 29 gold contain contain.01 ----- 26:1*27:1*28:1-ARG0 26:1*27:1-LINK-SLC 29:0-rel 30:2-ARG1
-wb/c2e/00/c2e_0002.parse 24 4 gold go go.08 ----- 0:1-ARG1 4:0-rel 5:1-ARG2
 wb/c2e/00/c2e_0002.parse 10 2 gold eat eat.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG1 4:2-ARGM-PRD
-wb/c2e/00/c2e_0002.parse 18 6 gold cause cause.01 ----- 4:1*7:1-ARG1 6:0-rel 8:1-ARG0
+wb/c2e/00/c2e_0002.parse 24 4 gold go go.08 ----- 0:1-ARG1 4:0-rel 5:1-ARG2
+wb/c2e/00/c2e_0002.parse 27 19 gold flush flush.01 ----- 17:1-ARG0 19:0-rel 20:1-ARGM-DIR 21:1-ARG1
 wb/c2e/00/c2e_0002.parse 19 8 gold be be.01 ----- 0:2-ARG1 8:0-rel 10:2-ARG2
-wb/c2e/00/c2e_0002.parse 14 8 gold be be.01 ----- 0:2-ARG1 8:0-rel 10:2-ARG2
 wb/c2e/00/c2e_0002.parse 14 13 gold bathe bathe.01 ----- 11:1-ARG0 12:1-ARGM-TMP 13:0-rel 16:2-ARGM-PRP
 wb/c2e/00/c2e_0002.parse 28 6 gold consume consume.01 ----- 5:1-ARG0 6:0-rel 7:2-ARG1
 wb/c2e/00/c2e_0002.parse 19 27 gold contain contain.01 ----- 25:1-ARG0 27:0-rel 28:1-ARG1
-wb/c2e/00/c2e_0002.parse 25 11 gold be be.03 ----- 11:0-rel
-wb/c2e/00/c2e_0002.parse 24 18 gold be be.03 ----- 18:0-rel
 wb/c2e/00/c2e_0002.parse 14 21 gold flow flow.01 ----- 19:1-ARG1 21:0-rel 22:1-ARGM-MNR
-wb/c2e/00/c2e_0002.parse 32 7 gold produce produce.01 ----- 5:1-ARG0 7:0-rel 8:2-ARG1

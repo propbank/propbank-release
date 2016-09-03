@@ -3,14 +3,15 @@ nw/wsj/18/wsj_1824.parse 26 7 gold make make.02 ----- 5:0-ARGM-MOD 7:0-rel 8:2-A
 nw/wsj/18/wsj_1824.parse 33 10 gold move move.01 ----- 4:2*9:1-ARG0 10:0-rel 11:1-ARG1 24:1-ARG2
 nw/wsj/18/wsj_1824.parse 38 48 gold fight fight.01 ----- 24:1*44:1*47:1-ARG0 24:1*44:1-LINK-PRO 48:0-rel 49:1-ARG1
 nw/wsj/18/wsj_1824.parse 9 16 gold cost cost.01 ----- 11:1*18:1-ARG2 13:1-ARG1 15:0-ARGM-MOD 16:0-rel 17:1-ARG3
-nw/wsj/18/wsj_1824.parse 34 16 gold damage damage.01 ----- 16:0-rel
-nw/wsj/18/wsj_1824.parse 23 17 gold come come.01 ----- 9:1*16:1-ARG1 17:0-rel 18:1-ARGM-DIR 19:1-ARG3
 nw/wsj/18/wsj_1824.parse 49 5 gold have have.01 ----- 5:0-rel
+nw/wsj/18/wsj_1824.parse 6 39 gold relate relate.01 ----- 37:1-ARG1 39:0-rel 40:1-ARG2
+nw/wsj/18/wsj_1824.parse 9 3 gold be be.03 ----- 3:0-rel
 nw/wsj/18/wsj_1824.parse 22 25 gold request request.01 ----- 21:1-ARG0 23:0-ARGM-LVB 24:0-ARGM-ADJ 25:0-rel 26:1-ARG2
 nw/wsj/18/wsj_1824.parse 14 2 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 2:0-rel 3:0-ARGM-NEG 4:2-ARG2
 nw/wsj/18/wsj_1824.parse 46 27 gold set set.02 ----- 15:1-ARGM-TMP 25:1-ARG0 27:0-rel 28:1-ARG1 30:1-ARGM-ADV
 nw/wsj/18/wsj_1824.parse 32 8 gold be be.03 ----- 8:0-rel
 nw/wsj/18/wsj_1824.parse 48 6 gold fail fail.01 ----- 0:1*4:1*5:1-ARG1 0:1*4:1-LINK-SLC 6:0-rel 7:1-ARGM-TMP
+nw/wsj/18/wsj_1824.parse 0 27 gold replenish replenish.01 ----- 20:2*28:1-ARG1 25:0-ARGM-MOD 27:0-rel 29:1-ARGM-TMP 30:1-ARGM-ADV
 nw/wsj/18/wsj_1824.parse 2 20 gold cover cover.01 ----- 13:2*17:1*18:1-ARG2 13:2*17:1-LINK-SLC 20:0-rel 21:2-ARG1
 nw/wsj/18/wsj_1824.parse 38 27 gold be be.03 ----- 27:0-rel
 nw/wsj/18/wsj_1824.parse 10 8 gold be be.02 ----- 7:0-ARGM-MOD 8:0-rel 17:3-ARG1
@@ -23,14 +24,16 @@ nw/wsj/18/wsj_1824.parse 29 2 gold plan plan.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
 nw/wsj/18/wsj_1824.parse 8 8 gold have have.03 ----- 5:1-ARG0 6:0-ARGM-MOD 7:0-ARGM-NEG 8:0-rel 9:2-ARG1
 nw/wsj/18/wsj_1824.parse 32 9 gold know know.02 ----- 2:2*10:1-ARG1 9:0-rel
 nw/wsj/18/wsj_1824.parse 8 40 gold say say.01 ----- 1:3*41:1-ARG1 38:1-ARG0 40:0-rel
+nw/wsj/18/wsj_1824.parse 14 20 gold be be.03 ----- 20:0-rel
 nw/wsj/18/wsj_1824.parse 10 3 gold say say.01 ----- 0:0-ARGM-DIS 1:1-ARG0 3:0-rel 6:2-ARG1
 nw/wsj/18/wsj_1824.parse 13 6 gold be be.03 ----- 6:0-rel
 nw/wsj/18/wsj_1824.parse 0 33 gold be be.03 ----- 33:0-rel
 nw/wsj/18/wsj_1824.parse 33 8 gold begin begin.01 ----- 0:1-ARGM-TMP 4:2,9:2-ARG1 8:0-rel
 nw/wsj/18/wsj_1824.parse 5 10 gold be be.03 ----- 10:0-rel
 nw/wsj/18/wsj_1824.parse 32 31 gold prepare prepare.02 ----- 17:1-ARG0 31:0-rel 32:2-ARG2
+nw/wsj/18/wsj_1824.parse 34 16 gold damage damage.01 ----- 16:0-rel
 nw/wsj/18/wsj_1824.parse 4 48 gold provide provide.01 ----- 45:1-ARG0 48:0-rel 49:2-ARG1
-nw/wsj/18/wsj_1824.parse 36 20 gold be be.03 ----- 20:0-rel
+nw/wsj/18/wsj_1824.parse 23 17 gold come come.01 ----- 9:1*16:1-ARG1 17:0-rel 18:1-ARGM-DIR 19:1-ARG3
 nw/wsj/18/wsj_1824.parse 14 12 gold spread spread.01 ----- 4:1*9:1*10:1*13:1-ARG1 4:1*9:1-LINK-SLC 12:0-rel 14:1-ARGM-PRD
 nw/wsj/18/wsj_1824.parse 23 3 gold confuse confuse.01 ----- 3:0-rel 4:1-ARGM-TMP
 nw/wsj/18/wsj_1824.parse 28 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
@@ -45,13 +48,16 @@ nw/wsj/18/wsj_1824.parse 41 15 gold rebuild rebuild.01 ----- 1:1*13:1-ARG0 15:0-
 nw/wsj/18/wsj_1824.parse 8 19 gold face face.01 ----- 13:1*15:1*16:1-ARG0 13:1*15:1-LINK-SLC 18:1-ARGM-TMP 19:0-rel 20:1-ARG1
 nw/wsj/18/wsj_1824.parse 19 10 gold have have.02 ----- 8:1*17:1-ARGM-TMP 10:0-rel
 nw/wsj/18/wsj_1824.parse 48 24 gold earthquake earthquake.01 ----- 23:0-ARGM-TMP 24:0-rel
-nw/wsj/18/wsj_1824.parse 35 17 gold await await.01 ----- 5:2*16:1-ARG1 17:0-rel 18:1-ARG2
 nw/wsj/18/wsj_1824.parse 12 3 gold add add.02 ----- 0:1*4:1-ARG1 1:0-ARGM-MOD 3:0-rel 5:1-ARG2
+nw/wsj/18/wsj_1824.parse 44 4 gold dictate dictate.01 ----- 2:1-ARG0 4:0-rel 5:1-ARG1
 nw/wsj/18/wsj_1824.parse 20 3 gold have have.01 ----- 3:0-rel
+nw/wsj/18/wsj_1824.parse 35 17 gold await await.01 ----- 5:2*16:1-ARG1 17:0-rel 18:1-ARG2
 nw/wsj/18/wsj_1824.parse 9 6 gold attempt attempt.01 ----- 0:1-ARG0 4:0-ARGM-NEG 5:1-ARGM-DIS 6:0-rel 7:1-ARGM-TMP 8:2-ARG1
+nw/wsj/18/wsj_1824.parse 46 20 gold earthquake earthquake.01 ----- 17:0-ARGM-TMP 18:1-ARG1 20:0-rel 21:1-ARGM-LOC
 nw/wsj/18/wsj_1824.parse 45 21 gold be be.03 ----- 21:0-rel
 nw/wsj/18/wsj_1824.parse 26 18 gold house house.01 ----- 18:0-rel
 nw/wsj/18/wsj_1824.parse 14 21 gold stretch stretch.01 ----- 16:1*22:1-ARG1 19:1-ARGM-DIS 21:0-rel
+nw/wsj/18/wsj_1824.parse 47 16 gold continue continue.01 ----- 12:1-ARG1 16:0-rel
 nw/wsj/18/wsj_1824.parse 34 3 gold fly fly.01 ----- 0:1-ARG0 3:0-rel 4:2-ARG1 12:2-ARGM-PRP
 nw/wsj/18/wsj_1824.parse 22 10 gold be be.03 ----- 10:0-rel
 nw/wsj/18/wsj_1824.parse 16 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
@@ -59,40 +65,39 @@ nw/wsj/18/wsj_1824.parse 4 28 gold be be.03 ----- 28:0-rel
 nw/wsj/18/wsj_1824.parse 40 8 gold help help.01 ----- 0:1-ARGM-LOC 4:1*9:1-ARG2 6:0-ARGM-MOD 8:0-rel 10:1-ARG1
 nw/wsj/18/wsj_1824.parse 4 32 gold divert divert.01 ----- 25:1*30:1-ARG0 32:0-rel 33:1-ARG1 34:1-ARG2 40:1-ARG3
 nw/wsj/18/wsj_1824.parse 8 28 gold consider consider.02 ----- 23:1*26:1-ARG0 28:0-rel 29:2-ARG1
-nw/wsj/18/wsj_1824.parse 25 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
-nw/wsj/18/wsj_1824.parse 40 38 gold repair repair.01 ----- 20:1*24:1-ARG0 38:0-rel 39:1-ARG1
-nw/wsj/18/wsj_1824.parse 46 44 gold retrofit retrofit.01 ----- 39:1*41:1*42:1-ARG0 39:1*41:1-LINK-SLC 44:0-rel 45:1-ARG1 48:1-ARG2
+nw/wsj/18/wsj_1824.parse 25 23 gold be be.01 ----- 8:2*15:1*16:1-ARG1 8:2*15:1-LINK-SLC 22:1-ARGM-TMP 23:0-rel 24:1-ARG2
 nw/wsj/18/wsj_1824.parse 4 7 gold prepare prepare.02 ----- 0:2-ARG0 7:0-rel 8:2-ARG2
 nw/wsj/18/wsj_1824.parse 36 25 gold serve serve.01 ----- 0:3*22:1*23:1-ARG0 25:0-rel 26:1-ARG1
 nw/wsj/18/wsj_1824.parse 19 3 gold make make.02 ----- 1:1-ARG0 2:1-ARGM-ADV 3:0-rel 4:2-ARG1 8:2-ARGM-TMP
 nw/wsj/18/wsj_1824.parse 48 16 gold be be.03 ----- 16:0-rel
 nw/wsj/18/wsj_1824.parse 45 8 gold go go.12 ----- 0:2-ARGM-PRP 6:1-ARG1 7:0-ARGM-MOD 8:0-rel 9:1-ARG2
 nw/wsj/18/wsj_1824.parse 25 34 gold ensure ensure.01 ----- 32:1-ARG0 34:0-rel 35:1-ARG1
-nw/wsj/18/wsj_1824.parse 25 6 gold make make.02 ----- 4:1-ARG0 5:0-ARGM-MOD 6:0-rel 7:2-ARG1 25:1-ARGM-TMP
-nw/wsj/18/wsj_1824.parse 0 27 gold replenish replenish.01 ----- 20:2*28:1-ARG1 25:0-ARGM-MOD 27:0-rel 29:1-ARGM-TMP 30:1-ARGM-ADV
 nw/wsj/18/wsj_1824.parse 46 13 gold say say.01 ----- 0:2-ARG0 12:1-ARGM-DIS 13:0-rel 14:1-ARG1
 nw/wsj/18/wsj_1824.parse 2 1 gold declare declare.01 ----- 1:0-rel
-nw/wsj/18/wsj_1824.parse 46 20 gold earthquake earthquake.01 ----- 17:0-ARGM-TMP 18:1-ARG1 20:0-rel 21:1-ARGM-LOC
 nw/wsj/18/wsj_1824.parse 29 5 gold announce announce.01 ----- 0:1*3:1-ARG0 5:0-rel 6:1-ARG1 9:1-ARGM-TMP
 nw/wsj/18/wsj_1824.parse 4 10 gold make make.02 ----- 0:2*8:1-ARG0 10:0-rel 11:3-ARG1
-nw/wsj/18/wsj_1824.parse 37 4 gold treat treat.03 ----- 0:1*5:1-ARG1 2:1-ARGM-DIS 4:0-rel 6:2-ARGM-LOC
 nw/wsj/18/wsj_1824.parse 31 9 gold handle handle.01 ----- 3:1*8:1-ARG0 9:0-rel 10:1-ARG1
-nw/wsj/18/wsj_1824.parse 47 16 gold continue continue.01 ----- 12:1-ARG1 16:0-rel
+nw/wsj/18/wsj_1824.parse 25 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 nw/wsj/18/wsj_1824.parse 22 11 gold send send.01 ----- 0:2*7:1*8:1*12:1-ARG1 0:2*7:1-LINK-SLC 9:0-ARGM-MOD 11:0-rel 13:1-ARG2
 nw/wsj/18/wsj_1824.parse 44 31 gold move move.02 ----- 29:1-ARG0 31:0-rel 32:1-ARGM-DIR 33:2-ARG1
 nw/wsj/18/wsj_1824.parse 5 11 gold run run.01 ----- 1:2-ARG1 9:1-ARGM-TMP 11:0-rel 12:2-ARGM-MNR 14:1-ARGM-CAU
 nw/wsj/18/wsj_1824.parse 25 37 gold be be.01 ----- 36:1-ARG1 37:0-rel 38:1-ARG2
-nw/wsj/18/wsj_1824.parse 13 7 gold add add.02 ----- 0:1-ARGM-DIS 3:1*8:1-ARG1 5:0-ARGM-MOD 7:0-rel 9:1-ARG2
+nw/wsj/18/wsj_1824.parse 42 12 gold help help.01 ----- 5:1*9:1*10:1-ARG0 5:1*9:1-LINK-SLC 12:0-rel 13:3-ARG1
+nw/wsj/18/wsj_1824.parse 18 14 gold say say.01 ----- 1:2*15:1-ARG1 14:0-rel 16:2-ARG0
+nw/wsj/18/wsj_1824.parse 4 47 gold be be.03 ----- 47:0-rel
 nw/wsj/18/wsj_1824.parse 0 6 gold open open.01 ----- 0:1*4:1-ARG0 6:0-rel 7:2-ARG1 12:1-ARG3
 nw/wsj/18/wsj_1824.parse 38 17 gold be be.03 ----- 17:0-rel
 nw/wsj/18/wsj_1824.parse 0 17 gold earthquake earthquake.01 ----- 16:0-ARG1 17:0-rel
-nw/wsj/18/wsj_1824.parse 30 16 gold cash cash.01 ----- 5:2*14:1-ARG0 16:0-rel 17:1-ARGM-DIR 18:1-ARG1
 nw/wsj/18/wsj_1824.parse 42 17 gold repair repair.01 ----- 13:2-ARG0 17:0-rel 18:3-ARG1
 nw/wsj/18/wsj_1824.parse 10 11 gold think think.01 ----- 10:1-ARG0 11:0-rel 12:1-ARGM-ADV
 nw/wsj/18/wsj_1824.parse 26 12 gold say say.01 ----- 11:1-ARG0 12:0-rel
-nw/wsj/18/wsj_1824.parse 50 2 gold contribute contribute.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG2
+nw/wsj/18/wsj_1824.parse 35 12 gold be be.01 ----- 5:2-ARG1 12:0-rel 13:1-ARG2 16:2-ARGM-PRD
+nw/wsj/18/wsj_1824.parse 42 4 gold have have.03 ----- 0:1-ARG0 4:0-rel 5:2-ARG1
 nw/wsj/18/wsj_1824.parse 41 3 gold be be.03 ----- 3:0-rel
 nw/wsj/18/wsj_1824.parse 13 16 gold be be.03 ----- 16:0-rel
+nw/wsj/18/wsj_1824.parse 27 16 gold move move.02 ----- 0:3-ARG1 16:0-rel 17:1-ARGM-MNR 18:1-ARGM-DIS
+nw/wsj/18/wsj_1824.parse 31 29 gold provide provide.01 ----- 26:1*27:1*28:1-ARG0 26:1*27:1-LINK-SLC 29:0-rel 30:2-ARG1
+nw/wsj/18/wsj_1824.parse 32 16 gold order order.01 ----- 0:2-ARGM-TMP 12:2-ARG0 16:0-rel 17:1-ARG1 20:1-ARG2
 nw/wsj/18/wsj_1824.parse 21 9 gold be be.03 ----- 9:0-rel
 nw/wsj/18/wsj_1824.parse 22 31 gold say say.01 ----- 0:4*33:1-ARG1 29:1-ARG0 31:0-rel
 nw/wsj/18/wsj_1824.parse 4 29 gold set set.08 ----- 25:1*30:1-ARG1 29:0-rel 31:1-ARG2
@@ -102,14 +107,11 @@ nw/wsj/18/wsj_1824.parse 3 10 gold move move.02 ----- 0:1-ARGM-DIS 3:2-ARG0 10:0
 nw/wsj/18/wsj_1824.parse 8 35 gold fund fund.01 ----- 32:1-ARGM-ADJ 35:0-rel
 nw/wsj/18/wsj_1824.parse 22 18 gold determine determine.01 ----- 0:3*19:1-ARG1 15:0-ARGM-MOD 16:0-ARGM-NEG 18:0-rel 20:1-ARGM-TMP
 nw/wsj/18/wsj_1824.parse 29 11 gold come come.01 ----- 11:0-rel 12:0-ARG1
-nw/wsj/18/wsj_1824.parse 6 39 gold relate relate.01 ----- 37:1-ARG1 39:0-rel 40:1-ARG2
-nw/wsj/18/wsj_1824.parse 9 3 gold be be.03 ----- 3:0-rel
 nw/wsj/18/wsj_1824.parse 35 21 gold move move.01 ----- 5:2*19:1-ARG0 5:2*19:1-LINK-PRO 21:0-rel 22:1-ARG1
 nw/wsj/18/wsj_1824.parse 6 33 gold be be.03 ----- 33:0-rel
 nw/wsj/18/wsj_1824.parse 2 3 gold make make.02 ----- 0:1-ARG0 2:1-ARGM-TMP 3:0-rel 4:2-ARG1
+nw/wsj/18/wsj_1824.parse 36 20 gold be be.03 ----- 20:0-rel
 nw/wsj/18/wsj_1824.parse 5 29 gold be be.01 ----- 27:1-ARG1 28:0-ARGM-MOD 29:0-rel 30:1-ARG2
-nw/wsj/18/wsj_1824.parse 31 29 gold provide provide.01 ----- 26:1*27:1*28:1-ARG0 26:1*27:1-LINK-SLC 29:0-rel 30:2-ARG1
-nw/wsj/18/wsj_1824.parse 45 22 gold cut cut.01 ----- 18:1*23:1-ARG1 22:0-rel 24:1-ARGM-TMP
 nw/wsj/18/wsj_1824.parse 11 6 gold look look.01 ----- 0:1-ARGM-LOC 3:1-ARG0 4:1-ARGM-TMP 6:0-rel 7:1-ARG1
 nw/wsj/18/wsj_1824.parse 21 10 gold dispatch dispatch.01 ----- 0:3*11:1-ARG1 10:0-rel 12:1-ARGM-DIR
 nw/wsj/18/wsj_1824.parse 47 15 gold be be.03 ----- 15:0-rel
@@ -117,12 +119,14 @@ nw/wsj/18/wsj_1824.parse 31 5 gold have have.03 ----- 0:1*2:1*6:1-ARG1 0:1*2:1-L
 nw/wsj/18/wsj_1824.parse 47 8 gold complete complete.01 ----- 0:2*9:1-ARG1 8:0-rel
 nw/wsj/18/wsj_1824.parse 44 37 gold spend spend.01 ----- 36:1-ARG0 37:0-rel 38:1-ARG3 39:1-ARGM-TMP 40:1-ARGM-LOC
 nw/wsj/18/wsj_1824.parse 0 26 gold be be.03 ----- 26:0-rel
+nw/wsj/18/wsj_1824.parse 31 12 gold be be.01 ----- 0:2-ARG1 12:0-rel 13:3-ARG2
+nw/wsj/18/wsj_1824.parse 30 16 gold cash cash.01 ----- 5:2*14:1-ARG0 16:0-rel 17:1-ARGM-DIR 18:1-ARG1
 nw/wsj/18/wsj_1824.parse 30 23 gold have have.01 ----- 23:0-rel
 nw/wsj/18/wsj_1824.parse 5 21 gold clean clean_up.02 ----- 20:1-ARG0 21:0,22:1-rel 23:1-ARG1
 nw/wsj/18/wsj_1824.parse 1 2 gold sign sign.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
 nw/wsj/18/wsj_1824.parse 39 41 gold say say.01 ----- 41:0-rel 42:1-ARG1 44:2-ARG0
 nw/wsj/18/wsj_1824.parse 48 12 gold say say.01 ----- 11:1-ARG0 12:0-rel
-nw/wsj/18/wsj_1824.parse 14 20 gold be be.03 ----- 20:0-rel
+nw/wsj/18/wsj_1824.parse 13 7 gold add add.02 ----- 0:1-ARGM-DIS 3:1*8:1-ARG1 5:0-ARGM-MOD 7:0-rel 9:1-ARG2
 nw/wsj/18/wsj_1824.parse 2 11 gold grant grant.01 ----- 11:0-rel
 nw/wsj/18/wsj_1824.parse 47 7 gold be be.03 ----- 7:0-rel
 nw/wsj/18/wsj_1824.parse 25 30 gold inspect inspect.01 ----- 26:1*31:1-ARG1 30:0-rel 32:2-ARGM-PRP
@@ -130,7 +134,6 @@ nw/wsj/18/wsj_1824.parse 32 7 gold devastate devastate.01 ----- 7:0-rel
 nw/wsj/18/wsj_1824.parse 28 27 gold devastate devastate.01 ----- 24:1-ARG0 27:0-rel
 nw/wsj/18/wsj_1824.parse 20 13 gold serve serve.02 ----- 5:1*12:1-ARG0 13:0-rel 14:1-ARG2
 nw/wsj/18/wsj_1824.parse 15 11 gold handle handle.01 ----- 3:1*8:1*9:1-ARG0 3:1*8:1-LINK-SLC 11:0-rel 12:2-ARG1
-nw/wsj/18/wsj_1824.parse 35 12 gold be be.01 ----- 5:2-ARG1 12:0-rel 13:1-ARG2 16:2-ARGM-PRD
 nw/wsj/18/wsj_1824.parse 18 2 gold have have.01 ----- 2:0-rel
 nw/wsj/18/wsj_1824.parse 18 3 gold be be.01 ----- 1:1-ARG1 3:0-rel 4:1-ARG2 7:2-ARGM-MNR
 nw/wsj/18/wsj_1824.parse 15 25 gold be be.01 ----- 24:1-ARG1 25:0-rel 26:1-ARG2
@@ -142,9 +145,9 @@ nw/wsj/18/wsj_1824.parse 14 11 gold be be.03 ----- 11:0-rel
 nw/wsj/18/wsj_1824.parse 47 6 gold have have.01 ----- 6:0-rel
 nw/wsj/18/wsj_1824.parse 23 25 gold say say.01 ----- 25:0-rel 26:1-ARG1 28:2-ARG0
 nw/wsj/18/wsj_1824.parse 32 21 gold set set_up.03 ----- 17:1*32:1-ARG0 21:0,22:1-rel 23:1-ARG1 27:1-ARGM-LOC
-nw/wsj/18/wsj_1824.parse 41 7 gold move move.02 ----- 1:1*5:1-ARG0 7:0-rel 8:1-ARGM-MNR 9:1-ARGM-ADV 13:2-ARG1
 nw/wsj/18/wsj_1824.parse 28 20 gold make make.LV ----- 20:0-rel 21:1-ARGM-PRR
 nw/wsj/18/wsj_1824.parse 23 6 gold earthquake earthquake.01 ----- 6:0-rel
+nw/wsj/18/wsj_1824.parse 46 38 gold begin begin.01 ----- 15:1-ARGM-TMP 25:1-ARG0 34:1-ARG2 38:0-rel 39:2-ARG1
 nw/wsj/18/wsj_1824.parse 4 61 gold direct direct.01 ----- 57:1*60:1-ARG0 57:1*60:1-LINK-PRO 61:0-rel 62:1-ARG1
 nw/wsj/18/wsj_1824.parse 37 3 gold be be.03 ----- 3:0-rel
 nw/wsj/18/wsj_1824.parse 24 5 gold move move.01 ----- 0:1-ARGM-DIS 2:1-ARG1 5:0-rel 6:1-ARGM-DIR 7:1-ARGM-DIR 9:1-ARGM-TMP
@@ -152,8 +155,8 @@ nw/wsj/18/wsj_1824.parse 6 42 gold earthquake earthquake.01 ----- 42:0-rel
 nw/wsj/18/wsj_1824.parse 39 10 gold intend intend.01 ----- 0:2-ARGM-PRP 9:1-ARG0 10:0-rel 11:2-ARG1
 nw/wsj/18/wsj_1824.parse 45 2 gold get get.01 ----- 0:1*6:1-ARG0 2:0-rel 3:1-ARG1
 nw/wsj/18/wsj_1824.parse 12 19 gold coordinate coordinate.01 ----- 11:1*17:1*18:1-ARG0 11:1*17:1-LINK-SLC 19:0-rel 20:1-ARG1
+nw/wsj/18/wsj_1824.parse 25 6 gold make make.02 ----- 4:1-ARG0 5:0-ARGM-MOD 6:0-rel 7:2-ARG1 25:1-ARGM-TMP
 nw/wsj/18/wsj_1824.parse 38 28 gold move move.01 ----- 24:1*29:1-ARG1 28:0-rel 30:1-ARGM-DIR 41:1-ARG2 44:2-ARGM-PRP
-nw/wsj/18/wsj_1824.parse 2 9 gold house house.01 ----- 8:0-ARGM-TMP 9:0-rel
 nw/wsj/18/wsj_1824.parse 4 55 gold transfuse transfuse.101 ----- 54:0-ARG2 55:0-rel
 nw/wsj/18/wsj_1824.parse 32 34 gold respond respond.01 ----- 17:1*32:1-ARG0 34:0-rel 35:1-ARG1
 nw/wsj/18/wsj_1824.parse 28 16 gold meet meet.01 ----- 11:1*14:1-ARG0 11:1*14:1-LINK-PRO 16:0-rel 17:1-ARG1
@@ -166,37 +169,35 @@ nw/wsj/18/wsj_1824.parse 9 10 gold estimate estimate.01 ----- 0:1*8:1-ARG0 10:0-
 nw/wsj/18/wsj_1824.parse 40 12 gold fill fill_out.04 ----- 4:1*11:1-ARG0 12:0,13:1-rel 14:2-ARG1
 nw/wsj/18/wsj_1824.parse 6 30 gold remain remain.01 ----- 23:3-ARG1 30:0-rel
 nw/wsj/18/wsj_1824.parse 44 28 gold expect expect.01 ----- 0:0-ARGM-DIS 1:1-ARGM-ADV 26:1-ARG0 28:0-rel 29:2-ARG1
+nw/wsj/18/wsj_1824.parse 37 4 gold treat treat.03 ----- 0:1*5:1-ARG1 2:1-ARGM-DIS 4:0-rel 6:2-ARGM-LOC
 nw/wsj/18/wsj_1824.parse 17 3 gold complicate complicate.01 ----- 0:1-ARG0 2:1-ARGM-ADV 3:0-rel 4:1-ARG1
-nw/wsj/18/wsj_1824.parse 46 38 gold begin begin.01 ----- 15:1-ARGM-TMP 25:1-ARG0 34:1-ARG2 38:0-rel 39:2-ARG1
+nw/wsj/18/wsj_1824.parse 2 9 gold house house.01 ----- 8:0-ARGM-TMP 9:0-rel
 nw/wsj/18/wsj_1824.parse 4 20 gold leave leave.13 ----- 20:0-rel 22:2-ARG1
-nw/wsj/18/wsj_1824.parse 18 14 gold say say.01 ----- 1:2*15:1-ARG1 14:0-rel 16:2-ARG0
 nw/wsj/18/wsj_1824.parse 1 6 gold cover cover.01 ----- 3:1-ARG2 6:0-rel 7:1-ARG1
 nw/wsj/18/wsj_1824.parse 43 3 gold have have.03 ----- 0:1-ARG0 2:1-ARGM-TMP 3:0-rel 4:2-ARG1
 nw/wsj/18/wsj_1824.parse 26 6 gold be be.03 ----- 6:0-rel
 nw/wsj/18/wsj_1824.parse 11 5 gold be be.03 ----- 5:0-rel
+nw/wsj/18/wsj_1824.parse 50 2 gold contribute contribute.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG2
 nw/wsj/18/wsj_1824.parse 19 13 gold worry worry.02 ----- 9:1*11:1-ARG0 10:0-ARGM-MOD 13:0-rel 14:1-ARG1
 nw/wsj/18/wsj_1824.parse 26 32 gold make make.02 ----- 24:0-ARGM-MOD 32:0-rel 33:2-ARG1
-nw/wsj/18/wsj_1824.parse 25 23 gold be be.01 ----- 8:2*15:1*16:1-ARG1 8:2*15:1-LINK-SLC 22:1-ARGM-TMP 23:0-rel 24:1-ARG2
 nw/wsj/18/wsj_1824.parse 6 34 gold divert divert.01 ----- 23:3*35:1-ARG1 32:0-ARGM-MOD 34:0-rel 36:1-ARG3
 nw/wsj/18/wsj_1824.parse 23 12 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARGM-LOC 9:1-ARG1 12:0-rel 13:2-ARG2 16:2-ARGM-ADV
 nw/wsj/18/wsj_1824.parse 26 26 gold shift shift.01 ----- 17:1*27:1-ARG1 24:0-ARGM-MOD 26:0-rel 28:1-ARG3
 nw/wsj/18/wsj_1824.parse 45 17 gold expect expect.01 ----- 16:1-ARG0 17:0-rel 18:2-ARG1
 nw/wsj/18/wsj_1824.parse 12 10 gold cover cover.01 ----- 6:1-ARG2 10:0-rel 11:2-ARG1
-nw/wsj/18/wsj_1824.parse 27 16 gold move move.02 ----- 0:3-ARG1 16:0-rel 17:1-ARGM-MNR 18:1-ARGM-DIS
+nw/wsj/18/wsj_1824.parse 40 38 gold repair repair.01 ----- 20:1*24:1-ARG0 38:0-rel 39:1-ARG1
 nw/wsj/18/wsj_1824.parse 39 30 gold staff staff.01 ----- 9:1*11:1-ARG0 30:0-rel 31:1-ARG1 32:1-ARG2
 nw/wsj/18/wsj_1824.parse 24 4 gold be be.03 ----- 4:0-rel
+nw/wsj/18/wsj_1824.parse 46 44 gold retrofit retrofit.01 ----- 39:1*41:1*42:1-ARG0 39:1*41:1-LINK-SLC 44:0-rel 45:1-ARG1 48:1-ARG2
 nw/wsj/18/wsj_1824.parse 27 5 gold associate associate.01 ----- 0:1*6:1-ARG1 0:1*6:1-LINK-PSV 3:0-ARGM-NEG 4:1-ARGM-ADV 5:0-rel 7:1-ARG2
-nw/wsj/18/wsj_1824.parse 32 16 gold order order.01 ----- 0:2-ARGM-TMP 12:2-ARG0 16:0-rel 17:1-ARG1 20:1-ARG2
+nw/wsj/18/wsj_1824.parse 45 22 gold cut cut.01 ----- 18:1*23:1-ARG1 22:0-rel 24:1-ARGM-TMP
 nw/wsj/18/wsj_1824.parse 35 3 gold say say.01 ----- 0:0-ARGM-DIS 1:1-ARG0 3:0-rel 4:1-ARG1
 nw/wsj/18/wsj_1824.parse 28 21 gold pay pay.01 ----- 11:1*14:1-ARG0 11:1*14:1-LINK-PRO 20:0-ARGM-LVB 21:0-rel
 nw/wsj/18/wsj_1824.parse 38 18 gold assist assist.01 ----- 0:1-ARGM-DIS 3:2-ARG0 18:0-rel 19:1-ARG2
 nw/wsj/18/wsj_1824.parse 17 23 gold operate operate.01 ----- 20:0-ARG0 21:0-ARGM-ADJ 22:0-ARG1 23:0-rel
-nw/wsj/18/wsj_1824.parse 42 12 gold help help.01 ----- 5:1*9:1*10:1-ARG0 5:1*9:1-LINK-SLC 12:0-rel 13:3-ARG1
-nw/wsj/18/wsj_1824.parse 26 25 gold be be.03 ----- 25:0-rel
 nw/wsj/18/wsj_1824.parse 0 36 gold continue continue.01 ----- 31:1*34:1-ARG1 36:0-rel
 nw/wsj/18/wsj_1824.parse 13 21 gold consider consider.01 ----- 10:1*14:1*22:1-ARG1 10:1*14:1-LINK-SLC 15:1*17:1*20:1-ARG0 21:0-rel
 nw/wsj/18/wsj_1824.parse 12 2 gold be be.03 ----- 2:0-rel
-nw/wsj/18/wsj_1824.parse 42 4 gold have have.03 ----- 0:1-ARG0 4:0-rel 5:2-ARG1
 nw/wsj/18/wsj_1824.parse 0 2 gold move move.02 ----- 0:1-ARG0 2:0-rel 3:1-ARGM-MNR 4:2-ARG1
 nw/wsj/18/wsj_1824.parse 49 6 gold complete complete.01 ----- 0:1-ARG0 6:0-rel 7:2-ARG1
 nw/wsj/18/wsj_1824.parse 1 5 gold declare declare.01 ----- 4:0-ARG1 5:0-rel
@@ -206,17 +207,16 @@ nw/wsj/18/wsj_1824.parse 48 32 gold complete complete.01 ----- 26:1*33:1-ARG1 26
 nw/wsj/18/wsj_1824.parse 38 46 gold help help.01 ----- 24:1*44:1-ARG0 24:1*44:1-LINK-PRO 46:0-rel 47:2-ARG1
 nw/wsj/18/wsj_1824.parse 6 21 gold say say.01 ----- 16:3-ARG0 21:0-rel 22:1-ARG1
 nw/wsj/18/wsj_1824.parse 8 25 gold have have.02 ----- 24:0-ARGM-MOD 25:0-rel
+nw/wsj/18/wsj_1824.parse 8 3 gold mean mean.01 ----- 1:1-ARG1 2:1-ARGM-ADV 3:0-rel 4:1-ARG2
 nw/wsj/18/wsj_1824.parse 7 10 gold pile pile.01 ----- 0:1-ARGM-TMP 2:1-ARGM-DIS 4:2-ARG1 9:0-ARGM-MOD 10:0-rel 11:1-ARG2
 nw/wsj/18/wsj_1824.parse 25 28 gold have have.01 ----- 28:0-rel
 nw/wsj/18/wsj_1824.parse 9 14 gold earthquake earthquake.01 ----- 14:0-rel
-nw/wsj/18/wsj_1824.parse 10 23 gold require require.01 ----- 17:2*24:1-ARG1 17:2*24:1-LINK-PSV 23:0-rel 25:1-ARG2
 nw/wsj/18/wsj_1824.parse 39 13 gold set set_up.03 ----- 9:1*11:1-ARG0 13:0,14:1-rel 15:1-ARG1 19:1-ARGM-LOC 23:1-ARGM-TMP
-nw/wsj/18/wsj_1824.parse 31 12 gold be be.01 ----- 0:2-ARG1 12:0-rel 13:3-ARG2
 nw/wsj/18/wsj_1824.parse 22 23 gold make make.LV ----- 23:0-rel 25:0-ARGM-PRR
-nw/wsj/18/wsj_1824.parse 4 47 gold be be.03 ----- 47:0-rel
-nw/wsj/18/wsj_1824.parse 8 3 gold mean mean.01 ----- 1:1-ARG1 2:1-ARGM-ADV 3:0-rel 4:1-ARG2
-nw/wsj/18/wsj_1824.parse 44 4 gold dictate dictate.01 ----- 2:1-ARG0 4:0-rel 5:1-ARG1
 nw/wsj/18/wsj_1824.parse 22 17 gold be be.03 ----- 17:0-rel
+nw/wsj/18/wsj_1824.parse 10 23 gold require require.01 ----- 17:2*24:1-ARG1 17:2*24:1-LINK-PSV 23:0-rel 25:1-ARG2
 nw/wsj/18/wsj_1824.parse 13 19 gold begin begin.01 ----- 15:1*17:1-ARG0 19:0-rel 20:2-ARG1 23:1-ARGM-TMP
 nw/wsj/18/wsj_1824.parse 5 34 gold allocate allocate.01 ----- 32:1-ARG0 34:0-rel 35:1-ARG1 37:1-ARGM-MNR
+nw/wsj/18/wsj_1824.parse 41 7 gold move move.02 ----- 1:1*5:1-ARG0 7:0-rel 8:1-ARGM-MNR 9:1-ARGM-ADV 13:2-ARG1
 nw/wsj/18/wsj_1824.parse 34 14 gold survey survey.01 ----- 4:2*12:1-ARG0 14:0-rel 15:1-ARG1
+nw/wsj/18/wsj_1824.parse 26 25 gold be be.03 ----- 25:0-rel

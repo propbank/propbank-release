@@ -1,5 +1,4 @@
 pt/nt/66/nt_6606.parse 38 5 gold be be.03 ----- 5:0-rel
-pt/nt/66/nt_6606.parse 2 5 gold come come.01 ----- 4:1-ARG1 5:0-rel
 pt/nt/66/nt_6606.parse 29 5 gold be be.03 ----- 5:0-rel
 pt/nt/66/nt_6606.parse 1 9 gold speak speak.01 ----- 0:1-ARGM-DIS 1:1-ARG0 9:0-rel 10:1-ARGM-MNR
 pt/nt/66/nt_6606.parse 15 2 gold hear hear.01 ----- 0:1-ARGM-TMP 1:1-ARG0 2:0-rel 3:2-ARG1
@@ -12,7 +11,6 @@ pt/nt/66/nt_6606.parse 23 5 gold be be.01 ----- 0:2*6:1-ARG2 5:0-rel 7:1-ARG1
 pt/nt/66/nt_6606.parse 20 8 gold live live.01 ----- 8:0-rel 9:0-ARG0
 pt/nt/66/nt_6606.parse 44 7 gold come come.01 ----- 0:2-ARG1 7:0-rel
 pt/nt/66/nt_6606.parse 5 1 gold ride ride.01 ----- 0:1-ARG0 1:0-rel 2:1-ARGM-DIR 3:2-ARGM-PRP
-pt/nt/66/nt_6606.parse 36 13 gold drop drop.01 ----- 10:1-ARG0 13:0-rel 14:1-ARG1 16:2-ARGM-TMP
 pt/nt/66/nt_6606.parse 36 19 gold blow blow.04 ----- 16:1*20:1-ARGM-TMP 17:1-ARG1 19:0-rel
 pt/nt/66/nt_6606.parse 29 6 gold give give.01 ----- 0:1-ARGM-TMP 1:2*7:1-ARG2 6:0-rel 8:1-ARG1
 pt/nt/66/nt_6606.parse 20 4 gold voice voice.01 ----- 4:0-rel 5:1-ARG0
@@ -22,23 +20,28 @@ pt/nt/66/nt_6606.parse 5 9 gold win win.01 ----- 0:1*3:1-ARG0 9:0-rel 10:1-ARG1
 pt/nt/66/nt_6606.parse 9 13 gold peace peace.01 ----- 13:0-rel
 pt/nt/66/nt_6606.parse 23 7 gold die die.01 ----- 7:0-rel
 pt/nt/66/nt_6606.parse 28 25 gold punish punish.01 ----- 17:1-ARG0 25:0-rel 26:1-ARG1 27:1-ARG2
+pt/nt/66/nt_6606.parse 27 10 gold kill kill.01 ----- 5:1*6:1*7:1*11:1-ARG1 5:1*6:1-LINK-SLC 10:0-rel 12:1-ARGM-CAU
 pt/nt/66/nt_6606.parse 9 11 gold take take_away.05 ----- 0:2*9:1-ARG0 0:2*9:1-LINK-PRO 11:0,12:1-rel 13:1-ARG1 14:1-ARGM-DIR 17:1-ARGM-PRP
 pt/nt/66/nt_6606.parse 1 2 gold hear hear.01 ----- 0:1-ARGM-TMP 1:1-ARG0 2:0-rel 3:3-ARG1
 pt/nt/66/nt_6606.parse 7 11 gold come come.01 ----- 10:1-ARG1 11:0-rel
-pt/nt/66/nt_6606.parse 13 1 gold look look.01 ----- 0:1-ARG0 1:0-rel
 pt/nt/66/nt_6606.parse 14 5 gold hold hold.01 ----- 0:2-ARG0 5:0-rel 6:2-ARG1 10:1-ARGM-LOC
 pt/nt/66/nt_6606.parse 42 1 gold hide hide.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:1-ARG2
 pt/nt/66/nt_6606.parse 34 4 gold earthquake earthquake.01 ----- 3:0-ARGM-ADJ 4:0-rel
-pt/nt/66/nt_6606.parse 20 2 gold hear hear.01 ----- 0:1-ARGM-TMP 1:1-ARG0 2:0-rel 3:3-ARG1
 pt/nt/66/nt_6606.parse 12 2 gold hear hear.01 ----- 0:1-ARGM-TMP 1:1-ARG0 2:0-rel 3:2-ARG1
+pt/nt/66/nt_6606.parse 13 1 gold look look.01 ----- 0:1-ARG0 1:0-rel
+pt/nt/66/nt_6606.parse 3 1 gold look look.01 ----- 0:1-ARG0 1:0-rel
 pt/nt/66/nt_6606.parse 37 3 gold split split.01 ----- 0:1*4:1-ARG1 3:0-rel 5:1-ARGM-LOC
 pt/nt/66/nt_6606.parse 31 22 gold be be.03 ----- 22:0-rel
 pt/nt/66/nt_6606.parse 15 9 gold voice voice.01 ----- 9:0-rel
 pt/nt/66/nt_6606.parse 31 18 gold kill kill.01 ----- 5:2*14:1*15:1*19:1-ARG1 5:2*14:1-LINK-SLC 16:0-ARGM-MOD 18:0-rel 20:1-ARGM-MNR
 pt/nt/66/nt_6606.parse 30 2 gold tell tell.01 ----- 0:1*3:1-ARG2 2:0-rel 4:2-ARG1
 pt/nt/66/nt_6606.parse 12 7 gold say say.01 ----- 3:1-ARG0 7:0-rel 10:2-ARG1
+pt/nt/66/nt_6606.parse 2 5 gold come come.01 ----- 4:1-ARG1 5:0-rel
 pt/nt/66/nt_6606.parse 33 6 gold open open.01 ----- 4:1-ARG0 6:0-rel 7:1-ARG1
 pt/nt/66/nt_6606.parse 19 2 gold open open.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
+pt/nt/66/nt_6606.parse 36 13 gold drop drop.01 ----- 10:1-ARG0 13:0-rel 14:1-ARG1 16:2-ARGM-TMP
+pt/nt/66/nt_6606.parse 41 1 gold fall fall.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG4
+pt/nt/66/nt_6606.parse 12 5 gold live live.01 ----- 5:0-rel 6:0-ARG0
 pt/nt/66/nt_6606.parse 37 11 gold roll roll_up.03 ----- 3:1*12:1-ARG1 11:0,13:1-rel 14:1-ARGM-MNR
 pt/nt/66/nt_6606.parse 8 4 gold come come.01 ----- 0:1-ARGM-TMP 1:2;7:1-ARG1 4:0-rel 5:1-ARGM-DIR
 pt/nt/66/nt_6606.parse 16 9 gold be be.01 ----- 4:1*10:1-ARG2 5:1-ARG1 9:0-rel
@@ -51,20 +54,21 @@ pt/nt/66/nt_6606.parse 39 34 gold hide hide.01 ----- 0:1-ARGM-TMP 1:2-ARG0 34:0-
 pt/nt/66/nt_6606.parse 45 3 gold stand stand.01 ----- 0:1-ARG1 2:0-ARGM-MOD 3:0-rel 4:1-ARG2
 pt/nt/66/nt_6606.parse 4 9 gold be be.03 ----- 9:0-rel
 pt/nt/66/nt_6606.parse 20 14 gold come come.01 ----- 13:1-ARG1 14:0-rel
-pt/nt/66/nt_6606.parse 27 10 gold kill kill.01 ----- 5:1*6:1*7:1*11:1-ARG1 5:1*6:1-LINK-SLC 10:0-rel 12:1-ARGM-CAU
 pt/nt/66/nt_6606.parse 32 2 gold be be.03 ----- 2:0-rel
 pt/nt/66/nt_6606.parse 3 7 gold be be.01 ----- 4:2*8:1-ARG2 7:0-rel 9:1-ARG1
 pt/nt/66/nt_6606.parse 28 18 gold judge judge.01 ----- 17:1-ARG0 18:0-rel 19:2-ARG1
 pt/nt/66/nt_6606.parse 30 6 gold wait wait.01 ----- 0:1*3:1*4:1-ARG1 6:0-rel 7:2-ARGM-TMP
+pt/nt/66/nt_6606.parse 1 12 gold voice voice.01 ----- 12:0-rel 13:1-ARGM-ADJ
 pt/nt/66/nt_6606.parse 28 2 gold shout shout.01 ----- 0:1-ARG0 2:0-rel 3:1-ARGM-MNR 9:3-ARG1
+pt/nt/66/nt_6606.parse 11 2 gold open open.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 pt/nt/66/nt_6606.parse 31 1 gold be be.02 ----- 1:0-rel 2:1-ARGM-TMP 3:2-ARG1
-pt/nt/66/nt_6606.parse 3 1 gold look look.01 ----- 0:1-ARG0 1:0-rel
 pt/nt/66/nt_6606.parse 16 1 gold voice voice.01 ----- 1:0-rel
 pt/nt/66/nt_6606.parse 21 1 gold look look.01 ----- 0:1-ARG0 1:0-rel
 pt/nt/66/nt_6606.parse 32 3 gold tell tell.01 ----- 0:1*4:1-ARG2 3:0-rel 5:2-ARG1
 pt/nt/66/nt_6606.parse 25 2 gold open open.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 pt/nt/66/nt_6606.parse 27 26 gold have have.01 ----- 26:0-rel
 pt/nt/66/nt_6606.parse 4 10 gold give give.01 ----- 0:2*11:1-ARG2 10:0-rel 12:1-ARG1
+pt/nt/66/nt_6606.parse 20 2 gold hear hear.01 ----- 0:1-ARGM-TMP 1:1-ARG0 2:0-rel 3:3-ARG1
 pt/nt/66/nt_6606.parse 36 5 gold fall fall.01 ----- 0:2-ARG1 5:0-rel 6:1-ARG4 9:1-ARGM-MNR
 pt/nt/66/nt_6606.parse 24 2 gold give give.01 ----- 0:1*3:1-ARG2 2:0-rel 4:3-ARG1
 pt/nt/66/nt_6606.parse 43 1 gold hide hide.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:1-ARG2
@@ -75,11 +79,9 @@ pt/nt/66/nt_6606.parse 32 12 gold be be.03 ----- 12:0-rel
 pt/nt/66/nt_6606.parse 13 7 gold be be.01 ----- 4:2*8:1-ARG2 7:0-rel 9:1-ARG1
 pt/nt/66/nt_6606.parse 2 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 4:2-ARG1
 pt/nt/66/nt_6606.parse 35 3 gold become become.01 ----- 0:1-ARG1 3:0-rel 4:2-ARG2
-pt/nt/66/nt_6606.parse 1 12 gold voice voice.01 ----- 12:0-rel 13:1-ARGM-ADJ
 pt/nt/66/nt_6606.parse 28 29 gold kill kill.01 ----- 28:1-ARG0 29:0-rel 30:1-ARG1
 pt/nt/66/nt_6606.parse 18 4 gold harm harm.01 ----- 0:0-ARGM-DIS 1:1-ARG0 3:0-ARGM-NEG 4:0-rel 5:2-ARG1
 pt/nt/66/nt_6606.parse 16 7 gold live live.01 ----- 7:0-rel 8:0-ARG0
-pt/nt/66/nt_6606.parse 41 1 gold fall fall.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG4
 pt/nt/66/nt_6606.parse 40 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG2
 pt/nt/66/nt_6606.parse 6 2 gold open open.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 pt/nt/66/nt_6606.parse 38 6 gold move move.01 ----- 0:0-ARGM-DIS 1:1*7:1-ARG1 6:0-rel 8:1-ARGM-DIR
@@ -98,18 +100,16 @@ pt/nt/66/nt_6606.parse 5 5 gold defeat defeat.01 ----- 0:1*3:1-ARG0 5:0-rel 6:1-
 pt/nt/66/nt_6606.parse 7 5 gold live live.01 ----- 5:0-rel 6:0-ARG0
 pt/nt/66/nt_6606.parse 12 11 gold come come.01 ----- 10:1-ARG1 11:0-rel
 pt/nt/66/nt_6606.parse 24 23 gold starve starve.01 ----- 22:1-ARG1 23:0-rel
-pt/nt/66/nt_6606.parse 20 10 gold say say.01 ----- 3:2-ARG0 10:0-rel 13:2-ARG1
 pt/nt/66/nt_6606.parse 33 2 gold watch watch.01 ----- 0:1-ARGM-TMP 1:1-ARG0 2:0-rel 3:1-ARGM-TMP
 pt/nt/66/nt_6606.parse 10 1 gold be be.03 ----- 1:0-rel
 pt/nt/66/nt_6606.parse 24 15 gold kill kill.01 ----- 13:1-ARG0 15:0-rel 16:1-ARG1 17:2-ARG2
 pt/nt/66/nt_6606.parse 10 2 gold give give.01 ----- 0:1*3:1-ARG2 2:0-rel 4:1-ARG1
 pt/nt/66/nt_6606.parse 27 9 gold be be.03 ----- 9:0-rel
-pt/nt/66/nt_6606.parse 11 2 gold open open.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 pt/nt/66/nt_6606.parse 4 5 gold hold hold.01 ----- 0:2-ARG0 5:0-rel 6:1-ARG1
 pt/nt/66/nt_6606.parse 26 2 gold see see.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1 5:1-ARGM-LOC
 pt/nt/66/nt_6606.parse 9 5 gold be be.03 ----- 5:0-rel
 pt/nt/66/nt_6606.parse 28 6 gold voice voice.01 ----- 5:0-ARGM-ADJ 6:0-rel
-pt/nt/66/nt_6606.parse 12 5 gold live live.01 ----- 5:0-rel 6:0-ARG0
 pt/nt/66/nt_6606.parse 27 14 gold be be.01 ----- 13:1-ARG1 14:0-rel 15:2-ARG2
+pt/nt/66/nt_6606.parse 20 10 gold say say.01 ----- 3:2-ARG0 10:0-rel 13:2-ARG1
 pt/nt/66/nt_6606.parse 17 14 gold cost cost.01 ----- 4:3-ARG1 13:0-ARGM-MOD 14:0-rel 15:2-ARG2
 pt/nt/66/nt_6606.parse 42 11 gold sit sit.01 ----- 7:1*9:1*10:1-ARG1 7:1*9:1-LINK-SLC 11:0-rel 12:1-ARG2

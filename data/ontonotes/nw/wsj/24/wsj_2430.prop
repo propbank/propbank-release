@@ -6,7 +6,6 @@ nw/wsj/24/wsj_2430.parse 2 9 gold add add.02 ----- 6:0-ARGM-ADJ 7:0-ARGM-ADJ 8:0
 nw/wsj/24/wsj_2430.parse 4 9 gold do do.01 ----- 9:0-rel
 nw/wsj/24/wsj_2430.parse 2 36 gold trouble trouble.01 ----- 36:0-rel 37:0-ARG1
 nw/wsj/24/wsj_2430.parse 4 14 gold sell sell.01 ----- 8:1*12:1-ARG0 14:0-rel 15:1-ARG1
-nw/wsj/24/wsj_2430.parse 6 0 gold combine combine.01 ----- 0:0-rel 1:1-ARG1 4:1,6:0-ARG2
 nw/wsj/24/wsj_2430.parse 2 1 gold add add.02 ----- 1:0-rel
 nw/wsj/24/wsj_2430.parse 0 16 gold join join.01 ----- 0:1*15:1-ARG0 16:0-rel 17:1-ARG1 20:1-ARGM-PRD
 nw/wsj/24/wsj_2430.parse 1 21 gold set set.01 ----- 20:1-ARG0 21:0-rel 22:1-ARG2 23:2-ARG1 27:2-ARGM-PRP
@@ -21,9 +20,10 @@ nw/wsj/24/wsj_2430.parse 6 2 gold exchange exchange.01 ----- 1:0-ARG2 2:0-rel
 nw/wsj/24/wsj_2430.parse 0 23 gold add add.02 ----- 0:1*15:1*21:1-ARG0 22:1-ARGM-MNR 23:0-rel 24:1-ARG2
 nw/wsj/24/wsj_2430.parse 5 17 gold sell sell.01 ----- 17:0-rel 18:1-ARG1
 nw/wsj/24/wsj_2430.parse 3 4 gold have have.01 ----- 4:0-rel
-nw/wsj/24/wsj_2430.parse 5 6 gold realize realize.02 ----- 0:1-ARGM-TMP 4:1-ARG0 6:0-rel 7:2-ARG1
+nw/wsj/24/wsj_2430.parse 6 0 gold combine combine.01 ----- 0:0-rel 1:1-ARG1 4:1,6:0-ARG2
 nw/wsj/24/wsj_2430.parse 2 22 gold equal equal.01 ----- 20:1-ARG1 22:0-rel 23:2-ARG2
 nw/wsj/24/wsj_2430.parse 6 5 gold trade trade.01 ----- 4:0-ARG1 5:0-rel
 nw/wsj/24/wsj_2430.parse 6 7 gold dip dip.01 ----- 0:1-ARG1 7:0-rel 8:2-ARG2 17:1-ARG4 22:1-ARG3
+nw/wsj/24/wsj_2430.parse 5 6 gold realize realize.02 ----- 0:1-ARGM-TMP 4:1-ARG0 6:0-rel 7:2-ARG1
 nw/wsj/24/wsj_2430.parse 4 6 gold say say.01 ----- 0:1-ARGM-ADV 4:1-ARG0 6:0-rel 7:1-ARG1
 nw/wsj/24/wsj_2430.parse 3 5 gold reduce reduce.01 ----- 0:1-ARG0 2:1-ARGM-TMP 5:0-rel 6:2-ARG1 11:1-ARG4 16:1-ARG3

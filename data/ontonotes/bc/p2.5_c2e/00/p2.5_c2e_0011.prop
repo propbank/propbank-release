@@ -3,13 +3,12 @@ bc/p2.5_c2e/00/p2.5_c2e_0011.parse 17 2 gold put put.02 ----- 0:1-ARG0 2:0-rel 3
 bc/p2.5_c2e/00/p2.5_c2e_0011.parse 10 14 gold have have.01 ----- 14:0-rel
 bc/p2.5_c2e/00/p2.5_c2e_0011.parse 16 16 gold incorporate incorporate.02 ----- 0:1-ARGM-TMP 1:1-ARGM-ADV 12:1*17:1-ARG1 13:0-ARGM-MOD 16:0-rel 18:1-ARG2
 bc/p2.5_c2e/00/p2.5_c2e_0011.parse 17 10 gold mean mean.01 ----- 0:2-ARGM-DIS 9:1-ARG1 10:0-rel 11:1-ARG2
-bc/p2.5_c2e/00/p2.5_c2e_0011.parse 6 5 gold be be.03 ----- 5:0-rel
 bc/p2.5_c2e/00/p2.5_c2e_0011.parse 16 21 gold operate operate.01 ----- 20:0-ARGM-ADJ 21:0-rel 22:1-ARG0
-bc/p2.5_c2e/00/p2.5_c2e_0011.parse 3 3 gold call call.01 ----- 0:1-ARGM-DIS 1:1*4:1-ARG1 3:0-rel 5:2-ARG2
 bc/p2.5_c2e/00/p2.5_c2e_0011.parse 2 4 gold do do.01 ----- 4:0-rel
 bc/p2.5_c2e/00/p2.5_c2e_0011.parse 15 4 gold be be.03 ----- 4:0-rel
 bc/p2.5_c2e/00/p2.5_c2e_0011.parse 9 12 gold have have.01 ----- 12:0-rel
 bc/p2.5_c2e/00/p2.5_c2e_0011.parse 1 17 gold bring bring.01 ----- 13:1*18:1-ARG1 15:0-ARGM-MOD 16:1-ARG0 17:0-rel 19:1-ARG2
+bc/p2.5_c2e/00/p2.5_c2e_0011.parse 6 5 gold be be.03 ----- 5:0-rel
 bc/p2.5_c2e/00/p2.5_c2e_0011.parse 12 46 gold surround surround.01 ----- 45:1-ARG1 46:0-rel 47:1-ARG2
 bc/p2.5_c2e/00/p2.5_c2e_0011.parse 1 7 gold become become.01 ----- 3:1-ARG1 7:0-rel 8:1-ARG2
 bc/p2.5_c2e/00/p2.5_c2e_0011.parse 12 17 gold operate operate.01 ----- 15:0-ARG0 16:0-ARG1 17:0-rel
@@ -25,6 +24,7 @@ bc/p2.5_c2e/00/p2.5_c2e_0011.parse 12 40 gold call call.01 ----- 40:0-rel 41:2-A
 bc/p2.5_c2e/00/p2.5_c2e_0011.parse 12 3 gold call call.01 ----- 1:0-ARGM-MNR 3:0-rel 4:0,5:0-ARG2
 bc/p2.5_c2e/00/p2.5_c2e_0011.parse 17 32 gold be be.03 ----- 32:0-rel
 bc/p2.5_c2e/00/p2.5_c2e_0011.parse 0 5 gold let let.01 ----- 0:1-ARGM-TMP 2:1-ARGM-DIS 4:1-ARG0 5:0-rel 6:2-ARG1
+bc/p2.5_c2e/00/p2.5_c2e_0011.parse 10 1 gold know know.01 ----- 0:1-ARG0 1:0-rel 2:1-ARGM-TMP 4:1-ARG1
 bc/p2.5_c2e/00/p2.5_c2e_0011.parse 12 11 gold include include.01 ----- 0:1-ARG2 11:0-rel 12:3-ARG1
 bc/p2.5_c2e/00/p2.5_c2e_0011.parse 9 13 gold start start.01 ----- 0:1-ARGM-DIS 1:1-ARGM-TMP 11:1-ARG0 13:0-rel 14:2-ARG1
 bc/p2.5_c2e/00/p2.5_c2e_0011.parse 6 13 gold upgrade upgrade.01 ----- 0:1-ARGM-DIS 1:1*14:1-ARG1 4:0-ARGM-MOD 7:1-ARGM-DIS 9:1-ARGM-TMP 11:1-ARGM-DIS 13:0-rel 15:1-ARG2
@@ -34,5 +34,5 @@ bc/p2.5_c2e/00/p2.5_c2e_0011.parse 10 16 gold incorporate incorporate.02 ----- 5
 bc/p2.5_c2e/00/p2.5_c2e_0011.parse 7 1 gold complete complete.01 ----- 1:0-rel 2:1-ARG1
 bc/p2.5_c2e/00/p2.5_c2e_0011.parse 17 34 gold engage engage.01 ----- 26:1-ARGM-TMP 29:1*35:1-ARG1 31:0-ARGM-MOD 33:1-ARGM-ADV 34:0-rel 36:1-ARG2
 bc/p2.5_c2e/00/p2.5_c2e_0011.parse 12 8 gold know know.01 ----- 7:1-ARG0 8:0-rel 9:1-ARG1
-bc/p2.5_c2e/00/p2.5_c2e_0011.parse 10 1 gold know know.01 ----- 0:1-ARG0 1:0-rel 2:1-ARGM-TMP 4:1-ARG1
 bc/p2.5_c2e/00/p2.5_c2e_0011.parse 0 7 gold direct direct.01 ----- 6:1-ARG0 7:0-rel 8:1-ARG1 10:1-ARG2
+bc/p2.5_c2e/00/p2.5_c2e_0011.parse 3 3 gold call call.01 ----- 0:1-ARGM-DIS 1:1*4:1-ARG1 3:0-rel 5:2-ARG2

@@ -8,20 +8,18 @@ bn/cnn/00/cnn_0038.parse 3 35 gold get get.05 ----- 10:1-ARG1 35:0-rel 36:1-ARG2
 bn/cnn/00/cnn_0038.parse 13 8 gold grow grow.01 ----- 6:1-ARG1 8:0-rel
 bn/cnn/00/cnn_0038.parse 7 21 gold bring bring.01 ----- 17:1*18:1*19:1-ARG0 17:1*18:1-LINK-SLC 20:0-ARGM-MOD 21:0-rel 22:1-ARG1
 bn/cnn/00/cnn_0038.parse 8 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+bn/cnn/00/cnn_0038.parse 12 10 gold expect expect.01 ----- 4:1*5:1-ARG0 6:0-ARGM-NEG 8:0-ARGM-LVB 9:0-ARGM-ADJ 10:0-rel
 bn/cnn/00/cnn_0038.parse 14 32 gold order order.01 ----- 22:2*26:1*27:1*31:1-ARG2 22:2*26:1-LINK-SLC 30:0-ARGM-LVB 32:0-rel
 bn/cnn/00/cnn_0038.parse 9 18 gold accomplish accomplish.01 ----- 3:2*19:1-ARG1 13:1-ARGM-MNR 16:0-ARGM-MOD 18:0-rel
 bn/cnn/00/cnn_0038.parse 12 3 gold urge urge.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1 5:2-ARG2
 bn/cnn/00/cnn_0038.parse 9 17 gold be be.03 ----- 17:0-rel
 bn/cnn/00/cnn_0038.parse 0 9 gold task task.01 ----- 8:0-ARGM-ADJ 9:0-rel 11:2-ARG1
 bn/cnn/00/cnn_0038.parse 5 26 gold price price.01 ----- 25:0-ARG1 26:0-rel
-bn/cnn/00/cnn_0038.parse 1 13 gold summit summit.01 ----- 13:0-rel
-bn/cnn/00/cnn_0038.parse 17 11 gold occupy occupy.01 ----- 10:0-ARG0 11:0-rel
 bn/cnn/00/cnn_0038.parse 0 3 gold be be.01 ----- 0:1-ARG1 3:0-rel 4:2-ARG2
-bn/cnn/00/cnn_0038.parse 7 6 gold believe believe.01 ----- 5:1-ARG0 6:0-rel 7:1-ARG1
+bn/cnn/00/cnn_0038.parse 1 13 gold summit summit.01 ----- 13:0-rel
 bn/cnn/00/cnn_0038.parse 9 6 gold violent violent.01 ----- 6:0-rel
-bn/cnn/00/cnn_0038.parse 18 2 gold have have.01 ----- 2:0-rel
+bn/cnn/00/cnn_0038.parse 17 11 gold occupy occupy.01 ----- 10:0-ARG0 11:0-rel
 bn/cnn/00/cnn_0038.parse 3 31 gold cause cause.01 ----- 29:1*30:1-ARG0 31:0-rel 32:1-ARG1
-bn/cnn/00/cnn_0038.parse 6 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2
 bn/cnn/00/cnn_0038.parse 14 3 gold betray betray.01 ----- 0:1-ARG0 3:0-rel 4:2-ARG1
 bn/cnn/00/cnn_0038.parse 14 29 gold be be.03 ----- 29:0-rel
 bn/cnn/00/cnn_0038.parse 8 6 gold continue continue.01 ----- 3:1,7:2-ARG1 5:0-ARGM-MOD 6:0-rel
@@ -33,14 +31,15 @@ bn/cnn/00/cnn_0038.parse 18 4 gold use use.01 ----- 0:1-ARG0 4:0-rel 5:1-ARG1 8:
 bn/cnn/00/cnn_0038.parse 1 2 gold be be.03 ----- 2:0-rel
 bn/cnn/00/cnn_0038.parse 0 14 gold end end.01 ----- 11:1*30:1-ARGM-MNR 12:1-ARG0 14:0-rel 15:3-ARG1
 bn/cnn/00/cnn_0038.parse 5 15 gold implicate implicate.01 ----- 15:0-rel 16:1-ARGM-LOC
+bn/cnn/00/cnn_0038.parse 0 18 gold violent violent.01 ----- 15:1-ARG0 18:0-rel 19:2-ARGM-ADJ
 bn/cnn/00/cnn_0038.parse 7 16 gold make make.LV ----- 16:0-rel 17:1-ARGM-PRR
 bn/cnn/00/cnn_0038.parse 1 3 gold expect expect.01 ----- 0:1*4:2-ARG1 3:0-rel
 bn/cnn/00/cnn_0038.parse 7 22 gold last last.01 ----- 22:0-rel 23:0-ARG1
+bn/cnn/00/cnn_0038.parse 6 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2
 bn/cnn/00/cnn_0038.parse 10 30 gold work work.01 ----- 26:1-ARG0 30:0-rel
 bn/cnn/00/cnn_0038.parse 16 2 gold be be.03 ----- 2:0-rel
 bn/cnn/00/cnn_0038.parse 4 11 gold summit summit.01 ----- 11:0-rel
 bn/cnn/00/cnn_0038.parse 2 19 gold expect expect.01 ----- 19:0-rel 20:2-ARG1
-bn/cnn/00/cnn_0038.parse 0 22 gold kill kill.01 ----- 15:2*19:1*20:1-ARG0 15:2*19:1-LINK-SLC 22:0-rel 23:1-ARG1 25:1-ARGM-TMP
 bn/cnn/00/cnn_0038.parse 10 11 gold control control.01 ----- 6:1-ARG0 7:0-ARGM-LVB 8:1-ARGM-ADV 10:0-ARGM-MNR 11:0-rel 13:3-ARGM-ADJ
 bn/cnn/00/cnn_0038.parse 5 3 gold say say.01 ----- 0:1-ARGM-TMP 2:1-ARG0 3:0-rel 4:1-ARG1
 bn/cnn/00/cnn_0038.parse 18 33 gold be be.03 ----- 33:0-rel
@@ -48,21 +47,22 @@ bn/cnn/00/cnn_0038.parse 18 32 gold have have.01 ----- 32:0-rel
 bn/cnn/00/cnn_0038.parse 8 9 gold be be.01 ----- 3:1*7:1-ARG1 9:0-rel 10:1-ARG2
 bn/cnn/00/cnn_0038.parse 9 9 gold accomplish accomplish.01 ----- 3:2*10:1-ARG1 7:0-ARGM-MOD 9:0-rel
 bn/cnn/00/cnn_0038.parse 18 24 gold complain complain.01 ----- 24:0-rel
-bn/cnn/00/cnn_0038.parse 0 18 gold violent violent.01 ----- 15:1-ARG0 18:0-rel 19:2-ARGM-ADJ
 bn/cnn/00/cnn_0038.parse 2 22 gold be be.01 ----- 16:1*17:1*20:1-ARG1 22:0-rel 23:1-ARG2
 bn/cnn/00/cnn_0038.parse 7 1 gold tell tell.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG2 4:1-ARG1
 bn/cnn/00/cnn_0038.parse 4 7 gold discuss discuss.01 ----- 0:3-ARG0 6:1-ARGM-TMP 7:0-rel 8:2-ARG1 12:1-ARG2
 bn/cnn/00/cnn_0038.parse 9 4 gold end end.01 ----- 4:0-rel 5:1-ARG1
 bn/cnn/00/cnn_0038.parse 10 29 gold be be.03 ----- 29:0-rel
+bn/cnn/00/cnn_0038.parse 18 2 gold have have.01 ----- 2:0-rel
 bn/cnn/00/cnn_0038.parse 12 8 gold have have.LV ----- 8:0-rel 10:0-ARGM-PRR
 bn/cnn/00/cnn_0038.parse 0 21 gold have have.01 ----- 21:0-rel
 bn/cnn/00/cnn_0038.parse 17 2 gold suffer suffer.01 ----- 0:1-ARG0 2:0-rel 3:2-ARGM-LOC 13:1-ARGM-MNR
+bn/cnn/00/cnn_0038.parse 0 22 gold kill kill.01 ----- 15:2*19:1*20:1-ARG0 15:2*19:1-LINK-SLC 22:0-rel 23:1-ARG1 25:1-ARGM-TMP
 bn/cnn/00/cnn_0038.parse 11 4 gold issue issue.01 ----- 0:1-ARG0 3:1-ARGM-ADV 4:0-rel 5:1-ARG1
 bn/cnn/00/cnn_0038.parse 7 11 gold be be.01 ----- 8:1-ARG1 11:0-rel 12:0-ARGM-NEG 13:1-ARG2
 bn/cnn/00/cnn_0038.parse 16 4 gold victimize victimize.01 ----- 0:1*5:1-ARG1 3:1-ARGM-TMP 4:0-rel
-bn/cnn/00/cnn_0038.parse 12 10 gold expect expect.01 ----- 4:1*5:1-ARG0 6:0-ARGM-NEG 8:0-ARGM-LVB 9:0-ARGM-ADJ 10:0-rel
 bn/cnn/00/cnn_0038.parse 8 4 gold help help.01 ----- 3:0-ARG0 4:0-rel
 bn/cnn/00/cnn_0038.parse 10 23 gold make make.02 ----- 13:2*20:1*21:1-ARG0 13:2*20:1-LINK-SLC 23:0-rel 24:1-ARG1
+bn/cnn/00/cnn_0038.parse 7 6 gold believe believe.01 ----- 5:1-ARG0 6:0-rel 7:1-ARG1
 bn/cnn/00/cnn_0038.parse 13 4 gold say say.01 ----- 0:1-ARG0 4:0-rel 5:1-ARG1
 bn/cnn/00/cnn_0038.parse 3 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 bn/cnn/00/cnn_0038.parse 3 16 gold agree agree.01 ----- 10:1-ARG0 16:0-rel 17:1-ARG1
@@ -80,9 +80,9 @@ bn/cnn/00/cnn_0038.parse 18 13 gold perpetuate perpetuate.01 ----- 0:1*11:1-ARG0
 bn/cnn/00/cnn_0038.parse 18 15 gold occupy occupy.01 ----- 15:0-rel
 bn/cnn/00/cnn_0038.parse 2 2 gold join join.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:3-ARG1 14:1-ARGM-TMP 15:1-ARGM-LOC
 bn/cnn/00/cnn_0038.parse 7 23 gold peace peace.01 ----- 22:0-ARGM-PRD 23:0-rel
-bn/cnn/00/cnn_0038.parse 3 27 gold look look.01 ----- 18:1*24:1*25:1-ARG0 18:1*24:1-LINK-SLC 27:0-rel 28:1-ARG1
 bn/cnn/00/cnn_0038.parse 10 7 gold make make.LV ----- 7:0-rel 11:0-ARGM-PRR
+bn/cnn/00/cnn_0038.parse 5 11 gold be be.01 ----- 5:2-ARG1 11:0-rel 12:2-ARG2
 bn/cnn/00/cnn_0038.parse 14 30 gold give give.LV ----- 30:0-rel 32:1-ARGM-PRR
 bn/cnn/00/cnn_0038.parse 3 8 gold summit summit.01 ----- 8:0-rel
-bn/cnn/00/cnn_0038.parse 5 11 gold be be.01 ----- 5:2-ARG1 11:0-rel 12:2-ARG2
 bn/cnn/00/cnn_0038.parse 3 9 gold be be.01 ----- 4:2-ARG1 9:0-rel 10:2-ARG2
+bn/cnn/00/cnn_0038.parse 3 27 gold look look.01 ----- 18:1*24:1*25:1-ARG0 18:1*24:1-LINK-SLC 27:0-rel 28:1-ARG1

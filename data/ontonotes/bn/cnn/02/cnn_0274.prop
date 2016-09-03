@@ -1,6 +1,8 @@
+bn/cnn/02/cnn_0274.parse 0 9 gold land land.01 ----- 4:2-ARG0 9:0-rel 10:1-ARGM-LOC
 bn/cnn/02/cnn_0274.parse 13 5 gold let let.01 ----- 0:1*3:1-ARG0 5:0-rel 6:3-ARG1
 bn/cnn/02/cnn_0274.parse 13 11 gold concern concern.01 ----- 11:0-rel 12:1-ARG0
 bn/cnn/02/cnn_0274.parse 5 14 gold be be.01 ----- 0:1-ARGM-ADV 6:2-ARG1 14:0-rel 15:1;25:2-ARG2 19:1-ARGM-LOC
+bn/cnn/02/cnn_0274.parse 2 24 gold look look.02 ----- 20:1*25:1-ARG1 21:1-ARG0 23:0-ARGM-MOD 24:0-rel
 bn/cnn/02/cnn_0274.parse 7 16 gold be be.03 ----- 16:0-rel
 bn/cnn/02/cnn_0274.parse 18 20 gold ask ask.01 ----- 19:1-ARG0 20:0-rel 21:1-ARG2 22:2-ARG1
 bn/cnn/02/cnn_0274.parse 15 13 gold be be.01 ----- 9:1-ARG1 13:0-rel 14:1-ARG2
@@ -9,39 +11,36 @@ bn/cnn/02/cnn_0274.parse 8 15 gold confer confer.01 ----- 14:0-ARGM-PRP 15:0-rel
 bn/cnn/02/cnn_0274.parse 18 4 gold call call.01 ----- 2:1*5:1-ARG1 2:1*5:1-LINK-PSV 4:0-rel 6:2-ARG2
 bn/cnn/02/cnn_0274.parse 13 16 gold involve involve.01 ----- 15:0-ARG1 16:0-rel
 bn/cnn/02/cnn_0274.parse 15 27 gold view view.02 ----- 21:1-ARGM-TMP 24:1-ARG0 25:1-ARGM-EXT 27:0-rel 28:2-ARG1 32:1-ARG2
-bn/cnn/02/cnn_0274.parse 17 14 gold teach teach.01 ----- 9:1*12:1*13:1-ARG0 9:1*12:1-LINK-SLC 14:0-rel 17:1-ARGM-MNR 18:1-ARG1
-bn/cnn/02/cnn_0274.parse 2 24 gold look look.02 ----- 20:1*25:1-ARG1 21:1-ARG0 23:0-ARGM-MOD 24:0-rel
 bn/cnn/02/cnn_0274.parse 13 22 gold worry worry.01 ----- 6:2-ARG0 21:0-ARGM-NEG 22:0-rel
 bn/cnn/02/cnn_0274.parse 18 43 gold kill kill.01 ----- 41:1*44:1-ARG1 43:0-rel
 bn/cnn/02/cnn_0274.parse 16 9 gold get get.03 ----- 8:1-ARG1 9:0-rel 10:1;13:2-ARG2 12:1-ARGM-LOC
 bn/cnn/02/cnn_0274.parse 16 15 gold board board.01 ----- 8:1*13:1-ARG0 15:0-rel 16:2-ARG1 19:1-ARGM-TMP
-bn/cnn/02/cnn_0274.parse 5 29 gold give give.01 ----- 28:1-ARG0 29:0-rel 30:1-ARG2 33:2-ARG1
 bn/cnn/02/cnn_0274.parse 18 39 gold react react.01 ----- 36:1*45:1-ARGM-MNR 37:1-ARG0 38:0-ARGM-MOD 39:0-rel 40:1-ARGM-ADV
 bn/cnn/02/cnn_0274.parse 13 18 gold be be.01 ----- 13:1*19:1-ARG2 14:1-ARG1 17:0-ARGM-MOD 18:0-rel
 bn/cnn/02/cnn_0274.parse 5 3 gold know know.01 ----- 1:1-ARG0 2:1-ARGM-ADV 3:0-rel 4:1-ARG1
 bn/cnn/02/cnn_0274.parse 4 2 gold go go.04 ----- 2:0-rel
-bn/cnn/02/cnn_0274.parse 13 2 gold want want.01 ----- 0:1-ARG0 1:1-ARGM-ADV 2:0-rel 3:2-ARG1
 bn/cnn/02/cnn_0274.parse 16 2 gold greet greet.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1 7:1-ARGM-TMP
 bn/cnn/02/cnn_0274.parse 18 42 gold be be.03 ----- 42:0-rel
 bn/cnn/02/cnn_0274.parse 18 28 gold be be.03 ----- 28:0-rel
 bn/cnn/02/cnn_0274.parse 12 16 gold follow follow.01 ----- 16:0-rel 17:2-ARG2
 bn/cnn/02/cnn_0274.parse 11 7 gold stay stay.01 ----- 2:1*5:1-ARG1 7:0-rel 8:1-ARG3
+bn/cnn/02/cnn_0274.parse 9 29 gold be be.03 ----- 29:0-rel
 bn/cnn/02/cnn_0274.parse 17 7 gold speak speak.01 ----- 0:3-ARGM-TMP 6:1-ARG0 7:0-rel 8:1-ARG2
 bn/cnn/02/cnn_0274.parse 2 1 gold talk talk.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 bn/cnn/02/cnn_0274.parse 18 1 gold write write.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
-bn/cnn/02/cnn_0274.parse 9 29 gold be be.03 ----- 29:0-rel
 bn/cnn/02/cnn_0274.parse 2 10 gold peace peace.01 ----- 10:0-rel 11:1-ARG1
-bn/cnn/02/cnn_0274.parse 15 1 gold think think.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bn/cnn/02/cnn_0274.parse 14 6 gold be be.02 ----- 4:0-ARGM-MOD 5:1-ARGM-ADV 6:0-rel 7:2-ARG1
-bn/cnn/02/cnn_0274.parse 9 2 gold go go_on.15 ----- 0:1,4:2-ARG1 2:0,3:1-rel
 bn/cnn/02/cnn_0274.parse 6 4 gold sign signal.07 ----- 0:1-ARG0 4:0-rel 5:1-ARGM-MNR 6:1-ARG1
 bn/cnn/02/cnn_0274.parse 9 30 gold establish establish.01 ----- 25:1*31:1-ARG1 28:0-ARGM-MOD 30:0-rel
-bn/cnn/02/cnn_0274.parse 4 17 gold hop hop.01 ----- 15:1-ARG0 17:0-rel 18:1-ARGM-DIR
 bn/cnn/02/cnn_0274.parse 18 34 gold strike strike.01 ----- 32:1-ARGM-TMP 34:0-rel
 bn/cnn/02/cnn_0274.parse 4 11 gold see see.01 ----- 0:1*3:1*9:1-ARG0 11:0-rel 12:1-ARG1
 bn/cnn/02/cnn_0274.parse 5 13 gold have have.01 ----- 13:0-rel
 bn/cnn/02/cnn_0274.parse 9 22 gold run run.01 ----- 8:2-ARG0 21:0-ARGM-MOD 22:0-rel 23:1-ARG1 24:1-ARGM-TMP
+bn/cnn/02/cnn_0274.parse 15 1 gold think think.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+bn/cnn/02/cnn_0274.parse 9 2 gold go go_on.15 ----- 0:1,4:2-ARG1 2:0,3:1-rel
+bn/cnn/02/cnn_0274.parse 4 17 gold hop hop.01 ----- 15:1-ARG0 17:0-rel 18:1-ARGM-DIR
 bn/cnn/02/cnn_0274.parse 4 14 gold see see.01 ----- 13:1-ARG0 14:0-rel 15:2-ARG1
+bn/cnn/02/cnn_0274.parse 5 29 gold give give.01 ----- 28:1-ARG0 29:0-rel 30:1-ARG2 33:2-ARG1
 bn/cnn/02/cnn_0274.parse 10 2 gold want want.01 ----- 1:1-ARG0 2:0-rel 3:2-ARG1
 bn/cnn/02/cnn_0274.parse 8 9 gold share share.01 ----- 3:1*10:1-ARG1 4:1-ARG0 9:0-rel 11:1-ARG2 13:1-ARGM-LOC
 bn/cnn/02/cnn_0274.parse 12 15 gold confer confer.01 ----- 13:0-ARGM-ADJ 14:0-ARGM-PRP 15:0-rel 16:1-ARGM-PRD
@@ -55,13 +54,13 @@ bn/cnn/02/cnn_0274.parse 9 6 gold say say.01 ----- 0:1*4:1-ARG0 6:0-rel 7:1-ARG1
 bn/cnn/02/cnn_0274.parse 12 9 gold discuss discuss.01 ----- 5:1*10:1-ARG1 6:1-ARG0 9:0-rel 11:1-ARGM-LOC
 bn/cnn/02/cnn_0274.parse 1 2 gold get get.05 ----- 1:1-ARG1 2:0-rel 3:1-ARG2
 bn/cnn/02/cnn_0274.parse 12 2 gold talk talk.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:2-ARG1
-bn/cnn/02/cnn_0274.parse 2 16 gold look look.02 ----- 9:1*17:1-ARG1 10:2-ARG0 15:0-ARGM-MOD 16:0-rel
 bn/cnn/02/cnn_0274.parse 4 5 gold pause pause.01 ----- 0:1*3:1-ARG0 5:0-rel 6:1-ARGM-TMP 9:2-ARGM-PRP
 bn/cnn/02/cnn_0274.parse 3 1 gold talk talk.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bn/cnn/02/cnn_0274.parse 5 27 gold support support.01 ----- 25:1-ARG0 27:0-rel 28:2-ARG1
 bn/cnn/02/cnn_0274.parse 1 16 gold come come.01 ----- 7:1*14:1-ARG1 16:0-rel 17:1-ARG4 18:1-ARGM-TMP
 bn/cnn/02/cnn_0274.parse 18 29 gold target target.01 ----- 2:1*5:1*26:1*30:1-ARG1 2:1*5:1-LINK-PSV 29:0-rel 31:1-ARG2
 bn/cnn/02/cnn_0274.parse 10 0 gold do do.01 ----- 0:0-rel
+bn/cnn/02/cnn_0274.parse 13 2 gold want want.01 ----- 0:1-ARG0 1:1-ARGM-ADV 2:0-rel 3:2-ARG1
 bn/cnn/02/cnn_0274.parse 17 16 gold write write.01 ----- 9:1*12:1*13:1-ARG0 9:1*12:1-LINK-SLC 16:0-rel 17:1-ARGM-MNR 18:1-ARG1
 bn/cnn/02/cnn_0274.parse 14 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bn/cnn/02/cnn_0274.parse 8 16 gold follow follow.01 ----- 14:1-ARG1 16:0-rel 17:1-ARG2
@@ -69,7 +68,8 @@ bn/cnn/02/cnn_0274.parse 7 6 gold travel travel.01 ----- 3:1-ARG0 6:0-rel 7:1-AR
 bn/cnn/02/cnn_0274.parse 13 9 gold have have.03 ----- 6:1*7:1*8:1-ARG0 6:1*7:1-LINK-SLC 9:0-rel 10:2-ARG1
 bn/cnn/02/cnn_0274.parse 11 4 gold go go.04 ----- 4:0-rel
 bn/cnn/02/cnn_0274.parse 9 11 gold compose compose.01 ----- 8:1*12:1-ARG1 8:1*12:1-LINK-PSV 11:0-rel 13:1-ARG2
+bn/cnn/02/cnn_0274.parse 2 16 gold look look.02 ----- 9:1*17:1-ARG1 10:2-ARG0 15:0-ARGM-MOD 16:0-rel
 bn/cnn/02/cnn_0274.parse 7 17 gold run run.01 ----- 12:1*18:1-ARG1 15:0-ARGM-MOD 17:0-rel 19:1-ARG0
-bn/cnn/02/cnn_0274.parse 0 9 gold land land.01 ----- 4:2-ARG0 9:0-rel 10:1-ARGM-LOC
 bn/cnn/02/cnn_0274.parse 6 8 gold want want.01 ----- 7:1-ARG0 8:0-rel 9:2-ARG2 15:1-ARG1
 bn/cnn/02/cnn_0274.parse 6 3 gold have have.01 ----- 3:0-rel
+bn/cnn/02/cnn_0274.parse 17 14 gold teach teach.01 ----- 9:1*12:1*13:1-ARG0 9:1*12:1-LINK-SLC 14:0-rel 17:1-ARGM-MNR 18:1-ARG1

@@ -1,15 +1,15 @@
 bn/cnn/03/cnn_0316.parse 1 9 gold face face.01 ----- 7:1-ARG0 8:0-ARGM-MOD 9:0-rel 10:1-ARG1 11:2-ARGM-TMP
 bn/cnn/03/cnn_0316.parse 4 5 gold be be.03 ----- 5:0-rel
-bn/cnn/03/cnn_0316.parse 1 10 gold charge charge.05 ----- 10:0-rel
+bn/cnn/03/cnn_0316.parse 5 0 gold be be.01 ----- 0:0-rel 1:1-ARG2 3:1-ARG1
 bn/cnn/03/cnn_0316.parse 3 7 gold set set.01 ----- 0:1-ARGM-DIS 1:1-ARG0 7:0-rel 8:3-ARG1
 bn/cnn/03/cnn_0316.parse 2 2 gold join join.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:2-ARG1
 bn/cnn/03/cnn_0316.parse 2 7 gold charge charge.05 ----- 6:1-ARGM-TMP 7:0-rel 8:1-ARG1
 bn/cnn/03/cnn_0316.parse 4 6 gold send send.03 ----- 0:2*7:1-ARG1 6:0-rel 8:1-ARG2
+bn/cnn/03/cnn_0316.parse 1 10 gold charge charge.05 ----- 10:0-rel
 bn/cnn/03/cnn_0316.parse 1 4 gold former former.01 ----- 4:0-rel 5:0-ARG1
 bn/cnn/03/cnn_0316.parse 5 5 gold file file.01 ----- 4:1-ARG0 5:0-rel 6:1-ARG4
 bn/cnn/03/cnn_0316.parse 0 6 gold be be.03 ----- 6:0-rel
-bn/cnn/03/cnn_0316.parse 5 0 gold be be.01 ----- 0:0-rel 1:1-ARG2 3:1-ARG1
-bn/cnn/03/cnn_0316.parse 1 2 gold notify notify.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1 6:1-ARG2
 bn/cnn/03/cnn_0316.parse 0 7 gold charge charge.05 ----- 0:2*8:1-ARG1 5:0-ARGM-MOD 7:0-rel 9:1-ARG2
 bn/cnn/03/cnn_0316.parse 3 11 gold charge charge.05 ----- 8:2*12:1-ARG1 10:1-ARGM-TMP 11:0-rel 13:1-ARGM-LOC 16:3-ARGM-PRD
+bn/cnn/03/cnn_0316.parse 1 2 gold notify notify.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1 6:1-ARG2
 bn/cnn/03/cnn_0316.parse 3 22 gold say say.01 ----- 21:1-ARG0 22:0-rel 23:1-ARG1

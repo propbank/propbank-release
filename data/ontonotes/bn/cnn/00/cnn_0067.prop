@@ -1,48 +1,48 @@
 bn/cnn/00/cnn_0067.parse 1 2 gold stump stump.01 ----- 0:1-ARG0 2:0-rel 3:1-ARGM-MNR
 bn/cnn/00/cnn_0067.parse 10 12 gold be be.01 ----- 12:0-rel 13:2-ARG2 16:2-ARG1
-bn/cnn/00/cnn_0067.parse 9 13 gold be be.01 ----- 9:1*11:1*12:1-ARG1 9:1*11:1-LINK-SLC 13:0-rel 14:2-ARG2
 bn/cnn/00/cnn_0067.parse 10 19 gold track track.01 ----- 16:1-ARG0 18:0-ARGM-LVB 19:0-rel
 bn/cnn/00/cnn_0067.parse 10 22 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARGM-ADV 21:1-ARG1 22:0-rel 23:2-ARG2
 bn/cnn/00/cnn_0067.parse 13 19 gold question question.01 ----- 16:1*20:1-ARG2 16:1*20:1-LINK-PSV 19:0-rel
+bn/cnn/00/cnn_0067.parse 0 8 gold contest contest.01 ----- 7:0-ARGM-MNR 8:0-rel 9:0,10:0-ARG1
+bn/cnn/00/cnn_0067.parse 5 6 gold show show.01 ----- 0:2-ARG0 6:0-rel 7:2-ARG1
 bn/cnn/00/cnn_0067.parse 3 11 gold call call.01 ----- 8:1*12:1-ARG1 9:1-ARG0 11:0-rel 13:2-ARG2
 bn/cnn/00/cnn_0067.parse 7 6 gold change change.02 ----- 4:1-ARG1 6:0-rel 7:1-ARG2 9:1-ARGM-TMP 12:1*20:1-ARGM-LOC
 bn/cnn/00/cnn_0067.parse 6 8 gold seesaw seesaw.01 ----- 2:1*5:1-ARG1 8:0-rel 9:1-ARGM-DIR
 bn/cnn/00/cnn_0067.parse 4 3 gold be be.03 ----- 3:0-rel
-bn/cnn/00/cnn_0067.parse 5 6 gold show show.01 ----- 0:2-ARG0 6:0-rel 7:2-ARG1
 bn/cnn/00/cnn_0067.parse 1 10 gold be be.01 ----- 4:2*8:1*9:1-ARG1 4:2*8:1-LINK-SLC 10:0-rel 11:2-ARG2
 bn/cnn/00/cnn_0067.parse 3 16 gold speak speak.01 ----- 15:0-ARGM-ADJ 16:0-rel 17:1-ARG1
 bn/cnn/00/cnn_0067.parse 10 5 gold lose lose.02 ----- 3:1-ARG0 5:0-rel 6:1-ARG1 8:1-ARGM-CAU
-bn/cnn/00/cnn_0067.parse 14 13 gold be be.01 ----- 11:1-ARG1 13:0-rel 14:1-ARG2 16:2-ARGM-TMP
 bn/cnn/00/cnn_0067.parse 5 0 gold poll poll.01 ----- 0:0-rel 1:1-ARGM-LOC
 bn/cnn/00/cnn_0067.parse 7 3 gold see see.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:2;20:1-ARG1 14:1-ARGM-ADV 24:1-ARGM-TMP
 bn/cnn/00/cnn_0067.parse 13 9 gold hold hold.04 ----- 6:1*10:1-ARG1 9:0-rel 11:1-ARGM-TMP
 bn/cnn/00/cnn_0067.parse 3 3 gold be be.03 ----- 3:0-rel
 bn/cnn/00/cnn_0067.parse 1 1 gold be be.03 ----- 1:0-rel
-bn/cnn/00/cnn_0067.parse 13 8 gold be be.03 ----- 8:0-rel
 bn/cnn/00/cnn_0067.parse 3 18 gold educate educate.01 ----- 18:0-rel
 bn/cnn/00/cnn_0067.parse 14 9 gold say say.01 ----- 7:1-ARG0 9:0-rel 10:1-ARG1
 bn/cnn/00/cnn_0067.parse 14 3 gold choose choose.01 ----- 0:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:1-ARG1
 bn/cnn/00/cnn_0067.parse 6 7 gold be be.03 ----- 7:0-rel
+bn/cnn/00/cnn_0067.parse 14 13 gold be be.01 ----- 11:1-ARG1 13:0-rel 14:1-ARG2 16:2-ARGM-TMP
 bn/cnn/00/cnn_0067.parse 8 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
+bn/cnn/00/cnn_0067.parse 9 13 gold be be.01 ----- 9:1*11:1*12:1-ARG1 9:1*11:1-LINK-SLC 13:0-rel 14:2-ARG2
+bn/cnn/00/cnn_0067.parse 7 5 gold lead lead.01 ----- 5:0-rel
 bn/cnn/00/cnn_0067.parse 12 11 gold poll poll.01 ----- 0:1-ARGM-TMP 2:2-ARG0 10:0-ARGM-PRP 11:0-rel
+bn/cnn/00/cnn_0067.parse 13 8 gold be be.03 ----- 8:0-rel
 bn/cnn/00/cnn_0067.parse 14 22 gold consider consider.02 ----- 16:1*24:1-ARGM-TMP 17:2*23:1-ARG1 22:0-rel
 bn/cnn/00/cnn_0067.parse 14 21 gold be be.03 ----- 21:0-rel
 bn/cnn/00/cnn_0067.parse 3 10 gold be be.03 ----- 10:0-rel
 bn/cnn/00/cnn_0067.parse 11 1 gold lead lead.01 ----- 1:0-rel
 bn/cnn/00/cnn_0067.parse 7 1 gold have have.01 ----- 1:0-rel
 bn/cnn/00/cnn_0067.parse 9 19 gold go go.08 ----- 0:1-ARGM-TMP 9:2-ARG1 18:1-ARGM-TMP 19:0-rel 20:1-ARGM-DIR
+bn/cnn/00/cnn_0067.parse 6 3 gold race race.02 ----- 3:0-rel
 bn/cnn/00/cnn_0067.parse 0 4 gold campaign campaign.01 ----- 0:1-ARG0 4:0-rel 5:1-ARGM-LOC 11:1-ARGM-TMP
 bn/cnn/00/cnn_0067.parse 10 18 gold keep keep.LV ----- 18:0-rel 19:1-ARGM-PRR
 bn/cnn/00/cnn_0067.parse 13 22 gold choose choose.01 ----- 5:1-ARGM-ADV 13:2-ARG0 21:0-ARGM-MOD 22:0-rel 23:1-ARG1
 bn/cnn/00/cnn_0067.parse 6 4 gold appear appear.02 ----- 0:1-ARGM-LOC 2:1,5:2-ARG1 4:0-rel
 bn/cnn/00/cnn_0067.parse 11 2 gold do do.01 ----- 2:0-rel
 bn/cnn/00/cnn_0067.parse 4 4 gold campaign campaign.01 ----- 0:1-ARG0 4:0-rel 5:1-ARGM-MNR
-bn/cnn/00/cnn_0067.parse 7 5 gold lead lead.01 ----- 5:0-rel
 bn/cnn/00/cnn_0067.parse 12 12 gold show show.01 ----- 0:2-ARG0 12:0-rel 13:2-ARG1 18:1-ARGM-TMP
 bn/cnn/00/cnn_0067.parse 3 4 gold expect expect.01 ----- 0:1-ARGM-TMP 2:1,5:2-ARG1 4:0-rel
 bn/cnn/00/cnn_0067.parse 0 3 gold be be.03 ----- 3:0-rel
-bn/cnn/00/cnn_0067.parse 6 3 gold race race.02 ----- 3:0-rel
 bn/cnn/00/cnn_0067.parse 13 3 gold show show.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
-bn/cnn/00/cnn_0067.parse 0 8 gold contest contest.01 ----- 7:0-ARGM-MNR 8:0-rel 9:0,10:0-ARG1
 bn/cnn/00/cnn_0067.parse 3 7 gold deliver deliver.01 ----- 2:1*5:1-ARG0 7:0-rel 8:2-ARG1 19:1-ARGM-LOC 21:1-ARGM-TMP
 bn/cnn/00/cnn_0067.parse 11 3 gold change change.02 ----- 0:1-ARG1 3:0-rel 4:1-ARG2

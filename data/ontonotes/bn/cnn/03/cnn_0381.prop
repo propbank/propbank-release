@@ -20,9 +20,7 @@ bn/cnn/03/cnn_0381.parse 1 59 gold be be.01 ----- 57:1*58:1-ARG1 59:0-rel 60:2-A
 bn/cnn/03/cnn_0381.parse 10 11 gold prosecute prosecute.01 ----- 11:0-rel
 bn/cnn/03/cnn_0381.parse 11 7 gold be be.01 ----- 6:1-ARG1 7:0-rel 8:1-ARG2
 bn/cnn/03/cnn_0381.parse 12 8 gold have have.02 ----- 8:0-rel
-bn/cnn/03/cnn_0381.parse 10 5 gold be be.03 ----- 5:0-rel
 bn/cnn/03/cnn_0381.parse 4 4 gold be be.01 ----- 0:1-ARG1 4:0-rel 5:2-ARG2
-bn/cnn/03/cnn_0381.parse 2 3 gold compare compare.01 ----- 0:1*8:1-ARGM-MNR 2:1-ARG1 3:0-rel 4:1-ARG2
 bn/cnn/03/cnn_0381.parse 12 16 gold lose lose.02 ----- 15:1-ARG0 16:0-rel 17:1-ARG1 19:1-ARG3
 bn/cnn/03/cnn_0381.parse 2 1 gold do do.01 ----- 1:0-rel
 bn/cnn/03/cnn_0381.parse 12 11 gold grab grab.01 ----- 3:2*9:1-ARG0 11:0-rel 12:1-ARG1 14:1-ARGM-TMP
@@ -38,9 +36,11 @@ bn/cnn/03/cnn_0381.parse 8 13 gold look look.01 ----- 8:1*11:1*14:1-ARGM-TMP 8:1
 bn/cnn/03/cnn_0381.parse 1 67 gold talk talk.01 ----- 65:1-ARG0 67:0-rel 68:1-ARG1
 bn/cnn/03/cnn_0381.parse 1 46 gold obstruct obstruct.01 ----- 46:0-rel 47:1-ARG1
 bn/cnn/03/cnn_0381.parse 3 26 gold remain remain.01 ----- 14:2-ARG1 26:0-rel 27:1-ARG3
+bn/cnn/03/cnn_0381.parse 2 3 gold compare compare.01 ----- 0:1*8:1-ARGM-MNR 2:1-ARG1 3:0-rel 4:1-ARG2
 bn/cnn/03/cnn_0381.parse 0 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:2-ARG2
 bn/cnn/03/cnn_0381.parse 13 2 gold be be.01 ----- 0:1-ARG1 1:0-ARGM-MOD 2:0-rel 3:2-ARG2
 bn/cnn/03/cnn_0381.parse 13 8 gold be be.01 ----- 7:1-ARG1 8:0-rel 9:2-ARG2
+bn/cnn/03/cnn_0381.parse 11 12 gold hear hear.01 ----- 10:1-ARG0 11:0-ARGM-MOD 12:0-rel 13:1-ARG2
 bn/cnn/03/cnn_0381.parse 2 7 gold scandal scandal.01 ----- 5:0-ARGM-ADJ 6:0-ARG0 7:0-rel
 bn/cnn/03/cnn_0381.parse 3 2 gold bankrupt bankrupt.01 ----- 0:1-ARG1 2:0-rel
 bn/cnn/03/cnn_0381.parse 5 2 gold employ employ.01 ----- 0:1-ARG0 1:1-ARGM-TMP 2:0-rel 3:1-ARG1
@@ -48,7 +48,7 @@ bn/cnn/03/cnn_0381.parse 11 26 gold share share.01 ----- 18:1-ARG0 19:0-ARGM-MOD
 bn/cnn/03/cnn_0381.parse 1 75 gold net net.02 ----- 69:2*73:1*74:1-ARG0 69:2*73:1-LINK-SLC 75:0-rel 76:1-ARG2 77:2-ARG1
 bn/cnn/03/cnn_0381.parse 0 9 gold be be.01 ----- 5:1*7:1*8:1-ARG1 5:1*7:1-LINK-SLC 9:0-rel 10:1-ARG2 13:1-ARGM-MNR 15:1-ARGM-ADV
 bn/cnn/03/cnn_0381.parse 1 63 gold sell sell.01 ----- 61:0-ARGM-MNR 62:0-ARG1 63:0-rel
-bn/cnn/03/cnn_0381.parse 11 12 gold hear hear.01 ----- 10:1-ARG0 11:0-ARGM-MOD 12:0-rel 13:1-ARG2
+bn/cnn/03/cnn_0381.parse 10 5 gold be be.03 ----- 5:0-rel
 bn/cnn/03/cnn_0381.parse 10 3 gold be be.03 ----- 3:0-rel
 bn/cnn/03/cnn_0381.parse 9 27 gold be be.01 ----- 24:1-ARG1 25:0-ARGM-MOD 27:0-rel 28:1-ARG2
 bn/cnn/03/cnn_0381.parse 1 23 gold plead plead.02 ----- 0:1*22:1-ARG0 23:0-rel 25:0,26:0-ARG1 27:1-ARG2

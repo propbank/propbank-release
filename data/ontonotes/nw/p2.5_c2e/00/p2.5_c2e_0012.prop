@@ -1,6 +1,6 @@
 nw/p2.5_c2e/00/p2.5_c2e_0012.parse 9 2 gold disburse disburse.01 ----- 0:1-ARG1 1:1-ARGM-MNR 2:0-rel
+nw/p2.5_c2e/00/p2.5_c2e_0012.parse 2 24 gold simplify simplify.01 ----- 6:2*25:1-ARG1 6:2*25:1-LINK-PSV 24:0-rel 26:1-ARGM-PRD
 nw/p2.5_c2e/00/p2.5_c2e_0012.parse 3 10 gold participate participate.01 ----- 0:2-ARG0 10:0-rel 11:1-ARG1
-nw/p2.5_c2e/00/p2.5_c2e_0012.parse 8 11 gold hold hold.04 ----- 9:1-ARG0 11:0-rel 12:1-ARG1
 nw/p2.5_c2e/00/p2.5_c2e_0012.parse 7 9 gold discontinue discontinue.01 ----- 9:0-rel 10:1-ARG1
 nw/p2.5_c2e/00/p2.5_c2e_0012.parse 4 33 gold become become.01 ----- 27:1-ARG1 33:0-rel 34:1-ARG2
 nw/p2.5_c2e/00/p2.5_c2e_0012.parse 8 2 gold broadcast broadcast.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1 5:2-ARGM-ADV
@@ -9,7 +9,6 @@ nw/p2.5_c2e/00/p2.5_c2e_0012.parse 7 5 gold be be.03 ----- 5:0-rel
 nw/p2.5_c2e/00/p2.5_c2e_0012.parse 8 10 gold be be.03 ----- 10:0-rel
 nw/p2.5_c2e/00/p2.5_c2e_0012.parse 4 20 gold carry carry_out.03 ----- 5:2*18:1-ARG0 20:0,21:1-rel 22:1-ARG1
 nw/p2.5_c2e/00/p2.5_c2e_0012.parse 4 3 gold conclude conclude.02 ----- 1:1-ARG1 3:0-rel
-nw/p2.5_c2e/00/p2.5_c2e_0012.parse 2 24 gold simplify simplify.01 ----- 6:2*25:1-ARG1 6:2*25:1-LINK-PSV 24:0-rel 26:1-ARGM-PRD
 nw/p2.5_c2e/00/p2.5_c2e_0012.parse 6 14 gold state state.01 ----- 0:1-ARGM-LOC 9:1-ARG0 14:0-rel 17:1-ARG1
 nw/p2.5_c2e/00/p2.5_c2e_0012.parse 1 19 gold hold hold.04 ----- 0:1-ARGM-TMP 7:2-ARG0 19:0-rel 20:2-ARG1
 nw/p2.5_c2e/00/p2.5_c2e_0012.parse 6 25 gold constitute constitute.01 ----- 18:3-ARG0 25:0-rel 26:2-ARG1
@@ -18,6 +17,7 @@ nw/p2.5_c2e/00/p2.5_c2e_0012.parse 11 13 gold stage stage.01 ----- 0:2-ARG0 13:0
 nw/p2.5_c2e/00/p2.5_c2e_0012.parse 5 14 gold be be.01 ----- 0:2-ARGM-PRD 6:2-ARG1 14:0-rel 16:1-ARG2 20:1-ARGM-TMP
 nw/p2.5_c2e/00/p2.5_c2e_0012.parse 6 3 gold adopt adopt.01 ----- 1:1*4:1-ARG1 1:1*4:1-LINK-PSV 3:0-rel 5:1-ARGM-LOC
 nw/p2.5_c2e/00/p2.5_c2e_0012.parse 10 9 gold disburse disburse.01 ----- 5:1*7:1-ARG1 9:0-rel
+nw/p2.5_c2e/00/p2.5_c2e_0012.parse 8 11 gold hold hold.04 ----- 9:1-ARG0 11:0-rel 12:1-ARG1
 nw/p2.5_c2e/00/p2.5_c2e_0012.parse 2 16 gold check check.01 ----- 15:1-ARG0 16:0-rel 17:1-ARG1
 nw/p2.5_c2e/00/p2.5_c2e_0012.parse 10 2 gold do do.01 ----- 2:0-rel
 nw/p2.5_c2e/00/p2.5_c2e_0012.parse 10 4 gold force force.01 ----- 0:0-ARGM-DIS 1:1-ARG0 3:0-ARGM-NEG 4:0-rel 5:1-ARG1 7:2-ARG2

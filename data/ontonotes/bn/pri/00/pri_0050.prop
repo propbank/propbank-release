@@ -1,13 +1,13 @@
 bn/pri/00/pri_0050.parse 26 3 gold put put.01 ----- 0:1-ARG0 1:1-ARGM-ADV 3:0-rel 4:1-ARG1 8:1-ARG2
+bn/pri/00/pri_0050.parse 24 14 gold be be.01 ----- 8:1*12:1*13:1-ARG1 8:1*12:1-LINK-SLC 14:0-rel 15:1-ARG2
 bn/pri/00/pri_0050.parse 11 12 gold have have.LV ----- 12:0-rel 13:1-ARGM-PRR
 bn/pri/00/pri_0050.parse 25 8 gold happen happen.01 ----- 6:1*7:1-ARG1 8:0-rel 9:1-ARGM-TMP
 bn/pri/00/pri_0050.parse 8 26 gold be be.01 ----- 23:1-ARG1 26:0-rel 27:2-ARG2
 bn/pri/00/pri_0050.parse 6 1 gold answer answer.01 ----- 1:0-rel
 bn/pri/00/pri_0050.parse 11 1 gold go go.02 ----- 0:1-ARG0 1:0-rel 2:1-ARG4
 bn/pri/00/pri_0050.parse 13 4 gold adopt adopt.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:1-ARGM-ADV 4:0-rel 5:1-ARG1 7:1-ARGM-ADV
-bn/pri/00/pri_0050.parse 32 13 gold reestablish reestablish.01 ----- 9:1*11:1-ARG0 13:0-rel 14:2-ARG1
 bn/pri/00/pri_0050.parse 29 1 gold know know.01 ----- 0:2-ARG0 1:0-rel
-bn/pri/00/pri_0050.parse 8 20 gold be be.01 ----- 19:1-ARG1 20:0-rel 21:1-ARG2
+bn/pri/00/pri_0050.parse 25 23 gold know know.06 ----- 22:1-ARG0 23:0-rel
 bn/pri/00/pri_0050.parse 25 13 gold be be.01 ----- 6:2-ARGM-ADV 12:1-ARG1 13:0-rel 14:1-ARG2
 bn/pri/00/pri_0050.parse 21 10 gold be be.01 ----- 9:1-ARG1 10:0-rel 11:1-ARG2
 bn/pri/00/pri_0050.parse 10 3 gold have have.03 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:1-ARG1 5:1-ARGM-MNR
@@ -31,9 +31,11 @@ bn/pri/00/pri_0050.parse 7 14 gold plan plan.01 ----- 9:1-ARGM-DIS 10:1*24:1-ARG
 bn/pri/00/pri_0050.parse 32 4 gold be be.03 ----- 4:0-rel
 bn/pri/00/pri_0050.parse 5 20 gold have have.03 ----- 17:1-ARG0 20:0-rel 21:2-ARG1
 bn/pri/00/pri_0050.parse 13 13 gold have have.03 ----- 11:1-ARG0 12:0-ARGM-MOD 13:0-rel 14:1-ARG1 15:1-ARGM-LOC
+bn/pri/00/pri_0050.parse 21 1 gold have have.03 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 bn/pri/00/pri_0050.parse 27 1 gold mean mean.01 ----- 0:1-ARG0 1:0-rel
 bn/pri/00/pri_0050.parse 11 26 gold adopt adopt.01 ----- 18:1*19:1*20:1*23:1*27:1-ARG1 18:1*19:1-LINK-SLC 26:0-rel
 bn/pri/00/pri_0050.parse 18 8 gold make make.01 ----- 4:1*5:1*6:1*9:1-ARG1 4:1*5:1-LINK-SLC 8:0-rel 10:1-ARG2
+bn/pri/00/pri_0050.parse 15 3 gold contribute contribute.01 ----- 0:1-ARG0 2:1-ARGM-ADV 3:0-rel 4:1-ARG1
 bn/pri/00/pri_0050.parse 34 5 gold speak speak.01 ----- 0:2-ARG0 5:0-rel 6:1-ARG2 8:1-ARGM-DIR
 bn/pri/00/pri_0050.parse 25 1 gold be be.03 ----- 1:0-rel
 bn/pri/00/pri_0050.parse 7 11 gold do do.01 ----- 11:0-rel
@@ -46,20 +48,21 @@ bn/pri/00/pri_0050.parse 15 12 gold be be.03 ----- 12:0-rel
 bn/pri/00/pri_0050.parse 27 13 gold mean mean.01 ----- 0:3-ARGM-DIS 2:1-ARGM-ADV 3:2-ARGM-TMP 12:1-ARG1 13:0-rel 14:2-ARG2
 bn/pri/00/pri_0050.parse 22 48 gold ensure ensure.01 ----- 46:1-ARG0 48:0-rel 49:1-ARG1
 bn/pri/00/pri_0050.parse 17 11 gold mention mention.01 ----- 4:2*8:1*12:1-ARG1 4:2*8:1-LINK-SLC 9:1-ARG0 11:0-rel 13:1-ARG2
-bn/pri/00/pri_0050.parse 19 5 gold be be.01 ----- 0:1-ARGM-DIS 2:3-ARGM-DIS 4:1-ARG1 5:0-rel 6:1-ARG2
 bn/pri/00/pri_0050.parse 22 51 gold have have.03 ----- 50:1-ARG0 51:0-rel 52:2-ARG1 60:1-ARGM-TMP
-bn/pri/00/pri_0050.parse 21 1 gold have have.03 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 bn/pri/00/pri_0050.parse 19 41 gold concern concern.01 ----- 40:0-ARGM-TMP 41:0-rel 42:2-ARGM-ADJ
 bn/pri/00/pri_0050.parse 13 1 gold be be.03 ----- 1:0-rel
 bn/pri/00/pri_0050.parse 17 15 gold be be.01 ----- 0:1-ARGM-DIS 3:1-ARGM-DIS 4:3-ARG1 15:0-rel 16:2-ARG2
 bn/pri/00/pri_0050.parse 17 24 gold get get.01 ----- 21:1-ARG3 23:1-ARG0 24:0-rel 25:2-ARG1
-bn/pri/00/pri_0050.parse 15 3 gold contribute contribute.01 ----- 0:1-ARG0 2:1-ARGM-ADV 3:0-rel 4:1-ARG1
-bn/pri/00/pri_0050.parse 23 1 gold wait wait.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-TMP
+bn/pri/00/pri_0050.parse 0 5 gold be be.01 ----- 4:1-ARG1 5:0-rel 6:1-ARG2
 bn/pri/00/pri_0050.parse 4 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2
 bn/pri/00/pri_0050.parse 15 15 gold grow grow_up.04 ----- 15:0,16:0-rel
 bn/pri/00/pri_0050.parse 8 10 gold have have.03 ----- 5:1*7:1*11:1-ARG1 5:1*7:1-LINK-SLC 8:1-ARG0 10:0-rel 12:1-ARGM-LOC 15:1-ARGM-TMP
+bn/pri/00/pri_0050.parse 14 8 gold do do.01 ----- 8:0-rel
 bn/pri/00/pri_0050.parse 18 24 gold drop drop.01 ----- 23:0-ARG1 24:0-rel
+bn/pri/00/pri_0050.parse 23 1 gold wait wait.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-TMP
 bn/pri/00/pri_0050.parse 32 10 gold need need.01 ----- 9:1-ARG0 10:0-rel 11:2-ARG1
+bn/pri/00/pri_0050.parse 17 10 gold have have.01 ----- 10:0-rel
+bn/pri/00/pri_0050.parse 37 1 gold thank thank.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bn/pri/00/pri_0050.parse 19 32 gold be be.01 ----- 27:2-ARG1 32:0-rel 33:1-ARG2
 bn/pri/00/pri_0050.parse 2 5 gold answer answer.01 ----- 5:0-rel 6:1-ARG1
 bn/pri/00/pri_0050.parse 3 2 gold look look.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
@@ -68,10 +71,8 @@ bn/pri/00/pri_0050.parse 12 15 gold show show_up.02 ----- 13:1-ARG1 15:0,16:1-re
 bn/pri/00/pri_0050.parse 18 25 gold deliver deliver.01 ----- 20:2*26:1-ARG1 20:2*26:1-LINK-PSV 25:0-rel 27:1-ARG2
 bn/pri/00/pri_0050.parse 25 20 gold be be.01 ----- 17:1*21:1-ARG2 20:0-rel 22:3-ARGM-DIS 24:2-ARG1
 bn/pri/00/pri_0050.parse 28 1 gold mean mean.01 ----- 0:1-ARG0 1:0-rel
-bn/pri/00/pri_0050.parse 16 9 gold have have.03 ----- 8:1-ARG0 9:0-rel 10:2-ARG1
-bn/pri/00/pri_0050.parse 37 1 gold thank thank.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bn/pri/00/pri_0050.parse 27 15 gold save save.02 ----- 14:1-ARG0 15:0-rel 16:1-ARG1
-bn/pri/00/pri_0050.parse 4 6 gold include include.01 ----- 0:1-ARG2 6:0-rel 7:2-ARG1
+bn/pri/00/pri_0050.parse 19 5 gold be be.01 ----- 0:1-ARGM-DIS 2:3-ARGM-DIS 4:1-ARG1 5:0-rel 6:1-ARG2
 bn/pri/00/pri_0050.parse 12 2 gold do do.01 ----- 2:0-rel
 bn/pri/00/pri_0050.parse 12 30 gold progress progress.01 ----- 29:0-ARG1 30:0-rel 31:1-ARG2
 bn/pri/00/pri_0050.parse 18 19 gold liken like.02 ----- 18:1-ARG0 19:0-rel 20:3-ARG1
@@ -79,22 +80,22 @@ bn/pri/00/pri_0050.parse 22 15 gold feed feed.01 ----- 10:1*12:1*17:1-ARGM-MNR 1
 bn/pri/00/pri_0050.parse 28 15 gold be be.01 ----- 14:1-ARG1 15:0-rel 16:2-ARG2
 bn/pri/00/pri_0050.parse 9 12 gold adopt adopt.01 ----- 11:1-ARG0 12:0-rel 13:1-ARG1 14:1-ARGM-MNR
 bn/pri/00/pri_0050.parse 12 26 gold keep keep.LV ----- 26:0-rel 27:1-ARGM-PRR
+bn/pri/00/pri_0050.parse 8 20 gold be be.01 ----- 19:1-ARG1 20:0-rel 21:1-ARG2
 bn/pri/00/pri_0050.parse 1 24 gold let let.01 ----- 6:1*18:1*22:1*23:1-ARG0 18:1*22:1-LINK-SLC 24:0-rel 25:1,27:1-ARG1
 bn/pri/00/pri_0050.parse 6 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2
+bn/pri/00/pri_0050.parse 22 42 gold be be.01 ----- 41:1-ARG1 42:0-rel 43:2-ARG2
 bn/pri/00/pri_0050.parse 9 3 gold come come_up.11 ----- 0:1-ARGM-DIS 1:1-ARG0 3:0,4:1-rel 5:1-ARG1
 bn/pri/00/pri_0050.parse 18 7 gold be be.03 ----- 7:0-rel
 bn/pri/00/pri_0050.parse 32 5 gold lose lose.02 ----- 3:1-ARG0 5:0-rel 6:1-ARG1
 bn/pri/00/pri_0050.parse 20 3 gold be be.01 ----- 0:3-ARGM-DIS 2:1-ARG1 3:0-rel 4:1-ARGM-ADV 5:2-ARG2
-bn/pri/00/pri_0050.parse 27 20 gold eat eat.01 ----- 14:1-ARG0 18:0-ARGM-NEG 19:1-ARGM-TMP 20:0-rel 21:1-ARG1
 bn/pri/00/pri_0050.parse 16 10 gold access access.01 ----- 10:0-rel 11:1-ARGM-LOC
-bn/pri/00/pri_0050.parse 22 42 gold be be.01 ----- 41:1-ARG1 42:0-rel 43:2-ARG2
 bn/pri/00/pri_0050.parse 16 38 gold contribute contribute.01 ----- 37:1-ARG0 38:0-rel 39:1-ARG1
 bn/pri/00/pri_0050.parse 19 45 gold affect effect.03 ----- 39:1*42:1*43:1-ARG0 39:1*42:1-LINK-SLC 45:0-rel 46:1-ARG1
 bn/pri/00/pri_0050.parse 28 19 gold provoke provoke.01 ----- 19:0-rel
 bn/pri/00/pri_0050.parse 30 5 gold be be.01 ----- 0:1-ARGM-TMP 4:1-ARG1 5:0-rel 6:2-ARG2
-bn/pri/00/pri_0050.parse 7 17 gold profit profit.01 ----- 12:1*15:1-ARG0 17:0-rel 18:1-ARG1
 bn/pri/00/pri_0050.parse 22 25 gold nurture nurture.01 ----- 20:1*22:1*27:1-ARGM-MNR 20:1*22:1-LINK-SLC 23:1*26:1-ARG1 25:0-rel
 bn/pri/00/pri_0050.parse 5 2 gold include include.01 ----- 0:1-ARG2 1:1-ARGM-DIS 2:0-rel 3:2-ARG1
+bn/pri/00/pri_0050.parse 1 17 gold enter enter.02 ----- 12:1-ARGM-TMP 15:1-ARG0 16:0-ARGM-MOD 17:0-rel 18:2-ARG1
 bn/pri/00/pri_0050.parse 32 38 gold be be.01 ----- 20:1-ARG1 38:0-rel 39:1-ARG2
 bn/pri/00/pri_0050.parse 5 11 gold live live.01 ----- 9:0-ARGM-MNR 11:0-rel 14:0-ARG0
 bn/pri/00/pri_0050.parse 19 35 gold be be.01 ----- 34:1-ARG1 35:0-rel 36:2-ARG2
@@ -102,6 +103,7 @@ bn/pri/00/pri_0050.parse 16 29 gold choose choose.01 ----- 27:1-ARG0 28:0-ARGM-M
 bn/pri/00/pri_0050.parse 36 3 gold talk talk.01 ----- 1:1-ARG0 3:0-rel 4:1-ARG2
 bn/pri/00/pri_0050.parse 19 44 gold be be.03 ----- 44:0-rel
 bn/pri/00/pri_0050.parse 19 11 gold think think.01 ----- 10:1-ARG0 11:0-rel
+bn/pri/00/pri_0050.parse 32 13 gold reestablish reestablish.01 ----- 9:1*11:1-ARG0 13:0-rel 14:2-ARG1
 bn/pri/00/pri_0050.parse 11 21 gold be be.01 ----- 18:1*19:1*20:1-ARG1 18:1*19:1-LINK-SLC 21:0-rel 22:1-ARG2
 bn/pri/00/pri_0050.parse 28 12 gold think think.01 ----- 11:1-ARG0 12:0-rel 13:1-ARG1
 bn/pri/00/pri_0050.parse 0 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
@@ -109,22 +111,18 @@ bn/pri/00/pri_0050.parse 31 1 gold have have.03 ----- 0:1-ARG0 1:0-rel 2:3-ARG1
 bn/pri/00/pri_0050.parse 15 13 gold monitor monitor.01 ----- 11:1-ARG0 13:0-rel 14:1-ARG1
 bn/pri/00/pri_0050.parse 29 5 gold live live.01 ----- 0:3-ARGM-DIS 2:1-ARG0 3:1-ARGM-TMP 4:1-ARGM-ADV 5:0-rel 6:1-ARGM-LOC
 bn/pri/00/pri_0050.parse 8 1 gold be be.03 ----- 1:0-rel
-bn/pri/00/pri_0050.parse 0 5 gold be be.01 ----- 4:1-ARG1 5:0-rel 6:1-ARG2
 bn/pri/00/pri_0050.parse 14 11 gold have have.03 ----- 3:1*6:1*17:1-ARGM-LOC 3:1*6:1-LINK-SLC 7:1-ARG0 9:0-ARGM-NEG 10:1-ARGM-ADV 11:0-rel 12:1-ARG1 14:1-ARGM-LOC
 bn/pri/00/pri_0050.parse 14 4 gold adopt adopt.01 ----- 3:0-ARGM-ADJ 4:0-rel 6:2-ARGM-ADJ
+bn/pri/00/pri_0050.parse 4 6 gold include include.01 ----- 0:1-ARG2 6:0-rel 7:2-ARG1
 bn/pri/00/pri_0050.parse 1 8 gold win win.01 ----- 6:1*18:1*22:1*23:1-ARG0 8:0-rel 9:1-ARG1 18:1*22:1-LINK-SLC
 bn/pri/00/pri_0050.parse 16 47 gold be be.01 ----- 36:1-ARGM-TMP 45:1-ARG1 47:0-rel 48:1-ARGM-ADV 49:1-ARG2
-bn/pri/00/pri_0050.parse 1 17 gold enter enter.02 ----- 12:1-ARGM-TMP 15:1-ARG0 16:0-ARGM-MOD 17:0-rel 18:2-ARG1
-bn/pri/00/pri_0050.parse 1 20 gold question question.01 ----- 19:0-ARGM-MNR 20:0-rel 22:2-ARG1
+bn/pri/00/pri_0050.parse 7 17 gold profit profit.01 ----- 12:1*15:1-ARG0 17:0-rel 18:1-ARG1
 bn/pri/00/pri_0050.parse 3 9 gold border border.01 ----- 4:2-ARG2 9:0-rel 10:1-ARG1
-bn/pri/00/pri_0050.parse 14 8 gold do do.01 ----- 8:0-rel
 bn/pri/00/pri_0050.parse 22 24 gold be be.03 ----- 24:0-rel
 bn/pri/00/pri_0050.parse 22 55 gold be be.01 ----- 52:1*53:1*54:1-ARG1 52:1*53:1-LINK-SLC 55:0-rel 56:1-ARG2
 bn/pri/00/pri_0050.parse 20 1 gold mean mean.01 ----- 0:2-ARG0 1:0-rel
 bn/pri/00/pri_0050.parse 16 1 gold work work.01 ----- 0:1-ARG0 1:0-rel 2:1-ARGM-MNR
-bn/pri/00/pri_0050.parse 17 10 gold have have.01 ----- 10:0-rel
 bn/pri/00/pri_0050.parse 7 3 gold be be.01 ----- 0:1-ARG1 3:0-rel 4:1-ARG2
-bn/pri/00/pri_0050.parse 24 14 gold be be.01 ----- 8:1*12:1*13:1-ARG1 8:1*12:1-LINK-SLC 14:0-rel 15:1-ARG2
 bn/pri/00/pri_0050.parse 32 1 gold seem seem.01 ----- 1:0-rel 2:1-ARG1
 bn/pri/00/pri_0050.parse 11 25 gold be be.03 ----- 25:0-rel
 bn/pri/00/pri_0050.parse 5 27 gold make make.05 ----- 24:1*33:1-ARGM-MNR 25:1-ARG0 27:0-rel 28:1-ARG1 31:1-ARG2
@@ -135,11 +133,13 @@ bn/pri/00/pri_0050.parse 35 1 gold thank thank.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG
 bn/pri/00/pri_0050.parse 11 13 gold look look.01 ----- 10:1-ARG0 11:0-ARGM-MOD 12:0-ARGM-LVB 13:0-rel 14:1-ARG1
 bn/pri/00/pri_0050.parse 8 2 gold take take.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1 4:1-ARG2
 bn/pri/00/pri_0050.parse 33 1 gold take take.01 ----- 0:1-ARG0 1:0-rel 2:2;5:1-ARG1 4:1-ARGM-TMP 8:2-ARGM-PRP
+bn/pri/00/pri_0050.parse 1 20 gold question question.01 ----- 19:0-ARGM-MNR 20:0-rel 22:2-ARG1
 bn/pri/00/pri_0050.parse 10 4 gold access access.01 ----- 4:0-rel
+bn/pri/00/pri_0050.parse 27 20 gold eat eat.01 ----- 14:1-ARG0 18:0-ARGM-NEG 19:1-ARGM-TMP 20:0-rel 21:1-ARG1
 bn/pri/00/pri_0050.parse 18 3 gold receive receive.01 ----- 1:0-ARGM-MOD 2:1-ARGM-DIS 3:0-rel 16:1-ARGM-ADV 17:1-ARGM-ADV 20:3-ARG1
 bn/pri/00/pri_0050.parse 3 1 gold be be.03 ----- 1:0-rel
 bn/pri/00/pri_0050.parse 22 14 gold be be.03 ----- 14:0-rel
+bn/pri/00/pri_0050.parse 16 9 gold have have.03 ----- 8:1-ARG0 9:0-rel 10:2-ARG1
 bn/pri/00/pri_0050.parse 12 27 gold track track.01 ----- 23:1-ARG0 25:1-ARGM-MNR 26:0-ARGM-LVB 27:0-rel 28:1-ARG1
-bn/pri/00/pri_0050.parse 25 23 gold know know.06 ----- 22:1-ARG0 23:0-rel
 bn/pri/00/pri_0050.parse 33 10 gold build build_up.05 ----- 0:1*8:1-ARG0 10:0,11:1-rel 12:3-ARG1
 bn/pri/00/pri_0050.parse 25 2 gold adopt adopt.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1

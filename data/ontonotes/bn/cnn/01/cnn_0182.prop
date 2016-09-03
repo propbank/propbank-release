@@ -1,7 +1,6 @@
-bn/cnn/01/cnn_0182.parse 3 17 gold break break_down.12 ----- 17:0-rel 18:1-ARG1
 bn/cnn/01/cnn_0182.parse 2 2 gold be be.03 ----- 2:0-rel
 bn/cnn/01/cnn_0182.parse 0 5 gold begin begin.01 ----- 0:2-ARG0 5:0-rel 6:3-ARG1
-bn/cnn/01/cnn_0182.parse 3 14 gold lead lead.03 ----- 9:1*12:1*13:1-ARG0 9:1*12:1-LINK-SLC 14:0-rel 15:1-ARG2
+bn/cnn/01/cnn_0182.parse 3 17 gold break break_down.12 ----- 17:0-rel 18:1-ARG1
 bn/cnn/01/cnn_0182.parse 2 1 gold talk talk.01 ----- 1:0-rel
 bn/cnn/01/cnn_0182.parse 0 16 gold session session.01 ----- 16:0-rel 17:2-ARGM-ADJ
 bn/cnn/01/cnn_0182.parse 2 3 gold propose propose.01 ----- 0:1*4:1-ARG1 3:0-rel 5:1-ARG0
@@ -17,5 +16,6 @@ bn/cnn/01/cnn_0182.parse 0 11 gold talk talk.01 ----- 10:0-ARG1 11:0-rel
 bn/cnn/01/cnn_0182.parse 3 5 gold hold hold.03 ----- 3:1-ARG0 5:0-rel 6:2-ARG1
 bn/cnn/01/cnn_0182.parse 1 13 gold reach reach.01 ----- 1:2*11:1-ARG0 1:2*11:1-LINK-PRO 13:0-rel 14:1-ARG1 23:2-ARGM-TMP
 bn/cnn/01/cnn_0182.parse 2 11 gold say say.01 ----- 6:1*9:1*10:1-ARG0 6:1*9:1-LINK-SLC 11:0-rel 12:1-ARG1
-bn/cnn/01/cnn_0182.parse 0 4 gold be be.03 ----- 4:0-rel
+bn/cnn/01/cnn_0182.parse 3 14 gold lead lead.03 ----- 9:1*12:1*13:1-ARG0 9:1*12:1-LINK-SLC 14:0-rel 15:1-ARG2
 bn/cnn/01/cnn_0182.parse 1 8 gold be be.01 ----- 0:1-ARGM-GOL 7:1-ARG1 8:0-rel 9:1-ARG2
+bn/cnn/01/cnn_0182.parse 0 4 gold be be.03 ----- 4:0-rel

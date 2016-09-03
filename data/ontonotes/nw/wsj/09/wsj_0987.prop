@@ -2,6 +2,7 @@ nw/wsj/09/wsj_0987.parse 5 16 gold trip trip.01 ----- 0:2*17:1-ARG1 15:0-ARGM-NE
 nw/wsj/09/wsj_0987.parse 0 7 gold tell tell.01 ----- 0:4-ARG0 7:0-rel 8:1-ARG2 11:1-ARG1
 nw/wsj/09/wsj_0987.parse 14 29 gold last last.01 ----- 25:1*30:1-ARG2 27:1-ARG1 28:0-ARGM-MOD 29:0-rel
 nw/wsj/09/wsj_0987.parse 5 14 gold be be.03 ----- 14:0-rel
+nw/wsj/09/wsj_0987.parse 9 44 gold curb curb.01 ----- 41:1-ARG1 44:0-rel
 nw/wsj/09/wsj_0987.parse 12 5 gold oppose oppose.01 ----- 0:0-ARGM-DIS 1:1-ARG0 4:1-ARGM-MNR 5:0-rel 6:3-ARG1
 nw/wsj/09/wsj_0987.parse 18 8 gold require require.01 ----- 3:1*5:1*6:1-ARG0 3:1*5:1-LINK-SLC 8:0-rel 9:1-ARG2 11:2-ARG1
 nw/wsj/09/wsj_0987.parse 17 17 gold be be.03 ----- 17:0-rel
@@ -14,14 +15,18 @@ nw/wsj/09/wsj_0987.parse 9 8 gold complete complete.01 ----- 1:2*9:1-ARG1 8:0-re
 nw/wsj/09/wsj_0987.parse 17 4 gold use use.01 ----- 0:1*5:1-ARG1 2:1-ARGM-TMP 4:0-rel 6:2-ARG2
 nw/wsj/09/wsj_0987.parse 19 12 gold reconstruct reconstruct.01 ----- 11:1-ARG0 12:0-rel 13:2-ARG1
 nw/wsj/09/wsj_0987.parse 1 6 gold testify testify.01 ----- 4:0-ARG0 5:0-ARGM-ADJ 6:0-rel 7:1-ARGM-GOL 9:1-ARGM-TMP
+nw/wsj/09/wsj_0987.parse 9 12 gold say say.01 ----- 11:1-ARG0 12:0-rel
 nw/wsj/09/wsj_0987.parse 9 33 gold need need.01 ----- 32:1-ARG0 33:0-rel 34:2-ARG1
+nw/wsj/09/wsj_0987.parse 6 31 gold trade trade.01 ----- 27:1-ARGM-MNR 30:0-ARGM-MNR 31:0-rel
 nw/wsj/09/wsj_0987.parse 6 39 gold turmoil turmoil.01 ----- 39:0-rel 41:1-ARG1
 nw/wsj/09/wsj_0987.parse 2 13 gold add add.02 ----- 4:1*9:1*12:1-ARG0 13:0-rel 14:1-ARG1
 nw/wsj/09/wsj_0987.parse 5 7 gold close close_down.04 ----- 0:1*3:1*4:1-ARG0 0:1*3:1-LINK-SLC 5:0-ARGM-MOD 7:0,8:1-rel 9:1-ARG1
 nw/wsj/09/wsj_0987.parse 2 20 gold finetune finetune.01 ----- 4:1*9:1*12:1-ARG0 18:0,20:0-rel 21:1-ARG1
 nw/wsj/09/wsj_0987.parse 9 7 gold be be.03 ----- 7:0-rel
+nw/wsj/09/wsj_0987.parse 9 18 gold be be.01 ----- 0:1-ARGM-TMP 17:1-ARG1 18:0-rel 19:1-ARG2
 nw/wsj/09/wsj_0987.parse 7 12 gold push push.01 ----- 3:2-ARG0 12:0,13:1-rel 14:1-ARG1
 nw/wsj/09/wsj_0987.parse 10 2 gold back back.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
+nw/wsj/09/wsj_0987.parse 8 4 gold reject reject.01 ----- 0:1-ARG0 3:0-ARGM-NEG 4:0-rel 5:1-ARG1
 nw/wsj/09/wsj_0987.parse 16 7 gold provide provide.01 ----- 3:1*5:1-ARG0 7:0-rel 8:1-ARG2 10:2-ARG1
 nw/wsj/09/wsj_0987.parse 17 26 gold create create.01 ----- 21:1-ARG0 25:0-ARGM-MOD 26:0-rel 27:2-ARG1
 nw/wsj/09/wsj_0987.parse 11 3 gold expect expect.01 ----- 0:1,4:2-ARG1 3:0-rel
@@ -31,8 +36,8 @@ nw/wsj/09/wsj_0987.parse 4 12 gold kick kick_in.02 ----- 0:1-ARGM-TMP 10:1-ARG1 
 nw/wsj/09/wsj_0987.parse 7 11 gold be be.03 ----- 11:0-rel
 nw/wsj/09/wsj_0987.parse 4 21 gold trade trade.01 ----- 21:0-rel
 nw/wsj/09/wsj_0987.parse 17 3 gold be be.03 ----- 3:0-rel
-nw/wsj/09/wsj_0987.parse 9 44 gold curb curb.01 ----- 41:1-ARG1 44:0-rel
 nw/wsj/09/wsj_0987.parse 0 14 gold consider consider.01 ----- 12:1-ARG0 13:0-ARGM-MOD 14:0-rel 15:2-ARG1
+nw/wsj/09/wsj_0987.parse 18 2 gold back back.01 ----- 0:1-ARG0 1:1-ARGM-ADV 2:0-rel 3:2-ARG1
 nw/wsj/09/wsj_0987.parse 0 25 gold trade trade.01 ----- 24:0-ARGM-MNR 25:0-rel
 nw/wsj/09/wsj_0987.parse 14 1 gold argue argue.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 nw/wsj/09/wsj_0987.parse 2 7 gold be be.01 ----- 0:1-ARGM-TMP 4:1-ARG1 6:0-ARGM-MOD 7:0-rel 8:1-ARG2
@@ -54,10 +59,7 @@ nw/wsj/09/wsj_0987.parse 13 2 gold contend contend.01 ----- 0:1-ARG0 2:0-rel 3:1
 nw/wsj/09/wsj_0987.parse 12 21 gold close close.01 ----- 15:1*19:1-ARG0 15:1*19:1-LINK-PRO 21:0-rel 22:1-ARG1 24:1-ARGM-TMP
 nw/wsj/09/wsj_0987.parse 1 16 gold say say.01 ----- 0:1-ARG0 3:1-ARGM-LOC 16:0-rel 17:1-ARG1
 nw/wsj/09/wsj_0987.parse 0 23 gold halt halt.01 ----- 17:1*21:1-ARG0 17:1*21:1-LINK-PRO 23:0-rel 24:1-ARG1 26:1-ARGM-TMP
-nw/wsj/09/wsj_0987.parse 8 4 gold reject reject.01 ----- 0:1-ARG0 3:0-ARGM-NEG 4:0-rel 5:1-ARG1
-nw/wsj/09/wsj_0987.parse 9 12 gold say say.01 ----- 11:1-ARG0 12:0-rel
 nw/wsj/09/wsj_0987.parse 1 11 gold take take.01 ----- 0:1*10:1-ARG0 0:1*10:1-LINK-PRO 11:0-rel 12:1-ARG1
-nw/wsj/09/wsj_0987.parse 5 6 gold have have.01 ----- 6:0-rel
 nw/wsj/09/wsj_0987.parse 15 2 gold offer offer.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
 nw/wsj/09/wsj_0987.parse 9 43 gold trade trade.01 ----- 41:0-ARGM-MNR 43:0-rel
 nw/wsj/09/wsj_0987.parse 3 18 gold curb curb.01 ----- 0:2-ARG0 18:0-rel 19:2-ARG1 24:1-ARGM-LOC
@@ -72,13 +74,11 @@ nw/wsj/09/wsj_0987.parse 16 13 gold loan loan.01 ----- 13:0-rel 14:0-ARGM-LVB 16
 nw/wsj/09/wsj_0987.parse 16 14 gold make make.LV ----- 13:1-ARGM-PRR 14:0-rel
 nw/wsj/09/wsj_0987.parse 11 2 gold be be.03 ----- 2:0-rel
 nw/wsj/09/wsj_0987.parse 3 3 gold design design.01 ----- 0:1-ARG1 3:0-rel 4:2-ARG3
-nw/wsj/09/wsj_0987.parse 18 2 gold back back.01 ----- 0:1-ARG0 1:1-ARGM-ADV 2:0-rel 3:2-ARG1
 nw/wsj/09/wsj_0987.parse 16 2 gold force force.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG1 5:2-ARG2
 nw/wsj/09/wsj_0987.parse 2 11 gold consider consider.02 ----- 4:1*9:1-ARG0 11:0-rel 12:2-ARG1
-nw/wsj/09/wsj_0987.parse 6 31 gold trade trade.01 ----- 27:1-ARGM-MNR 30:0-ARGM-MNR 31:0-rel
 nw/wsj/09/wsj_0987.parse 0 16 gold impose impose.01 ----- 12:1*15:1-ARG0 16:0-rel 17:1-ARG1 21:2-ARGM-PRP
 nw/wsj/09/wsj_0987.parse 17 18 gold worry worry.01 ----- 15:1*19:1-ARG1 18:0-rel 20:1-ARG0
 nw/wsj/09/wsj_0987.parse 7 1 gold argue argue.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
-nw/wsj/09/wsj_0987.parse 9 18 gold be be.01 ----- 0:1-ARGM-TMP 17:1-ARG1 18:0-rel 19:1-ARG2
 nw/wsj/09/wsj_0987.parse 19 8 gold be be.01 ----- 0:1-ARG1 8:0-rel 9:1-ARG2
+nw/wsj/09/wsj_0987.parse 5 6 gold have have.01 ----- 6:0-rel
 nw/wsj/09/wsj_0987.parse 3 6 gold give give.01 ----- 0:1*4:1-ARG0 0:1*4:1-LINK-PRO 6:0-rel 7:1-ARG2 9:1-ARG1 11:1-ARGM-TMP

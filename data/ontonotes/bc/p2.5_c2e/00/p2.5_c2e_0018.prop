@@ -1,6 +1,7 @@
 bc/p2.5_c2e/00/p2.5_c2e_0018.parse 4 4 gold abandon abandon.01 ----- 1:1-ARG0 3:0-ARGM-NEG 4:0-rel 5:1-ARG1
 bc/p2.5_c2e/00/p2.5_c2e_0018.parse 0 14 gold hear hear.01 ----- 0:1-ARGM-DIS 2:1-ARGM-TMP 13:1-ARG0 14:0-rel 15:2-ARG1
 bc/p2.5_c2e/00/p2.5_c2e_0018.parse 0 16 gold say say.01 ----- 15:1-ARG0 16:0-rel 17:1-ARG1
+bc/p2.5_c2e/00/p2.5_c2e_0018.parse 1 6 gold concern concern.01 ----- 1:1*8:1-ARG0 2:0-ARGM-MOD 3:1*7:1-ARG1 6:0-rel 10:1-ARGM-TMP
 bc/p2.5_c2e/00/p2.5_c2e_0018.parse 2 21 gold be be.01 ----- 17:1*19:1*20:1-ARG1 17:1*19:1-LINK-SLC 21:0-rel 22:1-ARG2
 bc/p2.5_c2e/00/p2.5_c2e_0018.parse 2 7 gold be be.01 ----- 3:1-ARG1 7:0-rel 8:1-ARG2
 bc/p2.5_c2e/00/p2.5_c2e_0018.parse 5 9 gold return return.01 ----- 6:1-ARG1 8:0-ARGM-MOD 9:0-rel 10:1-ARG4
@@ -8,23 +9,22 @@ bc/p2.5_c2e/00/p2.5_c2e_0018.parse 4 9 gold be be.02 ----- 0:1-ARGM-ADV 9:0-rel 
 bc/p2.5_c2e/00/p2.5_c2e_0018.parse 2 39 gold be be.03 ----- 39:0-rel
 bc/p2.5_c2e/00/p2.5_c2e_0018.parse 2 30 gold say say.01 ----- 26:1*28:1-ARG0 30:0-rel 31:1-ARG1
 bc/p2.5_c2e/00/p2.5_c2e_0018.parse 7 8 gold wish wish.01 ----- 4:1-ARGM-ADV 7:1-ARG0 8:0-rel 9:2-ARG1
-bc/p2.5_c2e/00/p2.5_c2e_0018.parse 8 7 gold resolve resolve.01 ----- 3:1*8:1-ARG1 5:0-ARGM-MOD 7:0-rel 9:1-ARGM-TMP
 bc/p2.5_c2e/00/p2.5_c2e_0018.parse 4 2 gold do do.01 ----- 2:0-rel
 bc/p2.5_c2e/00/p2.5_c2e_0018.parse 6 3 gold place place.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:1-ARG1 8:1-ARGM-DIS 10:1-ARG2
-bc/p2.5_c2e/00/p2.5_c2e_0018.parse 0 31 gold be be.01 ----- 18:2*29:1-ARG1 31:0-rel 32:1-ARG2 34:1-ARGM-TMP
 bc/p2.5_c2e/00/p2.5_c2e_0018.parse 3 20 gold abandon abandon.01 ----- 13:1*17:1*18:1-ARG0 20:0-rel 21:1-ARG1
 bc/p2.5_c2e/00/p2.5_c2e_0018.parse 9 12 gold be be.02 ----- 0:1-ARGM-DIS 2:1-ARGM-DIS 9:1-ARGM-ADV 12:0-rel 13:1-ARG1
-bc/p2.5_c2e/00/p2.5_c2e_0018.parse 1 6 gold concern concern.01 ----- 1:1*8:1-ARG0 2:0-ARGM-MOD 3:1*7:1-ARG1 6:0-rel 10:1-ARGM-TMP
+bc/p2.5_c2e/00/p2.5_c2e_0018.parse 3 5 gold refine refine.01 ----- 4:1-ARG0 5:0-rel 6:1-ARG1 7:1-ARGM-EXT
 bc/p2.5_c2e/00/p2.5_c2e_0018.parse 9 6 gold be be.02 ----- 4:1-ARGM-ADV 6:0-rel 7:1-ARG1
 bc/p2.5_c2e/00/p2.5_c2e_0018.parse 3 16 gold require require.01 ----- 0:1-ARGM-DIS 1:1-ARGM-DIS 3:1-ARGM-ADV 11:1-ARGM-DIS 13:1*17:1-ARG2 16:0-rel 18:2-ARG1
-bc/p2.5_c2e/00/p2.5_c2e_0018.parse 3 5 gold refine refine.01 ----- 4:1-ARG0 5:0-rel 6:1-ARG1 7:1-ARGM-EXT
+bc/p2.5_c2e/00/p2.5_c2e_0018.parse 5 1 gold be be.02 ----- 1:0-rel 2:1-ARGM-ADV 3:1-ARG1
 bc/p2.5_c2e/00/p2.5_c2e_0018.parse 2 40 gold implement implement.01 ----- 26:2-ARGM-DIS 33:1-ARG1 38:0-ARGM-MOD 40:0-rel
 bc/p2.5_c2e/00/p2.5_c2e_0018.parse 4 14 gold talk talk.01 ----- 10:1*11:1,15:1-ARG1 10:1*11:1-LINK-SLC 12:1-ARG0 13:0-ARGM-MOD 14:0-rel
 bc/p2.5_c2e/00/p2.5_c2e_0018.parse 0 26 gold do do.01 ----- 26:0-rel
 bc/p2.5_c2e/00/p2.5_c2e_0018.parse 3 15 gold be be.03 ----- 15:0-rel
+bc/p2.5_c2e/00/p2.5_c2e_0018.parse 0 31 gold be be.01 ----- 18:2*29:1-ARG1 31:0-rel 32:1-ARG2 34:1-ARGM-TMP
 bc/p2.5_c2e/00/p2.5_c2e_0018.parse 7 2 gold say say.01 ----- 0:1-ARG0 1:1-ARGM-ADV 2:0-rel 3:1-ARG1
 bc/p2.5_c2e/00/p2.5_c2e_0018.parse 6 15 gold supervise supervise.01 ----- 15:0-rel 16:1-ARG0
-bc/p2.5_c2e/00/p2.5_c2e_0018.parse 5 1 gold be be.02 ----- 1:0-rel 2:1-ARGM-ADV 3:1-ARG1
+bc/p2.5_c2e/00/p2.5_c2e_0018.parse 8 7 gold resolve resolve.01 ----- 3:1*8:1-ARG1 5:0-ARGM-MOD 7:0-rel 9:1-ARGM-TMP
 bc/p2.5_c2e/00/p2.5_c2e_0018.parse 0 28 gold seem seem.01 ----- 18:2*29:2-ARG1 27:0-ARGM-NEG 28:0-rel
 bc/p2.5_c2e/00/p2.5_c2e_0018.parse 7 11 gold go go.02 ----- 7:1*9:1-ARG0 11:0-rel 12:1-ARG4 13:1-ARGM-CAU
 bc/p2.5_c2e/00/p2.5_c2e_0018.parse 1 5 gold be be.03 ----- 5:0-rel

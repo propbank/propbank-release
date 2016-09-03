@@ -5,6 +5,7 @@ nw/xinhua/02/chtb_0261.parse 4 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 nw/xinhua/02/chtb_0261.parse 3 11 gold ceremony ceremony.01 ----- 9:1-ARG1 11:0-rel
 nw/xinhua/02/chtb_0261.parse 11 6 gold be be.03 ----- 6:0-rel
 nw/xinhua/02/chtb_0261.parse 7 6 gold withdraw withdraw.01 ----- 4:0-ARGM-TMP 5:0-ARGM-EXT 6:0-rel 7:1-ARG1 10:1-ARG2
+nw/xinhua/02/chtb_0261.parse 2 13 gold place place.01 ----- 5:1-ARG0 9:1-ARGM-TMP 12:0-ARGM-TMP 13:0-rel 14:1-ARG1 16:1-ARG2
 nw/xinhua/02/chtb_0261.parse 7 15 gold end end.01 ----- 15:0-rel 16:1-ARG1
 nw/xinhua/02/chtb_0261.parse 7 12 gold be be.01 ----- 3:2-ARG1 12:0-rel 13:1-ARG2
 nw/xinhua/02/chtb_0261.parse 7 1 gold hold hold.02 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
@@ -15,37 +16,36 @@ nw/xinhua/02/chtb_0261.parse 2 1 gold signify signify.01 ----- 0:1-ARG0 1:0-rel 
 nw/xinhua/02/chtb_0261.parse 5 7 gold make make.LV ----- 7:0-rel 10:0-ARGM-PRR
 nw/xinhua/02/chtb_0261.parse 16 7 gold provide provide.01 ----- 6:1-ARG0 7:0-rel 8:3-ARG1 13:1-ARGM-PRP
 nw/xinhua/02/chtb_0261.parse 5 16 gold liberate liberate.01 ----- 4:1*12:1-ARG0 4:1*12:1-LINK-PRO 16:0-rel 17:1-ARG1
+nw/xinhua/02/chtb_0261.parse 13 11 gold station station.01 ----- 0:1-ARGM-TMP 8:1-ARG0 11:0-rel 12:2-ARG1 15:1-ARG2
 nw/xinhua/02/chtb_0261.parse 4 9 gold turn turn.02 ----- 9:0-rel 10:0-ARG1
 nw/xinhua/02/chtb_0261.parse 16 15 gold withdraw withdraw.01 ----- 15:0-rel 16:1-ARG1
 nw/xinhua/02/chtb_0261.parse 15 24 gold withdraw withdraw.01 ----- 22:1-ARG0 23:1-ARGM-EXT 24:0-rel 25:1-ARG1 27:1-ARG2
-nw/xinhua/02/chtb_0261.parse 1 4 gold withdraw withdraw.01 ----- 4:0-rel 5:1-ARG1 12:1-ARG2
+nw/xinhua/02/chtb_0261.parse 3 7 gold chair chair.01 ----- 0:2-ARG0 7:0-rel 8:1-ARG1
 nw/xinhua/02/chtb_0261.parse 6 27 gold war war.01 ----- 27:0-rel
 nw/xinhua/02/chtb_0261.parse 12 5 gold join join.01 ----- 4:1-ARG0 5:0-rel 6:2-ARG1 12:1-ARGM-TMP
 nw/xinhua/02/chtb_0261.parse 6 14 gold pass pass.03 ----- 4:2-ARG1 13:1-ARGM-TMP 14:0-rel
 nw/xinhua/02/chtb_0261.parse 11 12 gold implement implement.01 ----- 11:1-ARG0 12:0-rel 13:2-ARG1
-nw/xinhua/02/chtb_0261.parse 13 11 gold station station.01 ----- 0:1-ARGM-TMP 8:1-ARG0 11:0-rel 12:2-ARG1 15:1-ARG2
 nw/xinhua/02/chtb_0261.parse 1 15 gold hold hold.04 ----- 0:2*16:1-ARG1 15:0-rel 17:1-ARGM-LOC 19:1-ARGM-TMP
 nw/xinhua/02/chtb_0261.parse 11 7 gold guarantee guarantee.01 ----- 0:2*8:1-ARG1 5:0-ARGM-MOD 7:0-rel 9:1-ARGM-ADV 10:1-ARGM-MNR
 nw/xinhua/02/chtb_0261.parse 8 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 nw/xinhua/02/chtb_0261.parse 14 11 gold start start.01 ----- 10:1-ARG1 11:0-rel 12:1-ARGM-TMP
 nw/xinhua/02/chtb_0261.parse 6 11 gold relate relation.03 ----- 7:1-ARG0 10:0-ARGM-TMP 11:0-rel
+nw/xinhua/02/chtb_0261.parse 4 7 gold be be.01 ----- 3:2-ARG1 7:0-rel 8:2-ARG2
+nw/xinhua/02/chtb_0261.parse 10 6 gold have have.03 ----- 0:2-ARG0 5:1-ARGM-TMP 6:0-rel 7:1-ARG1
 nw/xinhua/02/chtb_0261.parse 12 31 gold be be.01 ----- 27:2*30:1-ARG1 31:0-rel 32:1-ARG2
 nw/xinhua/02/chtb_0261.parse 14 2 gold unify unify.01 ----- 1:0-ARG1 2:0-rel
 nw/xinhua/02/chtb_0261.parse 12 37 gold build build_up.05 ----- 36:1-ARG0 37:0,38:1-rel 39:1-ARG1
 nw/xinhua/02/chtb_0261.parse 9 1 gold emphasize emphasize.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 nw/xinhua/02/chtb_0261.parse 14 6 gold station station.01 ----- 4:1*7:1-ARG1 4:1*7:1-LINK-PSV 6:0-rel 8:1-ARG2
-nw/xinhua/02/chtb_0261.parse 2 13 gold place place.01 ----- 5:1-ARG0 9:1-ARGM-TMP 12:0-ARGM-TMP 13:0-rel 14:1-ARG1 16:1-ARG2
-nw/xinhua/02/chtb_0261.parse 10 6 gold have have.03 ----- 0:2-ARG0 5:1-ARGM-TMP 6:0-rel 7:1-ARG1
-nw/xinhua/02/chtb_0261.parse 13 17 gold former former.01 ----- 17:0-rel 18:0,19:0-ARG1
-nw/xinhua/02/chtb_0261.parse 4 7 gold be be.01 ----- 3:2-ARG1 7:0-rel 8:2-ARG2
 nw/xinhua/02/chtb_0261.parse 8 18 gold be be.03 ----- 18:0-rel
-nw/xinhua/02/chtb_0261.parse 15 18 gold be be.01 ----- 0:1-ARGM-ADV 13:2-ARG1 18:0-rel 19:2-ARG2
+nw/xinhua/02/chtb_0261.parse 13 17 gold former former.01 ----- 17:0-rel 18:0,19:0-ARG1
+nw/xinhua/02/chtb_0261.parse 1 4 gold withdraw withdraw.01 ----- 4:0-rel 5:1-ARG1 12:1-ARG2
 nw/xinhua/02/chtb_0261.parse 5 13 gold defeat defeat.01 ----- 4:1*12:1-ARG0 4:1*12:1-LINK-PRO 13:0-rel 14:1-ARG1
+nw/xinhua/02/chtb_0261.parse 6 12 gold have have.01 ----- 12:0-rel
 nw/xinhua/02/chtb_0261.parse 13 9 gold former former.01 ----- 9:0-rel 10:0-ARG1
 nw/xinhua/02/chtb_0261.parse 8 19 gold forget forget.01 ----- 3:3*20:1-ARG1 16:0-ARGM-NEG 19:0-rel
 nw/xinhua/02/chtb_0261.parse 12 2 gold say say.01 ----- 0:1-ARG0 1:1-ARGM-ADV 2:0-rel 3:1-ARG1
 nw/xinhua/02/chtb_0261.parse 1 1 gold ceremony ceremony.01 ----- 1:0-rel 2:1-ARG1
-nw/xinhua/02/chtb_0261.parse 12 15 gold sign sign.02 ----- 4:1-ARG0 15:0-rel 16:1-ARG1 22:1-ARG2 27:3-ARGM-PRD
 nw/xinhua/02/chtb_0261.parse 12 10 gold relate relation.03 ----- 8:0,9:0-ARG1 10:0-rel
 nw/xinhua/02/chtb_0261.parse 5 6 gold have have.01 ----- 6:0-rel
 nw/xinhua/02/chtb_0261.parse 15 14 gold end end.01 ----- 14:0-rel 15:1-ARG1
@@ -54,6 +54,7 @@ nw/xinhua/02/chtb_0261.parse 16 2 gold be be.03 ----- 2:0-rel
 nw/xinhua/02/chtb_0261.parse 16 3 gold report report.01 ----- 3:0-rel 5:1-ARG1
 nw/xinhua/02/chtb_0261.parse 3 14 gold speak speak.01 ----- 14:0-rel
 nw/xinhua/02/chtb_0261.parse 5 10 gold sacrifice sacrifice.01 ----- 4:1-ARG0 7:0-ARGM-LVB 9:0-ARGM-ADJ 10:0-rel 11:1-ARGM-MNR
+nw/xinhua/02/chtb_0261.parse 15 18 gold be be.01 ----- 0:1-ARGM-ADV 13:2-ARG1 18:0-rel 19:2-ARG2
 nw/xinhua/02/chtb_0261.parse 1 14 gold be be.03 ----- 14:0-rel
 nw/xinhua/02/chtb_0261.parse 6 25 gold go go.02 ----- 20:1-ARG0 23:0-ARGM-MOD 24:1-ARGM-NEG 25:0-rel 26:1-ARG1 28:1-ARGM-TMP
 nw/xinhua/02/chtb_0261.parse 9 11 gold unify unify.01 ----- 10:0-ARG1 11:0-rel
@@ -62,6 +63,5 @@ nw/xinhua/02/chtb_0261.parse 3 13 gold deliver deliver.01 ----- 0:2-ARG0 13:0-re
 nw/xinhua/02/chtb_0261.parse 13 2 gold unify unify.01 ----- 2:0-rel 3:1-ARG1
 nw/xinhua/02/chtb_0261.parse 9 13 gold be be.01 ----- 3:1-ARGM-MNR 10:1-ARG1 12:0-ARGM-MOD 13:0-rel 14:1-ARG2
 nw/xinhua/02/chtb_0261.parse 16 12 gold aid aid.01 ----- 12:0-rel
-nw/xinhua/02/chtb_0261.parse 3 7 gold chair chair.01 ----- 0:2-ARG0 7:0-rel 8:1-ARG1
-nw/xinhua/02/chtb_0261.parse 6 12 gold have have.01 ----- 12:0-rel
+nw/xinhua/02/chtb_0261.parse 12 15 gold sign sign.02 ----- 4:1-ARG0 15:0-rel 16:1-ARG1 22:1-ARG2 27:3-ARGM-PRD
 nw/xinhua/02/chtb_0261.parse 2 3 gold end end.01 ----- 3:0-rel 4:1-ARG1

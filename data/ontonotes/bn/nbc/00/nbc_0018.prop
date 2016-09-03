@@ -5,14 +5,12 @@ bn/nbc/00/nbc_0018.parse 15 47 gold be be.02 ----- 47:0-rel 48:1-ARGM-ADV 49:2-A
 bn/nbc/00/nbc_0018.parse 0 8 gold discover discover.01 ----- 7:0-ARGM-ADJ 8:0-rel 9:1-ARGM-LOC
 bn/nbc/00/nbc_0018.parse 9 8 gold seal seal.01 ----- 0:1-ARG0 8:0-rel 9:1-ARG1 10:1-ARGM-DIR
 bn/nbc/00/nbc_0018.parse 4 4 gold cut cut.01 ----- 0:2-ARG0 4:0-rel 5:1-ARG2 8:2-ARGM-PRP
-bn/nbc/00/nbc_0018.parse 5 22 gold trap trap.01 ----- 17:1*19:1*20:1*23:1-ARG1 17:1*19:1-LINK-SLC 22:0-rel 24:2-ARGM-PRD 26:1-ARG2
 bn/nbc/00/nbc_0018.parse 6 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:3-ARG2
 bn/nbc/00/nbc_0018.parse 2 4 gold have have.03 ----- 0:2-ARG0 4:0-rel 5:1-ARG1
-bn/nbc/00/nbc_0018.parse 15 20 gold attempt attempt.01 ----- 9:1*13:1*14:1*19:1-ARG0 9:1*13:1-LINK-SLC 20:0-rel 21:2-ARG1
 bn/nbc/00/nbc_0018.parse 10 16 gold begin begin.01 ----- 0:1-ARGM-TMP 2:1-ARGM-LOC 9:1-ARG0 10:2-ARGM-ADV 16:0-rel 17:2-ARG1
-bn/nbc/00/nbc_0018.parse 7 5 gold appear appear.02 ----- 0:1-ARGM-DIS 4:1-ARGM-TMP 5:0-rel 6:1-ARG1
 bn/nbc/00/nbc_0018.parse 11 1 gold address address.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 4:1-ARG2
 bn/nbc/00/nbc_0018.parse 16 20 gold freeze freeze.01 ----- 16:1-ARG1 18:0-ARGM-MOD 20:0-rel 21:1-ARG2 23:1-ARGM-TMP 26:2-ARGM-TMP
+bn/nbc/00/nbc_0018.parse 15 20 gold attempt attempt.01 ----- 9:1*13:1*14:1*19:1-ARG0 9:1*13:1-LINK-SLC 20:0-rel 21:2-ARG1
 bn/nbc/00/nbc_0018.parse 10 15 gold die die.01 ----- 13:1-ARG1 14:0-ARGM-MOD 15:0-rel
 bn/nbc/00/nbc_0018.parse 16 22 gold die die.01 ----- 22:0-rel
 bn/nbc/00/nbc_0018.parse 1 25 gold surface surface.01 ----- 0:3-ARGM-TMP 22:1-ARG1 25:0-rel
@@ -26,20 +24,23 @@ bn/nbc/00/nbc_0018.parse 9 1 gold find find.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 bn/nbc/00/nbc_0018.parse 1 7 gold explode explode.01 ----- 6:0-ARGM-ADJ 7:0-rel
 bn/nbc/00/nbc_0018.parse 7 12 gold survive survive.01 ----- 7:3-ARG0 12:0-rel 13:2-ARG1
 bn/nbc/00/nbc_0018.parse 4 10 gold find find.01 ----- 0:2*8:1-ARG0 10:0-rel 11:1-ARG1
-bn/nbc/00/nbc_0018.parse 17 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bn/nbc/00/nbc_0018.parse 3 23 gold discover discover.01 ----- 22:0-ARGM-ADJ 23:0-rel
 bn/nbc/00/nbc_0018.parse 15 3 gold raise raise.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
+bn/nbc/00/nbc_0018.parse 5 22 gold trap trap.01 ----- 17:1*19:1*20:1*23:1-ARG1 17:1*19:1-LINK-SLC 22:0-rel 24:2-ARGM-PRD 26:1-ARG2
 bn/nbc/00/nbc_0018.parse 17 26 gold doom doom.01 ----- 26:0-rel 27:0-ARG1
 bn/nbc/00/nbc_0018.parse 15 40 gold mission mission.01 ----- 39:0-ARG1 40:0-rel
+bn/nbc/00/nbc_0018.parse 7 5 gold appear appear.02 ----- 0:1-ARGM-DIS 4:1-ARGM-TMP 5:0-rel 6:1-ARG1
+bn/nbc/00/nbc_0018.parse 10 11 gold realize realize.01 ----- 0:1-ARGM-TMP 2:1-ARGM-LOC 9:1*10:1-ARG0 11:0-rel 12:1-ARG1
+bn/nbc/00/nbc_0018.parse 17 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bn/nbc/00/nbc_0018.parse 7 19 gold fill fill.01 ----- 13:1*16:1*17:1-ARG0 13:1*16:1-LINK-SLC 18:1-ARGM-MNR 19:0-rel 20:1-ARG1 24:1-ARG2 27:2-ARGM-PRD
 bn/nbc/00/nbc_0018.parse 17 4 gold console console.01 ----- 3:0-ARGM-EXT 4:0-rel 5:1-ARG1
 bn/nbc/00/nbc_0018.parse 6 8 gold see see.01 ----- 2:2,9:2-ARG1 8:0-rel
 bn/nbc/00/nbc_0018.parse 16 29 gold run run_out.05 ----- 28:1-ARG2 29:0,30:1-rel 31:1-ARG1
+bn/nbc/00/nbc_0018.parse 6 22 gold tell tell.01 ----- 19:1-ARG0 22:0-rel 23:2-ARG1
 bn/nbc/00/nbc_0018.parse 13 4 gold see see.01 ----- 0:1*2:1-ARG0 4:0-rel 5:1-ARG1 6:1-ARGM-ADV
 bn/nbc/00/nbc_0018.parse 16 19 gold have have.01 ----- 19:0-rel
 bn/nbc/00/nbc_0018.parse 15 26 gold mission mission.01 ----- 25:0-ARG1 26:0-rel
 bn/nbc/00/nbc_0018.parse 14 4 gold read read.01 ----- 0:1*2:1-ARG0 4:0-rel 5:1-ARG1
-bn/nbc/00/nbc_0018.parse 6 22 gold tell tell.01 ----- 19:1-ARG0 22:0-rel 23:2-ARG1
 bn/nbc/00/nbc_0018.parse 9 5 gold flood flood.01 ----- 2:1*6:1-ARG1 5:0-rel
 bn/nbc/00/nbc_0018.parse 15 43 gold fail fail.01 ----- 38:1-ARG1 41:0-ARGM-MOD 43:0-rel
 bn/nbc/00/nbc_0018.parse 5 21 gold be be.03 ----- 21:0-rel
@@ -50,7 +51,6 @@ bn/nbc/00/nbc_0018.parse 17 11 gold hear hear.01 ----- 6:1*8:1*9:1-ARG0 6:1*8:1-
 bn/nbc/00/nbc_0018.parse 8 3 gold scramble scramble.03 ----- 0:1-ARG0 2:1-ARGM-MNR 3:0-rel 4:1-ARGM-DIR
 bn/nbc/00/nbc_0018.parse 15 15 gold wait wait.01 ----- 9:1*13:1*14:1-ARG1 9:1*13:1-LINK-SLC 15:0-rel 16:1-ARGM-TMP 18:1-ARGM-TMP
 bn/nbc/00/nbc_0018.parse 14 1 gold want want.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
-bn/nbc/00/nbc_0018.parse 10 11 gold realize realize.01 ----- 0:1-ARGM-TMP 2:1-ARGM-LOC 9:1*10:1-ARG0 11:0-rel 12:1-ARG1
 bn/nbc/00/nbc_0018.parse 5 28 gold sink sink.01 ----- 28:0-rel 29:0-ARG1
 bn/nbc/00/nbc_0018.parse 1 6 gold dead deadly.04 ----- 6:0-rel 7:0-ARG0
 bn/nbc/00/nbc_0018.parse 13 1 gold want want.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1

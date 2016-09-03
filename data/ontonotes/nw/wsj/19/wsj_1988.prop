@@ -2,6 +2,7 @@ nw/wsj/19/wsj_1988.parse 8 3 gold aim aim.01 ----- 0:1-ARG0 3:0-rel 4:2-ARG1
 nw/wsj/19/wsj_1988.parse 14 6 gold open open.01 ----- 0:1-ARG0 3:1-ARGM-DIS 5:1-ARGM-TMP 6:0-rel 7:1-ARG1 10:1-ARGM-LOC 29:2-ARGM-ADV
 nw/wsj/19/wsj_1988.parse 3 8 gold spend spend.01 ----- 6:0-ARGM-EXT 7:0-ARG0 8:0-rel 9:1-ARG1
 nw/wsj/19/wsj_1988.parse 14 4 gold have have.01 ----- 4:0-rel
+nw/wsj/19/wsj_1988.parse 16 18 gold appreciate appreciate.02 ----- 16:1-ARGM-EXT 18:0-rel 19:1-ARG1 23:1-ARGM-ADJ 27:1-ARGM-TMP 32:2-ARGM-ADJ
 nw/wsj/19/wsj_1988.parse 12 4 gold be be.03 ----- 4:0-rel
 nw/wsj/19/wsj_1988.parse 10 16 gold border border.01 ----- 14:1-ARG1 16:0-rel 17:1-ARG2
 nw/wsj/19/wsj_1988.parse 16 4 gold have have.01 ----- 4:0-rel
@@ -14,11 +15,12 @@ nw/wsj/19/wsj_1988.parse 13 7 gold be be.03 ----- 7:0-rel
 nw/wsj/19/wsj_1988.parse 10 8 gold organize organize.01 ----- 0:1-ARG3 4:1-ARG0 8:0-rel 9:2-ARG1
 nw/wsj/19/wsj_1988.parse 9 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 nw/wsj/19/wsj_1988.parse 1 16 gold rise rise.01 ----- 12:2-ARG1 16:0-rel 17:3-ARG2
-nw/wsj/19/wsj_1988.parse 13 11 gold assist assist.01 ----- 0:2*8:1*12:1-ARG1 11:0-rel 13:1-ARG0 27:1-ARG2
 nw/wsj/19/wsj_1988.parse 8 23 gold take take.LV ----- 23:0-rel 24:1-ARGM-PRR
 nw/wsj/19/wsj_1988.parse 9 7 gold have have.01 ----- 7:0-rel
+nw/wsj/19/wsj_1988.parse 11 3 gold introduce introduce.01 ----- 0:1*4:1-ARG1 3:0-rel 5:1-ARG2
 nw/wsj/19/wsj_1988.parse 9 20 gold have have.03 ----- 13:1*17:1*18:1-ARG0 13:1*17:1-LINK-SLC 19:1-ARGM-TMP 20:0-rel 21:2-ARG1
 nw/wsj/19/wsj_1988.parse 16 6 gold blunt blunt.01 ----- 0:2*7:1-ARG1 6:0-rel 8:2-ARGM-MNR
+nw/wsj/19/wsj_1988.parse 7 18 gold tax tax.01 ----- 18:0-rel
 nw/wsj/19/wsj_1988.parse 3 2 gold benefit benefit.01 ----- 0:1-ARG1 2:0-rel 3:1-ARGM-TMP 5:1-ARG0
 nw/wsj/19/wsj_1988.parse 4 25 gold arrange arrange.01 ----- 0:3*18:1*23:1-ARG0 25:0-rel 26:2-ARG1
 nw/wsj/19/wsj_1988.parse 10 7 gold be be.03 ----- 7:0-rel
@@ -28,7 +30,6 @@ nw/wsj/19/wsj_1988.parse 7 6 gold phase phase_out.01 ----- 0:1*3:1*7:1-ARG1 6:0,
 nw/wsj/19/wsj_1988.parse 16 5 gold be be.03 ----- 5:0-rel
 nw/wsj/19/wsj_1988.parse 0 38 gold report report.01 ----- 31:2-ARG0 38:0-rel 39:1-ARG1
 nw/wsj/19/wsj_1988.parse 4 7 gold do do.LV ----- 7:0-rel 9:0-ARGM-PRR
-nw/wsj/19/wsj_1988.parse 16 18 gold appreciate appreciate.02 ----- 16:1-ARGM-EXT 18:0-rel 19:1-ARG1 23:1-ARGM-ADJ 27:1-ARGM-TMP 32:2-ARGM-ADJ
 nw/wsj/19/wsj_1988.parse 16 34 gold have have.01 ----- 34:0-rel
 nw/wsj/19/wsj_1988.parse 11 2 gold be be.03 ----- 2:0-rel
 nw/wsj/19/wsj_1988.parse 7 5 gold be be.03 ----- 5:0-rel
@@ -36,11 +37,11 @@ nw/wsj/19/wsj_1988.parse 13 29 gold deal deal.01 ----- 0:2*8:1*28:1-ARG0 29:0-re
 nw/wsj/19/wsj_1988.parse 6 3 gold eliminate eliminate.01 ----- 0:1*4:1-ARG1 3:0-rel 5:2-ARGM-TMP
 nw/wsj/19/wsj_1988.parse 5 4 gold have have.01 ----- 4:0-rel
 nw/wsj/19/wsj_1988.parse 6 9 gold take take.01 ----- 5:1*13:1-ARGM-TMP 6:1-ARG1 9:0-rel 10:1-ARG2 11:1-ARGM-TMP
-nw/wsj/19/wsj_1988.parse 11 3 gold introduce introduce.01 ----- 0:1*4:1-ARG1 3:0-rel 5:1-ARG2
 nw/wsj/19/wsj_1988.parse 15 2 gold have have.03 ----- 0:1-ARG0 2:0-rel 3:1-ARG1 7:1-ARGM-LOC
 nw/wsj/19/wsj_1988.parse 6 2 gold be be.03 ----- 2:0-rel
 nw/wsj/19/wsj_1988.parse 5 5 gold request request.01 ----- 0:2-ARG0 5:0-rel 6:2-ARG1
 nw/wsj/19/wsj_1988.parse 0 20 gold narrow narrow.01 ----- 18:1-ARG2 20:0-rel 21:1-ARG1
+nw/wsj/19/wsj_1988.parse 13 11 gold assist assist.01 ----- 0:2*8:1*12:1-ARG1 11:0-rel 13:1-ARG0 27:1-ARG2
 nw/wsj/19/wsj_1988.parse 17 25 gold say say.01 ----- 0:4*27:1-ARG1 23:1-ARG0 25:0-rel
 nw/wsj/19/wsj_1988.parse 14 30 gold bring bring.01 ----- 29:1-ARG0 30:0-rel 31:2-ARG1 41:1-ARG3
 nw/wsj/19/wsj_1988.parse 7 2 gold be be.03 ----- 2:0-rel
@@ -49,14 +50,13 @@ nw/wsj/19/wsj_1988.parse 0 4 gold be be.03 ----- 4:0-rel
 nw/wsj/19/wsj_1988.parse 16 35 gold make make.02 ----- 15:3*32:1*33:1-ARG0 15:3*32:1-LINK-SLC 35:0-rel 36:2-ARG1
 nw/wsj/19/wsj_1988.parse 2 11 gold narrow narrow.01 ----- 0:1-ARGM-CAU 4:3-ARG1 11:0-rel 12:1-ARG4 25:1-ARG3
 nw/wsj/19/wsj_1988.parse 4 9 gold trade trade.01 ----- 0:2*5:1*6:1-ARG0 0:2*5:1-LINK-SLC 7:0-ARGM-LVB 8:0-ARGM-EXT 9:0-rel 10:1-ARGM-ADV
+nw/wsj/19/wsj_1988.parse 4 17 gold be be.03 ----- 17:0-rel
 nw/wsj/19/wsj_1988.parse 13 10 gold be be.03 ----- 10:0-rel
-nw/wsj/19/wsj_1988.parse 9 8 gold kindle kindle.01 ----- 4:1-ARG0 8:0-rel 9:2-ARG1
 nw/wsj/19/wsj_1988.parse 1 4 gold jump jump.01 ----- 0:2-ARG1 4:0-rel 5:1-ARG2 7:1-ARGM-TMP 9:1-ARG3 11:1-ARGM-ADV
 nw/wsj/19/wsj_1988.parse 4 20 gold meet meet.03 ----- 0:3*18:1-ARG0 20:0-rel 21:1-ARGM-TMP 23:2-ARGM-PRP
-nw/wsj/19/wsj_1988.parse 7 18 gold tax tax.01 ----- 18:0-rel
 nw/wsj/19/wsj_1988.parse 11 11 gold instruct instruct.01 ----- 0:1*12:1-ARG1 11:0-rel 13:1-ARG3
 nw/wsj/19/wsj_1988.parse 7 19 gold eliminate eliminate.01 ----- 17:1*20:1-ARG1 19:0-rel 21:1-ARGM-TMP
 nw/wsj/19/wsj_1988.parse 6 1 gold tax tax.01 ----- 1:0-rel
-nw/wsj/19/wsj_1988.parse 4 17 gold be be.03 ----- 17:0-rel
-nw/wsj/19/wsj_1988.parse 17 7 gold narrow narrow.01 ----- 0:3-ARG1 7:0-rel 8:1-ARG4 15:1-ARG3
 nw/wsj/19/wsj_1988.parse 0 16 gold record record.01 ----- 0:2-ARG0 16:0-rel 17:2-ARG1 28:1-ARGM-TMP
+nw/wsj/19/wsj_1988.parse 9 8 gold kindle kindle.01 ----- 4:1-ARG0 8:0-rel 9:2-ARG1
+nw/wsj/19/wsj_1988.parse 17 7 gold narrow narrow.01 ----- 0:3-ARG1 7:0-rel 8:1-ARG4 15:1-ARG3

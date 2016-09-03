@@ -3,13 +3,16 @@ nw/wsj/19/wsj_1937.parse 17 5 gold fall fall.01 ----- 3:1-ARG1 5:0-rel 6:1-ARG2
 nw/wsj/19/wsj_1937.parse 17 48 gold pay pay.01 ----- 43:1*45:1*49:1-ARG1 43:1*45:1-LINK-SLC 46:1-ARG0 47:0-ARGM-MOD 48:0-rel 50:1-ARG2
 nw/wsj/19/wsj_1937.parse 20 14 gold prompt prompt.01 ----- 12:1-ARG0 14:0-rel 15:1-ARG1
 nw/wsj/19/wsj_1937.parse 19 20 gold have have.01 ----- 20:0-rel
+nw/wsj/19/wsj_1937.parse 50 1 gold rise rise.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2 4:1-ARG4 7:1-ARGM-LOC
 nw/wsj/19/wsj_1937.parse 27 2 gold fall fall.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2 4:1-ARG4
 nw/wsj/19/wsj_1937.parse 37 2 gold add add.03 ----- 0:1-ARG1 1:1-ARGM-DIS 2:0-rel 3:1-ARG2 4:1-ARG4
+nw/wsj/19/wsj_1937.parse 22 13 gold protect protect.01 ----- 3:1*6:1*11:1-ARG0 13:0-rel 14:1-ARGM-PRP
 nw/wsj/19/wsj_1937.parse 22 8 gold increase increase.01 ----- 3:1*6:1-ARG0 8:0-rel 9:1-ARG1 11:2-ARGM-PRP
 nw/wsj/19/wsj_1937.parse 29 10 gold provide provide.01 ----- 6:1*8:1*9:1-ARG0 6:1*8:1-LINK-SLC 10:0-rel 11:2-ARG1 14:1-ARG2
 nw/wsj/19/wsj_1937.parse 17 33 gold have have.02 ----- 33:0-rel
 nw/wsj/19/wsj_1937.parse 17 36 gold raise raise.01 ----- 22:2*34:1-ARG0 36:0-rel 37:1-ARG1 38:1-ARGM-TMP 39:2-ARGM-PRP
 nw/wsj/19/wsj_1937.parse 31 13 gold trade trade.01 ----- 0:2*14:1-ARG1 12:1-ARGM-MNR 13:0-rel 16:2-ARGM-PRD
+nw/wsj/19/wsj_1937.parse 44 16 gold trade trade.01 ----- 16:0-rel
 nw/wsj/19/wsj_1937.parse 12 2 gold speculate speculate.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG1
 nw/wsj/19/wsj_1937.parse 10 3 gold decline decline.01 ----- 3:0-rel 4:0-ARG1
 nw/wsj/19/wsj_1937.parse 19 6 gold hurricane hurricane.01 ----- 6:0-rel
@@ -21,11 +24,9 @@ nw/wsj/19/wsj_1937.parse 49 28 gold hear hear.01 ----- 25:1*29:1-ARG1 25:1*29:1-
 nw/wsj/19/wsj_1937.parse 4 15 gold have have.03 ----- 12:1-ARG0 15:0-rel 16:2-ARG1
 nw/wsj/19/wsj_1937.parse 41 7 gold locate locate.01 ----- 3:2*8:1-ARG1 3:2*8:1-LINK-PSV 7:0-rel 9:1-ARGM-LOC
 nw/wsj/19/wsj_1937.parse 47 2 gold earn earn.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1 7:1-ARGM-TMP
-nw/wsj/19/wsj_1937.parse 33 3 gold base base.01 ----- 0:1*4:1-ARG1 0:1*4:1-LINK-PSV 3:0-rel 5:1-ARGM-LOC
 nw/wsj/19/wsj_1937.parse 27 10 gold total total.01 ----- 9:1-ARG1 10:0-rel 11:2-ARG2
 nw/wsj/19/wsj_1937.parse 14 22 gold damage damage.01 ----- 21:0-ARG1 22:0-rel
 nw/wsj/19/wsj_1937.parse 45 13 gold say say.01 ----- 0:1-ARGM-LOC 4:2-ARG0 13:0-rel 14:1-ARG1
-nw/wsj/19/wsj_1937.parse 22 13 gold protect protect.01 ----- 3:1*6:1*11:1-ARG0 13:0-rel 14:1-ARGM-PRP
 nw/wsj/19/wsj_1937.parse 19 3 gold damage damage.01 ----- 3:0-rel 4:1-ARG0
 nw/wsj/19/wsj_1937.parse 16 16 gold say say.01 ----- 0:2-ARG0 16:0-rel 17:1-ARG1
 nw/wsj/19/wsj_1937.parse 36 11 gold rise rise.01 ----- 8:1-ARG1 11:0-rel 12:1-ARG2 13:1-ARG4
@@ -34,7 +35,6 @@ nw/wsj/19/wsj_1937.parse 39 7 gold be be.01 ----- 0:2-ARG1 7:0-rel 8:1-ARGM-DIS 
 nw/wsj/19/wsj_1937.parse 52 22 gold regard regard.01 ----- 10:2-ARG0 22:0-rel 23:2-ARG1
 nw/wsj/19/wsj_1937.parse 0 22 gold rise rise.01 ----- 9:1*21:1-ARG1 22:0-rel 23:1-ARG2 24:1-ARGM-LOC
 nw/wsj/19/wsj_1937.parse 16 7 gold follow follow.02 ----- 3:1*5:1*6:1-ARG0 3:1*5:1-LINK-SLC 7:0-rel 8:1-ARG1 10:1-ARG2
-nw/wsj/19/wsj_1937.parse 24 1 gold fall fall.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2 3:1-ARG4 6:1-ARGM-LOC
 nw/wsj/19/wsj_1937.parse 44 15 gold allow allow.01 ----- 0:1*13:1-ARG0 0:1*13:1-LINK-PRO 15:0-rel 16:1-ARG1
 nw/wsj/19/wsj_1937.parse 14 4 gold be be.01 ----- 0:2-ARG1 4:0-rel 5:1-ARG2 6:1-ARGM-TMP
 nw/wsj/19/wsj_1937.parse 12 25 gold face face.01 ----- 18:1*19:1*20:1-ARG0 18:1*19:1-LINK-SLC 21:0-ARGM-MOD 25:0-rel 26:1-ARG1 27:1-ARGM-CAU
@@ -45,9 +45,10 @@ nw/wsj/19/wsj_1937.parse 4 20 gold lag lag.01 ----- 12:1*19:1-ARG0 20:0-rel 21:2
 nw/wsj/19/wsj_1937.parse 28 21 gold climb climb.02 ----- 13:2-ARG1 21:0-rel 22:1-ARG2 23:1-ARG4
 nw/wsj/19/wsj_1937.parse 2 1 gold rise rise.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 nw/wsj/19/wsj_1937.parse 21 4 gold give give_back.03 ----- 1:1-ARG0 3:1-ARGM-ADV 4:0,5:1-rel 6:2-ARG1
+nw/wsj/19/wsj_1937.parse 16 23 gold sell sell.01 ----- 18:1*21:1-ARG0 23:0-rel 24:1-ARGM-TMP
 nw/wsj/19/wsj_1937.parse 51 5 gold benefit benefit.01 ----- 3:1-ARG1 4:0-ARGM-MOD 5:0-rel 6:1-ARG0
-nw/wsj/19/wsj_1937.parse 30 3 gold rise rise.01 ----- 0:2-ARG1 3:0-rel 4:2-ARG2 6:1-ARG4 9:1-ARGM-LOC
 nw/wsj/19/wsj_1937.parse 49 12 gold dump dump.01 ----- 5:1*10:1-ARG0 5:1*10:1-LINK-PRO 12:0-rel 13:1-ARG1
+nw/wsj/19/wsj_1937.parse 41 11 gold improve improve.02 ----- 0:2-ARG1 11:0-rel 13:1-ARGM-DIS
 nw/wsj/19/wsj_1937.parse 17 9 gold plan plan.01 ----- 0:0-ARGM-TMP 2:1-ARGM-ADV 8:1-ARG0 9:0-rel 10:2-ARG1 18:1-ARG2
 nw/wsj/19/wsj_1937.parse 45 23 gold resume resume.01 ----- 17:2-ARG1 23:0-rel 24:1-ARGM-TMP 27:1-ARGM-LOC
 nw/wsj/19/wsj_1937.parse 29 24 gold earthquake earthquake.01 ----- 24:0-rel
@@ -65,13 +66,14 @@ nw/wsj/19/wsj_1937.parse 5 19 gold do do.01 ----- 19:0-rel
 nw/wsj/19/wsj_1937.parse 23 4 gold be be.01 ----- 0:1-ARG1 4:0-rel 5:1-ARG2
 nw/wsj/19/wsj_1937.parse 46 17 gold report report.01 ----- 4:1*16:1-ARG0 17:0-rel 18:2-ARG1
 nw/wsj/19/wsj_1937.parse 22 19 gold mean mean.01 ----- 18:1-ARG1 19:0-rel 20:1-ARG2
+nw/wsj/19/wsj_1937.parse 33 3 gold base base.01 ----- 0:1*4:1-ARG1 0:1*4:1-LINK-PSV 3:0-rel 5:1-ARGM-LOC
+nw/wsj/19/wsj_1937.parse 15 16 gold include include.01 ----- 3:3-ARG2 16:0-rel 17:3-ARG1
 nw/wsj/19/wsj_1937.parse 7 4 gold recover recover.01 ----- 1:1-ARG1 3:1-ARGM-ADV 4:0-rel
 nw/wsj/19/wsj_1937.parse 3 8 gold rise rise.01 ----- 0:1-ARGM-LOC 4:1-ARG1 8:0-rel 9:2-ARG2 15:1-ARG4 18:1-ARGM-ADV
-nw/wsj/19/wsj_1937.parse 41 11 gold improve improve.02 ----- 0:2-ARG1 11:0-rel 13:1-ARGM-DIS
-nw/wsj/19/wsj_1937.parse 5 21 gold suffer suffer.01 ----- 13:1*17:1*18:1-ARG0 13:1*17:1-LINK-SLC 20:0-ARGM-NEG 21:0-rel 22:1-ARGM-EXT 24:1-ARGM-TMP
 nw/wsj/19/wsj_1937.parse 9 13 gold change change.02 ----- 7:2-ARG1 13:0-rel 14:1-ARG2
 nw/wsj/19/wsj_1937.parse 12 31 gold be be.03 ----- 31:0-rel
 nw/wsj/19/wsj_1937.parse 21 9 gold reserve reserve.01 ----- 6:1*11:1-ARG2 7:1-ARG0 9:0-rel
+nw/wsj/19/wsj_1937.parse 24 1 gold fall fall.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2 3:1-ARG4 6:1-ARGM-LOC
 nw/wsj/19/wsj_1937.parse 33 9 gold provide provide.01 ----- 0:2-ARG0 9:0-rel 10:2-ARG1
 nw/wsj/19/wsj_1937.parse 7 2 gold be be.03 ----- 2:0-rel
 nw/wsj/19/wsj_1937.parse 0 2 gold endure endure.01 ----- 1:1*9:1-ARG1 2:0-rel 3:2-ARG2
@@ -79,7 +81,6 @@ nw/wsj/19/wsj_1937.parse 42 1 gold advance advance.01 ----- 0:1-ARG1 1:0-rel 2:2
 nw/wsj/19/wsj_1937.parse 33 12 gold engineer engineer.01 ----- 10:0,11:0-ARG1 12:0-rel
 nw/wsj/19/wsj_1937.parse 5 28 gold tumble tumble.01 ----- 0:1-ARGM-ADV 13:2-ARG1 28:0-rel
 nw/wsj/19/wsj_1937.parse 22 5 gold have have.02 ----- 5:0-rel
-nw/wsj/19/wsj_1937.parse 14 16 gold assess assess.01 ----- 7:1*14:1-ARG0 7:1*14:1-LINK-PRO 13:1*28:1-ARGM-MNR 16:0-rel 17:2-ARG1
 nw/wsj/19/wsj_1937.parse 13 1 gold head head.01 ----- 0:1*5:3-ARG0 1:0-rel 2:1-ARG1
 nw/wsj/19/wsj_1937.parse 1 4 gold jump jump.01 ----- 0:1-ARG1 4:0-rel 5:2-ARG2 11:1-ARG4
 nw/wsj/19/wsj_1937.parse 20 3 gold say say.01 ----- 0:0-ARGM-DIS 1:1-ARG0 3:0-rel 4:1-ARG1
@@ -89,10 +90,9 @@ nw/wsj/19/wsj_1937.parse 10 0 gold advance advance.01 ----- 0:0-rel 1:0-ARG1
 nw/wsj/19/wsj_1937.parse 43 15 gold excuse excuse.01 ----- 0:1-ARGM-LOC 7:2*16:1-ARG1 15:0-rel 17:1-ARG2 19:1-ARGM-TMP
 nw/wsj/19/wsj_1937.parse 8 2 gold encourage encourage.02 ----- 0:1*3:1-ARG1 2:0-rel 4:1-ARG0
 nw/wsj/19/wsj_1937.parse 15 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
-nw/wsj/19/wsj_1937.parse 44 16 gold trade trade.01 ----- 16:0-rel
 nw/wsj/19/wsj_1937.parse 3 24 gold be be.01 ----- 19:1-ARG1 24:0-rel 25:1-ARG2
 nw/wsj/19/wsj_1937.parse 17 14 gold buy buy.01 ----- 8:1*10:1*13:1-ARG0 14:0-rel 15:1-ARG1 16:1-ARGM-MNR
-nw/wsj/19/wsj_1937.parse 15 16 gold include include.01 ----- 3:3-ARG2 16:0-rel 17:3-ARG1
+nw/wsj/19/wsj_1937.parse 11 26 gold earthquake earthquake.01 ----- 25:0-ARGM-ADJ 26:0-rel 27:1-ARG1
 nw/wsj/19/wsj_1937.parse 52 6 gold be be.03 ----- 6:0-rel
 nw/wsj/19/wsj_1937.parse 43 24 gold freeze freeze.01 ----- 21:1*25:1-ARG1 24:0-rel 26:1-ARGM-TMP 29:1-ARG0
 nw/wsj/19/wsj_1937.parse 12 11 gold implicate implicate.01 ----- 5:2-ARGM-TMP 11:0-rel
@@ -100,9 +100,7 @@ nw/wsj/19/wsj_1937.parse 2 13 gold improve improve.02 ----- 4:1*11:1*12:1-ARG1 4
 nw/wsj/19/wsj_1937.parse 18 9 gold have have.03 ----- 0:1-ARGM-DIS 3:2-ARG0 8:0-ARGM-MOD 9:0-rel 10:1-ARG1
 nw/wsj/19/wsj_1937.parse 31 17 gold jump jump.01 ----- 0:2*16:1-ARG1 17:0-rel 18:2-ARG2 20:1-ARG4 23:1-ARGM-LOC
 nw/wsj/19/wsj_1937.parse 21 15 gold say say.01 ----- 1:2*16:1-ARG1 14:1-ARG0 15:0-rel
-nw/wsj/19/wsj_1937.parse 52 7 gold embroil embroil.01 ----- 5:1*8:1-ARG1 7:0-rel 9:1-ARG2
 nw/wsj/19/wsj_1937.parse 40 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
-nw/wsj/19/wsj_1937.parse 25 2 gold rise rise.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2 4:1-ARG4 7:1-ARGM-LOC
 nw/wsj/19/wsj_1937.parse 31 11 gold be be.03 ----- 11:0-rel
 nw/wsj/19/wsj_1937.parse 0 19 gold rebound rebound.01 ----- 0:1-ARGM-TMP 9:1-ARG1 18:1-ARGM-TMP 19:0-rel 21:2-ARGM-PRD
 nw/wsj/19/wsj_1937.parse 45 18 gold trade trade.01 ----- 17:0-ARGM-MNR 18:0-rel 19:1-ARGM-LOC
@@ -110,30 +108,28 @@ nw/wsj/19/wsj_1937.parse 9 3 gold be be.01 ----- 0:1-ARG1 3:0-rel 4:1-ARG2 6:1-A
 nw/wsj/19/wsj_1937.parse 46 27 gold end end.01 ----- 21:1*25:1*26:1-ARG1 21:1*25:1-LINK-SLC 27:0-rel 28:1-ARGM-TMP
 nw/wsj/19/wsj_1937.parse 21 8 gold have have.01 ----- 8:0-rel
 nw/wsj/19/wsj_1937.parse 43 14 gold be be.03 ----- 14:0-rel
-nw/wsj/19/wsj_1937.parse 50 9 gold trade trade.01 ----- 8:0-ARGM-EXT 9:0-rel
 nw/wsj/19/wsj_1937.parse 44 3 gold be be.03 ----- 3:0-rel
-nw/wsj/19/wsj_1937.parse 16 23 gold sell sell.01 ----- 18:1*21:1-ARG0 23:0-rel 24:1-ARGM-TMP
-nw/wsj/19/wsj_1937.parse 51 1 gold figure figure.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+nw/wsj/19/wsj_1937.parse 17 12 gold begin begin.01 ----- 8:1*10:1-ARG0 12:0-rel 13:2-ARG1
 nw/wsj/19/wsj_1937.parse 14 8 gold try try.01 ----- 7:1-ARG0 8:0-rel 9:2-ARG1
 nw/wsj/19/wsj_1937.parse 29 1 gold expect expect.01 ----- 0:1-ARG0 1:0-rel 2:3-ARG1
 nw/wsj/19/wsj_1937.parse 17 41 gold compensate compensate.01 ----- 22:2*34:1*39:1-ARG0 41:0-rel 42:1-ARG1
 nw/wsj/19/wsj_1937.parse 12 33 gold trade trade.01 ----- 0:1-ARGM-TMP 13:2*34:1-ARG1 32:1-ARGM-MNR 33:0-rel
-nw/wsj/19/wsj_1937.parse 43 23 gold be be.03 ----- 23:0-rel
+nw/wsj/19/wsj_1937.parse 5 21 gold suffer suffer.01 ----- 13:1*17:1*18:1-ARG0 13:1*17:1-LINK-SLC 20:0-ARGM-NEG 21:0-rel 22:1-ARGM-EXT 24:1-ARGM-TMP
 nw/wsj/19/wsj_1937.parse 11 19 gold affect affect.01 ----- 13:1*14:1*15:1*20:1-ARG1 13:1*14:1-LINK-SLC 16:0-ARGM-MOD 18:1-ARGM-MNR 19:0-rel 21:1-ARG0
 nw/wsj/19/wsj_1937.parse 46 2 gold trade trade.01 ----- 1:0-ARGM-ADJ 2:0-rel
 nw/wsj/19/wsj_1937.parse 11 17 gold be be.03 ----- 17:0-rel
 nw/wsj/19/wsj_1937.parse 52 2 gold disclose disclose.01 ----- 0:1-ARG0 2:0-rel 3:1-ARGM-TMP 4:1-ARG1
-nw/wsj/19/wsj_1937.parse 17 12 gold begin begin.01 ----- 8:1*10:1-ARG0 12:0-rel 13:2-ARG1
-nw/wsj/19/wsj_1937.parse 13 11 gold locate locate.01 ----- 5:2*12:1-ARG1 5:2*12:1-LINK-PSV 11:0-rel 13:1-ARGM-LOC
+nw/wsj/19/wsj_1937.parse 43 23 gold be be.03 ----- 23:0-rel
+nw/wsj/19/wsj_1937.parse 50 9 gold trade trade.01 ----- 8:0-ARGM-EXT 9:0-rel
 nw/wsj/19/wsj_1937.parse 14 24 gold die die.01 ----- 24:0-rel
 nw/wsj/19/wsj_1937.parse 5 26 gold correct correct.01 ----- 26:0-rel
 nw/wsj/19/wsj_1937.parse 36 2 gold gain gain.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2 4:1-ARG4
 nw/wsj/19/wsj_1937.parse 35 5 gold fare fare.01 ----- 1:2-ARG0 5:0-rel 6:1-ARGM-MNR
 nw/wsj/19/wsj_1937.parse 6 4 gold hit hit.01 ----- 1:1-ARG1 4:0-rel 5:3;11:1-ARGM-MNR 9:1-ARGM-TMP
 nw/wsj/19/wsj_1937.parse 14 11 gold figure figure_out.05 ----- 7:1*9:1-ARG0 11:0,12:1-rel 13:2-ARG1
+nw/wsj/19/wsj_1937.parse 30 3 gold rise rise.01 ----- 0:2-ARG1 3:0-rel 4:2-ARG2 6:1-ARG4 9:1-ARGM-LOC
 nw/wsj/19/wsj_1937.parse 11 22 gold damage damage.01 ----- 22:0-rel 23:1-ARG0
 nw/wsj/19/wsj_1937.parse 16 20 gold be be.01 ----- 18:1-ARG1 20:0-rel 21:2-ARG2
-nw/wsj/19/wsj_1937.parse 48 5 gold add add.03 ----- 0:2-ARG1 5:0-rel 6:1-ARG2 7:1-ARG4 10:1-ARGM-ADV
 nw/wsj/19/wsj_1937.parse 0 26 gold trade trade.01 ----- 25:0-ARGM-MNR 26:0-rel
 nw/wsj/19/wsj_1937.parse 4 10 gold say say.01 ----- 0:2-ARG0 10:0-rel 11:1-ARG1
 nw/wsj/19/wsj_1937.parse 29 21 gold profit profit.01 ----- 2:2-ARG0 21:0-rel 22:1-ARG1
@@ -142,16 +138,20 @@ nw/wsj/19/wsj_1937.parse 51 11 gold face face.01 ----- 10:1-ARG0 11:0-rel 12:2-A
 nw/wsj/19/wsj_1937.parse 33 14 gold construct construct.01 ----- 10:0-ARGM-GOL 14:0-rel
 nw/wsj/19/wsj_1937.parse 20 8 gold be be.01 ----- 5:1-ARG1 8:0-rel 9:0-ARGM-NEG 10:1-ARG2
 nw/wsj/19/wsj_1937.parse 19 8 gold be be.01 ----- 3:2-ARG1 8:0-rel 9:2-ARG2
-nw/wsj/19/wsj_1937.parse 11 9 gold center center.01 ----- 0:2-ARG1 9:0-rel 10:1-ARG2
+nw/wsj/19/wsj_1937.parse 12 23 gold profit profit.01 ----- 18:1*19:1*20:1-ARG0 18:1*19:1-LINK-SLC 21:0-ARGM-MOD 23:0-rel 27:1-ARGM-CAU
 nw/wsj/19/wsj_1937.parse 17 29 gold damage damage.01 ----- 28:0-ARG1 29:0-rel
 nw/wsj/19/wsj_1937.parse 7 6 gold get get_back.10 ----- 1:1-ARG1 3:1-ARGM-ADV 6:0,7:0-rel 8:1-ARG2
 nw/wsj/19/wsj_1937.parse 19 22 gold depress depress.02 ----- 15:1*18:1*19:1*23:1-ARG1 15:1*18:1-LINK-SLC 22:0-rel 24:1-ARGM-CAU
 nw/wsj/19/wsj_1937.parse 44 4 gold restore restore.01 ----- 0:1*5:1-ARG1 1:0-ARGM-MOD 2:0-ARGM-NEG 4:0-rel 6:1-ARGM-LOC 13:2-ARGM-PRP 17:1-ARGM-TMP
-nw/wsj/19/wsj_1937.parse 50 1 gold rise rise.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2 4:1-ARG4 7:1-ARGM-LOC
 nw/wsj/19/wsj_1937.parse 18 11 gold profit profit.01 ----- 10:0-ARGM-ADJ 11:0-rel
+nw/wsj/19/wsj_1937.parse 25 2 gold rise rise.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2 4:1-ARG4 7:1-ARGM-LOC
+nw/wsj/19/wsj_1937.parse 52 7 gold embroil embroil.01 ----- 5:1*8:1-ARG1 7:0-rel 9:1-ARG2
 nw/wsj/19/wsj_1937.parse 45 16 gold expect expect.01 ----- 15:1-ARG0 16:0-rel 17:3-ARG1
-nw/wsj/19/wsj_1937.parse 12 23 gold profit profit.01 ----- 18:1*19:1*20:1-ARG0 18:1*19:1-LINK-SLC 21:0-ARGM-MOD 23:0-rel 27:1-ARGM-CAU
+nw/wsj/19/wsj_1937.parse 51 1 gold figure figure.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+nw/wsj/19/wsj_1937.parse 13 11 gold locate locate.01 ----- 5:2*12:1-ARG1 5:2*12:1-LINK-PSV 11:0-rel 13:1-ARGM-LOC
 nw/wsj/19/wsj_1937.parse 19 21 gold be be.03 ----- 21:0-rel
+nw/wsj/19/wsj_1937.parse 48 5 gold add add.03 ----- 0:2-ARG1 5:0-rel 6:1-ARG2 7:1-ARG4 10:1-ARGM-ADV
+nw/wsj/19/wsj_1937.parse 11 9 gold center center.01 ----- 0:2-ARG1 9:0-rel 10:1-ARG2
+nw/wsj/19/wsj_1937.parse 14 16 gold assess assess.01 ----- 7:1*14:1-ARG0 7:1*14:1-LINK-PRO 13:1*28:1-ARGM-MNR 16:0-rel 17:2-ARG1
 nw/wsj/19/wsj_1937.parse 34 28 gold damage damage.01 ----- 26:1*29:1-ARG1 26:1*29:1-LINK-PSV 28:0-rel 30:1-ARG0
 nw/wsj/19/wsj_1937.parse 52 18 gold distribute distribute.01 ----- 13:1*16:1*17:1-ARG0 13:1*16:1-LINK-SLC 18:0-rel 19:1-ARG1
-nw/wsj/19/wsj_1937.parse 11 26 gold earthquake earthquake.01 ----- 25:0-ARGM-ADJ 26:0-rel 27:1-ARG1

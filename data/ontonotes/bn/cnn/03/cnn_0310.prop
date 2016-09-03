@@ -1,10 +1,9 @@
 bn/cnn/03/cnn_0310.parse 11 6 gold dispute dispute.01 ----- 4:1-ARG0 6:0-rel
 bn/cnn/03/cnn_0310.parse 0 15 gold rally rally.01 ----- 12:1-ARGM-MNR 15:0-rel
 bn/cnn/03/cnn_0310.parse 7 3 gold have have.01 ----- 3:0-rel
+bn/cnn/03/cnn_0310.parse 9 9 gold announce announce.01 ----- 4:1*10:1-ARG1 7:0-ARGM-MOD 9:0-rel 11:1-ARGM-TMP 12:1-ARGM-LOC
 bn/cnn/03/cnn_0310.parse 8 3 gold hold hold.04 ----- 0:1-ARG0 3:0-rel 4:2-ARG1
 bn/cnn/03/cnn_0310.parse 6 21 gold collapse collapse.01 ----- 19:1-ARG1 21:0-rel
-bn/cnn/03/cnn_0310.parse 11 1 gold settle settle.02 ----- 0:0-ARGM-NEG 1:0-rel 2:1-ARGM-LOC
-bn/cnn/03/cnn_0310.parse 9 9 gold announce announce.01 ----- 4:1*10:1-ARG1 7:0-ARGM-MOD 9:0-rel 11:1-ARGM-TMP 12:1-ARGM-LOC
 bn/cnn/03/cnn_0310.parse 12 2 gold fight fight.01 ----- 0:1-ARG0 2:0-rel 3:1-ARGM-DIR 4:1-ARGM-TMP 5:1-ARG2
 bn/cnn/03/cnn_0310.parse 6 16 gold charge charge.05 ----- 6:1*12:1*13:1*17:1-ARG1 6:1*12:1-LINK-SLC 16:0-rel 18:1-ARGM-TMP
 bn/cnn/03/cnn_0310.parse 13 2 gold have have.03 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
@@ -17,17 +16,18 @@ bn/cnn/03/cnn_0310.parse 0 1 gold sell sell.01 ----- 0:1*2:1-ARG1 1:0,3:1-rel 4:
 bn/cnn/03/cnn_0310.parse 6 1 gold former former.01 ----- 1:0-rel 2:0,3:0,4:0-ARG1
 bn/cnn/03/cnn_0310.parse 1 2 gold rise rise.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG4
 bn/cnn/03/cnn_0310.parse 12 34 gold espouse espouse.01 ----- 30:1*31:1*35:1-ARG1 30:1*31:1-LINK-SLC 32:1-ARG0 33:1-ARGM-TMP 34:0-rel
+bn/cnn/03/cnn_0310.parse 11 1 gold settle settle.02 ----- 0:0-ARGM-NEG 1:0-rel 2:1-ARGM-LOC
 bn/cnn/03/cnn_0310.parse 12 22 gold fight fight.01 ----- 16:1,20:1-ARG0 22:0-rel 23:1-ARG1 27:1-ARGM-PRD
 bn/cnn/03/cnn_0310.parse 7 5 gold be be.03 ----- 5:0-rel
 bn/cnn/03/cnn_0310.parse 0 14 gold session session.01 ----- 14:0-rel
 bn/cnn/03/cnn_0310.parse 6 5 gold become become.01 ----- 0:1-ARG1 5:0-rel 6:2-ARG2
 bn/cnn/03/cnn_0310.parse 8 10 gold settle settle.02 ----- 10:0-rel 11:1-ARG1
+bn/cnn/03/cnn_0310.parse 9 1 gold tell tell.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG2 3:1-ARG1
 bn/cnn/03/cnn_0310.parse 6 15 gold be be.03 ----- 15:0-rel
 bn/cnn/03/cnn_0310.parse 9 8 gold be be.03 ----- 8:0-rel
 bn/cnn/03/cnn_0310.parse 9 6 gold deal deal.01 ----- 5:0-ARGM-TMP 6:0-rel
 bn/cnn/03/cnn_0310.parse 12 27 gold criticize criticize.01 ----- 16:1-ARGM-PRD 20:1-ARG0 27:0-rel 28:1-ARG1 29:1-ARG2
 bn/cnn/03/cnn_0310.parse 7 6 gold charge charge.05 ----- 0:1*7:1-ARG1 6:0-rel 9:2-ARGM-TMP
-bn/cnn/03/cnn_0310.parse 9 1 gold tell tell.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG2 3:1-ARG1
 bn/cnn/03/cnn_0310.parse 10 11 gold settle settle.02 ----- 7:2-ARG3 11:0-rel
 bn/cnn/03/cnn_0310.parse 0 10 gold end end.01 ----- 9:1-ARG0 10:0-rel 11:1-ARG1
 bn/cnn/03/cnn_0310.parse 10 4 gold promise promise.01 ----- 0:2-ARG0 4:0-rel 6:2-ARG2

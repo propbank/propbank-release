@@ -8,14 +8,15 @@ nw/wsj/12/wsj_1220.parse 7 8 gold enact enact.01 ----- 4:1*6:1-ARG0 8:0-rel 9:2-
 nw/wsj/12/wsj_1220.parse 4 9 gold recognize recognize.01 ----- 0:1*10:1-ARG1 8:1-ARGM-MNR 9:0-rel 11:1-ARGM-LOC 15:1-ARG3
 nw/wsj/12/wsj_1220.parse 2 14 gold extend extend.01 ----- 0:2-ARGM-TMP 11:1-ARG0 13:0-ARGM-MOD 14:0-rel 15:1-ARG1
 nw/wsj/12/wsj_1220.parse 3 2 gold say say.01 ----- 0:2-ARG0 2:0-rel 3:1-ARG1
-nw/wsj/12/wsj_1220.parse 0 7 gold plan plan.01 ----- 6:1-ARG0 7:0-rel 8:2-ARG1
-nw/wsj/12/wsj_1220.parse 5 1 gold procedure procedure.01 ----- 1:0-rel
 nw/wsj/12/wsj_1220.parse 9 15 gold obtain obtain.01 ----- 3:1*6:1-ARG0 5:0-ARGM-MOD 15:0-rel 16:1-ARG1 17:1-ARG2
 nw/wsj/12/wsj_1220.parse 8 11 gold secure secure.01 ----- 5:1*9:1-ARG0 8:0-ARGM-MOD 11:0-rel 12:3-ARG1
 nw/wsj/12/wsj_1220.parse 1 16 gold close close.01 ----- 0:2-ARG0 13:1-ARGM-TMP 15:0-ARGM-NEG 16:0-rel 17:1-ARG1 19:1-ARGM-TMP 23:2-ARGM-ADV
+nw/wsj/12/wsj_1220.parse 5 1 gold procedure procedure.01 ----- 1:0-rel
+nw/wsj/12/wsj_1220.parse 0 7 gold plan plan.01 ----- 6:1-ARG0 7:0-rel 8:2-ARG1
 nw/wsj/12/wsj_1220.parse 8 26 gold act act.02 ----- 24:1-ARG0 26:0-rel 27:1-ARGM-MNR
 nw/wsj/12/wsj_1220.parse 2 5 gold extend extend.01 ----- 0:1*9:1-ARGM-TMP 1:1-ARG1 5:0-rel 6:1-ARG2
 nw/wsj/12/wsj_1220.parse 8 8 gold have have.02 ----- 0:1-ARGM-MNR 7:0-ARGM-MOD 8:0-rel
+nw/wsj/12/wsj_1220.parse 5 23 gold say say.01 ----- 0:2*25:1-ARG1 21:2-ARG0 23:0-rel
 nw/wsj/12/wsj_1220.parse 0 10 gold clamp clamp.01 ----- 6:1*8:1-ARG0 10:0-rel 11:1-ARGM-DIR 12:1-ARG1
 nw/wsj/12/wsj_1220.parse 3 5 gold be be.02 ----- 5:0-rel 6:1-ARGM-TMP 7:2-ARG1
 nw/wsj/12/wsj_1220.parse 8 21 gold assess assess.01 ----- 21:0-rel 22:1-ARG1
@@ -24,20 +25,19 @@ nw/wsj/12/wsj_1220.parse 9 5 gold have have.02 ----- 0:1-ARGM-DIS 4:0-ARGM-MOD 5
 nw/wsj/12/wsj_1220.parse 0 21 gold leave leave.12 ----- 19:1-ARG0 21:0-rel 22:1-ARG1 25:2-ARG2 27:1-ARGM-TMP
 nw/wsj/12/wsj_1220.parse 9 1 gold add add.02 ----- 1:0-rel
 nw/wsj/12/wsj_1220.parse 4 27 gold underwrite underwrite.01 ----- 20:1*25:1*26:1-ARG0 20:1*25:1-LINK-SLC 27:0-rel 28:1-ARG1 29:1-ARGM-LOC 32:1-ARGM-CAU
-nw/wsj/12/wsj_1220.parse 9 16 gold approve approve.01 ----- 16:0-rel
 nw/wsj/12/wsj_1220.parse 0 4 gold say say.01 ----- 0:2-ARG0 4:0-rel 5:1-ARG1
 nw/wsj/12/wsj_1220.parse 7 5 gold expect expect.01 ----- 4:1-ARG0 5:0-rel 6:2-ARG1
-nw/wsj/12/wsj_1220.parse 0 17 gold underwrite underwrite.01 ----- 17:0-rel 18:0-ARG0
 nw/wsj/12/wsj_1220.parse 7 11 gold mandate mandate.01 ----- 9:1-ARG0 11:0-rel 12:1-ARG1
 nw/wsj/12/wsj_1220.parse 5 2 gold cause cause.01 ----- 0:1-ARG0 2:0-rel 4:1-ARG1 7:1-ARGM-CAU
 nw/wsj/12/wsj_1220.parse 4 7 gold be be.03 ----- 7:0-rel
+nw/wsj/12/wsj_1220.parse 9 16 gold approve approve.01 ----- 16:0-rel
 nw/wsj/12/wsj_1220.parse 1 0 gold underwrite underwrite.01 ----- 0:0-rel 1:0-ARG0
 nw/wsj/12/wsj_1220.parse 6 22 gold leave leave.12 ----- 18:1*20:1-ARG0 18:1*20:1-LINK-PRO 22:0-rel 23:1-ARG1 24:2-ARG2
 nw/wsj/12/wsj_1220.parse 8 25 gold have have.01 ----- 25:0-rel
 nw/wsj/12/wsj_1220.parse 3 11 gold involve involve.01 ----- 7:1-ARG2 11:0-rel 12:2-ARG1
-nw/wsj/12/wsj_1220.parse 5 23 gold say say.01 ----- 0:2*25:1-ARG1 21:2-ARG0 23:0-rel
 nw/wsj/12/wsj_1220.parse 9 8 gold get get.01 ----- 3:1*6:1-ARG0 5:0-ARGM-MOD 8:0-rel 9:2-ARG1
 nw/wsj/12/wsj_1220.parse 8 3 gold rule rule.01 ----- 2:0-ARGM-TMP 3:0-rel
 nw/wsj/12/wsj_1220.parse 4 17 gold concern concern.01 ----- 16:0-ARGM-ADJ 17:0-rel 19:1-ARG1
+nw/wsj/12/wsj_1220.parse 0 17 gold underwrite underwrite.01 ----- 17:0-rel 18:0-ARG0
 nw/wsj/12/wsj_1220.parse 6 7 gold plan plan.01 ----- 0:1-ARGM-DIS 4:1-ARG0 7:0-rel 8:2-ARG1
 nw/wsj/12/wsj_1220.parse 4 42 gold say say.01 ----- 40:2-ARG0 42:0-rel 43:1-ARG1

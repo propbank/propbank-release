@@ -2,65 +2,65 @@ bn/abc/00/abc_0007.parse 11 17 gold assemble assemble.02 ----- 0:1*8:1*11:1*16:1
 bn/abc/00/abc_0007.parse 3 23 gold begin begin.01 ----- 20:1-ARG0 23:0-rel 24:2-ARG1
 bn/abc/00/abc_0007.parse 14 19 gold establish establish.01 ----- 17:1-ARG0 19:0-rel 20:2-ARG1
 bn/abc/00/abc_0007.parse 12 14 gold do do.02 ----- 12:1-ARG0 14:0-rel 15:1-ARG1
-bn/abc/00/abc_0007.parse 1 10 gold confirm confirm.01 ----- 7:1,11:1,12:2-ARG1 10:0-rel
 bn/abc/00/abc_0007.parse 7 11 gold cover cover.02 ----- 4:2*12:1-ARG1 10:1-ARGM-TMP 11:0-rel 13:1-ARG2
 bn/abc/00/abc_0007.parse 10 32 gold destroy destroy.01 ----- 0:1-ARG0 6:3-ARGM-DIS 11:0-ARGM-MOD 32:0-rel 33:2-ARG1
-bn/abc/00/abc_0007.parse 9 4 gold explode explode.01 ----- 4:0-rel 5:2-ARGM-ADJ
+bn/abc/00/abc_0007.parse 14 5 gold have have.01 ----- 5:0-rel
 bn/abc/00/abc_0007.parse 13 3 gold be be.01 ----- 0:1-ARG1 3:0-rel 4:1-ARG2
 bn/abc/00/abc_0007.parse 12 4 gold praise praise.01 ----- 0:2-ARG0 4:0-rel 5:1-ARG1 9:2-ARGM-PRD
 bn/abc/00/abc_0007.parse 0 10 gold be be.01 ----- 8:1-ARG1 10:0-rel 11:1-ARG2
-bn/abc/00/abc_0007.parse 0 9 gold wait wait.01 ----- 9:0-rel
 bn/abc/00/abc_0007.parse 6 4 gold be be.01 ----- 0:2-ARG1 4:0-rel 5:1-ARG2
 bn/abc/00/abc_0007.parse 5 18 gold organize organize.01 ----- 16:0-ARGM-ADV 18:0-rel 20:0-ARG1
 bn/abc/00/abc_0007.parse 3 26 gold celebrate celebrate.01 ----- 20:1*24:1-ARG0 26:0-rel 27:2-ARG1
 bn/abc/00/abc_0007.parse 16 1 gold agree agree.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+bn/abc/00/abc_0007.parse 9 4 gold explode explode.01 ----- 4:0-rel 5:2-ARGM-ADJ
 bn/abc/00/abc_0007.parse 3 6 gold go go.01 ----- 0:1-ARG3 3:1-ARG1 5:0-ARGM-MOD 6:0-rel 7:1-ARG4 18:2-ARGM-TMP
 bn/abc/00/abc_0007.parse 16 6 gold intercept intercept.01 ----- 4:1-ARG0 6:0-rel 7:2-ARG1
 bn/abc/00/abc_0007.parse 1 15 gold presume presume.01 ----- 14:1*16:1,17:2-ARG1 15:0-rel
 bn/abc/00/abc_0007.parse 7 16 gold sit sit.01 ----- 0:1-ARG1 4:3-ARGM-ADV 16:0-rel 17:1-ARG2 20:1-ARGM-TMP
-bn/abc/00/abc_0007.parse 14 5 gold have have.01 ----- 5:0-rel
-bn/abc/00/abc_0007.parse 4 4 gold commemorate commemorate.01 ----- 4:0-rel
 bn/abc/00/abc_0007.parse 16 8 gold suspect suspect.01 ----- 3:1*18:1-ARGM-TMP 7:1*9:1-ARG1 7:1*9:1-LINK-PSV 8:0-rel 10:1-ARG2
 bn/abc/00/abc_0007.parse 17 25 gold have have.01 ----- 25:0-rel
 bn/abc/00/abc_0007.parse 5 27 gold do do.02 ----- 25:1*26:1-ARG0 27:0-rel 28:1-ARG1
-bn/abc/00/abc_0007.parse 15 6 gold relate relation.03 ----- 5:0-ARGM-ADJ 6:0-rel 7:1-ARG0
+bn/abc/00/abc_0007.parse 0 9 gold wait wait.01 ----- 9:0-rel
 bn/abc/00/abc_0007.parse 11 12 gold analyze analyze.01 ----- 0:1*8:1*11:1-ARG0 12:0-rel 13:1-ARG1 15:1-ARGM-TMP
-bn/abc/00/abc_0007.parse 9 2 gold rival rival.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
+bn/abc/00/abc_0007.parse 16 23 gold be be.03 ----- 23:0-rel
 bn/abc/00/abc_0007.parse 5 9 gold attack attack.01 ----- 1:1*5:1*11:1-ARGM-LOC 1:1*5:1-LINK-SLC 6:1*10:1-ARG1 9:0-rel
 bn/abc/00/abc_0007.parse 13 8 gold provide provide.01 ----- 0:1*7:1-ARG0 8:0-rel 9:1-ARG1 12:1-ARG2
-bn/abc/00/abc_0007.parse 13 2 gold have have.01 ----- 2:0-rel
 bn/abc/00/abc_0007.parse 10 12 gold have have.01 ----- 12:0-rel
 bn/abc/00/abc_0007.parse 9 7 gold blow blow.01 ----- 3:1*5:1*6:1-ARG0 3:1*5:1-LINK-SLC 7:0-rel 8:1-ARGM-PRD 9:2-ARG1
 bn/abc/00/abc_0007.parse 11 1 gold be be.03 ----- 1:0-rel
+bn/abc/00/abc_0007.parse 15 6 gold relate relation.03 ----- 5:0-ARGM-ADJ 6:0-rel 7:1-ARG0
 bn/abc/00/abc_0007.parse 14 11 gold demonstrate demonstrate.01 ----- 8:1-ARGM-GOL 11:0-rel 12:1-ARGM-LOC
 bn/abc/00/abc_0007.parse 3 22 gold be be.03 ----- 22:0-rel
 bn/abc/00/abc_0007.parse 16 24 gold bring bring.01 ----- 3:2-ARGM-TMP 20:1*25:1-ARG1 22:0-ARGM-MOD 24:0-rel 26:1-ARG3 28:1-ARGM-LOC
 bn/abc/00/abc_0007.parse 5 8 gold be be.03 ----- 8:0-rel
-bn/abc/00/abc_0007.parse 16 12 gold violate violate.01 ----- 7:1*9:1*11:1-ARG0 7:1*9:1-LINK-PSV 12:0-rel 13:2-ARG1
 bn/abc/00/abc_0007.parse 12 13 gold be be.03 ----- 13:0-rel
 bn/abc/00/abc_0007.parse 10 13 gold rip rip.01 ----- 0:1-ARG0 11:0-ARGM-MOD 13:0-rel 14:2-ARG1
+bn/abc/00/abc_0007.parse 1 10 gold confirm confirm.01 ----- 7:1,11:1,12:2-ARG1 10:0-rel
 bn/abc/00/abc_0007.parse 8 16 gold search search.01 ----- 11:1-ARG0 16:0-rel 17:1-ARG1
 bn/abc/00/abc_0007.parse 5 33 gold happen happen.01 ----- 31:1*34:1-ARGM-MNR 32:1-ARG1 33:0-rel
-bn/abc/00/abc_0007.parse 17 24 gold injure injure.01 ----- 24:0-rel
 bn/abc/00/abc_0007.parse 12 10 gold say say.01 ----- 0:2*9:1-ARG0 10:0-rel 11:1-ARG1
 bn/abc/00/abc_0007.parse 11 2 gold head head.02 ----- 0:1-ARG0 2:0-rel 3:1-ARG1 8:2-ARGM-PRP
 bn/abc/00/abc_0007.parse 14 7 gold be be.02 ----- 0:1-ARGM-TMP 7:0-rel 8:3-ARG1 15:1-ARGM-ADV
+bn/abc/00/abc_0007.parse 3 28 gold anniversary anniversary.01 ----- 28:0-rel 29:1-ARG1
+bn/abc/00/abc_0007.parse 15 13 gold involve involve.01 ----- 0:2-ARG2 13:0-rel 14:1-ARG1
 bn/abc/00/abc_0007.parse 1 9 gold be be.03 ----- 9:0-rel
 bn/abc/00/abc_0007.parse 17 14 gold be be.01 ----- 6:2-ARG1 14:0-rel 15:1-ARG2
-bn/abc/00/abc_0007.parse 15 13 gold involve involve.01 ----- 0:2-ARG2 13:0-rel 14:1-ARG1
+bn/abc/00/abc_0007.parse 17 24 gold injure injure.01 ----- 24:0-rel
 bn/abc/00/abc_0007.parse 5 23 gold find find.01 ----- 21:1-ARG0 23:0,24:1-rel 25:3-ARG1
+bn/abc/00/abc_0007.parse 9 2 gold rival rival.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
 bn/abc/00/abc_0007.parse 11 10 gold begin begin.01 ----- 0:1*8:1-ARG0 10:0-rel 11:2-ARG1
 bn/abc/00/abc_0007.parse 17 28 gold transfer transfer.01 ----- 21:2*29:1-ARG1 26:1-ARGM-TMP 28:0-rel 30:1-ARG2 31:1-ARGM-PRP
-bn/abc/00/abc_0007.parse 16 23 gold be be.03 ----- 23:0-rel
 bn/abc/00/abc_0007.parse 17 10 gold recover recover.02 ----- 8:1*11:1-ARG1 8:1*11:1-LINK-PSV 10:0-rel 12:1-ARGM-TMP
 bn/abc/00/abc_0007.parse 0 1 gold have have.03 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
+bn/abc/00/abc_0007.parse 4 4 gold commemorate commemorate.01 ----- 4:0-rel
+bn/abc/00/abc_0007.parse 13 2 gold have have.01 ----- 2:0-rel
 bn/abc/00/abc_0007.parse 4 3 gold be be.01 ----- 0:1-ARG1 1:0-ARGM-MOD 2:1-ARGM-DIS 3:0-rel 4:1-ARG2
 bn/abc/00/abc_0007.parse 17 27 gold be be.03 ----- 27:0-rel
 bn/abc/00/abc_0007.parse 10 7 gold theorize theorize.01 ----- 0:2-ARG1-DSP 6:1-ARG0 7:0-rel
+bn/abc/00/abc_0007.parse 16 12 gold violate violate.01 ----- 7:1*9:1*11:1-ARG0 7:1*9:1-LINK-PSV 12:0-rel 13:2-ARG1
 bn/abc/00/abc_0007.parse 8 3 gold be be.01 ----- 0:1*4:1-ARG2 3:0-rel 5:2-ARG1
-bn/abc/00/abc_0007.parse 17 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARGM-TMP 5:1-ARG1
 bn/abc/00/abc_0007.parse 14 6 gold be be.03 ----- 6:0-rel
-bn/abc/00/abc_0007.parse 3 28 gold anniversary anniversary.01 ----- 28:0-rel 29:1-ARG1
+bn/abc/00/abc_0007.parse 17 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARGM-TMP 5:1-ARG1
 bn/abc/00/abc_0007.parse 8 12 gold search search.01 ----- 11:1-ARG0 12:0-rel 13:1-ARG1
 bn/abc/00/abc_0007.parse 10 21 gold collapse collapse.01 ----- 0:1-ARG0 6:3-ARGM-DIS 11:0-ARGM-MOD 21:0-rel 22:2-ARG1
 bn/abc/00/abc_0007.parse 2 1 gold arrive arrive.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG4 13:1-ARGM-DIR

@@ -4,7 +4,6 @@ bn/mnb/00/mnb_0021.parse 2 17 gold be be.01 ----- 16:1*20:1-ARG2 17:0-rel 18:1-A
 bn/mnb/00/mnb_0021.parse 11 1 gold remember remember.01 ----- 0:1-ARG0 1:0-rel
 bn/mnb/00/mnb_0021.parse 9 6 gold explain explain.01 ----- 5:0-ARGM-ADJ 6:0-rel 7:1-ARG1
 bn/mnb/00/mnb_0021.parse 4 2 gold tell tell.01 ----- 0:1*3:1-ARG2 2:0-rel 5:1-ARGM-DIS 8:1-ARG1
-bn/mnb/00/mnb_0021.parse 3 11 gold be be.03 ----- 11:0-rel
 bn/mnb/00/mnb_0021.parse 6 13 gold be be.01 ----- 12:1-ARG1 13:0-rel 14:1-ARGM-ADV 15:1-ARG2
 bn/mnb/00/mnb_0021.parse 6 3 gold know know.01 ----- 0:1-ARGM-DIS 2:1-ARG0 3:0-rel 4:1-ARG1
 bn/mnb/00/mnb_0021.parse 2 13 gold be be.01 ----- 11:1-ARG1 12:0-ARGM-MOD 13:0-rel 14:1-ARG2
@@ -18,17 +17,18 @@ bn/mnb/00/mnb_0021.parse 8 5 gold be be.01 ----- 0:2-ARG1 5:0-rel 6:1-ARG2
 bn/mnb/00/mnb_0021.parse 6 7 gold be be.03 ----- 7:0-rel
 bn/mnb/00/mnb_0021.parse 2 4 gold have have.02 ----- 4:0-rel
 bn/mnb/00/mnb_0021.parse 8 13 gold see see.01 ----- 7:1,14:2-ARG1 13:0-rel
-bn/mnb/00/mnb_0021.parse 10 11 gold finish finish.01 ----- 10:1-ARG0 11:0-rel 12:1-ARGM-PRD 13:2-ARG1
-bn/mnb/00/mnb_0021.parse 3 45 gold go go.02 ----- 43:1-ARG0 45:0-rel 46:1-ARG4
+bn/mnb/00/mnb_0021.parse 12 56 gold be be.03 ----- 56:0-rel
+bn/mnb/00/mnb_0021.parse 3 22 gold be be.01 ----- 21:1-ARG1 22:0-rel 23:1-ARG2
 bn/mnb/00/mnb_0021.parse 6 8 gold tick tick.01 ----- 5:1-ARG0 8:0-rel 9:1-ARGM-DIR
 bn/mnb/00/mnb_0021.parse 14 1 gold thank thank.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:1-ARG2
 bn/mnb/00/mnb_0021.parse 3 16 gold happen happen.01 ----- 14:1*15:1-ARG1 16:0-rel 17:1-ARGM-TMP
 bn/mnb/00/mnb_0021.parse 10 5 gold be be.01 ----- 4:1-ARG1 5:0-rel 6:0-ARGM-NEG 7:1-ARG2
+bn/mnb/00/mnb_0021.parse 3 11 gold be be.03 ----- 11:0-rel
 bn/mnb/00/mnb_0021.parse 8 12 gold be be.03 ----- 12:0-rel
-bn/mnb/00/mnb_0021.parse 3 22 gold be be.01 ----- 21:1-ARG1 22:0-rel 23:1-ARG2
+bn/mnb/00/mnb_0021.parse 10 11 gold finish finish.01 ----- 10:1-ARG0 11:0-rel 12:1-ARGM-PRD 13:2-ARG1
+bn/mnb/00/mnb_0021.parse 3 45 gold go go.02 ----- 43:1-ARG0 45:0-rel 46:1-ARG4
 bn/mnb/00/mnb_0021.parse 12 18 gold be be.02 ----- 14:1-ARGM-ADV 18:0-rel 19:1-ARGM-TMP 20:1-ARG1
 bn/mnb/00/mnb_0021.parse 8 11 gold have have.01 ----- 11:0-rel
-bn/mnb/00/mnb_0021.parse 12 56 gold be be.03 ----- 56:0-rel
 bn/mnb/00/mnb_0021.parse 0 10 gold be be.01 ----- 6:1*8:1*15:1-ARGM-LOC 6:1*8:1-LINK-SLC 9:1-ARG1 10:0-rel 11:1-ARG2
 bn/mnb/00/mnb_0021.parse 12 51 gold tell tell.01 ----- 33:1-ARG0 51:0-rel 52:1-ARG2 53:1-ARG1
 bn/mnb/00/mnb_0021.parse 0 3 gold check check_in.04 ----- 2:1-ARG0 3:0,4:1-rel 5:1-ARG1
@@ -38,14 +38,14 @@ bn/mnb/00/mnb_0021.parse 12 48 gold be be.01 ----- 36:2-ARG1 48:0-rel 49:1-ARGM-
 bn/mnb/00/mnb_0021.parse 8 15 gold drive drive.01 ----- 7:1*14:1-ARG0 15:0-rel 16:1-ARGM-DIR
 bn/mnb/00/mnb_0021.parse 3 41 gold say say.01 ----- 24:3-ARGM-TMP 30:2-ARG0 41:0-rel 42:1-ARG1
 bn/mnb/00/mnb_0021.parse 4 12 gold be be.02 ----- 10:0-ARGM-MOD 11:0-ARGM-NEG 12:0-rel 13:2-ARG1
+bn/mnb/00/mnb_0021.parse 10 14 gold write write.01 ----- 10:1*13:1-ARG0 14:0-rel 15:2-ARG1
 bn/mnb/00/mnb_0021.parse 12 61 gold work work.01 ----- 54:1-ARG0 57:1-ARGM-ADV 60:1-ARGM-TMP 61:0-rel 62:1-ARG1
 bn/mnb/00/mnb_0021.parse 5 3 gold happen happen.01 ----- 0:1-ARG1 2:0-ARGM-NEG 3:0-rel 4:1-ARGM-TMP
-bn/mnb/00/mnb_0021.parse 10 14 gold write write.01 ----- 10:1*13:1-ARG0 14:0-rel 15:2-ARG1
-bn/mnb/00/mnb_0021.parse 9 1 gold be be.02 ----- 1:0-rel 2:2-ARG1
+bn/mnb/00/mnb_0021.parse 12 31 gold think think.01 ----- 30:1-ARG0 31:0-rel 32:1-ARG1
 bn/mnb/00/mnb_0021.parse 3 12 gold look look.01 ----- 12:0-rel 13:1-ARG1
 bn/mnb/00/mnb_0021.parse 3 3 gold think think.01 ----- 0:1-ARGM-DIS 2:1-ARG0 3:0-rel 4:1-ARG1
 bn/mnb/00/mnb_0021.parse 8 20 gold do do.01 ----- 20:0-rel
 bn/mnb/00/mnb_0021.parse 12 3 gold be be.01 ----- 0:1-ARG1 1:1-ARGM-DIS 2:0-ARGM-MOD 3:0-rel 4:1-ARG2
 bn/mnb/00/mnb_0021.parse 0 1 gold let let.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
-bn/mnb/00/mnb_0021.parse 12 31 gold think think.01 ----- 30:1-ARG0 31:0-rel 32:1-ARG1
+bn/mnb/00/mnb_0021.parse 9 1 gold be be.02 ----- 1:0-rel 2:2-ARG1
 bn/mnb/00/mnb_0021.parse 12 9 gold finish finish.02 ----- 5:1*23:1*27:1-ARG1 8:1-ARGM-TMP 9:0-rel

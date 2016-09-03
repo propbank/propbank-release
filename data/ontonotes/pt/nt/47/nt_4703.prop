@@ -3,6 +3,7 @@ pt/nt/47/nt_4703.parse 20 11 gold come come.01 ----- 1:2-ARG1 11:0-rel 12:1-ARGM
 pt/nt/47/nt_4703.parse 10 1 gold make make.02 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 pt/nt/47/nt_4703.parse 29 17 gold cover cover.02 ----- 17:0-rel
 pt/nt/47/nt_4703.parse 15 14 gold have have.03 ----- 0:1-ARGM-DIS 1:1-ARGM-ADV 2:2-ARG0 14:0-rel 15:2-ARG1
+pt/nt/47/nt_4703.parse 14 30 gold look look.01 ----- 22:2*29:1-ARG0 30:0-rel 31:1-ARG1
 pt/nt/47/nt_4703.parse 33 11 gold be be.03 ----- 11:0-rel
 pt/nt/47/nt_4703.parse 14 19 gold end end.01 ----- 14:1*16:1*17:1-ARG1 14:1*16:1-LINK-SLC 19:0-rel
 pt/nt/47/nt_4703.parse 24 2 gold be be.03 ----- 2:0-rel
@@ -17,75 +18,73 @@ pt/nt/47/nt_4703.parse 24 12 gold see see.01 ----- 10:1-ARG0 12:0-rel 13:2-ARG1
 pt/nt/47/nt_4703.parse 18 3 gold have have.03 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
 pt/nt/47/nt_4703.parse 3 4 gold read read.01 ----- 0:1*5:1-ARG1 4:0-rel 6:1-ARG0
 pt/nt/47/nt_4703.parse 9 10 gold do do.02 ----- 8:1-ARG0 10:0-rel 11:2-ARG1
-pt/nt/47/nt_4703.parse 20 5 gold be be.03 ----- 5:0-rel
 pt/nt/47/nt_4703.parse 12 9 gold give give.01 ----- 7:1-ARG0 9:0-rel 10:1-ARG1
 pt/nt/47/nt_4703.parse 17 7 gold make make.02 ----- 2:1*5:1*6:1-ARG0 2:1*5:1-LINK-SLC 7:0-rel 8:2-ARG1
 pt/nt/47/nt_4703.parse 8 6 gold be be.01 ----- 5:1-ARG1 6:0-rel 7:2-ARG2 13:1-ARGM-REC
-pt/nt/47/nt_4703.parse 6 1 gold be be.03 ----- 1:0-rel
 pt/nt/47/nt_4703.parse 8 10 gold do do.02 ----- 5:1*8:1-ARG0 5:1*8:1-LINK-PRO 10:0-rel 11:2-ARG1
-pt/nt/47/nt_4703.parse 1 2 gold need need.01 ----- 1:1-ARG0 2:0-rel 3:3-ARG1 12:1-ARGM-MNR
+pt/nt/47/nt_4703.parse 20 5 gold be be.03 ----- 5:0-rel
 pt/nt/47/nt_4703.parse 0 7 gold tell tell.01 ----- 2:1*5:1-ARG0 7:0-rel 8:1-ARG2 9:2-ARG1
+pt/nt/47/nt_4703.parse 5 14 gold live live.01 ----- 14:0-rel 15:0-ARG0
 pt/nt/47/nt_4703.parse 12 4 gold die die.01 ----- 4:0-rel
-pt/nt/47/nt_4703.parse 14 30 gold look look.01 ----- 22:2*29:1-ARG0 30:0-rel 31:1-ARG1
+pt/nt/47/nt_4703.parse 24 9 gold want want.01 ----- 6:1-ARG0 8:0-ARGM-NEG 9:0-rel 10:2-ARG1
 pt/nt/47/nt_4703.parse 27 4 gold be be.03 ----- 4:0-rel
 pt/nt/47/nt_4703.parse 22 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:0-ARGM-NEG 3:1-ARG2
-pt/nt/47/nt_4703.parse 27 1 gold cover cover.02 ----- 1:0-rel
-pt/nt/47/nt_4703.parse 19 3 gold lose lose.02 ----- 0:0-ARGM-DIS 1:1-ARG0 2:1-ARGM-ADV 3:0-rel 4:1-ARG1 6:2-ARGM-TMP
 pt/nt/47/nt_4703.parse 19 8 gold be be.03 ----- 8:0-rel
+pt/nt/47/nt_4703.parse 14 7 gold be be.01 ----- 0:1-ARGM-DIS 3:2-ARG1 7:0-rel 8:3-ARG2
+pt/nt/47/nt_4703.parse 6 1 gold be be.03 ----- 1:0-rel
 pt/nt/47/nt_4703.parse 9 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2 3:2-ARGM-PRD
 pt/nt/47/nt_4703.parse 28 1 gold be be.03 ----- 1:0-rel
 pt/nt/47/nt_4703.parse 34 4 gold bring bring.01 ----- 0:2-ARG0 4:0-rel 5:3-ARG1
 pt/nt/47/nt_4703.parse 26 19 gold hide hide.01 ----- 0:0-ARGM-DIS 1:1-ARGM-TMP 4:2-ARGM-TMP 16:1-ARG0 19:0-rel 20:1-ARG1
-pt/nt/47/nt_4703.parse 32 5 gold cover cover.02 ----- 0:0-ARGM-DIS 1:1*6:1-ARG1 4:0-ARGM-NEG 5:0-rel
 pt/nt/47/nt_4703.parse 30 5 gold follow follow.02 ----- 1:1*8:1-ARGM-TMP 2:1-ARG0 5:0-rel 6:1-ARG1
-pt/nt/47/nt_4703.parse 4 4 gold be be.01 ----- 3:1-ARG1 4:0-rel 5:3-ARG2
 pt/nt/47/nt_4703.parse 26 18 gold cover cover.02 ----- 17:0-ARGM-ADJ 18:0-rel
 pt/nt/47/nt_4703.parse 15 12 gold give give.01 ----- 10:0-ARG1 12:0-rel 13:0-ARG0
+pt/nt/47/nt_4703.parse 1 2 gold need need.01 ----- 1:1-ARG0 2:0-rel 3:3-ARG1 12:1-ARGM-MNR
 pt/nt/47/nt_4703.parse 13 15 gold come come.01 ----- 0:2-ARG1 15:0-rel 16:1-ARGM-MNR
-pt/nt/47/nt_4703.parse 25 3 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 3:0-rel 4:1-ARG2
-pt/nt/47/nt_4703.parse 32 3 gold be be.03 ----- 3:0-rel
 pt/nt/47/nt_4703.parse 4 1 gold show show.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
-pt/nt/47/nt_4703.parse 5 14 gold live live.01 ----- 14:0-rel 15:0-ARG0
 pt/nt/47/nt_4703.parse 20 6 gold bring bring.01 ----- 1:1*3:1*4:1*7:1-ARG1 1:1*3:1-LINK-SLC 6:0-rel 8:1-ARG3
 pt/nt/47/nt_4703.parse 14 18 gold be be.03 ----- 18:0-rel
+pt/nt/47/nt_4703.parse 22 8 gold put put.01 ----- 4:1*6:1*7:1-ARG0 4:1*6:1-LINK-SLC 8:0-rel 9:1-ARG1 11:1-ARG2
 pt/nt/47/nt_4703.parse 29 15 gold be be.02 ----- 0:1-ARGM-DIS 2:1-ARGM-TMP 5:2-ARGM-TMP 15:0-rel 16:1-ARG1 18:1-ARGM-LOC
 pt/nt/47/nt_4703.parse 21 10 gold speak speak.01 ----- 8:1-ARG0 9:0-ARGM-MOD 10:0-rel 11:1-ARGM-MNR
 pt/nt/47/nt_4703.parse 31 17 gold be be.01 ----- 16:1*18:1-ARG2 17:0-rel 19:1-ARG1
 pt/nt/47/nt_4703.parse 5 4 gold write write.01 ----- 0:1*5:1-ARG1 3:0-ARGM-NEG 4:0-rel 6:1-ARGM-MNR
+pt/nt/47/nt_4703.parse 4 11 gold send send.01 ----- 5:2*9:1*12:1-ARG1 5:2*9:1-LINK-SLC 10:1-ARG0 11:0-rel 13:1-ARGM-MNR
 pt/nt/47/nt_4703.parse 20 21 gold end end.01 ----- 16:1*18:1*19:1-ARG1 16:1*18:1-LINK-SLC 20:1-ARGM-NEG 21:0-rel
 pt/nt/47/nt_4703.parse 10 6 gold be be.01 ----- 4:1-ARG1 6:0-rel 7:2-ARG2
+pt/nt/47/nt_4703.parse 7 2 gold say say.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG1 5:1-ARGM-CAU
 pt/nt/47/nt_4703.parse 33 10 gold be be.03 ----- 10:0-rel
 pt/nt/47/nt_4703.parse 15 7 gold come come.03 ----- 2:1*5:1*6:1-ARG1 2:1*5:1-LINK-SLC 7:0-rel 8:1-ARG2
-pt/nt/47/nt_4703.parse 16 5 gold mean mean.01 ----- 3:1*6:1-ARG2 4:1-ARG0 5:0-rel
 pt/nt/47/nt_4703.parse 23 1 gold cover cover.02 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 4:1-ARGM-PRP
-pt/nt/47/nt_4703.parse 24 3 gold disappear disappear.01 ----- 0:1-ARG1 3:0-rel
+pt/nt/47/nt_4703.parse 25 3 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 3:0-rel 4:1-ARG2
 pt/nt/47/nt_4703.parse 11 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:0-ARGM-NEG 3:2-ARG2
 pt/nt/47/nt_4703.parse 8 3 gold mean mean.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:1-ARG2
 pt/nt/47/nt_4703.parse 26 7 gold read read.01 ----- 4:1*14:1-ARGM-TMP 5:1-ARG0 7:0-rel 8:2-ARG1
 pt/nt/47/nt_4703.parse 9 14 gold do do.02 ----- 11:1*12:1*15:1-ARG1 11:1*12:1-LINK-SLC 13:1-ARG0 14:0-rel
+pt/nt/47/nt_4703.parse 19 3 gold lose lose.02 ----- 0:0-ARGM-DIS 1:1-ARG0 2:1-ARGM-ADV 3:0-rel 4:1-ARG1 6:2-ARGM-TMP
 pt/nt/47/nt_4703.parse 21 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:3-ARG2
 pt/nt/47/nt_4703.parse 13 5 gold bring bring.01 ----- 0:1*3:1*4:1-ARG0 0:1*3:1-LINK-SLC 5:0-rel 6:1-ARG1
 pt/nt/47/nt_4703.parse 16 11 gold judge judge.01 ----- 8:1-ARG0 11:0-rel 12:1-ARG1 13:2-ARG2
 pt/nt/47/nt_4703.parse 23 12 gold see see.01 ----- 6:2-ARG0 10:0-ARGM-MOD 11:0-ARGM-NEG 12:0-rel 13:1-ARG1
 pt/nt/47/nt_4703.parse 27 5 gold remove remove.01 ----- 0:1*6:1-ARG1 3:0-ARGM-NEG 5:0-rel 7:1-ARGM-GOL
 pt/nt/47/nt_4703.parse 31 13 gold be be.01 ----- 7:1*14:1-ARG2 8:2-ARG1 13:0-rel
-pt/nt/47/nt_4703.parse 4 11 gold send send.01 ----- 5:2*9:1*12:1-ARG1 5:2*9:1-LINK-SLC 10:1-ARG0 11:0-rel 13:1-ARGM-MNR
-pt/nt/47/nt_4703.parse 24 9 gold want want.01 ----- 6:1-ARG0 8:0-ARGM-NEG 9:0-rel 10:2-ARG1
+pt/nt/47/nt_4703.parse 16 5 gold mean mean.01 ----- 3:1*6:1-ARG2 4:1-ARG0 5:0-rel
 pt/nt/47/nt_4703.parse 19 9 gold compare compare.01 ----- 6:1*20:1-ARGM-TMP 7:1*10:1-ARG1 9:0-rel 11:1-ARG2
 pt/nt/47/nt_4703.parse 14 28 gold continue continue.01 ----- 22:2-ARG0 26:0-ARGM-MOD 27:0-ARGM-NEG 28:0-rel 29:2-ARG1
 pt/nt/47/nt_4703.parse 24 7 gold do do.01 ----- 7:0-rel
-pt/nt/47/nt_4703.parse 22 8 gold put put.01 ----- 4:1*6:1*7:1-ARG0 4:1*6:1-LINK-SLC 8:0-rel 9:1-ARG1 11:1-ARG2
 pt/nt/47/nt_4703.parse 6 3 gold write write.01 ----- 0:1*4:1-ARG1 2:0-ARGM-NEG 3:0-rel 5:1-ARGM-LOC
-pt/nt/47/nt_4703.parse 14 7 gold be be.01 ----- 0:1-ARGM-DIS 3:2-ARG1 7:0-rel 8:3-ARG2
-pt/nt/47/nt_4703.parse 22 10 gold cover cover.02 ----- 10:0-rel
 pt/nt/47/nt_4703.parse 33 16 gold be be.01 ----- 9:1*13:1*14:1-ARG1 16:0-rel 17:1-ARG2
+pt/nt/47/nt_4703.parse 4 4 gold be be.01 ----- 3:1-ARG1 4:0-rel 5:3-ARG2
+pt/nt/47/nt_4703.parse 32 3 gold be be.03 ----- 3:0-rel
 pt/nt/47/nt_4703.parse 16 19 gold have have.03 ----- 18:1-ARG0 19:0-rel 20:1-ARG1
+pt/nt/47/nt_4703.parse 22 10 gold cover cover.02 ----- 10:0-rel
 pt/nt/47/nt_4703.parse 17 12 gold have have.03 ----- 0:1-ARGM-DIS 1:1-ARGM-ADV 2:2-ARG0 12:0-rel 13:2-ARG1
 pt/nt/47/nt_4703.parse 27 2 gold have have.01 ----- 2:0-rel
 pt/nt/47/nt_4703.parse 30 3 gold change change.01 ----- 1:1*8:1-ARGM-TMP 2:1-ARG0 3:0-rel
 pt/nt/47/nt_4703.parse 24 14 gold end end.01 ----- 13:1-ARG1 14:0-rel
 pt/nt/47/nt_4703.parse 1 0 gold do do.01 ----- 0:0-rel
 pt/nt/47/nt_4703.parse 9 5 gold make make.02 ----- 2:1*3:1*4:1-ARG0 2:1*3:1-LINK-SLC 5:0-rel 6:2-ARG1
+pt/nt/47/nt_4703.parse 27 1 gold cover cover.02 ----- 1:0-rel
 pt/nt/47/nt_4703.parse 34 12 gold come come.03 ----- 5:2*10:1*11:1-ARG1 5:2*10:1-LINK-SLC 12:0-rel 13:1-ARG2
 pt/nt/47/nt_4703.parse 12 3 gold bring bring.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
 pt/nt/47/nt_4703.parse 2 8 gold write write.01 ----- 5:1*9:1-ARG1 5:1*9:1-LINK-PSV 8:0-rel 10:1-ARGM-LOC
@@ -93,14 +92,15 @@ pt/nt/47/nt_4703.parse 34 19 gold be be.01 ----- 14:1*17:1*18:1-ARG1 14:1*17:1-L
 pt/nt/47/nt_4703.parse 30 11 gold cover cover.02 ----- 11:0-rel
 pt/nt/47/nt_4703.parse 5 2 gold be be.03 ----- 2:0-rel
 pt/nt/47/nt_4703.parse 8 1 gold do do.01 ----- 1:0-rel
-pt/nt/47/nt_4703.parse 7 2 gold say say.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG1 5:1-ARGM-CAU
 pt/nt/47/nt_4703.parse 2 4 gold be be.01 ----- 0:1-ARGM-DIS 2:2-ARG1 4:0-rel 5:2-ARG2
+pt/nt/47/nt_4703.parse 24 3 gold disappear disappear.01 ----- 0:1-ARG1 3:0-rel
 pt/nt/47/nt_4703.parse 33 2 gold show show.01 ----- 0:2-ARG0 2:0-rel 3:2-ARG1
 pt/nt/47/nt_4703.parse 16 2 gold be be.01 ----- 0:2;8:3-ARG1 2:0-rel 3:2-ARG2
 pt/nt/47/nt_4703.parse 0 1 gold be be.03 ----- 1:0-rel
 pt/nt/47/nt_4703.parse 3 2 gold know know.02 ----- 0:1*5:1-ARG1 2:0-rel 6:1-ARG0
 pt/nt/47/nt_4703.parse 3 1 gold be be.03 ----- 1:0-rel
 pt/nt/47/nt_4703.parse 13 8 gold write write.01 ----- 0:1*9:1-ARG1 0:1*9:1-LINK-PSV 8:0-rel 10:1-ARGM-MNR 12:1-ARGM-LOC
-pt/nt/47/nt_4703.parse 29 7 gold read read.01 ----- 5:1*12:1-ARGM-TMP 6:1-ARG0 7:0-rel 8:2-ARG1
 pt/nt/47/nt_4703.parse 30 12 gold be be.03 ----- 12:0-rel
+pt/nt/47/nt_4703.parse 32 5 gold cover cover.02 ----- 0:0-ARGM-DIS 1:1*6:1-ARG1 4:0-ARGM-NEG 5:0-rel
 pt/nt/47/nt_4703.parse 0 3 gold begin begin.01 ----- 0:1*15:1-ARGM-CAU 2:1-ARG0 3:0-rel 4:1-ARGM-TMP 5:2-ARG1
+pt/nt/47/nt_4703.parse 29 7 gold read read.01 ----- 5:1*12:1-ARGM-TMP 6:1-ARG0 7:0-rel 8:2-ARG1

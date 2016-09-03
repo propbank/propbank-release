@@ -12,13 +12,12 @@ nw/xinhua/03/chtb_0315.parse 17 5 gold win win.01 ----- 0:2-ARG0 5:0-rel 6:1-ARG
 nw/xinhua/03/chtb_0315.parse 13 4 gold win win.01 ----- 0:2-ARG0 4:0-rel 5:1-ARG1 7:1-ARG2 13:1-ARGM-MNR
 nw/xinhua/03/chtb_0315.parse 8 2 gold achieve achieve.01 ----- 0:1-ARG0 1:1-ARGM-ADV 2:0-rel 3:1-ARG1 5:1-ARGM-LOC 10:1-ARGM-LOC 12:1-ARGM-ADV
 nw/xinhua/03/chtb_0315.parse 25 14 gold participate participate.01 ----- 0:1*10:1,15:1-ARG1 0:1*10:1-LINK-SLC 11:1-ARG0 14:0-rel 17:2-ARGM-TMP
-nw/xinhua/03/chtb_0315.parse 6 28 gold champion championship.02 ----- 28:0-rel
 nw/xinhua/03/chtb_0315.parse 2 40 gold victory victory.01 ----- 40:0-rel 41:1-ARG2
 nw/xinhua/03/chtb_0315.parse 23 7 gold champion championship.02 ----- 7:0-rel
 nw/xinhua/03/chtb_0315.parse 24 5 gold win win.01 ----- 0:2-ARG0 5:0-rel 6:1-ARG1 8:1-ARG2 16:1-ARGM-MNR
+nw/xinhua/03/chtb_0315.parse 4 8 gold jump jump.01 ----- 7:0-ARGM-MNR 8:0-rel
 nw/xinhua/03/chtb_0315.parse 14 11 gold be be.03 ----- 11:0-rel
 nw/xinhua/03/chtb_0315.parse 16 12 gold win win.01 ----- 0:1-ARGM-LOC 6:3-ARG0 12:0-rel 13:1-ARG1 15:1-ARG2 21:1-ARGM-MNR
-nw/xinhua/03/chtb_0315.parse 19 6 gold win win.01 ----- 0:2-ARG0 6:0-rel 7:1-ARG1 9:1-ARG2 14:1-ARGM-MNR
 nw/xinhua/03/chtb_0315.parse 10 22 gold run run.02 ----- 0:3-ARG0 15:1-ARGM-ADV 22:0-rel 23:2-ARGM-MNR 28:1-ARG1 31:1-ARGM-TMP
 nw/xinhua/03/chtb_0315.parse 3 11 gold clinch clinch.01 ----- 0:1-ARG0 11:0-rel 12:2-ARG1 20:1-ARGM-ADV
 nw/xinhua/03/chtb_0315.parse 21 27 gold fail fail.01 ----- 0:1-ARGM-LOC 5:2-ARG1 27:0-rel 28:1-ARG2
@@ -26,28 +25,29 @@ nw/xinhua/03/chtb_0315.parse 11 11 gold win win.01 ----- 0:1-ARGM-ADV 6:3-ARG0 1
 nw/xinhua/03/chtb_0315.parse 15 3 gold throw throw.01 ----- 2:0-ARG1 3:0-rel
 nw/xinhua/03/chtb_0315.parse 14 21 gold jump jump.01 ----- 20:0-ARGM-MNR 21:0-rel
 nw/xinhua/03/chtb_0315.parse 2 39 gold maintain maintain.01 ----- 0:4*37:1-ARG0 38:1-ARGM-ADV 39:0-rel 40:2-ARG1
+nw/xinhua/03/chtb_0315.parse 25 9 gold jump jump.01 ----- 1:1-ARG1 8:0-ARGM-MNR 9:0-rel 10:2-ARGM-ADJ
 nw/xinhua/03/chtb_0315.parse 23 5 gold win win.01 ----- 0:2-ARG0 5:0-rel 6:1-ARG1 8:1-ARG2 15:1-ARGM-MNR
 nw/xinhua/03/chtb_0315.parse 22 13 gold throw throw.01 ----- 10:1-ARG0 12:0-ARG1 13:0-rel
 nw/xinhua/03/chtb_0315.parse 2 55 gold share share.01 ----- 0:4*37:1-ARG0 55:0-rel 56:2-ARG1
-nw/xinhua/03/chtb_0315.parse 9 6 gold clinch clinch.01 ----- 0:2-ARG0 6:0-rel 7:1-ARG1 12:1-ARGM-TMP 19:1-ARGM-ADV
-nw/xinhua/03/chtb_0315.parse 12 11 gold win win.01 ----- 0:1-ARG2 6:3-ARG0 11:0-rel 12:1-ARG1 14:1-ARGM-MNR
 nw/xinhua/03/chtb_0315.parse 1 8 gold hold hold.04 ----- 0:1*9:1-ARG1 8:0-rel 10:1-ARGM-LOC 15:1-ARGM-TMP 17:1-ARGM-TMP
+nw/xinhua/03/chtb_0315.parse 20 11 gold throw throw.01 ----- 10:0-ARG1 11:0-rel
+nw/xinhua/03/chtb_0315.parse 14 13 gold rank rank.01 ----- 0:4*14:1-ARG1 12:0-ARGM-ADV 13:0-rel 15:2-ARG2 18:1-ARGM-LOC 23:1-ARGM-MNR
+nw/xinhua/03/chtb_0315.parse 9 6 gold clinch clinch.01 ----- 0:2-ARG0 6:0-rel 7:1-ARG1 12:1-ARGM-TMP 19:1-ARGM-ADV
+nw/xinhua/03/chtb_0315.parse 6 28 gold champion championship.02 ----- 28:0-rel
+nw/xinhua/03/chtb_0315.parse 12 11 gold win win.01 ----- 0:1-ARG2 6:3-ARG0 11:0-rel 12:1-ARG1 14:1-ARGM-MNR
+nw/xinhua/03/chtb_0315.parse 19 6 gold win win.01 ----- 0:2-ARG0 6:0-rel 7:1-ARG1 9:1-ARG2 14:1-ARGM-MNR
 nw/xinhua/03/chtb_0315.parse 4 1 gold clinch clinch.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1 9:1-ARGM-ADV
 nw/xinhua/03/chtb_0315.parse 25 22 gold list list.01 ----- 0:2*23:1-ARG1 21:1-ARGM-ADV 22:0-rel 24:1-ARG2
 nw/xinhua/03/chtb_0315.parse 21 18 gold jump jump.01 ----- 15:1-ARG1 17:0-ARGM-MNR 18:0-rel
 nw/xinhua/03/chtb_0315.parse 15 20 gold win win.01 ----- 0:1-ARG2 15:3-ARG0 20:0-rel 21:1-ARG1 23:1-ARGM-MNR
-nw/xinhua/03/chtb_0315.parse 25 9 gold jump jump.01 ----- 1:1-ARG1 8:0-ARGM-MNR 9:0-rel 10:2-ARGM-ADJ
-nw/xinhua/03/chtb_0315.parse 20 11 gold throw throw.01 ----- 10:0-ARG1 11:0-rel
 nw/xinhua/03/chtb_0315.parse 6 13 gold hold hold.04 ----- 1:2*14:1-ARG1 1:2*14:1-LINK-PSV 13:0-rel 15:1-ARGM-TMP 16:1-ARGM-LOC
-nw/xinhua/03/chtb_0315.parse 4 8 gold jump jump.01 ----- 7:0-ARGM-MNR 8:0-rel
 nw/xinhua/03/chtb_0315.parse 21 10 gold attempt attempt.01 ----- 0:1-ARGM-LOC 5:2-ARG0 10:0-rel 11:2-ARG1
 nw/xinhua/03/chtb_0315.parse 5 9 gold jump jump.01 ----- 8:0-ARGM-MNR 9:0-rel
 nw/xinhua/03/chtb_0315.parse 12 13 gold champion championship.02 ----- 13:0-rel
 nw/xinhua/03/chtb_0315.parse 7 10 gold suffer suffer.01 ----- 0:3-ARG0 10:0-rel 11:1-ARG1 13:1-ARGM-TMP
 nw/xinhua/03/chtb_0315.parse 17 9 gold champion championship.02 ----- 7:1-ARG1 9:0-rel
 nw/xinhua/03/chtb_0315.parse 6 26 gold clinch clinch.01 ----- 0:1-ARGM-LOC 23:1-ARG0 26:0-rel 27:1-ARG1 29:1-ARGM-LOC
-nw/xinhua/03/chtb_0315.parse 22 5 gold win win.01 ----- 0:2-ARG0 5:0-rel 6:1-ARG1 8:1-ARG2 16:1-ARGM-MNR
 nw/xinhua/03/chtb_0315.parse 3 1 gold maintain maintain.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 5:1-ARGM-TMP
 nw/xinhua/03/chtb_0315.parse 20 5 gold win win.01 ----- 0:2-ARG0 5:0-rel 6:1-ARG1 8:1-ARG2 14:1-ARGM-MNR
-nw/xinhua/03/chtb_0315.parse 14 13 gold rank rank.01 ----- 0:4*14:1-ARG1 12:0-ARGM-ADV 13:0-rel 15:2-ARG2 18:1-ARGM-LOC 23:1-ARGM-MNR
+nw/xinhua/03/chtb_0315.parse 22 5 gold win win.01 ----- 0:2-ARG0 5:0-rel 6:1-ARG1 8:1-ARG2 16:1-ARGM-MNR
 nw/xinhua/03/chtb_0315.parse 2 24 gold clinch clinch.01 ----- 0:4-ARG0 24:0-rel 25:2-ARG1 37:2-ARGM-ADV

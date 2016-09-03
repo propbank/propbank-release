@@ -2,6 +2,8 @@ nw/xinhua/02/chtb_0214.parse 7 21 gold control control.01 ----- 2:2*18:1-ARG0 20
 nw/xinhua/02/chtb_0214.parse 1 16 gold have have.03 ----- 0:2-ARG0 16:0-rel 17:2-ARG1
 nw/xinhua/02/chtb_0214.parse 11 6 gold believe believe.01 ----- 0:1-ARG0 6:0-rel 7:1-ARG1
 nw/xinhua/02/chtb_0214.parse 6 44 gold fire fire.04 ----- 43:1-ARG0 44:0-rel 45:2-ARG1 50:1-ARGM-TMP
+nw/xinhua/02/chtb_0214.parse 6 32 gold plan plan.01 ----- 0:1-ARGM-TMP 31:1-ARGM-ADV 32:0-rel 34:2-ARG1
+nw/xinhua/02/chtb_0214.parse 5 13 gold be be.01 ----- 0:1-ARGM-ADV 8:2-ARG1 13:0-rel 14:1-ARG2
 nw/xinhua/02/chtb_0214.parse 7 17 gold continue continue.01 ----- 0:1-ARGM-DIS 2:2-ARG0 17:0-rel 18:2-ARG1
 nw/xinhua/02/chtb_0214.parse 2 23 gold express express.01 ----- 0:2-ARG0 11:1-ARGM-TMP 23:0-rel 24:1-ARG1
 nw/xinhua/02/chtb_0214.parse 7 15 gold launch launch.01 ----- 15:0-rel
@@ -12,37 +14,35 @@ nw/xinhua/02/chtb_0214.parse 13 11 gold process process.02 ----- 6:1-ARG0 8:0,9:
 nw/xinhua/02/chtb_0214.parse 10 9 gold conduct conduct.01 ----- 0:1*7:1-ARG0 9:0-rel 10:3-ARG1
 nw/xinhua/02/chtb_0214.parse 13 20 gold change change.01 ----- 14:1*21:1-ARG1 20:0-rel
 nw/xinhua/02/chtb_0214.parse 10 21 gold communicate communicate.01 ----- 20:0-ARGM-MNR 21:0-rel
-nw/xinhua/02/chtb_0214.parse 6 8 gold be be.03 ----- 8:0-rel
 nw/xinhua/02/chtb_0214.parse 3 38 gold be be.03 ----- 38:0-rel
-nw/xinhua/02/chtb_0214.parse 3 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 nw/xinhua/02/chtb_0214.parse 3 8 gold appropriate appropriate.01 ----- 8:0-rel
 nw/xinhua/02/chtb_0214.parse 6 55 gold require require.01 ----- 53:1-ARG0 55:0-rel 56:3-ARG1
+nw/xinhua/02/chtb_0214.parse 6 8 gold be be.03 ----- 8:0-rel
 nw/xinhua/02/chtb_0214.parse 4 10 gold organize organize.01 ----- 5:1-ARG0 10:0-rel 11:1-ARG1 14:2-ARGM-PRP
 nw/xinhua/02/chtb_0214.parse 4 17 gold ascertain ascertain.01 ----- 11:1*14:1-ARG0 11:1*14:1-LINK-PRO 16:1-ARGM-MNR 17:0-rel 18:2-ARG1
 nw/xinhua/02/chtb_0214.parse 13 5 gold delay delay.01 ----- 0:1-ARG0 2:1-ARGM-MNR 5:0-rel 6:2-ARG1
 nw/xinhua/02/chtb_0214.parse 4 3 gold suggest suggest.01 ----- 0:1-ARG0 2:1-ARGM-DIS 3:0-rel 4:1-ARG1
 nw/xinhua/02/chtb_0214.parse 1 21 gold enter enter.01 ----- 0:2*20:1-ARG0 0:2*20:1-LINK-PRO 21:0-rel 22:1-ARG1
 nw/xinhua/02/chtb_0214.parse 8 30 gold launch launch.01 ----- 26:1*31:1-ARG1 26:1*31:1-LINK-PSV 29:1-ARGM-TMP 30:0-rel 32:1-ARG0 34:1-ARGM-TMP
-nw/xinhua/02/chtb_0214.parse 3 39 gold utilize utilize.01 ----- 35:1*40:1-ARG1 37:0-ARGM-MOD 39:0-rel 41:1-ARGM-EXT
 nw/xinhua/02/chtb_0214.parse 6 9 gold send send.02 ----- 1:1*10:1-ARG1 9:0-rel 11:1-ARG2 14:1-ARG0 22:1-ARGM-TMP
 nw/xinhua/02/chtb_0214.parse 13 19 gold be be.03 ----- 19:0-rel
-nw/xinhua/02/chtb_0214.parse 6 32 gold plan plan.01 ----- 0:1-ARGM-TMP 31:1-ARGM-ADV 32:0-rel 34:2-ARG1
 nw/xinhua/02/chtb_0214.parse 1 11 gold launch launch.01 ----- 6:1*12:1-ARG1 6:1*12:1-LINK-PSV 11:0-rel 13:1-ARG0
 nw/xinhua/02/chtb_0214.parse 13 16 gold need need.01 ----- 14:1-ARG0 16:0-rel 17:2-ARG1
 nw/xinhua/02/chtb_0214.parse 6 30 gold be be.03 ----- 30:0-rel
 nw/xinhua/02/chtb_0214.parse 6 36 gold send send.02 ----- 29:1*34:1-ARG0 36:0-rel 37:1-ARG1 38:1-ARG2 41:1-ARGM-MNR 42:1-ARGM-MNR 53:2-ARGM-ADV
 nw/xinhua/02/chtb_0214.parse 3 22 gold have have.01 ----- 22:0-rel
+nw/xinhua/02/chtb_0214.parse 3 39 gold utilize utilize.01 ----- 35:1*40:1-ARG1 37:0-ARGM-MOD 39:0-rel 41:1-ARGM-EXT
 nw/xinhua/02/chtb_0214.parse 12 8 gold be be.03 ----- 8:0-rel
 nw/xinhua/02/chtb_0214.parse 3 23 gold become become.01 ----- 20:1-ARGM-ADV 21:1-ARG1 23:0-rel 24:2-ARG2
 nw/xinhua/02/chtb_0214.parse 5 29 gold break break_down.12 ----- 29:0-rel 30:1-ARG1
 nw/xinhua/02/chtb_0214.parse 10 16 gold experiment experiment.01 ----- 10:1-ARGM-LOC 13:0-ARGM-TMP 14:0,15:0-ARG1 16:0-rel 18:1-ARGM-ADJ
 nw/xinhua/02/chtb_0214.parse 3 33 gold hope hope.01 ----- 31:1-ARG0 32:1-ARGM-TMP 33:0-rel 35:2-ARG1
+nw/xinhua/02/chtb_0214.parse 3 10 gold spend spend.01 ----- 4:2*11:1-ARG3 10:0-rel 12:1-ARG1 20:2-ARGM-ADV
 nw/xinhua/02/chtb_0214.parse 8 8 gold weigh weigh.01 ----- 0:1-ARG1 8:0-rel 9:1-ARG3
 nw/xinhua/02/chtb_0214.parse 10 2 gold plan plan.01 ----- 0:1-ARG0 1:1-ARGM-ADV 2:0-rel 3:2-ARG1
-nw/xinhua/02/chtb_0214.parse 11 12 gold experiment experiment.01 ----- 9:1-ARG2 12:0-rel
 nw/xinhua/02/chtb_0214.parse 10 5 gold use use.01 ----- 0:1*3:1-ARG0 5:0-rel 6:1-ARG1 7:2-ARG2
-nw/xinhua/02/chtb_0214.parse 3 10 gold spend spend.01 ----- 4:2*11:1-ARG3 10:0-rel 12:1-ARG1 20:2-ARGM-ADV
 nw/xinhua/02/chtb_0214.parse 4 25 gold enter enter.01 ----- 18:1*20:1*28:1-ARGM-CAU 18:1*20:1-LINK-SLC 21:1-ARG0 23:0-ARGM-MOD 24:0-ARGM-NEG 25:0-rel 26:1-ARG1
+nw/xinhua/02/chtb_0214.parse 3 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 nw/xinhua/02/chtb_0214.parse 3 25 gold float float.01 ----- 24:1-ARG1 25:0-rel 26:1-ARGM-LOC
 nw/xinhua/02/chtb_0214.parse 7 11 gold take take.01 ----- 2:1*9:1*10:1-ARG0 2:1*9:1-LINK-SLC 11:0-rel 12:1-ARG1 13:1-ARG2
 nw/xinhua/02/chtb_0214.parse 3 9 gold be be.03 ----- 9:0-rel
@@ -52,8 +52,8 @@ nw/xinhua/02/chtb_0214.parse 11 13 gold be be.01 ----- 9:2-ARG1 13:0-rel 14:1-AR
 nw/xinhua/02/chtb_0214.parse 11 19 gold enter enter.01 ----- 8:1-ARGM-ADV 16:1-ARG0 17:0-ARGM-MOD 18:1-ARGM-TMP 19:0-rel 20:2-ARG1
 nw/xinhua/02/chtb_0214.parse 2 28 gold apologize apologize.01 ----- 0:2-ARG0 11:1-ARGM-TMP 28:0-rel 29:1-ARG2
 nw/xinhua/02/chtb_0214.parse 11 24 gold use use.01 ----- 23:1-ARG0 24:0-rel 25:1-ARG1 27:1-ARGM-MNR
-nw/xinhua/02/chtb_0214.parse 5 13 gold be be.01 ----- 0:1-ARGM-ADV 8:2-ARG1 13:0-rel 14:1-ARG2
 nw/xinhua/02/chtb_0214.parse 5 25 gold operate operate.01 ----- 15:2*22:1-ARG1 24:1-ARGM-MNR 25:0-rel 26:1-ARGM-CAU
 nw/xinhua/02/chtb_0214.parse 2 26 gold regret regret.01 ----- 24:0-ARG0 25:0-ARGM-EXT 26:0-rel
 nw/xinhua/02/chtb_0214.parse 8 25 gold be be.01 ----- 0:2-ARG1 25:0-rel 26:2-ARG2
 nw/xinhua/02/chtb_0214.parse 5 20 gold be be.01 ----- 15:2-ARG1 20:0-rel 21:1-ARG2
+nw/xinhua/02/chtb_0214.parse 11 12 gold experiment experiment.01 ----- 9:1-ARG2 12:0-rel

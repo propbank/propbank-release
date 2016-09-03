@@ -1,5 +1,4 @@
 bn/cnn/01/cnn_0175.parse 5 9 gold have have.02 ----- 9:0-rel
-bn/cnn/01/cnn_0175.parse 11 35 gold turn turn_out.11 ----- 34:1*37:2-ARG1 35:0,36:1-rel
 bn/cnn/01/cnn_0175.parse 0 7 gold view view.01 ----- 0:1-ARGM-LOC 2:1-ARGM-TMP 4:1-ARG0 7:0-rel 8:1-ARG1 10:1-ARGM-MNR
 bn/cnn/01/cnn_0175.parse 5 35 gold stay stay.01 ----- 34:1-ARG1 35:0-rel 36:1-ARGM-CAU
 bn/cnn/01/cnn_0175.parse 9 1 gold result result.01 ----- 0:0,2:0-ARG2 1:0-rel
@@ -17,7 +16,6 @@ bn/cnn/01/cnn_0175.parse 5 18 gold have have.02 ----- 18:0-rel
 bn/cnn/01/cnn_0175.parse 11 39 gold be be.01 ----- 34:1*37:1-ARG1 39:0-rel 40:2-ARG2
 bn/cnn/01/cnn_0175.parse 5 7 gold be be.01 ----- 2:1*5:1*6:1-ARG1 2:1*5:1-LINK-SLC 7:0-rel 8:1-ARG2
 bn/cnn/01/cnn_0175.parse 12 5 gold be be.01 ----- 0:1*3:1-ARG1 5:0-rel 6:2-ARG2
-bn/cnn/01/cnn_0175.parse 3 14 gold look look.01 ----- 12:0-ARG0 13:0-ARGM-TMP 14:0-rel 15:1-ARG1
 bn/cnn/01/cnn_0175.parse 11 16 gold former former.01 ----- 16:0-rel 17:0,18:0-ARG1
 bn/cnn/01/cnn_0175.parse 4 1 gold collect collect.01 ----- 1:0-rel
 bn/cnn/01/cnn_0175.parse 9 29 gold be be.03 ----- 29:0-rel
@@ -27,11 +25,13 @@ bn/cnn/01/cnn_0175.parse 5 28 gold send send.01 ----- 0:2*26:1-ARG0 28:0-rel 29:
 bn/cnn/01/cnn_0175.parse 8 1 gold borrow borrow.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:1-ARG2 5:2-ARGM-PRP
 bn/cnn/01/cnn_0175.parse 13 11 gold be be.01 ----- 7:1*9:1*10:1-ARG1 7:1*9:1-LINK-SLC 11:0-rel 12:1-ARG2
 bn/cnn/01/cnn_0175.parse 5 42 gold be be.01 ----- 38:1-ARGM-ADV 41:1-ARG1 42:0-rel 43:2-ARG2
+bn/cnn/01/cnn_0175.parse 3 14 gold look look.01 ----- 12:0-ARG0 13:0-ARGM-TMP 14:0-rel 15:1-ARG1
 bn/cnn/01/cnn_0175.parse 13 3 gold understand understand.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:2-ARG1
 bn/cnn/01/cnn_0175.parse 14 23 gold understand understand.01 ----- 21:1-ARG0 22:1-ARGM-MNR 23:0-rel 24:1-ARG1
 bn/cnn/01/cnn_0175.parse 14 18 gold photograph photograph.01 ----- 18:0-rel
 bn/cnn/01/cnn_0175.parse 14 10 gold plot plot.01 ----- 1:1-ARG0 2:0-ARGM-MOD 10:0-rel 11:2-ARG2
 bn/cnn/01/cnn_0175.parse 3 10 gold be be.03 ----- 10:0-rel
+bn/cnn/01/cnn_0175.parse 11 2 gold look look.01 ----- 0:1*19:1-ARGM-TMP 1:1-ARG0 2:0-rel 3:1-ARGM-DIR 4:1-ARG1
 bn/cnn/01/cnn_0175.parse 8 13 gold have have.02 ----- 13:0-rel
 bn/cnn/01/cnn_0175.parse 10 18 gold trip trip.03 ----- 16:0-ARG0 17:0-ARGM-TMP 18:0-rel 19:1-ARG1 22:1-ARGM-TMP
 bn/cnn/01/cnn_0175.parse 2 6 gold storm storm.02 ----- 0:1*8:1-ARGM-TMP 1:2-ARG0 6:0-rel 7:1-ARG1
@@ -42,18 +42,19 @@ bn/cnn/01/cnn_0175.parse 12 16 gold receive receive.01 ----- 14:1*19:1-ARGM-MNR 
 bn/cnn/01/cnn_0175.parse 7 5 gold be be.01 ----- 0:2-ARG1 5:0-rel 6:0-ARGM-NEG 7:1-ARG2
 bn/cnn/01/cnn_0175.parse 11 23 gold stand stand_out.06 ----- 0:2-ARGM-TMP 21:1-ARG1 23:0,24:1-rel
 bn/cnn/01/cnn_0175.parse 8 16 gold shoot shoot.03 ----- 0:1*14:1-ARG0 16:0-rel 17:2-ARG1 21:1-ARG2 22:1-ARGM-TMP
-bn/cnn/01/cnn_0175.parse 8 29 gold be be.03 ----- 29:0-rel
 bn/cnn/01/cnn_0175.parse 6 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
+bn/cnn/01/cnn_0175.parse 3 17 gold photograph photograph.01 ----- 16:0-ARG0 17:0-rel 18:1-ARGM-LOC
 bn/cnn/01/cnn_0175.parse 9 3 gold show show.01 ----- 0:1-ARG0 3:0-rel 4:3-ARG1
+bn/cnn/01/cnn_0175.parse 7 1 gold capture capture.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bn/cnn/01/cnn_0175.parse 12 42 gold be be.01 ----- 28:3-ARG1 42:0-rel 43:1-ARG2
+bn/cnn/01/cnn_0175.parse 11 35 gold turn turn_out.11 ----- 34:1*37:2-ARG1 35:0,36:1-rel
+bn/cnn/01/cnn_0175.parse 0 6 gold be be.03 ----- 6:0-rel
 bn/cnn/01/cnn_0175.parse 14 20 gold help help.01 ----- 0:1-ARGM-ADV 17:1-ARG0 19:0-ARGM-MOD 20:0-rel 21:2-ARG1
 bn/cnn/01/cnn_0175.parse 8 8 gold get get.05 ----- 0:1*5:1-ARG1 6:1-ARGM-ADV 8:0-rel 9:1-ARG2
-bn/cnn/01/cnn_0175.parse 3 17 gold photograph photograph.01 ----- 16:0-ARG0 17:0-rel 18:1-ARGM-LOC
-bn/cnn/01/cnn_0175.parse 0 6 gold be be.03 ----- 6:0-rel
+bn/cnn/01/cnn_0175.parse 8 29 gold be be.03 ----- 29:0-rel
 bn/cnn/01/cnn_0175.parse 9 18 gold stand stand.01 ----- 14:1-ARG1 18:0-rel 19:1-ARG2 26:2-ARGM-ADV
 bn/cnn/01/cnn_0175.parse 12 1 gold turn turn_out.11 ----- 0:1*3:2-ARG1 1:0,2:1-rel
 bn/cnn/01/cnn_0175.parse 8 24 gold lose lose.02 ----- 23:1-ARG0 24:0-rel 25:1-ARG1 27:1-ARGM-TMP
-bn/cnn/01/cnn_0175.parse 11 2 gold look look.01 ----- 0:1*19:1-ARGM-TMP 1:1-ARG0 2:0-rel 3:1-ARGM-DIR 4:1-ARG1
 bn/cnn/01/cnn_0175.parse 1 2 gold have have.03 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 bn/cnn/01/cnn_0175.parse 3 11 gold get get.01 ----- 7:1-ARGM-TMP 8:1-ARG0 11:0-rel 12:2-ARG1
 bn/cnn/01/cnn_0175.parse 4 2 gold be be.03 ----- 2:0-rel
@@ -61,7 +62,6 @@ bn/cnn/01/cnn_0175.parse 2 11 gold be be.03 ----- 11:0-rel
 bn/cnn/01/cnn_0175.parse 11 28 gold be be.01 ----- 27:1-ARG1 28:0-rel 29:1-ARG2 33:1-ARGM-CAU
 bn/cnn/01/cnn_0175.parse 2 12 gold join join.01 ----- 0:2-ARGM-TMP 10:1*13:1-ARG1 12:0-rel 14:1-ARG0
 bn/cnn/01/cnn_0175.parse 8 30 gold push push.01 ----- 28:1*31:1-ARG1 30:0-rel 32:1-ARGM-LOC
-bn/cnn/01/cnn_0175.parse 7 1 gold capture capture.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bn/cnn/01/cnn_0175.parse 12 33 gold have have.03 ----- 28:1*30:1*34:1-ARG1 28:1*30:1-LINK-SLC 31:2;36:2-ARG0 33:0-rel
 bn/cnn/01/cnn_0175.parse 5 12 gold go go.02 ----- 0:2*10:1-ARG0 12:0-rel 13:1-ARG4
 bn/cnn/01/cnn_0175.parse 12 23 gold be be.01 ----- 22:1-ARG1 23:0-rel 24:1-ARG2 27:1-ARGM-CAU

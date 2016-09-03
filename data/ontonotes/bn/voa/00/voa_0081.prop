@@ -1,4 +1,5 @@
 bn/voa/00/voa_0081.parse 12 14 gold kill kill.01 ----- 0:2*15:1-ARG1 14:0-rel 16:1-ARGM-LOC
+bn/voa/00/voa_0081.parse 9 12 gold be be.03 ----- 12:0-rel
 bn/voa/00/voa_0081.parse 16 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bn/voa/00/voa_0081.parse 22 19 gold constitute constitute.01 ----- 12:1*16:1*17:1-ARG0 12:1*16:1-LINK-SLC 18:0-ARGM-MOD 19:0-rel 20:1-ARG1
 bn/voa/00/voa_0081.parse 12 13 gold be be.03 ----- 13:0-rel
@@ -13,22 +14,18 @@ bn/voa/00/voa_0081.parse 3 4 gold injure injure.01 ----- 3:1*5:1-ARG1 3:1*5:1-LI
 bn/voa/00/voa_0081.parse 4 63 gold put put.02 ----- 62:1-ARG0 63:0-rel 64:1-ARG1
 bn/voa/00/voa_0081.parse 17 8 gold be be.03 ----- 8:0-rel
 bn/voa/00/voa_0081.parse 15 11 gold evacuate evacuate.01 ----- 4:1*8:1*9:1-ARG0 11:0-rel 12:1-ARG1
-bn/voa/00/voa_0081.parse 14 3 gold act act.02 ----- 0:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:2-ARGM-MNR
 bn/voa/00/voa_0081.parse 13 18 gold respond respond.01 ----- 17:0-ARGM-MNR 18:0-rel
 bn/voa/00/voa_0081.parse 19 28 gold ceasefire ceasefire.01 ----- 28:0-rel
-bn/voa/00/voa_0081.parse 5 4 gold be be.03 ----- 4:0-rel
 bn/voa/00/voa_0081.parse 23 16 gold be be.01 ----- 9:3-ARG1 16:0-rel 17:2-ARG2
-bn/voa/00/voa_0081.parse 10 10 gold want want.01 ----- 8:1-ARG0 10:0-rel 11:2-ARG1
 bn/voa/00/voa_0081.parse 11 11 gold clash clash.01 ----- 10:0-ARGM-MNR 11:0-rel 12:1-ARG0 18:1-ARGM-LOC
 bn/voa/00/voa_0081.parse 24 2 gold criticize criticize.01 ----- 0:1-ARG0 1:1-ARGM-DIS 2:0-rel 3:1-ARG1 4:1-ARG2
 bn/voa/00/voa_0081.parse 9 28 gold violent violent.01 ----- 28:0-rel
 bn/voa/00/voa_0081.parse 8 5 gold last last.01 ----- 0:1-ARG1 5:0-rel 6:1-ARG2
-bn/voa/00/voa_0081.parse 13 14 gold warn warn.01 ----- 0:1-ARGM-TMP 11:2-ARG0 14:0-rel 15:1-ARG1 19:1-ARGM-ADV
-bn/voa/00/voa_0081.parse 9 26 gold end end.01 ----- 24:1-ARG0 26:0-rel 27:1-ARG1 29:1-ARGM-TMP
-bn/voa/00/voa_0081.parse 3 2 gold report report.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
 bn/voa/00/voa_0081.parse 18 7 gold have have.01 ----- 7:0-rel
 bn/voa/00/voa_0081.parse 4 41 gold be be.01 ----- 37:2-ARG1 41:0-rel 42:0-ARGM-NEG 43:3-ARG2
+bn/voa/00/voa_0081.parse 6 23 gold share share.01 ----- 15:2*19:1*28:1-ARG2 15:2*19:1-LINK-SLC 21:1-ARG0 22:1-ARGM-TMP 23:0-rel 24:1-ARG1
 bn/voa/00/voa_0081.parse 1 4 gold press press.01 ----- 0:1*5:1-ARG1 4:0-rel 6:1-ARG2 8:1-ARGM-TMP 10:1-ARGM-TMP
+bn/voa/00/voa_0081.parse 14 15 gold draw draw.01 ----- 0:1*13:1*16:1-ARG1 15:0-rel 17:1-ARGM-DIR
 bn/voa/00/voa_0081.parse 15 7 gold warn warn.01 ----- 4:1*8:1-ARG2 7:0-rel 9:2-ARG1
 bn/voa/00/voa_0081.parse 18 3 gold be be.03 ----- 3:0-rel
 bn/voa/00/voa_0081.parse 16 37 gold use use.01 ----- 36:0-ARGM-MNR 37:0-rel 38:1-ARG1 40:1-ARG2
@@ -36,32 +33,27 @@ bn/voa/00/voa_0081.parse 7 10 gold break break_through.22 ----- 9:0-ARGM-NEG 10:
 bn/voa/00/voa_0081.parse 10 6 gold say say.01 ----- 0:1-ARGM-ADV 4:1-ARG0 6:0-rel 7:1-ARG1
 bn/voa/00/voa_0081.parse 17 16 gold leave leave.11 ----- 7:1*15:1-ARG0 16:0-rel 17:2-ARG1
 bn/voa/00/voa_0081.parse 15 5 gold have have.01 ----- 5:0-rel
-bn/voa/00/voa_0081.parse 4 40 gold happen happen.01 ----- 37:1*38:1-ARG1 40:0-rel
 bn/voa/00/voa_0081.parse 16 6 gold provide provide.01 ----- 3:1-ARG0 6:0-rel 7:1-ARG2 9:1-ARG1
-bn/voa/00/voa_0081.parse 9 12 gold be be.03 ----- 12:0-rel
 bn/voa/00/voa_0081.parse 9 9 gold say say.01 ----- 0:1-ARGM-TMP 4:2-ARG0 9:0-rel 10:1-ARG1
+bn/voa/00/voa_0081.parse 24 21 gold keep keep.04 ----- 12:1*19:1-ARG0 21:0-rel 22:1-ARG1 23:1-ARG2
 bn/voa/00/voa_0081.parse 20 2 gold have have.01 ----- 2:0-rel
-bn/voa/00/voa_0081.parse 19 11 gold meet meet.03 ----- 0:1*9:1-ARG0 11:0-rel 12:1-ARG1
 bn/voa/00/voa_0081.parse 23 3 gold base base.01 ----- 1:0-ARGM-LOC 3:0-rel 4:1,6:0-ARG1
 bn/voa/00/voa_0081.parse 1 3 gold be be.03 ----- 3:0-rel
 bn/voa/00/voa_0081.parse 16 23 gold call call.01 ----- 21:1*24:1-ARG1 22:1-ARG0 23:0-rel 25:2-ARG2
 bn/voa/00/voa_0081.parse 24 15 gold be be.03 ----- 15:0-rel
-bn/voa/00/voa_0081.parse 24 6 gold attack attack.01 ----- 3:1*5:1-ARG0 6:0-rel 7:1-ARG1
 bn/voa/00/voa_0081.parse 19 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2
 bn/voa/00/voa_0081.parse 12 18 gold clash clash.01 ----- 17:0-ARGM-ADJ 18:0-rel
-bn/voa/00/voa_0081.parse 13 22 gold continue continue.01 ----- 20:1-ARG1 22:0-rel
 bn/voa/00/voa_0081.parse 18 4 gold report report.01 ----- 0:1,5:2-ARG1 4:0-rel
 bn/voa/00/voa_0081.parse 9 13 gold send send.01 ----- 11:1-ARG0 13:0-rel 14:2-ARG1
 bn/voa/00/voa_0081.parse 23 7 gold say say.01 ----- 0:1-ARG0 7:0-rel 8:1-ARG1
-bn/voa/00/voa_0081.parse 4 49 gold claim claim.01 ----- 47:1-ARG0 49:0-rel 50:1-ARG1
 bn/voa/00/voa_0081.parse 14 14 gold be be.03 ----- 14:0-rel
 bn/voa/00/voa_0081.parse 20 8 gold act act.01 ----- 8:0-rel
 bn/voa/00/voa_0081.parse 16 19 gold caution caution.01 ----- 19:0-rel 20:1-ARG1
 bn/voa/00/voa_0081.parse 4 19 gold meet meet.03 ----- 18:0-ARGM-LOC 19:0-rel 20:1-ARG1
+bn/voa/00/voa_0081.parse 2 9 gold be be.03 ----- 9:0-rel
 bn/voa/00/voa_0081.parse 10 13 gold call call_on.05 ----- 8:1*11:1-ARG0 13:0-rel 14:1-ARG1 17:2-ARG2
 bn/voa/00/voa_0081.parse 1 26 gold cross cross.02 ----- 25:0-ARG1 26:0-rel 27:1-ARGM-DIR
 bn/voa/00/voa_0081.parse 22 8 gold exhibit exhibit.01 ----- 4:2-ARG0 8:0-rel 9:2-ARG1
-bn/voa/00/voa_0081.parse 6 23 gold share share.01 ----- 15:2*19:1*28:1-ARG2 15:2*19:1-LINK-SLC 21:1-ARG0 22:1-ARGM-TMP 23:0-rel 24:1-ARG1
 bn/voa/00/voa_0081.parse 22 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 bn/voa/00/voa_0081.parse 19 23 gold attempt attempt.01 ----- 13:4-ARG0 23:0-rel 24:2-ARG1
 bn/voa/00/voa_0081.parse 4 13 gold ceasefire ceasefire.01 ----- 13:0-rel
@@ -69,19 +61,20 @@ bn/voa/00/voa_0081.parse 2 10 gold kill kill.01 ----- 0:4*11:1-ARG1 10:0-rel
 bn/voa/00/voa_0081.parse 15 6 gold be be.03 ----- 6:0-rel
 bn/voa/00/voa_0081.parse 8 14 gold have have.03 ----- 12:1-ARG0 14:0-rel 15:2-ARG1
 bn/voa/00/voa_0081.parse 23 11 gold use use.01 ----- 9:1-ARG0 11:0-rel 12:1-ARG1
-bn/voa/00/voa_0081.parse 14 15 gold draw draw.01 ----- 0:1*13:1*16:1-ARG1 15:0-rel 17:1-ARGM-DIR
 bn/voa/00/voa_0081.parse 5 8 gold meet meet.03 ----- 0:2*6:1-ARG0 8:0-rel 9:1-ARGM-MNR 10:1-ARG1 20:2-ARGM-TMP
-bn/voa/00/voa_0081.parse 17 9 gold prevent prevent.01 ----- 7:1*10:1-ARG1 9:0-rel 11:1-ARG0 14:1-ARG2 21:1-ARGM-CAU
+bn/voa/00/voa_0081.parse 14 3 gold act act.02 ----- 0:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:2-ARGM-MNR
 bn/voa/00/voa_0081.parse 24 17 gold do do.02 ----- 12:1-ARG0 16:0-ARGM-NEG 17:0-rel 18:1-ARG1
+bn/voa/00/voa_0081.parse 13 22 gold continue continue.01 ----- 20:1-ARG1 22:0-rel
+bn/voa/00/voa_0081.parse 10 10 gold want want.01 ----- 8:1-ARG0 10:0-rel 11:2-ARG1
+bn/voa/00/voa_0081.parse 13 14 gold warn warn.01 ----- 0:1-ARGM-TMP 11:2-ARG0 14:0-rel 15:1-ARG1 19:1-ARGM-ADV
 bn/voa/00/voa_0081.parse 20 4 gold meet meet.03 ----- 0:1-ARG0 3:1-ARGM-TMP 4:0-rel 5:1-ARG1
 bn/voa/00/voa_0081.parse 6 13 gold meet meet.03 ----- 0:1-ARGM-TMP 2:1-ARGM-LOC 7:2-ARG0 13:0-rel 14:1-ARG1
+bn/voa/00/voa_0081.parse 9 26 gold end end.01 ----- 24:1-ARG0 26:0-rel 27:1-ARG1 29:1-ARGM-TMP
+bn/voa/00/voa_0081.parse 24 6 gold attack attack.01 ----- 3:1*5:1-ARG0 6:0-rel 7:1-ARG1
 bn/voa/00/voa_0081.parse 16 28 gold heighten heighten.01 ----- 28:0-rel 29:0,30:0-ARG1
 bn/voa/00/voa_0081.parse 4 11 gold call call.03 ----- 9:1-ARG0 11:0-rel 12:1-ARG1
-bn/voa/00/voa_0081.parse 2 9 gold be be.03 ----- 9:0-rel
 bn/voa/00/voa_0081.parse 15 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 bn/voa/00/voa_0081.parse 24 10 gold say say.01 ----- 0:1-ARG0 10:0-rel 11:1-ARG1
-bn/voa/00/voa_0081.parse 0 6 gold be be.01 ----- 0:2-ARGM-DIS 5:1-ARG1 6:0-rel 7:1-ARG2
-bn/voa/00/voa_0081.parse 24 21 gold keep keep.04 ----- 12:1*19:1-ARG0 21:0-rel 22:1-ARG1 23:1-ARG2
 bn/voa/00/voa_0081.parse 4 6 gold be be.02 ----- 0:1-ARGM-LOC 6:0-rel 7:1-ARG1
 bn/voa/00/voa_0081.parse 7 4 gold report report.01 ----- 0:2-ARG0 4:0-rel 5:1-ARG1
 bn/voa/00/voa_0081.parse 19 26 gold win win.01 ----- 24:1-ARG0 26:0-rel 27:1-ARG1
@@ -89,15 +82,22 @@ bn/voa/00/voa_0081.parse 13 21 gold violent violent.01 ----- 21:0-rel
 bn/voa/00/voa_0081.parse 5 5 gold expect expect.01 ----- 0:2*6:2-ARG1 5:0-rel
 bn/voa/00/voa_0081.parse 16 27 gold indicate indicate.01 ----- 16:2-ARG0 27:0-rel 28:2-ARG1
 bn/voa/00/voa_0081.parse 6 7 gold former former.01 ----- 7:0-rel 9:0,10:0-ARG1
+bn/voa/00/voa_0081.parse 4 40 gold happen happen.01 ----- 37:1*38:1-ARG1 40:0-rel
 bn/voa/00/voa_0081.parse 7 8 gold be be.02 ----- 7:1-ARGM-ADV 8:0-rel 9:1-ARG1
-bn/voa/00/voa_0081.parse 19 6 gold travel travel.01 ----- 0:1*4:1-ARG0 6:0-rel 7:1-ARG4 9:2-ARGM-PRP
+bn/voa/00/voa_0081.parse 5 4 gold be be.03 ----- 4:0-rel
 bn/voa/00/voa_0081.parse 4 59 gold war war.01 ----- 58:0-ARGM-ADJ 59:0-rel 61:1-ARGM-ADJ
 bn/voa/00/voa_0081.parse 16 5 gold have have.01 ----- 5:0-rel
 bn/voa/00/voa_0081.parse 17 5 gold say say.01 ----- 0:2-ARG0 5:0-rel 6:1-ARG1
 bn/voa/00/voa_0081.parse 1 12 gold battle battle.01 ----- 11:0-ARGM-MNR 12:0-rel 13:1-ARG1
+bn/voa/00/voa_0081.parse 19 11 gold meet meet.03 ----- 0:1*9:1-ARG0 11:0-rel 12:1-ARG1
 bn/voa/00/voa_0081.parse 4 36 gold say say.01 ----- 16:1-ARGM-TMP 28:2-ARG0 36:0-rel 37:3-ARG1
+bn/voa/00/voa_0081.parse 19 6 gold travel travel.01 ----- 0:1*4:1-ARG0 6:0-rel 7:1-ARG4 9:2-ARGM-PRP
 bn/voa/00/voa_0081.parse 4 28 gold act act.01 ----- 28:0-rel
 bn/voa/00/voa_0081.parse 18 8 gold hit hit.01 ----- 0:1*5:1-ARG0 8:0-rel 9:3-ARG1
+bn/voa/00/voa_0081.parse 17 9 gold prevent prevent.01 ----- 7:1*10:1-ARG1 9:0-rel 11:1-ARG0 14:1-ARG2 21:1-ARGM-CAU
 bn/voa/00/voa_0081.parse 4 55 gold confront confront.01 ----- 54:0-ARG0 55:0-rel
+bn/voa/00/voa_0081.parse 0 6 gold be be.01 ----- 0:2-ARGM-DIS 5:1-ARG1 6:0-rel 7:1-ARG2
+bn/voa/00/voa_0081.parse 4 49 gold claim claim.01 ----- 47:1-ARG0 49:0-rel 50:1-ARG1
 bn/voa/00/voa_0081.parse 14 7 gold say say.01 ----- 0:2-ARG1-DSP 6:1-ARG0 7:0-rel
 bn/voa/00/voa_0081.parse 11 2 gold take take.14 ----- 0:1-ARG1 2:0-rel 3:1-ARG2 4:1-ARGM-TMP
+bn/voa/00/voa_0081.parse 3 2 gold report report.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1

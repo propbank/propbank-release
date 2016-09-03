@@ -1,11 +1,11 @@
 nw/wsj/05/wsj_0545.parse 1 4 gold breed breed.01 ----- 4:0-rel 5:0-ARG1
 nw/wsj/05/wsj_0545.parse 0 4 gold total total.01 ----- 0:1-ARG1 4:0-rel 5:1-ARG2 6:1-ARGM-TMP 10:1-ARGM-ADV
+nw/wsj/05/wsj_0545.parse 1 6 gold total total.01 ----- 0:3-ARG1 6:0-rel 7:2-ARG2
 nw/wsj/05/wsj_0545.parse 2 18 gold resign resign.01 ----- 6:2-ARG0 17:0-ARGM-MOD 18:0-rel 19:1-ARG1 25:1-ARGM-TMP
 nw/wsj/05/wsj_0545.parse 0 18 gold say say.01 ----- 0:2*20:1-ARG1 18:0-rel 21:2-ARG0
 nw/wsj/05/wsj_0545.parse 3 7 gold succeed succeed.02 ----- 0:2-ARG0 6:0-ARGM-MOD 7:0-rel 8:1-ARG1 9:1-ARG2
-nw/wsj/05/wsj_0545.parse 5 4 gold become become.01 ----- 0:1-ARG1 3:0-ARGM-MOD 4:0-rel 5:1-ARG2
 nw/wsj/05/wsj_0545.parse 5 10 gold retain retain.01 ----- 0:1-ARG0 3:0-ARGM-MOD 10:0-rel 11:2-ARG1
 nw/wsj/05/wsj_0545.parse 4 9 gold appoint appoint.01 ----- 0:2*10:1-ARG1 9:0-rel 11:1-ARG2
 nw/wsj/05/wsj_0545.parse 1 2 gold breed breed.01 ----- 0:1-ARG1 2:0-rel
+nw/wsj/05/wsj_0545.parse 5 4 gold become become.01 ----- 0:1-ARG1 3:0-ARGM-MOD 4:0-rel 5:1-ARG2
 nw/wsj/05/wsj_0545.parse 4 8 gold be be.03 ----- 8:0-rel
-nw/wsj/05/wsj_0545.parse 1 6 gold total total.01 ----- 0:3-ARG1 6:0-rel 7:2-ARG2

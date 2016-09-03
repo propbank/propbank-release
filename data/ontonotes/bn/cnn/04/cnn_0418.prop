@@ -4,11 +4,11 @@ bn/cnn/04/cnn_0418.parse 7 6 gold continue continue.01 ----- 0:2-ARG1 6:0-rel 7:
 bn/cnn/04/cnn_0418.parse 5 2 gold use use.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1 5:1-ARGM-TMP
 bn/cnn/04/cnn_0418.parse 5 12 gold expect expect.01 ----- 10:0-ARG0 11:0-ARG1 12:0-rel 13:1-ARGM-GOL
 bn/cnn/04/cnn_0418.parse 3 7 gold post post.01 ----- 0:2-ARG0 7:0-rel 8:2-ARG1
+bn/cnn/04/cnn_0418.parse 4 7 gold slide slide.02 ----- 0:1-ARGM-DIS 2:1-ARG1 7:0-rel 8:1-ARGM-TMP 11:1-ARG2
 bn/cnn/04/cnn_0418.parse 1 2 gold rally rally.02 ----- 0:1-ARG1 2:0-rel 3:1-ARGM-TMP 6:1-ARGM-PRP
 bn/cnn/04/cnn_0418.parse 3 10 gold rise rise.01 ----- 8:0-ARG1 9:0-ARGM-ADJ 10:0-rel 11:1-ARGM-TMP
 bn/cnn/04/cnn_0418.parse 0 15 gold be be.03 ----- 15:0-rel
 bn/cnn/04/cnn_0418.parse 2 1 gold ignore ignore.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1 7:1-ARGM-TMP
-bn/cnn/04/cnn_0418.parse 4 7 gold slide slide.02 ----- 0:1-ARGM-DIS 2:1-ARG1 7:0-rel 8:1-ARGM-TMP 11:1-ARG2
 bn/cnn/04/cnn_0418.parse 5 9 gold cut cut.02 ----- 6:1-ARG0 9:0-rel 10:2-ARG1
 bn/cnn/04/cnn_0418.parse 3 2 gold gauge gauge.01 ----- 1:0-ARGM-ADJ 2:0-rel 3:1-ARG1
 bn/cnn/04/cnn_0418.parse 1 1 gold have have.01 ----- 1:0-rel

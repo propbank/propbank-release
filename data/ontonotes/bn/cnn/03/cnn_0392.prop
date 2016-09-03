@@ -2,12 +2,12 @@ bn/cnn/03/cnn_0392.parse 5 2 gold target target.01 ----- 0:1-ARG2 2:0-rel 3:1-AR
 bn/cnn/03/cnn_0392.parse 0 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2 4:1-ARGM-LOC
 bn/cnn/03/cnn_0392.parse 7 1 gold join join.04 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:1-ARGM-MNR 4:1-ARG2
 bn/cnn/03/cnn_0392.parse 6 2 gold be be.03 ----- 2:0-rel
-bn/cnn/03/cnn_0392.parse 4 4 gold fire fire.01 ----- 0:1-ARG0 4:0-rel 5:1-ARGM-DIR 8:1-ARGM-LOC
 bn/cnn/03/cnn_0392.parse 2 15 gold threaten threaten.01 ----- 10:2-ARG0 15:0-rel 16:1-ARG2
-bn/cnn/03/cnn_0392.parse 3 3 gold vow vow.01 ----- 0:1-ARGM-TMP 2:1-ARG0 3:0-rel 4:2-ARG1
+bn/cnn/03/cnn_0392.parse 5 12 gold kill kill.01 ----- 8:1*13:1,14:1-ARG1 12:0-rel
 bn/cnn/03/cnn_0392.parse 2 11 gold spiral spiral.01 ----- 11:0-rel 12:0-ARG1
 bn/cnn/03/cnn_0392.parse 6 3 gold track track.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1 7:1-ARGM-DIR
-bn/cnn/03/cnn_0392.parse 5 12 gold kill kill.01 ----- 8:1*13:1,14:1-ARG1 12:0-rel
+bn/cnn/03/cnn_0392.parse 3 3 gold vow vow.01 ----- 0:1-ARGM-TMP 2:1-ARG0 3:0-rel 4:2-ARG1
 bn/cnn/03/cnn_0392.parse 5 11 gold be be.03 ----- 11:0-rel
 bn/cnn/03/cnn_0392.parse 2 14 gold violent violent.01 ----- 14:0-rel
+bn/cnn/03/cnn_0392.parse 4 4 gold fire fire.01 ----- 0:1-ARG0 4:0-rel 5:1-ARGM-DIR 8:1-ARGM-LOC
 bn/cnn/03/cnn_0392.parse 5 1 gold strike strike.01 ----- 1:0-rel

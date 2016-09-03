@@ -1,23 +1,21 @@
 bn/p2.5_c2e/00/p2.5_c2e_0013.parse 5 3 gold estimate estimate.01 ----- 3:0-rel 5:1-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0013.parse 2 13 gold stream stream.01 ----- 13:0-rel 14:0-ARG1 15:0-ARG0
+bn/p2.5_c2e/00/p2.5_c2e_0013.parse 3 9 gold watch watch.01 ----- 0:1*7:1-ARG0 9:0-rel 10:1-ARG1 11:1-ARGM-MNR
 bn/p2.5_c2e/00/p2.5_c2e_0013.parse 2 22 gold watch watch.01 ----- 18:1-ARG0 20:1-ARGM-TMP 21:0-ARGM-MOD 22:0-rel 23:1-ARG1 31:2-ARGM-LOC
 bn/p2.5_c2e/00/p2.5_c2e_0013.parse 3 22 gold view view.01 ----- 16:1-ARGM-TMP 20:1-ARG0 21:0-ARGM-MOD 22:0-rel 23:1-ARG1 24:1-ARGM-MNR
 bn/p2.5_c2e/00/p2.5_c2e_0013.parse 7 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
-bn/p2.5_c2e/00/p2.5_c2e_0013.parse 3 35 gold vote vote.01 ----- 35:0-rel
 bn/p2.5_c2e/00/p2.5_c2e_0013.parse 3 33 gold participate participate.01 ----- 16:1-ARGM-TMP 20:1-ARG0 21:0-ARGM-MOD 32:1-ARGM-ADV 33:0-rel 34:1-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0013.parse 5 39 gold express express.01 ----- 17:2*29:1-ARG0 39:0-rel 40:1-ARG1 44:1-ARGM-MNR
 bn/p2.5_c2e/00/p2.5_c2e_0013.parse 3 5 gold be be.01 ----- 0:1-ARG1 1:0-ARGM-MOD 3:1-ARGM-TMP 4:1-ARGM-ADV 5:0-rel 6:1-ARG2
-bn/p2.5_c2e/00/p2.5_c2e_0013.parse 0 19 gold be be.03 ----- 19:0-rel
 bn/p2.5_c2e/00/p2.5_c2e_0013.parse 2 12 gold support support.01 ----- 7:1*10:1*11:1-ARG0 7:1*10:1-LINK-SLC 12:0-rel 13:2-ARG1
-bn/p2.5_c2e/00/p2.5_c2e_0013.parse 8 8 gold be be.01 ----- 0:2-ARG1 8:0-rel 9:1-ARG2
-bn/p2.5_c2e/00/p2.5_c2e_0013.parse 3 9 gold watch watch.01 ----- 0:1*7:1-ARG0 9:0-rel 10:1-ARG1 11:1-ARGM-MNR
 bn/p2.5_c2e/00/p2.5_c2e_0013.parse 0 20 gold achieve achieve.01 ----- 16:1*17:1*21:1-ARG1 20:0-rel 22:1-ARGM-LOC
-bn/p2.5_c2e/00/p2.5_c2e_0013.parse 2 6 gold be be.01 ----- 0:2-ARG1 6:0-rel 7:2-ARG2
-bn/p2.5_c2e/00/p2.5_c2e_0013.parse 1 4 gold commence commence.01 ----- 2:1-ARG0 3:1-ARGM-MNR 4:0-rel 5:1-ARG1 9:1-ARGM-TMP
 bn/p2.5_c2e/00/p2.5_c2e_0013.parse 5 2 gold be be.03 ----- 2:0-rel
 bn/p2.5_c2e/00/p2.5_c2e_0013.parse 0 13 gold be be.01 ----- 12:1-ARG1 13:0-rel 14:1-ARG2
 bn/p2.5_c2e/00/p2.5_c2e_0013.parse 2 3 gold be be.03 ----- 3:0-rel
+bn/p2.5_c2e/00/p2.5_c2e_0013.parse 2 4 gold need need.01 ----- 0:1*1:1*2:1*5:1-ARG1 0:1*1:1-LINK-SLC 4:0-rel
 bn/p2.5_c2e/00/p2.5_c2e_0013.parse 5 20 gold watch watch.01 ----- 17:1*18:1*19:1-ARG0 17:1*18:1-LINK-SLC 20:0-rel 21:1-ARG1
+bn/p2.5_c2e/00/p2.5_c2e_0013.parse 0 19 gold be be.03 ----- 19:0-rel
+bn/p2.5_c2e/00/p2.5_c2e_0013.parse 8 8 gold be be.01 ----- 0:2-ARG1 8:0-rel 9:1-ARG2
 bn/p2.5_c2e/00/p2.5_c2e_0013.parse 4 16 gold have have.03 ----- 0:1-ARGM-ADV 10:1-ARG0 14:1-ARGM-TMP 15:1-ARGM-TMP 16:0-rel 17:2-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0013.parse 0 8 gold interact interact.01 ----- 4:1-ARG0 8:0-rel 9:1-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0013.parse 1 17 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARGM-ADV 11:2-ARG1 14:0-ARGM-MOD 15:1-ARGM-NEG 17:0-rel 18:1-ARG2
@@ -28,7 +26,9 @@ bn/p2.5_c2e/00/p2.5_c2e_0013.parse 5 41 gold view view.02 ----- 40:0-ARG0 41:0-r
 bn/p2.5_c2e/00/p2.5_c2e_0013.parse 6 17 gold reach reach.01 ----- 0:1-ARGM-ADV 8:2-ARG0 17:0-rel 18:2-ARG1 20:1-ARGM-TMP
 bn/p2.5_c2e/00/p2.5_c2e_0013.parse 5 31 gold upload upload.01 ----- 17:2*29:1-ARG0 31:0-rel 32:1-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0013.parse 5 27 gold be be.01 ----- 6:1-ARGM-TMP 17:2-ARG1 26:0-ARGM-MOD 27:0-rel 28:1-ARG2
+bn/p2.5_c2e/00/p2.5_c2e_0013.parse 1 4 gold commence commence.01 ----- 2:1-ARG0 3:1-ARGM-MNR 4:0-rel 5:1-ARG1 9:1-ARGM-TMP
+bn/p2.5_c2e/00/p2.5_c2e_0013.parse 2 6 gold be be.01 ----- 0:2-ARG1 6:0-rel 7:2-ARG2
 bn/p2.5_c2e/00/p2.5_c2e_0013.parse 3 27 gold download download.01 ----- 16:1-ARGM-TMP 20:1-ARG0 21:0-ARGM-MOD 27:0-rel 28:1-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0013.parse 0 1 gold watch watch.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:1-ARGM-TMP
 bn/p2.5_c2e/00/p2.5_c2e_0013.parse 1 12 gold do do.01 ----- 12:0-rel
-bn/p2.5_c2e/00/p2.5_c2e_0013.parse 2 4 gold need need.01 ----- 0:1*1:1*2:1*5:1-ARG1 0:1*1:1-LINK-SLC 4:0-rel
+bn/p2.5_c2e/00/p2.5_c2e_0013.parse 3 35 gold vote vote.01 ----- 35:0-rel

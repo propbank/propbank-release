@@ -1,20 +1,20 @@
 bn/nbc/00/nbc_0013.parse 0 12 gold head head.02 ----- 2:2-ARG0 12:0-rel 13:1-ARG1 15:2-ARGM-PRP
+bn/nbc/00/nbc_0013.parse 3 13 gold find find.01 ----- 4:1*7:1*15:1-ARGM-LOC 4:1*7:1-LINK-SLC 8:2*14:1-ARG1 13:0-rel
 bn/nbc/00/nbc_0013.parse 3 39 gold imply imply.01 ----- 20:1*38:1-ARG0 39:0-rel 40:1-ARG1
-bn/nbc/00/nbc_0013.parse 5 25 gold say say.01 ----- 19:1*23:1*24:1-ARG0 19:1*23:1-LINK-SLC 25:0-rel 26:1-ARG1
 bn/nbc/00/nbc_0013.parse 3 2 gold focus focus.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG2
 bn/nbc/00/nbc_0013.parse 2 6 gold try try.01 ----- 0:1-ARGM-DIS 2:1-ARG0 3:1-ARGM-TMP 5:1-ARGM-TMP 6:0-rel 7:2-ARG1
+bn/nbc/00/nbc_0013.parse 5 12 gold be be.01 ----- 11:1-ARG1 12:0-rel 13:1-ARG2 15:2-ARGM-ADV
 bn/nbc/00/nbc_0013.parse 5 2 gold discover discover.01 ----- 0:1-ARG0 1:1-ARGM-DIS 2:0-rel 3:1-ARG1
-bn/nbc/00/nbc_0013.parse 1 4 gold be be.01 ----- 0:2-ARG1 4:0-rel 5:1-ARG2 8:1-ARGM-TMP 10:1-ARGM-ADV
 bn/nbc/00/nbc_0013.parse 2 9 gold figure figure_out.05 ----- 2:1*7:1-ARG0 9:0,10:1-rel 11:3-ARG1
 bn/nbc/00/nbc_0013.parse 0 34 gold be be.03 ----- 34:0-rel
+bn/nbc/00/nbc_0013.parse 1 4 gold be be.01 ----- 0:2-ARG1 4:0-rel 5:1-ARG2 8:1-ARGM-TMP 10:1-ARGM-ADV
+bn/nbc/00/nbc_0013.parse 5 25 gold say say.01 ----- 19:1*23:1*24:1-ARG0 19:1*23:1-LINK-SLC 25:0-rel 26:1-ARG1
+bn/nbc/00/nbc_0013.parse 3 50 gold make make.01 ----- 48:0-ARGM-LOC 50:0-rel
 bn/nbc/00/nbc_0013.parse 2 21 gold damage damage.01 ----- 19:0-ARGM-ADJ 20:0-ARGM-ADJ 21:0-rel 22:1-ARG1
-bn/nbc/00/nbc_0013.parse 5 12 gold be be.01 ----- 11:1-ARG1 12:0-rel 13:1-ARG2 15:2-ARGM-ADV
 bn/nbc/00/nbc_0013.parse 3 23 gold claim claim.01 ----- 18:1-ARGM-TMP 20:1-ARG0 23:0-rel 24:1-ARG1 38:2-ARGM-PRD
 bn/nbc/00/nbc_0013.parse 3 12 gold be be.03 ----- 12:0-rel
 bn/nbc/00/nbc_0013.parse 5 33 gold be be.01 ----- 27:2-ARG1 33:0-rel 34:1-ARG2
 bn/nbc/00/nbc_0013.parse 4 7 gold confirm confirm.01 ----- 0:1-ARG0 5:0-ARGM-MOD 6:0-ARGM-NEG 7:0-rel 8:1-ARG1
-bn/nbc/00/nbc_0013.parse 0 35 gold be be.03 ----- 35:0-rel
-bn/nbc/00/nbc_0013.parse 3 13 gold find find.01 ----- 4:1*7:1*15:1-ARGM-LOC 4:1*7:1-LINK-SLC 8:2*14:1-ARG1 13:0-rel
 bn/nbc/00/nbc_0013.parse 7 0 gold thank thank.01 ----- 0:0-rel 1:1-ARGM-EXT 4:3-ARGM-DIS
 bn/nbc/00/nbc_0013.parse 2 18 gold cause cause.01 ----- 11:2*16:1-ARG0 17:0-ARGM-MOD 18:0-rel 19:2-ARG1
 bn/nbc/00/nbc_0013.parse 0 11 gold be be.03 ----- 11:0-rel
@@ -26,6 +26,6 @@ bn/nbc/00/nbc_0013.parse 3 5 gold abandon abandon.01 ----- 5:0-rel 6:0-ARG1
 bn/nbc/00/nbc_0013.parse 5 9 gold determine determine.01 ----- 0:1-ARG0 8:1-ARGM-MNR 9:0-rel 10:1-ARG1
 bn/nbc/00/nbc_0013.parse 3 31 gold come come.01 ----- 25:2-ARG1 29:0-ARGM-MOD 30:1-ARGM-ADV 31:0-rel 32:1-ARG3
 bn/nbc/00/nbc_0013.parse 3 10 gold make make.01 ----- 8:0-ARG1 10:0-rel
+bn/nbc/00/nbc_0013.parse 0 35 gold be be.03 ----- 35:0-rel
 bn/nbc/00/nbc_0013.parse 3 27 gold find find.01 ----- 25:1*28:1-ARG1 25:1*28:1-LINK-PSV 27:0-rel
 bn/nbc/00/nbc_0013.parse 3 47 gold be be.01 ----- 41:2-ARG1 47:0-rel 48:1-ARG2
-bn/nbc/00/nbc_0013.parse 3 50 gold make make.01 ----- 48:0-ARGM-LOC 50:0-rel

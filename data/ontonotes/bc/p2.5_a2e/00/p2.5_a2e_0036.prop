@@ -2,10 +2,8 @@ bc/p2.5_a2e/00/p2.5_a2e_0036.parse 3 28 gold offer offer.01 ----- 0:1-ARGM-DIS 2
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 7 3 gold stop stop.03 ----- 0:1*2:1-ARG0 3:0-rel 4:1-ARG1 6:1-ARG2
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 8 17 gold go go.12 ----- 10:1*12:1,18:1-ARG2 10:1*12:1-LINK-SLC 13:1-ARG1 17:0-rel
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 6 9 gold be be.01 ----- 8:1-ARG1 9:0-rel 10:1-ARG2
-bc/p2.5_a2e/00/p2.5_a2e_0036.parse 8 16 gold be be.03 ----- 16:0-rel
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 0 4 gold mean mean.01 ----- 3:1-ARG0 4:0-rel
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 8 27 gold be be.02 ----- 27:0-rel 28:2-ARG1
-bc/p2.5_a2e/00/p2.5_a2e_0036.parse 4 17 gold say say.01 ----- 11:1*18:1-ARG1 12:2-ARG0 17:0-rel
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 6 54 gold be be.03 ----- 54:0-rel
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 8 61 gold direct direct.01 ----- 59:1*62:1-ARG1 59:1*62:1-LINK-PSV 61:0-rel 63:1-ARG2
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 2 6 gold continue continue.01 ----- 4:1-ARG1 6:0-rel
@@ -17,40 +15,42 @@ bc/p2.5_a2e/00/p2.5_a2e_0036.parse 2 44 gold be be.01 ----- 34:1-ARGM-ADV 37:2-A
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 6 42 gold be be.01 ----- 21:2-ARGM-ADV 31:1-ARGM-ADV 41:0-ARGM-MOD 42:0-rel 43:1-ARG2 44:2-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 1 15 gold compile compile.01 ----- 15:0-rel 16:1-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 4 26 gold say say.01 ----- 21:1*24:1*25:1-ARG0 21:1*24:1-LINK-SLC 26:0-rel 27:1-ARG1
-bc/p2.5_a2e/00/p2.5_a2e_0036.parse 6 33 gold put put.03 ----- 32:1-ARG0 33:0-rel 34:1-ARG2 35:1-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 4 31 gold accept accept.01 ----- 28:1-ARG0 30:0-ARGM-MOD 31:0-rel 32:2-ARG1
-bc/p2.5_a2e/00/p2.5_a2e_0036.parse 5 11 gold be be.01 ----- 10:1-ARG1 11:0-rel 12:1-ARG2
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 1 61 gold be be.01 ----- 59:1*60:1-ARG1 61:0-rel 62:2-ARG2
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 1 28 gold take take.01 ----- 5:1-ARGM-TMP 9:2-ARG0 19:1-ARGM-DIS 27:1-ARGM-TMP 28:0-rel 29:1-ARG1 30:1-ARGM-GOL
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 6 55 gold resolve resolve.01 ----- 49:1-ARGM-ADV 50:1*56:1-ARG1 53:0-ARGM-MOD 55:0-rel 57:2-ARGM-TMP
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 0 31 gold mean mean.01 ----- 30:1-ARG0 31:0-rel
+bc/p2.5_a2e/00/p2.5_a2e_0036.parse 7 1 gold be be.03 ----- 1:0-rel
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 3 19 gold talk talk.01 ----- 17:1-ARG0 19:0-rel 20:2-ARG1 25:1-ARGM-ADV
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 8 52 gold say say.01 ----- 51:1-ARG0 52:0-rel 53:1-ARGM-LOC 55:1-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 6 14 gold form form.01 ----- 13:1-ARG0 14:0-rel 15:1-ARG1
-bc/p2.5_a2e/00/p2.5_a2e_0036.parse 7 1 gold be be.03 ----- 1:0-rel
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 8 57 gold matter matter.02 ----- 57:0-rel
+bc/p2.5_a2e/00/p2.5_a2e_0036.parse 4 17 gold say say.01 ----- 11:1*18:1-ARG1 12:2-ARG0 17:0-rel
+bc/p2.5_a2e/00/p2.5_a2e_0036.parse 6 33 gold put put.03 ----- 32:1-ARG0 33:0-rel 34:1-ARG2 35:1-ARG1
+bc/p2.5_a2e/00/p2.5_a2e_0036.parse 5 11 gold be be.01 ----- 10:1-ARG1 11:0-rel 12:1-ARG2
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 8 24 gold matter matter.02 ----- 22:1-ARGM-ADJ 24:0-rel
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 0 17 gold do do.01 ----- 17:0-rel
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 6 47 gold say say.01 ----- 44:1-ARG0 47:0-rel 48:1-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 1 55 gold represent represent.01 ----- 54:1-ARG0 55:0-rel 56:2-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 1 49 gold think think.01 ----- 34:1-ARGM-ADV 48:1-ARG0 49:0-rel 51:1-ARGM-DIS 53:1-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 1 23 gold take take.01 ----- 5:1-ARGM-TMP 9:2-ARG0 19:1-ARGM-DIS 23:0-rel 24:1-ARG1 25:1-ARGM-GOL
+bc/p2.5_a2e/00/p2.5_a2e_0036.parse 8 16 gold be be.03 ----- 16:0-rel
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 3 13 gold talk talk.01 ----- 11:1*14:1-ARGM-TMP 12:1-ARG0 13:0-rel
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 1 1 gold mean mean.01 ----- 0:1-ARG0 1:0-rel
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 0 19 gold expect expect.01 ----- 15:1*41:1-ARGM-TMP 18:1-ARG0 19:0-rel 33:2-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 1 11 gold present present.01 ----- 9:1*12:1-ARG1 10:1-ARG0 11:0-rel 13:1-ARGM-LOC
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 8 71 gold direct direct.01 ----- 70:1*72:1-ARG1 70:1*72:1-LINK-PSV 71:0-rel 73:1-ARG2
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 8 1 gold use use.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1 21:2-ARGM-ADV
-bc/p2.5_a2e/00/p2.5_a2e_0036.parse 0 34 gold lack lack.01 ----- 34:0-rel 35:1-ARG1 37:1-ARGM-LOC
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 5 8 gold say say.01 ----- 0:1-ARG0 2:1-ARGM-LOC 8:0-rel 9:1-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 7 11 gold be be.01 ----- 9:1*13:1-ARGM-TMP 10:1-ARG1 11:0-rel 12:1-ARG2
+bc/p2.5_a2e/00/p2.5_a2e_0036.parse 0 34 gold lack lack.01 ----- 34:0-rel 35:1-ARG1 37:1-ARGM-LOC
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 4 20 gold offer offer.01 ----- 0:2-ARG0 9:1-ARGM-ADV 20:0-rel 21:2-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 2 17 gold think think.01 ----- 8:1-ARGM-LOC 16:1-ARG0 17:0-rel 18:1-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 2 22 gold be be.01 ----- 19:1-ARG1 21:0-ARGM-MOD 22:0-rel 23:1-ARG2 26:1-ARGM-DIS 28:1-ARGM-TMP 32:1-ARGM-CAU
-bc/p2.5_a2e/00/p2.5_a2e_0036.parse 6 6 gold declare declare.01 ----- 2:1-ARG0 5:1-ARGM-MNR 6:0-rel 7:1-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 0 12 gold expect expect.01 ----- 10:0-ARGM-MOD 11:1-ARG0 12:0-rel
-bc/p2.5_a2e/00/p2.5_a2e_0036.parse 8 9 gold be be.01 ----- 2:1*7:1*8:1-ARG1 2:1*7:1-LINK-SLC 9:0-rel 10:2-ARG2
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 8 58 gold be be.01 ----- 56:1-ARG1 58:0-rel 59:3-ARG2
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 7 8 gold start start.01 ----- 4:1*7:1-ARG1 8:0-rel 9:2-ARGM-TMP
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 5 15 gold withdraw withdraw.01 ----- 10:1*13:1-ARG0 15:0-rel 16:1-ARG2 21:1-ARGM-LOC
+bc/p2.5_a2e/00/p2.5_a2e_0036.parse 6 6 gold declare declare.01 ----- 2:1-ARG0 5:1-ARGM-MNR 6:0-rel 7:1-ARG1
+bc/p2.5_a2e/00/p2.5_a2e_0036.parse 8 9 gold be be.01 ----- 2:1*7:1*8:1-ARG1 2:1*7:1-LINK-SLC 9:0-rel 10:2-ARG2
 bc/p2.5_a2e/00/p2.5_a2e_0036.parse 6 23 gold be be.01 ----- 21:1*22:1-ARG1 23:0-rel 24:1-ARG2

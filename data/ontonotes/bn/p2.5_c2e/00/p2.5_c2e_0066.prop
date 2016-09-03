@@ -1,6 +1,4 @@
 bn/p2.5_c2e/00/p2.5_c2e_0066.parse 6 10 gold hold hold.04 ----- 0:1-ARGM-DIS 2:1-ARG0 7:1-ARGM-DIS 9:0-ARGM-MOD 10:0-rel 11:2-ARG1 17:1-ARGM-TMP
-bn/p2.5_c2e/00/p2.5_c2e_0066.parse 0 7 gold have have.01 ----- 7:0-rel
-bn/p2.5_c2e/00/p2.5_c2e_0066.parse 8 32 gold submit submit.01 ----- 0:1-ARGM-TMP 2:3-ARG0 31:0-ARGM-MOD 32:0-rel 33:1-ARG1 34:1-ARG3 36:1-ARGM-TMP
 bn/p2.5_c2e/00/p2.5_c2e_0066.parse 0 43 gold be be.01 ----- 31:1*41:1*42:1-ARG1 31:1*41:1-LINK-SLC 43:0-rel 45:1-ARGM-DIS 47:1-ARG2
 bn/p2.5_c2e/00/p2.5_c2e_0066.parse 2 13 gold be be.01 ----- 0:1-ARGM-DIS 2:2-ARG1 11:1-ARGM-DIS 13:0-rel 14:1-ARG2
 bn/p2.5_c2e/00/p2.5_c2e_0066.parse 7 4 gold be be.01 ----- 3:1-ARG1 4:0-rel 5:1-ARG2
@@ -8,27 +6,29 @@ bn/p2.5_c2e/00/p2.5_c2e_0066.parse 7 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:
 bn/p2.5_c2e/00/p2.5_c2e_0066.parse 2 23 gold impose impose.01 ----- 21:1-ARG0 23:0-rel 24:1-ARG1 27:1-ARG2
 bn/p2.5_c2e/00/p2.5_c2e_0066.parse 1 3 gold have have.01 ----- 3:0-rel
 bn/p2.5_c2e/00/p2.5_c2e_0066.parse 2 19 gold insist insist.01 ----- 15:1-ARG0 16:0-ARGM-MOD 17:1-ARGM-NEG 19:0-rel 20:1-ARG1
+bn/p2.5_c2e/00/p2.5_c2e_0066.parse 0 7 gold have have.01 ----- 7:0-rel
 bn/p2.5_c2e/00/p2.5_c2e_0066.parse 2 22 gold provide provide.01 ----- 22:0-rel 23:1-ARGM-PRD
 bn/p2.5_c2e/00/p2.5_c2e_0066.parse 0 22 gold concern concern.02 ----- 16:1-ARG0 20:1-ARGM-DIS 22:0-rel 23:1-ARG1
-bn/p2.5_c2e/00/p2.5_c2e_0066.parse 6 12 gold vote vote.01 ----- 12:0-rel 13:1-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0066.parse 4 13 gold support support.01 ----- 11:1-ARG0 13:0-rel 14:3-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0066.parse 8 25 gold mandate mandate.01 ----- 23:1-ARG0 25:0-rel 26:2-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0066.parse 5 19 gold relate relate.01 ----- 16:1*20:1-ARG1 16:1*20:1-LINK-PSV 19:0-rel 21:1-ARG2
-bn/p2.5_c2e/00/p2.5_c2e_0066.parse 5 8 gold prohibit prohibit.01 ----- 0:1-ARGM-DIS 2:1-ARG0 6:1-ARGM-DIS 8:0-rel 9:1-ARG1 11:1-ARG2
 bn/p2.5_c2e/00/p2.5_c2e_0066.parse 9 1 gold reveal reveal.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
-bn/p2.5_c2e/00/p2.5_c2e_0066.parse 0 14 gold vote vote.01 ----- 12:1-ARG0 13:0-ARGM-MOD 14:0-rel 15:1-ARG1 27:1-ARGM-TMP
 bn/p2.5_c2e/00/p2.5_c2e_0066.parse 9 4 gold cite cite.01 ----- 3:1*16:1-ARG0 4:0-rel 5:2-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0066.parse 8 19 gold hold hold.04 ----- 2:3*17:1-ARG0 19:0-rel 20:2-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0066.parse 2 4 gold revise revise.01 ----- 4:0-rel 5:0-ARG1
+bn/p2.5_c2e/00/p2.5_c2e_0066.parse 6 12 gold vote vote.01 ----- 12:0-rel 13:1-ARG1
+bn/p2.5_c2e/00/p2.5_c2e_0066.parse 5 8 gold prohibit prohibit.01 ----- 0:1-ARGM-DIS 2:1-ARG0 6:1-ARGM-DIS 8:0-rel 9:1-ARG1 11:1-ARG2
 bn/p2.5_c2e/00/p2.5_c2e_0066.parse 9 19 gold ban ban.01 ----- 3:2-ARGM-ADV 16:1-ARG0 18:0-ARGM-MOD 19:0-rel 20:1-ARG2 22:1-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0066.parse 5 13 gold export export.01 ----- 9:1*12:1-ARG0 13:0-rel 14:1-ARG2 16:2-ARG1
+bn/p2.5_c2e/00/p2.5_c2e_0066.parse 0 14 gold vote vote.01 ----- 12:1-ARG0 13:0-ARGM-MOD 14:0-rel 15:1-ARG1 27:1-ARGM-TMP
 bn/p2.5_c2e/00/p2.5_c2e_0066.parse 4 7 gold say say.01 ----- 0:0-ARGM-DIS 1:3-ARG0 6:1-ARGM-ADV 7:0-rel 8:1-ARGM-TMP 10:1-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0066.parse 1 6 gold revise revise.01 ----- 0:1*7:1-ARG1 4:1-ARGM-TMP 6:0-rel 8:1-ARGM-TMP
 bn/p2.5_c2e/00/p2.5_c2e_0066.parse 3 6 gold say say.01 ----- 0:1-ARGM-DIS 2:1-ARGM-TMP 3:1-ARG0 6:0-rel 8:1-ARGM-DIS 10:1-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0066.parse 1 5 gold be be.03 ----- 5:0-rel
 bn/p2.5_c2e/00/p2.5_c2e_0066.parse 3 12 gold be be.01 ----- 11:1-ARG1 12:0-rel 13:1-ARG2
 bn/p2.5_c2e/00/p2.5_c2e_0066.parse 8 16 gold continue continue.01 ----- 0:1-ARGM-TMP 2:3-ARG0 16:0-rel 17:2-ARG1
-bn/p2.5_c2e/00/p2.5_c2e_0066.parse 9 24 gold export export.01 ----- 20:1*23:1-ARG0 24:0-rel 25:2-ARG1 30:1-ARG2
+bn/p2.5_c2e/00/p2.5_c2e_0066.parse 8 32 gold submit submit.01 ----- 0:1-ARGM-TMP 2:3-ARG0 31:0-ARGM-MOD 32:0-rel 33:1-ARG1 34:1-ARG3 36:1-ARGM-TMP
 bn/p2.5_c2e/00/p2.5_c2e_0066.parse 0 9 gold reach reach.01 ----- 0:1-ARG0 5:1-ARGM-DIS 8:1-ARGM-TMP 9:0-rel 10:1-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0066.parse 4 23 gold draft draft.01 ----- 14:2*24:1-ARG1 14:2*24:1-LINK-PSV 23:0-rel 25:1-ARG0
 bn/p2.5_c2e/00/p2.5_c2e_0066.parse 8 35 gold vote vote.01 ----- 35:0-rel
+bn/p2.5_c2e/00/p2.5_c2e_0066.parse 9 24 gold export export.01 ----- 20:1*23:1-ARG0 24:0-rel 25:2-ARG1 30:1-ARG2

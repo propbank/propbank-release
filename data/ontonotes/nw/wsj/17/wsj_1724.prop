@@ -8,17 +8,15 @@ nw/wsj/17/wsj_1724.parse 1 27 gold schedule schedule.01 ----- 12:3-ARG0 26:0-ARG
 nw/wsj/17/wsj_1724.parse 9 24 gold schedule schedule.01 ----- 23:0-ARGM-MNR 24:0-rel 25:0-ARG1
 nw/wsj/17/wsj_1724.parse 9 5 gold report report.01 ----- 0:0-ARGM-DIS 1:1-ARG0 5:0-rel 6:1-ARG1
 nw/wsj/17/wsj_1724.parse 1 25 gold do do.01 ----- 25:0-rel
-nw/wsj/17/wsj_1724.parse 6 16 gold cooperate cooperate.01 ----- 6:2*13:1-ARG0 14:0-ARGM-NEG 16:0-rel 17:1-ARG1 19:1-ARGM-LOC 22:1-ARG2
 nw/wsj/17/wsj_1724.parse 7 6 gold appear appear.02 ----- 0:1-ARGM-TMP 6:0-rel 7:2-ARG1
 nw/wsj/17/wsj_1724.parse 8 3 gold announce announce.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
+nw/wsj/17/wsj_1724.parse 4 9 gold say say.01 ----- 0:2*11:1-ARG1 6:1-ARG0 9:0-rel
 nw/wsj/17/wsj_1724.parse 1 2 gold complain complain.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 nw/wsj/17/wsj_1724.parse 6 24 gold make make.02 ----- 23:1-ARG0 24:0-rel 25:2-ARG1
 nw/wsj/17/wsj_1724.parse 5 17 gold return return.02 ----- 11:1*15:1-ARG0 17:0-rel 18:2-ARG1
 nw/wsj/17/wsj_1724.parse 0 8 gold be be.03 ----- 8:0-rel
 nw/wsj/17/wsj_1724.parse 5 14 gold fail fail.01 ----- 11:1-ARG1 14:0-rel 15:2-ARG2
 nw/wsj/17/wsj_1724.parse 1 19 gold tour tour.01 ----- 12:2*17:1*18:1-ARG0 12:2*17:1-LINK-SLC 19:0-rel 20:1-ARG1 23:1-ARGM-TMP
-nw/wsj/17/wsj_1724.parse 6 28 gold be be.02 ----- 28:0-rel 29:1-ARG1 32:1-ARGM-GOL
-nw/wsj/17/wsj_1724.parse 3 30 gold dispatch dispatch.01 ----- 5:2*28:1-ARG0 30:0-rel 31:1-ARG1 33:2-ARGM-PRP
 nw/wsj/17/wsj_1724.parse 5 13 gold have have.01 ----- 13:0-rel
 nw/wsj/17/wsj_1724.parse 8 17 gold be be.03 ----- 17:0-rel
 nw/wsj/17/wsj_1724.parse 6 2 gold regret regret.01 ----- 1:1-ARG0 2:0-rel 3:1-ARGM-EXT 5:1-ARG1
@@ -29,6 +27,7 @@ nw/wsj/17/wsj_1724.parse 2 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 nw/wsj/17/wsj_1724.parse 8 20 gold accompany accompany.01 ----- 5:2*18:1-ARG0 20:0-rel 21:1-ARG1 23:1-ARG4 30:1-ARGM-TMP
 nw/wsj/17/wsj_1724.parse 1 5 gold be be.03 ----- 5:0-rel
 nw/wsj/17/wsj_1724.parse 6 21 gold matter matter.02 ----- 21:0-rel
+nw/wsj/17/wsj_1724.parse 3 30 gold dispatch dispatch.01 ----- 5:2*28:1-ARG0 30:0-rel 31:1-ARG1 33:2-ARGM-PRP
 nw/wsj/17/wsj_1724.parse 2 7 gold be be.01 ----- 4:1-ARG1 7:0-rel 9:1-ARG2
 nw/wsj/17/wsj_1724.parse 0 19 gold call call.01 ----- 12:2-ARGM-LOC 17:0-ARG2 19:0-rel 20:1-ARG0
 nw/wsj/17/wsj_1724.parse 3 3 gold say say.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
@@ -36,11 +35,12 @@ nw/wsj/17/wsj_1724.parse 6 42 gold say say.01 ----- 1:2*43:1-ARG1 40:1-ARG0 42:0
 nw/wsj/17/wsj_1724.parse 9 25 gold trip trip.03 ----- 20:1-ARG0 23:1-ARGM-ADJ 25:0-rel 26:1-ARG1
 nw/wsj/17/wsj_1724.parse 0 9 gold mar mar.01 ----- 0:2*10:1-ARG1 9:0-rel 11:1-ARG0
 nw/wsj/17/wsj_1724.parse 4 2 gold decline decline.02 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
-nw/wsj/17/wsj_1724.parse 4 9 gold say say.01 ----- 0:2*11:1-ARG1 6:1-ARG0 9:0-rel
 nw/wsj/17/wsj_1724.parse 1 7 gold tick tick_off.02 ----- 4:1*8:1-ARG1 7:0,9:1-rel 11:1-ARG0
 nw/wsj/17/wsj_1724.parse 2 11 gold stunt stunt.02 ----- 10:0-ARG1 11:0-rel
 nw/wsj/17/wsj_1724.parse 3 9 gold have have.01 ----- 9:0-rel
+nw/wsj/17/wsj_1724.parse 6 16 gold cooperate cooperate.01 ----- 6:2*13:1-ARG0 14:0-ARGM-NEG 16:0-rel 17:1-ARG1 19:1-ARGM-LOC 22:1-ARG2
 nw/wsj/17/wsj_1724.parse 3 27 gold offer offer.01 ----- 5:2-ARG0 27:0-rel 28:2-ARG1
 nw/wsj/17/wsj_1724.parse 3 10 gold invite invite.01 ----- 5:2*28:1-ARG0 10:0-rel 11:1-ARG1 13:1-ARG2
 nw/wsj/17/wsj_1724.parse 9 18 gold arrange arrange.01 ----- 7:1*16:1-ARG0 17:0-ARGM-LVB 18:0-rel 19:1-ARG1
 nw/wsj/17/wsj_1724.parse 9 10 gold be be.01 ----- 7:1-ARG1 10:0-rel 12:1-ARG2 15:1-ARGM-MNR
+nw/wsj/17/wsj_1724.parse 6 28 gold be be.02 ----- 28:0-rel 29:1-ARG1 32:1-ARGM-GOL

@@ -3,7 +3,6 @@ nw/p2.5_a2e/00/p2.5_a2e_0021.parse 1 1 gold try try.01 ----- 0:1-ARG0 1:0-rel 2:
 nw/p2.5_a2e/00/p2.5_a2e_0021.parse 5 15 gold join join.04 ----- 6:2*13:1-ARG1 15:0-rel 16:2-ARG2
 nw/p2.5_a2e/00/p2.5_a2e_0021.parse 6 3 gold trip trip.03 ----- 0:1*2:0-ARG0 3:0-rel
 nw/p2.5_a2e/00/p2.5_a2e_0021.parse 5 18 gold call call.01 ----- 16:1*19:1-ARG1 17:1-ARG0 18:0-rel 20:2-ARG2
-nw/p2.5_a2e/00/p2.5_a2e_0021.parse 7 52 gold base base.02 ----- 50:1*53:1-ARG1 50:1*53:1-LINK-PSV 52:0-rel 54:1-ARG2
 nw/p2.5_a2e/00/p2.5_a2e_0021.parse 7 42 gold revive revive.01 ----- 12:1-ARG0 42:0-rel 43:1-ARG1 46:1-ARGM-LOC
 nw/p2.5_a2e/00/p2.5_a2e_0021.parse 5 4 gold call call.03 ----- 0:1-ARG0 4:0-rel 5:1-ARG2 13:2-ARG1
 nw/p2.5_a2e/00/p2.5_a2e_0021.parse 3 4 gold want want.01 ----- 3:1-ARG0 4:0-rel 5:2-ARG1
@@ -16,10 +15,9 @@ nw/p2.5_a2e/00/p2.5_a2e_0021.parse 7 27 gold prepare prepare.02 ----- 12:1-ARG0 
 nw/p2.5_a2e/00/p2.5_a2e_0021.parse 7 11 gold be be.01 ----- 2:2*9:1*10:1-ARG1 2:2*9:1-LINK-SLC 11:0-rel 12:2-ARG2
 nw/p2.5_a2e/00/p2.5_a2e_0021.parse 2 7 gold acknowledge acknowledge.01 ----- 3:1*5:1-ARG0 7:0-rel 8:2-ARG1
 nw/p2.5_a2e/00/p2.5_a2e_0021.parse 4 33 gold leave leave.15 ----- 28:1*30:1*31:1-ARG0 28:1*30:1-LINK-SLC 33:0-rel 34:1-ARG1 35:1-ARGM-TMP
-nw/p2.5_a2e/00/p2.5_a2e_0021.parse 0 46 gold obstruct obstruct.01 ----- 32:1-ARG0 34:1-ARGM-MNR 46:0-rel 47:2-ARG1
 nw/p2.5_a2e/00/p2.5_a2e_0021.parse 1 28 gold wipe wipe.01 ----- 27:1-ARG0 28:0-rel 29:1-ARG1 30:1-ARG2
 nw/p2.5_a2e/00/p2.5_a2e_0021.parse 4 38 gold reject reject.01 ----- 28:1-ARG0 38:0-rel 39:2-ARG1
-nw/p2.5_a2e/00/p2.5_a2e_0021.parse 3 17 gold emphasize emphasize.01 ----- 0:1*16:1-ARG0 17:0-rel 18:1-ARG1
+nw/p2.5_a2e/00/p2.5_a2e_0021.parse 0 46 gold obstruct obstruct.01 ----- 32:1-ARG0 34:1-ARGM-MNR 46:0-rel 47:2-ARG1
 nw/p2.5_a2e/00/p2.5_a2e_0021.parse 7 14 gold support support.01 ----- 12:1-ARG0 14:0-rel 15:2-ARG1
 nw/p2.5_a2e/00/p2.5_a2e_0021.parse 0 33 gold be be.03 ----- 33:0-rel
 nw/p2.5_a2e/00/p2.5_a2e_0021.parse 4 52 gold terrorize terrorize.01 ----- 52:0-rel 53:1-ARGM-LOC
@@ -27,16 +25,16 @@ nw/p2.5_a2e/00/p2.5_a2e_0021.parse 3 1 gold add add.01 ----- 0:1-ARG0 1:0-rel 2:
 nw/p2.5_a2e/00/p2.5_a2e_0021.parse 6 27 gold affect affect.01 ----- 20:2-ARG0 26:0-ARGM-MOD 27:0-rel 28:2-ARG1
 nw/p2.5_a2e/00/p2.5_a2e_0021.parse 2 4 gold have have.02 ----- 4:0-rel
 nw/p2.5_a2e/00/p2.5_a2e_0021.parse 7 20 gold improve improve.01 ----- 12:1-ARG0 20:0-rel 21:2-ARG1
-nw/p2.5_a2e/00/p2.5_a2e_0021.parse 6 5 gold include include.01 ----- 0:1*2:1*4:1-ARG2 0:1*2:1-LINK-SLC 5:0-rel 6:2-ARG1
 nw/p2.5_a2e/00/p2.5_a2e_0021.parse 0 35 gold support support.01 ----- 32:1-ARG0 34:1-ARGM-MNR 35:0-rel 36:2-ARG1
 nw/p2.5_a2e/00/p2.5_a2e_0021.parse 0 20 gold confer confer.01 ----- 19:0-ARGM-PRP 20:0-rel 21:1-ARGM-LOC 23:1-ARGM-TMP
+nw/p2.5_a2e/00/p2.5_a2e_0021.parse 3 17 gold emphasize emphasize.01 ----- 0:1*16:1-ARG0 17:0-rel 18:1-ARG1
 nw/p2.5_a2e/00/p2.5_a2e_0021.parse 4 14 gold incite incite.01 ----- 13:1-ARG0 14:0-rel 15:2-ARG1 20:1-ARGM-ADV
 nw/p2.5_a2e/00/p2.5_a2e_0021.parse 3 22 gold be be.01 ----- 19:1-ARG1 21:0-ARGM-MOD 22:0-rel 23:2-ARG2
 nw/p2.5_a2e/00/p2.5_a2e_0021.parse 3 34 gold build build.01 ----- 23:1-ARG0 34:0-rel 35:1-ARG1 36:2-ARGM-PRP
 nw/p2.5_a2e/00/p2.5_a2e_0021.parse 3 28 gold be be.03 ----- 28:0-rel
 nw/p2.5_a2e/00/p2.5_a2e_0021.parse 1 9 gold have have.01 ----- 9:0-rel
 nw/p2.5_a2e/00/p2.5_a2e_0021.parse 4 11 gold aim aim.02 ----- 7:2-ARG1 11:0-rel 12:1-ARG2
-nw/p2.5_a2e/00/p2.5_a2e_0021.parse 3 38 gold prevent prevent.01 ----- 36:1-ARG0 38:0-rel 39:1-ARG1 44:1-ARGM-LOC
+nw/p2.5_a2e/00/p2.5_a2e_0021.parse 7 52 gold base base.02 ----- 50:1*53:1-ARG1 50:1*53:1-LINK-PSV 52:0-rel 54:1-ARG2
 nw/p2.5_a2e/00/p2.5_a2e_0021.parse 4 41 gold direct direct.01 ----- 39:1*42:1-ARG1 39:1*42:1-LINK-PSV 41:0-rel 43:1-ARG2 49:1-ARGM-PRD
 nw/p2.5_a2e/00/p2.5_a2e_0021.parse 6 18 gold consider consider.01 ----- 0:2-ARG0 18:0-rel 19:1-ARG1
 nw/p2.5_a2e/00/p2.5_a2e_0021.parse 3 41 gold push push.01 ----- 36:1-ARG0 41:0-rel 42:1-ARG1 43:1-ARG2 44:1-ARGM-LOC
@@ -47,5 +45,7 @@ nw/p2.5_a2e/00/p2.5_a2e_0021.parse 4 4 gold deny deny.01 ----- 0:2-ARG0 4:0-rel 
 nw/p2.5_a2e/00/p2.5_a2e_0021.parse 3 25 gold expose expose.01 ----- 23:1-ARG0 25:0-rel 26:2-ARG1
 nw/p2.5_a2e/00/p2.5_a2e_0021.parse 4 32 gold be be.03 ----- 32:0-rel
 nw/p2.5_a2e/00/p2.5_a2e_0021.parse 4 51 gold fuel fuel.01 ----- 50:1-ARG0 51:0-rel 52:2-ARG1
+nw/p2.5_a2e/00/p2.5_a2e_0021.parse 3 38 gold prevent prevent.01 ----- 36:1-ARG0 38:0-rel 39:1-ARG1 44:1-ARGM-LOC
 nw/p2.5_a2e/00/p2.5_a2e_0021.parse 4 9 gold regard regard.01 ----- 7:1-ARG0 9:0-rel 10:1-ARG1
+nw/p2.5_a2e/00/p2.5_a2e_0021.parse 6 5 gold include include.01 ----- 0:1*2:1*4:1-ARG2 0:1*2:1-LINK-SLC 5:0-rel 6:2-ARG1
 nw/p2.5_a2e/00/p2.5_a2e_0021.parse 3 7 gold embroil embroil.01 ----- 3:1*5:1-ARG0 7:0-rel 8:1-ARG1 9:1-ARG2

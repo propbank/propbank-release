@@ -1,12 +1,12 @@
 bn/cnn/04/cnn_0412.parse 2 2 gold have have.01 ----- 2:0-rel
 bn/cnn/04/cnn_0412.parse 1 11 gold chase chase.01 ----- 9:1*12:1-ARG1 11:0-rel
 bn/cnn/04/cnn_0412.parse 0 16 gold be be.03 ----- 16:0-rel
-bn/cnn/04/cnn_0412.parse 1 18 gold violent violent.01 ----- 18:0-rel
 bn/cnn/04/cnn_0412.parse 1 19 gold break break_out.06 ----- 17:1-ARG1 19:0,20:1-rel
-bn/cnn/04/cnn_0412.parse 1 6 gold kill kill.01 ----- 0:2*7:1-ARG1 6:0-rel 8:1-ARGM-TMP
+bn/cnn/04/cnn_0412.parse 1 18 gold violent violent.01 ----- 18:0-rel
 bn/cnn/04/cnn_0412.parse 0 15 gold have have.01 ----- 15:0-rel
+bn/cnn/04/cnn_0412.parse 0 17 gold riot riot.01 ----- 0:1-ARGM-LOC 3:2-ARGM-TMP 12:2-ARG0 17:0-rel 18:1-ARGM-LOC
 bn/cnn/04/cnn_0412.parse 1 10 gold be be.03 ----- 10:0-rel
 bn/cnn/04/cnn_0412.parse 1 5 gold be be.03 ----- 5:0-rel
+bn/cnn/04/cnn_0412.parse 1 6 gold kill kill.01 ----- 0:2*7:1-ARG1 6:0-rel 8:1-ARGM-TMP
 bn/cnn/04/cnn_0412.parse 2 3 gold declare declare.01 ----- 0:1-ARG0 3:0-rel 4:2-ARG1
-bn/cnn/04/cnn_0412.parse 0 17 gold riot riot.01 ----- 0:1-ARGM-LOC 3:2-ARGM-TMP 12:2-ARG0 17:0-rel 18:1-ARGM-LOC
 bn/cnn/04/cnn_0412.parse 3 5 gold have have.03 ----- 0:2-ARG0 5:0-rel 6:2-ARG1

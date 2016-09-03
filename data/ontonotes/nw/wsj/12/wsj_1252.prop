@@ -1,16 +1,16 @@
 nw/wsj/12/wsj_1252.parse 3 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2
-nw/wsj/12/wsj_1252.parse 1 21 gold spell spell.01 ----- 21:0-rel 22:2-ARGM-ADJ
-nw/wsj/12/wsj_1252.parse 3 16 gold find find.01 ----- 13:1*14:1*15:1-ARG0 13:1*14:1-LINK-SLC 16:0-rel 17:1-ARG1
 nw/wsj/12/wsj_1252.parse 0 3 gold reason reason.01 ----- 0:1-ARGM-ADJ 3:0-rel
+nw/wsj/12/wsj_1252.parse 1 25 gold prefer prefer.01 ----- 20:1*22:1*26:1-ARG1 20:1*22:1-LINK-SLC 23:1-ARG0 24:1-ARGM-TMP 25:0-rel
+nw/wsj/12/wsj_1252.parse 3 16 gold find find.01 ----- 13:1*14:1*15:1-ARG0 13:1*14:1-LINK-SLC 16:0-rel 17:1-ARG1
 nw/wsj/12/wsj_1252.parse 3 24 gold take take.01 ----- 13:2-ARG0 22:0-ARGM-MOD 23:1-ARGM-TMP 24:0-rel 25:2-ARG1
 nw/wsj/12/wsj_1252.parse 3 29 gold catch catch.03 ----- 25:1*26:1*27:1-ARG1 25:1*26:1-LINK-SLC 29:0-rel
+nw/wsj/12/wsj_1252.parse 6 4 gold be be.01 ----- 0:1*5:1-ARG2 4:0-rel 6:2-ARG1
+nw/wsj/12/wsj_1252.parse 1 21 gold spell spell.01 ----- 21:0-rel 22:2-ARGM-ADJ
 nw/wsj/12/wsj_1252.parse 6 8 gold attack attack.01 ----- 6:1-ARG0 8:0-rel 9:2-ARG1 12:1-ARGM-MNR
 nw/wsj/12/wsj_1252.parse 5 1 gold judge judge.01 ----- 0:1-ARG0 1:0-rel 2:0-ARGM-NEG
 nw/wsj/12/wsj_1252.parse 3 9 gold match match.01 ----- 6:1-ARG1 8:0-ARGM-MOD 9:0,10:1-rel
 nw/wsj/12/wsj_1252.parse 3 20 gold lag lag.01 ----- 18:1-ARG0 20:0-rel 21:1-ARGM-LOC
 nw/wsj/12/wsj_1252.parse 1 16 gold say say.01 ----- 2:1*15:1-ARG0 16:0-rel 17:1-ARG1
-nw/wsj/12/wsj_1252.parse 6 4 gold be be.01 ----- 0:1*5:1-ARG2 4:0-rel 6:2-ARG1
-nw/wsj/12/wsj_1252.parse 1 25 gold prefer prefer.01 ----- 20:1*22:1*26:1-ARG1 20:1*22:1-LINK-SLC 23:1-ARG0 24:1-ARGM-TMP 25:0-rel
 nw/wsj/12/wsj_1252.parse 6 11 gold view view.02 ----- 9:1-ARG0 11:0-rel
 nw/wsj/12/wsj_1252.parse 9 7 gold work work.07 ----- 5:0-ARG1 7:0-rel
 nw/wsj/12/wsj_1252.parse 6 15 gold set set.01 ----- 13:1-ARG0 14:1-ARGM-TMP 15:0-rel 16:1-ARG1 18:1-ARG2

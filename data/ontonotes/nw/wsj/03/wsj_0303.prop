@@ -9,6 +9,7 @@ nw/wsj/03/wsj_0303.parse 1 6 gold decide decide.01 ----- 0:1-ARGM-TMP 2:1-ARG0 6
 nw/wsj/03/wsj_0303.parse 3 12 gold choose choose.01 ----- 0:1-ARG0 12:0-rel 13:2-ARG1
 nw/wsj/03/wsj_0303.parse 3 8 gold sustain sustain.01 ----- 0:1*6:1-ARG0 0:1*6:1-LINK-PRO 8:0-rel 9:1-ARG1
 nw/wsj/03/wsj_0303.parse 0 27 gold increase increase.01 ----- 7:2-ARGM-ADJ 27:0-rel 28:1-ARG4 34:2-ARGM-ADJ
+nw/wsj/03/wsj_0303.parse 4 17 gold be be.03 ----- 17:0-rel
 nw/wsj/03/wsj_0303.parse 5 23 gold stray stray.01 ----- 13:1-ARGM-ADV 20:1-ARG0 22:0-ARGM-MOD 23:0-rel 24:1-ARG1 28:1-ARGM-LOC
 nw/wsj/03/wsj_0303.parse 0 11 gold take take.01 ----- 10:1-ARG0 11:0-rel 13:1-ARG1
 nw/wsj/03/wsj_0303.parse 1 9 gold accept accept.01 ----- 2:1*7:1-ARG0 9:0-rel 10:2-ARG1
@@ -18,7 +19,6 @@ nw/wsj/03/wsj_0303.parse 5 16 gold stay stay.01 ----- 14:1-ARG1 15:1-ARGM-ADV 16
 nw/wsj/03/wsj_0303.parse 4 5 gold be be.01 ----- 0:1-ARG1 4:0-ARGM-MOD 5:0-rel 6:2-ARG2
 nw/wsj/03/wsj_0303.parse 4 36 gold approve approve.01 ----- 25:1*30:1*37:1-ARG1 25:1*30:1-LINK-SLC 31:1*34:1-ARG0 36:0-rel
 nw/wsj/03/wsj_0303.parse 2 4 gold apply apply.02 ----- 0:1-ARG1 3:0-ARGM-MOD 4:0-rel 5:2-ARG2 14:1-ARGM-TMP
-nw/wsj/03/wsj_0303.parse 4 17 gold be be.03 ----- 17:0-rel
 nw/wsj/03/wsj_0303.parse 4 13 gold agree agree.01 ----- 12:1-ARG0 13:0-rel 14:1-ARG1
 nw/wsj/03/wsj_0303.parse 4 32 gold be be.01 ----- 31:1-ARG1 32:0-rel 33:1-ARG2 38:1-ARGM-TMP
 nw/wsj/03/wsj_0303.parse 3 3 gold have have.03 ----- 0:1*13:1-ARG0 3:0-rel 4:1-ARG1

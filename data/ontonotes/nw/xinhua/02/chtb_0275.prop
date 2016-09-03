@@ -3,14 +3,13 @@ nw/xinhua/02/chtb_0275.parse 13 76 gold invest invest.01 ----- 75:0-ARG0 76:0-re
 nw/xinhua/02/chtb_0275.parse 13 8 gold provide provide.01 ----- 6:1-ARG0 8:0-rel 9:1-ARG1 13:1-ARG2
 nw/xinhua/02/chtb_0275.parse 11 16 gold be be.03 ----- 16:0-rel
 nw/xinhua/02/chtb_0275.parse 8 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
-nw/xinhua/02/chtb_0275.parse 11 4 gold be be.03 ----- 4:0-rel
 nw/xinhua/02/chtb_0275.parse 11 35 gold concentrate concentrate.01 ----- 34:0-ARG1 35:0-rel 36:0-ARG0
+nw/xinhua/02/chtb_0275.parse 9 9 gold be be.01 ----- 6:1*11:1-ARGM-TMP 7:1-ARG1 9:0-rel 10:1-ARG2
 nw/xinhua/02/chtb_0275.parse 11 63 gold invest invest.01 ----- 22:1*24:1-ARG0 63:0-rel 64:1-ARG2
 nw/xinhua/02/chtb_0275.parse 5 10 gold agree agree.01 ----- 10:0-rel 11:0-ARG1
 nw/xinhua/02/chtb_0275.parse 13 46 gold examine examine.01 ----- 45:0-ARG1 46:0-rel
 nw/xinhua/02/chtb_0275.parse 3 7 gold end end.01 ----- 7:0-rel 8:1-ARG1
 nw/xinhua/02/chtb_0275.parse 11 5 gold reveal reveal.01 ----- 2:1*6:1-ARG1 5:0-rel 7:1-ARGM-LOC
-nw/xinhua/02/chtb_0275.parse 9 9 gold be be.01 ----- 6:1*11:1-ARGM-TMP 7:1-ARG1 9:0-rel 10:1-ARG2
 nw/xinhua/02/chtb_0275.parse 1 3 gold convene convene.01 ----- 2:0-ARGM-TMP 3:0-rel 4:0,5:0-ARG1
 nw/xinhua/02/chtb_0275.parse 11 46 gold participate participate.01 ----- 22:1*24:1-ARG0 46:0-rel 47:1-ARG1
 nw/xinhua/02/chtb_0275.parse 11 59 gold own own.01 ----- 57:0-ARG0 59:0-rel 60:0-ARG1
@@ -22,10 +21,11 @@ nw/xinhua/02/chtb_0275.parse 10 5 gold formulate formulate.01 ----- 3:1-ARG0 5:0
 nw/xinhua/02/chtb_0275.parse 12 16 gold build build_up.05 ----- 0:1*14:1-ARG0 16:0,17:1-rel 18:1-ARG1
 nw/xinhua/02/chtb_0275.parse 13 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 nw/xinhua/02/chtb_0275.parse 1 38 gold have have.03 ----- 23:1-ARG0 37:1-ARGM-ADV 38:0-rel 39:2-ARG1
+nw/xinhua/02/chtb_0275.parse 1 21 gold say say.01 ----- 0:1-ARGM-LOC 14:2-ARG0 21:0-rel 22:1-ARG1
 nw/xinhua/02/chtb_0275.parse 12 7 gold be be.01 ----- 0:1-ARG1 7:0-rel 8:1-ARG2
 nw/xinhua/02/chtb_0275.parse 3 22 gold invest invest.01 ----- 20:1-ARGM-ADV 22:0-rel 23:0-ARG1
-nw/xinhua/02/chtb_0275.parse 2 10 gold have have.03 ----- 0:2-ARG0 10:0-rel 11:1-ARG1
 nw/xinhua/02/chtb_0275.parse 8 17 gold put put.03 ----- 12:1*15:1-ARG0 17:0-rel 18:1-ARGM-DIR 19:1-ARG1
+nw/xinhua/02/chtb_0275.parse 11 4 gold be be.03 ----- 4:0-rel
 nw/xinhua/02/chtb_0275.parse 4 4 gold invest invest.01 ----- 3:0-ARGM-PRD 4:0-rel
 nw/xinhua/02/chtb_0275.parse 13 54 gold invest invest.01 ----- 53:0-ARG0 54:0-rel 55:0-ARG2
 nw/xinhua/02/chtb_0275.parse 5 20 gold invest invest.01 ----- 18:1-ARGM-ADV 20:0-rel 21:0-ARG1
@@ -34,12 +34,14 @@ nw/xinhua/02/chtb_0275.parse 1 26 gold be be.01 ----- 23:1-ARG1 26:0-rel 27:2-AR
 nw/xinhua/02/chtb_0275.parse 5 11 gold invest invest.01 ----- 10:0-ARGM-PRD 11:0-rel
 nw/xinhua/02/chtb_0275.parse 9 19 gold liberalize liberalize.01 ----- 17:1-ARG0 18:1-ARGM-MNR 19:0-rel
 nw/xinhua/02/chtb_0275.parse 9 15 gold precede precede.01 ----- 6:2-ARGM-TMP 13:1-ARG1 14:0-ARGM-LVB 15:0-rel
+nw/xinhua/02/chtb_0275.parse 13 68 gold provide provide.01 ----- 4:1-ARGM-PRP 23:1-ARG0 24:0-ARGM-MOD 68:0-rel 69:2-ARG1 74:1-ARG2
 nw/xinhua/02/chtb_0275.parse 6 18 gold settle settle.03 ----- 0:2-ARG1 18:0-rel 19:1-ARG4
+nw/xinhua/02/chtb_0275.parse 7 6 gold be be.03 ----- 6:0-rel
 nw/xinhua/02/chtb_0275.parse 6 17 gold have have.01 ----- 17:0-rel
 nw/xinhua/02/chtb_0275.parse 7 13 gold be be.01 ----- 0:1-ARGM-LOC 9:2-ARG1 13:0-rel 14:1-ARG2
 nw/xinhua/02/chtb_0275.parse 8 14 gold continue continue.01 ----- 4:1-ARGM-TMP 12:1-ARG0 13:0-ARGM-MOD 14:0-rel 15:2-ARG1
-nw/xinhua/02/chtb_0275.parse 11 21 gold encourage encourage.01 ----- 0:1-ARGM-ADV 11:2-ARGM-ADV 20:1-ARG0 21:0-rel 22:1-ARG1 24:2-ARG2
 nw/xinhua/02/chtb_0275.parse 13 16 gold come come.01 ----- 14:1-ARG1 16:0-rel 17:1-ARG4 19:2-ARGM-PRP
+nw/xinhua/02/chtb_0275.parse 2 5 gold be be.01 ----- 0:2-ARG1 5:0-rel 6:1-ARG2
 nw/xinhua/02/chtb_0275.parse 11 26 gold invest invest.01 ----- 22:1*24:1-ARG0 26:0-rel 27:1-ARG2
 nw/xinhua/02/chtb_0275.parse 8 10 gold come come.01 ----- 5:1*7:1*8:1-ARG1 5:1*7:1-LINK-SLC 10:0-rel
 nw/xinhua/02/chtb_0275.parse 13 40 gold do do.02 ----- 4:1-ARGM-PRP 23:1-ARG0 24:0-ARGM-MOD 40:0-rel 41:1-ARG1 44:1-ARG2
@@ -48,18 +50,16 @@ nw/xinhua/02/chtb_0275.parse 7 7 gold operate operate.01 ----- 1:1*4:1*5:1-ARG0 
 nw/xinhua/02/chtb_0275.parse 4 3 gold agree agree.01 ----- 3:0-rel 4:0-ARG1
 nw/xinhua/02/chtb_0275.parse 9 14 gold take take.LV ----- 14:0-rel 15:0-ARGM-PRR
 nw/xinhua/02/chtb_0275.parse 4 5 gold be be.01 ----- 0:2-ARG1 5:0-rel 6:3-ARG2
-nw/xinhua/02/chtb_0275.parse 13 68 gold provide provide.01 ----- 4:1-ARGM-PRP 23:1-ARG0 24:0-ARGM-MOD 68:0-rel 69:2-ARG1 74:1-ARG2
-nw/xinhua/02/chtb_0275.parse 2 5 gold be be.01 ----- 0:2-ARG1 5:0-rel 6:1-ARG2
 nw/xinhua/02/chtb_0275.parse 9 24 gold adjust adjust.01 ----- 0:1-ARGM-ADV 22:1-ARG0 23:0-ARGM-MOD 24:0-rel 25:1-ARG1 27:1-ARG4
 nw/xinhua/02/chtb_0275.parse 13 48 gold approve approve.01 ----- 45:0-ARG1 48:0-rel
-nw/xinhua/02/chtb_0275.parse 1 21 gold say say.01 ----- 0:1-ARGM-LOC 14:2-ARG0 21:0-rel 22:1-ARG1
 nw/xinhua/02/chtb_0275.parse 13 73 gold consult consult.01 ----- 72:0-ARGM-ADJ 73:0-rel
-nw/xinhua/02/chtb_0275.parse 7 6 gold be be.03 ----- 6:0-rel
 nw/xinhua/02/chtb_0275.parse 6 12 gold invest invest.01 ----- 12:0-rel
 nw/xinhua/02/chtb_0275.parse 8 22 gold create create.01 ----- 12:1*20:1-ARG0 22:0-rel 23:1-ARG1 29:1-ARG3
 nw/xinhua/02/chtb_0275.parse 13 51 gold manage manage.01 ----- 51:0-rel 52:1-ARG1
 nw/xinhua/02/chtb_0275.parse 13 25 gold strengthen strengthen.01 ----- 4:1-ARGM-PRP 23:1-ARG0 24:0-ARGM-MOD 25:0-rel 26:2-ARG1
+nw/xinhua/02/chtb_0275.parse 3 15 gold approve approve.01 ----- 0:1-ARGM-ADV 4:1-ARGM-TMP 13:1-ARG0 15:0-rel 16:2-ARG1
 nw/xinhua/02/chtb_0275.parse 13 58 gold run run.01 ----- 4:1-ARGM-PRP 23:1-ARG0 24:0-ARGM-MOD 57:1-ARGM-MNR 58:0-rel 59:1-ARG1
 nw/xinhua/02/chtb_0275.parse 10 1 gold request request.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
-nw/xinhua/02/chtb_0275.parse 3 15 gold approve approve.01 ----- 0:1-ARGM-ADV 4:1-ARGM-TMP 13:1-ARG0 15:0-rel 16:2-ARG1
+nw/xinhua/02/chtb_0275.parse 11 21 gold encourage encourage.01 ----- 0:1-ARGM-ADV 11:2-ARGM-ADV 20:1-ARG0 21:0-rel 22:1-ARG1 24:2-ARG2
+nw/xinhua/02/chtb_0275.parse 2 10 gold have have.03 ----- 0:2-ARG0 10:0-rel 11:1-ARG1
 nw/xinhua/02/chtb_0275.parse 12 11 gold come come.01 ----- 0:1*9:1-ARG1 11:0-rel 12:1-ARG4 14:2-ARGM-PRP

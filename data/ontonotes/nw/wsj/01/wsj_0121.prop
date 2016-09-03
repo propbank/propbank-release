@@ -12,12 +12,12 @@ nw/wsj/01/wsj_0121.parse 40 19 gold crash crash.01 ----- 18:0-ARGM-TMP 19:0-rel
 nw/wsj/01/wsj_0121.parse 28 25 gold do do.01 ----- 25:0-rel
 nw/wsj/01/wsj_0121.parse 18 5 gold favor favor.01 ----- 5:0-rel 6:1-ARG1
 nw/wsj/01/wsj_0121.parse 8 8 gold give give.01 ----- 4:1-ARG0 6:0-ARGM-MOD 8:0-rel 9:1-ARG2 10:1-ARG1
-nw/wsj/01/wsj_0121.parse 47 8 gold figure figure.01 ----- 1:1-ARGM-ADV 7:1-ARG0 8:0-rel 9:1-ARG1
+nw/wsj/01/wsj_0121.parse 4 2 gold think think.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG1
 nw/wsj/01/wsj_0121.parse 14 13 gold be be.01 ----- 12:1-ARG1 13:0-rel 14:1-ARG2
-nw/wsj/01/wsj_0121.parse 22 7 gold denounce denounce.01 ----- 1:1*5:1-ARG0 7:0-rel 8:1-ARG1
 nw/wsj/01/wsj_0121.parse 16 25 gold curb curb.01 ----- 23:1-ARG0 25:0-rel 26:1-ARG1
 nw/wsj/01/wsj_0121.parse 35 6 gold trade trade.01 ----- 5:0-ARGM-MNR 6:0-rel
 nw/wsj/01/wsj_0121.parse 45 13 gold buy buy.01 ----- 0:1*11:1-ARG0 13:0-rel 14:1-ARG1
+nw/wsj/01/wsj_0121.parse 7 5 gold overvalue overvalue.01 ----- 3:1-ARG1 5:0-rel
 nw/wsj/01/wsj_0121.parse 36 3 gold have have.03 ----- 2:1-ARG0 3:0-rel 4:1-ARG1
 nw/wsj/01/wsj_0121.parse 22 14 gold be be.01 ----- 10:2-ARG1 13:0-ARGM-MOD 14:0-rel 15:1-ARG2
 nw/wsj/01/wsj_0121.parse 17 28 gold disappear disappear.01 ----- 26:1-ARG1 28:0-rel
@@ -26,37 +26,40 @@ nw/wsj/01/wsj_0121.parse 3 9 gold be be.03 ----- 9:0-rel
 nw/wsj/01/wsj_0121.parse 14 20 gold threaten threaten.01 ----- 19:1-ARG0 20:0-rel
 nw/wsj/01/wsj_0121.parse 47 4 gold go go.01 ----- 2:1-ARG1 4:0-rel 5:1-ARGM-DIR
 nw/wsj/01/wsj_0121.parse 30 4 gold become become.01 ----- 0:1-ARG1 3:1-ARGM-ADV 4:0-rel 5:1-ARG2
-nw/wsj/01/wsj_0121.parse 25 6 gold increase increase.01 ----- 3:1-ARG0 6:0-rel 7:2-ARG1
 nw/wsj/01/wsj_0121.parse 8 15 gold recede recession.02 ----- 15:0-rel
 nw/wsj/01/wsj_0121.parse 10 2 gold believe believe.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
 nw/wsj/01/wsj_0121.parse 1 7 gold hurt hurt.01 ----- 5:1-ARG0 7:0-rel 8:1-ARG1
 nw/wsj/01/wsj_0121.parse 32 1 gold add add.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+nw/wsj/01/wsj_0121.parse 25 1 gold add add.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 nw/wsj/01/wsj_0121.parse 19 6 gold get get.02 ----- 4:1-ARG0 6:0-rel 7:1-ARG1
 nw/wsj/01/wsj_0121.parse 2 8 gold echo echo.01 ----- 0:3*9:1-ARG1 8:0-rel 10:1-ARG0
 nw/wsj/01/wsj_0121.parse 27 27 gold trade trade.01 ----- 26:0-ARGM-MNR 27:0-rel
+nw/wsj/01/wsj_0121.parse 14 1 gold cite cite.01 ----- 0:1*7:1-ARG0 1:0-rel 2:1-ARG1
 nw/wsj/01/wsj_0121.parse 0 1 gold trade trade.01 ----- 0:0-ARGM-MNR 1:0-rel
 nw/wsj/01/wsj_0121.parse 28 32 gold ban ban.01 ----- 29:1*33:1-ARG1 30:0-ARGM-MOD 32:0-rel
 nw/wsj/01/wsj_0121.parse 40 14 gold lose lose.02 ----- 8:1*12:1*15:1-ARG1 8:1*12:1-LINK-SLC 13:1-ARG0 14:0-rel 16:1-ARGM-TMP
+nw/wsj/01/wsj_0121.parse 5 24 gold require require.01 ----- 22:0-ARGM-ADJ 23:0-ARG1 24:0-rel 25:1-ARGM-ADJ
 nw/wsj/01/wsj_0121.parse 12 4 gold curb curb.01 ----- 3:1-ARG0 4:0-rel 5:1-ARG1
+nw/wsj/01/wsj_0121.parse 22 7 gold denounce denounce.01 ----- 1:1*5:1-ARG0 7:0-rel 8:1-ARG1
+nw/wsj/01/wsj_0121.parse 25 6 gold increase increase.01 ----- 3:1-ARG0 6:0-rel 7:2-ARG1
+nw/wsj/01/wsj_0121.parse 9 23 gold spook spook.01 ----- 2:1-ARGM-ADV 18:2-ARG0 23:0-rel 24:1-ARG1 26:1-ARGM-TMP
 nw/wsj/01/wsj_0121.parse 23 9 gold be be.03 ----- 9:0-rel
 nw/wsj/01/wsj_0121.parse 43 5 gold answer answer.01 ----- 4:0-ARGM-ADJ 5:0-rel 6:1-ARGM-GOL
 nw/wsj/01/wsj_0121.parse 5 34 gold figure figure_out.05 ----- 31:1-ARG0 32:1-ARGM-TMP 33:0-ARGM-MOD 34:0,35:1-rel 36:1-ARGM-TMP 37:2-ARG1
+nw/wsj/01/wsj_0121.parse 8 17 gold loom loom.01 ----- 14:1-ARG1 17:0-rel
 nw/wsj/01/wsj_0121.parse 32 27 gold hurt hurt.01 ----- 19:1-ARG2 21:1-ARGM-TMP 26:0-ARGM-MOD 27:0-rel 28:1-ARG1
 nw/wsj/01/wsj_0121.parse 27 5 gold be be.03 ----- 5:0-rel
 nw/wsj/01/wsj_0121.parse 10 6 gold trade trade.01 ----- 5:0-ARGM-MNR 6:0-rel
-nw/wsj/01/wsj_0121.parse 12 7 gold be be.01 ----- 3:2-ARG1 6:0-ARGM-MOD 7:0-rel 9:1-ARG2
+nw/wsj/01/wsj_0121.parse 0 8 gold complain complain.01 ----- 0:3-ARG1-DSP 8:0-rel 11:2-ARG0
 nw/wsj/01/wsj_0121.parse 12 1 gold add add.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 nw/wsj/01/wsj_0121.parse 23 24 gold trade trade.01 ----- 23:0-ARGM-MNR 24:0-rel
 nw/wsj/01/wsj_0121.parse 6 2 gold blame blame.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG1 5:1-ARG2
-nw/wsj/01/wsj_0121.parse 28 27 gold think think.01 ----- 24:1-ARG0 26:0-ARGM-NEG 27:0-rel 28:1-ARG1
-nw/wsj/01/wsj_0121.parse 8 17 gold loom loom.01 ----- 14:1-ARG1 17:0-rel
+nw/wsj/01/wsj_0121.parse 1 16 gold stop stop.01 ----- 13:1*17:1-ARG1 14:0-ARGM-MOD 16:0-rel
+nw/wsj/01/wsj_0121.parse 32 11 gold invest invest.01 ----- 3:2*12:1-ARG1 11:0-rel 13:1-ARG2
 nw/wsj/01/wsj_0121.parse 3 6 gold expect expect.01 ----- 0:0-ARGM-DIS 1:1-ARGM-ADV 5:1-ARG0 6:0-rel 7:2-ARG1
 nw/wsj/01/wsj_0121.parse 15 35 gold see see.01 ----- 0:2-ARG0 34:0-ARGM-NEG 35:0-rel 36:1,38:1-ARG1
-nw/wsj/01/wsj_0121.parse 1 3 gold think think.01 ----- 2:1-ARG0 3:0-rel 4:1-ARG1
 nw/wsj/01/wsj_0121.parse 1 6 gold be be.03 ----- 6:0-rel
 nw/wsj/01/wsj_0121.parse 42 18 gold sell sell.01 ----- 8:2*16:1-ARG0 18:0-rel 19:1-ARG1 29:1-ARGM-PRP
-nw/wsj/01/wsj_0121.parse 24 27 gold factor factor.01 ----- 24:1-ARG0 27:0-rel 29:2-ARG1 34:1-ARG2
-nw/wsj/01/wsj_0121.parse 36 16 gold buy buy.01 ----- 15:1-ARG0 16:0-rel
 nw/wsj/01/wsj_0121.parse 37 14 gold take take.01 ----- 1:1-ARGM-ADV 12:1-ARG0 13:0-ARGM-MOD 14:0-rel 15:1-ARG1 16:1-ARG2
 nw/wsj/01/wsj_0121.parse 14 25 gold do do.02 ----- 23:1-ARG0 25:0-rel 26:1-ARG1
 nw/wsj/01/wsj_0121.parse 22 11 gold denounce denounce.01 ----- 10:1-ARG0 11:0-rel 12:1-ARG1
@@ -72,57 +75,51 @@ nw/wsj/01/wsj_0121.parse 21 13 gold decry decry.01 ----- 0:2-ARG0 13:0-rel 14:1-
 nw/wsj/01/wsj_0121.parse 3 10 gold halt halt.01 ----- 7:1*11:1-ARG1 10:0-rel 12:1-ARGM-ADV
 nw/wsj/01/wsj_0121.parse 25 4 gold trade trade.01 ----- 3:0-ARGM-MNR 4:0-rel
 nw/wsj/01/wsj_0121.parse 21 36 gold be be.03 ----- 36:0-rel
+nw/wsj/01/wsj_0121.parse 23 21 gold live live.02 ----- 19:1-ARG0 20:0-ARGM-MOD 21:0-rel 22:1-ARG1
 nw/wsj/01/wsj_0121.parse 49 1 gold do do.01 ----- 1:0-rel
 nw/wsj/01/wsj_0121.parse 22 17 gold denounce denounce.01 ----- 16:1-ARG0 17:0-rel 18:1-ARG1
 nw/wsj/01/wsj_0121.parse 31 8 gold price price.01 ----- 5:1-ARG1 8:0-rel
-nw/wsj/01/wsj_0121.parse 0 40 gold be be.01 ----- 39:1-ARG1 40:0-rel 41:1-ARG2
 nw/wsj/01/wsj_0121.parse 26 3 gold hold hold_back.07 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-ARGM-NEG 3:0,4:1-rel 5:1-ARG1
+nw/wsj/01/wsj_0121.parse 0 40 gold be be.01 ----- 39:1-ARG1 40:0-rel 41:1-ARG2
+nw/wsj/01/wsj_0121.parse 47 17 gold lose lose.02 ----- 12:1*14:1*18:1-ARG1 12:1*14:1-LINK-SLC 15:1-ARG0 17:0-rel
 nw/wsj/01/wsj_0121.parse 2 14 gold interview interview.01 ----- 11:1*15:1-ARG1 11:1*15:1-LINK-PSV 14:0-rel 16:1-ARG0
 nw/wsj/01/wsj_0121.parse 37 10 gold trade trade.01 ----- 9:0-ARGM-MNR 10:0-rel
-nw/wsj/01/wsj_0121.parse 9 23 gold spook spook.01 ----- 2:1-ARGM-ADV 18:2-ARG0 23:0-rel 24:1-ARG1 26:1-ARGM-TMP
-nw/wsj/01/wsj_0121.parse 0 8 gold complain complain.01 ----- 0:3-ARG1-DSP 8:0-rel 11:2-ARG0
 nw/wsj/01/wsj_0121.parse 48 14 gold sell sell.01 ----- 0:1-ARGM-DIS 5:1-ARGM-ADV 12:1-ARG0 13:1-ARGM-TMP 14:0-rel
 nw/wsj/01/wsj_0121.parse 45 6 gold price price.01 ----- 5:0-ARGM-MNR 6:0-rel 7:1-ARGM-TMP
 nw/wsj/01/wsj_0121.parse 27 10 gold say say.01 ----- 0:1-ARG1-DSP 9:1-ARG0 10:0-rel
-nw/wsj/01/wsj_0121.parse 15 22 gold fluctuate fluctuate.01 ----- 17:1-ARG1 22:0-rel
-nw/wsj/01/wsj_0121.parse 5 24 gold require require.01 ----- 22:0-ARGM-ADJ 23:0-ARG1 24:0-rel 25:1-ARGM-ADJ
-nw/wsj/01/wsj_0121.parse 2 6 gold trade trade.01 ----- 5:0-ARGM-MNR 6:0-rel
 nw/wsj/01/wsj_0121.parse 0 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 4:1-ARG2
-nw/wsj/01/wsj_0121.parse 42 32 gold be be.01 ----- 30:1-ARG1 31:0-ARGM-MOD 32:0-rel 33:1-ARG2
+nw/wsj/01/wsj_0121.parse 19 13 gold say say.01 ----- 1:2*14:1-ARG1 12:1-ARG0 13:0-rel
 nw/wsj/01/wsj_0121.parse 36 21 gold explain explain.01 ----- 1:2*22:1-ARG1 20:1-ARG0 21:0-rel
 nw/wsj/01/wsj_0121.parse 17 27 gold trade trade.01 ----- 26:0-ARGM-MNR 27:0-rel
 nw/wsj/01/wsj_0121.parse 42 6 gold drop drop.01 ----- 4:1-ARG1 6:0-rel
+nw/wsj/01/wsj_0121.parse 31 1 gold arbitrage arbitrage.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 nw/wsj/01/wsj_0121.parse 22 22 gold explain explain.01 ----- 1:2*23:1-ARG1 21:1-ARG0 22:0-rel
-nw/wsj/01/wsj_0121.parse 40 22 gold lose lose.02 ----- 20:1*28:1-ARGM-TMP 21:1-ARG0 22:0-rel 23:1-ARG1 25:1-ARGM-TMP
 nw/wsj/01/wsj_0121.parse 28 15 gold comment comment.01 ----- 0:2-ARGM-ADV 6:2-ARG0 15:0-rel 17:3-ARG1
-nw/wsj/01/wsj_0121.parse 21 5 gold run run.01 ----- 0:1*3:1*4:1-ARG0 0:1*3:1-LINK-SLC 5:0-rel 6:2-ARG1
 nw/wsj/01/wsj_0121.parse 8 7 gold be be.03 ----- 7:0-rel
+nw/wsj/01/wsj_0121.parse 27 6 gold stop stop.01 ----- 0:0-ARGM-DIS 1:1*7:1-ARG1 3:0-ARGM-MOD 4:0-ARGM-NEG 6:0-rel 14:1-ARGM-CAU
 nw/wsj/01/wsj_0121.parse 21 39 gold regulate regulate.01 ----- 34:1*40:1-ARG1 35:0-ARGM-MOD 37:1-ARGM-MNR 39:0-rel
 nw/wsj/01/wsj_0121.parse 43 1 gold believe believe.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 nw/wsj/01/wsj_0121.parse 24 36 gold decide decide.01 ----- 35:0-ARG3 36:0-rel
 nw/wsj/01/wsj_0121.parse 44 13 gold become become.01 ----- 0:2-ARG1 13:0-rel 14:1-ARG2
-nw/wsj/01/wsj_0121.parse 45 17 gold hunt hunt.01 ----- 0:1*11:1-ARG0 17:0-rel 18:1-ARG1 21:1-ARGM-TMP
 nw/wsj/01/wsj_0121.parse 27 19 gold be be.01 ----- 16:1-ARG1 19:0-rel 20:0-ARGM-NEG 21:1-ARG2
-nw/wsj/01/wsj_0121.parse 4 2 gold think think.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG1
-nw/wsj/01/wsj_0121.parse 1 16 gold stop stop.01 ----- 13:1*17:1-ARG1 14:0-ARGM-MOD 16:0-rel
+nw/wsj/01/wsj_0121.parse 47 8 gold figure figure.01 ----- 1:1-ARGM-ADV 7:1-ARG0 8:0-rel 9:1-ARG1
 nw/wsj/01/wsj_0121.parse 23 10 gold adapt adapt.01 ----- 1:2*7:1-ARG0 10:0-rel 11:1-ARG2
-nw/wsj/01/wsj_0121.parse 14 1 gold cite cite.01 ----- 0:1*7:1-ARG0 1:0-rel 2:1-ARG1
 nw/wsj/01/wsj_0121.parse 17 25 gold see see.01 ----- 2:2*23:1-ARG0 25:0-rel 26:2-ARG1
 nw/wsj/01/wsj_0121.parse 10 9 gold swing swing.03 ----- 8:0-ARGM-ADJ 9:0-rel
+nw/wsj/01/wsj_0121.parse 8 1 gold add add.01 ----- 0:1-ARG0 1:0-rel 4:2-ARG1
 nw/wsj/01/wsj_0121.parse 0 29 gold be be.01 ----- 28:1-ARG1 29:0-rel 30:0-ARGM-NEG 31:1-ARG2
 nw/wsj/01/wsj_0121.parse 46 10 gold say say.01 ----- 1:2*11:1-ARG1 9:1-ARG0 10:0-rel
-nw/wsj/01/wsj_0121.parse 30 2 gold be be.03 ----- 2:0-rel
 nw/wsj/01/wsj_0121.parse 21 15 gold trade trade.01 ----- 14:0-ARGM-MNR 15:0-rel
-nw/wsj/01/wsj_0121.parse 32 11 gold invest invest.01 ----- 3:2*12:1-ARG1 11:0-rel 13:1-ARG2
-nw/wsj/01/wsj_0121.parse 23 21 gold live live.02 ----- 19:1-ARG0 20:0-ARGM-MOD 21:0-rel 22:1-ARG1
+nw/wsj/01/wsj_0121.parse 40 22 gold lose lose.02 ----- 20:1*28:1-ARGM-TMP 21:1-ARG0 22:0-rel 23:1-ARG1 25:1-ARGM-TMP
 nw/wsj/01/wsj_0121.parse 34 3 gold be be.01 ----- 2:1-ARG1 3:0-rel 4:1-ARG2
 nw/wsj/01/wsj_0121.parse 17 34 gold see see.01 ----- 31:1-ARG0 32:0-ARGM-MOD 33:0-ARGM-NEG 34:0-rel 35:1-ARG1
 nw/wsj/01/wsj_0121.parse 37 4 gold get get.01 ----- 2:1-ARG0 3:0-ARGM-MOD 4:0-rel 5:2-ARG1
+nw/wsj/01/wsj_0121.parse 2 6 gold trade trade.01 ----- 5:0-ARGM-MNR 6:0-rel
 nw/wsj/01/wsj_0121.parse 13 25 gold trade trade.01 ----- 24:0-ARGM-MNR 25:0-rel
 nw/wsj/01/wsj_0121.parse 44 12 gold have have.01 ----- 12:0-rel
-nw/wsj/01/wsj_0121.parse 21 19 gold limit limit.01 ----- 14:1*18:1-ARG0 14:1*18:1-LINK-PRO 19:0-rel 20:1-ARG1 22:1-ARG2
 nw/wsj/01/wsj_0121.parse 43 12 gold buy buy.01 ----- 7:1*9:1-ARG0 7:1*9:1-LINK-PRO 12:0-rel 13:2-ARG1
 nw/wsj/01/wsj_0121.parse 15 40 gold outlaw outlaw.01 ----- 39:1-ARG0 40:0-rel 41:1-ARG1
+nw/wsj/01/wsj_0121.parse 7 7 gold cite cite.01 ----- 0:1-ARG0 1:1-ARGM-DIS 7:0-rel 8:2-ARG1
 nw/wsj/01/wsj_0121.parse 17 37 gold do do.02 ----- 36:1-ARG0 37:0-rel 38:1-ARG1 39:1-ARG2
 nw/wsj/01/wsj_0121.parse 32 10 gold be be.03 ----- 10:0-rel
 nw/wsj/01/wsj_0121.parse 33 3 gold be be.01 ----- 2:1-ARG1 3:0-rel 4:1-ARG2
@@ -130,72 +127,75 @@ nw/wsj/01/wsj_0121.parse 17 22 gold liken like.02 ----- 0:1-ARGM-DIS 2:2-ARG0 21
 nw/wsj/01/wsj_0121.parse 43 17 gold weather weather.01 ----- 13:1*14:1*15:1-ARG0 13:1*14:1-LINK-SLC 16:0-ARGM-MOD 17:0-rel 18:1-ARG1
 nw/wsj/01/wsj_0121.parse 38 6 gold do do.02 ----- 0:1*7:1-ARG1 2:0-ARGM-MOD 3:1-ARG0 6:0-rel
 nw/wsj/01/wsj_0121.parse 40 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
+nw/wsj/01/wsj_0121.parse 42 32 gold be be.01 ----- 30:1-ARG1 31:0-ARGM-MOD 32:0-rel 33:1-ARG2
 nw/wsj/01/wsj_0121.parse 43 8 gold be be.01 ----- 3:2-ARG1 8:0-rel 9:2-ARG2
 nw/wsj/01/wsj_0121.parse 6 4 gold trade trade.01 ----- 3:0-ARGM-MNR 4:0-rel
 nw/wsj/01/wsj_0121.parse 4 15 gold say say.01 ----- 1:2*16:1-ARG1 15:0-rel 17:2-ARG0
 nw/wsj/01/wsj_0121.parse 5 20 gold have have.03 ----- 19:1-ARG0 20:0-rel 21:2-ARG1
 nw/wsj/01/wsj_0121.parse 41 3 gold plan plan.01 ----- 0:1-ARGM-TMP 2:1-ARG0 3:0-rel 4:2-ARG1
 nw/wsj/01/wsj_0121.parse 32 23 gold give give.01 ----- 23:0-rel 24:0-ARG1
+nw/wsj/01/wsj_0121.parse 28 27 gold think think.01 ----- 24:1-ARG0 26:0-ARGM-NEG 27:0-rel 28:1-ARG1
 nw/wsj/01/wsj_0121.parse 49 3 gold want want.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:2-ARG1
+nw/wsj/01/wsj_0121.parse 21 19 gold limit limit.01 ----- 14:1*18:1-ARG0 14:1*18:1-LINK-PRO 19:0-rel 20:1-ARG1 22:1-ARG2
+nw/wsj/01/wsj_0121.parse 1 3 gold think think.01 ----- 2:1-ARG0 3:0-rel 4:1-ARG1
 nw/wsj/01/wsj_0121.parse 36 12 gold say say.01 ----- 1:1-ARGM-ADV 9:1-ARG0 11:0-ARGM-MOD 12:0-rel 15:2-ARG1
+nw/wsj/01/wsj_0121.parse 24 27 gold factor factor.01 ----- 24:1-ARG0 27:0-rel 29:2-ARG1 34:1-ARG2
 nw/wsj/01/wsj_0121.parse 11 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:0-ARGM-NEG 3:1-ARG2
-nw/wsj/01/wsj_0121.parse 31 1 gold arbitrage arbitrage.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+nw/wsj/01/wsj_0121.parse 15 22 gold fluctuate fluctuate.01 ----- 17:1-ARG1 22:0-rel
 nw/wsj/01/wsj_0121.parse 47 11 gold be be.01 ----- 10:1-ARG1 11:0-rel 12:1-ARG2 14:2-ARGM-ADV
 nw/wsj/01/wsj_0121.parse 0 5 gold racket racket.01 ----- 5:0-rel
 nw/wsj/01/wsj_0121.parse 11 8 gold be be.02 ----- 8:0-rel 9:1-ARG1 12:1-ARGM-LOC
 nw/wsj/01/wsj_0121.parse 24 22 gold say say.01 ----- 0:2-ARG0 22:0-rel 23:1-ARG1
 nw/wsj/01/wsj_0121.parse 22 2 gold do do.01 ----- 2:0-rel
 nw/wsj/01/wsj_0121.parse 4 5 gold trade trade.01 ----- 4:0-ARGM-MNR 5:0-rel
+nw/wsj/01/wsj_0121.parse 5 40 gold be be.03 ----- 40:0-rel
 nw/wsj/01/wsj_0121.parse 5 5 gold have have.03 ----- 3:1-ARG0 5:0-rel 6:1-ARG1 10:1-ARGM-CAU
+nw/wsj/01/wsj_0121.parse 45 17 gold hunt hunt.01 ----- 0:1*11:1-ARG0 17:0-rel 18:1-ARG1 21:1-ARGM-TMP
+nw/wsj/01/wsj_0121.parse 36 16 gold buy buy.01 ----- 15:1-ARG0 16:0-rel
 nw/wsj/01/wsj_0121.parse 35 4 gold defend defend.01 ----- 0:2-ARG0 4:0-rel 5:1-ARG1 7:1-ARGM-CAU
 nw/wsj/01/wsj_0121.parse 13 23 gold curb curb.01 ----- 20:1-ARG0 22:0-ARGM-MOD 23:0-rel 24:1-ARG1
 nw/wsj/01/wsj_0121.parse 45 10 gold crash crash.01 ----- 9:0-ARGM-TMP 10:0-rel
 nw/wsj/01/wsj_0121.parse 48 7 gold go go.01 ----- 6:1-ARG1 7:0-rel 8:1-ARG4
 nw/wsj/01/wsj_0121.parse 14 5 gold crash crash.01 ----- 3:0-ARGM-TMP 4:0-ARGM-TMP 5:0-rel
 nw/wsj/01/wsj_0121.parse 34 17 gold trade trade.01 ----- 16:0-ARGM-MNR 17:0-rel
-nw/wsj/01/wsj_0121.parse 5 40 gold be be.03 ----- 40:0-rel
 nw/wsj/01/wsj_0121.parse 31 9 gold be be.01 ----- 0:2-ARG1 9:0-rel 10:2-ARG2
 nw/wsj/01/wsj_0121.parse 4 6 gold be be.01 ----- 4:1-ARG1 6:0-rel 7:1-ARG2
 nw/wsj/01/wsj_0121.parse 15 15 gold say say.01 ----- 4:1*13:1*14:1-ARG0 4:1*13:1-LINK-SLC 15:0-rel 16:1-ARG1
 nw/wsj/01/wsj_0121.parse 14 9 gold say say.01 ----- 0:2-ARGM-ADV 7:1-ARG0 9:0-rel 12:3-ARG1
 nw/wsj/01/wsj_0121.parse 15 25 gold give give.01 ----- 17:2-ARG0 25:0-rel 26:1-ARG2 27:1-ARG1
 nw/wsj/01/wsj_0121.parse 1 15 gold be be.03 ----- 15:0-rel
-nw/wsj/01/wsj_0121.parse 25 1 gold add add.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 nw/wsj/01/wsj_0121.parse 16 4 gold want want.01 ----- 0:1*1:1*2:1-ARG0 0:1*1:1-LINK-SLC 3:1-ARGM-DIS 4:0-rel 5:2-ARG1
 nw/wsj/01/wsj_0121.parse 1 11 gold doubt doubt.01 ----- 0:0-ARGM-DIS 1:1-ARGM-ADV 10:1-ARG0 11:0-rel 12:1-ARG1
-nw/wsj/01/wsj_0121.parse 7 5 gold overvalue overvalue.01 ----- 3:1-ARG1 5:0-rel
 nw/wsj/01/wsj_0121.parse 15 42 gold trade trade.01 ----- 41:0-ARGM-MNR 42:0-rel
 nw/wsj/01/wsj_0121.parse 35 9 gold believe believe.01 ----- 8:1-ARG0 9:0-rel 10:1-ARG1
-nw/wsj/01/wsj_0121.parse 7 7 gold cite cite.01 ----- 0:1-ARG0 1:1-ARGM-DIS 7:0-rel 8:2-ARG1
 nw/wsj/01/wsj_0121.parse 45 16 gold have have.01 ----- 16:0-rel
 nw/wsj/01/wsj_0121.parse 5 16 gold trade trade.01 ----- 15:0-ARG0 16:0-rel
-nw/wsj/01/wsj_0121.parse 19 13 gold say say.01 ----- 1:2*14:1-ARG1 12:1-ARG0 13:0-rel
+nw/wsj/01/wsj_0121.parse 21 5 gold run run.01 ----- 0:1*3:1*4:1-ARG0 0:1*3:1-LINK-SLC 5:0-rel 6:2-ARG1
 nw/wsj/01/wsj_0121.parse 42 47 gold trade trade.01 ----- 46:0-ARGM-MNR 47:0-rel
 nw/wsj/01/wsj_0121.parse 28 20 gold increase increase.01 ----- 17:1-ARG0 20:0-rel 21:1-ARG1
+nw/wsj/01/wsj_0121.parse 19 2 gold think think.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG1
 nw/wsj/01/wsj_0121.parse 5 1 gold note note.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 nw/wsj/01/wsj_0121.parse 45 2 gold take take.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1 4:1-ARG2 11:2-ARGM-PRP
-nw/wsj/01/wsj_0121.parse 27 6 gold stop stop.01 ----- 0:0-ARGM-DIS 1:1*7:1-ARG1 3:0-ARGM-MOD 4:0-ARGM-NEG 6:0-rel 14:1-ARGM-CAU
 nw/wsj/01/wsj_0121.parse 34 12 gold be be.01 ----- 1:1-ARGM-ADV 10:1-ARG1 11:0-ARGM-MOD 12:0-rel 13:2-ARG2
 nw/wsj/01/wsj_0121.parse 3 22 gold be be.03 ----- 22:0-rel
-nw/wsj/01/wsj_0121.parse 47 17 gold lose lose.02 ----- 12:1*14:1*18:1-ARG1 12:1*14:1-LINK-SLC 15:1-ARG0 17:0-rel
 nw/wsj/01/wsj_0121.parse 7 2 gold consider consider.01 ----- 0:1-ARG0 1:1-ARGM-ADV 2:0-rel 3:2-ARG1
 nw/wsj/01/wsj_0121.parse 33 12 gold say say.01 ----- 2:2*13:1-ARG1 11:1-ARG0 12:0-rel
 nw/wsj/01/wsj_0121.parse 42 15 gold move move.02 ----- 0:1-ARGM-TMP 3:1-ARGM-TMP 8:2-ARG0 15:0-rel 16:2-ARG1
-nw/wsj/01/wsj_0121.parse 8 1 gold add add.01 ----- 0:1-ARG0 1:0-rel 4:2-ARG1
+nw/wsj/01/wsj_0121.parse 30 2 gold be be.03 ----- 2:0-rel
 nw/wsj/01/wsj_0121.parse 24 15 gold play play.01 ----- 3:1*13:1*14:1-ARG0 3:1*13:1-LINK-SLC 15:0-rel 16:1-ARG1 17:1-ARGM-ADV
+nw/wsj/01/wsj_0121.parse 23 17 gold say say.01 ----- 1:2-ARG0 17:0-rel 18:1-ARG1
 nw/wsj/01/wsj_0121.parse 29 1 gold be be.02 ----- 1:0-rel 2:1-ARG1 4:1-ARGM-LOC
 nw/wsj/01/wsj_0121.parse 28 18 gold trade trade.01 ----- 17:0-ARGM-MNR 18:0-rel
 nw/wsj/01/wsj_0121.parse 47 13 gold profit profit.01 ----- 12:0-ARGM-LOC 13:0-rel
 nw/wsj/01/wsj_0121.parse 20 7 gold deal deal.01 ----- 6:1-ARG0 7:0-rel 8:1-ARG2
 nw/wsj/01/wsj_0121.parse 14 17 gold crash crash.01 ----- 16:0-ARGM-TMP 17:0-rel
+nw/wsj/01/wsj_0121.parse 12 7 gold be be.01 ----- 3:2-ARG1 6:0-ARGM-MOD 7:0-rel 9:1-ARG2
 nw/wsj/01/wsj_0121.parse 24 25 gold be be.03 ----- 25:0-rel
 nw/wsj/01/wsj_0121.parse 20 5 gold see see.01 ----- 1:1-ARG0 2:0-ARGM-MOD 3:1-ARGM-ADV 5:0-rel 6:2-ARG1
 nw/wsj/01/wsj_0121.parse 42 43 gold cause cause.01 ----- 37:1*44:1-ARG1 37:1*44:1-LINK-PSV 43:0-rel 45:1-ARG0
 nw/wsj/01/wsj_0121.parse 9 14 gold put put.02 ----- 3:2-ARG0 14:0-rel 15:1-ARG1
 nw/wsj/01/wsj_0121.parse 31 19 gold say say.01 ----- 0:3*21:1-ARG1 18:1-ARG0 19:0-rel
 nw/wsj/01/wsj_0121.parse 41 6 gold sell sell.01 ----- 2:1*4:1-ARG0 6:0-rel 7:1-ARG1 10:1-ARGM-TMP
-nw/wsj/01/wsj_0121.parse 19 2 gold think think.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG1
-nw/wsj/01/wsj_0121.parse 23 17 gold say say.01 ----- 1:2-ARG0 17:0-rel 18:1-ARG1
 nw/wsj/01/wsj_0121.parse 5 41 gold head head.02 ----- 37:1*42:1-ARG1 38:1-ARG0 41:0-rel
 nw/wsj/01/wsj_0121.parse 39 8 gold go go.02 ----- 0:2-ARG0 8:0-rel 9:1-ARG4
 nw/wsj/01/wsj_0121.parse 28 31 gold be be.03 ----- 31:0-rel

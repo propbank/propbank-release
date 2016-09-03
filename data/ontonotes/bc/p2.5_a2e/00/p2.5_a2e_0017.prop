@@ -1,24 +1,22 @@
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 5 7 gold know know.01 ----- 6:1-ARG0 7:0-rel 8:1-ARG1
+bc/p2.5_a2e/00/p2.5_a2e_0017.parse 18 25 gold lift lift.02 ----- 24:1-ARG0 25:0-rel 26:1-ARG1 28:1-ARGM-TMP 29:1-ARGM-MNR
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 11 9 gold surface surface.01 ----- 5:1*7:1*8:1-ARG1 5:1*7:1-LINK-SLC 9:0-rel
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 3 14 gold propose propose.01 ----- 12:1*15:1-ARG1 12:1*15:1-LINK-PSV 14:0-rel 16:1-ARG3
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 2 20 gold say say.01 ----- 16:1-ARGM-TMP 19:1-ARG0 20:0-rel 21:1-ARG1
+bc/p2.5_a2e/00/p2.5_a2e_0017.parse 5 11 gold be be.02 ----- 11:0-rel 12:2-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 10 8 gold be be.03 ----- 8:0-rel
-bc/p2.5_a2e/00/p2.5_a2e_0017.parse 19 22 gold pay pay.01 ----- 2:1*5:1*20:1-ARG0 2:1*5:1-LINK-SLC 22:0-rel 23:2-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 10 28 gold be be.01 ----- 27:1-ARG1 28:0-rel 29:1-ARG2
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 18 63 gold befall befall.01 ----- 58:1*60:1*61:1-ARG0 58:1*60:1-LINK-SLC 63:0-rel 64:1*70:1-ARG1
-bc/p2.5_a2e/00/p2.5_a2e_0017.parse 18 25 gold lift lift.02 ----- 24:1-ARG0 25:0-rel 26:1-ARG1 28:1-ARGM-TMP 29:1-ARGM-MNR
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 9 15 gold be be.01 ----- 8:2-ARG1 15:0-rel 16:1-ARG2
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 18 68 gold face face.01 ----- 58:1*60:1*61:1-ARG0 58:1*60:1-LINK-SLC 68:0-rel 69:1*70:1-ARG1
-bc/p2.5_a2e/00/p2.5_a2e_0017.parse 14 2 gold receive receive.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1 4:1-ARG2
+bc/p2.5_a2e/00/p2.5_a2e_0017.parse 10 16 gold be be.01 ----- 0:2-ARG1 12:1-ARGM-DIS 16:0-rel 17:2-ARG2
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 19 17 gold excuse excuse.01 ----- 16:1-ARG0 17:0-rel 18:1-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 3 3 gold confirm confirm.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:1-ARGM-TMP 3:0-rel 4:1-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 7 5 gold put put.01 ----- 0:1-ARGM-DIS 1:2-ARG0 5:0-rel 6:1-ARG2 7:1-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 12 6 gold be be.01 ----- 5:1-ARG1 6:0-rel 7:1-ARG2
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 6 5 gold appear appear.01 ----- 0:1-ARG1 5:0-rel
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 5 24 gold reach reach.01 ----- 22:1-ARG0 23:1-ARGM-ADV 24:0-rel 25:1-ARG1
-bc/p2.5_a2e/00/p2.5_a2e_0017.parse 6 18 gold say say.01 ----- 16:1-ARG0 17:0-ARGM-MOD 18:0-rel 19:1-ARG1 20:1-ARGM-MNR
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 7 18 gold be be.01 ----- 11:1-ARGM-DIS 13:1-ARG1 16:0-ARGM-MOD 17:0-ARGM-NEG 18:0-rel 19:1-ARG2
-bc/p2.5_a2e/00/p2.5_a2e_0017.parse 18 3 gold speak speak.01 ----- 2:1-ARG0 3:0-rel 4:1-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 20 1 gold get get.05 ----- 0:1-ARG0 1:0-rel 2:1-ARG2
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 19 8 gold pay pay.01 ----- 6:1-ARG0 8:0-rel 10:1-ARGM-DIS 12:1-ARG2 16:2-ARGM-DIS
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 12 15 gold be be.03 ----- 15:0-rel
@@ -35,8 +33,9 @@ bc/p2.5_a2e/00/p2.5_a2e_0017.parse 10 9 gold appoint appoint.01 ----- 0:1*5:1*6:
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 2 31 gold reach reach.01 ----- 30:1-ARG0 31:0-rel 32:2-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 2 10 gold have have.01 ----- 10:0-rel
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 18 36 gold have have.01 ----- 36:0-rel
-bc/p2.5_a2e/00/p2.5_a2e_0017.parse 10 16 gold be be.01 ----- 0:2-ARG1 12:1-ARGM-DIS 16:0-rel 17:2-ARG2
-bc/p2.5_a2e/00/p2.5_a2e_0017.parse 5 11 gold be be.02 ----- 11:0-rel 12:2-ARG1
+bc/p2.5_a2e/00/p2.5_a2e_0017.parse 14 2 gold receive receive.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1 4:1-ARG2
+bc/p2.5_a2e/00/p2.5_a2e_0017.parse 6 18 gold say say.01 ----- 16:1-ARG0 17:0-ARGM-MOD 18:0-rel 19:1-ARG1 20:1-ARGM-MNR
+bc/p2.5_a2e/00/p2.5_a2e_0017.parse 19 22 gold pay pay.01 ----- 2:1*5:1*20:1-ARG0 2:1*5:1-LINK-SLC 22:0-rel 23:2-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 12 64 gold obtain obtain.01 ----- 61:1-ARG0 64:0-rel 65:2-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 4 6 gold matter matter.02 ----- 6:0-rel
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 14 26 gold be be.01 ----- 15:2-ARG1 26:0-rel 27:1-ARG2
@@ -50,18 +49,19 @@ bc/p2.5_a2e/00/p2.5_a2e_0017.parse 12 51 gold mean mean.01 ----- 50:1-ARG0 51:0-
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 18 16 gold say say.01 ----- 0:1-ARGM-DIS 2:2-ARGM-ADV 14:1-ARGM-TMP 15:1-ARG0 16:0-rel 17:1-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 1 6 gold begin begin.01 ----- 4:1-ARG0 6:0-rel 7:1-ARG2
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 11 2 gold be be.01 ----- 0:1-ARGM-DIS 1:1-ARG1 2:0-rel 3:2-ARG2
-bc/p2.5_a2e/00/p2.5_a2e_0017.parse 2 24 gold have have.03 ----- 22:1-ARG0 24:0-rel 25:2-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 0 4 gold be be.03 ----- 4:0-rel
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 2 6 gold announce announce.01 ----- 0:1-ARGM-TMP 3:1-ARG0 6:0-rel 7:1-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 1 24 gold appear appear.02 ----- 0:1-ARGM-DIS 2:1-ARGM-DIS 4:2-ARGM-DIS 10:1-ARGM-DIS 12:1-ARG2 23:0-ARGM-MOD 24:0-rel 25:2-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 14 3 gold encourage encourage.01 ----- 0:1-ARG1 3:0-rel 4:1-ARG0
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 18 62 gold have have.01 ----- 62:0-rel
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 7 29 gold be be.01 ----- 27:1-ARG1 28:0-ARGM-MOD 29:0-rel 30:2-ARG2
+bc/p2.5_a2e/00/p2.5_a2e_0017.parse 18 3 gold speak speak.01 ----- 2:1-ARG0 3:0-rel 4:1-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 12 52 gold be be.01 ----- 35:3-ARG1 52:0-rel 53:0-ARGM-NEG 54:1-ARG2
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 15 3 gold exist exist.01 ----- 0:1-ARG1 3:0-rel
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 19 1 gold be be.02 ----- 1:0-rel 2:2-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 2 11 gold reach reach.01 ----- 8:1-ARG0 11:0-rel 12:1-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 12 3 gold surface surface.01 ----- 0:1-ARG1 3:0-rel
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 14 11 gold become become.01 ----- 9:1-ARGM-ADV 10:1-ARG1 11:0-rel 12:1-ARG2 13:1-ARGM-MNR
+bc/p2.5_a2e/00/p2.5_a2e_0017.parse 2 24 gold have have.03 ----- 22:1-ARG0 24:0-rel 25:2-ARG1
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 8 5 gold be be.01 ----- 0:1-ARGM-ADV 4:1-ARG1 5:0-rel 6:1-ARG2
 bc/p2.5_a2e/00/p2.5_a2e_0017.parse 18 37 gold result result.01 ----- 30:1*34:1*35:1-ARG1 30:1*34:1-LINK-SLC 37:0-rel 38:1-ARGM-TMP 40:1-ARG2

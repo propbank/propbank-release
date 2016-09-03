@@ -7,15 +7,16 @@ nw/wsj/10/wsj_1095.parse 3 10 gold vote vote.01 ----- 3:1*8:1-ARG0 3:1*8:1-LINK-
 nw/wsj/10/wsj_1095.parse 2 20 gold have have.01 ----- 20:0-rel
 nw/wsj/10/wsj_1095.parse 6 17 gold be be.03 ----- 17:0-rel
 nw/wsj/10/wsj_1095.parse 4 12 gold guarantee guarantee.01 ----- 4:2*13:1-ARG2 12:0-rel 14:2-ARG1
+nw/wsj/10/wsj_1095.parse 8 3 gold fear fear.01 ----- 0:1*1:1*2:1-ARG0 0:1*1:1-LINK-SLC 3:0-rel 4:3-ARG1
 nw/wsj/10/wsj_1095.parse 0 16 gold miss miss.02 ----- 0:3-ARG0 16:0-rel 17:1-ARG1
 nw/wsj/10/wsj_1095.parse 4 11 gold be be.03 ----- 11:0-rel
 nw/wsj/10/wsj_1095.parse 2 2 gold look look.01 ----- 1:1-ARG0 2:0-rel 3:1-ARGM-MNR 4:1-ARG1
-nw/wsj/10/wsj_1095.parse 8 3 gold fear fear.01 ----- 0:1*1:1*2:1-ARG0 0:1*1:1-LINK-SLC 3:0-rel 4:3-ARG1
 nw/wsj/10/wsj_1095.parse 2 17 gold mandate mandate.01 ----- 16:0-ARG0 17:0-rel 18:0,19:0-ARG1
 nw/wsj/10/wsj_1095.parse 7 6 gold guarantee guarantee.01 ----- 6:0-rel
 nw/wsj/10/wsj_1095.parse 6 2 gold have have.01 ----- 2:0-rel
 nw/wsj/10/wsj_1095.parse 2 35 gold amend amend.01 ----- 34:0-ARG1 35:0-rel
 nw/wsj/10/wsj_1095.parse 1 6 gold be be.01 ----- 0:1-ARG1 6:0-rel 7:1-ARG2
+nw/wsj/10/wsj_1095.parse 9 7 gold guarantee guarantee.01 ----- 6:0-ARGM-NEG 7:0-rel 8:1-ARG1 11:1-ARG2
 nw/wsj/10/wsj_1095.parse 6 12 gold fund fund.01 ----- 11:0-ARG0 12:0-rel 13:0-ARG1
 nw/wsj/10/wsj_1095.parse 6 18 gold pass pass.01 ----- 15:1*19:1-ARG1 18:0-rel 20:1-ARG2
 nw/wsj/10/wsj_1095.parse 6 3 gold have have.04 ----- 0:1-ARG0 3:0-rel 4:2-ARG1 14:1-ARGM-TMP
@@ -23,7 +24,6 @@ nw/wsj/10/wsj_1095.parse 3 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 nw/wsj/10/wsj_1095.parse 1 9 gold eliminate eliminate.01 ----- 8:1-ARG0 9:0-rel 10:1-ARG1
 nw/wsj/10/wsj_1095.parse 8 8 gold paralyze paralyze.01 ----- 4:2-ARG0 8:0-rel 9:1-ARG1
 nw/wsj/10/wsj_1095.parse 3 5 gold win win.01 ----- 2:1*11:1-ARGM-MNR 3:1-ARG0 5:0-rel 6:1-ARG1
-nw/wsj/10/wsj_1095.parse 9 7 gold guarantee guarantee.01 ----- 6:0-ARGM-NEG 7:0-rel 8:1-ARG1 11:1-ARG2
 nw/wsj/10/wsj_1095.parse 2 21 gold evolve evolve.01 ----- 15:1-ARG1 21:0-rel 22:1-ARGM-MNR
 nw/wsj/10/wsj_1095.parse 9 5 gold be be.02 ----- 0:1-ARGM-ADV 5:0-rel 6:2-ARG1
 nw/wsj/10/wsj_1095.parse 6 7 gold guarantee guarantee.01 ----- 4:1*8:1-ARG1 7:0-rel 9:1-ARGM-LOC

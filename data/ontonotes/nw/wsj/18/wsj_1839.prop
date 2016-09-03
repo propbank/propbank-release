@@ -7,11 +7,14 @@ nw/wsj/18/wsj_1839.parse 2 28 gold affect affect.01 ----- 26:1-ARG0 28:0-rel 29:
 nw/wsj/18/wsj_1839.parse 3 5 gold elect elect.01 ----- 3:1*6:1-ARG1 5:0-rel 7:2-ARG2
 nw/wsj/18/wsj_1839.parse 9 6 gold see see.01 ----- 0:1*4:1-ARG0 6:0-rel 7:2-ARG1
 nw/wsj/18/wsj_1839.parse 5 14 gold be be.03 ----- 14:0-rel
+nw/wsj/18/wsj_1839.parse 7 34 gold feel feel.02 ----- 30:1*32:1-ARG0 34:0-rel 35:1-ARG1
+nw/wsj/18/wsj_1839.parse 6 8 gold ask ask.02 ----- 6:1-ARG0 8:0-rel 9:1-ARG1
 nw/wsj/18/wsj_1839.parse 7 40 gold ask ask.01 ----- 36:1-ARG0 37:0-ARGM-MOD 38:0-ARGM-NEG 39:1-ARGM-ADV 40:0-rel 41:1-ARG1
 nw/wsj/18/wsj_1839.parse 4 5 gold be be.01 ----- 0:0-ARGM-DIS 1:2-ARG1 5:0-rel 6:2-ARG2
+nw/wsj/18/wsj_1839.parse 7 22 gold happen happen.02 ----- 21:1*23:2-ARG1 22:0-rel
+nw/wsj/18/wsj_1839.parse 2 37 gold tell tell.01 ----- 33:1*35:1-ARG0 34:0-ARGM-MOD 37:0-rel 38:1-ARG2 39:2-ARG1
 nw/wsj/18/wsj_1839.parse 2 3 gold think think.01 ----- 2:1-ARG0 3:0-rel 4:1-ARG1
 nw/wsj/18/wsj_1839.parse 9 3 gold want want.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:2-ARG1
-nw/wsj/18/wsj_1839.parse 7 22 gold happen happen.02 ----- 21:1*23:2-ARG1 22:0-rel
 nw/wsj/18/wsj_1839.parse 2 47 gold take take.02 ----- 41:1*45:1-ARG0 44:0-ARGM-MOD 47:0-rel 48:1-ARG1
 nw/wsj/18/wsj_1839.parse 9 16 gold inhibit inhibit.01 ----- 7:1*10:1*11:1*14:1-ARG0 7:1*10:1-LINK-SLC 16:0-rel 17:2-ARG1
 nw/wsj/18/wsj_1839.parse 5 15 gold throw throw.01 ----- 10:1*12:1*16:1-ARG1 15:0-rel 17:1-ARG2
@@ -22,27 +25,24 @@ nw/wsj/18/wsj_1839.parse 7 49 gold tell tell.01 ----- 44:1*47:1-ARG0 49:0-rel 50
 nw/wsj/18/wsj_1839.parse 2 25 gold evaluate evaluate.01 ----- 23:1-ARG0 25:0-rel 26:2-ARG1
 nw/wsj/18/wsj_1839.parse 3 9 gold represent represent.01 ----- 3:1*6:1*7:1-ARG0 9:0-rel 10:2-ARG1
 nw/wsj/18/wsj_1839.parse 1 1 gold do do.01 ----- 1:0-rel
-nw/wsj/18/wsj_1839.parse 1 6 gold feel feel.01 ----- 0:1*4:1-ARG0 6:0-rel 7:1-ARG1 8:2-ARG2
 nw/wsj/18/wsj_1839.parse 9 12 gold be be.03 ----- 12:0-rel
 nw/wsj/18/wsj_1839.parse 7 54 gold think think.01 ----- 53:1-ARG0 54:0-rel 55:1-ARG1
+nw/wsj/18/wsj_1839.parse 1 6 gold feel feel.01 ----- 0:1*4:1-ARG0 6:0-rel 7:1-ARG1 8:2-ARG2
 nw/wsj/18/wsj_1839.parse 7 3 gold feel feel.02 ----- 2:1-ARG0 3:0-rel 4:1-ARG1
-nw/wsj/18/wsj_1839.parse 5 3 gold be be.01 ----- 2:1-ARG1 3:0-rel 4:0-ARGM-NEG 5:1-ARG2 6:1-ARGM-GOL
 nw/wsj/18/wsj_1839.parse 8 24 gold change change.01 ----- 3:2*22:1-ARG0 3:2*22:1-LINK-PRO 21:1*25:1-ARGM-ADV 24:0-rel
 nw/wsj/18/wsj_1839.parse 3 14 gold send send.01 ----- 10:1*12:1*13:1-ARG0 10:1*12:1-LINK-SLC 14:0-rel 15:1-ARG1 16:1-ARG2
 nw/wsj/18/wsj_1839.parse 6 20 gold be be.01 ----- 0:1-ARGM-DIS 5:1-ARGM-ADV 18:1-ARGM-ADV 19:1-ARG1 20:0-rel 21:1-ARG2
+nw/wsj/18/wsj_1839.parse 8 8 gold prohibit prohibit.01 ----- 3:1*5:1*6:1-ARG0 3:1*5:1-LINK-SLC 7:0-ARGM-MOD 8:0-rel 9:2-ARG1 13:1-ARGM-LOC
 nw/wsj/18/wsj_1839.parse 7 11 gold try try.01 ----- 7:1*8:1*28:1-ARGM-LOC 7:1*8:1-LINK-SLC 9:1-ARG0 11:0-rel 12:2-ARG1
-nw/wsj/18/wsj_1839.parse 6 8 gold ask ask.02 ----- 6:1-ARG0 8:0-rel 9:1-ARG1
-nw/wsj/18/wsj_1839.parse 7 34 gold feel feel.02 ----- 30:1*32:1-ARG0 34:0-rel 35:1-ARG1
 nw/wsj/18/wsj_1839.parse 7 14 gold get get.01 ----- 9:1*12:1-ARG0 14:0-rel 15:3-ARG1
-nw/wsj/18/wsj_1839.parse 2 37 gold tell tell.01 ----- 33:1*35:1-ARG0 34:0-ARGM-MOD 37:0-rel 38:1-ARG2 39:2-ARG1
+nw/wsj/18/wsj_1839.parse 5 3 gold be be.01 ----- 2:1-ARG1 3:0-rel 4:0-ARGM-NEG 5:1-ARG2 6:1-ARGM-GOL
+nw/wsj/18/wsj_1839.parse 1 9 gold represent represent.01 ----- 0:1*4:1*8:1-ARG0 9:0-rel 10:1-ARG1
 nw/wsj/18/wsj_1839.parse 9 1 gold do do.01 ----- 1:0-rel
 nw/wsj/18/wsj_1839.parse 7 57 gold be be.01 ----- 56:1-ARG1 57:0-rel 58:1-ARG2
 nw/wsj/18/wsj_1839.parse 7 46 gold get get.06 ----- 0:0-ARGM-DIS 1:1-ARGM-ADV 44:1-ARG0 46:0-rel 47:2-ARG1
-nw/wsj/18/wsj_1839.parse 1 9 gold represent represent.01 ----- 0:1*4:1*8:1-ARG0 9:0-rel 10:1-ARG1
 nw/wsj/18/wsj_1839.parse 2 34 gold have have.02 ----- 1:1-ARGM-ADV 34:0-rel
 nw/wsj/18/wsj_1839.parse 7 6 gold be be.02 ----- 6:0-rel 7:2-ARG1
 nw/wsj/18/wsj_1839.parse 3 1 gold think think.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 nw/wsj/18/wsj_1839.parse 1 3 gold want want.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:2-ARG1
 nw/wsj/18/wsj_1839.parse 2 44 gold go go.04 ----- 43:0-ARGM-NEG 44:0-rel
-nw/wsj/18/wsj_1839.parse 8 8 gold prohibit prohibit.01 ----- 3:1*5:1*6:1-ARG0 3:1*5:1-LINK-SLC 7:0-ARGM-MOD 8:0-rel 9:2-ARG1 13:1-ARGM-LOC
 nw/wsj/18/wsj_1839.parse 7 15 gold house house.01 ----- 15:0-rel 16:1-ARGM-LOC 20:2-ARGM-ADJ

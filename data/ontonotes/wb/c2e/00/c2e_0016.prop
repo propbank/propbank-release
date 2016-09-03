@@ -21,6 +21,7 @@ wb/c2e/00/c2e_0016.parse 22 13 gold view view.01 ----- 11:1-ARG1 13:0-rel
 wb/c2e/00/c2e_0016.parse 32 10 gold go go.01 ----- 0:2-ARGM-ADV 8:0-ARGM-MOD 9:1-ARG1 10:0-rel 11:1-ARG4
 wb/c2e/00/c2e_0016.parse 32 15 gold go go.02 ----- 14:1-ARG0 15:0-rel 16:1-ARGM-DIR 17:2-ARGM-PRP
 wb/c2e/00/c2e_0016.parse 6 7 gold blast blast.02 ----- 6:1-ARG0 7:0-rel 8:1-ARG1
+wb/c2e/00/c2e_0016.parse 37 18 gold erect erect.01 ----- 0:1-ARGM-ADV 15:0-ARGM-ADV 16:1-ARGM-ADV 17:1-ARG0 18:0-rel 19:2;30:2-ARG1 22:1-ARGM-LOC
 wb/c2e/00/c2e_0016.parse 5 40 gold view view.01 ----- 38:1-ARG1 40:0-rel
 wb/c2e/00/c2e_0016.parse 21 5 gold focus focus.01 ----- 0:2-ARG1 5:0-rel 6:1-ARG2
 wb/c2e/00/c2e_0016.parse 35 6 gold be be.01 ----- 5:1-ARG1 6:0-rel 7:1-ARG2
@@ -30,13 +31,13 @@ wb/c2e/00/c2e_0016.parse 11 1 gold take take.10 ----- 0:1-ARG2 1:0-rel 2:1-ARG1 
 wb/c2e/00/c2e_0016.parse 5 9 gold hear hear.01 ----- 0:1-ARGM-TMP 8:1-ARG0 9:0-rel 10:1-ARG2 15:3-ARG1
 wb/c2e/00/c2e_0016.parse 10 4 gold be be.03 ----- 4:0-rel
 wb/c2e/00/c2e_0016.parse 41 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
-wb/c2e/00/c2e_0016.parse 34 4 gold build build.01 ----- 0:1*6:1-ARGM-TMP 1:1*5:1-ARG1 3:1-ARGM-TMP 4:0-rel
 wb/c2e/00/c2e_0016.parse 41 8 gold be be.01 ----- 6:1-ARG1 8:0-rel 9:1-ARG2
 wb/c2e/00/c2e_0016.parse 15 15 gold need need.01 ----- 10:2*14:1-ARG0 15:0-rel 16:2-ARG1
 wb/c2e/00/c2e_0016.parse 10 5 gold leave leave.14 ----- 5:0-rel 7:2-ARG1 9:1-ARGM-TMP
 wb/c2e/00/c2e_0016.parse 8 3 gold have have.01 ----- 3:0-rel
 wb/c2e/00/c2e_0016.parse 6 3 gold say say.01 ----- 3:0-rel 5:1-ARG1
 wb/c2e/00/c2e_0016.parse 5 26 gold demolish demolish.01 ----- 15:2*27:1-ARG1 25:0-ARG2 26:0-rel 28:3-ARGM-TMP 34:1-ARGM-CAU
+wb/c2e/00/c2e_0016.parse 41 0 gold construct construct.01 ----- 0:0-rel
 wb/c2e/00/c2e_0016.parse 10 20 gold be be.01 ----- 18:2-ARG1 20:0-rel 21:0-ARGM-NEG 22:1-ARG2
 wb/c2e/00/c2e_0016.parse 0 0 gold be be.01 ----- 0:0-rel 1:1-ARG1 3:1-ARG2
 wb/c2e/00/c2e_0016.parse 16 5 gold receive receive.01 ----- 0:2*4:1-ARG0 3:0-ARGM-MOD 5:0-rel 6:2-ARG1 14:1-ARGM-MNR
@@ -51,17 +52,16 @@ wb/c2e/00/c2e_0016.parse 20 2 gold view view.02 ----- 1:0-ARGM-ADJ 2:0-rel 3:1-A
 wb/c2e/00/c2e_0016.parse 15 13 gold be be.03 ----- 13:0-rel
 wb/c2e/00/c2e_0016.parse 34 16 gold object object.01 ----- 15:0-ARGM-GOL 16:0-rel
 wb/c2e/00/c2e_0016.parse 29 18 gold build build.01 ----- 16:1*19:1-ARG1 18:0-rel
-wb/c2e/00/c2e_0016.parse 19 15 gold bleed bleed.01 ----- 14:1-ARG1 15:0-rel 18:1-ARGM-MNR
+wb/c2e/00/c2e_0016.parse 29 24 gold become become.01 ----- 22:1-ARG1 24:0-rel 25:1-ARG2 30:1-ARGM-TMP
 wb/c2e/00/c2e_0016.parse 37 11 gold view view.02 ----- 10:0-ARGM-ADJ 11:0-rel 12:1-ARG1
-wb/c2e/00/c2e_0016.parse 28 31 gold build build.01 ----- 29:1-ARG0 31:0-rel 32:2-ARG1
 wb/c2e/00/c2e_0016.parse 34 9 gold be be.01 ----- 0:2-ARGM-TMP 8:1-ARG1 9:0-rel 10:1-ARG2 12:1-ARGM-MNR
+wb/c2e/00/c2e_0016.parse 14 8 gold appropriate appropriate.01 ----- 7:0-ARG0 8:0-rel
 wb/c2e/00/c2e_0016.parse 3 7 gold view view.02 ----- 6:0-ARG2 7:0-rel 8:1-ARG1
-wb/c2e/00/c2e_0016.parse 28 14 gold emancipate emancipate.01 ----- 14:0-rel 15:1-ARG1
 wb/c2e/00/c2e_0016.parse 23 2 gold say say.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:2-ARG1
-wb/c2e/00/c2e_0016.parse 24 26 gold regard regard.01 ----- 0:1-ARGM-ADV 22:1*27:1-ARG1 23:0-ARGM-MOD 25:1-ARGM-MNR 26:0-rel 28:1-ARG2
+wb/c2e/00/c2e_0016.parse 34 4 gold build build.01 ----- 0:1*6:1-ARGM-TMP 1:1*5:1-ARG1 3:1-ARGM-TMP 4:0-rel
 wb/c2e/00/c2e_0016.parse 24 17 gold restore restore.01 ----- 3:1*11:1*15:1-ARG0 3:1*11:1-LINK-SLC 16:0-ARGM-MOD 17:0-rel 18:1-ARG1
-wb/c2e/00/c2e_0016.parse 7 2 gold be be.01 ----- 0:2-ARG1 2:0-rel 3:1-ARG2
 wb/c2e/00/c2e_0016.parse 22 9 gold ruin ruin.01 ----- 5:1-ARG0 9:0-rel 10:1-ARG1
+wb/c2e/00/c2e_0016.parse 28 3 gold be be.01 ----- 0:1-ARG1 3:0-rel 4:1-ARG2 6:1-ARGM-TMP 9:2-ARGM-ADV
 wb/c2e/00/c2e_0016.parse 33 9 gold be be.03 ----- 9:0-rel
 wb/c2e/00/c2e_0016.parse 37 2 gold be be.03 ----- 2:0-rel
 wb/c2e/00/c2e_0016.parse 37 37 gold manage manage.01 ----- 34:1*35:1-ARG0 37:0-rel 38:2-ARG1
@@ -69,14 +69,10 @@ wb/c2e/00/c2e_0016.parse 9 1 gold do do.01 ----- 1:0-rel
 wb/c2e/00/c2e_0016.parse 36 15 gold be be.01 ----- 0:1-ARGM-ADV 7:1-ARGM-TMP 8:2-ARG1 13:0-ARGM-MOD 14:1-ARGM-NEG 15:0-rel 16:2-ARG2
 wb/c2e/00/c2e_0016.parse 15 23 gold be be.03 ----- 23:0-rel
 wb/c2e/00/c2e_0016.parse 31 3 gold push push.01 ----- 0:0-ARGM-MOD 1:1-ARG0 2:1-ARGM-ADV 3:0-rel 4:1-ARG2 5:1-ARG1
-wb/c2e/00/c2e_0016.parse 37 18 gold erect erect.01 ----- 0:1-ARGM-ADV 15:0-ARGM-ADV 16:1-ARGM-ADV 17:1-ARG0 18:0-rel 19:2;30:2-ARG1 22:1-ARGM-LOC
 wb/c2e/00/c2e_0016.parse 36 3 gold be be.01 ----- 1:1-ARG1 3:0-rel 4:1-ARG2
 wb/c2e/00/c2e_0016.parse 19 17 gold toil toil.01 ----- 14:1-ARG0 17:0-rel 18:1-ARGM-MNR
 wb/c2e/00/c2e_0016.parse 41 7 gold demolish demolish.01 ----- 6:0-ARG2 7:0-rel
 wb/c2e/00/c2e_0016.parse 35 15 gold go go.02 ----- 14:1-ARG0 15:0-rel 16:1-ARG1
-wb/c2e/00/c2e_0016.parse 41 0 gold construct construct.01 ----- 0:0-rel
-wb/c2e/00/c2e_0016.parse 29 24 gold become become.01 ----- 22:1-ARG1 24:0-rel 25:1-ARG2 30:1-ARGM-TMP
-wb/c2e/00/c2e_0016.parse 28 3 gold be be.01 ----- 0:1-ARG1 3:0-rel 4:1-ARG2 6:1-ARGM-TMP 9:2-ARGM-ADV
 wb/c2e/00/c2e_0016.parse 8 6 gold use use.01 ----- 0:1*7:1-ARG1 4:1-ARGM-ADV 6:0-rel 8:1-ARGM-TMP
 wb/c2e/00/c2e_0016.parse 6 13 gold reflect reflect.01 ----- 6:2-ARG1 13:0-rel 14:1-ARG2
 wb/c2e/00/c2e_0016.parse 15 28 gold be be.01 ----- 20:2*24:1*26:1-ARG1 28:0-rel 29:1-ARG2
@@ -93,51 +89,55 @@ wb/c2e/00/c2e_0016.parse 7 12 gold demolish demolish.01 ----- 11:0-ARG2 12:0-rel
 wb/c2e/00/c2e_0016.parse 19 2 gold view view.02 ----- 1:0-ARGM-ADJ 2:0-rel 3:1-ARG1
 wb/c2e/00/c2e_0016.parse 29 3 gold say say.01 ----- 0:1-ARG0 3:0-rel 6:3-ARG1
 wb/c2e/00/c2e_0016.parse 36 2 gold construct construct.01 ----- 2:0-rel
+wb/c2e/00/c2e_0016.parse 28 31 gold build build.01 ----- 29:1-ARG0 31:0-rel 32:2-ARG1
+wb/c2e/00/c2e_0016.parse 24 2 gold have have.03 ----- 1:1-ARG0 2:0-rel 3:2-ARG1
 wb/c2e/00/c2e_0016.parse 18 2 gold be be.03 ----- 2:0-rel
+wb/c2e/00/c2e_0016.parse 28 14 gold emancipate emancipate.01 ----- 14:0-rel 15:1-ARG1
+wb/c2e/00/c2e_0016.parse 22 3 gold say say.01 ----- 1:1-ARG0 3:0-rel 4:1-ARG1
 wb/c2e/00/c2e_0016.parse 19 7 gold waste waste.01 ----- 0:2-ARG0 5:0-ARGM-MOD 6:1-ARGM-NEG 7:0-rel 8:1-ARG1 9:1-ARGM-MNR
 wb/c2e/00/c2e_0016.parse 28 35 gold stand stand.01 ----- 32:1-ARG1 35:0-rel 36:1-ARG2
 wb/c2e/00/c2e_0016.parse 24 24 gold be be.03 ----- 24:0-rel
 wb/c2e/00/c2e_0016.parse 35 3 gold say say.01 ----- 0:1-ARG0 2:1-ARGM-ADV 3:0-rel 4:1-ARG1
 wb/c2e/00/c2e_0016.parse 15 3 gold invest invest.01 ----- 1:1*4:1-ARG1 3:0-rel 5:1-ARG0
 wb/c2e/00/c2e_0016.parse 32 19 gold explore explore.01 ----- 14:1*17:1-ARG0 19:0-rel 20:1-ARG1
+wb/c2e/00/c2e_0016.parse 27 4 gold be be.01 ----- 0:2-ARG1 4:0-rel 5:1-ARG2
 wb/c2e/00/c2e_0016.parse 32 3 gold be be.03 ----- 3:0-rel
 wb/c2e/00/c2e_0016.parse 37 32 gold indicate indicate.01 ----- 19:1*30:1*31:1-ARG0 19:1*30:1-LINK-SLC 32:0-rel 33:1-ARG1
 wb/c2e/00/c2e_0016.parse 22 24 gold view view.02 ----- 23:0-ARGM-ADJ 24:0-rel 25:1-ARG1
 wb/c2e/00/c2e_0016.parse 25 6 gold work work.01 ----- 4:1-ARG0 5:0-ARGM-MOD 6:0-rel
+wb/c2e/00/c2e_0016.parse 0 2 gold demolish demolish.01 ----- 1:0-ARG2 2:0-rel
 wb/c2e/00/c2e_0016.parse 28 27 gold invest invest.01 ----- 20:1-ARGM-TMP 22:2*28:1-ARG1 27:0-rel 29:2-ARGM-PRP
 wb/c2e/00/c2e_0016.parse 17 1 gold be be.01 ----- 0:1*7:1-ARG2 1:0-rel 2:2-ARG1
 wb/c2e/00/c2e_0016.parse 30 1 gold affect affect.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 6:2-ARGM-MNR
 wb/c2e/00/c2e_0016.parse 13 9 gold have have.03 ----- 6:2-ARG0 9:0-rel 10:2-ARG1 18:1-ARGM-ADV
+wb/c2e/00/c2e_0016.parse 24 26 gold regard regard.01 ----- 0:1-ARGM-ADV 22:1*27:1-ARG1 23:0-ARGM-MOD 25:1-ARGM-MNR 26:0-rel 28:1-ARG2
 wb/c2e/00/c2e_0016.parse 25 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2
 wb/c2e/00/c2e_0016.parse 12 3 gold be be.01 ----- 0:1*4:1-ARG2 2:1-ARG1 3:0-rel 5:1-ARGM-LOC
 wb/c2e/00/c2e_0016.parse 14 16 gold need need.01 ----- 10:2*15:1-ARG1 16:0-rel
-wb/c2e/00/c2e_0016.parse 22 3 gold say say.01 ----- 1:1-ARG0 3:0-rel 4:1-ARG1
 wb/c2e/00/c2e_0016.parse 38 5 gold be be.02 ----- 4:0-ARGM-MOD 5:0-rel 6:2-ARG1
 wb/c2e/00/c2e_0016.parse 29 23 gold have have.01 ----- 23:0-rel
 wb/c2e/00/c2e_0016.parse 23 5 gold wait wait.01 ----- 3:1-ARGM-DIS 4:1-ARG1 5:0-rel
 wb/c2e/00/c2e_0016.parse 17 4 gold view view.02 ----- 3:0-ARGM-ADJ 4:0-rel 5:1-ARG1
 wb/c2e/00/c2e_0016.parse 14 5 gold be be.01 ----- 1:1-ARG1 5:0-rel 6:1-ARG2
+wb/c2e/00/c2e_0016.parse 7 2 gold be be.01 ----- 0:2-ARG1 2:0-rel 3:1-ARG2
 wb/c2e/00/c2e_0016.parse 0 7 gold view view.02 ----- 6:0-ARGM-ADJ 7:0-rel 8:1-ARG1
 wb/c2e/00/c2e_0016.parse 36 10 gold view view.02 ----- 9:0-ARGM-ADJ 10:0-rel 11:1-ARG1
 wb/c2e/00/c2e_0016.parse 33 15 gold view view.01 ----- 14:0-ARGM-MNR 15:0-rel 16:1-ARG1
 wb/c2e/00/c2e_0016.parse 22 8 gold have have.01 ----- 8:0-rel
+wb/c2e/00/c2e_0016.parse 19 15 gold bleed bleed.01 ----- 14:1-ARG1 15:0-rel 18:1-ARGM-MNR
 wb/c2e/00/c2e_0016.parse 15 18 gold run run.01 ----- 10:2*14:1*16:1-ARG1 18:0-rel
 wb/c2e/00/c2e_0016.parse 29 17 gold be be.03 ----- 17:0-rel
 wb/c2e/00/c2e_0016.parse 6 2 gold be be.03 ----- 2:0-rel
 wb/c2e/00/c2e_0016.parse 33 10 gold associate associate.01 ----- 0:1-ARGM-DIS 2:2*11:1-ARG1 7:0-ARGM-MOD 8:0-ARGM-NEG 10:0-rel 12:1-ARG2
-wb/c2e/00/c2e_0016.parse 24 2 gold have have.03 ----- 1:1-ARG0 2:0-rel 3:2-ARG1
+wb/c2e/00/c2e_0016.parse 7 16 gold view view.02 ----- 15:0-ARGM-ADJ 16:0-rel 17:1-ARG1
 wb/c2e/00/c2e_0016.parse 15 2 gold be be.03 ----- 2:0-rel
 wb/c2e/00/c2e_0016.parse 5 3 gold watch watch.01 ----- 1:1-ARG0 3:0-rel 4:1-ARG1
 wb/c2e/00/c2e_0016.parse 5 2 gold be be.03 ----- 2:0-rel
 wb/c2e/00/c2e_0016.parse 37 8 gold implement implement.01 ----- 1:1*5:1*6:1-ARG0 8:0-rel 9:2-ARG1
 wb/c2e/00/c2e_0016.parse 37 4 gold design design.01 ----- 1:1*5:1-ARG1 3:1-ARGM-ADV 4:0-rel 6:2-ARG3
-wb/c2e/00/c2e_0016.parse 14 8 gold appropriate appropriate.01 ----- 7:0-ARG0 8:0-rel
-wb/c2e/00/c2e_0016.parse 27 4 gold be be.01 ----- 0:2-ARG1 4:0-rel 5:1-ARG2
 wb/c2e/00/c2e_0016.parse 29 33 gold build build.01 ----- 31:1*34:1-ARG1 33:0-rel
-wb/c2e/00/c2e_0016.parse 0 2 gold demolish demolish.01 ----- 1:0-ARG2 2:0-rel
 wb/c2e/00/c2e_0016.parse 28 12 gold symbolize symbolize.01 ----- 9:1*10:1-ARG1 11:1-ARGM-ADV 12:0-rel 13:2-ARG2
 wb/c2e/00/c2e_0016.parse 18 3 gold put put.03 ----- 0:1-ARG0 3:0-rel 4:1-ARG1 5:1-ARG2
-wb/c2e/00/c2e_0016.parse 7 16 gold view view.02 ----- 15:0-ARGM-ADJ 16:0-rel 17:1-ARG1
 wb/c2e/00/c2e_0016.parse 37 39 gold construct construct.01 ----- 39:0-rel 40:1-ARG1
 wb/c2e/00/c2e_0016.parse 3 0 gold be be.01 ----- 0:0-rel 1:1-ARG1 3:2-ARG2
 wb/c2e/00/c2e_0016.parse 26 1 gold belong belong.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1

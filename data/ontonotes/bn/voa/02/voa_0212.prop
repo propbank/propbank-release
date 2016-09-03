@@ -1,6 +1,5 @@
 bn/voa/02/voa_0212.parse 13 16 gold hand hand_over.02 ----- 4:1*7:1-ARG0 16:0,17:1-rel 18:2-ARG1
 bn/voa/02/voa_0212.parse 13 14 gold terrorize terrorize.01 ----- 13:0-ARGM-ADJ 14:0-rel
-bn/voa/02/voa_0212.parse 17 2 gold have have.03 ----- 1:1-ARG0 2:0-rel 3:1-ARG1
 bn/voa/02/voa_0212.parse 7 5 gold be be.03 ----- 5:0-rel
 bn/voa/02/voa_0212.parse 11 5 gold vote vote.01 ----- 0:1-ARG0 5:0-rel 6:2-ARG1 14:1-ARGM-CAU
 bn/voa/02/voa_0212.parse 17 8 gold write write.01 ----- 0:1-ARGM-ADV 6:1-ARGM-DIS 7:1-ARG0 8:0-rel 9:1-ARG2
@@ -15,15 +14,12 @@ bn/voa/02/voa_0212.parse 14 21 gold convict convict.01 ----- 21:0-rel 22:1-ARG1 
 bn/voa/02/voa_0212.parse 6 12 gold seek seek.01 ----- 0:2*13:1-ARG1 10:1-ARGM-TMP 12:0-rel 14:1-ARG0
 bn/voa/02/voa_0212.parse 10 8 gold control control.01 ----- 7:0-ARG0 8:0-rel 9:0-ARG1
 bn/voa/02/voa_0212.parse 15 8 gold have have.01 ----- 8:0-rel
+bn/voa/02/voa_0212.parse 17 2 gold have have.03 ----- 1:1-ARG0 2:0-rel 3:1-ARG1
 bn/voa/02/voa_0212.parse 11 17 gold support support.01 ----- 16:0-ARG0 17:0-rel 18:1-ARG1
 bn/voa/02/voa_0212.parse 3 7 gold wound wound.01 ----- 0:1-ARG0 7:0-rel 8:2;10:1-ARG1
-bn/voa/02/voa_0212.parse 2 8 gold indict indict.01 ----- 0:2-ARG0 8:0-rel 9:3-ARG1
-bn/voa/02/voa_0212.parse 6 1 gold remain remain.01 ----- 1:0-rel 2:0-ARG1
 bn/voa/02/voa_0212.parse 8 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
-bn/voa/02/voa_0212.parse 15 9 gold be be.03 ----- 9:0-rel
 bn/voa/02/voa_0212.parse 0 8 gold view view.02 ----- 8:0-rel
 bn/voa/02/voa_0212.parse 2 13 gold connect connect.01 ----- 13:0-rel 14:1-ARG2
-bn/voa/02/voa_0212.parse 18 3 gold comment comment.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:1-ARGM-DIS 3:0-rel 4:1-ARGM-LOC
 bn/voa/02/voa_0212.parse 15 4 gold rest rest.01 ----- 0:1-ARG1 2:0-ARGM-MOD 3:0-ARGM-NEG 4:0-rel 5:1-ARGM-TMP
 bn/voa/02/voa_0212.parse 15 10 gold bring bring.01 ----- 6:1*11:1-ARG1 10:0-rel 12:1-ARG3 14:1-ARGM-PRP
 bn/voa/02/voa_0212.parse 2 7 gold have have.01 ----- 7:0-rel
@@ -32,6 +28,7 @@ bn/voa/02/voa_0212.parse 0 4 gold present present.01 ----- 0:2-ARG0 4:0-rel 5:2-
 bn/voa/02/voa_0212.parse 14 56 gold bomb bomb.01 ----- 54:1-ARG1 56:0-rel
 bn/voa/02/voa_0212.parse 10 22 gold operate operate.01 ----- 20:0-ARGM-ADJ 21:0-ARG1 22:0-rel
 bn/voa/02/voa_0212.parse 13 24 gold protect protect.01 ----- 18:1*21:1*25:1-ARG1 18:1*21:1-LINK-SLC 22:1-ARG0 23:1-ARGM-TMP 24:0-rel
+bn/voa/02/voa_0212.parse 18 3 gold comment comment.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:1-ARGM-DIS 3:0-rel 4:1-ARGM-LOC
 bn/voa/02/voa_0212.parse 9 4 gold help help.01 ----- 0:1-ARG0 4:0-rel 5:2-ARG1
 bn/voa/02/voa_0212.parse 5 11 gold be be.03 ----- 11:0-rel
 bn/voa/02/voa_0212.parse 1 4 gold express express.01 ----- 0:1-ARGM-TMP 2:1-ARG0 4:0-rel 5:2-ARG1
@@ -40,10 +37,14 @@ bn/voa/02/voa_0212.parse 6 11 gold be be.03 ----- 11:0-rel
 bn/voa/02/voa_0212.parse 7 8 gold be be.01 ----- 0:2-ARG1 8:0-rel 9:2-ARG2
 bn/voa/02/voa_0212.parse 12 2 gold support support.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 bn/voa/02/voa_0212.parse 9 6 gold train train.01 ----- 0:1*5:1-ARG0 0:1*5:1-LINK-PRO 6:0-rel 7:2-ARG2
+bn/voa/02/voa_0212.parse 6 1 gold remain remain.01 ----- 1:0-rel 2:0-ARG1
 bn/voa/02/voa_0212.parse 9 3 gold have have.01 ----- 3:0-rel
 bn/voa/02/voa_0212.parse 10 3 gold receive receive.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1 6:1-ARG2
 bn/voa/02/voa_0212.parse 13 9 gold end end.01 ----- 4:1*7:1-ARG0 9:0-rel 10:2-ARG1
+bn/voa/02/voa_0212.parse 2 8 gold indict indict.01 ----- 0:2-ARG0 8:0-rel 9:3-ARG1
 bn/voa/02/voa_0212.parse 10 19 gold conduct conduct.01 ----- 7:2*10:1*23:1-ARGM-LOC 7:2*10:1-LINK-SLC 11:1-ARG0 19:0-rel 20:1-ARG1
+bn/voa/02/voa_0212.parse 15 9 gold be be.03 ----- 9:0-rel
+bn/voa/02/voa_0212.parse 16 4 gold express express.01 ----- 2:1-ARG0 4:0-rel 5:2-ARG1
 bn/voa/02/voa_0212.parse 13 2 gold call call_on.05 ----- 0:1-ARG0 2:0,3:0-rel 4:1-ARG1 7:2-ARG2
 bn/voa/02/voa_0212.parse 4 2 gold raise raise.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG4 5:2-ARG1
 bn/voa/02/voa_0212.parse 11 8 gold expand expand.01 ----- 0:1*6:1-ARG0 8:0-rel 9:2-ARG1
@@ -52,7 +53,6 @@ bn/voa/02/voa_0212.parse 18 7 gold fax fax.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:1-AR
 bn/voa/02/voa_0212.parse 7 6 gold indict indict.01 ----- 0:1*2:1*3:1*7:1-ARG1 0:1*2:1-LINK-SLC 6:0-rel
 bn/voa/02/voa_0212.parse 4 1 gold indict indict.01 ----- 1:0-rel
 bn/voa/02/voa_0212.parse 2 18 gold bomb bomb.01 ----- 16:1-ARGM-TMP 18:0-rel 19:1-ARG1
-bn/voa/02/voa_0212.parse 10 12 gold operate operate.01 ----- 7:2*10:1*23:1-ARGM-LOC 7:2*10:1-LINK-SLC 11:1-ARG0 12:0-rel 13:2-ARG1
 bn/voa/02/voa_0212.parse 6 9 gold be be.03 ----- 9:0-rel
+bn/voa/02/voa_0212.parse 10 12 gold operate operate.01 ----- 7:2*10:1*23:1-ARGM-LOC 7:2*10:1-LINK-SLC 11:1-ARG0 12:0-rel 13:2-ARG1
 bn/voa/02/voa_0212.parse 14 2 gold be be.03 ----- 2:0-rel
-bn/voa/02/voa_0212.parse 16 4 gold express express.01 ----- 2:1-ARG0 4:0-rel 5:2-ARG1

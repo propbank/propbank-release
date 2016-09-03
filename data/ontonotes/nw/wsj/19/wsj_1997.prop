@@ -4,16 +4,16 @@ nw/wsj/19/wsj_1997.parse 1 14 gold say say.01 ----- 1:2*15:1-ARG1 14:0-rel 16:1-
 nw/wsj/19/wsj_1997.parse 4 5 gold expect expect.01 ----- 4:1-ARG0 5:0-rel 6:2-ARG1
 nw/wsj/19/wsj_1997.parse 3 8 gold relate relate.01 ----- 4:1-ARG1 7:0-ARGM-NEG 8:0-rel 9:1-ARG2
 nw/wsj/19/wsj_1997.parse 4 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
-nw/wsj/19/wsj_1997.parse 4 10 gold take take.01 ----- 6:1-ARG1 10:0-rel 11:1-ARG2 12:1-ARGM-TMP
 nw/wsj/19/wsj_1997.parse 2 13 gold think think.01 ----- 1:2-ARGM-TMP 10:1-ARG0 13:0-rel 14:1-ARG1
 nw/wsj/19/wsj_1997.parse 2 4 gold talk talk.01 ----- 1:1*2:1-ARGM-TMP 1:1*2:1-LINK-SLC 3:1-ARG0 4:0-rel 5:1-ARG1
 nw/wsj/19/wsj_1997.parse 3 19 gold include include.01 ----- 10:2*16:1*17:1-ARG2 10:2*16:1-LINK-SLC 19:0-rel 20:3-ARG1
-nw/wsj/19/wsj_1997.parse 3 35 gold former former.01 ----- 35:0-rel 36:0-ARG1
 nw/wsj/19/wsj_1997.parse 1 5 gold diversify diversify.01 ----- 1:1-ARG1 5:0-rel 6:1-ARG2
+nw/wsj/19/wsj_1997.parse 3 18 gold have have.01 ----- 18:0-rel
 nw/wsj/19/wsj_1997.parse 3 6 gold be be.01 ----- 4:1-ARG1 6:0-rel 7:0-ARGM-NEG 8:1-ARG2
 nw/wsj/19/wsj_1997.parse 3 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 nw/wsj/19/wsj_1997.parse 2 16 gold be be.01 ----- 15:1-ARG1 16:0-rel 17:1-ARG2
+nw/wsj/19/wsj_1997.parse 4 10 gold take take.01 ----- 6:1-ARG1 10:0-rel 11:1-ARG2 12:1-ARGM-TMP
+nw/wsj/19/wsj_1997.parse 3 35 gold former former.01 ----- 35:0-rel 36:0-ARG1
 nw/wsj/19/wsj_1997.parse 1 4 gold be be.03 ----- 4:0-rel
 nw/wsj/19/wsj_1997.parse 0 25 gold announce announce.01 ----- 24:0-ARGM-TMP 25:0-rel 26:0,27:0-ARG1
 nw/wsj/19/wsj_1997.parse 0 22 gold approve approve.01 ----- 20:1-ARG0 22:0-rel 23:2-ARG1
-nw/wsj/19/wsj_1997.parse 3 18 gold have have.01 ----- 18:0-rel

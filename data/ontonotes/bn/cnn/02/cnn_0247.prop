@@ -1,11 +1,13 @@
+bn/cnn/02/cnn_0247.parse 18 2 gold email email.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG2 4:1-ARGM-LOC
 bn/cnn/02/cnn_0247.parse 19 36 gold die die.01 ----- 36:0-rel
 bn/cnn/02/cnn_0247.parse 14 2 gold bring bring.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1 4:1-ARG3
 bn/cnn/02/cnn_0247.parse 5 7 gold uphold uphold.01 ----- 0:2-ARG0 7:0-rel 8:2-ARG1 16:1-ARGM-TMP
 bn/cnn/02/cnn_0247.parse 19 51 gold sentence sentence.01 ----- 23:2*50:1*52:1-ARG1 51:0-rel 53:1-ARG2
+bn/cnn/02/cnn_0247.parse 8 12 gold be be.01 ----- 4:1-ARGM-ADV 11:1-ARG1 12:0-rel 13:1-ARG2
 bn/cnn/02/cnn_0247.parse 9 3 gold pass pass.01 ----- 0:1-ARG0 2:1-ARGM-MNR 3:0-rel 4:1-ARG1 6:1-ARGM-TMP 8:2-ARGM-PRP
 bn/cnn/02/cnn_0247.parse 12 12 gold be be.01 ----- 9:2-ARG1 12:0-rel 13:1-ARG2 15:1-ARGM-CAU
 bn/cnn/02/cnn_0247.parse 21 5 gold kill kill.01 ----- 4:1-ARG0 5:0-rel 6:1-ARG1 12:1-ARG2
-bn/cnn/02/cnn_0247.parse 17 1 gold be be.01 ----- 0:1*2:1-ARG1 1:0-rel 3:2-ARG2
+bn/cnn/02/cnn_0247.parse 19 2 gold design design.01 ----- 0:1*3:1-ARG1 2:0-rel 4:2-ARG3
 bn/cnn/02/cnn_0247.parse 9 18 gold let let.01 ----- 11:1*16:1*17:1-ARG0 11:1*16:1-LINK-SLC 18:0-rel 19:1,21:1-ARG1 22:1-ARGM-MNR
 bn/cnn/02/cnn_0247.parse 19 13 gold find find.01 ----- 7:2*11:1*14:1-ARG1 7:2*11:1-LINK-SLC 12:1-ARG0 13:0-rel 15:1-ARGM-LOC 20:1-ARGM-TMP
 bn/cnn/02/cnn_0247.parse 15 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
@@ -17,12 +19,10 @@ bn/cnn/02/cnn_0247.parse 20 21 gold suffer suffer.01 ----- 17:1*19:1*22:1-ARG1 1
 bn/cnn/02/cnn_0247.parse 10 1 gold appeal appeal.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 6:1-ARG2
 bn/cnn/02/cnn_0247.parse 21 2 gold probation probation.01 ----- 0:1-ARG2 2:0-rel 3:1-ARGM-CAU
 bn/cnn/02/cnn_0247.parse 20 31 gold be be.01 ----- 30:1-ARG1 31:0-rel 32:1-ARG2
-bn/cnn/02/cnn_0247.parse 8 12 gold be be.01 ----- 4:1-ARGM-ADV 11:1-ARG1 12:0-rel 13:1-ARG2
 bn/cnn/02/cnn_0247.parse 7 22 gold steal steal.01 ----- 16:1*21:1-ARG0 16:1*21:1-LINK-PRO 22:0-rel 23:1-ARG1
-bn/cnn/02/cnn_0247.parse 19 56 gold probation probation.01 ----- 54:1-ARG2 56:0-rel
 bn/cnn/02/cnn_0247.parse 4 5 gold live live.01 ----- 0:1*3:1,6:1-ARGM-LOC 0:1*3:1-LINK-SLC 4:1-ARG0 5:0-rel
-bn/cnn/02/cnn_0247.parse 21 14 gold scald scald.01 ----- 13:1-ARG0 14:0-rel 15:1-ARG1 16:1-ARGM-EXT 18:1-ARGM-LOC
-bn/cnn/02/cnn_0247.parse 19 2 gold design design.01 ----- 0:1*3:1-ARG1 2:0-rel 4:2-ARG3
+bn/cnn/02/cnn_0247.parse 19 56 gold probation probation.01 ----- 54:1-ARG2 56:0-rel
+bn/cnn/02/cnn_0247.parse 17 1 gold be be.01 ----- 0:1*2:1-ARG1 1:0-rel 3:2-ARG2
 bn/cnn/02/cnn_0247.parse 20 2 gold take take.10 ----- 2:0-rel 3:1-ARG2 5:1-ARG1 7:2-ARG0
 bn/cnn/02/cnn_0247.parse 5 11 gold strike strike.11 ----- 11:0-rel
 bn/cnn/02/cnn_0247.parse 17 4 gold question question.01 ----- 4:0-rel 5:1-ARGM-TMP
@@ -32,14 +32,14 @@ bn/cnn/02/cnn_0247.parse 22 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bn/cnn/02/cnn_0247.parse 0 1 gold welcome welcome.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-DIR
 bn/cnn/02/cnn_0247.parse 9 10 gold offset offset.01 ----- 8:1-ARG0 10:0-rel 11:2-ARG1
 bn/cnn/02/cnn_0247.parse 7 2 gold challenge challenge.01 ----- 2:0-rel 3:1-ARG1
-bn/cnn/02/cnn_0247.parse 18 2 gold email email.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG2 4:1-ARGM-LOC
 bn/cnn/02/cnn_0247.parse 15 4 gold vote vote.01 ----- 3:0-ARG2 4:0-rel
 bn/cnn/02/cnn_0247.parse 20 18 gold injure injure.01 ----- 18:0-rel 19:2-ARGM-ADJ
 bn/cnn/02/cnn_0247.parse 13 8 gold strike strike.11 ----- 8:0-rel
 bn/cnn/02/cnn_0247.parse 19 6 gold counter counter.01 ----- 4:1-ARG0 6:0-rel 7:4-ARG1
 bn/cnn/02/cnn_0247.parse 19 41 gold walk walk.01 ----- 7:3*22:1*57:1-ARGM-LOC 7:3*22:1-LINK-SLC 23:2-ARG0 41:0-rel 42:1-ARGM-DIR 45:2-ARGM-PRD 49:1-ARGM-TMP 50:2-ARGM-ADV
-bn/cnn/02/cnn_0247.parse 20 9 gold die die.01 ----- 7:1-ARG1 9:0-rel 10:1-ARGM-LOC 16:1-ARGM-CAU
+bn/cnn/02/cnn_0247.parse 21 14 gold scald scald.01 ----- 13:1-ARG0 14:0-rel 15:1-ARG1 16:1-ARGM-EXT 18:1-ARGM-LOC
 bn/cnn/02/cnn_0247.parse 11 6 gold serve serve.04 ----- 0:1-ARGM-TMP 1:1-ARGM-LOC 4:1-ARG0 6:0-rel 7:3-ARG1 12:1-ARGM-LOC
 bn/cnn/02/cnn_0247.parse 8 9 gold convict convict.01 ----- 8:0-ARG2 9:0-rel
+bn/cnn/02/cnn_0247.parse 20 9 gold die die.01 ----- 7:1-ARG1 9:0-rel 10:1-ARGM-LOC 16:1-ARGM-CAU
 bn/cnn/02/cnn_0247.parse 13 5 gold have have.03 ----- 0:1*3:1*4:1-ARG0 0:1*3:1-LINK-SLC 5:0-rel 6:1-ARG1
 bn/cnn/02/cnn_0247.parse 8 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 4:2-ARG2

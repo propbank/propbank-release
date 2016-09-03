@@ -3,8 +3,8 @@ bn/voa/02/voa_0262.parse 1 6 gold welcome welcome.01 ----- 0:2-ARG0 6:0-rel 7:3-
 bn/voa/02/voa_0262.parse 1 9 gold convict convict.01 ----- 7:1-ARGM-TMP 9:0-rel 10:1-ARG1 14:1-ARG2
 bn/voa/02/voa_0262.parse 6 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:2-ARGM-ADV 9:3-ARG1
 bn/voa/02/voa_0262.parse 4 3 gold reveal reveal.01 ----- 2:1-ARG0 3:0-rel 4:2-ARG1
+bn/voa/02/voa_0262.parse 7 6 gold convict convict.01 ----- 0:2-ARG0 6:0-rel 7:2-ARG1 13:1-ARG2
 bn/voa/02/voa_0262.parse 1 32 gold demand demand.01 ----- 26:1*28:1*31:1-ARG0 32:0-rel 33:1-ARG1
-bn/voa/02/voa_0262.parse 4 7 gold know know.01 ----- 4:1*5:1*8:1-ARG1 4:1*5:1-LINK-SLC 6:1-ARG0 7:0-rel 9:1-ARG2
 bn/voa/02/voa_0262.parse 4 40 gold understand understand.01 ----- 37:1-ARG0 40:0-rel 41:1-ARG1
 bn/voa/02/voa_0262.parse 5 19 gold bomb bomb.01 ----- 19:0-rel
 bn/voa/02/voa_0262.parse 4 21 gold acknowledge acknowledge.01 ----- 18:1-ARG0 21:0-rel 22:2-ARG1
@@ -13,21 +13,21 @@ bn/voa/02/voa_0262.parse 5 15 gold blame blame.01 ----- 10:1*16:1-ARG1 15:0-rel 
 bn/voa/02/voa_0262.parse 4 12 gold bomb bomb.01 ----- 11:0-ARG1 12:0-rel
 bn/voa/02/voa_0262.parse 1 38 gold compensate compensate.01 ----- 34:1-ARG0 38:0-rel 39:2-ARG2
 bn/voa/02/voa_0262.parse 7 15 gold plant plant.01 ----- 7:2*14:1-ARG0 15:0-rel 16:2-ARG1
+bn/voa/02/voa_0262.parse 4 25 gold act act.02 ----- 25:0-rel 26:1-ARG0
 bn/voa/02/voa_0262.parse 6 13 gold have have.03 ----- 9:2-ARG0 13:0-rel 14:2-ARG1
+bn/voa/02/voa_0262.parse 4 32 gold act act.02 ----- 30:0-ARGM-MNR 31:0-ARGM-MNR 32:0-rel 33:2-ARGM-ADJ
 bn/voa/02/voa_0262.parse 6 4 gold be be.01 ----- 3:1-ARG1 4:0-rel 5:1-ARG2
 bn/voa/02/voa_0262.parse 1 35 gold accept accept.01 ----- 34:1-ARG0 35:0-rel 36:1-ARG1
 bn/voa/02/voa_0262.parse 3 16 gold act act.02 ----- 16:0-rel 17:1-ARG0
 bn/voa/02/voa_0262.parse 1 5 gold have have.01 ----- 5:0-rel
+bn/voa/02/voa_0262.parse 4 7 gold know know.01 ----- 4:1*5:1*8:1-ARG1 4:1*5:1-LINK-SLC 6:1-ARG0 7:0-rel 9:1-ARG2
 bn/voa/02/voa_0262.parse 1 18 gold bomb bomb.01 ----- 16:0-ARGM-TMP 17:0-ARGM-LOC 18:0-rel 19:2-ARGM-ADJ
 bn/voa/02/voa_0262.parse 5 8 gold say say.01 ----- 0:0-ARGM-DIS 1:1-ARGM-TMP 3:1-ARG0 8:0-rel 9:1-ARG1
-bn/voa/02/voa_0262.parse 4 32 gold act act.02 ----- 30:0-ARGM-MNR 31:0-ARGM-MNR 32:0-rel 33:2-ARGM-ADJ
 bn/voa/02/voa_0262.parse 4 15 gold pay pay.01 ----- 14:1-ARG0 15:0-rel 16:1-ARG1
 bn/voa/02/voa_0262.parse 1 27 gold stand stand.04 ----- 26:1-ARG1 27:0-rel 28:2-ARG2
 bn/voa/02/voa_0262.parse 7 21 gold bring bring.01 ----- 16:1*19:1*20:1-ARG0 16:1*19:1-LINK-SLC 21:0-rel 22:1-ARG3 23:2-ARG1 27:1-ARGM-LOC
 bn/voa/02/voa_0262.parse 8 1 gold kill kill.01 ----- 0:1-ARG0 1:0-rel 2:3-ARG1
-bn/voa/02/voa_0262.parse 4 25 gold act act.02 ----- 25:0-rel 26:1-ARG0
 bn/voa/02/voa_0262.parse 1 21 gold kill kill.01 ----- 15:1*19:1*20:1-ARG0 15:1*19:1-LINK-SLC 21:0-rel 22:1-ARG1
-bn/voa/02/voa_0262.parse 7 6 gold convict convict.01 ----- 0:2-ARG0 6:0-rel 7:2-ARG1 13:1-ARG2
-bn/voa/02/voa_0262.parse 3 12 gold take take.01 ----- 0:1-ARGM-DIS 7:2-ARG0 11:0-ARGM-MOD 12:0-rel 13:2-ARG1
 bn/voa/02/voa_0262.parse 4 20 gold declare declare.01 ----- 19:0-ARGM-MNR 20:0-rel
+bn/voa/02/voa_0262.parse 3 12 gold take take.01 ----- 0:1-ARGM-DIS 7:2-ARG0 11:0-ARGM-MOD 12:0-rel 13:2-ARG1
 bn/voa/02/voa_0262.parse 4 35 gold demonstrate demonstrate.01 ----- 30:1*33:1*34:1-ARG0 30:1*33:1-LINK-SLC 35:0-rel 36:1-ARG1

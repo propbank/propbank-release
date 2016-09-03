@@ -1,6 +1,7 @@
 bn/cnn/03/cnn_0383.parse 25 43 gold have have.03 ----- 42:1-ARG0 43:0-rel 44:2-ARG1
 bn/cnn/03/cnn_0383.parse 9 11 gold use use.01 ----- 11:0-rel
 bn/cnn/03/cnn_0383.parse 9 3 gold suspend suspension.03 ----- 3:0-rel 4:1-ARG3
+bn/cnn/03/cnn_0383.parse 9 6 gold use use.01 ----- 5:1-ARG0 6:0-rel 7:2-ARG1 13:2-ARGM-ADV
 bn/cnn/03/cnn_0383.parse 2 1 gold seem seem.01 ----- 0:1,2:2-ARG1 1:0-rel
 bn/cnn/03/cnn_0383.parse 9 15 gold be be.01 ----- 13:1*14:1-ARG1 15:0-rel 16:1-ARG2 17:1-ARGM-TMP
 bn/cnn/03/cnn_0383.parse 28 27 gold blame blame.01 ----- 27:0-rel
@@ -9,10 +10,10 @@ bn/cnn/03/cnn_0383.parse 16 2 gold hit hit.01 ----- 0:1*5:1-ARGM-TMP 1:1-ARG0 2:
 bn/cnn/03/cnn_0383.parse 23 3 gold come come.01 ----- 0:2-ARG1 3:0-rel 4:1-ARGM-DIR 5:2-ARGM-PRD
 bn/cnn/03/cnn_0383.parse 15 5 gold hit hit.01 ----- 0:1-ARGM-TMP 4:1-ARG0 5:0-rel 6:1-ARG1
 bn/cnn/03/cnn_0383.parse 7 24 gold be be.01 ----- 21:1-ARG1 23:0-ARGM-MOD 24:0-rel 25:1-ARG2 27:1-ARGM-MNR
+bn/cnn/03/cnn_0383.parse 28 12 gold do do.02 ----- 8:1*9:1,13:1-ARG2 8:1*9:1-LINK-SLC 10:1-ARG0 12:0-rel
 bn/cnn/03/cnn_0383.parse 33 4 gold do do.01 ----- 4:0-rel
 bn/cnn/03/cnn_0383.parse 26 4 gold want want.01 ----- 0:1-ARGM-DIS 1:1-ARG0 3:0-ARGM-NEG 4:0-rel 5:2-ARG1
 bn/cnn/03/cnn_0383.parse 11 8 gold stand stand.01 ----- 6:1-ARG1 8:0-rel
-bn/cnn/03/cnn_0383.parse 9 6 gold use use.01 ----- 5:1-ARG0 6:0-rel 7:2-ARG1 13:2-ARGM-ADV
 bn/cnn/03/cnn_0383.parse 10 13 gold receive receive.01 ----- 0:1-ARGM-TMP 3:2-ARGM-ADV 12:1-ARG0 13:0-rel 14:1-ARG1 17:1-ARG2
 bn/cnn/03/cnn_0383.parse 12 18 gold be be.01 ----- 17:1-ARG1 18:0-rel 19:1-ARG2 21:1-ARGM-LOC
 bn/cnn/03/cnn_0383.parse 20 3 gold swing swing.02 ----- 0:1-ARGM-TMP 1:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:1-ARG1 5:1-ARGM-MNR
@@ -26,7 +27,6 @@ bn/cnn/03/cnn_0383.parse 28 19 gold walk walk.01 ----- 17:1-ARG0 18:1-ARGM-TMP 1
 bn/cnn/03/cnn_0383.parse 17 2 gold find find.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1 4:1-ARGM-LOC
 bn/cnn/03/cnn_0383.parse 7 7 gold take take.01 ----- 0:2-ARGM-TMP 4:1-ARG0 7:0-rel 8:1-ARG1 10:1-ARG2 16:1-ARGM-LOC
 bn/cnn/03/cnn_0383.parse 12 2 gold believe believe.01 ----- 0:1-ARG0 2:0-rel 3:3-ARG1
-bn/cnn/03/cnn_0383.parse 15 12 gold run run.14 ----- 12:0-rel
 bn/cnn/03/cnn_0383.parse 34 1 gold ask ask.01 ----- 0:1-ARG0 1:0-rel
 bn/cnn/03/cnn_0383.parse 30 6 gold have have.03 ----- 2:1*10:1-ARGM-PRP 4:1-ARG0 6:0-rel 7:1-ARG1
 bn/cnn/03/cnn_0383.parse 33 13 gold use use.01 ----- 12:1-ARG0 13:0-rel 14:1-ARG1 16:1-ARGM-TMP
@@ -45,45 +45,44 @@ bn/cnn/03/cnn_0383.parse 28 35 gold get get.02 ----- 30:1,34:1-ARG0 32:1-ARGM-TM
 bn/cnn/03/cnn_0383.parse 28 52 gold hurt hurt.01 ----- 45:1*46:1*47:1-ARG0 45:1*46:1-LINK-SLC 48:1-ARGM-ADV 52:0-rel 53:1-ARG1 54:1-ARGM-MNR
 bn/cnn/03/cnn_0383.parse 27 8 gold have have.03 ----- 5:1-ARG0 7:0-ARGM-NEG 8:0-rel 9:2-ARG1
 bn/cnn/03/cnn_0383.parse 31 10 gold use use.01 ----- 9:1-ARG0 10:0-rel 11:1-ARG1 12:1-ARG2 15:2-ARGM-PRP
-bn/cnn/03/cnn_0383.parse 2 12 gold get get.04 ----- 8:1*10:1*11:1-ARG0 8:1*10:1-LINK-SLC 12:0-rel 13:2-ARG1
-bn/cnn/03/cnn_0383.parse 4 2 gold stand stand_by.05 ----- 0:1-ARG1 2:0,3:1-rel 4:1-ARGM-LOC 7:1-ARGM-MNR 14:1-ARGM-LOC
+bn/cnn/03/cnn_0383.parse 28 44 gold be be.01 ----- 43:1-ARG1 44:0-rel 45:2-ARG2
+bn/cnn/03/cnn_0383.parse 27 24 gold be be.01 ----- 23:1-ARG1 24:0-rel 25:1-ARG2
 bn/cnn/03/cnn_0383.parse 2 18 gold be be.01 ----- 8:2-ARG1 18:0-rel 19:1-ARG2
 bn/cnn/03/cnn_0383.parse 10 16 gold ovation ovation.01 ----- 15:0-ARGM-PRD 16:0-rel
-bn/cnn/03/cnn_0383.parse 31 3 gold say say.01 ----- 0:1-ARGM-DIS 2:1-ARG0 3:0-rel 4:1-ARG1
-bn/cnn/03/cnn_0383.parse 26 7 gold misconstrue misconstrue.01 ----- 5:1-ARG0 7:0-rel 8:2-ARG1
 bn/cnn/03/cnn_0383.parse 19 16 gold sound sound.02 ----- 15:0-ARG3 16:0-rel
 bn/cnn/03/cnn_0383.parse 33 10 gold rule rule.01 ----- 10:0-rel 11:1-ARG1
 bn/cnn/03/cnn_0383.parse 25 32 gold keep keep.01 ----- 31:0-ARG1 32:0-rel 33:2-ARGM-ADJ
-bn/cnn/03/cnn_0383.parse 26 2 gold do do.01 ----- 2:0-rel
 bn/cnn/03/cnn_0383.parse 28 49 gold bother bother.01 ----- 45:1*46:1*47:1-ARG0 45:1*46:1-LINK-SLC 48:1-ARGM-ADV 49:0-rel 50:1-ARG1
+bn/cnn/03/cnn_0383.parse 19 1 gold hollow hollow_out.01 ----- 0:1-ARG0 1:0,2:1-rel 3:1-ARG1
+bn/cnn/03/cnn_0383.parse 26 2 gold do do.01 ----- 2:0-rel
 bn/cnn/03/cnn_0383.parse 25 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 3:1-ARGM-DIS 8:1;41:1-ARG2 11:1-ARGM-ADV
 bn/cnn/03/cnn_0383.parse 3 2 gold decide decide.01 ----- 2:0-rel 3:1-ARG3
 bn/cnn/03/cnn_0383.parse 2 14 gold eject eject.01 ----- 13:1*15:1-ARG1 13:1*15:1-LINK-PSV 14:0-rel 16:1-ARGM-TMP
+bn/cnn/03/cnn_0383.parse 4 2 gold stand stand_by.05 ----- 0:1-ARG1 2:0,3:1-rel 4:1-ARGM-LOC 7:1-ARGM-MNR 14:1-ARGM-LOC
 bn/cnn/03/cnn_0383.parse 27 29 gold do do.01 ----- 29:0-rel
-bn/cnn/03/cnn_0383.parse 28 44 gold be be.01 ----- 43:1-ARG1 44:0-rel 45:2-ARG2
 bn/cnn/03/cnn_0383.parse 28 25 gold take take.01 ----- 17:1-ARG0 18:1-ARGM-ADV 25:0-rel 26:1-ARG1
-bn/cnn/03/cnn_0383.parse 28 12 gold do do.02 ----- 8:1*9:1,13:1-ARG2 8:1*9:1-LINK-SLC 10:1-ARG0 12:0-rel
 bn/cnn/03/cnn_0383.parse 3 11 gold face face.01 ----- 4:1*12:1-ARG1 9:1-ARG0 10:0-ARGM-MOD 11:0-rel 13:1-ARGM-TMP
-bn/cnn/03/cnn_0383.parse 27 24 gold be be.01 ----- 23:1-ARG1 24:0-rel 25:1-ARG2
 bn/cnn/03/cnn_0383.parse 31 6 gold have have.03 ----- 5:1-ARG0 6:0-rel 7:1-ARG1 8:1-ARGM-CAU
 bn/cnn/03/cnn_0383.parse 3 8 gold punish punish.01 ----- 4:0-ARG1 6:1-ARGM-ADJ 8:0-rel
 bn/cnn/03/cnn_0383.parse 19 6 gold stick stick.01 ----- 0:1-ARG0 6:0-rel 7:1-ARG1 9:1-ARG2 11:2-ARGM-PRP
+bn/cnn/03/cnn_0383.parse 15 12 gold run run.14 ----- 12:0-rel
 bn/cnn/03/cnn_0383.parse 12 13 gold be be.01 ----- 12:1-ARG1 13:0-rel 14:1-ARG2
 bn/cnn/03/cnn_0383.parse 31 20 gold show show.04 ----- 20:0-rel 21:1-ARG2
 bn/cnn/03/cnn_0383.parse 21 1 gold take take.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:1-ARG2 6:1-ARGM-PRP
 bn/cnn/03/cnn_0383.parse 33 14 gold cork cork.01 ----- 14:0-rel 15:0-ARG1
 bn/cnn/03/cnn_0383.parse 26 10 gold say say.01 ----- 8:1*11:1-ARG1 9:1-ARG0 10:0-rel
 bn/cnn/03/cnn_0383.parse 9 8 gold cork cork.01 ----- 8:0-rel 9:0-ARG1
+bn/cnn/03/cnn_0383.parse 2 12 gold get get.04 ----- 8:1*10:1*11:1-ARG0 8:1*10:1-LINK-SLC 12:0-rel 13:2-ARG1
 bn/cnn/03/cnn_0383.parse 25 5 gold say say.01 ----- 4:1-ARG0 5:0-rel 6:1-ARG1
+bn/cnn/03/cnn_0383.parse 26 7 gold misconstrue misconstrue.01 ----- 5:1-ARG0 7:0-rel 8:2-ARG1
 bn/cnn/03/cnn_0383.parse 32 8 gold use use.01 ----- 3:2*13:1-ARGM-TMP 6:1-ARG0 8:0-rel 9:1-ARG1 10:1-ARGM-TMP
 bn/cnn/03/cnn_0383.parse 1 16 gold find find.01 ----- 5:1-ARG0 16:0-rel 17:2-ARG1
 bn/cnn/03/cnn_0383.parse 27 6 gold do do.01 ----- 6:0-rel
+bn/cnn/03/cnn_0383.parse 31 3 gold say say.01 ----- 0:1-ARGM-DIS 2:1-ARG0 3:0-rel 4:1-ARG1
 bn/cnn/03/cnn_0383.parse 1 7 gold xray xray.01 ----- 5:1-ARG0 7:0-rel 8:3-ARG1
 bn/cnn/03/cnn_0383.parse 13 5 gold believe believe.01 ----- 0:1*3:1-ARG0 5:0-rel 6:1-ARG1
 bn/cnn/03/cnn_0383.parse 32 16 gold say say.01 ----- 15:1-ARG0 16:0-rel 17:2-ARG1
-bn/cnn/03/cnn_0383.parse 22 1 gold xray xray.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
-bn/cnn/03/cnn_0383.parse 16 9 gold break break.01 ----- 0:2-ARGM-TMP 7:1-ARG1 9:0-rel
-bn/cnn/03/cnn_0383.parse 9 1 gold punish punish.01 ----- 0:0-ARG1 1:0-rel 3:2-ARG3
+bn/cnn/03/cnn_0383.parse 33 1 gold raise raise.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 bn/cnn/03/cnn_0383.parse 13 2 gold want want.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
 bn/cnn/03/cnn_0383.parse 21 7 gold analyze analyze.01 ----- 7:0-rel
 bn/cnn/03/cnn_0383.parse 28 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
@@ -91,8 +90,9 @@ bn/cnn/03/cnn_0383.parse 27 19 gold have have.03 ----- 16:1-ARG0 18:0-ARGM-NEG 1
 bn/cnn/03/cnn_0383.parse 30 8 gold cork cork.01 ----- 8:0-rel 9:0-ARG1
 bn/cnn/03/cnn_0383.parse 30 3 gold do do.01 ----- 3:0-rel
 bn/cnn/03/cnn_0383.parse 8 2 gold find find.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0,3:1-rel 4:1-ARGM-TMP
-bn/cnn/03/cnn_0383.parse 33 1 gold raise raise.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 bn/cnn/03/cnn_0383.parse 27 17 gold do do.01 ----- 17:0-rel
 bn/cnn/03/cnn_0383.parse 14 1 gold happen happen.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-TMP
+bn/cnn/03/cnn_0383.parse 16 9 gold break break.01 ----- 0:2-ARGM-TMP 7:1-ARG1 9:0-rel
+bn/cnn/03/cnn_0383.parse 9 1 gold punish punish.01 ----- 0:0-ARG1 1:0-rel 3:2-ARG3
 bn/cnn/03/cnn_0383.parse 1 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2 4:1-ARGM-TMP
-bn/cnn/03/cnn_0383.parse 19 1 gold hollow hollow_out.01 ----- 0:1-ARG0 1:0,2:1-rel 3:1-ARG1
+bn/cnn/03/cnn_0383.parse 22 1 gold xray xray.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1

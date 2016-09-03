@@ -1,13 +1,9 @@
 nw/wsj/23/wsj_2338.parse 12 20 gold consolidate consolidate.01 ----- 12:2*21:1-ARG1 18:0-ARGM-MOD 20:0-rel 22:1-ARG2
-nw/wsj/23/wsj_2338.parse 5 17 gold get get.03 ----- 2:1*4:1*15:1-ARG1 17:0-rel 18:1-ARG2
-nw/wsj/23/wsj_2338.parse 15 9 gold use use.01 ----- 0:2-ARG0 9:0-rel 10:1-ARG1 14:2-ARG2
 nw/wsj/23/wsj_2338.parse 16 10 gold move move.02 ----- 8:0-ARGM-ADJ 9:0-ARG0 10:0-rel 11:2-ARGM-ADJ
 nw/wsj/23/wsj_2338.parse 21 23 gold work work.01 ----- 9:1*19:1*22:1-ARG0 23:0-rel 24:1-ARG1
 nw/wsj/23/wsj_2338.parse 7 8 gold have have.01 ----- 8:0-rel
-nw/wsj/23/wsj_2338.parse 21 21 gold continue continue.01 ----- 9:1,22:2-ARG1 21:0-rel
 nw/wsj/23/wsj_2338.parse 5 3 gold appear appear.02 ----- 0:1-ARGM-TMP 2:1,4:2-ARG1 3:0-rel
 nw/wsj/23/wsj_2338.parse 6 3 gold mount mount.02 ----- 3:0-rel 4:0-ARG1
-nw/wsj/23/wsj_2338.parse 8 5 gold get get.04 ----- 0:1*3:1-ARG0 5:0-rel 6:2-ARG1
 nw/wsj/23/wsj_2338.parse 22 12 gold build build.01 ----- 9:2-ARG0 12:0-rel 13:1-ARG1
 nw/wsj/23/wsj_2338.parse 16 5 gold benefit benefit.01 ----- 1:1-ARG1 4:0-ARGM-MOD 5:0-rel 6:1-ARG0
 nw/wsj/23/wsj_2338.parse 10 23 gold issue issue.01 ----- 0:1-ARGM-ADV 4:3-ARG0 23:0-rel 24:2;28:1-ARG1 27:1-ARGM-TMP
@@ -16,18 +12,20 @@ nw/wsj/23/wsj_2338.parse 13 1 gold mean mean.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 nw/wsj/23/wsj_2338.parse 18 2 gold study study.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 nw/wsj/23/wsj_2338.parse 4 12 gold age age.01 ----- 12:0-rel 13:0,14:0-ARG1 15:1-ARGM-LOC
 nw/wsj/23/wsj_2338.parse 24 10 gold appear appear.02 ----- 0:1-ARGM-LOC 3:1-ARGM-DIS 5:1,11:2-ARG1 10:0-rel
+nw/wsj/23/wsj_2338.parse 15 9 gold use use.01 ----- 0:2-ARG0 9:0-rel 10:1-ARG1 14:2-ARG2
 nw/wsj/23/wsj_2338.parse 13 22 gold be be.03 ----- 22:0-rel
 nw/wsj/23/wsj_2338.parse 21 11 gold be be.03 ----- 11:0-rel
 nw/wsj/23/wsj_2338.parse 20 12 gold do do.01 ----- 12:0-rel
 nw/wsj/23/wsj_2338.parse 20 20 gold build build.01 ----- 15:1*17:1*21:1-ARG1 15:1*17:1-LINK-SLC 18:1-ARG0 20:0-rel
 nw/wsj/23/wsj_2338.parse 3 17 gold vow vow.01 ----- 0:1-ARG0 3:2-ARGM-ADV 17:0-rel 18:1-ARG1
+nw/wsj/23/wsj_2338.parse 9 18 gold be be.03 ----- 18:0-rel
 nw/wsj/23/wsj_2338.parse 14 3 gold idle idle.01 ----- 0:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:3-ARG1
 nw/wsj/23/wsj_2338.parse 0 33 gold survive survive.01 ----- 23:2-ARG0 31:0-ARGM-MOD 32:0-ARGM-NEG 33:0-rel 34:1-ARG1 36:1-ARGM-TMP
-nw/wsj/23/wsj_2338.parse 10 14 gold become become.01 ----- 4:2*11:1*12:1-ARG1 4:2*11:1-LINK-SLC 13:1-ARGM-TMP 14:0-rel 15:2-ARG2
 nw/wsj/23/wsj_2338.parse 22 8 gold employ employ.01 ----- 1:1*6:1*7:1-ARG0 1:1*6:1-LINK-SLC 8:0-rel 9:3-ARG1
 nw/wsj/23/wsj_2338.parse 26 3 gold take take.02 ----- 0:1-ARG0 3:0-rel 4:1-ARG1 6:1-ARGM-MNR 7:1-ARGM-CAU
 nw/wsj/23/wsj_2338.parse 5 14 gold consolidate consolidate.01 ----- 12:0-ARG0 13:0-ARG1 14:0-rel
 nw/wsj/23/wsj_2338.parse 9 30 gold be be.01 ----- 28:1-ARG1 30:0-rel 31:1-ARG2 33:1-ARGM-LOC
+nw/wsj/23/wsj_2338.parse 16 13 gold affect affect.01 ----- 7:1*11:1*12:1-ARG0 7:1*11:1-LINK-SLC 13:0-rel 14:2-ARG1
 nw/wsj/23/wsj_2338.parse 22 33 gold say say.01 ----- 0:1-ARGM-LOC 25:2-ARG0 33:0-rel 34:2-ARG1
 nw/wsj/23/wsj_2338.parse 4 28 gold close close.01 ----- 20:1*25:1*26:1-ARG1 20:1*25:1-LINK-SLC 28:0-rel 29:1-ARGM-TMP
 nw/wsj/23/wsj_2338.parse 20 14 gold have have.03 ----- 0:2-ARG0 13:0-ARGM-NEG 14:0-rel 15:2-ARG1 22:1-ARGM-TMP
@@ -38,6 +36,7 @@ nw/wsj/23/wsj_2338.parse 0 21 gold sign signal.07 ----- 0:1-ARG0 4:1-ARGM-LOC 21
 nw/wsj/23/wsj_2338.parse 20 7 gold employ employ.01 ----- 0:1*5:1*6:1-ARG0 0:1*5:1-LINK-SLC 7:0-rel 8:2-ARG1
 nw/wsj/23/wsj_2338.parse 1 12 gold notice notice.03 ----- 11:0-ARG1 12:0-rel 13:1-ARG2
 nw/wsj/23/wsj_2338.parse 19 2 gold leave leave.13 ----- 0:1-ARG0 2:0-rel 3:2,11:2-ARG1
+nw/wsj/23/wsj_2338.parse 21 21 gold continue continue.01 ----- 9:1,22:2-ARG1 21:0-rel
 nw/wsj/23/wsj_2338.parse 7 9 gold sign signal.07 ----- 3:3-ARG0 9:0-rel 10:1-ARG1
 nw/wsj/23/wsj_2338.parse 24 27 gold build build.01 ----- 20:1*24:1*25:1-ARG0 20:1*24:1-LINK-SLC 26:1-ARGM-ADV 27:0-rel 28:1-ARG1
 nw/wsj/23/wsj_2338.parse 11 37 gold provide provide.01 ----- 35:1-ARG0 37:0-rel 38:1-ARG1
@@ -46,27 +45,31 @@ nw/wsj/23/wsj_2338.parse 5 7 gold step step_up.03 ----- 2:1*4:1-ARG0 7:0,8:1-rel
 nw/wsj/23/wsj_2338.parse 17 26 gold consider consider.01 ----- 20:1-ARG1 23:1-ARGM-TMP 26:0-rel 27:2-ARGM-PRP
 nw/wsj/23/wsj_2338.parse 17 16 gold be be.03 ----- 16:0-rel
 nw/wsj/23/wsj_2338.parse 23 4 gold believe believe.01 ----- 3:1-ARG0 4:0-rel 5:1-ARG1
-nw/wsj/23/wsj_2338.parse 9 10 gold be be.03 ----- 10:0-rel
-nw/wsj/23/wsj_2338.parse 24 19 gold reopen reopen.01 ----- 17:1-ARG0 18:0-ARGM-MOD 19:0-rel 20:2-ARG1
-nw/wsj/23/wsj_2338.parse 8 23 gold begin begin.01 ----- 20:0-ARGM-TMP 21:1-ARG1 23:0-rel
-nw/wsj/23/wsj_2338.parse 7 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
-nw/wsj/23/wsj_2338.parse 11 25 gold show show.01 ----- 0:2-ARG0 25:0-rel 26:1-ARG1
-nw/wsj/23/wsj_2338.parse 9 9 gold move move.02 ----- 7:1-ARG0 9:0-rel
-nw/wsj/23/wsj_2338.parse 0 8 gold move move.02 ----- 8:0-rel 9:2-ARGM-ADJ
-nw/wsj/23/wsj_2338.parse 10 28 gold blast blast.02 ----- 24:1-ARG0 28:0-rel 29:3-ARG1
 nw/wsj/23/wsj_2338.parse 22 41 gold line line_up.02 ----- 38:1*42:1-ARG1 41:0,43:1-rel
-nw/wsj/23/wsj_2338.parse 18 26 gold say say.01 ----- 0:2*28:1-ARG1 22:2-ARG0 26:0-rel
+nw/wsj/23/wsj_2338.parse 9 10 gold be be.03 ----- 10:0-rel
+nw/wsj/23/wsj_2338.parse 8 23 gold begin begin.01 ----- 20:0-ARGM-TMP 21:1-ARG1 23:0-rel
+nw/wsj/23/wsj_2338.parse 11 25 gold show show.01 ----- 0:2-ARG0 25:0-rel 26:1-ARG1
+nw/wsj/23/wsj_2338.parse 2 7 gold close close.01 ----- 5:1-ARG0 7:0-rel 8:2-ARG1
+nw/wsj/23/wsj_2338.parse 10 28 gold blast blast.02 ----- 24:1-ARG0 28:0-rel 29:3-ARG1
+nw/wsj/23/wsj_2338.parse 0 20 gold have have.01 ----- 20:0-rel
+nw/wsj/23/wsj_2338.parse 7 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
+nw/wsj/23/wsj_2338.parse 13 23 gold shut shut_down.05 ----- 3:2*24:1-ARG1 20:1-ARGM-ADV 21:0-ARGM-MOD 23:0,25:1-rel 26:1-ARGM-TMP
 nw/wsj/23/wsj_2338.parse 21 42 gold notice notice.03 ----- 41:0-ARGM-TMP 42:0-rel
 nw/wsj/23/wsj_2338.parse 7 28 gold be be.03 ----- 28:0-rel
-nw/wsj/23/wsj_2338.parse 7 12 gold want want.01 ----- 11:1-ARG0 12:0-rel 13:2-ARG1
 nw/wsj/23/wsj_2338.parse 9 11 gold come come.01 ----- 7:2-ARG1 11:0-rel 12:1-ARGM-TMP
 nw/wsj/23/wsj_2338.parse 12 10 gold move move.02 ----- 9:0-ARGM-ADJ 10:0-rel
+nw/wsj/23/wsj_2338.parse 5 17 gold get get.03 ----- 2:1*4:1*15:1-ARG1 17:0-rel 18:1-ARG2
+nw/wsj/23/wsj_2338.parse 4 6 gold announce announce.01 ----- 0:3-ARGM-TMP 5:1-ARG0 6:0-rel 7:1-ARG1
+nw/wsj/23/wsj_2338.parse 8 5 gold get get.04 ----- 0:1*3:1-ARG0 5:0-rel 6:2-ARG1
+nw/wsj/23/wsj_2338.parse 9 9 gold move move.02 ----- 7:1-ARG0 9:0-rel
+nw/wsj/23/wsj_2338.parse 0 39 gold struggle struggle.02 ----- 37:1-ARG0 39:0-rel 40:2-ARG1
 nw/wsj/23/wsj_2338.parse 26 5 gold beat beat.01 ----- 5:0-rel
+nw/wsj/23/wsj_2338.parse 10 14 gold become become.01 ----- 4:2*11:1*12:1-ARG1 4:2*11:1-LINK-SLC 13:1-ARGM-TMP 14:0-rel 15:2-ARG2
 nw/wsj/23/wsj_2338.parse 7 29 gold negotiate negotiate.01 ----- 19:1*25:1*26:1*30:1-ARG2 19:1*25:1-LINK-SLC 27:0-ARGM-MOD 29:0-rel 31:1-ARGM-TMP
-nw/wsj/23/wsj_2338.parse 16 13 gold affect affect.01 ----- 7:1*11:1*12:1-ARG0 7:1*11:1-LINK-SLC 13:0-rel 14:2-ARG1
 nw/wsj/23/wsj_2338.parse 23 7 gold have have.03 ----- 6:1-ARG0 7:0-rel 8:1-ARG1
 nw/wsj/23/wsj_2338.parse 13 28 gold end end.01 ----- 28:0-rel 29:1-ARG1
 nw/wsj/23/wsj_2338.parse 2 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
+nw/wsj/23/wsj_2338.parse 0 8 gold move move.02 ----- 8:0-rel 9:2-ARGM-ADJ
 nw/wsj/23/wsj_2338.parse 8 2 gold want want.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
 nw/wsj/23/wsj_2338.parse 6 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:2-ARG2
 nw/wsj/23/wsj_2338.parse 0 11 gold anger anger.01 ----- 8:1*9:1*10:1-ARG0 8:1*9:1-LINK-SLC 11:0-rel 12:2-ARG1
@@ -75,10 +78,10 @@ nw/wsj/23/wsj_2338.parse 18 1 gold be be.03 ----- 1:0-rel
 nw/wsj/23/wsj_2338.parse 26 2 gold have have.01 ----- 2:0-rel
 nw/wsj/23/wsj_2338.parse 12 2 gold tell tell.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG2 4:2-ARGM-TMP 7:1-ARG1
 nw/wsj/23/wsj_2338.parse 6 31 gold match match.01 ----- 26:1*32:1-ARG1 29:1-ARG0 30:0-ARGM-MOD 31:0-rel
-nw/wsj/23/wsj_2338.parse 2 7 gold close close.01 ----- 5:1-ARG0 7:0-rel 8:2-ARG1
 nw/wsj/23/wsj_2338.parse 25 22 gold force force.01 ----- 17:2-ARG0 22:0-rel 23:1-ARG1 26:1-ARG2
 nw/wsj/23/wsj_2338.parse 22 51 gold know know.01 ----- 48:2-ARG0 51:0-rel 53:2-ARG1
 nw/wsj/23/wsj_2338.parse 9 26 gold charge charge.06 ----- 23:1*24:1*25:1-ARG0 23:1*24:1-LINK-SLC 26:0-rel 27:1-ARG1
+nw/wsj/23/wsj_2338.parse 7 12 gold want want.01 ----- 11:1-ARG0 12:0-rel 13:2-ARG1
 nw/wsj/23/wsj_2338.parse 24 9 gold decide decide.01 ----- 6:1-ARG3 9:0-rel
 nw/wsj/23/wsj_2338.parse 11 44 gold say say.01 ----- 0:3*46:1-ARG1 42:1-ARG0 44:0-rel
 nw/wsj/23/wsj_2338.parse 8 11 gold reduce reduce.01 ----- 9:1-ARG0 11:0-rel 12:2-ARG1
@@ -87,16 +90,13 @@ nw/wsj/23/wsj_2338.parse 23 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 nw/wsj/23/wsj_2338.parse 17 17 gold tell tell.01 ----- 0:2*18:1-ARG2 17:0-rel 19:1-ARG1
 nw/wsj/23/wsj_2338.parse 25 4 gold view view.02 ----- 0:1*5:1-ARG1 4:0-rel 6:1-ARG2 14:1-ARGM-LOC 16:1-ARGM-TMP
 nw/wsj/23/wsj_2338.parse 23 11 gold keep keep.02 ----- 9:1-ARG0 11:0-rel 12:2-ARG1
-nw/wsj/23/wsj_2338.parse 0 20 gold have have.01 ----- 20:0-rel
 nw/wsj/23/wsj_2338.parse 25 27 gold close close.01 ----- 23:1*25:1-ARG0 27:0-rel 28:1-ARG1 30:1-ARGM-TMP
 nw/wsj/23/wsj_2338.parse 3 5 gold use use.01 ----- 0:1*3:1-ARG0 4:1-ARGM-TMP 5:0-rel 6:3-ARG1
 nw/wsj/23/wsj_2338.parse 21 7 gold say say.01 ----- 0:2-ARG0 7:0-rel 8:1-ARG1
 nw/wsj/23/wsj_2338.parse 0 42 gold cut cut.02 ----- 37:1*40:1-ARG0 42:0-rel 43:1-ARG1
 nw/wsj/23/wsj_2338.parse 21 34 gold build build.01 ----- 25:1*31:1*32:1-ARG0 25:1*31:1-LINK-SLC 33:0-ARGM-MOD 34:0-rel 35:2-ARG1 40:1-ARG2 43:2-ARGM-PRP
 nw/wsj/23/wsj_2338.parse 5 6 gold be be.03 ----- 6:0-rel
-nw/wsj/23/wsj_2338.parse 1 1 gold announce announce.01 ----- 1:0-rel 2:1-ARG2 4:2-ARGM-TMP
 nw/wsj/23/wsj_2338.parse 25 3 gold be be.03 ----- 3:0-rel
-nw/wsj/23/wsj_2338.parse 13 23 gold shut shut_down.05 ----- 3:2*24:1-ARG1 20:1-ARGM-ADV 21:0-ARGM-MOD 23:0,25:1-rel 26:1-ARGM-TMP
 nw/wsj/23/wsj_2338.parse 8 22 gold talk talk.01 ----- 22:0-rel
 nw/wsj/23/wsj_2338.parse 18 6 gold build build.01 ----- 4:1-ARG0 5:0-ARGM-MOD 6:0-rel 7:1-ARG1 12:1-ARGM-MNR 13:1-ARGM-LOC
 nw/wsj/23/wsj_2338.parse 1 10 gold sign sign.01 ----- 0:1-ARGM-LOC 8:1-ARG0 9:1-ARGM-ADV 10:0-rel 11:2-ARG1
@@ -106,24 +106,24 @@ nw/wsj/23/wsj_2338.parse 23 13 gold build build.01 ----- 9:1*12:1-ARG0 13:0-rel 
 nw/wsj/23/wsj_2338.parse 2 22 gold skid skid.01 ----- 14:2-ARG1 22:0-rel 23:1-ARGM-TMP
 nw/wsj/23/wsj_2338.parse 19 1 gold announce announce.01 ----- 1:0-rel
 nw/wsj/23/wsj_2338.parse 11 7 gold let let.01 ----- 5:1-ARG0 7:0-rel 8:3-ARG1
+nw/wsj/23/wsj_2338.parse 1 1 gold announce announce.01 ----- 1:0-rel 2:1-ARG2 4:2-ARGM-TMP
 nw/wsj/23/wsj_2338.parse 27 4 gold use use.01 ----- 0:1-ARG0 4:0-rel 5:1-ARG1 8:1-ARG2
 nw/wsj/23/wsj_2338.parse 9 22 gold silence silence.01 ----- 16:1*20:1-ARG0 22:0-rel 23:2-ARG1
 nw/wsj/23/wsj_2338.parse 3 16 gold have have.01 ----- 16:0-rel
 nw/wsj/23/wsj_2338.parse 9 5 gold be be.01 ----- 0:1-ARG1 3:1-ARGM-DIS 5:0-rel 6:1-ARG2
 nw/wsj/23/wsj_2338.parse 10 25 gold state state.01 ----- 25:0-rel
 nw/wsj/23/wsj_2338.parse 6 4 gold compete compete.01 ----- 3:0-ARGM-ADJ 4:0-rel 5:1-ARG1
-nw/wsj/23/wsj_2338.parse 0 39 gold struggle struggle.02 ----- 37:1-ARG0 39:0-rel 40:2-ARG1
 nw/wsj/23/wsj_2338.parse 1 23 gold cast cast.01 ----- 0:1-ARGM-LOC 8:1-ARG0 23:0-rel 24:1-ARG1 26:1-ARG2
 nw/wsj/23/wsj_2338.parse 3 21 gold run run.01 ----- 19:1-ARG1 20:0-ARGM-MOD 21:0-rel 22:1-ARGM-MNR 27:1-ARGM-TMP
+nw/wsj/23/wsj_2338.parse 18 26 gold say say.01 ----- 0:2*28:1-ARG1 22:2-ARG0 26:0-rel
 nw/wsj/23/wsj_2338.parse 24 13 gold erase erase.01 ----- 5:1*11:1-ARG0 13:0-rel 14:1-ARG1
 nw/wsj/23/wsj_2338.parse 21 12 gold ask ask.02 ----- 9:1*13:1-ARG2 12:0-rel 14:2-ARG1
-nw/wsj/23/wsj_2338.parse 4 6 gold announce announce.01 ----- 0:3-ARGM-TMP 5:1-ARG0 6:0-rel 7:1-ARG1
 nw/wsj/23/wsj_2338.parse 11 16 gold trickle trickle.01 ----- 8:2-ARG0 16:0-rel 17:1-ARGM-DIR 19:1-ARGM-LOC 21:1-ARG2
+nw/wsj/23/wsj_2338.parse 24 19 gold reopen reopen.01 ----- 17:1-ARG0 18:0-ARGM-MOD 19:0-rel 20:2-ARG1
 nw/wsj/23/wsj_2338.parse 9 19 gold try try.01 ----- 16:1-ARG0 19:0-rel 20:2-ARG1
 nw/wsj/23/wsj_2338.parse 12 19 gold be be.03 ----- 19:0-rel
 nw/wsj/23/wsj_2338.parse 2 11 gold become become.01 ----- 8:1*9:1*10:1-ARG1 8:1*9:1-LINK-SLC 11:0-rel 12:1-ARG2 13:1-ARGM-TMP
 nw/wsj/23/wsj_2338.parse 6 15 gold be be.03 ----- 15:0-rel
-nw/wsj/23/wsj_2338.parse 9 18 gold be be.03 ----- 18:0-rel
 nw/wsj/23/wsj_2338.parse 15 16 gold criticize criticize.01 ----- 0:2*14:1-ARG0 16:0-rel 17:2-ARG1
 nw/wsj/23/wsj_2338.parse 17 29 gold build build.01 ----- 20:1*27:1-ARG0 29:0-rel 30:2-ARG1
 nw/wsj/23/wsj_2338.parse 12 12 gold produce produce.01 ----- 12:0-rel 13:1-ARG1

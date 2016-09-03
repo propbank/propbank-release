@@ -3,18 +3,15 @@ nw/wsj/00/wsj_0094.parse 0 13 gold state state.01 ----- 0:2-ARG0 13:0-rel 16:2-A
 nw/wsj/00/wsj_0094.parse 9 8 gold believe believe.01 ----- 5:1-ARG0 8:0-rel 9:1-ARG1
 nw/wsj/00/wsj_0094.parse 4 1 gold be be.03 ----- 1:0-rel
 nw/wsj/00/wsj_0094.parse 11 6 gold spend spend.01 ----- 0:2-ARG0 3:1-ARGM-TMP 6:0-rel 7:2-ARG3 11:1-ARG1 16:2-ARGM-PRP
-nw/wsj/00/wsj_0094.parse 10 16 gold want want.01 ----- 14:1-ARG0 15:0-ARGM-MOD 16:0-rel 17:2-ARG1
 nw/wsj/00/wsj_0094.parse 5 6 gold ask ask.02 ----- 5:1-ARG0 6:0-rel 7:1-ARG1
 nw/wsj/00/wsj_0094.parse 5 2 gold be be.01 ----- 0:1*1:1-ARG1 2:0-rel 3:1-ARG2
 nw/wsj/00/wsj_0094.parse 10 20 gold employ employ.01 ----- 14:1*17:1*21:1-ARG1 20:0-rel 22:1-ARG0
 nw/wsj/00/wsj_0094.parse 12 4 gold be be.03 ----- 4:0-rel
 nw/wsj/00/wsj_0094.parse 0 24 gold jeopardize jeopardize.01 ----- 20:1*23:1-ARG0 24:0-rel 25:2-ARG1 28:1-ARGM-MNR
 nw/wsj/00/wsj_0094.parse 6 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:0-ARGM-NEG 3:1-ARG2
-nw/wsj/00/wsj_0094.parse 11 4 gold have have.01 ----- 4:0-rel
 nw/wsj/00/wsj_0094.parse 11 25 gold realize realize.01 ----- 23:1-ARG0 24:0-ARGM-MOD 25:0-rel 26:1-ARG1
 nw/wsj/00/wsj_0094.parse 0 18 gold be be.03 ----- 18:0-rel
 nw/wsj/00/wsj_0094.parse 11 31 gold be be.01 ----- 27:1-ARG1 31:0-rel 32:2-ARG2
-nw/wsj/00/wsj_0094.parse 12 50 gold hire hire.01 ----- 0:1-ARGM-ADV 10:1*18:1-ARG0 50:0-rel 51:1-ARG1 53:1-ARGM-DIR
 nw/wsj/00/wsj_0094.parse 0 30 gold raise raise.01 ----- 20:1*23:1*29:1-ARG0 30:0-rel 31:2-ARG1
 nw/wsj/00/wsj_0094.parse 6 12 gold be be.01 ----- 11:1-ARG1 12:0-rel 13:0-ARGM-NEG 14:1-ARG2
 nw/wsj/00/wsj_0094.parse 8 4 gold have have.03 ----- 0:1-ARGM-ADV 2:1-ARG0 4:0-rel 5:1-ARG1
@@ -24,7 +21,9 @@ nw/wsj/00/wsj_0094.parse 4 3 gold pass pass.05 ----- 0:1-ARG0 2:1-ARGM-ADV 3:0-r
 nw/wsj/00/wsj_0094.parse 0 9 gold lure lure.01 ----- 5:2-ARG0 9:0-rel 10:1-ARG1
 nw/wsj/00/wsj_0094.parse 9 1 gold get get.02 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 nw/wsj/00/wsj_0094.parse 2 1 gold be be.03 ----- 1:0-rel
+nw/wsj/00/wsj_0094.parse 10 16 gold want want.01 ----- 14:1-ARG0 15:0-ARGM-MOD 16:0-rel 17:2-ARG1
 nw/wsj/00/wsj_0094.parse 2 2 gold bark bark_up_the_wrong_tree.02 ----- 0:1-ARG0 2:0-rel 3:1-ARGM-DIR 8:1-ARGM-CAU
+nw/wsj/00/wsj_0094.parse 12 50 gold hire hire.01 ----- 0:1-ARGM-ADV 10:1*18:1-ARG0 50:0-rel 51:1-ARG1 53:1-ARGM-DIR
 nw/wsj/00/wsj_0094.parse 12 12 gold do do.02 ----- 0:1-ARGM-ADV 10:1-ARG0 11:0-ARGM-MOD 12:0-rel 13:4;24:2-ARG1 18:2-ARGM-PRP
 nw/wsj/00/wsj_0094.parse 12 24 gold raise raise.01 ----- 0:1-ARGM-ADV 10:1*18:1-ARG0 24:0-rel 25:1-ARG1 26:2-ARG4
 nw/wsj/00/wsj_0094.parse 10 1 gold visit visit.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
@@ -43,6 +42,7 @@ nw/wsj/00/wsj_0094.parse 11 18 gold improve improve.01 ----- 0:2*16:1-ARG0 18:0-
 nw/wsj/00/wsj_0094.parse 9 11 gold work work.01 ----- 10:1-ARG0 11:0-rel 12:1-ARGM-MNR 13:1-ARGM-PRP
 nw/wsj/00/wsj_0094.parse 12 8 gold survive survive.01 ----- 7:0-ARG0 8:0-rel
 nw/wsj/00/wsj_0094.parse 11 5 gold be be.03 ----- 5:0-rel
+nw/wsj/00/wsj_0094.parse 11 4 gold have have.01 ----- 4:0-rel
 nw/wsj/00/wsj_0094.parse 12 34 gold improve improve.01 ----- 0:1-ARGM-ADV 10:1*18:1-ARG0 11:0-ARGM-MOD 34:0-rel 35:2-ARG1
 nw/wsj/00/wsj_0094.parse 2 19 gold attract attract.01 ----- 16:1-ARG0 17:0-ARGM-MOD 18:0-ARGM-NEG 19:0-rel 20:1-ARG1
 nw/wsj/00/wsj_0094.parse 0 19 gold accuse accuse.01 ----- 16:1-ARG0 19:0-rel 20:1-ARG1 22:1-ARG2

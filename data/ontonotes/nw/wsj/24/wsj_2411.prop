@@ -4,13 +4,13 @@ nw/wsj/24/wsj_2411.parse 1 12 gold be be.03 ----- 12:0-rel
 nw/wsj/24/wsj_2411.parse 2 3 gold be be.01 ----- 0:1-ARG1 3:0-rel 4:2-ARG2
 nw/wsj/24/wsj_2411.parse 5 2 gold go go.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2 5:1-ARGM-TMP
 nw/wsj/24/wsj_2411.parse 1 25 gold release release.01 ----- 19:2*26:1-ARG1 25:0-rel
+nw/wsj/24/wsj_2411.parse 4 4 gold permit permit.01 ----- 0:1*5:1-ARG2 4:0-rel 6:2-ARG1
 nw/wsj/24/wsj_2411.parse 1 24 gold be be.03 ----- 24:0-rel
 nw/wsj/24/wsj_2411.parse 0 3 gold announce announce.01 ----- 0:1-ARG0 3:0-rel 4:2-ARG1
 nw/wsj/24/wsj_2411.parse 3 2 gold have have.03 ----- 0:1-ARG0 2:0-rel 3:4-ARG1
-nw/wsj/24/wsj_2411.parse 1 13 gold set set.01 ----- 0:2*14:1-ARG1 11:0-ARGM-MOD 13:0-rel 15:2-ARGM-TMP
+nw/wsj/24/wsj_2411.parse 4 17 gold redeem redeem.01 ----- 9:1*13:1*14:1*18:1-ARG1 9:1*13:1-LINK-SLC 15:0-ARGM-MOD 17:0-rel 19:1-ARGM-TMP 21:1-ARGM-MNR
 nw/wsj/24/wsj_2411.parse 4 8 gold buy buy.01 ----- 0:1*5:1*6:1-ARG0 8:0-rel 9:2-ARG1
 nw/wsj/24/wsj_2411.parse 2 9 gold meet meet.01 ----- 0:1*8:1-ARG0 0:1*8:1-LINK-PRO 9:0-rel 10:1-ARG1
-nw/wsj/24/wsj_2411.parse 4 4 gold permit permit.01 ----- 0:1*5:1-ARG2 4:0-rel 6:2-ARG1
 nw/wsj/24/wsj_2411.parse 4 3 gold be be.03 ----- 3:0-rel
 nw/wsj/24/wsj_2411.parse 2 12 gold require require.01 ----- 10:0-ARG0 11:0-ARGM-ADJ 12:0-rel
-nw/wsj/24/wsj_2411.parse 4 17 gold redeem redeem.01 ----- 9:1*13:1*14:1*18:1-ARG1 9:1*13:1-LINK-SLC 15:0-ARGM-MOD 17:0-rel 19:1-ARGM-TMP 21:1-ARGM-MNR
+nw/wsj/24/wsj_2411.parse 1 13 gold set set.01 ----- 0:2*14:1-ARG1 11:0-ARGM-MOD 13:0-rel 15:2-ARGM-TMP

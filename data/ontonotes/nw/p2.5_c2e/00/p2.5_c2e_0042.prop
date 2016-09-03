@@ -3,15 +3,15 @@ nw/p2.5_c2e/00/p2.5_c2e_0042.parse 1 23 gold be be.01 ----- 21:1-ARG1 23:0-rel 2
 nw/p2.5_c2e/00/p2.5_c2e_0042.parse 8 9 gold trip trip.03 ----- 8:0-ARG0 9:0-rel 10:1-ARG1
 nw/p2.5_c2e/00/p2.5_c2e_0042.parse 8 19 gold get get.01 ----- 18:1-ARG0 19:0-rel 20:2-ARG1
 nw/p2.5_c2e/00/p2.5_c2e_0042.parse 4 39 gold give give.01 ----- 37:1-ARG0 38:1-ARGM-TMP 39:0-rel 40:3-ARG2 47:2-ARG1 53:1-ARGM-TMP
-nw/p2.5_c2e/00/p2.5_c2e_0042.parse 8 3 gold say say.01 ----- 3:0-rel 5:1-ARG1
+nw/p2.5_c2e/00/p2.5_c2e_0042.parse 3 10 gold publish publish.01 ----- 0:1-ARGM-ADV 6:1*11:1-ARG1 8:0-ARGM-MOD 10:0-rel 12:1-ARG0 17:1-ARGM-TMP
 nw/p2.5_c2e/00/p2.5_c2e_0042.parse 6 7 gold promote promote.02 ----- 4:1-ARG0 5:0-ARGM-MOD 6:1-ARGM-MNR 7:0-rel 8:2-ARG1
 nw/p2.5_c2e/00/p2.5_c2e_0042.parse 7 12 gold deal deal.01 ----- 8:1-ARG0 10:0-ARGM-MOD 11:1-ARGM-MNR 12:0-rel 13:1-ARG2
 nw/p2.5_c2e/00/p2.5_c2e_0042.parse 4 55 gold visit visit.01 ----- 54:1-ARG0 55:0-rel 56:1-ARG1 58:1-ARGM-TMP
 nw/p2.5_c2e/00/p2.5_c2e_0042.parse 6 9 gold normalize normalize.01 ----- 9:0-rel 10:1-ARG1
-nw/p2.5_c2e/00/p2.5_c2e_0042.parse 1 7 gold say say.01 ----- 0:2-ARG0 7:0-rel 8:1-ARG1 9:1-ARG2
 nw/p2.5_c2e/00/p2.5_c2e_0042.parse 8 7 gold start start.01 ----- 6:1-ARG0 7:0-rel 8:2-ARG1 13:1-ARGM-TMP 16:2-ARGM-TMP
 nw/p2.5_c2e/00/p2.5_c2e_0042.parse 1 6 gold have have.01 ----- 6:0-rel
 nw/p2.5_c2e/00/p2.5_c2e_0042.parse 2 45 gold reveal reveal.01 ----- 5:2*44:1-ARG0 45:0-rel 46:2-ARG1
+nw/p2.5_c2e/00/p2.5_c2e_0042.parse 8 3 gold say say.01 ----- 3:0-rel 5:1-ARG1
 nw/p2.5_c2e/00/p2.5_c2e_0042.parse 6 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 nw/p2.5_c2e/00/p2.5_c2e_0042.parse 4 24 gold talk talk.01 ----- 0:1-ARGM-PRD 5:1-ARG0 6:1-ARGM-LOC 24:0-rel 25:1-ARG1
 nw/p2.5_c2e/00/p2.5_c2e_0042.parse 4 9 gold stress stress.01 ----- 0:1-ARGM-PRD 5:1-ARG0 6:1-ARGM-LOC 9:0-rel 10:3-ARG1
@@ -20,7 +20,7 @@ nw/p2.5_c2e/00/p2.5_c2e_0042.parse 6 32 gold improve improve.01 ----- 4:1*30:1-A
 nw/p2.5_c2e/00/p2.5_c2e_0042.parse 8 2 gold be be.03 ----- 2:0-rel
 nw/p2.5_c2e/00/p2.5_c2e_0042.parse 2 11 gold serve serve.01 ----- 5:1*8:1*9:1-ARG0 5:1*8:1-LINK-SLC 10:1-ARGM-TMP 11:0-rel 12:1-ARG1 18:1-ARG2
 nw/p2.5_c2e/00/p2.5_c2e_0042.parse 3 9 gold be be.03 ----- 9:0-rel
-nw/p2.5_c2e/00/p2.5_c2e_0042.parse 3 10 gold publish publish.01 ----- 0:1-ARGM-ADV 6:1*11:1-ARG1 8:0-ARGM-MOD 10:0-rel 12:1-ARG0 17:1-ARGM-TMP
+nw/p2.5_c2e/00/p2.5_c2e_0042.parse 1 7 gold say say.01 ----- 0:2-ARG0 7:0-rel 8:1-ARG1 9:1-ARG2
 nw/p2.5_c2e/00/p2.5_c2e_0042.parse 2 49 gold know know.02 ----- 47:0-ARGM-EXT 49:0-rel 50:0,51:0-ARG1
 nw/p2.5_c2e/00/p2.5_c2e_0042.parse 5 2 gold reveal reveal.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 nw/p2.5_c2e/00/p2.5_c2e_0042.parse 1 13 gold treasure treasure.01 ----- 13:0-rel 14:0-ARG1

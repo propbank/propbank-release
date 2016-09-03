@@ -6,16 +6,13 @@ bn/cnn/00/cnn_0013.parse 9 15 gold move move.02 ----- 15:0-rel 16:2-ARGM-ADJ
 bn/cnn/00/cnn_0013.parse 8 20 gold wish wish.01 ----- 0:1-ARGM-LOC 8:1-ARG0 20:0-rel 21:1-ARG2 23:1-ARG1
 bn/cnn/00/cnn_0013.parse 4 17 gold do do.01 ----- 17:0-rel
 bn/cnn/00/cnn_0013.parse 6 6 gold win win.01 ----- 5:0-ARG0 6:0-rel
+bn/cnn/00/cnn_0013.parse 2 5 gold defeat defeat.01 ----- 5:0-rel
 bn/cnn/00/cnn_0013.parse 0 3 gold join join.04 ----- 2:1-ARG0 3:0-rel 4:1-ARG1
 bn/cnn/00/cnn_0013.parse 9 20 gold criticize criticize.01 ----- 14:1*16:1*17:1*21:1-ARG1 14:1*16:1-LINK-SLC 20:0-rel 22:1-ARG0
 bn/cnn/00/cnn_0013.parse 8 3 gold address address.03 ----- 2:0-ARGM-ADJ 3:0-rel 4:1-ARGM-LOC
 bn/cnn/00/cnn_0013.parse 8 15 gold vote vote.01 ----- 12:1*13:1*14:1-ARG0 12:1*13:1-LINK-SLC 15:0-rel 16:1-ARGM-LOC
 bn/cnn/00/cnn_0013.parse 5 2 gold inaugurate inaugurate.01 ----- 0:1-ARG1 2:0-rel
-bn/cnn/00/cnn_0013.parse 5 19 gold swear swear_in.06 ----- 8:1*16:1*17:1-ARG0 8:1*16:1-LINK-SLC 19:0,21:1-rel 20:1-ARG1
 bn/cnn/00/cnn_0013.parse 0 0 gold thank thank.01 ----- 0:0-rel 1:1-ARG2
-bn/cnn/00/cnn_0013.parse 2 13 gold congratulate congratulate.01 ----- 0:1-ARGM-TMP 2:1-ARG0 13:0-rel 14:2-ARG1
-bn/cnn/00/cnn_0013.parse 2 5 gold defeat defeat.01 ----- 5:0-rel
-bn/cnn/00/cnn_0013.parse 3 15 gold agree agree.01 ----- 11:2-ARG0 15:0-rel 16:2-ARG1
 bn/cnn/00/cnn_0013.parse 5 12 gold attend attend.01 ----- 8:2;16:2-ARG0 12:0-rel 13:1-ARG1
 bn/cnn/00/cnn_0013.parse 4 5 gold meet meet.03 ----- 4:1-ARG0 5:0-rel 6:2-ARGM-MNR 11:1-ARG1
 bn/cnn/00/cnn_0013.parse 3 18 gold obey obey.01 ----- 11:2*16:1-ARG0 18:0-rel 19:1-ARG1
@@ -25,13 +22,16 @@ bn/cnn/00/cnn_0013.parse 7 4 gold tell tell.01 ----- 3:1-ARG0 4:0-rel 5:1-ARG2 6
 bn/cnn/00/cnn_0013.parse 9 19 gold be be.03 ----- 19:0-rel
 bn/cnn/00/cnn_0013.parse 6 14 gold meet meet.03 ----- 0:1-ARGM-TMP 8:2-ARG0 13:1-ARGM-ADV 14:0-rel 15:1-ARG1
 bn/cnn/00/cnn_0013.parse 7 8 gold need need.01 ----- 7:1-ARG0 8:0-rel 9:2-ARG1
-bn/cnn/00/cnn_0013.parse 3 9 gold say say.01 ----- 0:1*8:1-ARG0 9:0-rel 10:1-ARG1
+bn/cnn/00/cnn_0013.parse 2 13 gold congratulate congratulate.01 ----- 0:1-ARGM-TMP 2:1-ARG0 13:0-rel 14:2-ARG1
 bn/cnn/00/cnn_0013.parse 2 4 gold concede concede.01 ----- 0:1-ARGM-TMP 2:1-ARG0 4:0-rel 5:1,6:1-ARG1
 bn/cnn/00/cnn_0013.parse 5 4 gold take take.14 ----- 0:2-ARG1 3:0-ARGM-MOD 4:0-rel 5:1-ARG2 6:1-ARGM-TMP 7:1-ARGM-ADV
 bn/cnn/00/cnn_0013.parse 3 1 gold appear appear.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-TMP 3:1-ARGM-TMP 4:1-ARGM-LOC 8:2-ARGM-ADV
 bn/cnn/00/cnn_0013.parse 4 19 gold give give.01 ----- 16:1-ARG0 18:0-ARGM-NEG 19:0-rel 20:2-ARG1
 bn/cnn/00/cnn_0013.parse 4 2 gold say say.01 ----- 0:1-ARG0 1:1-ARGM-DIS 2:0-rel 3:1-ARG1
+bn/cnn/00/cnn_0013.parse 5 19 gold swear swear_in.06 ----- 8:1*16:1*17:1-ARG0 8:1*16:1-LINK-SLC 19:0,21:1-rel 20:1-ARG1
+bn/cnn/00/cnn_0013.parse 3 15 gold agree agree.01 ----- 11:2-ARG0 15:0-rel 16:2-ARG1
 bn/cnn/00/cnn_0013.parse 9 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+bn/cnn/00/cnn_0013.parse 3 9 gold say say.01 ----- 0:1*8:1-ARG0 9:0-rel 10:1-ARG1
 bn/cnn/00/cnn_0013.parse 9 4 gold plan plan.01 ----- 3:1-ARG0 4:0-rel 5:2-ARG1
 bn/cnn/00/cnn_0013.parse 8 2 gold tape tape.02 ----- 2:0-rel 3:0-ARG1
 bn/cnn/00/cnn_0013.parse 1 12 gold be be.01 ----- 4:2-ARGM-TMP 9:1-ARG1 10:0-ARGM-MOD 11:1-ARGM-MNR 12:0-rel 13:1-ARG2

@@ -1,16 +1,17 @@
 bn/cnn/02/cnn_0213.parse 4 6 gold involve involve.01 ----- 4:1*7:1-ARG1 6:0-rel 8:1-ARG2 12:1-ARGM-TMP
 bn/cnn/02/cnn_0213.parse 3 8 gold kill kill.01 ----- 4:1-ARG1 8:0-rel 14:1-ARGM-TMP
-bn/cnn/02/cnn_0213.parse 0 8 gold exchange exchange.01 ----- 0:1-ARGM-LOC 4:2-ARG0 8:0-rel 9:1-ARG1 10:1-ARGM-LOC 15:1-ARGM-TMP 17:1-ARGM-TMP
 bn/cnn/02/cnn_0213.parse 0 23 gold disturb disturb.01 ----- 22:0-ARG0 23:0-rel 24:1-ARGM-LOC
 bn/cnn/02/cnn_0213.parse 3 7 gold be be.03 ----- 7:0-rel
+bn/cnn/02/cnn_0213.parse 2 11 gold say say.01 ----- 6:1*9:1*10:1-ARG0 6:1*9:1-LINK-SLC 11:0-rel 12:1-ARG1
 bn/cnn/02/cnn_0213.parse 3 12 gold wound wound.01 ----- 11:1*13:1-ARG1 12:0-rel 14:1-ARGM-TMP
 bn/cnn/02/cnn_0213.parse 2 15 gold respond respond.01 ----- 13:1-ARG0 15:0-rel 16:1-ARG1
 bn/cnn/02/cnn_0213.parse 4 5 gold be be.03 ----- 5:0-rel
 bn/cnn/02/cnn_0213.parse 1 12 gold occupy occupy.01 ----- 11:0-ARG0 12:0-rel 13:1-ARG1
-bn/cnn/02/cnn_0213.parse 2 11 gold say say.01 ----- 6:1*9:1*10:1-ARG0 6:1*9:1-LINK-SLC 11:0-rel 12:1-ARG1
 bn/cnn/02/cnn_0213.parse 3 6 gold have have.01 ----- 6:0-rel
 bn/cnn/02/cnn_0213.parse 4 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
+bn/cnn/02/cnn_0213.parse 0 8 gold exchange exchange.01 ----- 0:1-ARGM-LOC 4:2-ARG0 8:0-rel 9:1-ARG1 10:1-ARGM-LOC 15:1-ARGM-TMP 17:1-ARGM-TMP
 bn/cnn/02/cnn_0213.parse 2 18 gold fire fire.01 ----- 17:0-ARG0 18:0-rel
+bn/cnn/02/cnn_0213.parse 4 11 gold battle battle.01 ----- 10:0-ARGM-MNR 11:0-rel
 bn/cnn/02/cnn_0213.parse 1 5 gold say say.01 ----- 0:1-ARG0 5:0-rel 6:1-ARG1
 bn/cnn/02/cnn_0213.parse 2 3 gold kill kill.01 ----- 0:1*4:1-ARG1 3:0-rel 5:1-ARG0
 bn/cnn/02/cnn_0213.parse 1 9 gold protest protest.01 ----- 7:1-ARG0 9:0-rel 10:2-ARG1
@@ -18,4 +19,3 @@ bn/cnn/02/cnn_0213.parse 2 14 gold be be.03 ----- 14:0-rel
 bn/cnn/02/cnn_0213.parse 1 8 gold be be.03 ----- 8:0-rel
 bn/cnn/02/cnn_0213.parse 2 2 gold be be.03 ----- 2:0-rel
 bn/cnn/02/cnn_0213.parse 3 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
-bn/cnn/02/cnn_0213.parse 4 11 gold battle battle.01 ----- 10:0-ARGM-MNR 11:0-rel

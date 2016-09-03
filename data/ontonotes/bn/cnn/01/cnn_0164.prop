@@ -1,7 +1,6 @@
 bn/cnn/01/cnn_0164.parse 4 6 gold enter enter.01 ----- 0:1*12:1-ARGM-TMP 1:1-ARG0 6:0-rel 7:2-ARG1 11:1-ARGM-TMP
 bn/cnn/01/cnn_0164.parse 5 9 gold measure measure.02 ----- 8:0-ARG1 9:0-rel 10:2-ARGM-PRP
 bn/cnn/01/cnn_0164.parse 12 5 gold debate debate.01 ----- 0:1-ARG0 4:1-ARGM-TMP 5:0-rel 6:2-ARG1
-bn/cnn/01/cnn_0164.parse 5 16 gold protect protect.01 ----- 7:1*10:1*11:1*14:1-ARG0 7:1*10:1-LINK-SLC 16:0-rel 17:1-ARG1 22:1-ARG2
 bn/cnn/01/cnn_0164.parse 3 1 gold have have.01 ----- 1:0-rel
 bn/cnn/01/cnn_0164.parse 1 2 gold be be.03 ----- 2:0-rel
 bn/cnn/01/cnn_0164.parse 8 1 gold provide provide.01 ----- 1:0-rel
@@ -13,10 +12,10 @@ bn/cnn/01/cnn_0164.parse 8 23 gold fail fail.01 ----- 22:1-ARG1 23:0-rel 24:2-AR
 bn/cnn/01/cnn_0164.parse 9 14 gold keep keep.04 ----- 0:1*5:1-ARG0 14:0-rel 15:1-ARG1 17:1-ARG2
 bn/cnn/01/cnn_0164.parse 11 14 gold have have.01 ----- 14:0-rel
 bn/cnn/01/cnn_0164.parse 6 23 gold be be.03 ----- 23:0-rel
+bn/cnn/01/cnn_0164.parse 9 2 gold be be.03 ----- 2:0-rel
 bn/cnn/01/cnn_0164.parse 6 24 gold judge judge.01 ----- 0:1-ARGM-ADV 22:1*25:1-ARG1 24:0-rel 26:1-ARG2 31:1-ARGM-ADV
 bn/cnn/01/cnn_0164.parse 8 3 gold warn warn.01 ----- 0:1-ARG0 2:1-ARGM-MNR 3:0-rel 4:1-ARG1
 bn/cnn/01/cnn_0164.parse 7 23 gold be be.01 ----- 21:1-ARG1 23:0-rel 24:1-ARG2
-bn/cnn/01/cnn_0164.parse 9 2 gold be be.03 ----- 2:0-rel
 bn/cnn/01/cnn_0164.parse 0 2 gold tell tell.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG2 4:1-ARG1
 bn/cnn/01/cnn_0164.parse 12 33 gold judge judge.01 ----- 30:2*34:1-ARG1 33:0-rel 35:1-ARG2
 bn/cnn/01/cnn_0164.parse 12 39 gold leave leave.13 ----- 36:1-ARG0 39:0-rel 45:2-ARG1
@@ -26,21 +25,21 @@ bn/cnn/01/cnn_0164.parse 8 32 gold give give.01 ----- 28:2*33:1-ARG1 32:0-rel
 bn/cnn/01/cnn_0164.parse 11 17 gold patch patch.01 ----- 0:2*18:1-ARG1 15:1-ARGM-TMP 17:0-rel
 bn/cnn/01/cnn_0164.parse 7 15 gold command command.02 ----- 15:0-rel 16:0-ARG0
 bn/cnn/01/cnn_0164.parse 11 23 gold be be.01 ----- 21:1-ARG1 23:0-rel 24:1-ARG2 26:1-ARGM-PRP
-bn/cnn/01/cnn_0164.parse 3 12 gold be be.03 ----- 12:0-rel
+bn/cnn/01/cnn_0164.parse 9 29 gold repel repel.01 ----- 24:1*26:1*27:1-ARG0 24:1*26:1-LINK-SLC 29:0-rel 30:1-ARG1
 bn/cnn/01/cnn_0164.parse 7 7 gold file file.01 ----- 3:1*8:1-ARG1 3:1*8:1-LINK-PSV 7:0-rel 9:1-ARG0
+bn/cnn/01/cnn_0164.parse 5 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 bn/cnn/01/cnn_0164.parse 10 10 gold say say.01 ----- 0:1*11:1-ARG1 9:1-ARG0 10:0-rel
 bn/cnn/01/cnn_0164.parse 11 31 gold cost cost.01 ----- 27:1*28:1*29:1-ARG1 27:1*28:1-LINK-SLC 30:0-ARGM-MOD 31:0-rel 32:2-ARG2
 bn/cnn/01/cnn_0164.parse 5 13 gold intend intend.01 ----- 7:1*10:1*11:1,14:2-ARG1 7:1*10:1-LINK-SLC 13:0-rel
-bn/cnn/01/cnn_0164.parse 5 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
-bn/cnn/01/cnn_0164.parse 2 2 gold have have.03 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 bn/cnn/01/cnn_0164.parse 12 3 gold be be.03 ----- 3:0-rel
-bn/cnn/01/cnn_0164.parse 11 43 gold complete complete.01 ----- 40:1*44:1-ARG1 41:1-ARG0 43:0-rel
 bn/cnn/01/cnn_0164.parse 11 27 gold repair repair.01 ----- 27:0-rel 28:2-ARGM-ADJ
-bn/cnn/01/cnn_0164.parse 8 7 gold require require.01 ----- 5:1-ARG0 7:0-rel 8:1-ARG1 10:1-ARGM-CAU
+bn/cnn/01/cnn_0164.parse 7 20 gold warn warn.01 ----- 0:1-ARGM-DIS 3:2-ARG0 20:0-rel 21:2-ARG1
 bn/cnn/01/cnn_0164.parse 3 43 gold bomb bomb.01 ----- 37:1*39:1*45:1-ARGM-TMP 37:1*39:1-LINK-SLC 40:1*44:1-ARG1 43:0-rel
 bn/cnn/01/cnn_0164.parse 0 22 gold protect protect.01 ----- 17:1*19:1*20:1-ARG0 17:1*19:1-LINK-SLC 22:0-rel 23:1-ARG1
 bn/cnn/01/cnn_0164.parse 4 15 gold operate operate.01 ----- 0:2-ARGM-TMP 13:1-ARG1 15:0-rel 16:1-ARGM-MNR
+bn/cnn/01/cnn_0164.parse 11 43 gold complete complete.01 ----- 40:1*44:1-ARG1 41:1-ARG0 43:0-rel
 bn/cnn/01/cnn_0164.parse 12 21 gold be be.01 ----- 9:1*12:2*19:1-ARG1 9:1*12:2-LINK-SLC 20:0-ARGM-MOD 21:0-rel 22:1-ARG2 29:1-ARGM-ADV
+bn/cnn/01/cnn_0164.parse 2 2 gold have have.03 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 bn/cnn/01/cnn_0164.parse 3 2 gold learn learn.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 bn/cnn/01/cnn_0164.parse 12 26 gold end end.01 ----- 24:0-ARG1 26:0-rel 27:0-ARG0
 bn/cnn/01/cnn_0164.parse 8 13 gold serve serve.01 ----- 11:1-ARG0 12:0-ARGM-MOD 13:0-rel 14:1-ARG1
@@ -56,18 +55,19 @@ bn/cnn/01/cnn_0164.parse 5 25 gold be be.03 ----- 25:0-rel
 bn/cnn/01/cnn_0164.parse 8 31 gold be be.03 ----- 31:0-rel
 bn/cnn/01/cnn_0164.parse 9 7 gold identify identify.01 ----- 0:1*5:1-ARG0 7:0-rel 10:1-ARG1
 bn/cnn/01/cnn_0164.parse 5 27 gold carry carry_out.03 ----- 4:3*28:1-ARG1 26:0-ARGM-NEG 27:0,29:1-rel
+bn/cnn/01/cnn_0164.parse 8 7 gold require require.01 ----- 5:1-ARG0 7:0-rel 8:1-ARG1 10:1-ARGM-CAU
 bn/cnn/01/cnn_0164.parse 8 26 gold ensure ensure.01 ----- 22:1*24:1-ARG0 26:0-rel 27:1-ARG1
 bn/cnn/01/cnn_0164.parse 10 3 gold be be.03 ----- 3:0-rel
 bn/cnn/01/cnn_0164.parse 3 14 gold brief brief.01 ----- 4:2*15:1-ARG1 13:0-ARGM-NEG 14:0-rel 16:1-ARG2
 bn/cnn/01/cnn_0164.parse 1 8 gold be be.03 ----- 8:0-rel
+bn/cnn/01/cnn_0164.parse 3 12 gold be be.03 ----- 12:0-rel
 bn/cnn/01/cnn_0164.parse 11 37 gold take take.10 ----- 27:1*28:1*29:1-ARG0 27:1*28:1-LINK-SLC 30:0-ARGM-MOD 37:0-rel 38:1-ARG1 40:2-ARGM-PRD
 bn/cnn/01/cnn_0164.parse 0 13 gold fail fail.01 ----- 5:2-ARG1 13:0-rel 14:2-ARG2
 bn/cnn/01/cnn_0164.parse 0 16 gold implement implement.01 ----- 5:2*14:1-ARG0 16:0-rel 17:2-ARG1
 bn/cnn/01/cnn_0164.parse 7 18 gold terrorize terrorize.01 ----- 18:0-rel
+bn/cnn/01/cnn_0164.parse 5 16 gold protect protect.01 ----- 7:1*10:1*11:1*14:1-ARG0 7:1*10:1-LINK-SLC 16:0-rel 17:1-ARG1 22:1-ARG2
 bn/cnn/01/cnn_0164.parse 11 16 gold be be.03 ----- 16:0-rel
-bn/cnn/01/cnn_0164.parse 7 20 gold warn warn.01 ----- 0:1-ARGM-DIS 3:2-ARG0 20:0-rel 21:2-ARG1
 bn/cnn/01/cnn_0164.parse 6 4 gold require require.01 ----- 1:1*5:1-ARG1 3:0-ARGM-NEG 4:0-rel 6:1-ARGM-CAU
-bn/cnn/01/cnn_0164.parse 9 29 gold repel repel.01 ----- 24:1*26:1*27:1-ARG0 24:1*26:1-LINK-SLC 29:0-rel 30:1-ARG1
 bn/cnn/01/cnn_0164.parse 9 9 gold inspect inspect.01 ----- 0:1*5:1-ARG0 9:0-rel 10:1-ARG1
 bn/cnn/01/cnn_0164.parse 9 23 gold prepare prepare.02 ----- 0:1*5:1-ARG0 23:0-rel 24:1-ARG1 26:2-ARG2
 bn/cnn/01/cnn_0164.parse 6 11 gold be be.03 ----- 11:0-rel

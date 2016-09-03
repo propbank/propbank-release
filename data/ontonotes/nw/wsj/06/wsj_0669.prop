@@ -5,18 +5,19 @@ nw/wsj/06/wsj_0669.parse 0 39 gold say say.01 ----- 0:2*41:1-ARG1 34:2-ARG0 39:0
 nw/wsj/06/wsj_0669.parse 0 3 gold expect expect.01 ----- 0:1-ARG0 3:0-rel 4:2-ARG1
 nw/wsj/06/wsj_0669.parse 4 10 gold export export.01 ----- 0:1-ARGM-TMP 9:1-ARG0 10:0-rel 11:2-ARG1
 nw/wsj/06/wsj_0669.parse 1 5 gold project project.02 ----- 0:1-ARG0 2:0-ARGM-LVB 4:0-ARG1 5:0-rel 6:1-ARGM-ADJ 15:1-ARGM-LOC
-nw/wsj/06/wsj_0669.parse 7 19 gold provide provide.01 ----- 11:1-ARG0 18:0-ARGM-NEG 19:0-rel 20:1-ARG1
+nw/wsj/06/wsj_0669.parse 5 5 gold add add.01 ----- 0:1-ARG1-DSP 4:1-ARG0 5:0-rel
 nw/wsj/06/wsj_0669.parse 4 18 gold produce produce.01 ----- 0:1-ARGM-TMP 9:1-ARG0 18:0-rel 19:1-ARG1 23:1-ARGM-LOC
-nw/wsj/06/wsj_0669.parse 7 5 gold increase increase.01 ----- 4:0-ARGM-EXT 5:0-rel 6:1-ARG1
 nw/wsj/06/wsj_0669.parse 7 2 gold involve involve.01 ----- 0:1-ARG2 1:0-ARGM-MOD 2:0-rel 3:2-ARG1
+nw/wsj/06/wsj_0669.parse 2 14 gold spend spend.01 ----- 12:1-ARG0 14:0-rel 15:1-ARGM-MNR 16:2-ARGM-PRP
+nw/wsj/06/wsj_0669.parse 7 5 gold increase increase.01 ----- 4:0-ARGM-EXT 5:0-rel 6:1-ARG1
+nw/wsj/06/wsj_0669.parse 7 17 gold do do.01 ----- 17:0-rel
+nw/wsj/06/wsj_0669.parse 7 19 gold provide provide.01 ----- 11:1-ARG0 18:0-ARGM-NEG 19:0-rel 20:1-ARG1
 nw/wsj/06/wsj_0669.parse 2 8 gold be be.01 ----- 4:1-ARG1 8:0-rel 9:1-ARG2 11:2-ARGM-CAU
 nw/wsj/06/wsj_0669.parse 6 19 gold produce produce.01 ----- 14:1*16:1-ARG0 19:0-rel 20:3;25:1-ARG1 24:1-ARGM-LOC
-nw/wsj/06/wsj_0669.parse 1 22 gold attend attend.01 ----- 19:1-ARG0 22:0-rel 23:1-ARG1
 nw/wsj/06/wsj_0669.parse 7 12 gold acknowledge acknowledge.01 ----- 0:2*14:1-ARG1 11:1-ARG0 12:0-rel
+nw/wsj/06/wsj_0669.parse 3 22 gold account account.01 ----- 11:1*20:1-ARG0 11:1*20:1-LINK-PRO 22:0-rel 23:1-ARG1
 nw/wsj/06/wsj_0669.parse 6 30 gold export export.01 ----- 26:1*28:1*31:1-ARG1 26:1*28:1-LINK-SLC 29:1-ARG0 30:0-rel 32:1-ARGM-DIR
-nw/wsj/06/wsj_0669.parse 2 14 gold spend spend.01 ----- 12:1-ARG0 14:0-rel 15:1-ARGM-MNR 16:2-ARGM-PRP
 nw/wsj/06/wsj_0669.parse 1 10 gold end end.01 ----- 7:1-ARG1 10:0-rel 11:1-ARGM-TMP
-nw/wsj/06/wsj_0669.parse 7 17 gold do do.01 ----- 17:0-rel
 nw/wsj/06/wsj_0669.parse 6 10 gold say say.01 ----- 0:1-ARG1-DSP 9:1-ARG0 10:0-rel
 nw/wsj/06/wsj_0669.parse 3 15 gold boost boost.01 ----- 11:1*13:1-ARG0 15:0-rel 16:1-ARG1 19:1-ARGM-MNR
 nw/wsj/06/wsj_0669.parse 5 11 gold build build.01 ----- 0:0-ARGM-DIS 1:1-ARGM-TMP 9:1-ARG0 10:0-ARGM-MOD 11:0-rel 12:4;21:1-ARG1 18:1-ARGM-LOC
@@ -27,8 +28,7 @@ nw/wsj/06/wsj_0669.parse 5 25 gold equal equal.01 ----- 23:1-ARG1 25:0-rel 26:1-
 nw/wsj/06/wsj_0669.parse 2 18 gold bolster bolster.01 ----- 12:1*16:1-ARG0 18:0-rel 19:2-ARG1
 nw/wsj/06/wsj_0669.parse 3 12 gold plan plan.01 ----- 0:1-ARGM-TMP 11:1-ARG0 12:0-rel 13:2-ARG1
 nw/wsj/06/wsj_0669.parse 3 7 gold say say.01 ----- 5:1-ARG0 7:0-rel
-nw/wsj/06/wsj_0669.parse 3 22 gold account account.01 ----- 11:1*20:1-ARG0 11:1*20:1-LINK-PRO 22:0-rel 23:1-ARG1
-nw/wsj/06/wsj_0669.parse 6 15 gold want want.01 ----- 1:1-ARGM-TMP 14:1-ARG0 15:0-rel 16:2-ARG1
-nw/wsj/06/wsj_0669.parse 5 5 gold add add.01 ----- 0:1-ARG1-DSP 4:1-ARG0 5:0-rel
-nw/wsj/06/wsj_0669.parse 1 2 gold make make.LV ----- 2:0-rel 5:0-ARGM-PRR
+nw/wsj/06/wsj_0669.parse 1 22 gold attend attend.01 ----- 19:1-ARG0 22:0-rel 23:1-ARG1
 nw/wsj/06/wsj_0669.parse 0 7 gold reach reach.01 ----- 4:1-ARG0 7:0-rel 8:3-ARG1 18:1-ARGM-TMP 24:1-ARGM-ADV
+nw/wsj/06/wsj_0669.parse 6 15 gold want want.01 ----- 1:1-ARGM-TMP 14:1-ARG0 15:0-rel 16:2-ARG1
+nw/wsj/06/wsj_0669.parse 1 2 gold make make.LV ----- 2:0-rel 5:0-ARGM-PRR

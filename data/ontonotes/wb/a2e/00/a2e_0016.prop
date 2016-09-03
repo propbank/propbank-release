@@ -1,4 +1,6 @@
 wb/a2e/00/a2e_0016.parse 2 145 gold raise raise.01 ----- 141:1*142:1-ARG0 143:0-ARGM-MOD 145:0-rel 146:2-ARG1 152:1-ARG4
+wb/a2e/00/a2e_0016.parse 11 39 gold be be.03 ----- 39:0-rel
+wb/a2e/00/a2e_0016.parse 10 14 gold be be.03 ----- 14:0-rel
 wb/a2e/00/a2e_0016.parse 5 2 gold implement implement.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG1
 wb/a2e/00/a2e_0016.parse 11 33 gold perform perform.01 ----- 31:1-ARG0 33:0-rel 34:2-ARG1
 wb/a2e/00/a2e_0016.parse 5 7 gold go go.02 ----- 0:1-ARGM-MNR 6:1-ARG0 7:0-rel 8:1-ARGM-COM 14:1-ARGM-TMP 26:1-ARG4
@@ -6,7 +8,6 @@ wb/a2e/00/a2e_0016.parse 12 27 gold be be.01 ----- 25:1-ARG1 27:0-rel 28:1-ARG2
 wb/a2e/00/a2e_0016.parse 5 39 gold contain contain.01 ----- 36:1-ARG0 39:0-rel 40:2-ARG1
 wb/a2e/00/a2e_0016.parse 20 2 gold admit admit.01 ----- 0:0-ARGM-MOD 1:1-ARG0 2:0-rel 3:2-ARG1
 wb/a2e/00/a2e_0016.parse 12 3 gold state state.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
-wb/a2e/00/a2e_0016.parse 10 14 gold be be.03 ----- 14:0-rel
 wb/a2e/00/a2e_0016.parse 21 34 gold be be.03 ----- 34:0-rel
 wb/a2e/00/a2e_0016.parse 6 12 gold have have.03 ----- 5:2-ARG0 12:0-rel 13:2-ARG1
 wb/a2e/00/a2e_0016.parse 8 1 gold go go.02 ----- 0:1-ARG0 1:0-rel 2:1-ARG4 5:1-ARGM-MNR
@@ -18,34 +19,33 @@ wb/a2e/00/a2e_0016.parse 15 47 gold enter enter.01 ----- 14:2-ARG0 47:0-rel 48:1
 wb/a2e/00/a2e_0016.parse 4 1 gold state state.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 wb/a2e/00/a2e_0016.parse 4 16 gold admit admit.01 ----- 3:3-ARG0 16:0-rel 17:1-ARGM-LOC 20:1-ARG1
 wb/a2e/00/a2e_0016.parse 9 75 gold describe describe.01 ----- 59:2*72:1*73:1*76:1-ARG1 59:2*72:1-LINK-SLC 75:0-rel 77:1-ARG2
-wb/a2e/00/a2e_0016.parse 9 9 gold do do.01 ----- 9:0-rel
 wb/a2e/00/a2e_0016.parse 6 19 gold force force.01 ----- 13:1*17:1*18:1-ARG0 13:1*17:1-LINK-SLC 19:0-rel 20:1-ARG1 21:2-ARG2
 wb/a2e/00/a2e_0016.parse 21 19 gold prove prove.01 ----- 0:2-ARGM-TMP 4:3*20:1-ARG1 19:0-rel 22:1-ARGM-MNR
 wb/a2e/00/a2e_0016.parse 15 64 gold say say.01 ----- 59:1*60:1*61:1*65:1-ARG1 59:1*60:1-LINK-SLC 64:0-rel
-wb/a2e/00/a2e_0016.parse 11 22 gold prove prove.01 ----- 22:0-rel 23:2-ARG1
 wb/a2e/00/a2e_0016.parse 5 32 gold start start.01 ----- 27:1*30:1*49:1-ARGM-LOC 27:1*30:1-LINK-SLC 31:1-ARG0 32:0-rel 33:2-ARG1
 wb/a2e/00/a2e_0016.parse 7 6 gold decide decide.01 ----- 3:2*7:1-ARG1 6:0-rel
-wb/a2e/00/a2e_0016.parse 21 14 gold happen happen.01 ----- 8:1*12:1*13:1-ARG1 8:1*12:1-LINK-SLC 14:0-rel 15:1-ARGM-LOC
 wb/a2e/00/a2e_0016.parse 20 5 gold be be.03 ----- 5:0-rel
 wb/a2e/00/a2e_0016.parse 12 15 gold be be.03 ----- 15:0-rel
 wb/a2e/00/a2e_0016.parse 2 7 gold continue continue.01 ----- 1:1*3:1*23:1-ARGM-TMP 1:1*3:1-LINK-SLC 4:1-ARG0 7:0-rel 8:2-ARG1
-wb/a2e/00/a2e_0016.parse 12 8 gold remove remove.01 ----- 5:1*9:1-ARG1 6:0-ARGM-MOD 8:0-rel 10:1-ARG2 13:1-ARGM-ADV
 wb/a2e/00/a2e_0016.parse 13 15 gold open open.01 ----- 14:1-ARG0 15:0-rel 16:1-ARG1
 wb/a2e/00/a2e_0016.parse 8 32 gold force force.01 ----- 30:1*31:1-ARG0 32:0-rel 33:1-ARG1 34:2-ARG2
+wb/a2e/00/a2e_0016.parse 9 31 gold be be.03 ----- 31:0-rel
 wb/a2e/00/a2e_0016.parse 11 25 gold have have.01 ----- 25:0-rel
 wb/a2e/00/a2e_0016.parse 2 39 gold reveal reveal.01 ----- 0:1-ARGM-TMP 26:3*40:1-ARG1 39:0-rel 41:1-ARG3
 wb/a2e/00/a2e_0016.parse 3 2 gold be be.03 ----- 2:0-rel
 wb/a2e/00/a2e_0016.parse 15 19 gold find find.01 ----- 14:1*16:1*17:1*20:1-ARG1 14:1*16:1-LINK-SLC 19:0-rel 21:1-ARGM-LOC
 wb/a2e/00/a2e_0016.parse 2 64 gold be be.03 ----- 64:0-rel
 wb/a2e/00/a2e_0016.parse 6 10 gold bring bring.01 ----- 5:1*7:1*11:1-ARG1 5:1*7:1-LINK-SLC 8:1-ARG0 10:0-rel
+wb/a2e/00/a2e_0016.parse 9 9 gold do do.01 ----- 9:0-rel
 wb/a2e/00/a2e_0016.parse 22 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2
 wb/a2e/00/a2e_0016.parse 10 22 gold reveal reveal.01 ----- 21:1-ARG0 22:0-rel 23:2-ARG1
-wb/a2e/00/a2e_0016.parse 6 23 gold postpone postpone.01 ----- 20:1*21:1-ARG0 23:0-rel 24:1-ARG1 26:1-ARG2
 wb/a2e/00/a2e_0016.parse 9 74 gold be be.03 ----- 74:0-rel
 wb/a2e/00/a2e_0016.parse 2 65 gold attend attend.01 ----- 51:2*58:1*59:1*62:1*66:1-ARG1 51:2*58:1-LINK-SLC 65:0-rel 67:1-ARG0
 wb/a2e/00/a2e_0016.parse 12 7 gold be be.03 ----- 7:0-rel
 wb/a2e/00/a2e_0016.parse 11 16 gold know know.01 ----- 0:2*17:1-ARG1 15:0-ARGM-NEG 16:0-rel 19:1-ARGM-TMP
 wb/a2e/00/a2e_0016.parse 2 38 gold be be.03 ----- 38:0-rel
+wb/a2e/00/a2e_0016.parse 4 57 gold receive receive.01 ----- 22:1-ARGM-TMP 56:1-ARG0 57:0-rel 58:1;66:2-ARG1 61:1-ARG2
+wb/a2e/00/a2e_0016.parse 11 26 gold give give.01 ----- 20:1*23:1-ARG0 26:0-rel 27:1;31:2-ARG1 29:1-ARG2
 wb/a2e/00/a2e_0016.parse 4 26 gold set set.02 ----- 23:1-ARG0 26:0-rel 27:2-ARG1 50:1-ARGM-TMP
 wb/a2e/00/a2e_0016.parse 21 18 gold be be.03 ----- 18:0-rel
 wb/a2e/00/a2e_0016.parse 21 35 gold prove prove.01 ----- 23:2*36:1-ARG1 35:0-rel 37:1-ARG2
@@ -53,20 +53,22 @@ wb/a2e/00/a2e_0016.parse 9 80 gold achieve achieve.01 ----- 59:2*72:1*73:1*76:1*
 wb/a2e/00/a2e_0016.parse 15 84 gold be be.01 ----- 75:2*81:1*98:1-ARGM-TMP 75:2*81:1-LINK-SLC 82:1-ARG1 84:0-rel 85:2-ARG2
 wb/a2e/00/a2e_0016.parse 2 46 gold blow blow_up.06 ----- 44:1-ARG0 46:0,47:1-rel 48:2-ARG1 90:1-ARGM-CAU 99:3-ARGM-DIS 108:1-ARGM-TMP
 wb/a2e/00/a2e_0016.parse 20 28 gold justify justify.01 ----- 26:0-ARGM-ADJ 27:0-ARGM-ADJ 28:0-rel
-wb/a2e/00/a2e_0016.parse 11 26 gold give give.01 ----- 20:1*23:1-ARG0 26:0-rel 27:1;31:2-ARG1 29:1-ARG2
+wb/a2e/00/a2e_0016.parse 6 23 gold postpone postpone.01 ----- 20:1*21:1-ARG0 23:0-rel 24:1-ARG1 26:1-ARG2
 wb/a2e/00/a2e_0016.parse 9 32 gold postpone postpone.01 ----- 17:2*29:1*30:1*33:1-ARG1 17:2*29:1-LINK-SLC 32:0-rel 34:1-ARGM-CAU 39:1-ARGM-LOC
+wb/a2e/00/a2e_0016.parse 4 69 gold blow blow_up.06 ----- 66:1-ARG0 69:0,70:1-rel 72:1-ARG1
 wb/a2e/00/a2e_0016.parse 14 6 gold have have.01 ----- 6:0-rel
 wb/a2e/00/a2e_0016.parse 5 35 gold plant plant.01 ----- 31:1*33:1-ARG0 35:0-rel 36:2-ARG1
 wb/a2e/00/a2e_0016.parse 9 49 gold be be.03 ----- 49:0-rel
 wb/a2e/00/a2e_0016.parse 11 14 gold be be.03 ----- 14:0-rel
 wb/a2e/00/a2e_0016.parse 4 33 gold be be.03 ----- 33:0-rel
+wb/a2e/00/a2e_0016.parse 11 22 gold prove prove.01 ----- 22:0-rel 23:2-ARG1
 wb/a2e/00/a2e_0016.parse 8 18 gold surround surround.01 ----- 14:1-ARG1 18:0-rel 19:1-ARG2 21:1-ARGM-TMP 30:2-ARGM-PRD
-wb/a2e/00/a2e_0016.parse 12 16 gold pursue pursue.01 ----- 14:1*17:1-ARG1 16:0-rel 18:1-ARGM-CAU 22:1-ARGM-ADV
-wb/a2e/00/a2e_0016.parse 4 69 gold blow blow_up.06 ----- 66:1-ARG0 69:0,70:1-rel 72:1-ARG1
 wb/a2e/00/a2e_0016.parse 6 9 gold have have.01 ----- 9:0-rel
 wb/a2e/00/a2e_0016.parse 10 19 gold assist assist.01 ----- 0:2*16:1*17:1-ARG0 19:0-rel 20:1-ARG2
 wb/a2e/00/a2e_0016.parse 9 79 gold have have.01 ----- 79:0-rel
 wb/a2e/00/a2e_0016.parse 11 43 gold kill kill.01 ----- 34:1*37:1*38:1*41:1-ARG0 34:1*37:1-LINK-SLC 43:0-rel 44:2-ARG1
+wb/a2e/00/a2e_0016.parse 12 8 gold remove remove.01 ----- 5:1*9:1-ARG1 6:0-ARGM-MOD 8:0-rel 10:1-ARG2 13:1-ARGM-ADV
+wb/a2e/00/a2e_0016.parse 21 14 gold happen happen.01 ----- 8:1*12:1*13:1-ARG1 8:1*12:1-LINK-SLC 14:0-rel 15:1-ARGM-LOC
 wb/a2e/00/a2e_0016.parse 2 61 gold set set.08 ----- 51:2*58:1*59:1-ARG1 51:2*58:1-LINK-SLC 61:0-rel 62:2-ARG2
 wb/a2e/00/a2e_0016.parse 17 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2
 wb/a2e/00/a2e_0016.parse 15 62 gold have have.01 ----- 62:0-rel
@@ -78,6 +80,7 @@ wb/a2e/00/a2e_0016.parse 15 72 gold go go.01 ----- 68:1-ARG1 72:0-rel 73:1-ARG4
 wb/a2e/00/a2e_0016.parse 2 60 gold be be.03 ----- 60:0-rel
 wb/a2e/00/a2e_0016.parse 13 6 gold end end.01 ----- 0:1-ARG1 6:0-rel 7:1-ARGM-TMP 13:1-ARGM-MNR
 wb/a2e/00/a2e_0016.parse 2 100 gold be be.01 ----- 99:1-ARG1 100:0-rel 101:2-ARG2
+wb/a2e/00/a2e_0016.parse 12 16 gold pursue pursue.01 ----- 14:1*17:1-ARG1 16:0-rel 18:1-ARGM-CAU 22:1-ARGM-ADV
 wb/a2e/00/a2e_0016.parse 20 17 gold deny deny.01 ----- 15:1-ARG0 16:0-ARGM-MOD 17:0-rel 18:1-ARG1 22:1-ARGM-MNR 25:1-ARGM-MNR
 wb/a2e/00/a2e_0016.parse 8 24 gold set set.02 ----- 22:1*25:1-ARG1 22:1*25:1-LINK-PSV 24:0-rel 26:1-ARG2
 wb/a2e/00/a2e_0016.parse 7 1 gold state state.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
@@ -85,16 +88,13 @@ wb/a2e/00/a2e_0016.parse 3 13 gold proceed proceed.01 ----- 12:0-ARG1 13:0-rel
 wb/a2e/00/a2e_0016.parse 15 58 gold refute refute.01 ----- 56:1*57:1-ARG0 58:0-rel 59:3-ARG1
 wb/a2e/00/a2e_0016.parse 15 12 gold state state.01 ----- 0:1-ARGM-DIS 2:1-ARGM-LOC 10:1-ARG0 12:0-rel 13:1-ARG1
 wb/a2e/00/a2e_0016.parse 15 63 gold be be.03 ----- 63:0-rel
-wb/a2e/00/a2e_0016.parse 4 57 gold receive receive.01 ----- 22:1-ARGM-TMP 56:1-ARG0 57:0-rel 58:1;66:2-ARG1 61:1-ARG2
+wb/a2e/00/a2e_0016.parse 7 5 gold be be.03 ----- 5:0-rel
 wb/a2e/00/a2e_0016.parse 14 7 gold explode explode.01 ----- 0:2-ARG0 7:0-rel 8:1-ARGM-LOC 25:1-ARGM-TMP
 wb/a2e/00/a2e_0016.parse 4 34 gold hold hold.04 ----- 30:1*35:1-ARG1 34:0-rel 36:1-ARGM-LOC 39:1-ARG2
-wb/a2e/00/a2e_0016.parse 9 31 gold be be.03 ----- 31:0-rel
 wb/a2e/00/a2e_0016.parse 6 2 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 2:0-rel 3:1-ARG2
 wb/a2e/00/a2e_0016.parse 8 17 gold have have.01 ----- 17:0-rel
 wb/a2e/00/a2e_0016.parse 2 144 gold have have.01 ----- 144:0-rel
-wb/a2e/00/a2e_0016.parse 11 40 gold suppose suppose.02 ----- 34:1*37:1*38:1-ARG1 34:1*37:1-LINK-SLC 40:0-rel 41:2-ARG2
 wb/a2e/00/a2e_0016.parse 8 11 gold be be.01 ----- 10:1-ARG1 11:0-rel 12:1-ARG2
-wb/a2e/00/a2e_0016.parse 7 5 gold be be.03 ----- 5:0-rel
 wb/a2e/00/a2e_0016.parse 11 36 gold operate operate.01 ----- 35:0-ARGM-ADJ 36:0-rel 37:2-ARGM-ADJ
-wb/a2e/00/a2e_0016.parse 11 39 gold be be.03 ----- 39:0-rel
 wb/a2e/00/a2e_0016.parse 10 15 gold assign assign.01 ----- 0:2*16:1-ARG1 15:0-rel 17:2-ARG2
+wb/a2e/00/a2e_0016.parse 11 40 gold suppose suppose.02 ----- 34:1*37:1*38:1-ARG1 34:1*37:1-LINK-SLC 40:0-rel 41:2-ARG2

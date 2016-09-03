@@ -1,7 +1,5 @@
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 6 9 gold breed breed.01 ----- 8:1-ARG0 9:0-rel 10:1-ARG1
-ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 52 24 gold begin begin.02 ----- 0:1-ARGM-TMP 17:2,25:2-ARG1 24:0-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 32 4 gold be be.01 ----- 0:1-ARGM-ADV 1:1-ARGM-TMP 4:0-rel 5:1-ARG2 6:2-ARG1
-ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 6 2 gold tell tell.01 ----- 0:0-ARGM-MOD 1:1-ARG0 2:0-rel 3:1-ARG2 4:2-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 45 4 gold be be.01 ----- 0:2-ARG1 4:0-rel 5:0-ARGM-NEG 6:1-ARG2
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 33 19 gold leave leave.14 ----- 19:0-rel 21:2-ARG1 23:2-ARGM-PRP
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 12 4 gold understand understand.01 ----- 3:1-ARG0 4:0-rel 5:1-ARG1
@@ -18,9 +16,11 @@ ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 25 9 gold rinse rinse.01 ----
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 16 2 gold be be.01 ----- 1:1-ARG1 2:0-rel 3:1-ARG2
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 16 13 gold be be.01 ----- 11:1-ARG1 13:0-rel 14:1-ARGM-ADV 15:1-ARG2 17:1-ARGM-ADV
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 32 8 gold leave leave.14 ----- 2:2*6:1-ARG0 8:0-rel 9:1,13:2-ARG1 21:2-ARGM-PRP
-ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 41 19 gold test test.01 ----- 5:1-ARG0 9:0-ARGM-LVB 11:2-ARG1 19:0-rel
+ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 20 7 gold see see.01 ----- 5:1-ARG0 6:0-ARGM-MOD 7:0-rel 8:1-ARG1 11:1-ARGM-ADV
+ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 27 20 gold sell sell.01 ----- 10:1*21:1-ARG1 12:1-ARGM-TMP 19:1-ARGM-TMP 20:0-rel 22:1-ARGM-PRD
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 9 14 gold impress impress.01 ----- 0:1-ARGM-ADV 11:1-ARG0 13:0-ARGM-EXT 14:0-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 46 27 gold allow allow.01 ----- 0:1-ARGM-DIS 1:1-ARGM-ADV 14:1-ARG0 15:0-ARGM-MOD 27:0-rel 28:2-ARG1
+ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 46 30 gold get get.05 ----- 28:1-ARG1 30:0-rel 31:1-ARG2
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 28 2 gold start start.01 ----- 0:1-ARG0 1:1-ARGM-DIS 2:0-rel 3:1-ARG1 5:1-ARGM-MNR
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 43 15 gold have have.01 ----- 15:0-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 1 1 gold have have.03 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
@@ -33,7 +33,6 @@ ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 48 22 gold open open.01 -----
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 20 17 gold better good.02 ----- 14:1-ARG1 17:0-rel 18:1-ARGM-LOC
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 42 1 gold wing wing.02 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:1-ARGM-EXT 5:1-ARGM-LOC
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 2 7 gold be be.01 ----- 0:2-ARG1 7:0-rel 8:3-ARG2
-ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 12 1 gold think think.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 23 21 gold feed feed.01 ----- 3:1*5:1*27:1-ARGM-LOC 3:1*5:1-LINK-SLC 6:1-ARG0 21:0-rel 22:1-ARG2 23:1-ARGM-MNR 24:1-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 46 3 gold be be.02 ----- 3:0-rel 4:2-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 23 40 gold change change.01 ----- 36:0-ARGM-TMP 37:1-ARGM-EXT 39:0-ARG1 40:0-rel
@@ -52,13 +51,9 @@ ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 43 10 gold be be.03 ----- 10:
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 27 32 gold show show.01 ----- 27:1*28:1-ARG0 32:0-rel 33:1-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 47 4 gold be be.01 ----- 0:1-ARGM-ADV 1:1-ARGM-TMP 4:0-rel 5:1-ARG2 6:2-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 24 10 gold be be.01 ----- 8:1-ARG1 10:0-rel 11:1-ARGM-TMP 12:1-ARG2
-ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 33 22 gold open open.01 ----- 3:1*20:1*21:1-ARG1 22:0-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 2 11 gold lengthen long.03 ----- 0:2-ARG1 8:2-ARG2 11:0-rel
-ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 32 5 gold wise wise.01 ----- 0:1-ARGM-ADV 1:1-ARGM-TMP 5:0-rel 6:2-ARG1
-ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 37 4 gold keep keep_up.05 ----- 3:1-ARG0 4:0,5:1-rel 6:1-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 40 1 gold indicate indicate.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 6 13 gold care care.03 ----- 8:1-ARG0 12:0-ARGM-LVB 13:0-rel 14:1-ARG1
-ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 52 51 gold do do.01 ----- 51:0-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 35 5 gold leave leave.12 ----- 1:1-ARG0 4:0-ARGM-NEG 5:0-rel 6:1-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 14 2 gold have have.03 ----- 1:1-ARG0 2:0-rel 3:2-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 48 19 gold leave leave.12 ----- 6:1*20:1-ARG1 6:1*20:1-LINK-PSV 19:0-rel 21:2-ARG2 23:2-ARGM-PRP
@@ -68,43 +63,43 @@ ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 56 8 gold die die.01 ----- 0:
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 34 21 gold be be.01 ----- 20:1-ARG1 21:0-rel 22:1-ARG2
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 42 26 gold be be.01 ----- 0:2-ARGM-ADV 7:2-ARG1 25:0-ARGM-MOD 26:0-rel 27:1-ARG2
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 13 12 gold take take.LV ----- 12:0-rel 14:0-ARGM-PRR
-ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 47 5 gold wise wise.01 ----- 0:1-ARGM-ADV 1:1-ARGM-TMP 5:0-rel 6:2-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 22 30 gold put put.01 ----- 23:1-ARG0 30:0-rel 31:1-ARG1 32:1-ARG2
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 27 30 gold court court.01 ----- 27:1*28:1-ARG0 30:0-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 52 43 gold change change.01 ----- 40:1-ARGM-EXT 42:0-ARG1 43:0-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 56 7 gold have have.01 ----- 7:0-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 49 2 gold get get.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG1 4:1-ARGM-MNR 7:1-ARGM-MNR
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 58 1 gold hope hope.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
-ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 44 10 gold figure figure_out.05 ----- 8:1-ARG0 9:0-ARGM-MOD 10:0,11:1-rel 12:3-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 22 24 gold pick pick.01 ----- 23:1-ARG0 24:0-rel 25:1-ARG1 26:1-ARG2
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 11 7 gold rich rich.01 ----- 0:1-ARG1 6:1-ARGM-DIS 7:0-rel 8:1-ARG2
-ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 22 1 gold be be.02 ----- 1:0-rel 2:3-ARG1
+ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 52 24 gold begin begin.02 ----- 0:1-ARGM-TMP 17:2,25:2-ARG1 24:0-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 32 20 gold chlorinate chlorinate.01 ----- 20:0-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 9 2 gold be be.01 ----- 1:1-ARG1 2:0-rel 3:1-ARG2
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 4 8 gold be be.01 ----- 7:1-ARG1 8:0-rel 9:3-ARG2
+ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 49 14 gold fine fine.04 ----- 0:1-ARGM-ADV 12:1-ARG1 14:0-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 41 23 gold give give.LV ----- 23:0-rel 26:0-ARGM-PRR
-ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 20 7 gold see see.01 ----- 5:1-ARG0 6:0-ARGM-MOD 7:0-rel 8:1-ARG1 11:1-ARGM-ADV
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 52 5 gold begin begin.02 ----- 1:2,6:2-ARG1 5:0-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 5 1 gold feed feed.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG2 3:2-ARG1 9:1-ARGM-TMP
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 48 17 gold treat treat.04 ----- 16:0-ARG2 17:0-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 3 13 gold lengthen long.03 ----- 0:2-ARG1 8:2-ARG2 13:0-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 22 57 gold hatch hatch.01 ----- 54:1-ARG1 56:0-ARGM-MOD 57:0-rel 58:1-ARGM-LOC
-ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 23 8 gold separate separate.01 ----- 6:1-ARG0 8:0-rel 9:1-ARG1
+ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 27 13 gold show show.01 ----- 10:1*14:1-ARG1 12:1-ARGM-TMP 13:0-rel 22:1-ARGM-MNR
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 37 9 gold change change.01 ----- 7:0-ARGM-EXT 8:0-ARG1 9:0-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 11 18 gold grow grow.01 ----- 0:1*14:1-ARG0 18:0-rel 19:1-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 6 12 gold take take.LV ----- 12:0-rel 13:1-ARGM-PRR
-ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 41 9 gold do do.LV ----- 9:0-rel 19:0-ARGM-PRR
+ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 33 22 gold open open.01 ----- 3:1*20:1*21:1-ARG1 22:0-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 52 34 gold incubate incubate.01 ----- 34:0-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 30 3 gold need need.01 ----- 0:1-ARG0 1:1-ARGM-DIS 2:0-ARGM-MOD 3:0-rel 4:2-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 23 44 gold put put.03 ----- 42:1*47:1-ARGM-TMP 43:1-ARG0 44:0-rel 45:1-ARG1 46:1-ARG2
-ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 3 7 gold be be.01 ----- 0:2-ARG1 7:0-rel 8:3-ARG2
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 17 4 gold have have.03 ----- 1:1-ARG0 3:1-ARGM-ADV 4:0-rel 5:3-ARG1
+ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 22 42 gold set set_up.03 ----- 41:1-ARG0 42:0,43:1-rel 44:1-ARG1 46:1-ARGM-LOC
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 15 2 gold be be.03 ----- 2:0-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 34 26 gold leave leave.14 ----- 20:1*24:1-ARG0 26:0-rel 27:1,30:2-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 25 7 gold defrost defrost.01 ----- 7:0-rel 12:0-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 52 26 gold suggest suggest.01 ----- 17:2*25:1-ARG0 26:0-rel 27:1-ARG1
+ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 37 4 gold keep keep_up.05 ----- 3:1-ARG0 4:0,5:1-rel 6:1-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 29 2 gold change change.01 ----- 1:0-ARG1 2:0-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 26 12 gold produce produce.01 ----- 0:2-ARGM-ADV 10:1-ARG0 11:0-ARGM-MOD 12:0-rel 13:1-ARGM-EXT
+ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 46 33 gold eat eat.01 ----- 28:1-ARG0 33:0-rel 34:1-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 37 2 gold have have.01 ----- 2:0-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 9 3 gold able able.01 ----- 1:1-ARG1 3:0-rel 4:2-ARG2
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 36 2 gold be be.03 ----- 2:0-rel
@@ -115,20 +110,17 @@ ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 35 3 gold be be.03 ----- 3:0-
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 7 2 gold advance advance.01 ----- 2:0-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 51 5 gold suffocate suffocate.01 ----- 0:1-ARGM-TMP 2:1-ARG1 4:0-ARGM-MOD 5:0-rel 6:1-ARGM-LOC
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 41 4 gold get get.04 ----- 2:1-ARG0 3:0-ARGM-MOD 4:0-rel 5:2-ARG1
+ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 47 5 gold wise wise.01 ----- 0:1-ARGM-ADV 1:1-ARGM-TMP 5:0-rel 6:2-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 50 9 gold rinse rinse.01 ----- 7:1*10:1-ARG2 8:1-ARGM-ADV 9:0-rel 11:2-ARGM-LOC
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 56 11 gold become become.01 ----- 0:1-ARGM-ADV 6:1-ARG1 10:1-ARGM-TMP 11:0-rel 12:1-ARG2 13:1-ARGM-ADV
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 53 16 gold kill kill.01 ----- 10:1-ARG0 12:0-ARGM-MOD 16:0-rel 17:1-ARG1
-ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 17 2 gold have have.01 ----- 2:0-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 11 5 gold be be.01 ----- 0:1-ARG1 5:0-rel 6:1-ARGM-DIS 7:1-ARG2
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 27 11 gold be be.03 ----- 11:0-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 29 3 gold help help.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1 6:1-ARGM-DIS
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 56 17 gold break break_down.12 ----- 14:1-ARG1 17:0,18:1-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 36 19 gold rate rate.01 ----- 3:2-ARG0 19:0-rel 20:1-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 48 26 gold breathe breathe.01 ----- 6:1*20:1*21:1*23:1-ARG0 6:1*20:1-LINK-PSV 26:0-rel
-ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 49 14 gold fine fine.04 ----- 0:1-ARGM-ADV 12:1-ARG1 14:0-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 9 6 gold take take.01 ----- 1:1*4:1-ARG0 6:0-rel 7:1-ARG1 8:2-ARGM-PRD
-ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 27 13 gold show show.01 ----- 10:1*14:1-ARG1 12:1-ARGM-TMP 13:0-rel 22:1-ARGM-MNR
-ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 38 2 gold be be.02 ----- 2:0-rel 4:3-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 15 4 gold spawn spawn.01 ----- 0:1-ARG0 3:1-ARGM-TMP 4:0-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 22 51 gold move move.01 ----- 41:1-ARG0 51:0-rel 52:1-ARG1 53:1-ARGM-PRP
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 52 52 gold release release.01 ----- 45:1-ARGM-ADV 50:1-ARG0 52:0-rel 53:1-ARG1
@@ -138,38 +130,43 @@ ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 43 11 gold use use.01 ----- 0
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 27 26 gold encourage encourage.01 ----- 0:2-ARG0 25:0-ARGM-MOD 26:0-rel 27:1-ARG1 28:2-ARG2
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 43 16 gold see see.01 ----- 14:1-ARG0 16:0-rel 17:2-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 2 3 gold be be.01 ----- 0:2-ARG1 3:0-rel 4:1-ARG2
-ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 24 16 gold lay lay.01 ----- 7:1-ARGM-ADV 14:1-ARG0 15:0-ARGM-MOD 16:0-rel 17:2-ARG1 21:1-ARGM-TMP
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 22 8 gold spawn spawn.01 ----- 2:1*5:1*10:1-ARGM-MNR 2:1*5:1-LINK-SLC 6:1-ARG0 7:0-ARGM-MOD 8:0-rel 9:1-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 56 3 gold turn turn.02 ----- 1:1-ARG1 3:0-rel 4:1-ARG2
+ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 52 51 gold do do.01 ----- 51:0-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 54 2 gold put put.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG2 4:1-ARG1 9:2-ARGM-PRP
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 34 12 gold sate sate.01 ----- 0:2-ARG0 11:0-ARGM-MOD 12:0-rel 13:3-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 53 13 gold spread spread_out.04 ----- 10:1-ARG1 12:0-ARGM-MOD 13:0,14:1-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 21 23 gold float float.01 ----- 0:1*21:1-ARG0 23:0-rel 24:1-ARG1
-ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 3 3 gold be be.01 ----- 0:2-ARG1 3:0-rel 4:1-ARG2
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 7 0 gold thank thank.01 ----- 0:0-rel 1:1-ARGM-TMP
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 40 4 gold thrive thrive.01 ----- 3:1-ARG1 4:0-rel 5:1-ARG2
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 28 9 gold ding ding.01 ----- 6:0-ARGM-NEG 9:0-rel 10:1-ARG1
+ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 44 10 gold figure figure_out.05 ----- 8:1-ARG0 9:0-ARGM-MOD 10:0,11:1-rel 12:3-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 50 2 gold get get.05 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1 5:1-ARG2 7:2-ARGM-ADV
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 4 3 gold be be.01 ----- 0:1-ARG1 3:0-rel 4:1-ARG2 5:1-ARGM-DIS
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 32 28 gold ride ride.01 ----- 24:1*26:1*27:1-ARG0 24:1*26:1-LINK-SLC 28:0-rel 29:1-ARGM-DIR 30:1-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 54 19 gold take take.01 ----- 17:1-ARG0 18:0-ARGM-MOD 19:0-rel 20:1-ARG1 22:1-ARGM-DIR 23:1-ARGM-MNR
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 27 16 gold judge judge.01 ----- 10:1*17:1-ARG1 12:1-ARGM-TMP 16:0-rel 22:1-ARGM-MNR
-ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 46 33 gold eat eat.01 ----- 28:1-ARG0 33:0-rel 34:1-ARG1
+ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 6 2 gold tell tell.01 ----- 0:0-ARGM-MOD 1:1-ARG0 2:0-rel 3:1-ARG2 4:2-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 47 25 gold ride ride.01 ----- 21:1*23:1*24:1-ARG0 21:1*23:1-LINK-SLC 25:0-rel 26:1-ARGM-DIR 27:1-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 48 7 gold treat treat.04 ----- 6:1*8:1-ARG1 6:1*8:1-LINK-PSV 7:0-rel 9:3-ARGM-TMP 14:1-ARG2
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 31 9 gold better good.04 ----- 0:2-ARG1 8:0-ARGM-NEG 9:0-rel 10:1-ARG2
+ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 32 5 gold wise wise.01 ----- 0:1-ARGM-ADV 1:1-ARGM-TMP 5:0-rel 6:2-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 33 17 gold treat treat.04 ----- 16:0-ARG2 17:0-rel
+ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 23 8 gold separate separate.01 ----- 6:1-ARG0 8:0-rel 9:1-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 34 23 gold likely likely.01 ----- 20:1,24:2-ARG1 22:0-ARGM-EXT 23:0-rel
-ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 10 1 gold aspire aspire.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 41 9 gold do do.LV ----- 9:0-rel 19:0-ARGM-PRR
+ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 3 7 gold be be.01 ----- 0:2-ARG1 7:0-rel 8:3-ARG2
+ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 3 3 gold be be.01 ----- 0:2-ARG1 3:0-rel 4:1-ARG2
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 39 3 gold widespread widespread.01 ----- 0:1-ARG1 3:0,5:0-rel 6:1-ARGM-LOC
+ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 24 16 gold lay lay.01 ----- 7:1-ARGM-ADV 14:1-ARG0 15:0-ARGM-MOD 16:0-rel 17:2-ARG1 21:1-ARGM-TMP
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 6 6 gold process process.02 ----- 5:0-ARGM-ADJ 6:0-rel 7:1-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 16 19 gold be be.01 ----- 18:1-ARG1 19:0-rel 20:1-ARG2
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 22 17 gold incubate incubate.01 ----- 12:1-ARG0 16:0-ARG2 17:0-rel 18:1-ARG1 19:1-ARGM-TMP
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 26 1 gold separate separate.01 ----- 0:1*2:1-ARG1 1:0-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 13 7 gold sex sex.03 ----- 6:1-ARG0 7:0-rel 8:1-ARGM-PRD 9:1-ARG1
-ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 22 42 gold set set_up.03 ----- 41:1-ARG0 42:0,43:1-rel 44:1-ARG1 46:1-ARGM-LOC
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 24 2 gold make make_up.10 ----- 0:1-ARG0 1:1-ARGM-ADV 2:0,3:1-rel 4:1-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 46 16 gold break break_down.12 ----- 0:1-ARGM-DIS 1:1-ARGM-ADV 14:1-ARG0 15:0-ARGM-MOD 16:0,17:1-rel 18:3-ARG1
+ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 10 1 gold aspire aspire.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 21 1 gold use use.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1 21:2-ARG2
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 35 9 gold check check.01 ----- 0:1-ARGM-ADV 8:1-ARG0 9:0-rel 10:1-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 16 24 gold spawn spawn.01 ----- 0:1-ARGM-ADV 22:1-ARG0 23:0-ARGM-MOD 24:0-rel
@@ -179,22 +176,25 @@ ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 54 11 gold slow slow_down.03 
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 18 8 gold make make.01 ----- 0:1-ARGM-ADV 7:1-ARG0 8:0-rel 9:1-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 52 11 gold die die.01 ----- 10:0-ARGM-ADJ 11:0-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 39 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2 6:1-ARGM-LOC
-ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 27 20 gold sell sell.01 ----- 10:1*21:1-ARG1 12:1-ARGM-TMP 19:1-ARGM-TMP 20:0-rel 22:1-ARGM-PRD
+ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 12 1 gold think think.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 22 14 gold spawn spawn.01 ----- 13:0-ARGM-MNR 14:0-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 31 7 gold be be.01 ----- 0:2-ARG1 7:0-rel 8:0-ARGM-NEG 9:1-ARG2
-ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 46 30 gold get get.05 ----- 28:1-ARG1 30:0-rel 31:1-ARG2
+ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 41 19 gold test test.01 ----- 5:1-ARG0 9:0-ARGM-LVB 11:2-ARG1 19:0-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 9 12 gold be be.01 ----- 0:1-ARGM-ADV 11:1-ARG1 12:0-rel 13:1-ARG2
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 23 50 gold leave leave.02 ----- 0:1-ARGM-ADV 30:2-ARGM-ADV 42:2-ARGM-TMP 48:1-ARG0 49:0-ARGM-MOD 50:0-rel 51:3-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 47 20 gold kill kill.01 ----- 18:1-ARG0 20:0-rel 21:2-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 12 12 gold be be.01 ----- 6:1-ARG1 12:0-rel 13:1-ARG2
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 22 48 gold plant plant.01 ----- 48:0-rel 49:0-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 49 13 gold be be.01 ----- 0:1-ARGM-ADV 12:1-ARG1 13:0-rel 14:1-ARG2
+ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 38 2 gold be be.02 ----- 2:0-rel 4:3-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 52 48 gold develop develop.01 ----- 46:1-ARG2 48:0-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 23 34 gold be be.03 ----- 34:0-rel
+ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 17 2 gold have have.01 ----- 2:0-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 47 17 gold chlorinate chlorinate.01 ----- 17:0-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 21 4 gold rinse rinse.01 ----- 3:0-ARGM-MNR 4:0-rel 5:0,6:0-ARG2
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 33 26 gold breathe breathe.01 ----- 3:1*20:1*21:1*23:1-ARG0 26:0-rel
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 13 14 gold look look.01 ----- 0:1-ARGM-ADV 11:1-ARG0 12:0-ARGM-LVB 14:0-rel 15:1-ARG1
+ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 22 1 gold be be.02 ----- 1:0-rel 2:3-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 55 2 gold add add.02 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:2-ARG1
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 57 1 gold get get.05 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:1-ARG2 4:1-ARGM-TMP 5:1-ARGM-ADV
 ewt/answers/00/20111108105520AA73Axw_ans.xml.parse 23 35 gold do do.02 ----- 33:1-ARG0 35:0-rel 36:1-ARG1

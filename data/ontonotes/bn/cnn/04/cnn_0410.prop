@@ -4,19 +4,16 @@ bn/cnn/04/cnn_0410.parse 7 20 gold be be.01 ----- 9:1-ARGM-TMP 16:2-ARG1 20:0-re
 bn/cnn/04/cnn_0410.parse 16 1 gold pull pull.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG2 3:1-ARG1 6:1-ARGM-TMP
 bn/cnn/04/cnn_0410.parse 11 20 gold reach reach.01 ----- 4:2*18:1-ARG0 4:2*18:1-LINK-PRO 20:0-rel 21:1-ARG1
 bn/cnn/04/cnn_0410.parse 5 13 gold rise rise.01 ----- 11:1-ARG1 13:0-rel
-bn/cnn/04/cnn_0410.parse 12 1 gold see see.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bn/cnn/04/cnn_0410.parse 7 19 gold help help.01 ----- 19:0-rel
-bn/cnn/04/cnn_0410.parse 3 14 gold cling cling.01 ----- 0:1-ARGM-ADV 11:1-ARG0 13:1-ARGM-MNR 14:0-rel 15:1-ARG1
 bn/cnn/04/cnn_0410.parse 14 2 gold jump jump.03 ----- 0:1-ARG0 2:0-rel 3:1-ARGM-GOL 6:2-ARGM-TMP
-bn/cnn/04/cnn_0410.parse 15 2 gold swim swim.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG2
 bn/cnn/04/cnn_0410.parse 5 2 gold realize realize.01 ----- 0:1-ARGM-ADV 1:1-ARG0 2:0-rel 3:1-ARG1
-bn/cnn/04/cnn_0410.parse 4 9 gold start start.01 ----- 8:1,10:2-ARG1 9:0-rel
 bn/cnn/04/cnn_0410.parse 11 3 gold take take.10 ----- 3:0-rel 4:2-ARG2 15:2-ARG1 18:2-ARG0
 bn/cnn/04/cnn_0410.parse 16 10 gold want want.01 ----- 9:1-ARG0 10:0-rel 11:2-ARG1
 bn/cnn/04/cnn_0410.parse 0 4 gold be be.02 ----- 0:1-ARGM-LOC 4:0-rel 5:2-ARG1
 bn/cnn/04/cnn_0410.parse 9 2 gold get get.01 ----- 0:1*5:1-ARGM-TMP 1:1-ARG0 2:0-rel 3:1-ARG1
 bn/cnn/04/cnn_0410.parse 14 1 gold be be.03 ----- 1:0-rel
 bn/cnn/04/cnn_0410.parse 14 12 gold be be.01 ----- 10:1-ARG1 12:0-rel 13:1-ARG2
+bn/cnn/04/cnn_0410.parse 16 13 gold pull pull.01 ----- 9:1*11:1-ARG0 13:0-rel 14:1-ARG2 15:1-ARG1
 bn/cnn/04/cnn_0410.parse 5 16 gold start start.01 ----- 15:1-ARG0 16:0-rel 17:2-ARG1
 bn/cnn/04/cnn_0410.parse 15 1 gold be be.03 ----- 1:0-rel
 bn/cnn/04/cnn_0410.parse 11 32 gold send send.03 ----- 24:1-ARGM-ADV 29:1-ARG0 31:1-ARGM-TMP 32:0-rel 33:2;37:2-ARG1 36:1-ARG2
@@ -26,18 +23,21 @@ bn/cnn/04/cnn_0410.parse 8 5 gold be be.03 ----- 5:0-rel
 bn/cnn/04/cnn_0410.parse 16 23 gold take take.01 ----- 22:1-ARG0 23:0-rel
 bn/cnn/04/cnn_0410.parse 13 1 gold see see.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bn/cnn/04/cnn_0410.parse 8 3 gold have have.01 ----- 3:0-rel
+bn/cnn/04/cnn_0410.parse 12 1 gold see see.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+bn/cnn/04/cnn_0410.parse 3 14 gold cling cling.01 ----- 0:1-ARGM-ADV 11:1-ARG0 13:1-ARGM-MNR 14:0-rel 15:1-ARG1
+bn/cnn/04/cnn_0410.parse 15 2 gold swim swim.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG2
 bn/cnn/04/cnn_0410.parse 5 19 gold pump pump.01 ----- 15:1*17:1-ARG0 19:0-rel 21:1-ARGM-ADV
 bn/cnn/04/cnn_0410.parse 5 26 gold pump pump.01 ----- 25:1-ARG0 26:0-rel
 bn/cnn/04/cnn_0410.parse 4 2 gold send send.01 ----- 0:1-ARG0 2:0-rel 3:1-ARGM-DIR 4:1-ARG1 7:1-ARGM-TMP
+bn/cnn/04/cnn_0410.parse 4 9 gold start start.01 ----- 8:1,10:2-ARG1 9:0-rel
 bn/cnn/04/cnn_0410.parse 9 18 gold be be.01 ----- 17:1-ARG1 18:0-rel 19:1-ARG2
 bn/cnn/04/cnn_0410.parse 14 8 gold see see.01 ----- 6:1*16:1-ARGM-TMP 7:1-ARG0 8:0-rel 9:1-ARG1
-bn/cnn/04/cnn_0410.parse 16 13 gold pull pull.01 ----- 9:1*11:1-ARG0 13:0-rel 14:1-ARG2 15:1-ARG1
 bn/cnn/04/cnn_0410.parse 8 6 gold snitch snitch.01 ----- 0:1*7:1-ARG1 4:1-ARGM-TMP 6:0-rel 8:1-ARGM-PRD 9:1-ARG0
 bn/cnn/04/cnn_0410.parse 7 17 gold wait wait.01 ----- 16:1-ARG1 17:0-rel 18:1-ARG2
 bn/cnn/04/cnn_0410.parse 5 32 gold come come.01 ----- 30:1-ARG1 32:0-rel 33:1-ARGM-EXT
-bn/cnn/04/cnn_0410.parse 16 21 gold say say.01 ----- 19:1-ARG0 21:0-rel 22:2-ARG1
 bn/cnn/04/cnn_0410.parse 11 40 gold save save.02 ----- 33:1*37:1*38:1-ARG0 33:1*37:1-LINK-SLC 40:0-rel 41:1-ARG1
 bn/cnn/04/cnn_0410.parse 0 7 gold rescue rescue.01 ----- 6:0-ARGM-MNR 7:0-rel 8:1-ARG0
+bn/cnn/04/cnn_0410.parse 16 21 gold say say.01 ----- 19:1-ARG0 21:0-rel 22:2-ARG1
 bn/cnn/04/cnn_0410.parse 1 2 gold have have.03 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
 bn/cnn/04/cnn_0410.parse 7 3 gold sink sink.01 ----- 0:1-ARG1 3:0-rel 4:1-ARGM-TMP
 bn/cnn/04/cnn_0410.parse 5 5 gold come come.01 ----- 4:1-ARG1 5:0-rel 6:1-ARG4

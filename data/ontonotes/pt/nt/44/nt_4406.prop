@@ -1,24 +1,26 @@
 pt/nt/44/nt_4406.parse 2 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 pt/nt/44/nt_4406.parse 21 10 gold argue argue.02 ----- 6:1-ARG0 8:0-ARGM-MOD 9:0-ARGM-NEG 10:0-rel 11:1-ARG1
 pt/nt/44/nt_4406.parse 20 3 gold be be.03 ----- 3:0-rel
+pt/nt/44/nt_4406.parse 1 14 gold complain complain.01 ----- 6:1*12:1-ARG0 14:0-rel 15:1-ARG1
 pt/nt/44/nt_4406.parse 29 5 gold look look.02 ----- 3:1-ARG0 5:0-rel 6:1-ARG1
 pt/nt/44/nt_4406.parse 27 1 gold hear hear.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 pt/nt/44/nt_4406.parse 18 2 gold include include.01 ----- 0:1-ARG2 2:0-rel 3:2-ARG1
 pt/nt/44/nt_4406.parse 27 20 gold do do.02 ----- 14:1*21:1-ARG1 17:1*18:1-ARG0 20:0-rel
 pt/nt/44/nt_4406.parse 14 7 gold believe believe.01 ----- 0:2-ARG0 7:0-rel
 pt/nt/44/nt_4406.parse 23 2 gold do do.02 ----- 1:1-ARG0 2:0-rel 3:1-ARG1
+pt/nt/44/nt_4406.parse 4 11 gold be be.01 ----- 9:0-ARGM-MOD 10:0-ARGM-NEG 11:0-rel 12:1-ARG2 13:1-ARG1
 pt/nt/44/nt_4406.parse 4 22 gold teach teach.01 ----- 14:1*21:1-ARG0 14:1*21:1-LINK-PRO 22:0-rel 23:2-ARG1
 pt/nt/44/nt_4406.parse 1 9 gold speak speak.01 ----- 7:0-ARG3 9:0-rel 10:0-ARG0
-pt/nt/44/nt_4406.parse 3 3 gold call call.02 ----- 0:1-ARG0 3:0-rel 4:2-ARG1 9:1-ARGM-PRD
 pt/nt/44/nt_4406.parse 2 14 gold receive receive.01 ----- 11:1*15:1-ARG1 12:1-ARG0 14:0-rel 16:1-ARGM-TMP
-pt/nt/44/nt_4406.parse 1 14 gold complain complain.01 ----- 6:1*12:1-ARG0 14:0-rel 15:1-ARG1
 pt/nt/44/nt_4406.parse 12 4 gold be be.03 ----- 4:0-rel
 pt/nt/44/nt_4406.parse 7 2 gold give give.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG2 4:2-ARG1
+pt/nt/44/nt_4406.parse 10 41 gold have have.01 ----- 41:0-rel
 pt/nt/44/nt_4406.parse 11 2 gold put put.01 ----- 0:1-ARGM-TMP 1:1-ARG0 2:0-rel 3:1-ARG1 5:1-ARG2
 pt/nt/44/nt_4406.parse 4 30 gold be be.01 ----- 28:1-ARG1 30:0-rel 31:1-ARG2
 pt/nt/44/nt_4406.parse 1 11 gold begin begin.01 ----- 0:0-ARGM-DIS 1:1-ARGM-TMP 6:1-ARG0 11:0-rel 12:2-ARG1
 pt/nt/44/nt_4406.parse 10 2 gold choose choose.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:2-ARG1
 pt/nt/44/nt_4406.parse 22 2 gold tell tell.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG2 5:2-ARG1
+pt/nt/44/nt_4406.parse 17 6 gold be be.01 ----- 0:0-ARGM-DIS 1:2-ARG1 6:0-rel 7:1-ARG2
 pt/nt/44/nt_4406.parse 26 7 gold be be.03 ----- 7:0-rel
 pt/nt/44/nt_4406.parse 17 17 gold call call.01 ----- 15:1*18:1-ARG1 17:0-rel
 pt/nt/44/nt_4406.parse 24 6 gold come come.01 ----- 5:1-ARG1 6:0-rel
@@ -29,38 +31,36 @@ pt/nt/44/nt_4406.parse 22 7 gold say say.01 ----- 3:1*5:1-ARG0 7:0-rel 10:2-ARG1
 pt/nt/44/nt_4406.parse 24 11 gold take take.01 ----- 5:1-ARG0 11:0-rel 12:1-ARG1 13:1-ARGM-GOL
 pt/nt/44/nt_4406.parse 21 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:2-ARG2
 pt/nt/44/nt_4406.parse 26 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 5:2-ARG1
+pt/nt/44/nt_4406.parse 3 3 gold call call.02 ----- 0:1-ARG0 3:0-rel 4:2-ARG1 9:1-ARGM-PRD
 pt/nt/44/nt_4406.parse 11 13 gold lay lay.01 ----- 6:1*9:1*10:1-ARG0 6:1*9:1-LINK-SLC 13:0-rel 14:1-ARG1 16:1-ARG2
 pt/nt/44/nt_4406.parse 2 7 gold get get.01 ----- 3:1-ARG0 6:0-ARGM-NEG 7:0-rel 8:2-ARG1
 pt/nt/44/nt_4406.parse 14 9 gold obey obey.01 ----- 0:2-ARG0 9:0-rel
 pt/nt/44/nt_4406.parse 16 6 gold do do.02 ----- 4:1-ARG0 6:0-rel 7:2-ARG1 12:1-ARGM-LOC
 pt/nt/44/nt_4406.parse 5 14 gold have have.03 ----- 10:1*12:1*13:1-ARG0 10:1*12:1-LINK-SLC 14:0-rel 15:1-ARG1
-pt/nt/44/nt_4406.parse 10 42 gold become become.01 ----- 35:2*39:1*40:1-ARG1 35:2*39:1-LINK-SLC 42:0-rel 43:1-ARG2
 pt/nt/44/nt_4406.parse 16 1 gold give give.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG2 3:2-ARG1
+pt/nt/44/nt_4406.parse 23 7 gold upset upset.01 ----- 0:1-ARG2 5:1-ARG0 7:0-rel 8:2-ARG1
 pt/nt/44/nt_4406.parse 27 9 gold destroy destroy.01 ----- 5:2-ARG0 8:0-ARGM-MOD 9:0-rel 10:1-ARG1
 pt/nt/44/nt_4406.parse 22 13 gold say say.01 ----- 12:1-ARG0 13:0-rel 14:1-ARG1 16:2-ARG3
-pt/nt/44/nt_4406.parse 12 5 gold reach reach.02 ----- 0:2-ARG0 5:0-rel 6:2-ARG1
-pt/nt/44/nt_4406.parse 4 11 gold be be.01 ----- 9:0-ARGM-MOD 10:0-ARGM-NEG 11:0-rel 12:1-ARG2 13:1-ARG1
 pt/nt/44/nt_4406.parse 4 35 gold get get.05 ----- 14:1*34:1-ARG0 14:1*34:1-LINK-PRO 35:0-rel 36:1-ARG1 37:1-ARG2
 pt/nt/44/nt_4406.parse 29 1 gold see see.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
-pt/nt/44/nt_4406.parse 20 6 gold speak speak.01 ----- 5:1-ARG0 6:0-rel 7:1-ARGM-MNR
 pt/nt/44/nt_4406.parse 9 3 gold liken like.02 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
-pt/nt/44/nt_4406.parse 13 6 gold become become.01 ----- 0:2-ARG1 6:0-rel 7:1-ARG2
 pt/nt/44/nt_4406.parse 8 3 gold use use.01 ----- 0:1-ARGM-TMP 1:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:1-ARG1 7:2-ARG2
 pt/nt/44/nt_4406.parse 5 7 gold choose choose.01 ----- 0:1-ARGM-DIS 2:1-ARGM-DIS 6:1-ARG0 7:0-rel 8:2-ARG1
 pt/nt/44/nt_4406.parse 8 9 gold pray pray.01 ----- 1:1*7:1-ARG0 9:0-rel
 pt/nt/44/nt_4406.parse 24 8 gold grab grab.01 ----- 5:1-ARG0 8:0-rel 9:1-ARG1
 pt/nt/44/nt_4406.parse 22 11 gold hear hear.01 ----- 10:1-ARG0 11:0-rel 12:2-ARG1
 pt/nt/44/nt_4406.parse 15 4 gold bless bless.01 ----- 3:0-ARGM-ADJ 4:0-rel
-pt/nt/44/nt_4406.parse 17 6 gold be be.01 ----- 0:0-ARGM-DIS 1:2-ARG1 6:0-rel 7:1-ARG2
+pt/nt/44/nt_4406.parse 20 6 gold speak speak.01 ----- 5:1-ARG0 6:0-rel 7:1-ARGM-MNR
+pt/nt/44/nt_4406.parse 10 42 gold become become.01 ----- 35:2*39:1*40:1-ARG1 35:2*39:1-LINK-SLC 42:0-rel 43:1-ARG2
 pt/nt/44/nt_4406.parse 15 1 gold receive receive.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 pt/nt/44/nt_4406.parse 2 9 gold share share.01 ----- 8:0-ARG2 9:0-rel 10:1-ARG1
-pt/nt/44/nt_4406.parse 19 3 gold argue argue.02 ----- 0:1*2:1-ARG0 3:0-rel 4:1-ARG1
+pt/nt/44/nt_4406.parse 12 5 gold reach reach.02 ----- 0:2-ARG0 5:0-rel 6:2-ARG1
+pt/nt/44/nt_4406.parse 13 6 gold become become.01 ----- 0:2-ARG1 6:0-rel 7:1-ARG2
 pt/nt/44/nt_4406.parse 4 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG2 7:3-ARG1
 pt/nt/44/nt_4406.parse 25 12 gold tell tell.01 ----- 3:1*9:1*10:1-ARG0 3:1*9:1-LINK-SLC 12:0-rel 13:1-ARG1 14:1-ARGM-ADV
 pt/nt/44/nt_4406.parse 0 5 gold become become.01 ----- 0:2-ARG1 5:0-rel 6:2-ARG2
 pt/nt/44/nt_4406.parse 2 5 gold be be.03 ----- 5:0-rel
 pt/nt/44/nt_4406.parse 4 16 gold give give_up.07 ----- 14:1-ARG0 16:0,17:1-rel 18:2-ARG1 26:1-ARGM-PRP
-pt/nt/44/nt_4406.parse 23 7 gold upset upset.01 ----- 0:1-ARG2 5:1-ARG0 7:0-rel 8:2-ARG1
 pt/nt/44/nt_4406.parse 19 1 gold start start.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 pt/nt/44/nt_4406.parse 28 6 gold be be.03 ----- 6:0-rel
 pt/nt/44/nt_4406.parse 20 4 gold help help.01 ----- 0:0-ARGM-DIS 1:1-ARG0 4:0-rel 5:2-ARG1
@@ -70,8 +70,8 @@ pt/nt/44/nt_4406.parse 26 9 gold say say.01 ----- 5:1-ARG0 8:1-ARGM-TMP 9:0-rel 
 pt/nt/44/nt_4406.parse 7 9 gold do do.02 ----- 4:1*6:1*10:1-ARG1 4:1*6:1-LINK-SLC 7:1-ARG0 9:0-rel
 pt/nt/44/nt_4406.parse 27 3 gold say say.01 ----- 2:1-ARG0 3:0-rel 4:1-ARG1
 pt/nt/44/nt_4406.parse 8 12 gold teach teach.01 ----- 1:1*7:1-ARG0 12:0-rel 13:2-ARG1
-pt/nt/44/nt_4406.parse 10 41 gold have have.01 ----- 41:0-rel
 pt/nt/44/nt_4406.parse 6 2 gold be be.01 ----- 0:1-ARG1 1:0-ARGM-MOD 2:0-rel 3:2-ARG2
+pt/nt/44/nt_4406.parse 19 3 gold argue argue.02 ----- 0:1*2:1-ARG0 3:0-rel 4:1-ARG1
 pt/nt/44/nt_4406.parse 11 11 gold pray pray.01 ----- 6:1*9:1*10:1-ARG0 6:1*9:1-LINK-SLC 11:0-rel
 pt/nt/44/nt_4406.parse 27 16 gold tell tell.01 ----- 15:1-ARG0 16:0-rel 17:1-ARG2 18:2-ARG1
 pt/nt/44/nt_4406.parse 17 16 gold be be.03 ----- 16:0-rel

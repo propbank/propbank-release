@@ -3,14 +3,15 @@ bn/cnn/04/cnn_0409.parse 1 11 gold clear clear.01 ----- 6:1*9:1*10:1-ARG0 6:1*9:
 bn/cnn/04/cnn_0409.parse 9 8 gold get get.01 ----- 0:1*3:1*6:1-ARG0 8:0-rel 9:2-ARG1
 bn/cnn/04/cnn_0409.parse 2 4 gold say say.01 ----- 0:2-ARG0 4:0-rel 5:1-ARG1
 bn/cnn/04/cnn_0409.parse 3 13 gold detain detain.01 ----- 12:1*14:1-ARG1 12:1*14:1-LINK-PSV 13:0-rel 15:1-ARG2
-bn/cnn/04/cnn_0409.parse 5 3 gold argue argue.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
 bn/cnn/04/cnn_0409.parse 4 9 gold reverse reverse.01 ----- 5:1-ARG0 9:0-rel 10:1-ARG1
 bn/cnn/04/cnn_0409.parse 8 12 gold wound wound.01 ----- 0:2*13:1-ARG1 12:0-rel 14:1-ARGM-LOC
+bn/cnn/04/cnn_0409.parse 5 3 gold argue argue.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
 bn/cnn/04/cnn_0409.parse 2 12 gold legalize legalize.01 ----- 11:1-ARG0 12:0-rel 13:1-ARG1
-bn/cnn/04/cnn_0409.parse 0 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bn/cnn/04/cnn_0409.parse 5 10 gold hamper hamper.01 ----- 5:2-ARG0 9:0-ARGM-MOD 10:0-rel 11:1-ARG1
+bn/cnn/04/cnn_0409.parse 7 9 gold die die.01 ----- 0:1-ARG1 9:0-rel
 bn/cnn/04/cnn_0409.parse 6 17 gold be be.02 ----- 0:1-ARGM-DIS 7:2-ARGM-TMP 17:0-rel 18:2-ARG1
 bn/cnn/04/cnn_0409.parse 1 5 gold appeal appeal.01 ----- 0:1-ARG0 3:0-ARGM-MOD 4:0-ARGM-NEG 5:0-rel 6:2-ARG1
+bn/cnn/04/cnn_0409.parse 0 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bn/cnn/04/cnn_0409.parse 7 8 gold have have.01 ----- 8:0-rel
 bn/cnn/04/cnn_0409.parse 0 14 gold allow allow.01 ----- 8:1*11:1*12:1-ARG0 8:1*11:1-LINK-SLC 14:0-rel 15:1-ARG1
 bn/cnn/04/cnn_0409.parse 0 7 gold become become.01 ----- 0:1*6:1-ARG1 7:0-rel 8:2-ARG2
@@ -19,14 +20,13 @@ bn/cnn/04/cnn_0409.parse 4 3 gold decide decide.01 ----- 3:0-rel 4:1-ARG0
 bn/cnn/04/cnn_0409.parse 9 15 gold break break.13 ----- 15:0-rel 16:0-ARG1
 bn/cnn/04/cnn_0409.parse 2 10 gold draft draft.01 ----- 6:1-ARG0 8:0-ARGM-MOD 9:1-ARGM-TMP 10:0-rel 11:2-ARG1
 bn/cnn/04/cnn_0409.parse 4 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
-bn/cnn/04/cnn_0409.parse 7 9 gold die die.01 ----- 0:1-ARG1 9:0-rel
 bn/cnn/04/cnn_0409.parse 1 18 gold unionize union.02 ----- 15:1-ARG1 18:0-rel
 bn/cnn/04/cnn_0409.parse 8 10 gold have have.01 ----- 10:0-rel
 bn/cnn/04/cnn_0409.parse 9 24 gold have have.03 ----- 22:1*26:1-ARGM-TMP 23:1-ARG0 24:0-rel 25:1-ARG1
 bn/cnn/04/cnn_0409.parse 9 2 gold go go.04 ----- 2:0-rel
-bn/cnn/04/cnn_0409.parse 5 6 gold release release.01 ----- 5:1-ARG0 6:0-rel 7:1-ARG1
+bn/cnn/04/cnn_0409.parse 6 4 gold report report.01 ----- 1:1-ARG0 4:0-rel 5:1-ARG1
+bn/cnn/04/cnn_0409.parse 8 11 gold be be.03 ----- 11:0-rel
 bn/cnn/04/cnn_0409.parse 6 3 gold be be.03 ----- 3:0-rel
 bn/cnn/04/cnn_0409.parse 9 5 gold continue continue.01 ----- 0:1*3:1-ARG0 5:0-rel 6:2-ARG1
 bn/cnn/04/cnn_0409.parse 3 8 gold withhold withhold.01 ----- 0:0-ARGM-DIS 1:1-ARG0 7:0-ARGM-MOD 8:0-rel 9:2-ARG1
-bn/cnn/04/cnn_0409.parse 6 4 gold report report.01 ----- 1:1-ARG0 4:0-rel 5:1-ARG1
-bn/cnn/04/cnn_0409.parse 8 11 gold be be.03 ----- 11:0-rel
+bn/cnn/04/cnn_0409.parse 5 6 gold release release.01 ----- 5:1-ARG0 6:0-rel 7:1-ARG1

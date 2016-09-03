@@ -1,13 +1,13 @@
-bn/cnn/01/cnn_0178.parse 1 2 gold follow follow.01 ----- 0:1-ARG1 2:0-rel 3:2-ARG2
-bn/cnn/01/cnn_0178.parse 0 4 gold agree agree.01 ----- 3:1-ARG0 4:0-rel 5:2-ARG1
-bn/cnn/01/cnn_0178.parse 1 16 gold shift shift.01 ----- 8:2-ARG0 15:1-ARGM-MNR 16:0-rel 17:2-ARG1 27:1-ARG2
 bn/cnn/01/cnn_0178.parse 2 9 gold split split.01 ----- 0:1*8:1-ARG1 9:0-rel 10:1-ARGM-ADV 11:1-ARGM-TMP
+bn/cnn/01/cnn_0178.parse 1 16 gold shift shift.01 ----- 8:2-ARG0 15:1-ARGM-MNR 16:0-rel 17:2-ARG1 27:1-ARG2
 bn/cnn/01/cnn_0178.parse 0 7 gold pay pay.01 ----- 3:1*5:1-ARG0 7:0-rel 8:2-ARG1 12:2-ARG3
 bn/cnn/01/cnn_0178.parse 0 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+bn/cnn/01/cnn_0178.parse 1 2 gold follow follow.01 ----- 0:1-ARG1 2:0-rel 3:2-ARG2
 bn/cnn/01/cnn_0178.parse 1 6 gold argue argue.01 ----- 3:1-ARG0 6:0-rel 7:1-ARG1
 bn/cnn/01/cnn_0178.parse 1 24 gold pay pay.01 ----- 17:1*18:1*19:1*23:1-ARG0 17:1*18:1-LINK-SLC 24:0-rel 25:1-ARG2
 bn/cnn/01/cnn_0178.parse 1 10 gold know know.02 ----- 8:1*11:1-ARG1 8:1*11:1-LINK-PSV 9:1-ARGM-TMP 10:0-rel 12:1-ARG2
 bn/cnn/01/cnn_0178.parse 2 3 gold merge merge.01 ----- 0:1-ARG1 3:0-rel 4:1-ARGM-TMP 7:1-ARGM-TMP
+bn/cnn/01/cnn_0178.parse 0 4 gold agree agree.01 ----- 3:1-ARG0 4:0-rel 5:2-ARG1
 bn/cnn/01/cnn_0178.parse 1 20 gold be be.01 ----- 17:1*18:1*19:1-ARG1 17:1*18:1-LINK-SLC 20:0-rel 21:1-ARG2
 bn/cnn/01/cnn_0178.parse 0 14 gold settle settle.02 ----- 3:1*5:1*12:1-ARG0 14:0-rel 15:1-ARG1
 bn/cnn/01/cnn_0178.parse 3 1 gold do do.01 ----- 1:0-rel

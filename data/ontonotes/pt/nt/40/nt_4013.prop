@@ -1,3 +1,4 @@
+pt/nt/40/nt_4013.parse 102 7 gold pull pull.01 ----- 4:1-ARGM-ADV 5:1-ARG0 7:0-rel 8:1-ARG1 9:1-ARG2
 pt/nt/40/nt_4013.parse 58 8 gold grow grow.03 ----- 0:0-ARGM-DIS 1:1-ARGM-TMP 5:1-ARG1 7:1-ARGM-ADV 8:0-rel
 pt/nt/40/nt_4013.parse 10 8 gold burn burn.01 ----- 0:0-ARGM-DIS 1:2-ARGM-TMP 7:1-ARG0 8:0-rel 9:1-ARG1
 pt/nt/40/nt_4013.parse 111 2 gold say say.01 ----- 0:1-ARGM-TMP 1:1-ARG0 2:0-rel 3:1-ARG2 8:3-ARG1
@@ -11,6 +12,7 @@ pt/nt/40/nt_4013.parse 62 8 gold want want.01 ----- 7:1-ARG0 8:0-rel 9:2-ARG1
 pt/nt/40/nt_4013.parse 116 7 gold grow grow_up.04 ----- 3:1*5:1*9:1-ARGM-LOC 3:1*5:1-LINK-SLC 6:1-ARG1 7:0,8:1-rel
 pt/nt/40/nt_4013.parse 16 2 gold make make.01 ----- 0:1-ARG0 2:0-rel 3:3-ARG1
 pt/nt/40/nt_4013.parse 26 10 gold be be.01 ----- 4:2-ARG1 10:0-rel 11:1-ARG2
+pt/nt/40/nt_4013.parse 59 13 gold plant plant.01 ----- 12:1-ARG0 13:0-rel 14:1-ARG1 16:1-ARG2
 pt/nt/40/nt_4013.parse 93 4 gold hear hear.01 ----- 0:1*2:1*3:1-ARG0 0:1*2:1-LINK-SLC 4:0-rel 5:1-ARG2
 pt/nt/40/nt_4013.parse 37 2 gold do do.01 ----- 2:0-rel
 pt/nt/40/nt_4013.parse 27 2 gold look look.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel
@@ -21,7 +23,6 @@ pt/nt/40/nt_4013.parse 114 2 gold bring bring.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0
 pt/nt/40/nt_4013.parse 34 4 gold see see.01 ----- 2:1*5:1-ARG1 3:1-ARG0 4:0-rel 6:1-ARGM-MNR
 pt/nt/40/nt_4013.parse 119 11 gold know know.02 ----- 4:2*9:1*12:1-ARG1 4:2*9:1-LINK-SLC 10:1-ARG0 11:0-rel
 pt/nt/40/nt_4013.parse 125 3 gold do do.02 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:1-ARG1 6:1-ARGM-LOC 8:1-ARGM-CAU
-pt/nt/40/nt_4013.parse 71 17 gold mix mix.01 ----- 13:1*14:1*18:1-ARG1 13:1*14:1-LINK-SLC 15:1-ARG0 17:0-rel 19:1-ARG2 25:2-ARG3
 pt/nt/40/nt_4013.parse 123 2 gold have have.03 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:2-ARG1
 pt/nt/40/nt_4013.parse 23 6 gold have have.LV ----- 6:0-rel 8:0-ARGM-PRR
 pt/nt/40/nt_4013.parse 60 4 gold come come.03 ----- 0:1*5:1-ARG2 2:1-ARG1 4:0-rel
@@ -35,21 +36,22 @@ pt/nt/40/nt_4013.parse 103 1 gold sit sit_down.02 ----- 0:1-ARG1 1:0,2:1-rel
 pt/nt/40/nt_4013.parse 31 16 gold hear hear.01 ----- 14:1-ARG0 15:0-ARGM-MOD 16:0-rel 17:1-ARGM-MNR
 pt/nt/40/nt_4013.parse 9 1 gold grow grow.03 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-MNR 4:1-ARGM-LOC 6:1-ARGM-CAU
 pt/nt/40/nt_4013.parse 29 6 gold do do.01 ----- 6:0-rel
-pt/nt/40/nt_4013.parse 11 2 gold die die.01 ----- 0:1-ARG1 2:0-rel 3:1-ARGM-CAU
 pt/nt/40/nt_4013.parse 85 8 gold burn burn.01 ----- 1:1*9:1-ARG1 8:0-rel 10:1-ARGM-LOC
 pt/nt/40/nt_4013.parse 121 1 gold do do.01 ----- 1:0-rel
 pt/nt/40/nt_4013.parse 85 3 gold be be.03 ----- 3:0-rel
 pt/nt/40/nt_4013.parse 27 4 gold look look.01 ----- 0:1-ARG0 1:0-ARGM-MOD 4:0-rel
+pt/nt/40/nt_4013.parse 22 8 gold need need.01 ----- 7:1-ARG0 8:0-rel
 pt/nt/40/nt_4013.parse 44 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 pt/nt/40/nt_4013.parse 124 31 gold honor honor.01 ----- 31:0-rel
 pt/nt/40/nt_4013.parse 33 2 gold have have.01 ----- 2:0-rel
 pt/nt/40/nt_4013.parse 45 7 gold go go.01 ----- 5:1-ARG1 7:0-rel 8:2-ARG4
 pt/nt/40/nt_4013.parse 42 10 gold plant plant.01 ----- 7:1*8:1*11:1-ARG1 10:0-rel 12:1-ARG2
 pt/nt/40/nt_4013.parse 24 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
-pt/nt/40/nt_4013.parse 82 5 gold plant plant.01 ----- 1:1*3:1*4:1-ARG0 1:1*3:1-LINK-SLC 5:0-rel 6:1-ARG1
 pt/nt/40/nt_4013.parse 31 3 gold be be.01 ----- 1:1-ARG1 3:0-rel 4:0-ARGM-NEG 5:1-ARG2
 pt/nt/40/nt_4013.parse 46 1 gold keep keep.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:1-ARGM-TMP
+pt/nt/40/nt_4013.parse 94 4 gold be be.01 ----- 1:2-ARG1 4:0-rel 5:1-ARG2
 pt/nt/40/nt_4013.parse 67 20 gold plant plant.01 ----- 14:1*17:1*21:1-ARG1 14:1*17:1-LINK-SLC 18:1-ARG0 20:0-rel 22:1-ARG2
+pt/nt/40/nt_4013.parse 47 5 gold persecute persecute.01 ----- 5:0-rel
 pt/nt/40/nt_4013.parse 42 5 gold take take_away.05 ----- 0:1-ARG0 5:0,6:1-rel 7:2-ARG1
 pt/nt/40/nt_4013.parse 24 4 gold use use.01 ----- 2:1*12:1-ARGM-CAU 3:1-ARG0 4:0-rel 5:1-ARG1 7:2-ARG2
 pt/nt/40/nt_4013.parse 78 8 gold plant plant.01 ----- 4:1*6:1*7:1-ARG0 4:1*6:1-LINK-SLC 8:0-rel 9:1-ARG1 12:1-ARG2
@@ -60,51 +62,52 @@ pt/nt/40/nt_4013.parse 77 10 gold explain explain.01 ----- 9:1-ARG0 10:0-rel 11:
 pt/nt/40/nt_4013.parse 13 2 gold grow grow.03 ----- 0:1-ARG1 2:0-rel
 pt/nt/40/nt_4013.parse 31 23 gold understand understand.01 ----- 21:1-ARG0 22:0-ARGM-MOD 23:0-rel 24:1-ARGM-MNR
 pt/nt/40/nt_4013.parse 55 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 4:3-ARG1
+pt/nt/40/nt_4013.parse 76 2 gold leave leave.12 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
 pt/nt/40/nt_4013.parse 32 8 gold be be.03 ----- 8:0-rel
 pt/nt/40/nt_4013.parse 33 3 gold bless bless.01 ----- 0:0-ARGM-DIS 1:1-ARG0 3:0-rel 4:1-ARG1
 pt/nt/40/nt_4013.parse 30 1 gold have have.03 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
-pt/nt/40/nt_4013.parse 47 5 gold persecute persecute.01 ----- 5:0-rel
 pt/nt/40/nt_4013.parse 11 5 gold do do.01 ----- 5:0-rel
-pt/nt/40/nt_4013.parse 71 2 gold tell tell.01 ----- 0:1-ARGM-TMP 1:1-ARG0 2:0-rel 3:1-ARG2 4:2-ARG1
 pt/nt/40/nt_4013.parse 124 9 gold give give.LV ----- 9:0-rel 10:1-ARGM-PRR
+pt/nt/40/nt_4013.parse 11 7 gold have have.03 ----- 4:1-ARG0 6:0-ARGM-NEG 7:0-rel 8:1-ARG1
+pt/nt/40/nt_4013.parse 52 7 gold hear hear.01 ----- 3:1*5:1*6:1-ARG0 3:1*5:1-LINK-SLC 7:0-rel 8:1-ARG1
 pt/nt/40/nt_4013.parse 25 10 gold understand understand.01 ----- 4:1-ARG0 6:0-ARGM-NEG 7:1-ARGM-ADV 10:0-rel
-pt/nt/40/nt_4013.parse 112 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
-pt/nt/40/nt_4013.parse 41 15 gold do do.01 ----- 15:0-rel
 pt/nt/40/nt_4013.parse 21 4 gold have have.LV ----- 4:0-rel 6:0-ARGM-PRR
 pt/nt/40/nt_4013.parse 63 10 gold pull pull.01 ----- 8:1*14:1-ARGM-TMP 9:1-ARG0 10:0-rel 11:1-ARG2 12:1-ARG1
 pt/nt/40/nt_4013.parse 120 0 gold be be.01 ----- 0:0-rel 1:0-ARGM-NEG 2:2-ARG1 6:1-ARG2
 pt/nt/40/nt_4013.parse 10 4 gold rise rise.01 ----- 1:1*5:1-ARGM-TMP 2:1-ARG1 4:0-rel
 pt/nt/40/nt_4013.parse 115 11 gold leave leave.11 ----- 0:2-ARGM-TMP 10:1-ARG0 11:0-rel 12:1-ARG1
 pt/nt/40/nt_4013.parse 59 5 gold come come.01 ----- 0:1-ARGM-TMP 1:2-ARG1 5:0-rel 6:1-ARG4
+pt/nt/40/nt_4013.parse 36 18 gold see see.01 ----- 15:1*19:1-ARG1 16:1-ARG0 17:1-ARGM-TMP 18:0-rel
+pt/nt/40/nt_4013.parse 21 6 gold understand understand.01 ----- 0:1*2:1*3:1-ARG0 0:1*2:1-LINK-SLC 4:0-ARGM-LVB 6:0-rel
 pt/nt/40/nt_4013.parse 51 8 gold fall fall.01 ----- 4:1*6:1*7:1-ARG1 4:1*6:1-LINK-SLC 8:0-rel 9:1-ARG4
 pt/nt/40/nt_4013.parse 29 8 gold listen listen.01 ----- 5:1-ARG0 7:0-ARGM-NEG 8:0-rel
-pt/nt/40/nt_4013.parse 74 2 gold use use.01 ----- 0:1-ARG0 1:1-ARGM-TMP 2:0-rel 3:1-ARG1 4:2-ARG2
 pt/nt/40/nt_4013.parse 23 8 gold understand understand.01 ----- 1:1*2:1*3:1-ARG0 1:1*2:1-LINK-SLC 5:0-ARGM-NEG 6:0-ARGM-LVB 7:0-ARGM-EXT 8:0-rel
 pt/nt/40/nt_4013.parse 52 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
+pt/nt/40/nt_4013.parse 47 6 gold come come.01 ----- 3:1-ARG1 6:0-rel 7:1-ARGM-CAU
 pt/nt/40/nt_4013.parse 85 4 gold pull pull.01 ----- 1:1*5:1-ARG1 4:0-rel 6:1-ARG2
 pt/nt/40/nt_4013.parse 37 4 gold see see.01 ----- 0:0-ARGM-DIS 1:1-ARG0 3:0-ARGM-NEG 4:0-rel 5:1-ARG1
 pt/nt/40/nt_4013.parse 23 17 gold have have.03 ----- 11:1*15:1*18:1-ARG1 11:1*15:1-LINK-SLC 16:1-ARG0 17:0-rel
 pt/nt/40/nt_4013.parse 21 8 gold be be.03 ----- 8:0-rel
+pt/nt/40/nt_4013.parse 89 2 gold throw throw.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG1 4:1-ARG2
 pt/nt/40/nt_4013.parse 32 9 gold heal heal.01 ----- 0:1-ARGM-TMP 1:1*10:1-ARG1 2:0-ARGM-MOD 9:0-rel
-pt/nt/40/nt_4013.parse 52 7 gold hear hear.01 ----- 3:1*5:1*6:1-ARG0 3:1*5:1-LINK-SLC 7:0-rel 8:1-ARG1
+pt/nt/40/nt_4013.parse 90 7 gold grind grind.01 ----- 0:1-ARGM-LOC 1:1-ARG0 3:0-ARGM-MOD 7:0-rel 8:1-ARG1 10:1-ARGM-MNR
 pt/nt/40/nt_4013.parse 75 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
-pt/nt/40/nt_4013.parse 18 12 gold use use.01 ----- 9:1*20:1-ARGM-PRP 11:1-ARG0 12:0-rel 13:1-ARG1 15:2-ARG2
+pt/nt/40/nt_4013.parse 112 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 pt/nt/40/nt_4013.parse 32 3 gold turn turn.01 ----- 0:1-ARGM-ADV 1:1-ARG1 2:0-ARGM-MOD 3:0-rel 4:1-ARGM-DIR
 pt/nt/40/nt_4013.parse 96 5 gold be be.01 ----- 0:1-ARG1 5:0-rel 6:1-ARG2
 pt/nt/40/nt_4013.parse 75 13 gold say say.01 ----- 10:1*14:1-ARG1 11:1-ARG0 13:0-rel
-pt/nt/40/nt_4013.parse 27 11 gold see see.01 ----- 7:1-ARG0 8:0-ARGM-MOD 9:0-ARGM-NEG 10:1-ARGM-ADV 11:0-rel
 pt/nt/40/nt_4013.parse 96 16 gold own own.01 ----- 13:1*14:1*17:1-ARG1 13:1*14:1-LINK-SLC 15:1-ARG0 16:0-rel
 pt/nt/40/nt_4013.parse 36 2 gold assure assure.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG1 5:1-ARG2
-pt/nt/40/nt_4013.parse 54 7 gold teach teach.01 ----- 1:1*5:1-ARG0 7:0-rel 8:1-ARG2
 pt/nt/40/nt_4013.parse 66 6 gold bring bring.01 ----- 0:1-ARGM-TMP 1:1-ARG0 6:0-rel 7:1-ARG1 8:1-ARG2
 pt/nt/40/nt_4013.parse 65 14 gold gather gather.01 ----- 7:1*13:1-ARG0 7:1*13:1-LINK-PRO 11:1-ARGM-TMP 14:0-rel 15:1-ARG1
+pt/nt/40/nt_4013.parse 41 15 gold do do.01 ----- 15:0-rel
 pt/nt/40/nt_4013.parse 38 6 gold want want.01 ----- 0:0-ARGM-DIS 1:1-ARG0 6:0-rel 7:2-ARG1
 pt/nt/40/nt_4013.parse 6 3 gold scatter scatter.01 ----- 1:1-ARG0 3:0-rel 4:1-ARG1
 pt/nt/40/nt_4013.parse 4 6 gold teach teach.01 ----- 1:1*4:1-ARG0 6:0-rel 7:1-ARG2 8:1-ARG1
 pt/nt/40/nt_4013.parse 86 2 gold be be.01 ----- 0:1-ARG1 1:0-ARGM-MOD 2:0-rel 3:1-ARG2 5:1-ARGM-TMP
+pt/nt/40/nt_4013.parse 18 2 gold come come.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG4
 pt/nt/40/nt_4013.parse 97 6 gold be be.01 ----- 1:1-ARGM-DIS 3:2-ARG1 6:0-rel 7:1-ARG2
 pt/nt/40/nt_4013.parse 75 37 gold make make.01 ----- 34:1*38:1-ARG1 37:0-rel
-pt/nt/40/nt_4013.parse 123 6 gold accept accept.01 ----- 1:1*5:1-ARG0 1:1*5:1-LINK-PRO 6:0-rel 7:1-ARG1
 pt/nt/40/nt_4013.parse 9 9 gold be be.01 ----- 7:1-ARG1 9:0-rel 10:0-ARGM-NEG 11:1-ARG2
 pt/nt/40/nt_4013.parse 25 5 gold do do.01 ----- 5:0-rel
 pt/nt/40/nt_4013.parse 49 20 gold stop stop.03 ----- 3:1*5:1*6:1-ARG0 3:1*5:1-LINK-SLC 20:0-rel 21:1-ARG1 22:1-ARG2
@@ -113,13 +116,14 @@ pt/nt/40/nt_4013.parse 53 1 gold grow grow.03 ----- 0:1-ARG1 1:0-rel
 pt/nt/40/nt_4013.parse 56 5 gold be be.01 ----- 4:1-ARG1 5:0-rel 6:1-ARG2
 pt/nt/40/nt_4013.parse 12 3 gold fall fall.01 ----- 0:1-ARG1 3:0-rel 4:1-ARG4
 pt/nt/40/nt_4013.parse 4 2 gold use use.01 ----- 0:1-ARGM-TMP 1:1-ARG0 2:0-rel 3:1-ARG1 4:2-ARG2
+pt/nt/40/nt_4013.parse 2 2 gold get get.05 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG2
 pt/nt/40/nt_4013.parse 88 3 gold take take.01 ----- 0:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:1-ARG1 6:1-ARG2
+pt/nt/40/nt_4013.parse 54 7 gold teach teach.01 ----- 1:1*5:1-ARG0 7:0-rel 8:1-ARG2
 pt/nt/40/nt_4013.parse 24 22 gold see see.01 ----- 18:1-ARG0 20:0-ARGM-NEG 21:1-ARGM-ADV 22:0-rel
 pt/nt/40/nt_4013.parse 113 7 gold save save.03 ----- 2:2*8:1-ARG1 2:2*8:1-LINK-PSV 7:0-rel 9:1-ARGM-LOC
 pt/nt/40/nt_4013.parse 31 2 gold mind mind.05 ----- 1:0-ARG0 2:0-rel
 pt/nt/40/nt_4013.parse 21 9 gold give give.01 ----- 0:2*10:1-ARG2 7:0-ARGM-MOD 9:0-rel 11:1-ARG1
 pt/nt/40/nt_4013.parse 96 19 gold buy buy.01 ----- 9:1-ARG0 19:0-rel 20:1-ARG1
-pt/nt/40/nt_4013.parse 90 7 gold grind grind.01 ----- 0:1-ARGM-LOC 1:1-ARG0 3:0-ARGM-MOD 7:0-rel 8:1-ARG1 10:1-ARGM-MNR
 pt/nt/40/nt_4013.parse 20 5 gold know know.01 ----- 0:1-ARG0 3:0-ARGM-MOD 4:0-ARGM-NEG 5:0-rel 6:1-ARG1
 pt/nt/40/nt_4013.parse 26 19 gold listen listen.01 ----- 14:1-ARG0 16:0-ARGM-MOD 19:0-rel
 pt/nt/40/nt_4013.parse 57 10 gold grow grow.03 ----- 7:2-ARG1 10:0-rel 11:1-ARG2
@@ -129,23 +133,25 @@ pt/nt/40/nt_4013.parse 111 17 gold learn learn.01 ----- 9:2*14:1*15:1-ARG0 9:2*1
 pt/nt/40/nt_4013.parse 34 1 gold understand understand.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 pt/nt/40/nt_4013.parse 125 13 gold believe believe.01 ----- 9:1-ARG0 12:0-ARGM-NEG 13:0-rel 14:1-ARG1
 pt/nt/40/nt_4013.parse 6 2 gold be be.03 ----- 2:0-rel
-pt/nt/40/nt_4013.parse 73 1 gold use use.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:2-ARG2
 pt/nt/40/nt_4013.parse 36 14 gold see see.01 ----- 6:1*12:1-ARG0 14:0-rel 15:2-ARG1
+pt/nt/40/nt_4013.parse 22 3 gold have have.03 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:2-ARG1
 pt/nt/40/nt_4013.parse 30 9 gold see see.01 ----- 5:1*7:1-ARG0 9:0-rel
 pt/nt/40/nt_4013.parse 99 11 gold buy buy.01 ----- 0:1*9:1-ARG0 11:0-rel 12:1-ARG1
-pt/nt/40/nt_4013.parse 84 5 gold gather gather.01 ----- 1:1*3:1*4:1-ARG0 1:1*3:1-LINK-SLC 5:0-rel
+pt/nt/40/nt_4013.parse 116 1 gold go go.02 ----- 0:1-ARG0 1:0-rel 2:1-ARG4
 pt/nt/40/nt_4013.parse 65 18 gold tie tie.01 ----- 7:1*13:1-ARG0 7:1*13:1-LINK-PRO 11:1-ARGM-TMP 18:0-rel 19:1-ARG1 20:1-ARG3 21:2-ARGM-PRP
-pt/nt/40/nt_4013.parse 102 7 gold pull pull.01 ----- 4:1-ARGM-ADV 5:1-ARG0 7:0-rel 8:1-ARG1 9:1-ARG2
+pt/nt/40/nt_4013.parse 3 3 gold stay stay.01 ----- 0:1-ARG1 3:0-rel 4:1-ARG3
 pt/nt/40/nt_4013.parse 73 5 gold tell tell.01 ----- 0:1*3:1-ARG0 5:0-rel 6:1-ARG2 9:1-ARG1
 pt/nt/40/nt_4013.parse 124 29 gold get get.01 ----- 16:2-ARGM-LOC 25:1-ARG0 28:0-ARGM-NEG 29:0-rel 30:1-ARG1
 pt/nt/40/nt_4013.parse 107 2 gold throw throw.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG1 6:1-ARG2
-pt/nt/40/nt_4013.parse 76 2 gold leave leave.12 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
+pt/nt/40/nt_4013.parse 111 22 gold have have.03 ----- 8:2-ARG0 22:0-rel 23:2-ARG1
 pt/nt/40/nt_4013.parse 7 2 gold come come.01 ----- 0:1-ARG1 2:0-rel
+pt/nt/40/nt_4013.parse 69 3 gold grow grow.03 ----- 1:1*4:1-ARGM-TMP 2:1-ARG1 3:0-rel
 pt/nt/40/nt_4013.parse 75 21 gold use use.01 ----- 17:1*20:1-ARG0 21:0-rel 22:1-ARG1
 pt/nt/40/nt_4013.parse 28 7 gold be be.03 ----- 7:0-rel
 pt/nt/40/nt_4013.parse 50 2 gold do do.01 ----- 2:0-rel
 pt/nt/40/nt_4013.parse 77 2 gold come come.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG4
-pt/nt/40/nt_4013.parse 100 13 gold put put.01 ----- 8:1*10:1*11:1*14:1-ARG1 8:1*10:1-LINK-SLC 13:0-rel 15:1-ARG2
+pt/nt/40/nt_4013.parse 41 17 gold understand understand.01 ----- 3:1*5:1*6:1-ARG0 3:1*5:1-LINK-SLC 16:0-ARGM-NEG 17:0-rel 18:1-ARG1
+pt/nt/40/nt_4013.parse 2 7 gold sit sit_down.02 ----- 0:1-ARGM-DIS 1:1-ARG1 7:0,8:1-rel
 pt/nt/40/nt_4013.parse 106 5 gold separate separate.01 ----- 0:1-ARG0 2:0-ARGM-MOD 5:0-rel 6:1-ARG1 9:1-ARG2
 pt/nt/40/nt_4013.parse 55 13 gold plant plant.01 ----- 9:1*11:1*12:1-ARG0 9:1*11:1-LINK-SLC 13:0-rel 14:1-ARG1 16:1-ARG2
 pt/nt/40/nt_4013.parse 56 14 gold plant plant.01 ----- 0:1-ARGM-TMP 3:1-ARGM-TMP 8:2-ARG0 14:0-rel 15:1-ARG1 16:1-ARG2
@@ -160,96 +166,87 @@ pt/nt/40/nt_4013.parse 71 27 gold make make.01 ----- 15:1*25:1-ARG0 27:0-rel 28:
 pt/nt/40/nt_4013.parse 81 7 gold belong belong.01 ----- 3:1*5:1*6:1-ARG0 3:1*5:1-LINK-SLC 7:0-rel 8:1-ARG1
 pt/nt/40/nt_4013.parse 44 14 gold accept accept.01 ----- 3:1*5:1*6:1-ARG0 3:1*5:1-LINK-SLC 11:1-ARGM-MNR 14:0-rel 15:1-ARG1
 pt/nt/40/nt_4013.parse 29 1 gold have have.03 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+pt/nt/40/nt_4013.parse 24 9 gold teach teach.01 ----- 3:1*7:1-ARG0 9:0-rel 10:1-ARG2
 pt/nt/40/nt_4013.parse 25 8 gold hear hear.01 ----- 4:1-ARG0 6:0-ARGM-NEG 7:1-ARGM-ADV 8:0-rel
 pt/nt/40/nt_4013.parse 74 6 gold teach teach.01 ----- 0:1*4:1-ARG0 6:0-rel 7:1-ARG2
-pt/nt/40/nt_4013.parse 94 4 gold be be.01 ----- 1:2-ARG1 4:0-rel 5:1-ARG2
-pt/nt/40/nt_4013.parse 44 7 gold hear hear.01 ----- 3:1*5:1*6:1-ARG0 3:1*5:1-LINK-SLC 7:0-rel 8:1-ARG1
+pt/nt/40/nt_4013.parse 45 4 gold let let.01 ----- 0:0-ARGM-DIS 1:1-ARG0 3:0-ARGM-NEG 4:0-rel 5:2-ARG1
+pt/nt/40/nt_4013.parse 82 5 gold plant plant.01 ----- 1:1*3:1*4:1-ARG0 1:1*3:1-LINK-SLC 5:0-rel 6:1-ARG1
+pt/nt/40/nt_4013.parse 8 2 gold fall fall.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG4
 pt/nt/40/nt_4013.parse 60 1 gold do do.01 ----- 1:0-rel
-pt/nt/40/nt_4013.parse 36 18 gold see see.01 ----- 15:1*19:1-ARG1 16:1-ARG0 17:1-ARGM-TMP 18:0-rel
 pt/nt/40/nt_4013.parse 75 30 gold have have.01 ----- 30:0-rel
 pt/nt/40/nt_4013.parse 124 2 gold say say.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG2 7:3-ARG1
-pt/nt/40/nt_4013.parse 22 3 gold have have.03 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:2-ARG1
 pt/nt/40/nt_4013.parse 70 10 gold come come.01 ----- 7:1-ARG1 10:0-rel
-pt/nt/40/nt_4013.parse 116 1 gold go go.02 ----- 0:1-ARG0 1:0-rel 2:1-ARG4
+pt/nt/40/nt_4013.parse 123 6 gold accept accept.01 ----- 1:1*5:1-ARG0 1:1*5:1-LINK-PRO 6:0-rel 7:1-ARG1
 pt/nt/40/nt_4013.parse 75 4 gold make make.01 ----- 2:1-ARG0 4:0-rel 5:2-ARG1
 pt/nt/40/nt_4013.parse 121 7 gold live live.01 ----- 0:0-ARGM-DIS 2:0-ARGM-NEG 3:1-ARG0 6:1-ARGM-TMP 7:0-rel 8:2-ARGM-LOC
+pt/nt/40/nt_4013.parse 110 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 4:2-ARG1
 pt/nt/40/nt_4013.parse 18 17 gold teach teach.01 ----- 11:1*15:1-ARG0 17:0-rel 18:1-ARG2
 pt/nt/40/nt_4013.parse 76 6 gold go go.02 ----- 0:1-ARGM-DIS 1:1-ARG0 6:0-rel 7:1-ARG4
-pt/nt/40/nt_4013.parse 89 2 gold throw throw.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG1 4:1-ARG2
 pt/nt/40/nt_4013.parse 87 5 gold send send.03 ----- 0:2-ARG0 4:0-ARGM-MOD 5:0-rel 6:1-ARG1
 pt/nt/40/nt_4013.parse 118 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 4:2-ARG1
-pt/nt/40/nt_4013.parse 24 9 gold teach teach.01 ----- 3:1*7:1-ARG0 9:0-rel 10:1-ARG2
 pt/nt/40/nt_4013.parse 99 3 gold sell sell.01 ----- 0:1-ARG0 3:0-rel 4:2-ARG1 9:2-ARGM-PRP
 pt/nt/40/nt_4013.parse 54 2 gold use use.01 ----- 0:1-ARGM-TMP 1:1-ARG0 2:0-rel 3:1-ARG1 5:2-ARG2
-pt/nt/40/nt_4013.parse 110 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 4:2-ARG1
 pt/nt/40/nt_4013.parse 48 8 gold fall fall.01 ----- 4:1*6:1*7:1-ARG1 4:1*6:1-LINK-SLC 8:0-rel 9:1-ARG4
 pt/nt/40/nt_4013.parse 49 24 gold grow grow.03 ----- 21:1*23:1-ARG1 21:1*23:1-LINK-PRO 24:0-rel
 pt/nt/40/nt_4013.parse 26 17 gold listen listen.01 ----- 14:1-ARG0 16:0-ARGM-MOD 17:0-rel
 pt/nt/40/nt_4013.parse 109 2 gold ask ask.01 ----- 0:1-ARGM-TMP 1:1-ARG0 2:0-rel 3:1-ARG2 7:1-ARG1
+pt/nt/40/nt_4013.parse 100 13 gold put put.01 ----- 8:1*10:1*11:1*14:1-ARG1 8:1*10:1-LINK-SLC 13:0-rel 15:1-ARG2
+pt/nt/40/nt_4013.parse 74 2 gold use use.01 ----- 0:1-ARG0 1:1-ARGM-TMP 2:0-rel 3:1-ARG1 4:2-ARG2
 pt/nt/40/nt_4013.parse 56 21 gold leave leave.11 ----- 0:1-ARGM-TMP 3:1-ARGM-TMP 8:2-ARG0 20:1-ARGM-TMP 21:0-rel
 pt/nt/40/nt_4013.parse 83 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:2-ARG2
 pt/nt/40/nt_4013.parse 118 16 gold do do.02 ----- 6:1*14:1-ARG0 6:1*14:1-LINK-PRO 16:0-rel 17:1-ARG1
 pt/nt/40/nt_4013.parse 119 0 gold be be.01 ----- 0:0-rel 1:0-ARGM-NEG 2:1-ARG1 3:1-ARG2
 pt/nt/40/nt_4013.parse 92 2 gold be be.01 ----- 0:1-ARG1 1:0-ARGM-MOD 2:0-rel 3:1-ARG2
 pt/nt/40/nt_4013.parse 50 4 gold produce produce.01 ----- 0:1-ARGM-DIS 1:1-ARG0 3:0-ARGM-NEG 4:0-rel 5:1-ARG1 7:1-ARGM-TMP
-pt/nt/40/nt_4013.parse 22 8 gold need need.01 ----- 7:1-ARG0 8:0-rel
 pt/nt/40/nt_4013.parse 64 7 gold grow grow.03 ----- 2:2-ARG1 7:0-rel 8:1-ARGM-MNR 9:1-ARGM-TMP
 pt/nt/40/nt_4013.parse 122 6 gold do do.02 ----- 0:1*9:1-ARGM-MNR 2:1*4:1-ARG0 6:0-rel 7:1-ARG1
 pt/nt/40/nt_4013.parse 23 10 gold lose lose.02 ----- 0:0-ARGM-DIS 1:2-ARG0 9:0-ARGM-MOD 10:0-rel 11:2-ARG1
 pt/nt/40/nt_4013.parse 8 9 gold be be.02 ----- 4:1*7:1*13:1-ARGM-LOC 4:1*7:1-LINK-SLC 9:0-rel 10:0-ARGM-NEG 11:1-ARG1
+pt/nt/40/nt_4013.parse 18 12 gold use use.01 ----- 9:1*20:1-ARGM-PRP 11:1-ARG0 12:0-rel 13:1-ARG1 15:2-ARG2
 pt/nt/40/nt_4013.parse 99 7 gold have have.03 ----- 4:1*5:1*8:1-ARG1 4:1*5:1-LINK-SLC 6:1-ARG0 7:0-rel
 pt/nt/40/nt_4013.parse 42 9 gold be be.03 ----- 9:0-rel
 pt/nt/40/nt_4013.parse 90 5 gold cry cry.02 ----- 0:1-ARGM-LOC 1:1-ARG0 3:0-ARGM-MOD 5:0-rel
-pt/nt/40/nt_4013.parse 21 6 gold understand understand.01 ----- 0:1*2:1*3:1-ARG0 0:1*2:1-LINK-SLC 4:0-ARGM-LVB 6:0-rel
-pt/nt/40/nt_4013.parse 59 13 gold plant plant.01 ----- 12:1-ARG0 13:0-rel 14:1-ARG1 16:1-ARG2
 pt/nt/40/nt_4013.parse 0 10 gold sit sit.01 ----- 0:1-ARGM-TMP 3:1-ARG1 10:0-rel 11:1-ARG2
-pt/nt/40/nt_4013.parse 65 23 gold be be.03 ----- 23:0-rel
+pt/nt/40/nt_4013.parse 71 17 gold mix mix.01 ----- 13:1*14:1*18:1-ARG1 13:1*14:1-LINK-SLC 15:1-ARG0 17:0-rel 19:1-ARG2 25:2-ARG3
 pt/nt/40/nt_4013.parse 98 3 gold find find.01 ----- 0:1-ARGM-TMP 2:1-ARG0 3:0-rel 4:1-ARG1
+pt/nt/40/nt_4013.parse 11 2 gold die die.01 ----- 0:1-ARG1 2:0-rel 3:1-ARGM-CAU
 pt/nt/40/nt_4013.parse 96 10 gold go go.02 ----- 9:1-ARG0 10:0-rel
 pt/nt/40/nt_4013.parse 75 36 gold be be.03 ----- 36:0-rel
 pt/nt/40/nt_4013.parse 39 4 gold hear hear.01 ----- 0:0-ARGM-DIS 1:1-ARG0 3:0-ARGM-NEG 4:0-rel 5:1-ARG1
-pt/nt/40/nt_4013.parse 11 7 gold have have.03 ----- 4:1-ARG0 6:0-ARGM-NEG 7:0-rel 8:1-ARG1
 pt/nt/40/nt_4013.parse 13 4 gold stop stop.03 ----- 0:1-ARG0 4:0-rel 5:1-ARG1 8:1-ARG2
 pt/nt/40/nt_4013.parse 43 8 gold fall fall.01 ----- 4:1*6:1*7:1-ARG1 4:1*6:1-LINK-SLC 8:0-rel 9:1-ARG4
 pt/nt/40/nt_4013.parse 62 6 gold do do.01 ----- 6:0-rel
 pt/nt/40/nt_4013.parse 59 9 gold say say.01 ----- 0:1-ARGM-TMP 1:2-ARG0 9:0-rel 12:2-ARG1
 pt/nt/40/nt_4013.parse 104 2 gold throw throw_away.07 ----- 0:1-ARGM-TMP 1:1-ARG0 2:0,3:1-rel 4:1-ARG1
 pt/nt/40/nt_4013.parse 118 8 gold get get.01 ----- 4:1*18:1-ARGM-LOC 6:1-ARG0 8:0-rel 9:2-ARG1
-pt/nt/40/nt_4013.parse 93 8 gold listen listen.01 ----- 0:2-ARGM-DIS 7:1-ARG0 8:0-rel
+pt/nt/40/nt_4013.parse 27 11 gold see see.01 ----- 7:1-ARG0 8:0-ARGM-MOD 9:0-ARGM-NEG 10:1-ARGM-ADV 11:0-rel
 pt/nt/40/nt_4013.parse 53 3 gold produce produce.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
+pt/nt/40/nt_4013.parse 84 5 gold gather gather.01 ----- 1:1*3:1*4:1-ARG0 1:1*3:1-LINK-SLC 5:0-rel
 pt/nt/40/nt_4013.parse 117 10 gold be be.01 ----- 9:1-ARG1 10:0-rel 11:1-ARG2
 pt/nt/40/nt_4013.parse 17 8 gold listen listen.01 ----- 0:2-ARGM-DIS 7:1-ARG0 8:0-rel
-pt/nt/40/nt_4013.parse 45 4 gold let let.01 ----- 0:0-ARGM-DIS 1:1-ARG0 3:0-ARGM-NEG 4:0-rel 5:2-ARG1
-pt/nt/40/nt_4013.parse 115 2 gold finish finish.01 ----- 0:1*8:1-ARGM-TMP 1:1-ARG0 2:0-rel 3:2-ARG1
-pt/nt/40/nt_4013.parse 125 1 gold do do.01 ----- 1:0-rel
+pt/nt/40/nt_4013.parse 41 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 pt/nt/40/nt_4013.parse 63 2 gold answer answer.01 ----- 1:1-ARG0 2:0-rel 5:2-ARG2
 pt/nt/40/nt_4013.parse 6 10 gold fall fall.01 ----- 0:1-ARGM-TMP 7:2-ARG1 10:0-rel 11:1-ARG4
-pt/nt/40/nt_4013.parse 111 22 gold have have.03 ----- 8:2-ARG0 22:0-rel 23:2-ARG1
 pt/nt/40/nt_4013.parse 24 19 gold do do.01 ----- 19:0-rel
-pt/nt/40/nt_4013.parse 70 12 gold make make.01 ----- 7:1-ARG0 12:0-rel 13:1-ARG1 14:1-ARGM-LOC
-pt/nt/40/nt_4013.parse 3 3 gold stay stay.01 ----- 0:1-ARG1 3:0-rel 4:1-ARG3
 pt/nt/40/nt_4013.parse 62 3 gold ask ask.01 ----- 1:1-ARG0 3:0-rel 6:1-ARG1
-pt/nt/40/nt_4013.parse 102 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
-pt/nt/40/nt_4013.parse 69 3 gold grow grow.03 ----- 1:1*4:1-ARGM-TMP 2:1-ARG1 3:0-rel
 pt/nt/40/nt_4013.parse 108 4 gold cry cry.02 ----- 0:1-ARGM-LOC 1:1-ARG0 3:0-ARGM-MOD 4:0-rel
+pt/nt/40/nt_4013.parse 71 2 gold tell tell.01 ----- 0:1-ARGM-TMP 1:1-ARG0 2:0-rel 3:1-ARG2 4:2-ARG1
 pt/nt/40/nt_4013.parse 62 13 gold pull pull.01 ----- 9:1-ARG0 13:0-rel 14:1-ARG2 15:1-ARG1
 pt/nt/40/nt_4013.parse 49 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 pt/nt/40/nt_4013.parse 67 12 gold be be.01 ----- 9:2-ARG1 12:0-rel 13:1-ARG2
 pt/nt/40/nt_4013.parse 110 7 gold understand understand.01 ----- 4:1-ARGM-DIS 6:1-ARG0 7:0-rel
 pt/nt/40/nt_4013.parse 71 11 gold be be.01 ----- 8:2-ARG1 11:0-rel 12:1-ARG2
 pt/nt/40/nt_4013.parse 68 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
-pt/nt/40/nt_4013.parse 111 16 gold have have.01 ----- 16:0-rel
 pt/nt/40/nt_4013.parse 82 9 gold be be.01 ----- 0:0-ARGM-DIS 1:2-ARG1 9:0-rel 10:1-ARG2
 pt/nt/40/nt_4013.parse 61 8 gold plant plant.01 ----- 6:1-ARG0 8:0-rel 9:1-ARG1
 pt/nt/40/nt_4013.parse 115 4 gold teach teach.01 ----- 1:1*3:1-ARG0 4:0-rel 5:1-ARGM-MNR
 pt/nt/40/nt_4013.parse 13 10 gold grow grow.03 ----- 5:1*9:1-ARG1 5:1*9:1-LINK-PRO 10:0-rel
-pt/nt/40/nt_4013.parse 39 2 gold do do.01 ----- 2:0-rel
 pt/nt/40/nt_4013.parse 105 2 gold be be.01 ----- 0:1-ARG1 1:0-ARGM-MOD 2:0-rel 3:1-ARG2
 pt/nt/40/nt_4013.parse 69 7 gold be be.01 ----- 0:0-ARGM-DIS 1:2-ARGM-TMP 6:1-ARG1 7:0-rel 8:2-ARG2
 pt/nt/40/nt_4013.parse 38 9 gold hear hear.01 ----- 1:1*7:1-ARG0 9:0-rel 10:2-ARG1
 pt/nt/40/nt_4013.parse 23 4 gold do do.01 ----- 4:0-rel
+pt/nt/40/nt_4013.parse 102 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 pt/nt/40/nt_4013.parse 52 11 gold understand understand.01 ----- 3:1*5:1*6:1-ARG0 3:1*5:1-LINK-SLC 11:0-rel 12:1-ARG1
-pt/nt/40/nt_4013.parse 63 19 gold pull pull.01 ----- 8:2-ARGM-TMP 16:1-ARG0 17:0-ARGM-MOD 18:1-ARGM-ADV 19:0-rel 20:1-ARG2 21:1-ARG1
 pt/nt/40/nt_4013.parse 113 1 gold have have.03 ----- 0:1-ARG0 1:0-rel 2:3-ARG1
 pt/nt/40/nt_4013.parse 18 10 gold do do.01 ----- 10:0-rel
 pt/nt/40/nt_4013.parse 66 2 gold gather gather.01 ----- 0:1-ARGM-TMP 1:1-ARG0 2:0-rel 3:1-ARG1
@@ -258,26 +255,23 @@ pt/nt/40/nt_4013.parse 87 12 gold find find.01 ----- 10:1-ARG0 11:0-ARGM-MOD 12:
 pt/nt/40/nt_4013.parse 15 2 gold grow grow.03 ----- 0:1-ARGM-LOC 1:1-ARG1 2:0-rel
 pt/nt/40/nt_4013.parse 118 5 gold do do.01 ----- 5:0-rel
 pt/nt/40/nt_4013.parse 35 5 gold hear hear.01 ----- 3:1*6:1-ARG1 4:1-ARG0 5:0-rel 7:1-ARGM-MNR
-pt/nt/40/nt_4013.parse 47 6 gold come come.01 ----- 3:1-ARG1 6:0-rel 7:1-ARGM-CAU
 pt/nt/40/nt_4013.parse 25 1 gold hear hear.01 ----- 0:1-ARG0 1:0-rel
 pt/nt/40/nt_4013.parse 72 6 gold rise rise.01 ----- 3:1-ARG1 6:0-rel
 pt/nt/40/nt_4013.parse 28 9 gold close close.01 ----- 0:1-ARGM-DIS 2:2*10:1-ARG1 8:1-ARGM-TMP 9:0-rel
 pt/nt/40/nt_4013.parse 65 24 gold burn burn.01 ----- 19:1*21:1*25:1-ARG1 24:0-rel
 pt/nt/40/nt_4013.parse 79 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2
 pt/nt/40/nt_4013.parse 95 4 gold find find.01 ----- 0:1-ARGM-TMP 2:1-ARG0 4:0-rel 5:1-ARG1
-pt/nt/40/nt_4013.parse 120 9 gold be be.01 ----- 9:0-rel 10:0-ARGM-NEG 11:1-ARG1 13:1-ARG2
 pt/nt/40/nt_4013.parse 87 17 gold cause cause.01 ----- 13:1*15:1*16:1-ARG0 13:1*15:1-LINK-SLC 17:0-rel 18:1-ARG1
 pt/nt/40/nt_4013.parse 125 11 gold do do.01 ----- 11:0-rel
-pt/nt/40/nt_4013.parse 18 2 gold come come.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG4
 pt/nt/40/nt_4013.parse 100 6 gold be be.01 ----- 1:1-ARGM-DIS 3:2-ARG1 6:0-rel 7:1-ARG2
 pt/nt/40/nt_4013.parse 87 24 gold do do.02 ----- 20:1*22:1*23:1-ARG0 20:1*22:1-LINK-SLC 24:0-rel 25:1-ARG1
-pt/nt/40/nt_4013.parse 2 7 gold sit sit_down.02 ----- 0:1-ARGM-DIS 1:1-ARG1 7:0,8:1-rel
 pt/nt/40/nt_4013.parse 24 15 gold see see.01 ----- 14:1-ARG0 15:0-rel
 pt/nt/40/nt_4013.parse 40 2 gold listen listen.01 ----- 1:1-ARGM-DIS 2:0-rel 3:1-ARG1 14:2-ARGM-PRD
 pt/nt/40/nt_4013.parse 0 4 gold go go.02 ----- 0:1-ARGM-TMP 3:1-ARG0 4:0-rel 5:1-ARGM-DIR
 pt/nt/40/nt_4013.parse 90 4 gold be be.03 ----- 4:0-rel
 pt/nt/40/nt_4013.parse 18 6 gold ask ask.01 ----- 0:1-ARG0 6:0-rel 9:2-ARG1
 pt/nt/40/nt_4013.parse 40 20 gold fall fall.01 ----- 16:1*18:1*19:1-ARG1 16:1*18:1-LINK-SLC 20:0-rel 21:1-ARG4
+pt/nt/40/nt_4013.parse 93 8 gold listen listen.01 ----- 0:2-ARGM-DIS 7:1-ARG0 8:0-rel
 pt/nt/40/nt_4013.parse 38 13 gold hear hear.01 ----- 10:1*14:1-ARG1 11:1-ARG0 12:1-ARGM-TMP 13:0-rel
 pt/nt/40/nt_4013.parse 108 6 gold grind grind.01 ----- 0:1-ARGM-LOC 1:1-ARG0 3:0-ARGM-MOD 6:0-rel 7:1-ARG1 9:1-ARGM-MNR
 pt/nt/40/nt_4013.parse 15 4 gold make make.01 ----- 0:1-ARGM-LOC 1:1-ARG0 4:0-rel 5:1-ARG1
@@ -287,12 +281,13 @@ pt/nt/40/nt_4013.parse 36 11 gold want want.01 ----- 6:1-ARG0 11:0-rel 12:2-ARG1
 pt/nt/40/nt_4013.parse 5 1 gold tell tell.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG2 3:2-ARG1
 pt/nt/40/nt_4013.parse 26 6 gold say say.01 ----- 4:1*7:1-ARG1 5:1-ARG0 6:0-rel 8:1-ARG3
 pt/nt/40/nt_4013.parse 19 7 gold know know.02 ----- 4:1-ARG0 6:0-ARGM-MOD 7:0-rel 8:2-ARG1
-pt/nt/40/nt_4013.parse 2 2 gold get get.05 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG2
+pt/nt/40/nt_4013.parse 73 1 gold use use.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:2-ARG2
+pt/nt/40/nt_4013.parse 125 1 gold do do.01 ----- 1:0-rel
 pt/nt/40/nt_4013.parse 5 13 gold sow sow.01 ----- 7:1*11:1-ARG0 13:0-rel 14:1-ARG1
 pt/nt/40/nt_4013.parse 101 2 gold catch catch.03 ----- 0:1-ARG2 2:0-rel 3:2-ARG1
+pt/nt/40/nt_4013.parse 44 7 gold hear hear.01 ----- 3:1*5:1*6:1-ARG0 3:1*5:1-LINK-SLC 7:0-rel 8:1-ARG1
 pt/nt/40/nt_4013.parse 47 17 gold give give_up.07 ----- 0:2-ARGM-TMP 16:1-ARG0 17:0,18:1-rel
 pt/nt/40/nt_4013.parse 35 2 gold understand understand.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:2-ARG1
-pt/nt/40/nt_4013.parse 8 2 gold fall fall.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG4
 pt/nt/40/nt_4013.parse 94 8 gold hide hide.01 ----- 6:1*9:1-ARG1 6:1*9:1-LINK-PSV 8:0-rel 10:1-ARGM-LOC
 pt/nt/40/nt_4013.parse 122 1 gold be be.01 ----- 1:0-rel 2:1-ARG1 3:2-ARG2
 pt/nt/40/nt_4013.parse 106 3 gold come come.01 ----- 0:1-ARG1 2:0-ARGM-MOD 3:0-rel
@@ -301,16 +296,21 @@ pt/nt/40/nt_4013.parse 30 6 gold refuse refuse.01 ----- 5:1-ARG0 6:0-rel 7:2-ARG
 pt/nt/40/nt_4013.parse 97 10 gold look look.01 ----- 8:1-ARG0 10:0-rel 11:1-ARG1
 pt/nt/40/nt_4013.parse 56 12 gold come come.01 ----- 0:1-ARGM-TMP 3:1-ARGM-TMP 8:2-ARG1 12:0-rel
 pt/nt/40/nt_4013.parse 57 4 gold grow grow.03 ----- 0:1-ARGM-TMP 2:1-ARG1 4:0-rel
+pt/nt/40/nt_4013.parse 65 23 gold be be.03 ----- 23:0-rel
 pt/nt/40/nt_4013.parse 103 4 gold put put.01 ----- 0:1-ARG0 4:0-rel 5:1-ARG1 9:1-ARG2
 pt/nt/40/nt_4013.parse 64 1 gold let let.01 ----- 0:1-ARG0 1:0-rel 2:3-ARG1
 pt/nt/40/nt_4013.parse 124 27 gold do do.01 ----- 27:0-rel
-pt/nt/40/nt_4013.parse 41 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
+pt/nt/40/nt_4013.parse 39 2 gold do do.01 ----- 2:0-rel
+pt/nt/40/nt_4013.parse 115 2 gold finish finish.01 ----- 0:1*8:1-ARGM-TMP 1:1-ARG0 2:0-rel 3:2-ARG1
+pt/nt/40/nt_4013.parse 70 12 gold make make.01 ----- 7:1-ARG0 12:0-rel 13:1-ARG1 14:1-ARGM-LOC
+pt/nt/40/nt_4013.parse 111 16 gold have have.01 ----- 16:0-rel
 pt/nt/40/nt_4013.parse 96 1 gold hide hide.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:1-ARGM-TMP
+pt/nt/40/nt_4013.parse 63 19 gold pull pull.01 ----- 8:2-ARGM-TMP 16:1-ARG0 17:0-ARGM-MOD 18:1-ARGM-ADV 19:0-rel 20:1-ARG2 21:1-ARG1
 pt/nt/40/nt_4013.parse 81 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:2-ARG2
 pt/nt/40/nt_4013.parse 91 5 gold shine shine.01 ----- 0:1-ARGM-TMP 1:1-ARG0 4:0-ARGM-MOD 5:0-rel 6:1-ARGM-MNR
+pt/nt/40/nt_4013.parse 120 9 gold be be.01 ----- 9:0-rel 10:0-ARGM-NEG 11:1-ARG1 13:1-ARG2
 pt/nt/40/nt_4013.parse 75 31 gold be be.01 ----- 27:1*28:1*29:1-ARG1 27:1*28:1-LINK-SLC 31:0-rel 32:1-ARG2 33:1-ARGM-TMP
 pt/nt/40/nt_4013.parse 45 2 gold do do.01 ----- 2:0-rel
 pt/nt/40/nt_4013.parse 1 3 gold gather gather.01 ----- 0:1-ARG0 3:0-rel 4:1-ARGM-LOC
 pt/nt/40/nt_4013.parse 70 1 gold become become.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
-pt/nt/40/nt_4013.parse 41 17 gold understand understand.01 ----- 3:1*5:1*6:1-ARG0 3:1*5:1-LINK-SLC 16:0-ARGM-NEG 17:0-rel 18:1-ARG1
 pt/nt/40/nt_4013.parse 80 3 gold be be.01 ----- 0:1-ARG1 3:0-rel 4:2-ARG2

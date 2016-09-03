@@ -1,6 +1,5 @@
 nw/wsj/05/wsj_0595.parse 25 3 gold have have.01 ----- 3:0-rel
 nw/wsj/05/wsj_0595.parse 20 16 gold survey survey.01 ----- 13:0-ARGM-TMP 14:0-ARG1 15:0-ARG0 16:0-rel
-nw/wsj/05/wsj_0595.parse 22 18 gold do do.01 ----- 18:0-rel
 nw/wsj/05/wsj_0595.parse 10 21 gold educate educate.01 ----- 20:0-ARGM-PRD 21:0-rel
 nw/wsj/05/wsj_0595.parse 15 23 gold be be.03 ----- 23:0-rel
 nw/wsj/05/wsj_0595.parse 27 16 gold support support.01 ----- 16:0-rel 17:1-ARG1 19:1-ARGM-ADJ
@@ -9,7 +8,6 @@ nw/wsj/05/wsj_0595.parse 2 8 gold analyze analyze.01 ----- 0:3-ARG0 8:0-rel 9:2-
 nw/wsj/05/wsj_0595.parse 14 28 gold help help.01 ----- 27:0-ARG0 28:0-rel 29:1-ARG1
 nw/wsj/05/wsj_0595.parse 26 6 gold find find.01 ----- 0:2-ARG0 6:0-rel 7:2-ARG1
 nw/wsj/05/wsj_0595.parse 10 26 gold shift shift.01 ----- 15:2*24:1-ARG0 26:0-rel 27:2-ARG1
-nw/wsj/05/wsj_0595.parse 26 5 gold survey survey.01 ----- 0:1-ARG0 2:1-ARGM-TMP 4:0-ARG2 5:0-rel
 nw/wsj/05/wsj_0595.parse 34 6 gold be be.01 ----- 0:2-ARG1 6:0-rel 7:3-ARG2
 nw/wsj/05/wsj_0595.parse 18 9 gold be be.01 ----- 0:0-ARGM-DIS 1:2-ARG1 9:0-rel 10:1-ARG2 12:1-ARGM-TMP
 nw/wsj/05/wsj_0595.parse 14 2 gold place place.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1 6:1-ARG2
@@ -26,8 +24,8 @@ nw/wsj/05/wsj_0595.parse 14 26 gold want want.01 ----- 25:1-ARG0 26:0-rel 27:2-A
 nw/wsj/05/wsj_0595.parse 10 9 gold say say.01 ----- 0:1-ARG1-DSP 7:1-ARG0 9:0-rel
 nw/wsj/05/wsj_0595.parse 10 3 gold be be.01 ----- 3:0-rel 4:1-ARG2 14:1-ARG1
 nw/wsj/05/wsj_0595.parse 20 3 gold base base.02 ----- 0:1*4:1-ARG1 3:0-rel 5:1-ARG2
+nw/wsj/05/wsj_0595.parse 13 19 gold declare declare.01 ----- 16:1-ARG0 19:0-rel 20:1-ARG1
 nw/wsj/05/wsj_0595.parse 20 2 gold be be.03 ----- 2:0-rel
-nw/wsj/05/wsj_0595.parse 15 4 gold hold hold.02 ----- 0:1-ARG0 3:1-ARGM-TMP 4:0-rel 5:1-ARG1
 nw/wsj/05/wsj_0595.parse 36 15 gold have have.01 ----- 15:0-rel
 nw/wsj/05/wsj_0595.parse 29 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-DIS 3:3-ARG2
 nw/wsj/05/wsj_0595.parse 13 7 gold bankrupt bankrupt.01 ----- 0:3;9:1-ARG0 7:0-rel 8:1-ARG1
@@ -35,60 +33,62 @@ nw/wsj/05/wsj_0595.parse 10 29 gold be be.03 ----- 29:0-rel
 nw/wsj/05/wsj_0595.parse 18 14 gold stay stay.01 ----- 13:0-ARG1 14:0-rel
 nw/wsj/05/wsj_0595.parse 20 9 gold sample sample.01 ----- 6:2*10:1-ARG1 6:2*10:1-LINK-PSV 9:0-rel 11:1-ARGM-LOC
 nw/wsj/05/wsj_0595.parse 17 12 gold enter enter.01 ----- 10:1*16:1-ARGM-TMP 11:1-ARG0 12:0-rel 13:1-ARG1
+nw/wsj/05/wsj_0595.parse 26 5 gold survey survey.01 ----- 0:1-ARG0 2:1-ARGM-TMP 4:0-ARG2 5:0-rel
 nw/wsj/05/wsj_0595.parse 17 6 gold be be.01 ----- 1:2;18:2-ARG1 6:0-rel 7:1-ARGM-TMP 8:1-ARG2 10:2-ARGM-TMP
 nw/wsj/05/wsj_0595.parse 10 30 gold help help.01 ----- 27:1*28:1-ARG0 30:0-rel 31:1-ARG2
 nw/wsj/05/wsj_0595.parse 21 23 gold reach reach.01 ----- 22:1-ARG0 23:0-rel 24:1-ARG1
 nw/wsj/05/wsj_0595.parse 3 15 gold share share.01 ----- 14:0-ARGM-ADJ 15:0-rel 16:2-ARG0
 nw/wsj/05/wsj_0595.parse 21 6 gold caution caution.01 ----- 0:1-ARG0 6:0-rel 8:1-ARGM-DIS 10:1-ARG1
-nw/wsj/05/wsj_0595.parse 36 7 gold graduate graduate.01 ----- 6:0-ARG2 7:0-rel
 nw/wsj/05/wsj_0595.parse 16 20 gold find find.02 ----- 0:0-ARGM-DIS 1:2-ARG0 20:0-rel 21:1-ARG1
+nw/wsj/05/wsj_0595.parse 21 37 gold stay stay.01 ----- 36:0-ARGM-PRD 37:0-rel
 nw/wsj/05/wsj_0595.parse 16 36 gold start start_out.05 ----- 22:1-ARG1 36:0,37:1-rel 38:1-ARG2
-nw/wsj/05/wsj_0595.parse 28 28 gold be be.01 ----- 18:2-ARG1 28:0-rel 29:3-ARG2
+nw/wsj/05/wsj_0595.parse 6 9 gold task task.01 ----- 6:1-ARG2 8:0-ARG1 9:0-rel
 nw/wsj/05/wsj_0595.parse 31 15 gold survey survey.01 ----- 12:2-ARGM-TMP 15:0-rel
 nw/wsj/05/wsj_0595.parse 34 23 gold discover discover.01 ----- 18:2-ARG0 23:0-rel 24:1-ARG1
+nw/wsj/05/wsj_0595.parse 14 12 gold own own.01 ----- 7:1*13:1-ARG1 10:1-ARG0 11:0-ARGM-MOD 12:0-rel 14:1*24:1-ARGM-ADV
 nw/wsj/05/wsj_0595.parse 10 23 gold be be.01 ----- 15:2-ARG1 23:0-rel 24:2-ARG2
+nw/wsj/05/wsj_0595.parse 16 60 gold discharge discharge.101 ----- 56:1*61:1-ARG1 60:0-rel
 nw/wsj/05/wsj_0595.parse 31 24 gold survey survey.01 ----- 21:2-ARGM-TMP 24:0-rel
 nw/wsj/05/wsj_0595.parse 27 2 gold say say.01 ----- 2:0-rel 3:1-ARG1 5:2-ARG0
+nw/wsj/05/wsj_0595.parse 16 54 gold stay stay.01 ----- 51:0-ARGM-TMP 52:1-ARG3 54:0-rel
 nw/wsj/05/wsj_0595.parse 23 5 gold view view.02 ----- 4:0-ARG2 5:0-rel
 nw/wsj/05/wsj_0595.parse 15 37 gold assist assist.01 ----- 36:0-ARG0 37:0-rel
 nw/wsj/05/wsj_0595.parse 16 57 gold die die.01 ----- 56:1-ARG1 57:0-rel
 nw/wsj/05/wsj_0595.parse 14 21 gold keep keep.01 ----- 16:1*22:1-ARG1 19:1-ARG0 20:0-ARGM-MOD 21:0-rel 23:1*24:1-ARGM-ADV
 nw/wsj/05/wsj_0595.parse 30 34 gold sell sell.01 ----- 25:1*27:1*32:1-ARG0 34:0-rel 35:1-ARG2
-nw/wsj/05/wsj_0595.parse 14 12 gold own own.01 ----- 7:1*13:1-ARG1 10:1-ARG0 11:0-ARGM-MOD 12:0-rel 14:1*24:1-ARGM-ADV
+nw/wsj/05/wsj_0595.parse 11 1 gold share share.01 ----- 0:0-ARG2 1:0-rel
 nw/wsj/05/wsj_0595.parse 35 2 gold be be.03 ----- 2:0-rel
 nw/wsj/05/wsj_0595.parse 29 20 gold survey survey.01 ----- 17:2-ARGM-TMP 20:0-rel
 nw/wsj/05/wsj_0595.parse 21 15 gold be be.01 ----- 11:1-ARG1 15:0-rel 16:1-ARG2
 nw/wsj/05/wsj_0595.parse 15 2 gold have have.01 ----- 2:0-rel
 nw/wsj/05/wsj_0595.parse 16 59 gold be be.03 ----- 59:0-rel
 nw/wsj/05/wsj_0595.parse 31 1 gold compare compare.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
+nw/wsj/05/wsj_0595.parse 36 7 gold graduate graduate.01 ----- 6:0-ARG2 7:0-rel
 nw/wsj/05/wsj_0595.parse 24 9 gold mature maturate.03 ----- 8:0-ARGM-MNR 9:0-rel
 nw/wsj/05/wsj_0595.parse 28 4 gold question question.01 ----- 3:0-ARGM-EXT 4:0-rel 5:1-ARGM-LOC
-nw/wsj/05/wsj_0595.parse 6 9 gold task task.01 ----- 6:1-ARG2 8:0-ARG1 9:0-rel
 nw/wsj/05/wsj_0595.parse 28 15 gold survey survey.01 ----- 7:0-ARGM-TMP 9:0-ARGM-TMP 11:0-ARGM-TMP 13:0-ARGM-TMP 14:0-ARG1 15:0-rel
 nw/wsj/05/wsj_0595.parse 28 0 gold answer answer.01 ----- 0:0-rel 1:1-ARG1
 nw/wsj/05/wsj_0595.parse 10 22 gold have have.01 ----- 22:0-rel
 nw/wsj/05/wsj_0595.parse 6 14 gold burden burden.01 ----- 11:1-ARG1 14:0-rel
-nw/wsj/05/wsj_0595.parse 16 43 gold spend spend_down.03 ----- 22:1-ARG0 43:0,44:1-rel 46:1-ARG2 49:1-ARGM-TMP 55:1-ARGM-TMP
 nw/wsj/05/wsj_0595.parse 13 13 gold believe believe.01 ----- 10:1*14:1-ARG1 12:1-ARGM-TMP 13:0-rel
-nw/wsj/05/wsj_0595.parse 13 19 gold declare declare.01 ----- 16:1-ARG0 19:0-rel 20:1-ARG1
 nw/wsj/05/wsj_0595.parse 30 21 gold house house.01 ----- 20:0-ARGM-ADJ 21:0-rel
 nw/wsj/05/wsj_0595.parse 21 14 gold stay stay.01 ----- 11:0-ARGM-ADJ 12:1-ARG3 14:0-rel
-nw/wsj/05/wsj_0595.parse 21 37 gold stay stay.01 ----- 36:0-ARGM-PRD 37:0-rel
+nw/wsj/05/wsj_0595.parse 15 4 gold hold hold.02 ----- 0:1-ARG0 3:1-ARGM-TMP 4:0-rel 5:1-ARG1
 nw/wsj/05/wsj_0595.parse 4 22 gold shop shop.01 ----- 22:0-rel
 nw/wsj/05/wsj_0595.parse 30 24 gold prohibit prohibit.01 ----- 18:1-ARG0 24:0-rel 25:1-ARG1 26:1-ARG2
 nw/wsj/05/wsj_0595.parse 32 13 gold be be.03 ----- 13:0-rel
 nw/wsj/05/wsj_0595.parse 30 16 gold survey survey.01 ----- 15:0-ARGM-TMP 16:0-rel
 nw/wsj/05/wsj_0595.parse 30 28 gold refuse refuse.01 ----- 25:1*27:1-ARG0 28:0-rel 29:1-ARGM-CAU 32:2-ARG1
 nw/wsj/05/wsj_0595.parse 15 28 gold spend spend.01 ----- 6:3*25:1*26:1-ARG0 28:0-rel 29:1-ARG4 30:1-ARGM-GOL 32:1-ARGM-TMP
-nw/wsj/05/wsj_0595.parse 11 1 gold share share.01 ----- 0:0-ARG2 1:0-rel
 nw/wsj/05/wsj_0595.parse 21 34 gold stay stay.01 ----- 32:1-ARGM-TMP 34:0-rel
 nw/wsj/05/wsj_0595.parse 34 12 gold be be.01 ----- 0:2*10:1-ARG1 12:0-rel 13:1-ARG2
 nw/wsj/05/wsj_0595.parse 2 11 gold sample sample.01 ----- 10:0-ARGM-ADJ 11:0-rel 12:1-ARG1
 nw/wsj/05/wsj_0595.parse 13 18 gold study study.01 ----- 17:0-ARGM-TMP 18:0-rel
 nw/wsj/05/wsj_0595.parse 17 25 gold anticipate anticipate.01 ----- 23:1-ARG0 25:0-rel 26:1-ARG1
-nw/wsj/05/wsj_0595.parse 16 54 gold stay stay.01 ----- 51:0-ARGM-TMP 52:1-ARG3 54:0-rel
 nw/wsj/05/wsj_0595.parse 13 11 gold be be.03 ----- 11:0-rel
-nw/wsj/05/wsj_0595.parse 16 60 gold discharge discharge.101 ----- 56:1*61:1-ARG1 60:0-rel
 nw/wsj/05/wsj_0595.parse 24 16 gold be be.01 ----- 0:2-ARG1 16:0-rel 17:1-ARG2 24:1-ARGM-ADV
+nw/wsj/05/wsj_0595.parse 28 28 gold be be.01 ----- 18:2-ARG1 28:0-rel 29:3-ARG2
+nw/wsj/05/wsj_0595.parse 22 18 gold do do.01 ----- 18:0-rel
 nw/wsj/05/wsj_0595.parse 15 34 gold qualify qualify.02 ----- 6:3*33:1-ARG1 34:0-rel 35:1-ARG2
+nw/wsj/05/wsj_0595.parse 16 43 gold spend spend_down.03 ----- 22:1-ARG0 43:0,44:1-rel 46:1-ARG2 49:1-ARGM-TMP 55:1-ARGM-TMP
 nw/wsj/05/wsj_0595.parse 28 37 gold be be.01 ----- 37:0-rel 38:1-ARG2 39:2-ARG1

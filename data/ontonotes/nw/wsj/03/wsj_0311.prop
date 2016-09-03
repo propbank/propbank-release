@@ -1,10 +1,11 @@
 nw/wsj/03/wsj_0311.parse 6 4 gold stick stick.01 ----- 1:1-ARG1 3:0-ARGM-MOD 4:0-rel 5:1-ARG2
-nw/wsj/03/wsj_0311.parse 2 4 gold raise raise.01 ----- 2:1-ARG0 4:0-rel 5:2-ARG1
 nw/wsj/03/wsj_0311.parse 2 12 gold be be.03 ----- 12:0-rel
 nw/wsj/03/wsj_0311.parse 4 9 gold anticipate anticipate.01 ----- 6:1-ARG0 9:0-rel 10:3-ARG1
+nw/wsj/03/wsj_0311.parse 2 4 gold raise raise.01 ----- 2:1-ARG0 4:0-rel 5:2-ARG1
 nw/wsj/03/wsj_0311.parse 6 10 gold be be.01 ----- 0:1-ARGM-ADV 8:1-ARG1 9:0-ARGM-MOD 10:0-rel 11:1-ARG2
 nw/wsj/03/wsj_0311.parse 2 13 gold reject reject.01 ----- 0:1*14:1-ARG1 13:0-rel 15:2-ARGM-MNR
 nw/wsj/03/wsj_0311.parse 0 11 gold halve halve.01 ----- 4:1*9:1*10:1-ARG0 4:1*9:1-LINK-SLC 11:0-rel 12:1-ARG1 15:1-ARGM-MNR 23:1-ARGM-TMP
+nw/wsj/03/wsj_0311.parse 8 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 nw/wsj/03/wsj_0311.parse 4 4 gold say say.01 ----- 0:1-ARG0 4:0-rel 5:1-ARG1
 nw/wsj/03/wsj_0311.parse 5 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:2-ARG2
 nw/wsj/03/wsj_0311.parse 1 1 gold vote vote.01 ----- 1:0-rel 2:2-ARG1
@@ -13,7 +14,6 @@ nw/wsj/03/wsj_0311.parse 3 10 gold have have.01 ----- 10:0-rel
 nw/wsj/03/wsj_0311.parse 0 3 gold approve approve.01 ----- 0:1-ARG0 3:0-rel 4:2;9:2-ARG1 8:1-ARGM-TMP
 nw/wsj/03/wsj_0311.parse 1 4 gold approve approve.01 ----- 2:1-ARG0 4:0-rel
 nw/wsj/03/wsj_0311.parse 0 28 gold improve improve.01 ----- 4:1*9:1*10:1*24:1*26:1-ARG0 4:1*9:1-LINK-SLC 28:0-rel 29:2-ARG1
-nw/wsj/03/wsj_0311.parse 8 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 nw/wsj/03/wsj_0311.parse 3 11 gold make make.LV ----- 11:0-rel 14:0-ARGM-PRR
 nw/wsj/03/wsj_0311.parse 3 22 gold be be.01 ----- 18:1-ARG1 22:0-rel 23:1-ARGM-TMP 24:1-ARG2
 nw/wsj/03/wsj_0311.parse 3 14 gold start start.01 ----- 9:1-ARG0 11:0-ARGM-LVB 13:0-ARGM-MNR 14:0-rel

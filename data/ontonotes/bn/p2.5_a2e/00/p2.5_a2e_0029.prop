@@ -4,15 +4,15 @@ bn/p2.5_a2e/00/p2.5_a2e_0029.parse 8 23 gold change change.01 ----- 21:1-ARG0 23
 bn/p2.5_a2e/00/p2.5_a2e_0029.parse 5 23 gold pull pull.01 ----- 0:1-ARGM-LOC 6:1-ARG0 23:0-rel 24:1-ARG2 25:1-ARG1
 bn/p2.5_a2e/00/p2.5_a2e_0029.parse 5 11 gold moor moor.01 ----- 8:2*12:1-ARG1 8:2*12:1-LINK-PSV 11:0-rel 13:1-ARG2
 bn/p2.5_a2e/00/p2.5_a2e_0029.parse 10 12 gold be be.01 ----- 0:2-ARG1 12:0-rel 13:3-ARG2
-bn/p2.5_a2e/00/p2.5_a2e_0029.parse 8 10 gold sink sink.01 ----- 0:1-ARG0 10:0-rel 11:2-ARG1 14:1-ARGM-LOC 20:1-ARGM-TMP
+bn/p2.5_a2e/00/p2.5_a2e_0029.parse 9 23 gold fall fall.01 ----- 23:0-rel 24:0-ARG1
 bn/p2.5_a2e/00/p2.5_a2e_0029.parse 0 4 gold leave leave.12 ----- 0:1-ARG0 3:1-ARGM-TMP 4:0-rel 5:1-ARG1 9:1-ARG2
 bn/p2.5_a2e/00/p2.5_a2e_0029.parse 1 2 gold cause cause.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1 9:1-ARGM-LOC 16:1-ARGM-TMP
 bn/p2.5_a2e/00/p2.5_a2e_0029.parse 6 3 gold evacuate evacuate.01 ----- 0:1*4:1-ARG2 3:0-rel 5:1-ARG1
+bn/p2.5_a2e/00/p2.5_a2e_0029.parse 8 10 gold sink sink.01 ----- 0:1-ARG0 10:0-rel 11:2-ARG1 14:1-ARGM-LOC 20:1-ARGM-TMP
 bn/p2.5_a2e/00/p2.5_a2e_0029.parse 2 4 gold sweep sweep.02 ----- 0:1-ARGM-DIR 2:1-ARG1 4:0-rel 5:1-ARG2 9:2-ARGM-PRD
 bn/p2.5_a2e/00/p2.5_a2e_0029.parse 9 19 gold close close.01 ----- 18:1*20:1-ARG1 19:0-rel
 bn/p2.5_a2e/00/p2.5_a2e_0029.parse 4 13 gold expose expose.01 ----- 10:1*14:1-ARG1 10:1*14:1-LINK-PSV 13:0-rel 15:1-ARG2
 bn/p2.5_a2e/00/p2.5_a2e_0029.parse 10 4 gold affect affect.01 ----- 3:1*5:1-ARG1 3:1*5:1-LINK-PSV 4:0-rel 6:1-ARG0 9:1-ARGM-LOC
-bn/p2.5_a2e/00/p2.5_a2e_0029.parse 0 2 gold be be.03 ----- 2:0-rel
 bn/p2.5_a2e/00/p2.5_a2e_0029.parse 8 3 gold cut cut_off.04 ----- 0:1-ARG0 3:0,4:0-rel 5:1-ARG1 6:1-ARGM-TMP 20:1-ARGM-TMP
 bn/p2.5_a2e/00/p2.5_a2e_0029.parse 7 5 gold leave leave.13 ----- 3:1*6:1-ARG1 3:1*6:1-LINK-PSV 5:0-rel 7:1-ARG0
 bn/p2.5_a2e/00/p2.5_a2e_0029.parse 4 7 gold be be.01 ----- 4:1-ARG1 6:0-ARGM-MOD 7:0-rel 8:1-ARG2 9:1-ARGM-LOC
@@ -23,20 +23,21 @@ bn/p2.5_a2e/00/p2.5_a2e_0029.parse 3 3 gold accompany accompany.01 ----- 0:1*4:1
 bn/p2.5_a2e/00/p2.5_a2e_0029.parse 5 17 gold tear tear.01 ----- 0:1-ARGM-LOC 6:1-ARG0 17:0-rel 18:1-ARG1 20:1-ARG2
 bn/p2.5_a2e/00/p2.5_a2e_0029.parse 1 1 gold hurricane hurricane.01 ----- 1:0-rel
 bn/p2.5_a2e/00/p2.5_a2e_0029.parse 1 41 gold hurricane hurricane.01 ----- 40:0-ARGM-ADJ 41:0-rel
-bn/p2.5_a2e/00/p2.5_a2e_0029.parse 11 23 gold leave leave_behind.18 ----- 7:1*22:1-ARG0 23:0,24:1-rel 25:3-ARG1
 bn/p2.5_a2e/00/p2.5_a2e_0029.parse 9 14 gold cut cut_off.04 ----- 8:2*15:1-ARG1 14:0,16:0-rel
 bn/p2.5_a2e/00/p2.5_a2e_0029.parse 1 26 gold exacerbate exacerbate.01 ----- 26:0-rel 27:1-ARG1
 bn/p2.5_a2e/00/p2.5_a2e_0029.parse 4 2 gold fear fear.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 bn/p2.5_a2e/00/p2.5_a2e_0029.parse 0 8 gold destroy destroy.01 ----- 5:0-ARGM-ADJ 8:0-rel
 bn/p2.5_a2e/00/p2.5_a2e_0029.parse 8 28 gold head head.02 ----- 21:1*26:1-ARG0 28:0-rel 29:1-ARG1
 bn/p2.5_a2e/00/p2.5_a2e_0029.parse 3 17 gold push push.02 ----- 15:1*16:1-ARG0 17:0-rel 18:1-ARG1 21:2-ARG2
+bn/p2.5_a2e/00/p2.5_a2e_0029.parse 0 2 gold be be.03 ----- 2:0-rel
 bn/p2.5_a2e/00/p2.5_a2e_0029.parse 5 30 gold cut cut_off.04 ----- 0:1-ARGM-LOC 6:1-ARG0 30:0,31:1-rel 32:1-ARG1
+bn/p2.5_a2e/00/p2.5_a2e_0029.parse 11 23 gold leave leave_behind.18 ----- 7:1*22:1-ARG0 23:0,24:1-rel 25:3-ARG1
 bn/p2.5_a2e/00/p2.5_a2e_0029.parse 1 22 gold strike strike.01 ----- 20:0-ARG2 22:0-rel 23:0-ARG1
 bn/p2.5_a2e/00/p2.5_a2e_0029.parse 7 26 gold return return.01 ----- 0:1-ARGM-ADV 24:1-ARG1 25:1-ARGM-MNR 26:0-rel 27:1-ARG4
-bn/p2.5_a2e/00/p2.5_a2e_0029.parse 7 35 gold open open.01 ----- 28:2*32:1*36:1-ARGM-LOC 28:2*32:1-LINK-SLC 33:1-ARG1 35:0-rel
 bn/p2.5_a2e/00/p2.5_a2e_0029.parse 7 47 gold know know.03 ----- 45:0-ARGM-EXT 47:0-rel 48:0-ARG1
 bn/p2.5_a2e/00/p2.5_a2e_0029.parse 7 4 gold die die.01 ----- 4:0-rel 5:1-ARGM-PRD
 bn/p2.5_a2e/00/p2.5_a2e_0029.parse 9 6 gold say say.01 ----- 0:1-ARG0 6:0-rel 7:1-ARG1
+bn/p2.5_a2e/00/p2.5_a2e_0029.parse 7 35 gold open open.01 ----- 28:2*32:1*36:1-ARGM-LOC 28:2*32:1-LINK-SLC 33:1-ARG1 35:0-rel
 bn/p2.5_a2e/00/p2.5_a2e_0029.parse 6 2 gold be be.03 ----- 2:0-rel
 bn/p2.5_a2e/00/p2.5_a2e_0029.parse 11 31 gold destroy destroy.01 ----- 31:0-rel
 bn/p2.5_a2e/00/p2.5_a2e_0029.parse 7 50 gold transport transport.01 ----- 50:0-rel
@@ -47,6 +48,5 @@ bn/p2.5_a2e/00/p2.5_a2e_0029.parse 1 4 gold die die.01 ----- 4:0-rel 5:1-ARG1
 bn/p2.5_a2e/00/p2.5_a2e_0029.parse 9 12 gold have have.01 ----- 12:0-rel
 bn/p2.5_a2e/00/p2.5_a2e_0029.parse 1 32 gold increase increase.01 ----- 32:0-rel 33:1-ARG1
 bn/p2.5_a2e/00/p2.5_a2e_0029.parse 2 20 gold kill kill.01 ----- 2:1*9:1*19:1-ARG0 20:0-rel 21:2-ARG1 24:1-ARGM-LOC
-bn/p2.5_a2e/00/p2.5_a2e_0029.parse 9 23 gold fall fall.01 ----- 23:0-rel 24:0-ARG1
-bn/p2.5_a2e/00/p2.5_a2e_0029.parse 11 9 gold transform transform.01 ----- 0:1-ARGM-DIS 1:1-ARGM-TMP 7:1-ARG0 9:0-rel 10:2-ARG1 14:1-ARG2 22:2-ARGM-PRD
 bn/p2.5_a2e/00/p2.5_a2e_0029.parse 5 7 gold destroy destroy.01 ----- 0:1-ARGM-LOC 6:1-ARG0 7:0-rel 8:3-ARG1
+bn/p2.5_a2e/00/p2.5_a2e_0029.parse 11 9 gold transform transform.01 ----- 0:1-ARGM-DIS 1:1-ARGM-TMP 7:1-ARG0 9:0-rel 10:2-ARG1 14:1-ARG2 22:2-ARGM-PRD

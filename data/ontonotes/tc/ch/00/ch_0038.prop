@@ -7,6 +7,7 @@ tc/ch/00/ch_0038.parse 139 2 gold let let.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel
 tc/ch/00/ch_0038.parse 198 2 gold be be.01 ----- 0:1-ARGM-DIS 1:1-ARG1 2:0-rel 3:2-ARG2
 tc/ch/00/ch_0038.parse 293 9 gold contact contact.01 ----- 4:1*7:1-ARG0 9:0-rel 10:1-ARG1 11:1-ARGM-TMP
 tc/ch/00/ch_0038.parse 287 32 gold solo solo.01 ----- 32:0-rel
+tc/ch/00/ch_0038.parse 240 3 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARGM-DIS 2:1-ARG1 3:0-rel 4:1-ARG2
 tc/ch/00/ch_0038.parse 138 1 gold have have.01 ----- 1:0-rel
 tc/ch/00/ch_0038.parse 308 2 gold blow blow.04 ----- 0:1-ARG1 2:0-rel 3:1-ARGM-MNR
 tc/ch/00/ch_0038.parse 298 5 gold think think.01 ----- 4:1-ARG0 5:0-rel 6:1-ARG1
@@ -16,49 +17,51 @@ tc/ch/00/ch_0038.parse 93 3 gold believe believe.01 ----- 0:1-ARG0 1:0-ARGM-MOD 
 tc/ch/00/ch_0038.parse 29 2 gold play play.11 ----- 0:1-ARG0 2:0-rel
 tc/ch/00/ch_0038.parse 212 3 gold go go.04 ----- 3:0-rel
 tc/ch/00/ch_0038.parse 309 1 gold retire retire.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 5:1-ARGM-TMP
+tc/ch/00/ch_0038.parse 81 4 gold keep keep.LV ----- 4:0-rel 5:1-ARGM-PRR
 tc/ch/00/ch_0038.parse 245 6 gold open open.02 ----- 1:1*4:1-ARG0 6:0-rel 7:1-ARGM-MNR
 tc/ch/00/ch_0038.parse 50 3 gold conduct conduct.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:1-ARGM-ADV 3:0-rel 4:1-ARG1
 tc/ch/00/ch_0038.parse 85 2 gold have have.03 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1 6:1-ARGM-DIS
-tc/ch/00/ch_0038.parse 276 6 gold have have.03 ----- 0:1-ARGM-COM 2:1-ARG0 4:0-ARGM-NEG 5:1-ARGM-ADV 6:0-rel 7:2-ARG1
 tc/ch/00/ch_0038.parse 316 6 gold play play.11 ----- 0:1*4:1-ARG0 6:0-rel 7:1-ARGM-COM 9:1-ARGM-LOC 15:1-ARGM-TMP
 tc/ch/00/ch_0038.parse 228 4 gold be be.03 ----- 4:0-rel
 tc/ch/00/ch_0038.parse 305 7 gold think think.01 ----- 0:0-ARGM-DIS 6:1-ARG0 7:0-rel 8:1-ARG1
 tc/ch/00/ch_0038.parse 35 6 gold try try.01 ----- 1:1*4:1-ARG0 6:0-rel
 tc/ch/00/ch_0038.parse 63 5 gold suppose suppose.02 ----- 0:0-ARGM-DIS 1:1-ARGM-ADV 3:1-ARG1 5:0-rel 6:2-ARG2
 tc/ch/00/ch_0038.parse 111 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
-tc/ch/00/ch_0038.parse 239 7 gold be be.03 ----- 7:0-rel
 tc/ch/00/ch_0038.parse 67 15 gold work work.01 ----- 6:1*14:1-ARG0 15:0-rel
 tc/ch/00/ch_0038.parse 120 4 gold drink drink.01 ----- 3:1-ARG0 4:0-rel
 tc/ch/00/ch_0038.parse 119 13 gold drink drink.01 ----- 8:1-ARG0 12:1-ARGM-TMP 13:0-rel
 tc/ch/00/ch_0038.parse 199 8 gold be be.01 ----- 6:1*9:1-ARG2 7:1-ARG1 8:0-rel
+tc/ch/00/ch_0038.parse 184 2 gold do do.02 ----- 0:1-ARG0 2:0-rel 3:1-ARG1 6:1-ARGM-TMP
 tc/ch/00/ch_0038.parse 230 3 gold come come.01 ----- 0:1*4:1-ARG3 2:1-ARG1 3:0-rel
 tc/ch/00/ch_0038.parse 84 4 gold liken like.02 ----- 1:1*6:1-ARGM-MNR 3:1-ARG0 4:0-rel 5:1-ARG1
+tc/ch/00/ch_0038.parse 227 2 gold be be.02 ----- 0:1-ARGM-TMP 2:0-rel 3:2-ARG1
 tc/ch/00/ch_0038.parse 65 2 gold be be.03 ----- 2:0-rel
 tc/ch/00/ch_0038.parse 41 2 gold talk talk.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG2
 tc/ch/00/ch_0038.parse 224 30 gold be be.01 ----- 21:1-ARGM-DIS 22:2*29:1-ARG1 30:0-rel 31:1-ARG2 32:1-ARGM-TMP
-tc/ch/00/ch_0038.parse 151 2 gold have have.03 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1 5:1-ARGM-TMP
+tc/ch/00/ch_0038.parse 265 3 gold get get.02 ----- 0:1-ARG0 2:1-ARGM-ADV 3:0-rel 4:2-ARG1
 tc/ch/00/ch_0038.parse 120 2 gold do do.01 ----- 2:0-rel
 tc/ch/00/ch_0038.parse 281 3 gold do do.01 ----- 3:0-rel
 tc/ch/00/ch_0038.parse 91 1 gold do do.01 ----- 1:0-rel
+tc/ch/00/ch_0038.parse 212 7 gold start start.01 ----- 1:1*4:1-ARG0 6:1-ARGM-DIS 7:0-rel 8:1-ARG1 10:1-ARGM-TMP
 tc/ch/00/ch_0038.parse 9 3 gold be be.03 ----- 3:0-rel
 tc/ch/00/ch_0038.parse 144 2 gold be be.01 ----- 1:1-ARG1 2:0-rel
-tc/ch/00/ch_0038.parse 66 3 gold talk talk.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:1-ARG2
 tc/ch/00/ch_0038.parse 24 2 gold pay pay.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG2 4:1-ARGM-MNR
 tc/ch/00/ch_0038.parse 35 3 gold go go.04 ----- 3:0-rel
-tc/ch/00/ch_0038.parse 265 3 gold get get.02 ----- 0:1-ARG0 2:1-ARGM-ADV 3:0-rel 4:2-ARG1
 tc/ch/00/ch_0038.parse 24 1 gold be be.03 ----- 1:0-rel
 tc/ch/00/ch_0038.parse 298 13 gold have have.03 ----- 0:1-ARGM-TMP 12:1-ARG0 13:0-rel 14:1-ARG1
 tc/ch/00/ch_0038.parse 280 6 gold want want.01 ----- 5:1-ARG0 6:0-rel 7:2-ARG1
-tc/ch/00/ch_0038.parse 280 9 gold ask ask.01 ----- 7:1-ARG0 9:0-rel 10:1-ARG2 11:2-ARG1
 tc/ch/00/ch_0038.parse 84 2 gold do do.01 ----- 2:0-rel
 tc/ch/00/ch_0038.parse 92 2 gold have have.03 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel
 tc/ch/00/ch_0038.parse 281 5 gold say say.01 ----- 0:1-ARGM-DIS 1:1-ARGM-DIS 2:1-ARGM-DIS 4:1-ARG0 5:0-rel 6:1-ARG1
 tc/ch/00/ch_0038.parse 199 3 gold do do.01 ----- 3:0-rel
+tc/ch/00/ch_0038.parse 316 3 gold go go.04 ----- 3:0-rel
 tc/ch/00/ch_0038.parse 276 3 gold do do.01 ----- 3:0-rel
 tc/ch/00/ch_0038.parse 101 3 gold turn turn_out.17 ----- 0:1*2:1-ARG1 3:0,4:1-rel
 tc/ch/00/ch_0038.parse 46 7 gold play play.01 ----- 4:1-ARG0 6:0-ARGM-NEG 7:0-rel 8:1-ARGM-EXT
 tc/ch/00/ch_0038.parse 273 2 gold write write_out.06 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0,3:1-rel 4:2-ARG1
+tc/ch/00/ch_0038.parse 152 4 gold be be.03 ----- 4:0-rel
 tc/ch/00/ch_0038.parse 243 2 gold be be.01 ----- 0:1-ARGM-TMP 1:1-ARG1 2:0-rel 3:1-ARG2
+tc/ch/00/ch_0038.parse 2 1 gold take take.10 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 tc/ch/00/ch_0038.parse 300 1 gold remember remember.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 tc/ch/00/ch_0038.parse 275 15 gold know know.06 ----- 14:1-ARG0 15:0-rel
 tc/ch/00/ch_0038.parse 272 6 gold have have.03 ----- 2:1*4:1-ARGM-TMP 2:1*4:1-LINK-SLC 5:1-ARG0 6:0-rel 7:2-ARG1
@@ -67,7 +70,9 @@ tc/ch/00/ch_0038.parse 39 2 gold have have.01 ----- 2:0-rel
 tc/ch/00/ch_0038.parse 114 10 gold be be.01 ----- 9:1-ARG1 10:0-rel 11:1-ARG2
 tc/ch/00/ch_0038.parse 315 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:2-ARG2
 tc/ch/00/ch_0038.parse 313 1 gold go go.02 ----- 0:1-ARG0 1:0-rel 2:1-ARG4
+tc/ch/00/ch_0038.parse 145 3 gold say say.01 ----- 1:1-ARGM-DIS 2:1-ARG0 3:0-rel 4:1-ARG1
 tc/ch/00/ch_0038.parse 272 17 gold figure figure_out.05 ----- 1:3-ARGM-TMP 16:1-ARG0 17:0,18:1-rel 19:2-ARG1
+tc/ch/00/ch_0038.parse 66 3 gold talk talk.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:1-ARG2
 tc/ch/00/ch_0038.parse 18 3 gold do do.02 ----- 0:1-ARG0 3:0-rel 4:1-ARG1 6:1-ARGM-TMP
 tc/ch/00/ch_0038.parse 62 4 gold be be.01 ----- 3:1-ARG1 4:0-rel 5:1-ARG2
 tc/ch/00/ch_0038.parse 295 12 gold do do.01 ----- 12:0-rel
@@ -81,9 +86,9 @@ tc/ch/00/ch_0038.parse 205 2 gold be be.01 ----- 0:1-ARGM-DIS 1:1-ARG1 2:0-rel 3
 tc/ch/00/ch_0038.parse 77 5 gold be be.01 ----- 0:0-ARGM-DIS 4:1-ARG1 5:0-rel 6:2-ARG2
 tc/ch/00/ch_0038.parse 239 6 gold have have.01 ----- 6:0-rel
 tc/ch/00/ch_0038.parse 107 3 gold be be.01 ----- 0:1-ARGM-DIS 1:1-ARGM-DIS 3:0-rel 4:1-ARG1 5:2-ARG2
-tc/ch/00/ch_0038.parse 239 8 gold use use.01 ----- 0:1*9:1-ARG1 5:1-ARG0 8:0-rel 10:1-ARG2
 tc/ch/00/ch_0038.parse 1 2 gold do do.02 ----- 0:1-ARG0 2:0-rel 3:1-ARGM-MNR 4:1-ARGM-DIS
 tc/ch/00/ch_0038.parse 213 3 gold have have.03 ----- 1:1-ARG0 2:1-ARGM-TMP 3:0-rel 4:1-ARG1
+tc/ch/00/ch_0038.parse 27 1 gold be be.01 ----- 0:0-ARGM-DIS 1:0-rel 2:1-ARG1 3:1-ARGM-ADV 4:1-ARG2
 tc/ch/00/ch_0038.parse 99 1 gold mean mean.01 ----- 0:1-ARG0 1:0-rel
 tc/ch/00/ch_0038.parse 284 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2 6:1-ARGM-DIS
 tc/ch/00/ch_0038.parse 175 3 gold be be.01 ----- 0:1-ARGM-DIS 1:1-ARG1 3:0-rel 4:1-ARG2
@@ -92,8 +97,8 @@ tc/ch/00/ch_0038.parse 45 4 gold say say.01 ----- 1:1-ARGM-DIS 2:1-ARG0 4:0-rel 
 tc/ch/00/ch_0038.parse 15 16 gold have have.03 ----- 14:1*20:1-ARGM-LOC 15:1-ARG0 16:0-rel 17:1-ARG1
 tc/ch/00/ch_0038.parse 212 13 gold hope hope.01 ----- 0:0-ARGM-DIS 1:1-ARG0 13:0-rel 14:2-ARG1
 tc/ch/00/ch_0038.parse 159 3 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 3:0-rel 4:1-ARG2
+tc/ch/00/ch_0038.parse 199 5 gold care care.01 ----- 0:1-ARGM-DIS 1:1-ARG0 4:0-ARGM-NEG 5:0-rel 6:2-ARG1
 tc/ch/00/ch_0038.parse 173 2 gold sing sing.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARGM-MNR
-tc/ch/00/ch_0038.parse 184 2 gold do do.02 ----- 0:1-ARG0 2:0-rel 3:1-ARG1 6:1-ARGM-TMP
 tc/ch/00/ch_0038.parse 128 2 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 2:0-rel 3:1-ARG2
 tc/ch/00/ch_0038.parse 131 4 gold sing sing.01 ----- 0:0-ARGM-DIS 3:1-ARG0 4:0-rel 5:2-ARG1
 tc/ch/00/ch_0038.parse 252 2 gold say say.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
@@ -102,9 +107,12 @@ tc/ch/00/ch_0038.parse 161 3 gold do do.02 ----- 0:1-ARGM-ADV 2:1-ARG0 3:0-rel 4
 tc/ch/00/ch_0038.parse 15 5 gold have have.03 ----- 0:0-ARGM-DIS 1:1-ARGM-TMP 2:1-ARGM-ADV 4:1-ARG0 5:0-rel 6:1-ARG1 12:1-ARGM-LOC 14:2-ARGM-LOC 23:1-ARGM-LOC
 tc/ch/00/ch_0038.parse 142 2 gold have have.01 ----- 2:0-rel
 tc/ch/00/ch_0038.parse 228 6 gold come come.01 ----- 3:1*7:1-ARG3 5:1-ARG1 6:0-rel
+tc/ch/00/ch_0038.parse 280 9 gold ask ask.01 ----- 7:1-ARG0 9:0-rel 10:1-ARG2 11:2-ARG1
 tc/ch/00/ch_0038.parse 262 2 gold get get.02 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
-tc/ch/00/ch_0038.parse 137 2 gold be be.01 ----- 0:1-ARGM-DIS 1:1-ARG1 2:0-rel 3:0-ARGM-NEG 4:1-ARG2 6:1-ARGM-TMP 7:1-ARGM-CAU
+tc/ch/00/ch_0038.parse 44 3 gold say say.01 ----- 0:1*4:1-ARG1 2:1-ARG0 3:0-rel
+tc/ch/00/ch_0038.parse 283 5 gold get get.03 ----- 3:1-ARG1 5:0-rel 6:1-ARGM-DIS 7:1-ARG2
 tc/ch/00/ch_0038.parse 123 2 gold play play.11 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARGM-MNR
+tc/ch/00/ch_0038.parse 56 6 gold have have.03 ----- 4:1-ARG0 5:1-ARGM-TMP 6:0-rel 7:1-ARG1
 tc/ch/00/ch_0038.parse 194 5 gold tell tell.01 ----- 0:1-ARGM-DIS 1:1-ARGM-DIS 2:1-ARG0 4:0-ARGM-NEG 5:0-rel 6:1-ARG2 7:1-ARG1
 tc/ch/00/ch_0038.parse 280 14 gold go go.04 ----- 14:0-rel
 tc/ch/00/ch_0038.parse 33 3 gold play play.01 ----- 0:0-ARGM-DIS 1:1-ARG0 3:0-rel
@@ -119,6 +127,7 @@ tc/ch/00/ch_0038.parse 157 2 gold start start.01 ----- 0:1-ARGM-DIS 1:1-ARG1 2:0
 tc/ch/00/ch_0038.parse 152 21 gold know know.01 ----- 20:1-ARG0 21:0-rel
 tc/ch/00/ch_0038.parse 258 1 gold do do.01 ----- 1:0-rel
 tc/ch/00/ch_0038.parse 65 3 gold do do.02 ----- 0:1-ARGM-DIS 1:1-ARG0 3:0-rel 4:1-ARGM-MNR
+tc/ch/00/ch_0038.parse 304 12 gold have have.03 ----- 7:2*10:1*11:1-ARG0 7:2*10:1-LINK-SLC 12:0-rel 13:1-ARG1
 tc/ch/00/ch_0038.parse 279 2 gold help help.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARGM-EXT
 tc/ch/00/ch_0038.parse 156 3 gold happen happen.01 ----- 0:0-ARGM-DIS 1:1-ARG1 2:1-ARGM-TMP 3:0-rel
 tc/ch/00/ch_0038.parse 191 2 gold start start.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1 7:1-ARGM-TMP
@@ -129,27 +138,28 @@ tc/ch/00/ch_0038.parse 106 16 gold go go.02 ----- 0:0-ARGM-DIS 1:1-ARGM-TMP 2:1-
 tc/ch/00/ch_0038.parse 91 3 gold have have.03 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:3-ARG1 12:1-ARGM-COM
 tc/ch/00/ch_0038.parse 223 33 gold be be.02 ----- 33:0-rel 34:1-ARG1 36:1-ARGM-LOC
 tc/ch/00/ch_0038.parse 280 18 gold play play.11 ----- 11:1*19:1-ARG1 12:1*15:1-ARG0 18:0-rel
-tc/ch/00/ch_0038.parse 27 1 gold be be.01 ----- 0:0-ARGM-DIS 1:0-rel 2:1-ARG1 3:1-ARGM-ADV 4:1-ARG2
 tc/ch/00/ch_0038.parse 148 2 gold be be.02 ----- 0:0-ARGM-DIS 2:0-rel 3:1-ARG1
+tc/ch/00/ch_0038.parse 239 7 gold be be.03 ----- 7:0-rel
 tc/ch/00/ch_0038.parse 224 2 gold be be.02 ----- 0:1-ARGM-TMP 2:0-rel 3:2-ARG1 17:1-ARGM-TMP 20:1-ARGM-CAU
 tc/ch/00/ch_0038.parse 133 1 gold impress impress.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:2-ARGM-EXT
 tc/ch/00/ch_0038.parse 225 6 gold get get.01 ----- 1:1*4:1-ARG0 6:0-rel 7:1-ARG1
 tc/ch/00/ch_0038.parse 8 7 gold find find_out.03 ----- 0:1-ARGM-TMP 4:1-ARG0 7:0,8:1-rel 9:1-ARG1
 tc/ch/00/ch_0038.parse 61 3 gold call call.02 ----- 0:0-ARGM-DIS 1:1-ARGM-TMP 2:1-ARG0 3:0-rel 4:1-ARG1 5:1-ARGM-LOC
+tc/ch/00/ch_0038.parse 151 2 gold have have.03 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1 5:1-ARGM-TMP
 tc/ch/00/ch_0038.parse 118 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 tc/ch/00/ch_0038.parse 124 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2 7:1-ARGM-CAU
+tc/ch/00/ch_0038.parse 276 6 gold have have.03 ----- 0:1-ARGM-COM 2:1-ARG0 4:0-ARGM-NEG 5:1-ARGM-ADV 6:0-rel 7:2-ARG1
 tc/ch/00/ch_0038.parse 187 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 tc/ch/00/ch_0038.parse 245 10 gold name name.01 ----- 8:1*11:1-ARG1 8:1*11:1-LINK-PSV 10:0-rel 12:2-ARG2
 tc/ch/00/ch_0038.parse 37 8 gold have have.03 ----- 7:1-ARG0 8:0-rel 9:1-ARG1 10:1-ARGM-LOC 11:1-ARGM-TMP
 tc/ch/00/ch_0038.parse 141 4 gold do do.02 ----- 0:1-ARGM-DIS 1:1-ARG0 4:0-rel 5:1-ARG1 8:1-ARGM-TMP
 tc/ch/00/ch_0038.parse 89 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2 3:1-ARGM-TMP 8:1-ARGM-DIS 9:1-ARGM-COM
 tc/ch/00/ch_0038.parse 141 3 gold be be.03 ----- 3:0-rel
-tc/ch/00/ch_0038.parse 283 5 gold get get.03 ----- 3:1-ARG1 5:0-rel 6:1-ARGM-DIS 7:1-ARG2
 tc/ch/00/ch_0038.parse 34 1 gold be be.01 ----- 0:1-ARG1 1:0-rel
 tc/ch/00/ch_0038.parse 10 3 gold do do.02 ----- 0:0-ARGM-DIS 1:1-ARGM-DIS 2:1-ARG0 3:0-rel 4:1-ARG1 5:1-ARGM-LOC
-tc/ch/00/ch_0038.parse 76 2 gold play play.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
 tc/ch/00/ch_0038.parse 116 1 gold make make.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 tc/ch/00/ch_0038.parse 224 9 gold pop pop_up.03 ----- 6:1-ARG1 9:0,10:1-rel 11:1-ARGM-ADV 13:1-ARGM-TMP 14:1-ARGM-LOC
+tc/ch/00/ch_0038.parse 192 3 gold go go.04 ----- 3:0-rel
 tc/ch/00/ch_0038.parse 22 1 gold run run_out.05 ----- 0:1-ARG2 1:0,2:1-rel 3:1-ARG1
 tc/ch/00/ch_0038.parse 152 11 gold get get.01 ----- 7:1*9:1-ARG0 11:0-rel 12:2;22:2-ARG1 16:1-ARGM-LOC
 tc/ch/00/ch_0038.parse 34 11 gold get get.05 ----- 9:1-ARG0 11:0-rel 12:1-ARG1 14:2-ARG2
@@ -157,7 +167,6 @@ tc/ch/00/ch_0038.parse 180 2 gold be be.01 ----- 0:1-ARGM-DIS 1:1-ARG1 2:0-rel 3
 tc/ch/00/ch_0038.parse 246 1 gold buy buy.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 tc/ch/00/ch_0038.parse 25 8 gold rehearse rehearse.01 ----- 5:1-ARG0 6:1-ARGM-ADV 8:0-rel 11:1-ARG1
 tc/ch/00/ch_0038.parse 52 11 gold have have.04 ----- 1:0-ARGM-DIS 2:2-ARGM-TMP 11:0-rel 12:1-ARG1
-tc/ch/00/ch_0038.parse 192 3 gold go go.04 ----- 3:0-rel
 tc/ch/00/ch_0038.parse 244 4 gold have have.01 ----- 4:0-rel
 tc/ch/00/ch_0038.parse 21 2 gold finish finish.01 ----- 1:1-ARG0 2:0-rel 3:1-ARGM-TMP
 tc/ch/00/ch_0038.parse 198 8 gold bring bring.01 ----- 3:1*6:1*16:1-ARGM-TMP 3:1*6:1-LINK-SLC 7:1-ARG0 8:0-rel 9:1-ARGM-DIR 10:1-ARG1
@@ -166,32 +175,35 @@ tc/ch/00/ch_0038.parse 48 4 gold be be.01 ----- 1:1-ARGM-DIS 2:1-ARG1 4:0-rel 5:
 tc/ch/00/ch_0038.parse 152 8 gold try try.01 ----- 7:1-ARG0 8:0-rel 9:2;22:2-ARG1
 tc/ch/00/ch_0038.parse 73 1 gold be be.01 ----- 1:0-rel
 tc/ch/00/ch_0038.parse 287 8 gold ask ask.01 ----- 0:1-ARGM-ADV 7:1-ARG0 8:0-rel 9:1-ARG2 10:1-ARG1 16:2-ARGM-DIS 18:1-ARGM-CAU
+tc/ch/00/ch_0038.parse 114 2 gold talk talk.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1 5:1-ARGM-LOC 8:1-ARGM-CAU
+tc/ch/00/ch_0038.parse 147 2 gold go go.06 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:2-ARGM-TMP
 tc/ch/00/ch_0038.parse 97 3 gold pass pass_away.16 ----- 0:1-ARGM-DIS 1:1-ARG1 3:0,4:1-rel 5:2-ARGM-TMP
 tc/ch/00/ch_0038.parse 4 2 gold have have.01 ----- 2:0-rel
 tc/ch/00/ch_0038.parse 91 10 gold play play.11 ----- 4:2*7:1*11:1-ARG1 4:2*7:1-LINK-SLC 8:1-ARG0 10:0-rel
 tc/ch/00/ch_0038.parse 225 2 gold have have.01 ----- 2:0-rel
-tc/ch/00/ch_0038.parse 227 2 gold be be.02 ----- 0:1-ARGM-TMP 2:0-rel 3:2-ARG1
 tc/ch/00/ch_0038.parse 208 2 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 2:0-rel 3:1-ARG2
 tc/ch/00/ch_0038.parse 295 14 gold want want.01 ----- 11:1-ARG0 13:0-ARGM-NEG 14:0-rel 15:2-ARG1
 tc/ch/00/ch_0038.parse 139 4 gold back back_up.06 ----- 3:1-ARG0 4:0,5:1-rel 6:1-ARGM-TMP
 tc/ch/00/ch_0038.parse 114 16 gold do do.02 ----- 12:1*14:1*17:1-ARG1 12:1*14:1-LINK-SLC 15:1-ARG0 16:0-rel
 tc/ch/00/ch_0038.parse 275 3 gold send send.01 ----- 1:0-ARGM-DIS 2:1-ARG0 3:0-rel 4:1-ARG2 5:1-ARG1 7:1-ARGM-PRP
+tc/ch/00/ch_0038.parse 269 2 gold play play.11 ----- 0:1-ARG0 2:0-rel 3:1-ARG2
 tc/ch/00/ch_0038.parse 207 4 gold build build.02 ----- 0:0-ARGM-DIS 1:1-ARG0 3:1-ARGM-ADV 4:0-rel 5:1-ARG1
 tc/ch/00/ch_0038.parse 258 3 gold say say.01 ----- 0:1*4:1-ARG1 2:1-ARG0 3:0-rel
+tc/ch/00/ch_0038.parse 51 9 gold play play.11 ----- 5:1*7:1*11:1-ARGM-TMP 5:1*7:1-LINK-SLC 8:1-ARG0 9:0-rel 10:1-ARGM-LOC
 tc/ch/00/ch_0038.parse 93 9 gold go go.02 ----- 5:1-ARG0 8:1-ARGM-TMP 9:0-rel
 tc/ch/00/ch_0038.parse 87 0 gold have have.01 ----- 0:0-rel
 tc/ch/00/ch_0038.parse 73 4 gold be be.01 ----- 3:1*5:1-ARG1 4:0-rel 6:1-ARG2
 tc/ch/00/ch_0038.parse 278 3 gold do do.01 ----- 3:0-rel
 tc/ch/00/ch_0038.parse 283 10 gold contact contact.01 ----- 3:1*8:1-ARG0 10:0-rel 11:1-ARG1
 tc/ch/00/ch_0038.parse 315 1 gold have have.01 ----- 1:0-rel
+tc/ch/00/ch_0038.parse 26 2 gold play play.11 ----- 1:1-ARG0 2:0-rel 3:1-ARGM-EXT 4:1-ARGM-TMP
 tc/ch/00/ch_0038.parse 197 1 gold do do.02 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
+tc/ch/00/ch_0038.parse 297 5 gold have have.03 ----- 0:1-ARGM-DIS 1:1-ARGM-DIS 2:1-ARGM-TMP 4:1-ARG0 5:0-rel 6:1-ARG1
 tc/ch/00/ch_0038.parse 292 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2 4:1-ARGM-ADV
 tc/ch/00/ch_0038.parse 229 2 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 2:0-rel 3:1-ARG2
 tc/ch/00/ch_0038.parse 293 1 gold tell tell.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG2 3:1-ARG1
-tc/ch/00/ch_0038.parse 3 2 gold have have.01 ----- 2:0-rel
-tc/ch/00/ch_0038.parse 152 4 gold be be.03 ----- 4:0-rel
-tc/ch/00/ch_0038.parse 295 28 gold play play.11 ----- 23:1*25:1*29:1-ARG1 23:1*25:1-LINK-SLC 26:1-ARG0 27:0-ARGM-MOD 28:0-rel 30:1-ARGM-LOC
 tc/ch/00/ch_0038.parse 183 6 gold break break.19 ----- 0:0-ARGM-DIS 1:1-ARG0 3:0-ARGM-LVB 5:0-ARGM-TMP 6:0-rel 7:1-ARGM-TMP 8:1-ARGM-ADV
+tc/ch/00/ch_0038.parse 133 7 gold get get.01 ----- 6:1-ARG2 7:0-rel 8:1-ARG0 9:1-ARG1 12:3-ARGM-TMP
 tc/ch/00/ch_0038.parse 209 5 gold be be.03 ----- 5:0-rel
 tc/ch/00/ch_0038.parse 46 5 gold do do.01 ----- 5:0-rel
 tc/ch/00/ch_0038.parse 149 8 gold know know.01 ----- 7:1-ARG0 8:0-rel
@@ -202,35 +214,24 @@ tc/ch/00/ch_0038.parse 214 1 gold be be.01 ----- 0:0-ARGM-DIS 1:0-rel 2:1-ARG1 3
 tc/ch/00/ch_0038.parse 281 8 gold write write.01 ----- 7:1-ARG0 8:0-rel 9:1-ARG2 10:1-ARG1
 tc/ch/00/ch_0038.parse 305 10 gold be be.01 ----- 1:1*13:1-ARGM-TMP 9:1-ARG1 10:0-rel 11:1-ARG2
 tc/ch/00/ch_0038.parse 304 5 gold follow follow.01 ----- 5:0-rel
-tc/ch/00/ch_0038.parse 240 3 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARGM-DIS 2:1-ARG1 3:0-rel 4:1-ARG2
 tc/ch/00/ch_0038.parse 268 2 gold play play.11 ----- 1:1-ARG0 2:0-rel 3:1-ARGM-ADV 4:1-ARG2
 tc/ch/00/ch_0038.parse 59 1 gold call call.02 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 tc/ch/00/ch_0038.parse 90 2 gold do do.01 ----- 2:0-rel
-tc/ch/00/ch_0038.parse 81 4 gold keep keep.LV ----- 4:0-rel 5:1-ARGM-PRR
 tc/ch/00/ch_0038.parse 192 15 gold remain remain.01 ----- 15:0-rel 16:0,17:0-ARG1
-tc/ch/00/ch_0038.parse 238 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
-tc/ch/00/ch_0038.parse 77 11 gold have have.01 ----- 11:0-rel
 tc/ch/00/ch_0038.parse 212 16 gold get get.03 ----- 1:1*14:1-ARG1 16:0-rel 17:2-ARG2 20:1-ARGM-TMP
 tc/ch/00/ch_0038.parse 295 3 gold be be.03 ----- 3:0-rel
 tc/ch/00/ch_0038.parse 112 2 gold talk talk.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG2 5:1-ARG1
-tc/ch/00/ch_0038.parse 114 2 gold talk talk.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1 5:1-ARGM-LOC 8:1-ARGM-CAU
-tc/ch/00/ch_0038.parse 2 1 gold take take.10 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 tc/ch/00/ch_0038.parse 124 5 gold be be.01 ----- 4:1-ARG1 5:0-rel 6:1-ARG2
 tc/ch/00/ch_0038.parse 67 3 gold hear hear.01 ----- 0:0-ARGM-DIS 1:1-ARG0 3:0-rel 4:1-ARGM-MNR 5:1-ARG1
 tc/ch/00/ch_0038.parse 316 1 gold be be.03 ----- 1:0-rel
 tc/ch/00/ch_0038.parse 317 4 gold follow follow.01 ----- 4:0-rel 5:0-ARG1
-tc/ch/00/ch_0038.parse 147 2 gold go go.06 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:2-ARGM-TMP
 tc/ch/00/ch_0038.parse 15 11 gold know know.06 ----- 10:1-ARG0 11:0-rel
-tc/ch/00/ch_0038.parse 145 3 gold say say.01 ----- 1:1-ARGM-DIS 2:1-ARG0 3:0-rel 4:1-ARG1
 tc/ch/00/ch_0038.parse 112 0 gold have have.01 ----- 0:0-rel
 tc/ch/00/ch_0038.parse 289 2 gold ask ask.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG2 4:1-ARGM-TMP
 tc/ch/00/ch_0038.parse 263 2 gold be be.03 ----- 2:0-rel
 tc/ch/00/ch_0038.parse 36 7 gold happen happen.01 ----- 4:1*5:1-ARG1 7:0-rel
 tc/ch/00/ch_0038.parse 261 1 gold be be.03 ----- 1:0-rel
-tc/ch/00/ch_0038.parse 304 12 gold have have.03 ----- 7:2*10:1*11:1-ARG0 7:2*10:1-LINK-SLC 12:0-rel 13:1-ARG1
-tc/ch/00/ch_0038.parse 182 3 gold finish finish.01 ----- 0:0-ARGM-DIS 1:1-ARGM-DIS 2:1-ARG0 3:0-rel 4:3-ARGM-TMP
 tc/ch/00/ch_0038.parse 249 3 gold come come.01 ----- 0:1-ARG1 3:0-rel 4:2-ARGM-TMP
-tc/ch/00/ch_0038.parse 146 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 tc/ch/00/ch_0038.parse 159 2 gold have have.01 ----- 2:0-rel
 tc/ch/00/ch_0038.parse 295 4 gold send send.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-ARGM-MOD 4:0-rel 5:1-ARG2 6:1-ARGM-ADV 9:1-ARGM-DIS 10:1-ARGM-TMP 23:3-ARG1
 tc/ch/00/ch_0038.parse 226 3 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARGM-TMP 2:1-ARG1 3:0-rel 4:1-ARGM-TMP 5:1-ARG2
@@ -238,22 +239,23 @@ tc/ch/00/ch_0038.parse 4 3 gold be be.01 ----- 0:1-ARGM-DIS 1:1-ARG1 3:0-rel 4:1
 tc/ch/00/ch_0038.parse 56 0 gold do do.01 ----- 0:0-rel
 tc/ch/00/ch_0038.parse 60 3 gold believe believe.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-ARGM-NEG 3:0-rel 4:1-ARG1
 tc/ch/00/ch_0038.parse 225 3 gold have have.02 ----- 3:0-rel
-tc/ch/00/ch_0038.parse 16 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:3-ARG2
 tc/ch/00/ch_0038.parse 67 2 gold have have.01 ----- 2:0-rel
+tc/ch/00/ch_0038.parse 238 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 tc/ch/00/ch_0038.parse 93 7 gold be be.03 ----- 7:0-rel
 tc/ch/00/ch_0038.parse 287 30 gold write write.01 ----- 26:1*33:1-ARGM-MNR 28:1-ARG0 30:0-rel 31:1-ARG1
+tc/ch/00/ch_0038.parse 201 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-ADV 3:1-ARG2
 tc/ch/00/ch_0038.parse 230 1 gold be be.03 ----- 1:0-rel
 tc/ch/00/ch_0038.parse 223 23 gold have have.03 ----- 20:1-ARG0 22:0-ARGM-NEG 23:0-rel 24:1-ARG1
+tc/ch/00/ch_0038.parse 46 2 gold say say.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
 tc/ch/00/ch_0038.parse 202 1 gold play play.11 ----- 0:1-ARG0 1:0-rel 2:2-ARGM-TMP 7:1-ARGM-TMP
 tc/ch/00/ch_0038.parse 284 1 gold have have.01 ----- 1:0-rel
 tc/ch/00/ch_0038.parse 257 1 gold talk talk.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
-tc/ch/00/ch_0038.parse 212 7 gold start start.01 ----- 1:1*4:1-ARG0 6:1-ARGM-DIS 7:0-rel 8:1-ARG1 10:1-ARGM-TMP
 tc/ch/00/ch_0038.parse 240 15 gold play play.11 ----- 2:1*5:1*13:1-ARG0 15:0-rel 16:1-ARGM-COM
 tc/ch/00/ch_0038.parse 228 1 gold be be.01 ----- 1:0-rel 2:1-ARG1
 tc/ch/00/ch_0038.parse 287 12 gold prefer prefer.01 ----- 11:1-ARG0 12:0-rel 13:1-ARG1
 tc/ch/00/ch_0038.parse 273 11 gold come come_in.07 ----- 8:1*13:1-ARGM-LOC 9:1-ARG1 11:0,12:1-rel
 tc/ch/00/ch_0038.parse 293 6 gold go go.04 ----- 6:0-rel
-tc/ch/00/ch_0038.parse 56 6 gold have have.03 ----- 4:1-ARG0 5:1-ARGM-TMP 6:0-rel 7:1-ARG1
+tc/ch/00/ch_0038.parse 76 2 gold play play.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
 tc/ch/00/ch_0038.parse 175 2 gold have have.01 ----- 2:0-rel
 tc/ch/00/ch_0038.parse 138 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2 5:1-ARGM-TMP
 tc/ch/00/ch_0038.parse 174 1 gold get get.06 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
@@ -261,14 +263,12 @@ tc/ch/00/ch_0038.parse 255 0 gold do do.01 ----- 0:0-rel
 tc/ch/00/ch_0038.parse 193 6 gold plan plan.01 ----- 0:1-ARGM-TMP 3:1-ARG0 5:1-ARGM-ADV 6:0-rel 7:1-ARG1
 tc/ch/00/ch_0038.parse 152 3 gold have have.01 ----- 3:0-rel
 tc/ch/00/ch_0038.parse 185 3 gold get get.04 ----- 0:0-ARGM-DIS 1:1-ARG0 3:0-rel 4:1-ARG1 7:1-ARGM-PRD
-tc/ch/00/ch_0038.parse 311 1 gold know know.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 tc/ch/00/ch_0038.parse 221 2 gold have have.03 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
 tc/ch/00/ch_0038.parse 34 6 gold be be.01 ----- 6:0-rel 7:1-ARG2 9:2-ARG1
-tc/ch/00/ch_0038.parse 104 1 gold go go.02 ----- 0:1-ARG0 1:0-rel 2:1-ARGM-DIR 3:1-ARGM-COM
+tc/ch/00/ch_0038.parse 178 2 gold have have.03 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:2-ARG1
 tc/ch/00/ch_0038.parse 186 3 gold do do.02 ----- 0:0-ARGM-DIS 1:1-ARGM-DIS 2:1-ARG0 3:0-rel 4:1-ARG1 6:3-ARGM-TMP 10:1-ARGM-LOC
 tc/ch/00/ch_0038.parse 0 1 gold be be.01 ----- 0:1*3:1-ARG2 1:0-rel 2:1-ARG1
 tc/ch/00/ch_0038.parse 56 2 gold know know.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG1
-tc/ch/00/ch_0038.parse 44 3 gold say say.01 ----- 0:1*4:1-ARG1 2:1-ARG0 3:0-rel
 tc/ch/00/ch_0038.parse 132 4 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARGM-DIS 2:1-ARGM-DIS 3:1-ARG1 4:0-rel 5:2-ARG2
 tc/ch/00/ch_0038.parse 63 8 gold be be.01 ----- 3:1*6:1-ARG1 8:0-rel 9:1-ARG2 13:2-ARGM-TMP
 tc/ch/00/ch_0038.parse 174 4 gold send send.01 ----- 0:1*2:1-ARG0 4:0-rel 5:1-ARG2 6:1-ARG1 8:1-ARGM-DIS
@@ -276,32 +276,28 @@ tc/ch/00/ch_0038.parse 68 2 gold be be.01 ----- 0:1-ARGM-DIS 1:1-ARG1 2:0-rel 3:
 tc/ch/00/ch_0038.parse 285 6 gold work work.01 ----- 0:0-ARGM-DIS 1:1-ARGM-TMP 3:1-ARG0 5:1-ARGM-DIS 6:0-rel 7:1-ARG1 9:1-ARGM-TMP
 tc/ch/00/ch_0038.parse 222 1 gold get get.03 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 tc/ch/00/ch_0038.parse 63 4 gold be be.03 ----- 4:0-rel
-tc/ch/00/ch_0038.parse 269 2 gold play play.11 ----- 0:1-ARG0 2:0-rel 3:1-ARG2
-tc/ch/00/ch_0038.parse 183 3 gold take take.LV ----- 3:0-rel 6:0-ARGM-PRR
+tc/ch/00/ch_0038.parse 11 1 gold bring bring.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:1-ARG2 5:1-ARGM-TMP
+tc/ch/00/ch_0038.parse 77 11 gold have have.01 ----- 11:0-rel
 tc/ch/00/ch_0038.parse 298 8 gold be be.01 ----- 7:1-ARG1 8:0-rel 9:2-ARG2
 tc/ch/00/ch_0038.parse 8 16 gold offer offer.01 ----- 12:1*13:1*17:1-ARG1 12:1*13:1-LINK-SLC 14:1-ARG0 16:0-rel
 tc/ch/00/ch_0038.parse 164 2 gold play play.11 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG2
-tc/ch/00/ch_0038.parse 178 2 gold have have.03 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:2-ARG1
 tc/ch/00/ch_0038.parse 32 3 gold be be.01 ----- 0:1-ARGM-DIS 1:1-ARGM-DIS 2:1-ARG1 3:0-rel 4:0-ARGM-NEG 5:1-ARG2
 tc/ch/00/ch_0038.parse 94 6 gold be be.03 ----- 6:0-rel
-tc/ch/00/ch_0038.parse 201 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-ADV 3:1-ARG2
 tc/ch/00/ch_0038.parse 223 27 gold be be.01 ----- 0:2-ARGM-TMP 19:1-ARGM-ADV 25:1-ARG1 26:0-ARGM-MOD 27:0-rel 28:1-ARG2 31:1-ARGM-CAU
 tc/ch/00/ch_0038.parse 287 22 gold have have.02 ----- 22:0-rel
 tc/ch/00/ch_0038.parse 99 3 gold have have.03 ----- 2:1-ARG0 3:0-rel 4:1-ARG1
 tc/ch/00/ch_0038.parse 52 19 gold have have.04 ----- 2:2-ARGM-TMP 18:1-ARG0 19:0-rel 20:2-ARG1
 tc/ch/00/ch_0038.parse 12 3 gold have have.02 ----- 3:0-rel
 tc/ch/00/ch_0038.parse 295 39 gold solo solo.01 ----- 39:0-rel
-tc/ch/00/ch_0038.parse 142 3 gold be be.03 ----- 3:0-rel
 tc/ch/00/ch_0038.parse 272 26 gold play play.11 ----- 19:1*27:1-ARG1 21:1*24:1-ARG0 26:0-rel
 tc/ch/00/ch_0038.parse 152 5 gold talk talk.01 ----- 0:1-ARGM-DIS 2:1-ARG0 5:0-rel 6:1;22:2-ARG1 18:1-ARGM-TMP
-tc/ch/00/ch_0038.parse 199 5 gold care care.01 ----- 0:1-ARGM-DIS 1:1-ARG0 4:0-ARGM-NEG 5:0-rel 6:2-ARG1
+tc/ch/00/ch_0038.parse 182 3 gold finish finish.01 ----- 0:0-ARGM-DIS 1:1-ARGM-DIS 2:1-ARG0 3:0-rel 4:3-ARGM-TMP
 tc/ch/00/ch_0038.parse 67 7 gold be be.01 ----- 6:1-ARG1 7:0-rel 12:1-ARG2 14:2-ARGM-PRD 16:1-ARGM-TMP
 tc/ch/00/ch_0038.parse 210 3 gold play play.11 ----- 0:0-ARGM-DIS 1:1-ARG0 3:0-rel 4:2-ARGM-LOC 8:1-ARGM-ADV 9:1-ARGM-ADV
 tc/ch/00/ch_0038.parse 144 4 gold be be.01 ----- 0:0-ARGM-DIS 3:1-ARG1 4:0-rel 5:1-ARG2
 tc/ch/00/ch_0038.parse 213 0 gold do do.01 ----- 0:0-rel
 tc/ch/00/ch_0038.parse 12 6 gold go go.02 ----- 2:1*4:1-ARG0 6:0-rel 7:1-ARGM-DIR 8:1-ARGM-TMP
 tc/ch/00/ch_0038.parse 90 4 gold have have.03 ----- 0:0-ARGM-DIS 1:1-ARG0 3:0-ARGM-NEG 4:0-rel 5:3-ARG1
-tc/ch/00/ch_0038.parse 51 9 gold play play.11 ----- 5:1*7:1*11:1-ARGM-TMP 5:1*7:1-LINK-SLC 8:1-ARG0 9:0-rel 10:1-ARGM-LOC
 tc/ch/00/ch_0038.parse 200 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2;8:3-ARG2 6:1-ARGM-LOC
 tc/ch/00/ch_0038.parse 194 3 gold do do.01 ----- 3:0-rel
 tc/ch/00/ch_0038.parse 119 10 gold blow blow.11 ----- 8:1-ARG0 9:1-ARGM-TMP 10:0-rel
@@ -310,7 +306,6 @@ tc/ch/00/ch_0038.parse 249 2 gold be be.03 ----- 2:0-rel
 tc/ch/00/ch_0038.parse 210 12 gold be be.01 ----- 10:1-ARG1 12:0-rel 13:0-ARGM-NEG 14:1-ARG2 15:2-ARGM-PRP
 tc/ch/00/ch_0038.parse 9 13 gold do do.02 ----- 5:1*11:1*20:1-ARGM-LOC 5:1*11:1-LINK-SLC 12:1-ARG0 13:0-rel 14:1-ARG1 16:1-ARGM-TMP
 tc/ch/00/ch_0038.parse 143 6 gold be be.02 ----- 0:0-ARGM-DIS 1:1-ARGM-TMP 2:1-ARGM-TMP 4:1-ARGM-TMP 6:0-rel 7:1-ARG1 10:1-ARGM-LOC
-tc/ch/00/ch_0038.parse 210 17 gold play play.11 ----- 1:1*15:1-ARG0 1:1*15:1-LINK-PRO 17:0-rel 18:1-ARG1 19:1-ARGM-ADV
 tc/ch/00/ch_0038.parse 223 3 gold get get.01 ----- 2:1-ARG0 3:0-rel 4:2-ARG1 11:1-ARG2
 tc/ch/00/ch_0038.parse 242 6 gold get get.06 ----- 5:1-ARG0 6:0-rel 7:2-ARG1
 tc/ch/00/ch_0038.parse 96 1 gold know know.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
@@ -326,20 +321,18 @@ tc/ch/00/ch_0038.parse 62 9 gold go go.04 ----- 9:0-rel
 tc/ch/00/ch_0038.parse 166 1 gold have have.01 ----- 1:0-rel
 tc/ch/00/ch_0038.parse 62 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 tc/ch/00/ch_0038.parse 183 10 gold be be.01 ----- 9:1-ARG1 10:0-rel 11:1-ARGM-TMP 12:1-ARG2
-tc/ch/00/ch_0038.parse 316 3 gold go go.04 ----- 3:0-rel
 tc/ch/00/ch_0038.parse 94 1 gold mean mean.01 ----- 0:1-ARG0 1:0-rel
 tc/ch/00/ch_0038.parse 149 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 tc/ch/00/ch_0038.parse 37 5 gold know know.01 ----- 0:1-ARGM-DIS 1:1-ARGM-TMP 4:1-ARG0 5:0-rel 6:1-ARG1
 tc/ch/00/ch_0038.parse 54 3 gold get get.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:1-ARG1
 tc/ch/00/ch_0038.parse 81 5 gold track track.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-ARGM-MOD 3:0-ARGM-NEG 4:0-ARGM-LVB 5:0-rel 6:1-ARG1
 tc/ch/00/ch_0038.parse 130 1 gold play play.11 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
-tc/ch/00/ch_0038.parse 26 2 gold play play.11 ----- 1:1-ARG0 2:0-rel 3:1-ARGM-EXT 4:1-ARGM-TMP
 tc/ch/00/ch_0038.parse 129 4 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARGM-LOC 2:1-ARG1 4:0-rel 5:1-ARG2
 tc/ch/00/ch_0038.parse 62 8 gold be be.03 ----- 8:0-rel
 tc/ch/00/ch_0038.parse 262 1 gold have have.01 ----- 1:0-rel
-tc/ch/00/ch_0038.parse 275 11 gold get get.05 ----- 9:1*13:1-ARGM-TMP 10:1-ARG1 11:0-rel 12:1-ARG2
 tc/ch/00/ch_0038.parse 87 2 gold be be.01 ----- 1:1-ARG1 2:0-rel 3:1-ARG2 4:1-ARGM-TMP
 tc/ch/00/ch_0038.parse 56 8 gold bypass bypass.01 ----- 8:0-rel
+tc/ch/00/ch_0038.parse 311 1 gold know know.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 tc/ch/00/ch_0038.parse 268 0 gold do do.01 ----- 0:0-rel
 tc/ch/00/ch_0038.parse 251 3 gold work work.01 ----- 2:1-ARG0 3:0-rel 4:1-ARG3 6:1-ARGM-TMP
 tc/ch/00/ch_0038.parse 280 17 gold be be.03 ----- 17:0-rel
@@ -347,12 +340,10 @@ tc/ch/00/ch_0038.parse 3 6 gold be be.03 ----- 6:0-rel
 tc/ch/00/ch_0038.parse 283 2 gold be be.01 ----- 1:1-ARG1 2:0-rel
 tc/ch/00/ch_0038.parse 66 1 gold have have.01 ----- 1:0-rel
 tc/ch/00/ch_0038.parse 188 2 gold go go.06 ----- 0:0-ARGM-DIS 1:1-ARG1 2:0-rel 3:1-ARGM-MNR
-tc/ch/00/ch_0038.parse 11 1 gold bring bring.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:1-ARG2 5:1-ARGM-TMP
 tc/ch/00/ch_0038.parse 261 2 gold look look_forward.03 ----- 0:1-ARG0 2:0,3:1-rel 4:1-ARG1
 tc/ch/00/ch_0038.parse 78 1 gold be be.03 ----- 1:0-rel
-tc/ch/00/ch_0038.parse 167 1 gold go go.02 ----- 0:1-ARG0 1:0-rel 2:1-ARG4
-tc/ch/00/ch_0038.parse 235 1 gold go go.02 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 4:1-ARGM-COM
 tc/ch/00/ch_0038.parse 285 4 gold be be.03 ----- 4:0-rel
+tc/ch/00/ch_0038.parse 104 1 gold go go.02 ----- 0:1-ARG0 1:0-rel 2:1-ARGM-DIR 3:1-ARGM-COM
 tc/ch/00/ch_0038.parse 280 13 gold be be.03 ----- 13:0-rel
 tc/ch/00/ch_0038.parse 8 22 gold rehearse rehearse.01 ----- 21:1-ARG0 22:0-rel 23:1-ARG1
 tc/ch/00/ch_0038.parse 126 4 gold rehearse rehearse.01 ----- 0:1*2:1-ARG0 4:0-rel 5:1-ARG1 6:2-ARGM-TMP
@@ -371,20 +362,17 @@ tc/ch/00/ch_0038.parse 52 5 gold get get_together.14 ----- 2:1*10:1-ARGM-TMP 3:1
 tc/ch/00/ch_0038.parse 124 9 gold have have.03 ----- 8:1-ARG0 9:0-rel 10:2-ARG1
 tc/ch/00/ch_0038.parse 31 3 gold be be.01 ----- 0:1-ARGM-DIS 1:1-ARG1 3:0-rel 4:1-ARG2
 tc/ch/00/ch_0038.parse 179 2 gold get get.01 ----- 0:1-ARG0 1:1-ARGM-ADV 2:0-rel 3:1-ARG1 5:1-ARGM-TMP 7:1-ARG2
-tc/ch/00/ch_0038.parse 106 7 gold be be.01 ----- 4:2*9:1-ARG2 7:0-rel 8:1-ARG1
 tc/ch/00/ch_0038.parse 7 1 gold start start.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-TMP 4:1-ARG2
 tc/ch/00/ch_0038.parse 137 9 gold discover discover.01 ----- 8:1-ARG0 9:0-rel 10:1-ARG1 15:1-ARGM-LOC
 tc/ch/00/ch_0038.parse 229 6 gold come come.01 ----- 1:1*4:1-ARG1 6:0-rel 7:1-ARG4 8:2-ARGM-PRP
 tc/ch/00/ch_0038.parse 83 2 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 2:0-rel 3:1-ARG2
-tc/ch/00/ch_0038.parse 234 8 gold be be.01 ----- 0:1-ARGM-DIS 2:3-ARGM-TMP 7:1-ARG1 8:0-rel 9:1-ARG2 10:1-ARGM-TMP
 tc/ch/00/ch_0038.parse 252 6 gold go go.02 ----- 4:1-ARG0 6:0-rel 7:1-ARG4
 tc/ch/00/ch_0038.parse 62 12 gold be be.03 ----- 12:0-rel
 tc/ch/00/ch_0038.parse 77 15 gold know know.06 ----- 14:1-ARG0 15:0-rel
 tc/ch/00/ch_0038.parse 200 11 gold make make.02 ----- 8:1-ARG0 10:0-ARGM-NEG 11:0-rel 12:1-ARG1
-tc/ch/00/ch_0038.parse 247 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 tc/ch/00/ch_0038.parse 141 2 gold have have.01 ----- 2:0-rel
+tc/ch/00/ch_0038.parse 295 28 gold play play.11 ----- 23:1*25:1*29:1-ARG1 23:1*25:1-LINK-SLC 26:1-ARG0 27:0-ARGM-MOD 28:0-rel 30:1-ARGM-LOC
 tc/ch/00/ch_0038.parse 132 8 gold meet meet.02 ----- 5:1*14:1-ARGM-LOC 6:1-ARG0 7:1-ARGM-DIS 8:0-rel 9:2-ARG1
-tc/ch/00/ch_0038.parse 46 2 gold say say.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
 tc/ch/00/ch_0038.parse 244 5 gold get get.03 ----- 0:1-ARGM-DIS 3:1-ARG1 5:0-rel 6:1-ARG2 7:1-ARGM-LOC
 tc/ch/00/ch_0038.parse 126 1 gold have have.02 ----- 1:0-rel
 tc/ch/00/ch_0038.parse 39 4 gold talk talk.01 ----- 0:0-ARGM-DIS 1:1-ARG0 3:0-ARGM-NEG 4:0-rel 5:1-ARG2
@@ -393,24 +381,36 @@ tc/ch/00/ch_0038.parse 259 3 gold send send.01 ----- 0:1-ARGM-DIS 1:1-ARGM-DIS 2
 tc/ch/00/ch_0038.parse 150 1 gold stay stay.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG3 3:1-ARGM-TMP
 tc/ch/00/ch_0038.parse 26 0 gold be be.03 ----- 0:0-rel
 tc/ch/00/ch_0038.parse 265 1 gold have have.01 ----- 1:0-rel
+tc/ch/00/ch_0038.parse 146 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 tc/ch/00/ch_0038.parse 176 12 gold bring bring.01 ----- 0:0-ARGM-DIS 1:1-ARGM-TMP 2:1-ARGM-ADV 4:1-ARGM-TMP 6:2-ARGM-PRP 11:1-ARG0 12:0-rel 13:1-ARGM-DIR 14:1-ARG1
+tc/ch/00/ch_0038.parse 16 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:3-ARG2
 tc/ch/00/ch_0038.parse 77 2 gold be be.01 ----- 1:1-ARG1 2:0-rel 3:1-ARG2
 tc/ch/00/ch_0038.parse 242 4 gold know know.06 ----- 3:1-ARG0 4:0-rel
+tc/ch/00/ch_0038.parse 239 8 gold use use.01 ----- 0:1*9:1-ARG1 5:1-ARG0 8:0-rel 10:1-ARG2
 tc/ch/00/ch_0038.parse 44 1 gold do do.01 ----- 1:0-rel
+tc/ch/00/ch_0038.parse 106 7 gold be be.01 ----- 4:2*9:1-ARG2 7:0-rel 8:1-ARG1
 tc/ch/00/ch_0038.parse 287 25 gold know know.01 ----- 21:1*23:1-ARG0 25:0-rel 26:2-ARG1
 tc/ch/00/ch_0038.parse 78 3 gold live live.01 ----- 0:1*4:1-ARGM-LOC 2:1-ARG0 3:0-rel 5:1-ARGM-TMP
-tc/ch/00/ch_0038.parse 297 5 gold have have.03 ----- 0:1-ARGM-DIS 1:1-ARGM-DIS 2:1-ARGM-TMP 4:1-ARG0 5:0-rel 6:1-ARG1
 tc/ch/00/ch_0038.parse 254 1 gold do do.01 ----- 1:0-rel
 tc/ch/00/ch_0038.parse 192 6 gold have have.03 ----- 1:1*4:1-ARG0 6:0-rel 7:1-ARG1 10:1-ARGM-TMP 13:1-ARGM-TMP
+tc/ch/00/ch_0038.parse 210 17 gold play play.11 ----- 1:1*15:1-ARG0 1:1*15:1-LINK-PRO 17:0-rel 18:1-ARG1 19:1-ARGM-ADV
 tc/ch/00/ch_0038.parse 312 1 gold know know.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 tc/ch/00/ch_0038.parse 280 1 gold want want.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
+tc/ch/00/ch_0038.parse 137 2 gold be be.01 ----- 0:1-ARGM-DIS 1:1-ARG1 2:0-rel 3:0-ARGM-NEG 4:1-ARG2 6:1-ARGM-TMP 7:1-ARGM-CAU
 tc/ch/00/ch_0038.parse 9 4 gold do do.02 ----- 0:1-ARGM-DIS 1:1-ARG0 4:0-rel 5:2-ARG1
+tc/ch/00/ch_0038.parse 275 11 gold get get.05 ----- 9:1*13:1-ARGM-TMP 10:1-ARG1 11:0-rel 12:1-ARG2
 tc/ch/00/ch_0038.parse 315 8 gold play play.11 ----- 0:1-ARG0 8:0-rel 9:1-ARGM-MNR
-tc/ch/00/ch_0038.parse 133 7 gold get get.01 ----- 6:1-ARG2 7:0-rel 8:1-ARG0 9:1-ARG1 12:3-ARGM-TMP
 tc/ch/00/ch_0038.parse 290 3 gold work work.01 ----- 1:1-ARG0 3:0-rel 4:1-ARGM-MNR 5:1-ARGM-TMP
 tc/ch/00/ch_0038.parse 45 7 gold have have.03 ----- 6:1-ARG0 7:0-rel 8:1-ARG1
+tc/ch/00/ch_0038.parse 235 1 gold go go.02 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 4:1-ARGM-COM
+tc/ch/00/ch_0038.parse 247 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 tc/ch/00/ch_0038.parse 255 2 gold say say.01 ----- 1:1-ARG0 2:0-rel 3:2-ARG1
+tc/ch/00/ch_0038.parse 3 2 gold have have.01 ----- 2:0-rel
+tc/ch/00/ch_0038.parse 234 8 gold be be.01 ----- 0:1-ARGM-DIS 2:3-ARGM-TMP 7:1-ARG1 8:0-rel 9:1-ARG2 10:1-ARGM-TMP
 tc/ch/00/ch_0038.parse 255 6 gold come come.01 ----- 5:1-ARG1 6:0-rel 7:1-ARG4
 tc/ch/00/ch_0038.parse 223 21 gold do do.01 ----- 21:0-rel
 tc/ch/00/ch_0038.parse 36 6 gold be be.03 ----- 6:0-rel
+tc/ch/00/ch_0038.parse 167 1 gold go go.02 ----- 0:1-ARG0 1:0-rel 2:1-ARG4
 tc/ch/00/ch_0038.parse 222 4 gold know know.01 ----- 3:1-ARG0 4:0-rel
+tc/ch/00/ch_0038.parse 183 3 gold take take.LV ----- 3:0-rel 6:0-ARGM-PRR
+tc/ch/00/ch_0038.parse 142 3 gold be be.03 ----- 3:0-rel

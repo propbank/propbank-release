@@ -1,8 +1,10 @@
 bn/voa/00/voa_0091.parse 2 2 gold gain gain.02 ----- 0:1-ARG0 2:0-rel 3:2-ARG1 7:1-ARGM-TMP 8:2-ARGM-TMP
 bn/voa/00/voa_0091.parse 13 10 gold vote vote.01 ----- 10:0-rel
+bn/voa/00/voa_0091.parse 11 21 gold be be.01 ----- 17:1*18:1*23:1-ARGM-LOC 17:1*18:1-LINK-SLC 19:1-ARG1 21:0-rel 22:1-ARG2
 bn/voa/00/voa_0091.parse 13 2 gold be be.03 ----- 2:0-rel
 bn/voa/00/voa_0091.parse 5 8 gold prohibit prohibit.01 ----- 6:1-ARG0 8:0-rel 9:2-ARG1
 bn/voa/00/voa_0091.parse 8 45 gold process process.02 ----- 45:0-rel
+bn/voa/00/voa_0091.parse 11 9 gold prevent prevent.01 ----- 5:1*8:1-ARG0 9:0-rel 10:1-ARG1 11:1-ARG2
 bn/voa/00/voa_0091.parse 1 5 gold round round.05 ----- 3:0,4:0-ARGM-TMP 5:0-rel 6:1-ARG1
 bn/voa/00/voa_0091.parse 12 6 gold injure injure.01 ----- 4:1*7:1-ARG1 6:0-rel 8:1-ARGM-LOC
 bn/voa/00/voa_0091.parse 9 16 gold support support.01 ----- 16:0-rel 17:1-ARG0
@@ -14,18 +16,14 @@ bn/voa/00/voa_0091.parse 0 11 gold victory victory.01 ----- 11:0-rel 12:1-ARG2
 bn/voa/00/voa_0091.parse 4 8 gold have have.01 ----- 8:0-rel
 bn/voa/00/voa_0091.parse 2 15 gold win win.01 ----- 9:1*14:1-ARG0 15:0-rel 16:1-ARG2
 bn/voa/00/voa_0091.parse 8 32 gold win win.01 ----- 30:1-ARG0 32:0-rel
-bn/voa/00/voa_0091.parse 11 9 gold prevent prevent.01 ----- 5:1*8:1-ARG0 9:0-rel 10:1-ARG1 11:1-ARG2
 bn/voa/00/voa_0091.parse 7 14 gold be be.03 ----- 14:0-rel
 bn/voa/00/voa_0091.parse 4 5 gold ban ban.01 ----- 5:0-rel 6:0,7:0-ARG1
 bn/voa/00/voa_0091.parse 11 2 gold have have.01 ----- 2:0-rel
 bn/voa/00/voa_0091.parse 0 19 gold vote vote.01 ----- 19:0-rel 20:1-ARGM-LOC
+bn/voa/00/voa_0091.parse 0 10 gold claim claim.01 ----- 0:1-ARGM-LOC 3:2-ARG0 10:0-rel 12:1-ARG1
 bn/voa/00/voa_0091.parse 0 7 gold rule rule.03 ----- 7:0-rel 8:0-ARG0
-bn/voa/00/voa_0091.parse 2 11 gold pledge pledge.01 ----- 9:1-ARG0 11:0-rel 12:1-ARG2 13:1-ARGM-TMP
 bn/voa/00/voa_0091.parse 8 34 gold lose lose.03 ----- 30:1-ARG0 34:0-rel
 bn/voa/00/voa_0091.parse 11 13 gold enter enter.01 ----- 10:1*12:1-ARG0 13:0-rel 14:1-ARG1 16:1-ARGM-LOC
-bn/voa/00/voa_0091.parse 0 17 gold round round.05 ----- 17:0-rel 18:1-ARG1
-bn/voa/00/voa_0091.parse 10 33 gold be be.03 ----- 33:0-rel
-bn/voa/00/voa_0091.parse 0 10 gold claim claim.01 ----- 0:1-ARGM-LOC 3:2-ARG0 10:0-rel 12:1-ARG1
 bn/voa/00/voa_0091.parse 8 15 gold lose lose.03 ----- 0:2*13:1*14:1-ARG0 0:2*13:1-LINK-SLC 15:0-rel 16:1-ARG1
 bn/voa/00/voa_0091.parse 13 3 gold kill kill.01 ----- 0:1*4:1-ARG1 3:0-rel 5:1-ARGM-LOC
 bn/voa/00/voa_0091.parse 2 17 gold race race.02 ----- 16:0-ARG0 17:0-rel
@@ -33,7 +31,9 @@ bn/voa/00/voa_0091.parse 10 11 gold arrest arrest.01 ----- 0:1-ARGM-TMP 9:1-ARG0
 bn/voa/00/voa_0091.parse 9 9 gold prove prove.01 ----- 4:1-ARG0 9:0-rel 10:1-ARG2 13:2-ARG1
 bn/voa/00/voa_0091.parse 8 17 gold race race.02 ----- 16:0-ARG0 17:0-rel
 bn/voa/00/voa_0091.parse 15 3 gold order order.01 ----- 0:1-ARG0 3:0-rel 4:2-ARG2 8:1-ARGM-TMP
+bn/voa/00/voa_0091.parse 15 13 gold rule rule.01 ----- 13:0-rel 14:2-ARG1 16:1-ARGM-CAU
 bn/voa/00/voa_0091.parse 0 30 gold report report.01 ----- 26:3-ARG0 30:0-rel 31:1-ARG1 32:1-ARGM-DIR
+bn/voa/00/voa_0091.parse 2 11 gold pledge pledge.01 ----- 9:1-ARG0 11:0-rel 12:1-ARG2 13:1-ARGM-TMP
 bn/voa/00/voa_0091.parse 12 9 gold clash clash.01 ----- 9:0-rel 10:1-ARGM-TMP
 bn/voa/00/voa_0091.parse 0 40 gold gain gain.01 ----- 25:1-ARGM-ADV 35:1-ARG1 37:1-ARGM-ADV 38:0-ARGM-LVB 39:0-ARG2 40:0-rel 41:1-ARGM-ADJ
 bn/voa/00/voa_0091.parse 14 7 gold be be.03 ----- 7:0-rel
@@ -42,11 +42,10 @@ bn/voa/00/voa_0091.parse 7 17 gold begin begin.01 ----- 0:2*15:1-ARG1 17:0-rel 1
 bn/voa/00/voa_0091.parse 9 28 gold exclude exclude.01 ----- 26:1-ARG0 28:0-rel 29:1-ARG1
 bn/voa/00/voa_0091.parse 12 2 gold die die.01 ----- 0:1-ARG1 2:0-rel
 bn/voa/00/voa_0091.parse 15 21 gold violent violent.01 ----- 18:0-ARGM-EXT 21:0-rel 22:2-ARGM-ADJ
-bn/voa/00/voa_0091.parse 9 15 gold have have.03 ----- 14:1-ARG0 15:0-rel 16:2-ARG1
 bn/voa/00/voa_0091.parse 15 12 gold be be.03 ----- 12:0-rel
 bn/voa/00/voa_0091.parse 15 28 gold be be.03 ----- 28:0-rel
-bn/voa/00/voa_0091.parse 9 24 gold be be.01 ----- 24:0-rel 25:1-ARG2 26:2-ARG1
 bn/voa/00/voa_0091.parse 1 12 gold rule rule.03 ----- 12:0-rel 13:0,14:0,15:0-ARG0
+bn/voa/00/voa_0091.parse 10 33 gold be be.03 ----- 33:0-rel
 bn/voa/00/voa_0091.parse 10 34 gold view view.02 ----- 28:1*31:1*32:1*35:1-ARG1 28:1*31:1-LINK-SLC 34:0-rel 36:1-ARG2
 bn/voa/00/voa_0091.parse 11 4 gold accuse accuse.01 ----- 0:1-ARG0 3:1-ARGM-DIS 4:0-rel 5:1-ARG1 7:1-ARG2
 bn/voa/00/voa_0091.parse 8 28 gold be be.01 ----- 24:2-ARG1 28:0-rel 29:1-ARG2
@@ -60,9 +59,10 @@ bn/voa/00/voa_0091.parse 12 5 gold be be.03 ----- 5:0-rel
 bn/voa/00/voa_0091.parse 0 38 gold make make.LV ----- 38:0-rel 40:0-ARGM-PRR
 bn/voa/00/voa_0091.parse 8 39 gold allow allow.01 ----- 36:1,40:2-ARG1 39:0-rel
 bn/voa/00/voa_0091.parse 9 6 gold want want.01 ----- 4:1-ARG0 6:0-rel 7:2-ARG1
+bn/voa/00/voa_0091.parse 0 17 gold round round.05 ----- 17:0-rel 18:1-ARG1
+bn/voa/00/voa_0091.parse 9 15 gold have have.03 ----- 14:1-ARG0 15:0-rel 16:2-ARG1
 bn/voa/00/voa_0091.parse 0 41 gold accompany accompany.01 ----- 39:1*42:1-ARG1 39:1*42:1-LINK-PSV 41:0-rel 43:1-ARG0
 bn/voa/00/voa_0091.parse 14 8 gold monitor monitor.01 ----- 0:1*9:1-ARG1 2:1-ARGM-TMP 8:0-rel 10:1-ARG0
-bn/voa/00/voa_0091.parse 15 13 gold rule rule.01 ----- 13:0-rel 14:2-ARG1 16:1-ARGM-CAU
 bn/voa/00/voa_0091.parse 9 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 bn/voa/00/voa_0091.parse 3 3 gold run run.02 ----- 0:1-ARG0 3:0-rel 4:1-ARGM-PRD 6:1-ARGM-TMP
 bn/voa/00/voa_0091.parse 11 20 gold oppose oppose.01 ----- 20:0-rel
@@ -70,10 +70,10 @@ bn/voa/00/voa_0091.parse 6 16 gold have have.01 ----- 16:0-rel
 bn/voa/00/voa_0091.parse 15 4 gold monitor monitor.01 ----- 4:0-rel 5:1-ARG0
 bn/voa/00/voa_0091.parse 6 17 gold win win.01 ----- 0:2-ARG0 17:0-rel 18:2;23:1-ARG1 21:1-ARGM-TMP
 bn/voa/00/voa_0091.parse 3 8 gold be be.03 ----- 8:0-rel
+bn/voa/00/voa_0091.parse 9 24 gold be be.01 ----- 24:0-rel 25:1-ARG2 26:2-ARG1
 bn/voa/00/voa_0091.parse 14 6 gold be be.03 ----- 6:0-rel
 bn/voa/00/voa_0091.parse 5 11 gold base base.02 ----- 9:1*12:1-ARG1 9:1*12:1-LINK-PSV 11:0-rel 13:1-ARG2
 bn/voa/00/voa_0091.parse 10 27 gold weaken weaken.01 ----- 25:1-ARG0 27:0-rel 28:2-ARG1
 bn/voa/00/voa_0091.parse 0 9 gold be be.03 ----- 9:0-rel
 bn/voa/00/voa_0091.parse 15 29 gold kill kill.01 ----- 22:1*31:1-ARGM-LOC 24:3*30:1-ARG1 29:0-rel
 bn/voa/00/voa_0091.parse 3 9 gold pass pass_over.12 ----- 7:1*10:1-ARG1 9:0,11:1-rel 12:1-ARGM-LOC
-bn/voa/00/voa_0091.parse 11 21 gold be be.01 ----- 17:1*18:1*23:1-ARGM-LOC 17:1*18:1-LINK-SLC 19:1-ARG1 21:0-rel 22:1-ARG2

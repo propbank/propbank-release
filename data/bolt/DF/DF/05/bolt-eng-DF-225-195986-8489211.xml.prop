@@ -3,6 +3,7 @@ DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 2 2 gold make make.LV ----- 2:0-re
 DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 2 3 gold use use.01 ----- 1:1-ARG0 2:0-ARGM-LVB 3:0-rel 4:1-ARG1
 DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 8 16 gold be be.03 ----- 16:0-rel
 DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 4 19 gold need need.01 ----- 17:1*23:1-ARGM-TMP 18:1-ARG0 19:0-rel 20:2-ARG1
+DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 1 11 gold do do.02 ----- 7:1*10:1-ARG0 11:0-rel 12:1-ARG1 13:2-ARGM-PRP
 DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 0 2 gold transfer transfer.01 ----- 0:1*12:1-ARGM-TMP 1:1-ARG0 2:0-rel 3:1-ARG1 5:1-ARG2 9:2-ARGM-TMP
 DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 7 5 gold charge charge.01 ----- 0:1-ARGM-ADV 3:1*6:1-ARG1 5:0-rel 7:1-ARGM-MNR
 DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 4 2 gold log log.01 ----- 0:1-ARG0 1:1-ARGM-ADV 2:0-rel 3:1-ARG1
@@ -10,29 +11,28 @@ DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 1 1 gold have have.01 ----- 1:0-re
 DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 7 4 gold be be.03 ----- 4:0-rel
 DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 4 27 gold pay pay.01 ----- 0:1-ARG0 1:1-ARGM-ADV 26:1-ARGM-TMP 27:0-rel 28:1-ARG1 29:1-ARGM-DIR 30:2-ARGM-TMP
 DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 4 7 gold transfer transfer.01 ----- 0:1-ARG0 1:1-ARGM-ADV 7:0-rel 8:1-ARG1 9:1-ARG3 13:1-ARG2 17:2-ARGM-TMP
-DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 1 11 gold do do.02 ----- 7:1*10:1-ARG0 11:0-rel 12:1-ARG1 13:2-ARGM-PRP
 DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 4 5 gold bank bank.01 ----- 4:0-ARGM-LOC 5:0-rel
 DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 5 19 gold charge charge.01 ----- 17:1*20:1-ARG2 19:0-rel 21:1-ARG1 22:1-ARGM-MNR
 DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 5 3 gold be be.01 ----- 0:1-ARGM-ADV 2:1-ARG1 3:0-rel 4:2-ARG2
 DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 1 9 gold consider consider.02 ----- 7:1-ARG0 9:0-rel 10:2-ARG1
-DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 2 8 gold give give.01 ----- 1:1-ARG0 7:0-ARGM-MOD 8:0-rel 9:1-ARG2 10:2-ARG1
+DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 1 8 gold be be.03 ----- 8:0-rel
 DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 8 22 gold take take_out.11 ----- 20:1*26:1-ARGM-TMP 21:1-ARG0 22:0,23:1-rel 24:1-ARG1
 DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 8 8 gold need need.01 ----- 0:0-ARGM-DIS 1:2-ARGM-PRP 6:1-ARG0 7:0-ARGM-MOD 8:0-rel 9:2-ARG1
 DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 8 17 gold give give.01 ----- 12:1*14:1*19:1-ARG1 12:1*14:1-LINK-SLC 15:1*18:1-ARG2 17:0-rel 20:2-ARGM-TMP
+DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 2 8 gold give give.01 ----- 1:1-ARG0 7:0-ARGM-MOD 8:0-rel 9:1-ARG2 10:2-ARG1
 DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 8 11 gold check check.01 ----- 6:1*9:1-ARG0 11:0-rel 12:2-ARG1
+DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 6 8 gold be be.01 ----- 6:1-ARG1 8:0-rel 9:1-ARG2
 DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 5 13 gold get get.01 ----- 4:1*10:1*35:1-ARGM-MNR 4:1*10:1-LINK-SLC 11:1-ARG0 13:0-rel 14:1-ARG1 16:1-ARGM-CAU
 DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 7 21 gold charge charge.01 ----- 12:1-ARGM-ADV 19:1*22:1-ARG1 21:0-rel 23:1-ARGM-MNR
 DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 4 32 gold have have.03 ----- 30:1*36:1-ARGM-TMP 31:1-ARG0 32:0-rel 33:2-ARG1
 DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 3 5 gold need need.01 ----- 3:1*7:1-ARGM-TMP 4:1-ARG0 5:0-rel 6:1-ARG1
 DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 6 1 gold believe believe.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
-DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 6 8 gold be be.01 ----- 6:1-ARG1 8:0-rel 9:1-ARG2
 DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 0 18 gold be be.01 ----- 0:2-ARGM-TMP 14:2-ARG1 18:0-rel 19:1-ARG2
 DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 2 16 gold work work.09 ----- 13:1*17:1-ARGM-MNR 15:1-ARG1 16:0-rel
 DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 7 20 gold be be.03 ----- 20:0-rel
-DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 5 18 gold be be.03 ----- 18:0-rel
 DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 2 0 gold have have.01 ----- 0:0-rel
 DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 1 15 gold pay pay.01 ----- 7:1*10:1*13:1-ARG0 15:0-rel 16:1-ARG3
 DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 8 3 gold be be.01 ----- 1:1-ARG1 3:0-rel 4:1-ARG2
 DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 3 1 gold use use.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:2-ARGM-TMP
 DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 6 4 gold depend depend.01 ----- 3:1-ARG0 4:0-rel 5:1-ARG1
-DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 1 8 gold be be.03 ----- 8:0-rel
+DF/05/bolt-eng-DF-225-195986-8489211.xml.tree 5 18 gold be be.03 ----- 18:0-rel

@@ -2,20 +2,21 @@ nw/wsj/15/wsj_1551.parse 10 15 gold print print.01 ----- 3:2*16:1-ARG1 3:2*16:1-
 nw/wsj/15/wsj_1551.parse 11 17 gold print print.01 ----- 2:1*18:1-ARG1 2:1*18:1-LINK-PSV 16:1-ARGM-DIS 17:0-rel 19:1-ARGM-LOC
 nw/wsj/15/wsj_1551.parse 9 8 gold advertise advertise.01 ----- 1:1-ARGM-ADJ 4:0-ARGM-ADJ 5:1-ARGM-ADJ 8:0-rel 9:1-ARGM-LOC
 nw/wsj/15/wsj_1551.parse 10 24 gold increase increase.01 ----- 0:2-ARG1 23:0-ARGM-MOD 24:0-rel 25:1-ARG2
-nw/wsj/15/wsj_1551.parse 6 7 gold lead lead.03 ----- 0:2-ARG0 7:0-rel 8:1-ARG1 9:2-ARG2
 nw/wsj/15/wsj_1551.parse 2 5 gold expand expand.01 ----- 5:0-rel 6:1,9:0-ARG1
 nw/wsj/15/wsj_1551.parse 13 3 gold publish publish.01 ----- 0:1-ARG0 2:1-ARGM-DIS 3:0-rel 4:3-ARG1
 nw/wsj/15/wsj_1551.parse 3 18 gold increase increase.01 ----- 16:1-ARGM-EXT 18:0-rel 19:1-ARGM-TMP
 nw/wsj/15/wsj_1551.parse 3 13 gold compare compare.01 ----- 0:2-ARG1 13:0-rel 14:1-ARG2
 nw/wsj/15/wsj_1551.parse 7 26 gold increase increase.01 ----- 20:2-ARG1 25:0-ARGM-MOD 26:0-rel 27:1-ARG2
-nw/wsj/15/wsj_1551.parse 4 13 gold say say.01 ----- 1:4*14:1-ARG1 13:0-rel 15:2-ARG0
 nw/wsj/15/wsj_1551.parse 11 8 gold publish publish.01 ----- 2:1*11:1-ARG1 2:1*11:1-LINK-PSV 8:0-rel 12:1-ARGM-LOC
 nw/wsj/15/wsj_1551.parse 5 2 gold have have.01 ----- 2:0-rel
 nw/wsj/15/wsj_1551.parse 8 8 gold remain remain.01 ----- 0:2-ARG1 7:0-ARGM-MOD 8:0-rel 9:1-ARG3
+nw/wsj/15/wsj_1551.parse 12 20 gold rise rise.01 ----- 0:2-ARG1 19:0-ARGM-MOD 20:0-rel 21:1-ARG2
 nw/wsj/15/wsj_1551.parse 11 10 gold print print.01 ----- 2:1*11:1-ARG1 2:1*11:1-LINK-PSV 10:0-rel 12:1-ARGM-LOC
 nw/wsj/15/wsj_1551.parse 10 10 gold publish publish.01 ----- 3:2*11:1-ARG1 3:2*11:1-LINK-PSV 10:0-rel 12:1-ARGM-LOC
+nw/wsj/15/wsj_1551.parse 6 7 gold lead lead.03 ----- 0:2-ARG0 7:0-rel 8:1-ARG1 9:2-ARG2
 nw/wsj/15/wsj_1551.parse 6 11 gold share share.01 ----- 8:1*9:1-ARG0 11:0-rel 12:1-ARG1 14:1-ARG2
 nw/wsj/15/wsj_1551.parse 1 10 gold include include.01 ----- 0:2-ARG2 10:0-rel 11:2-ARG1
+nw/wsj/15/wsj_1551.parse 4 13 gold say say.01 ----- 1:4*14:1-ARG1 13:0-rel 15:2-ARG0
 nw/wsj/15/wsj_1551.parse 1 5 gold take take.01 ----- 0:1*3:1*4:1-ARG1 0:1*3:1-LINK-SLC 5:0-rel 6:1-ARG2 7:1-ARGM-TMP
 nw/wsj/15/wsj_1551.parse 7 13 gold increase increase.01 ----- 0:2-ARG1 12:0-ARGM-MOD 13:0-rel 14:1-ARG2
 nw/wsj/15/wsj_1551.parse 7 22 gold localize localize.01 ----- 22:0-rel 23:0,24:0-ARG1
@@ -30,7 +31,6 @@ nw/wsj/15/wsj_1551.parse 5 5 gold improve improve.01 ----- 5:0-rel 6:0,7:0-ARG1
 nw/wsj/15/wsj_1551.parse 0 4 gold announce announce.01 ----- 0:1-ARG0 4:0-rel 5:4-ARG1
 nw/wsj/15/wsj_1551.parse 5 16 gold increase increase.01 ----- 1:1*14:1-ARG0 15:1-ARGM-MNR 16:0-rel 17:1-ARG1
 nw/wsj/15/wsj_1551.parse 4 7 gold have have.01 ----- 7:0-rel
-nw/wsj/15/wsj_1551.parse 12 20 gold rise rise.01 ----- 0:2-ARG1 19:0-ARGM-MOD 20:0-rel 21:1-ARG2
 nw/wsj/15/wsj_1551.parse 5 3 gold invest invest.01 ----- 1:1-ARG0 3:0-rel 4:1-ARG2 13:1-ARGM-MNR
 nw/wsj/15/wsj_1551.parse 4 9 gold go go.01 ----- 1:3-ARG1 8:0-ARGM-NEG 9:0-rel 10:1-ARGM-DIR
 nw/wsj/15/wsj_1551.parse 13 14 gold operate operate.01 ----- 0:1-ARG0 2:1-ARGM-DIS 14:0-rel 15:1-ARG1

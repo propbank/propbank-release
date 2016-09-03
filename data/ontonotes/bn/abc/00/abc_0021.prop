@@ -2,43 +2,43 @@ bn/abc/00/abc_0021.parse 7 5 gold spend spend.02 ----- 0:1*3:1*4:1-ARG0 0:1*3:1-
 bn/abc/00/abc_0021.parse 17 2 gold expect expect.01 ----- 0:1*3:2-ARG1 2:0-rel
 bn/abc/00/abc_0021.parse 3 17 gold receive receive.01 ----- 0:1-ARGM-TMP 1:1-ARGM-TMP 10:2-ARG0 15:0-ARGM-MOD 16:1-ARGM-TMP 17:0-rel 18:3-ARG1 24:1-ARG2
 bn/abc/00/abc_0021.parse 1 4 gold have have.03 ----- 0:2-ARG0 4:0-rel 5:1-ARG1
-bn/abc/00/abc_0021.parse 10 4 gold have have.01 ----- 4:0-rel
 bn/abc/00/abc_0021.parse 2 21 gold war war.01 ----- 19:0-ARG0 20:0-ARGM-MNR 21:0-rel
 bn/abc/00/abc_0021.parse 2 10 gold be be.01 ----- 0:2-ARG1 10:0-rel 11:2-ARG2
 bn/abc/00/abc_0021.parse 15 2 gold go go.04 ----- 2:0-rel
-bn/abc/00/abc_0021.parse 10 18 gold pass pass.01 ----- 17:1*19:1-ARG1 17:1*19:1-LINK-PSV 18:0-rel 20:1-ARGM-TMP
 bn/abc/00/abc_0021.parse 10 27 gold get get.01 ----- 16:1-ARGM-LOC 23:1-ARG0 25:0-ARGM-MOD 26:1-ARGM-ADV 27:0-rel 28:1-ARG1
+bn/abc/00/abc_0021.parse 0 11 gold former former.01 ----- 11:0-rel 12:0-ARG1
 bn/abc/00/abc_0021.parse 4 2 gold be be.01 ----- 1:1-ARG1 2:0-rel 3:2-ARG2
 bn/abc/00/abc_0021.parse 16 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARGM-TMP 4:1-ARG2
-bn/abc/00/abc_0021.parse 13 1 gold send send.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 4:1-ARG2
 bn/abc/00/abc_0021.parse 15 7 gold price price.01 ----- 7:0-rel
-bn/abc/00/abc_0021.parse 0 11 gold former former.01 ----- 11:0-rel 12:0-ARG1
 bn/abc/00/abc_0021.parse 4 13 gold need need.01 ----- 12:1-ARG0 13:0-rel 14:2-ARG1
 bn/abc/00/abc_0021.parse 4 17 gold hold hold.03 ----- 12:1*14:1-ARG1 17:0-rel 18:2-ARG2
-bn/abc/00/abc_0021.parse 8 10 gold serve serve.01 ----- 10:0-rel
 bn/abc/00/abc_0021.parse 2 8 gold back back.01 ----- 6:0-ARG0 8:0-rel 9:0-ARG1
 bn/abc/00/abc_0021.parse 0 18 gold compensate compensate.01 ----- 18:0-rel 19:1-ARG1
 bn/abc/00/abc_0021.parse 6 3 gold punish punish.01 ----- 3:0-rel
 bn/abc/00/abc_0021.parse 10 9 gold suit sue.02 ----- 0:2*7:1-ARG0 9:0-rel 10:1-ARG1
 bn/abc/00/abc_0021.parse 4 31 gold be be.01 ----- 29:1*32:1-ARG2 30:1-ARG1 31:0-rel
+bn/abc/00/abc_0021.parse 8 10 gold serve serve.01 ----- 10:0-rel
 bn/abc/00/abc_0021.parse 10 3 gold terrorize terrorize.01 ----- 3:0-rel
+bn/abc/00/abc_0021.parse 4 16 gold be be.03 ----- 16:0-rel
 bn/abc/00/abc_0021.parse 14 3 gold get get_away.08 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-ARGM-NEG 3:0,4:1-rel 5:1-ARG1
-bn/abc/00/abc_0021.parse 4 8 gold send send.01 ----- 3:1*5:1*25:1-ARGM-MNR 3:1*5:1-LINK-SLC 6:1-ARG0 7:0-ARGM-MOD 8:0-rel 9:1-ARG1
+bn/abc/00/abc_0021.parse 2 1 gold die die.01 ----- 0:0-ARG1 1:0-rel 2:1-ARGM-CAU
 bn/abc/00/abc_0021.parse 0 15 gold begin begin.01 ----- 0:3,16:2-ARG1 13:0-ARGM-MOD 14:1-ARGM-TMP 15:0-rel
 bn/abc/00/abc_0021.parse 8 6 gold spend spend.01 ----- 1:1*4:1*5:1-ARG0 1:1*4:1-LINK-SLC 6:0-rel 7:0-ARG3
 bn/abc/00/abc_0021.parse 11 9 gold come come.03 ----- 0:1-ARG1 3:2-ARGM-TMP 8:0-ARGM-MOD 9:0-rel 10:1-ARG2
 bn/abc/00/abc_0021.parse 10 5 gold be be.01 ----- 0:2-ARG1 5:0-rel 6:1-ARG2 12:1-ARGM-TMP
 bn/abc/00/abc_0021.parse 7 16 gold get get.01 ----- 0:2-ARG0 15:0-ARGM-MOD 16:0-rel 17:2-ARG1
+bn/abc/00/abc_0021.parse 4 8 gold send send.01 ----- 3:1*5:1*25:1-ARGM-MNR 3:1*5:1-LINK-SLC 6:1-ARG0 7:0-ARGM-MOD 8:0-rel 9:1-ARG1
 bn/abc/00/abc_0021.parse 8 11 gold be be.01 ----- 9:1-ARG1 11:0-rel 12:1-ARG2
+bn/abc/00/abc_0021.parse 13 1 gold send send.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 4:1-ARG2
+bn/abc/00/abc_0021.parse 10 4 gold have have.01 ----- 4:0-rel
 bn/abc/00/abc_0021.parse 12 5 gold get get.01 ----- 0:1*3:1-ARG0 5:0-rel 6:1-ARG1 7:1-ARG2
-bn/abc/00/abc_0021.parse 2 1 gold die die.01 ----- 0:0-ARG1 1:0-rel 2:1-ARGM-CAU
 bn/abc/00/abc_0021.parse 17 5 gold sign sign.01 ----- 0:1*3:1-ARG0 5:0-rel 6:1-ARG1
 bn/abc/00/abc_0021.parse 4 28 gold be be.01 ----- 0:1-ARGM-ADV 27:1-ARG1 28:0-rel 29:2-ARG2
 bn/abc/00/abc_0021.parse 3 8 gold battle battle.01 ----- 6:0-ARGM-TMP 7:0-ARGM-MNR 8:0-rel
+bn/abc/00/abc_0021.parse 10 18 gold pass pass.01 ----- 17:1*19:1-ARG1 17:1*19:1-LINK-PSV 18:0-rel 20:1-ARGM-TMP
 bn/abc/00/abc_0021.parse 0 17 gold receive receive.01 ----- 0:3*16:1-ARG0 17:0-rel 18:2-ARG1
 bn/abc/00/abc_0021.parse 15 5 gold pay pay.01 ----- 0:1*3:1-ARG0 5:0-rel 6:1-ARG1
 bn/abc/00/abc_0021.parse 12 2 gold expect expect.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
 bn/abc/00/abc_0021.parse 4 23 gold do do.02 ----- 21:1*24:1-ARG1 22:1-ARG0 23:0-rel
 bn/abc/00/abc_0021.parse 4 10 gold sign signal.07 ----- 10:0-rel 11:1-ARG1
 bn/abc/00/abc_0021.parse 12 12 gold hold hold.01 ----- 9:1*13:1-ARG1 9:1*13:1-LINK-PSV 12:0-rel 14:1-ARGM-LOC
-bn/abc/00/abc_0021.parse 4 16 gold be be.03 ----- 16:0-rel

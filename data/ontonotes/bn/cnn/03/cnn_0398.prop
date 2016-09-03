@@ -1,14 +1,14 @@
+bn/cnn/03/cnn_0398.parse 2 2 gold call call_on.05 ----- 0:1-ARG0 2:0-rel 3:1-ARG1 6:2-ARG2
 bn/cnn/03/cnn_0398.parse 1 7 gold be be.01 ----- 0:1-ARGM-TMP 2:1-ARG1 7:0-rel 8:1-ARG2
 bn/cnn/03/cnn_0398.parse 1 12 gold be be.03 ----- 12:0-rel
 bn/cnn/03/cnn_0398.parse 2 8 gold stop stop.01 ----- 4:1*6:1-ARG0 4:1*6:1-LINK-PRO 8:0-rel 9:1-ARG1 10:1-ARGM-TMP
 bn/cnn/03/cnn_0398.parse 5 4 gold kill kill.01 ----- 0:1-ARGM-TMP 3:1-ARG0 4:0-rel 5:1-ARG1 7:1-ARGM-LOC 10:3-ARGM-ADV
-bn/cnn/03/cnn_0398.parse 3 2 gold be be.03 ----- 2:0-rel
 bn/cnn/03/cnn_0398.parse 3 3 gold kill kill.01 ----- 0:1*4:1-ARG1 3:0-rel
-bn/cnn/03/cnn_0398.parse 2 2 gold call call_on.05 ----- 0:1-ARG0 2:0-rel 3:1-ARG1 6:2-ARG2
 bn/cnn/03/cnn_0398.parse 2 9 gold terrorize terrorize.01 ----- 9:0-rel
 bn/cnn/03/cnn_0398.parse 1 17 gold violent violent.01 ----- 17:0-rel
 bn/cnn/03/cnn_0398.parse 4 3 gold be be.03 ----- 3:0-rel
 bn/cnn/03/cnn_0398.parse 6 17 gold be be.02 ----- 14:1*15:1*22:1-ARGM-LOC 14:1*15:1-LINK-SLC 17:0-rel 18:1-ARG1 21:1-ARGM-TMP
+bn/cnn/03/cnn_0398.parse 3 2 gold be be.03 ----- 2:0-rel
 bn/cnn/03/cnn_0398.parse 1 13 gold sweep sweep.02 ----- 11:1*14:1-ARG1 13:0-rel 15:1-ARGM-DIR 16:1-ARG0
 bn/cnn/03/cnn_0398.parse 4 4 gold injure injure.01 ----- 0:3*5:1-ARG1 4:0-rel
 bn/cnn/03/cnn_0398.parse 6 9 gold go go.02 ----- 8:1-ARG0 9:0-rel 10:1-ARG4

@@ -11,7 +11,6 @@ wb/c2e/00/c2e_0044.parse 10 3 gold steep steep.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:
 wb/c2e/00/c2e_0044.parse 8 3 gold want want.01 ----- 2:1-ARG0 3:0-rel 4:2-ARG1
 wb/c2e/00/c2e_0044.parse 4 28 gold be be.03 ----- 28:0-rel
 wb/c2e/00/c2e_0044.parse 13 11 gold be be.01 ----- 0:2-ARGM-TMP 8:1-ARG1 11:0-rel 12:2-ARG2
-wb/c2e/00/c2e_0044.parse 4 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2
 wb/c2e/00/c2e_0044.parse 10 16 gold stirfry stirfry.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:1-ARGM-MNR 9:1-ARGM-TMP 14:0,16:0-rel 17:1-ARG1
 wb/c2e/00/c2e_0044.parse 2 5 gold study study.01 ----- 2:1-ARG0 5:0-rel 6:1-ARGM-LOC
 wb/c2e/00/c2e_0044.parse 6 11 gold be be.01 ----- 0:1-ARGM-ADV 9:1-ARG1 10:0-ARGM-MOD 11:0-rel 13:3-ARG2
@@ -29,6 +28,7 @@ wb/c2e/00/c2e_0044.parse 11 24 gold tell tell.01 ----- 0:1-ARGM-CAU 19:1-ARG0 24
 wb/c2e/00/c2e_0044.parse 12 19 gold leave leave.12 ----- 7:2-ARGM-TMP 13:1-ARG0 19:0-rel 20:1-ARG1 22:2-ARG2
 wb/c2e/00/c2e_0044.parse 2 1 gold remember remember.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 wb/c2e/00/c2e_0044.parse 10 10 gold take take_out.11 ----- 0:0-ARGM-DIS 1:1-ARG0 2:1-ARGM-MNR 9:1-ARGM-TMP 10:0,12:1-rel 11:1-ARG1
+wb/c2e/00/c2e_0044.parse 3 10 gold have have.01 ----- 10:0-rel
 wb/c2e/00/c2e_0044.parse 4 13 gold summarize summarize.01 ----- 12:1-ARG0 13:0-rel 14:2-ARG1
 wb/c2e/00/c2e_0044.parse 4 29 gold enthrall enthrall.01 ----- 25:1-ARGM-TMP 27:1*30:1-ARG1 29:0-rel
 wb/c2e/00/c2e_0044.parse 11 35 gold be be.03 ----- 35:0-rel
@@ -36,10 +36,10 @@ wb/c2e/00/c2e_0044.parse 2 16 gold call call.01 ----- 12:1*17:1-ARG1 12:1*17:1-L
 wb/c2e/00/c2e_0044.parse 3 11 gold choose choose.01 ----- 2:3*8:1*9:1-ARG0 2:3*8:1-LINK-SLC 11:0-rel 12:1-ARG1 13:1-ARGM-TMP
 wb/c2e/00/c2e_0044.parse 0 2 gold be be.03 ----- 2:0-rel
 wb/c2e/00/c2e_0044.parse 11 4 gold need need.01 ----- 1:1-ARGM-TMP 3:1-ARG0 4:0-rel 5:2-ARG1
+wb/c2e/00/c2e_0044.parse 4 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2
 wb/c2e/00/c2e_0044.parse 13 9 gold dry dry.02 ----- 9:0-rel 10:0-ARG1
 wb/c2e/00/c2e_0044.parse 7 5 gold apply apply.02 ----- 0:1*6:1-ARG1 2:0-ARGM-MOD 3:1-ARGM-ADV 5:0-rel 7:1-ARG2
-wb/c2e/00/c2e_0044.parse 3 10 gold have have.01 ----- 10:0-rel
 wb/c2e/00/c2e_0044.parse 9 2 gold dry dry.02 ----- 2:0-rel 3:0-ARG1
-wb/c2e/00/c2e_0044.parse 12 14 gold turn turn_off.07 ----- 7:2-ARGM-TMP 13:1-ARG0 14:0,15:1-rel 16:1-ARG1
 wb/c2e/00/c2e_0044.parse 11 20 gold set set.02 ----- 0:1-ARGM-CAU 19:1-ARG0 20:0-rel 21:1-ARG1
+wb/c2e/00/c2e_0044.parse 12 14 gold turn turn_off.07 ----- 7:2-ARGM-TMP 13:1-ARG0 14:0,15:1-rel 16:1-ARG1
 wb/c2e/00/c2e_0044.parse 14 1 gold chalk chalk_up.01 ----- 0:1-ARG0 1:0,5:0-rel 2:1-ARG1 6:1-ARGM-GOL

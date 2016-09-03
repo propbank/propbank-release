@@ -6,6 +6,7 @@ nw/xinhua/02/chtb_0274.parse 4 19 gold give give.01 ----- 17:1*20:1-ARG1 17:1*20
 nw/xinhua/02/chtb_0274.parse 2 2 gold ceremony ceremony.01 ----- 1:0-ARG1 2:0-rel
 nw/xinhua/02/chtb_0274.parse 3 28 gold award award.01 ----- 24:1-ARGM-TMP 27:0-ARG1 28:0-rel
 nw/xinhua/02/chtb_0274.parse 3 8 gold give give_out.06 ----- 0:1-ARG0 8:0,9:1-rel 10:2-ARG1 17:1-ARG2
+nw/xinhua/02/chtb_0274.parse 8 17 gold win win.01 ----- 0:1-ARGM-TMP 10:2-ARG0 16:1-ARGM-TMP 17:0-rel 18:1-ARG1
 nw/xinhua/02/chtb_0274.parse 2 3 gold be be.03 ----- 3:0-rel
 nw/xinhua/02/chtb_0274.parse 7 21 gold contribute contribute.01 ----- 16:1-ARG0 19:0-ARGM-LVB 20:0-ARGM-ADJ 21:0-rel 22:1-ARG2
 nw/xinhua/02/chtb_0274.parse 4 2 gold deliver deliver.01 ----- 1:1*7:1-ARG0 2:0-rel 3:1-ARG1
@@ -27,8 +28,8 @@ nw/xinhua/02/chtb_0274.parse 1 31 gold award award.01 ----- 25:0-ARGM-TMP 26:0-A
 nw/xinhua/02/chtb_0274.parse 8 19 gold award award.01 ----- 19:0-rel
 nw/xinhua/02/chtb_0274.parse 5 23 gold do do.02 ----- 11:1*20:1-ARG0 22:1-ARGM-MNR 23:0-rel 24:1-ARG1 26:2-ARGM-PRP 40:1-ARGM-PRP
 nw/xinhua/02/chtb_0274.parse 5 44 gold use use.01 ----- 42:1-ARG0 44:0-rel 45:2-ARG1 51:2-ARG2
-nw/xinhua/02/chtb_0274.parse 5 16 gold use use.01 ----- 0:1-ARGM-ADV 11:1-ARG0 12:0-ARGM-MOD 13:1-ARGM-ADV 14:1-ARGM-MNR 15:0-ARGM-LVB 16:0-rel 17:1-ARG1 20:2-ARG2
 nw/xinhua/02/chtb_0274.parse 5 28 gold benefit benefit.01 ----- 11:1*26:1-ARG0 28:0-rel 29:2-ARG1
+nw/xinhua/02/chtb_0274.parse 8 15 gold have have.01 ----- 15:0-rel
 nw/xinhua/02/chtb_0274.parse 6 17 gold call call.01 ----- 0:2*18:1-ARG1 17:0-rel 19:2-ARG2
 nw/xinhua/02/chtb_0274.parse 7 11 gold bestow bestow.01 ----- 2:2*7:1*12:1-ARG1 2:2*7:1-LINK-SLC 10:1-ARGM-ADV 11:0-rel 13:1-ARGM-TMP 15:1-ARG2
 nw/xinhua/02/chtb_0274.parse 8 5 gold bestow bestow.01 ----- 1:1*6:1-ARG1 5:0-rel 7:1-ARGM-TMP
@@ -37,12 +38,11 @@ nw/xinhua/02/chtb_0274.parse 7 6 gold award award.01 ----- 6:0-rel
 nw/xinhua/02/chtb_0274.parse 7 1 gold be be.02 ----- 1:0-rel 2:3-ARG1
 nw/xinhua/02/chtb_0274.parse 1 22 gold award award.01 ----- 0:2*23:1-ARG2 22:0-rel 24:1-ARG1 32:1-ARGM-LOC 33:1-ARGM-TMP
 nw/xinhua/02/chtb_0274.parse 7 33 gold lead lead.02 ----- 32:0-ARG0 33:0-rel
-nw/xinhua/02/chtb_0274.parse 8 15 gold have have.01 ----- 15:0-rel
+nw/xinhua/02/chtb_0274.parse 6 7 gold be be.03 ----- 7:0-rel
 nw/xinhua/02/chtb_0274.parse 8 4 gold be be.03 ----- 4:0-rel
 nw/xinhua/02/chtb_0274.parse 5 8 gold allocate allocate.01 ----- 2:2*9:1-ARG1 5:1-ARG0 6:1-ARGM-TMP 8:0-rel
-nw/xinhua/02/chtb_0274.parse 4 15 gold let let_down.04 ----- 12:1-ARG0 13:0-ARGM-MOD 14:1-ARGM-NEG 15:0,16:1-rel 17:2-ARG1
 nw/xinhua/02/chtb_0274.parse 6 16 gold be be.03 ----- 16:0-rel
 nw/xinhua/02/chtb_0274.parse 5 59 gold develop develop.01 ----- 54:1*57:1-ARG1 59:0-rel 60:1-ARG2
-nw/xinhua/02/chtb_0274.parse 8 17 gold win win.01 ----- 0:1-ARGM-TMP 10:2-ARG0 16:1-ARGM-TMP 17:0-rel 18:1-ARG1
-nw/xinhua/02/chtb_0274.parse 6 7 gold be be.03 ----- 7:0-rel
+nw/xinhua/02/chtb_0274.parse 4 15 gold let let_down.04 ----- 12:1-ARG0 13:0-ARGM-MOD 14:1-ARGM-NEG 15:0,16:1-rel 17:2-ARG1
 nw/xinhua/02/chtb_0274.parse 1 21 gold be be.03 ----- 21:0-rel
+nw/xinhua/02/chtb_0274.parse 5 16 gold use use.01 ----- 0:1-ARGM-ADV 11:1-ARG0 12:0-ARGM-MOD 13:1-ARGM-ADV 14:1-ARGM-MNR 15:0-ARGM-LVB 16:0-rel 17:1-ARG1 20:2-ARG2

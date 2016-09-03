@@ -1,11 +1,11 @@
 nw/wsj/19/wsj_1969.parse 1 32 gold say say.01 ----- 30:1-ARG0 32:0-rel 33:1-ARG1
 nw/wsj/19/wsj_1969.parse 0 3 gold say say.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
-nw/wsj/19/wsj_1969.parse 2 25 gold need need.01 ----- 14:1*21:1*22:1-ARG0 14:1*21:1-LINK-SLC 24:0-ARGM-NEG 25:0-rel 26:1-ARG1
+nw/wsj/19/wsj_1969.parse 2 3 gold call call.01 ----- 0:1*4:1-ARG1 0:1*4:1-LINK-PRO 3:0-rel 5:2-ARG2
 nw/wsj/19/wsj_1969.parse 1 19 gold detect detect.01 ----- 0:2*17:1-ARG0 19:0-rel 20:1-ARG1 22:2-ARGM-TMP
 nw/wsj/19/wsj_1969.parse 1 26 gold be be.01 ----- 25:1-ARG1 26:0-rel 27:1-ARGM-TMP 28:1-ARG2
 nw/wsj/19/wsj_1969.parse 1 9 gold use use.01 ----- 0:2-ARG0 9:0-rel 10:1-ARG1 17:2-ARG2
 nw/wsj/19/wsj_1969.parse 2 9 gold be be.01 ----- 0:2-ARG1 9:0-rel 10:1-ARG2
-nw/wsj/19/wsj_1969.parse 2 3 gold call call.01 ----- 0:1*4:1-ARG1 0:1*4:1-LINK-PRO 3:0-rel 5:2-ARG2
+nw/wsj/19/wsj_1969.parse 2 25 gold need need.01 ----- 14:1*21:1*22:1-ARG0 14:1*21:1-LINK-SLC 24:0-ARGM-NEG 25:0-rel 26:1-ARG1
 nw/wsj/19/wsj_1969.parse 2 11 gold operate operate.01 ----- 10:0-ARG0 11:0-rel
 nw/wsj/19/wsj_1969.parse 2 13 gold be be.01 ----- 0:2-ARG1 13:0-rel 14:2-ARG2
 nw/wsj/19/wsj_1969.parse 0 6 gold introduce introduce.02 ----- 5:1-ARG0 6:0-rel 7:1-ARG1

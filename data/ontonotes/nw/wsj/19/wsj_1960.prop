@@ -2,9 +2,9 @@ nw/wsj/19/wsj_1960.parse 0 3 gold say say.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
 nw/wsj/19/wsj_1960.parse 1 12 gold say say.01 ----- 0:2-ARG0 12:0-rel 13:1-ARG1
 nw/wsj/19/wsj_1960.parse 1 18 gold be be.03 ----- 18:0-rel
 nw/wsj/19/wsj_1960.parse 1 22 gold begin begin.01 ----- 14:2*20:1-ARG1 22:0-rel 23:1-ARGM-TMP
-nw/wsj/19/wsj_1960.parse 2 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2
+nw/wsj/19/wsj_1960.parse 0 6 gold plan plan.01 ----- 5:1-ARG0 6:0-rel 7:2-ARG1
 nw/wsj/19/wsj_1960.parse 0 9 gold spend spend.01 ----- 5:1*7:1-ARG0 9:0-rel 10:2-ARG3 14:1-ARG1
 nw/wsj/19/wsj_1960.parse 1 14 gold spend spend.01 ----- 14:0-rel 15:1-ARG1
+nw/wsj/19/wsj_1960.parse 2 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2
 nw/wsj/19/wsj_1960.parse 1 4 gold use use.01 ----- 3:1*5:1-ARG1 3:1*5:1-LINK-PSV 4:0-rel 6:2-ARG0
 nw/wsj/19/wsj_1960.parse 1 19 gold plan plan.01 ----- 19:0-rel 20:2-ARG1
-nw/wsj/19/wsj_1960.parse 0 6 gold plan plan.01 ----- 5:1-ARG0 6:0-rel 7:2-ARG1

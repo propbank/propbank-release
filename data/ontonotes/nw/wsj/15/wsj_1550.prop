@@ -1,6 +1,8 @@
 nw/wsj/15/wsj_1550.parse 25 4 gold experiment experiment.01 ----- 3:0-ARGM-ADJ 4:0-rel
 nw/wsj/15/wsj_1550.parse 28 16 gold be be.03 ----- 16:0-rel
+nw/wsj/15/wsj_1550.parse 45 34 gold confirm confirm.01 ----- 32:1-ARG0 33:0-ARGM-MOD 34:0-rel 35:1-ARG1
 nw/wsj/15/wsj_1550.parse 42 5 gold report report.01 ----- 0:1-ARG0 4:1-ARGM-TMP 5:0-rel 6:2-ARG1
+nw/wsj/15/wsj_1550.parse 46 18 gold be be.03 ----- 18:0-rel
 nw/wsj/15/wsj_1550.parse 18 14 gold give give.01 ----- 0:2*15:1-ARG1 14:0-rel 16:1-ARG0
 nw/wsj/15/wsj_1550.parse 16 30 gold fuse fuse.01 ----- 29:0-ARGM-ADJ 30:0-rel 31:1-ARG1
 nw/wsj/15/wsj_1550.parse 28 6 gold burst burst.01 ----- 5:0-ARG1 6:0-rel
@@ -9,13 +11,13 @@ nw/wsj/15/wsj_1550.parse 22 13 gold begin begin.01 ----- 0:1-ARGM-TMP 11:1,14:2-
 nw/wsj/15/wsj_1550.parse 34 5 gold range range.01 ----- 0:1-ARGM-ADV 2:1-ARG1 5:0-rel 6:1-ARG3 12:1-ARG4
 nw/wsj/15/wsj_1550.parse 5 27 gold present present.01 ----- 25:1-ARG1 27:0-rel
 nw/wsj/15/wsj_1550.parse 36 2 gold fill fill.01 ----- 0:1*3:1-ARG1 0:1*3:1-LINK-PSV 2:0-rel 4:1-ARG2
-nw/wsj/15/wsj_1550.parse 31 1 gold burst burst.01 ----- 1:0-rel
 nw/wsj/15/wsj_1550.parse 19 22 gold produce produce.01 ----- 14:2*20:1-ARG0 22:0-rel 23:1-ARG1
 nw/wsj/15/wsj_1550.parse 25 8 gold say say.01 ----- 0:2-ARGM-ADV 6:1-ARG0 8:0-rel 9:1-ARG1
 nw/wsj/15/wsj_1550.parse 26 24 gold produce produce.01 ----- 20:1*23:1-ARG0 24:0-rel 25:1-ARG1 27:1-ARGM-TMP 35:1-ARGM-TMP
 nw/wsj/15/wsj_1550.parse 25 11 gold experiment experiment.01 ----- 10:0-ARG0 11:0-rel
 nw/wsj/15/wsj_1550.parse 28 30 gold accumulate accumulate.01 ----- 24:1*25:1*26:1-ARG1 24:1*25:1-LINK-SLC 27:0-ARGM-MOD 29:1-ARGM-MNR 30:0-rel 31:1-ARGM-TMP
 nw/wsj/15/wsj_1550.parse 21 3 gold be be.01 ----- 1:1-ARG1 3:0-rel 4:1-ARG2
+nw/wsj/15/wsj_1550.parse 7 12 gold fuse fuse.01 ----- 11:0-ARGM-ADJ 12:0-rel
 nw/wsj/15/wsj_1550.parse 42 22 gold be be.01 ----- 20:1-ARG1 22:0-rel 23:1-ARG2
 nw/wsj/15/wsj_1550.parse 31 28 gold apply apply.02 ----- 22:2*29:1-ARG1 22:2*29:1-LINK-PSV 28:0-rel
 nw/wsj/15/wsj_1550.parse 28 28 gold have have.01 ----- 28:0-rel
@@ -30,9 +32,9 @@ nw/wsj/15/wsj_1550.parse 28 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 nw/wsj/15/wsj_1550.parse 17 9 gold have have.01 ----- 9:0-rel
 nw/wsj/15/wsj_1550.parse 37 15 gold come come.03 ----- 0:2-ARG1 15:0-rel 16:1-ARG2
 nw/wsj/15/wsj_1550.parse 47 1 gold conclude conclude.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
-nw/wsj/15/wsj_1550.parse 27 3 gold be be.01 ----- 0:1-ARG1 3:0-rel 4:5-ARG2
 nw/wsj/15/wsj_1550.parse 1 3 gold continue continue.01 ----- 0:0-ARGM-DIS 1:1,4:2-ARG1 3:0-rel
 nw/wsj/15/wsj_1550.parse 41 5 gold measure measure.01 ----- 3:1-ARG0 5:0-rel 6:2-ARG1
+nw/wsj/15/wsj_1550.parse 35 19 gold put put.01 ----- 3:2*9:1*25:1-ARGM-LOC 3:2*9:1-LINK-SLC 10:3*20:1-ARG1 19:0-rel 21:1-ARG2
 nw/wsj/15/wsj_1550.parse 15 29 gold go go.01 ----- 27:1-ARG1 29:0-rel 30:1-ARGM-DIR
 nw/wsj/15/wsj_1550.parse 31 6 gold say say.01 ----- 0:2-ARG1-DSP 5:1-ARG0 6:0-rel
 nw/wsj/15/wsj_1550.parse 48 47 gold misinterpret misinterpret.01 ----- 40:1*48:1-ARG1 41:1-ARG0 45:0-ARGM-MOD 47:0-rel
@@ -40,39 +42,44 @@ nw/wsj/15/wsj_1550.parse 46 2 gold experiment experiment.01 ----- 1:0-ARGM-TMP 2
 nw/wsj/15/wsj_1550.parse 24 15 gold produce produce.01 ----- 7:1-ARG0 15:0-rel 16:1-ARG1 18:1-ARGM-TMP 21:1-ARGM-TMP
 nw/wsj/15/wsj_1550.parse 45 20 gold fuse fuse.01 ----- 19:0-ARGM-MNR 20:0-rel
 nw/wsj/15/wsj_1550.parse 0 21 gold grow grow.01 ----- 0:2-ARG1 20:1-ARG2 21:0-rel
-nw/wsj/15/wsj_1550.parse 26 37 gold quieten quiet.03 ----- 20:1*36:1-ARG1 20:1*36:1-LINK-PRO 37:0,38:1-rel
 nw/wsj/15/wsj_1550.parse 12 5 gold apply apply.02 ----- 1:1*6:1-ARG1 5:0-rel 7:1-ARG2
 nw/wsj/15/wsj_1550.parse 6 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 nw/wsj/15/wsj_1550.parse 31 21 gold low lower.05 ----- 11:1*18:1-ARG0 21:0-rel 22:3-ARG1
 nw/wsj/15/wsj_1550.parse 2 31 gold experiment experiment.01 ----- 30:0-ARGM-LOC 31:0-rel
-nw/wsj/15/wsj_1550.parse 7 12 gold fuse fuse.01 ----- 11:0-ARGM-ADJ 12:0-rel
 nw/wsj/15/wsj_1550.parse 45 13 gold burst burst.01 ----- 13:0-rel 14:1-ARG1 16:1-ARGM-DIR
 nw/wsj/15/wsj_1550.parse 12 26 gold dissociate dissociate.01 ----- 15:1*20:1-ARG1 26:0-rel
 nw/wsj/15/wsj_1550.parse 40 32 gold form form.01 ----- 31:0-ARG1 32:0-rel
 nw/wsj/15/wsj_1550.parse 28 22 gold release release.01 ----- 21:0-ARGM-TMP 22:0-rel 23:1-ARG1
 nw/wsj/15/wsj_1550.parse 3 41 gold experiment experiment.01 ----- 39:1-ARG1 41:0-rel
 nw/wsj/15/wsj_1550.parse 5 17 gold sit sit.01 ----- 13:3-ARG1 17:0-rel 18:1-ARGM-TMP
-nw/wsj/15/wsj_1550.parse 28 17 gold explain explain.01 ----- 4:1*13:1*14:1*18:1-ARG1 17:0-rel 19:1-ARG0 38:1-ARGM-ADV
 nw/wsj/15/wsj_1550.parse 45 7 gold say say.01 ----- 0:2-ARG0 7:0-rel 8:1-ARG1
 nw/wsj/15/wsj_1550.parse 24 3 gold restart restart.01 ----- 0:1*5:1-ARGM-TMP 1:1*4:1-ARG1 3:0-rel
 nw/wsj/15/wsj_1550.parse 41 18 gold continue continue.01 ----- 0:2,19:2-ARG1 18:0-rel
-nw/wsj/15/wsj_1550.parse 10 6 gold take take.01 ----- 2:1-ARG0 6:0-rel 7:1-ARG1
 nw/wsj/15/wsj_1550.parse 14 10 gold produce produce.01 ----- 7:1-ARG0 9:1-ARGM-DIS 10:0-rel 11:2-ARG1
+nw/wsj/15/wsj_1550.parse 28 17 gold explain explain.01 ----- 4:1*13:1*14:1*18:1-ARG1 17:0-rel 19:1-ARG0 38:1-ARGM-ADV
 nw/wsj/15/wsj_1550.parse 43 23 gold fuse fuse.01 ----- 22:0-ARGM-ADJ 23:0-rel
 nw/wsj/15/wsj_1550.parse 1 7 gold plague plague.01 ----- 1:1*4:1*8:1-ARG1 7:0-rel 9:1-ARG0
 nw/wsj/15/wsj_1550.parse 32 6 gold hint hint.01 ----- 5:1-ARG0 6:0-rel 7:1-ARG1
 nw/wsj/15/wsj_1550.parse 43 40 gold shield shield.01 ----- 12:1*17:1*38:1-ARG0 40:0-rel 41:1-ARG1 43:1-ARG2
 nw/wsj/15/wsj_1550.parse 2 34 gold support support.01 ----- 23:2*32:1-ARG0 34:0-rel 35:5-ARG1
+nw/wsj/15/wsj_1550.parse 38 13 gold detect detect.01 ----- 0:1*12:1-ARG0 13:0-rel 14:3-ARG1
+nw/wsj/15/wsj_1550.parse 35 18 gold be be.03 ----- 18:0-rel
 nw/wsj/15/wsj_1550.parse 2 45 gold fuse fuse.01 ----- 44:0-ARG1 45:0-rel
 nw/wsj/15/wsj_1550.parse 11 31 gold be be.01 ----- 22:1*26:1*40:1-ARGM-LOC 22:1*26:1-LINK-SLC 28:1-ARG1 31:0-rel 32:2-ARG2
 nw/wsj/15/wsj_1550.parse 16 22 gold come come.03 ----- 14:1-ARG1 20:0-ARGM-MOD 22:0-rel 23:1-ARG2
+nw/wsj/15/wsj_1550.parse 42 21 gold measure measure.01 ----- 21:0-rel
 nw/wsj/15/wsj_1550.parse 46 17 gold burst burst.01 ----- 16:0-ARG1 17:0-rel
 nw/wsj/15/wsj_1550.parse 42 18 gold concede concede.01 ----- 0:1-ARG0 17:1-ARGM-TMP 18:0-rel 19:1-ARG1
 nw/wsj/15/wsj_1550.parse 16 3 gold detect detect.01 ----- 1:1-ARG0 2:1-ARGM-DIS 3:0-rel 4:2-ARG1
 nw/wsj/15/wsj_1550.parse 26 5 gold do do.02 ----- 0:1*4:1-ARG0 5:0-rel 6:2-ARG1
 nw/wsj/15/wsj_1550.parse 19 19 gold fail fail.01 ----- 13:1*24:1-ARGM-TMP 14:2-ARG1 19:0-rel 20:2-ARG2
+nw/wsj/15/wsj_1550.parse 35 17 gold be be.03 ----- 17:0-rel
 nw/wsj/15/wsj_1550.parse 11 1 gold experiment experiment.01 ----- 1:0-rel
+nw/wsj/15/wsj_1550.parse 43 10 gold report report.01 ----- 0:2-ARG0 10:0-rel 11:1-ARG1
+nw/wsj/15/wsj_1550.parse 8 22 gold fuse fuse.01 ----- 21:0-ARGM-ADJ 22:0-rel
+nw/wsj/15/wsj_1550.parse 10 26 gold experiment experiment.01 ----- 19:1-ARGM-ADJ 21:2-ARG1 26:0-rel
 nw/wsj/15/wsj_1550.parse 37 4 gold hint hint.01 ----- 3:0-ARGM-ADJ 4:0-rel 5:1-ARG1
+nw/wsj/15/wsj_1550.parse 10 6 gold take take.01 ----- 2:1-ARG0 6:0-rel 7:1-ARG1
 nw/wsj/15/wsj_1550.parse 43 25 gold experiment experiment.01 ----- 22:1-ARG1 25:0-rel
 nw/wsj/15/wsj_1550.parse 37 10 gold be be.03 ----- 10:0-rel
 nw/wsj/15/wsj_1550.parse 15 33 gold report report.01 ----- 0:3*35:1-ARG1 32:1-ARG0 33:0-rel
@@ -83,94 +90,87 @@ nw/wsj/15/wsj_1550.parse 32 15 gold be be.03 ----- 15:0-rel
 nw/wsj/15/wsj_1550.parse 9 15 gold support support.01 ----- 13:1-ARG0 14:0-ARGM-MOD 15:0-rel 16:2-ARG1
 nw/wsj/15/wsj_1550.parse 40 1 gold be be.02 ----- 1:0-rel 3:2-ARG1
 nw/wsj/15/wsj_1550.parse 9 2 gold be be.03 ----- 2:0-rel
-nw/wsj/15/wsj_1550.parse 30 6 gold be be.03 ----- 6:0-rel
 nw/wsj/15/wsj_1550.parse 2 14 gold find find.01 ----- 0:2*12:1-ARG0 14:0-rel 15:2-ARG1
-nw/wsj/15/wsj_1550.parse 19 12 gold confirm confirm.01 ----- 4:2-ARG1 11:1-ARGM-TMP 12:0-rel 13:2-ARGM-TMP
 nw/wsj/15/wsj_1550.parse 31 19 gold raise raise.01 ----- 11:1*18:1-ARG0 19:0-rel 22:3-ARG1
 nw/wsj/15/wsj_1550.parse 16 12 gold assert assert.03 ----- 0:1-ARGM-CAU 11:1-ARG0 12:0-rel 13:1-ARG1
-nw/wsj/15/wsj_1550.parse 45 34 gold confirm confirm.01 ----- 32:1-ARG0 33:0-ARGM-MOD 34:0-rel 35:1-ARG1
 nw/wsj/15/wsj_1550.parse 11 17 gold plunge plunge.02 ----- 3:1-ARG0 17:0-rel 18:1-ARG1 21:1-ARG2
+nw/wsj/15/wsj_1550.parse 4 2 gold offer offer.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
+nw/wsj/15/wsj_1550.parse 31 13 gold perturb perturb.01 ----- 11:1-ARG0 13:0-rel 15:1-ARG1 17:1-ARGM-MNR
 nw/wsj/15/wsj_1550.parse 9 5 gold recommend recommend.01 ----- 0:1*3:1-ARG0 5:0-rel 6:1-ARGM-TMP 12:1-ARG1
 nw/wsj/15/wsj_1550.parse 11 4 gold encircle encircle.01 ----- 3:1-ARG0 4:0-rel 5:2-ARG2 11:1-ARG1
-nw/wsj/15/wsj_1550.parse 39 10 gold be be.03 ----- 10:0-rel
-nw/wsj/15/wsj_1550.parse 38 13 gold detect detect.01 ----- 0:1*12:1-ARG0 13:0-rel 14:3-ARG1
+nw/wsj/15/wsj_1550.parse 1 18 gold be be.03 ----- 18:0-rel
 nw/wsj/15/wsj_1550.parse 4 8 gold fall fall.01 ----- 7:0-ARG2 8:0-rel 9:1-ARG1
 nw/wsj/15/wsj_1550.parse 38 18 gold form form.01 ----- 14:2-ARG1 18:0-rel 19:1-ARGM-LOC
-nw/wsj/15/wsj_1550.parse 35 18 gold be be.03 ----- 18:0-rel
-nw/wsj/15/wsj_1550.parse 31 13 gold perturb perturb.01 ----- 11:1-ARG0 13:0-rel 15:1-ARG1 17:1-ARGM-MNR
 nw/wsj/15/wsj_1550.parse 47 7 gold stem stem.01 ----- 3:2-ARG1 7:0-rel 8:1-ARG2
-nw/wsj/15/wsj_1550.parse 8 22 gold fuse fuse.01 ----- 21:0-ARGM-ADJ 22:0-rel
 nw/wsj/15/wsj_1550.parse 20 3 gold borrow borrow.01 ----- 1:1-ARG0 2:1-ARGM-TMP 3:0-rel 4:1-ARG1 7:1-ARG2
 nw/wsj/15/wsj_1550.parse 33 12 gold involve involve.01 ----- 11:1-ARG2 12:0-rel 13:2-ARG1
 nw/wsj/15/wsj_1550.parse 1 2 gold experiment experiment.01 ----- 2:0-rel
 nw/wsj/15/wsj_1550.parse 3 40 gold fuse fuse.01 ----- 39:0-ARGM-ADJ 40:0-rel
+nw/wsj/15/wsj_1550.parse 33 15 gold measure measure.01 ----- 13:1-ARGM-ADJ 15:0-rel
 nw/wsj/15/wsj_1550.parse 47 4 gold indicate indicate.01 ----- 4:0-rel 5:1-ARG1
 nw/wsj/15/wsj_1550.parse 40 23 gold be be.03 ----- 23:0-rel
-nw/wsj/15/wsj_1550.parse 46 20 gold record record.01 ----- 0:1-ARGM-LOC 16:1*21:1-ARG1 19:1-ARGM-TMP 20:0-rel 22:1-ARGM-LOC 25:1-ARGM-TMP
+nw/wsj/15/wsj_1550.parse 47 19 gold experiment experiment.01 ----- 17:1-ARG1 19:0-rel
+nw/wsj/15/wsj_1550.parse 42 15 gold experiment experiment.01 ----- 14:0-ARG0 15:0-rel
 nw/wsj/15/wsj_1550.parse 40 28 gold tell tell.02 ----- 26:1-ARG0 28:0-rel 29:1-ARG1
 nw/wsj/15/wsj_1550.parse 36 7 gold be be.03 ----- 7:0-rel
 nw/wsj/15/wsj_1550.parse 4 14 gold fuse fuse.01 ----- 13:0-ARGM-ADJ 14:0-rel
 nw/wsj/15/wsj_1550.parse 15 15 gold add add.02 ----- 0:2-ARG0 15:0-rel 16:1-ARG2
 nw/wsj/15/wsj_1550.parse 19 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 nw/wsj/15/wsj_1550.parse 19 10 gold be be.03 ----- 10:0-rel
-nw/wsj/15/wsj_1550.parse 2 15 gold hint hint.01 ----- 15:0-rel 16:1-ARG1
 nw/wsj/15/wsj_1550.parse 6 3 gold contrast contrast.01 ----- 3:0-rel 4:1-ARG2
 nw/wsj/15/wsj_1550.parse 30 13 gold last last.01 ----- 8:2-ARG1 13:0-rel 14:1-ARG2 16:1-ARGM-TMP
 nw/wsj/15/wsj_1550.parse 25 12 gold be be.01 ----- 10:1-ARG1 12:0-rel 14:1-ARG2
 nw/wsj/15/wsj_1550.parse 40 39 gold burst burst.01 ----- 38:0-ARG1 39:0-rel
+nw/wsj/15/wsj_1550.parse 13 11 gold consume consume.01 ----- 0:1-ARGM-TMP 1:2-ARG0 10:0-ARGM-MOD 11:0-rel 12:3-ARG1
 nw/wsj/15/wsj_1550.parse 38 5 gold get get.01 ----- 0:1*4:1-ARG0 5:0-rel 6:2-ARG1
 nw/wsj/15/wsj_1550.parse 32 3 gold suggest suggest.01 ----- 0:1-ARG0 2:1-ARGM-MNR 3:0-rel 4:1-ARG1
-nw/wsj/15/wsj_1550.parse 29 2 gold be be.02 ----- 2:0-rel 3:2-ARG1
 nw/wsj/15/wsj_1550.parse 3 35 gold hear hear.01 ----- 25:2*32:1*33:1-ARG0 25:2*32:1-LINK-SLC 35:0-rel 36:2-ARG1
 nw/wsj/15/wsj_1550.parse 41 21 gold be be.01 ----- 0:2*19:1-ARG1 21:0-rel 22:1-ARG2
 nw/wsj/15/wsj_1550.parse 1 19 gold come come.03 ----- 15:1-ARG1 19:0-rel 20:1-ARG2
 nw/wsj/15/wsj_1550.parse 48 10 gold indicate indicate.01 ----- 0:1-ARGM-LOC 8:1-ARG0 10:0-rel 11:1-ARG1
 nw/wsj/15/wsj_1550.parse 5 4 gold register register.02 ----- 1:1*5:1-ARG1 1:1*5:1-LINK-PSV 4:0-rel 6:1-ARG2
-nw/wsj/15/wsj_1550.parse 47 19 gold experiment experiment.01 ----- 17:1-ARG1 19:0-rel
 nw/wsj/15/wsj_1550.parse 26 9 gold dissociate dissociate.01 ----- 0:1*4:1*8:1-ARG0 9:0-rel 10:1-ARG1
+nw/wsj/15/wsj_1550.parse 27 3 gold be be.01 ----- 0:1-ARG1 3:0-rel 4:5-ARG2
+nw/wsj/15/wsj_1550.parse 23 1 gold experiment experiment.01 ----- 1:0-rel
 nw/wsj/15/wsj_1550.parse 28 41 gold have have.01 ----- 41:0-rel
 nw/wsj/15/wsj_1550.parse 2 43 gold achieve achieve.01 ----- 35:4*42:1-ARG0 35:4*42:1-LINK-PRO 43:0-rel 44:1-ARG1 46:1-ARGM-MNR
-nw/wsj/15/wsj_1550.parse 42 21 gold measure measure.01 ----- 21:0-rel
-nw/wsj/15/wsj_1550.parse 42 15 gold experiment experiment.01 ----- 14:0-ARG0 15:0-rel
 nw/wsj/15/wsj_1550.parse 44 32 gold burst burst.01 ----- 31:0-ARG1 32:0-rel 33:1-ARGM-LOC
 nw/wsj/15/wsj_1550.parse 3 5 gold fuse fuse.01 ----- 4:0-ARGM-ADJ 5:0-rel
 nw/wsj/15/wsj_1550.parse 16 25 gold release release.01 ----- 24:1*26:1-ARG1 24:1*26:1-LINK-PSV 25:0-rel 27:1-ARG0
-nw/wsj/15/wsj_1550.parse 43 10 gold report report.01 ----- 0:2-ARG0 10:0-rel 11:1-ARG1
-nw/wsj/15/wsj_1550.parse 35 17 gold be be.03 ----- 17:0-rel
 nw/wsj/15/wsj_1550.parse 7 22 gold be be.01 ----- 0:2-ARG1 22:0-rel 23:1-ARG2
-nw/wsj/15/wsj_1550.parse 4 2 gold offer offer.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
-nw/wsj/15/wsj_1550.parse 33 15 gold measure measure.01 ----- 13:1-ARGM-ADJ 15:0-rel
 nw/wsj/15/wsj_1550.parse 22 12 gold experiment experiment.01 ----- 12:0-rel
 nw/wsj/15/wsj_1550.parse 39 32 gold produce produce.01 ----- 32:0-rel 33:1-ARG1
+nw/wsj/15/wsj_1550.parse 46 20 gold record record.01 ----- 0:1-ARGM-LOC 16:1*21:1-ARG1 19:1-ARGM-TMP 20:0-rel 22:1-ARGM-LOC 25:1-ARGM-TMP
 nw/wsj/15/wsj_1550.parse 35 4 gold continue continue.01 ----- 4:0-rel 5:0-ARG1
 nw/wsj/15/wsj_1550.parse 20 17 gold be be.03 ----- 17:0-rel
 nw/wsj/15/wsj_1550.parse 24 23 gold die die_down.02 ----- 7:1*22:1-ARG1 23:0,24:1-rel
 nw/wsj/15/wsj_1550.parse 31 16 gold experiment experiment.01 ----- 16:0-rel
+nw/wsj/15/wsj_1550.parse 8 19 gold evaluate evaluate.01 ----- 4:1*10:1*17:1-ARG0 4:1*10:1-LINK-PSV 19:0-rel 20:1-ARG1
 nw/wsj/15/wsj_1550.parse 36 8 gold produce produce.01 ----- 0:2-ARG0 8:0-rel 9:5-ARG1
 nw/wsj/15/wsj_1550.parse 12 19 gold begin begin.01 ----- 0:2-ARGM-TMP 15:1,20:2-ARG1 19:0-rel
 nw/wsj/15/wsj_1550.parse 7 7 gold experiment experiment.01 ----- 2:1*5:0-ARG0 6:0-ARGM-LOC 7:0-rel
 nw/wsj/15/wsj_1550.parse 36 20 gold fill fill.01 ----- 16:1*21:1-ARG1 16:1*21:1-LINK-PSV 20:0-rel 22:1-ARG2 25:1-ARGM-LOC
 nw/wsj/15/wsj_1550.parse 9 8 gold end end.01 ----- 8:0-rel 9:1-ARG1
 nw/wsj/15/wsj_1550.parse 17 12 gold measure measure.01 ----- 5:1*11:1-ARG0 12:0-rel 13:1,17:1-ARG1
+nw/wsj/15/wsj_1550.parse 45 25 gold decide decide.01 ----- 9:2-ARG0 25:0-rel 26:2-ARG1
 nw/wsj/15/wsj_1550.parse 28 42 gold suggest suggest.01 ----- 24:2-ARG1 39:1-ARG0 42:0-rel
-nw/wsj/15/wsj_1550.parse 3 8 gold present present.01 ----- 0:2*9:1-ARG1 8:0-rel 10:1-ARGM-LOC
 nw/wsj/15/wsj_1550.parse 18 24 gold engineer engineer.01 ----- 23:0-ARG1 24:0-rel
 nw/wsj/15/wsj_1550.parse 39 15 gold be be.02 ----- 15:0-rel 16:2-ARG1
 nw/wsj/15/wsj_1550.parse 0 16 gold fuse fuse.01 ----- 15:0-ARGM-ADJ 16:0-rel
-nw/wsj/15/wsj_1550.parse 40 24 gold be be.01 ----- 24:0-rel 25:1-ARG2 26:2-ARG1
 nw/wsj/15/wsj_1550.parse 10 27 gold describe describe.01 ----- 18:1*28:1-ARG1 18:1*28:1-LINK-PSV 27:0-rel 29:1-ARGM-TMP 31:1-ARG0
 nw/wsj/15/wsj_1550.parse 39 11 gold get get.01 ----- 9:1-ARG0 11:0-rel 12:1-ARG1
 nw/wsj/15/wsj_1550.parse 1 6 gold be be.03 ----- 6:0-rel
-nw/wsj/15/wsj_1550.parse 31 32 gold switch switch.01 ----- 11:1*18:1-ARG0 32:0,35:1-rel 33:1-ARG1
 nw/wsj/15/wsj_1550.parse 18 6 gold present present.01 ----- 2:2;7:1;9:1-ARG1 2:2*7:1-LINK-PSV 6:0-rel 8:1-ARGM-LOC
-nw/wsj/15/wsj_1550.parse 7 9 gold trigger trigger.01 ----- 2:1*5:1*8:1-ARG0 2:1*5:1-LINK-SLC 9:0-rel 10:1-ARG1
 nw/wsj/15/wsj_1550.parse 15 21 gold come come_out.09 ----- 17:3;26:1-ARG1 21:0-rel 22:0-ARGM-DIR 23:1-ARG2
 nw/wsj/15/wsj_1550.parse 8 9 gold set set_up.03 ----- 4:1*10:1-ARG1 4:1*10:1-LINK-PSV 9:0,11:1-rel 12:1-ARG0 17:2-ARGM-PRP
 nw/wsj/15/wsj_1550.parse 24 27 gold say say.01 ----- 0:3*29:1-ARG1 26:1-ARG0 27:0-rel
 nw/wsj/15/wsj_1550.parse 33 9 gold be be.01 ----- 0:2-ARG1 9:0-rel 10:1-ARG2
+nw/wsj/15/wsj_1550.parse 14 5 gold say say.01 ----- 0:0-ARGM-DIS 1:1-ARG0 5:0-rel 6:1-ARG1
+nw/wsj/15/wsj_1550.parse 34 19 gold be be.03 ----- 19:0-rel
 nw/wsj/15/wsj_1550.parse 12 4 gold be be.03 ----- 4:0-rel
 nw/wsj/15/wsj_1550.parse 10 9 gold report report.01 ----- 0:2-ARG0 9:0-rel 10:2-ARG1
 nw/wsj/15/wsj_1550.parse 2 22 gold leave leave.13 ----- 0:2*21:1-ARG0 0:2*21:1-LINK-PRO 22:0-rel 23:2,32:2-ARG1
+nw/wsj/15/wsj_1550.parse 31 1 gold burst burst.01 ----- 1:0-rel
 nw/wsj/15/wsj_1550.parse 26 22 gold begin begin.01 ----- 15:1-ARGM-TMP 20:1,23:2-ARG1 21:0-ARGM-MOD 22:0-rel
 nw/wsj/15/wsj_1550.parse 8 24 gold be be.01 ----- 0:0-ARGM-DIS 1:2-ARG1 24:0-rel 25:1-ARG2
 nw/wsj/15/wsj_1550.parse 40 34 gold relate relate.01 ----- 30:1*35:1-ARG1 34:0-rel 36:1-ARG2
@@ -186,16 +186,17 @@ nw/wsj/15/wsj_1550.parse 0 19 gold be be.03 ----- 19:0-rel
 nw/wsj/15/wsj_1550.parse 48 50 gold report report.01 ----- 0:2*52:1-ARG1 50:0-rel 53:2-ARG0
 nw/wsj/15/wsj_1550.parse 17 27 gold vary vary.01 ----- 23:2-ARG1 27:0-rel 28:1-ARG2
 nw/wsj/15/wsj_1550.parse 22 15 gold produce produce.01 ----- 11:1*14:1-ARG0 15:0-rel 16:1-ARG1
-nw/wsj/15/wsj_1550.parse 20 18 gold get get.01 ----- 16:1-ARG0 18:0-rel 19:1-ARG1
 nw/wsj/15/wsj_1550.parse 16 6 gold indicate indicate.01 ----- 6:0-rel 7:1-ARG1
 nw/wsj/15/wsj_1550.parse 10 16 gold vary vary.01 ----- 12:0-ARGM-TMP 14:1-ARGM-ADJ 16:0-rel 17:1-ARG1
 nw/wsj/15/wsj_1550.parse 38 6 gold burst burst.01 ----- 6:0-rel 7:1-ARG1
-nw/wsj/15/wsj_1550.parse 1 18 gold be be.03 ----- 18:0-rel
+nw/wsj/15/wsj_1550.parse 19 12 gold confirm confirm.01 ----- 4:2-ARG1 11:1-ARGM-TMP 12:0-rel 13:2-ARGM-TMP
+nw/wsj/15/wsj_1550.parse 2 15 gold hint hint.01 ----- 15:0-rel 16:1-ARG1
+nw/wsj/15/wsj_1550.parse 30 6 gold be be.03 ----- 6:0-rel
+nw/wsj/15/wsj_1550.parse 39 10 gold be be.03 ----- 10:0-rel
 nw/wsj/15/wsj_1550.parse 38 3 gold report report.01 ----- 0:1-ARG0 2:1-ARGM-TMP 3:0-rel 4:3-ARG1
 nw/wsj/15/wsj_1550.parse 24 11 gold take take_off.08 ----- 0:2-ARGM-TMP 7:1-ARG1 10:1-ARGM-ADV 11:0,12:1-rel
 nw/wsj/15/wsj_1550.parse 24 2 gold be be.03 ----- 2:0-rel
 nw/wsj/15/wsj_1550.parse 46 12 gold burst burst.01 ----- 12:0-rel 13:1-ARG1
-nw/wsj/15/wsj_1550.parse 46 18 gold be be.03 ----- 18:0-rel
 nw/wsj/15/wsj_1550.parse 27 13 gold involve involve.01 ----- 11:1*14:1-ARG1 11:1*14:1-LINK-PSV 13:0-rel 15:1-ARG2
 nw/wsj/15/wsj_1550.parse 29 12 gold say say.01 ----- 1:2*13:1-ARG1 11:1-ARG0 12:0-rel
 nw/wsj/15/wsj_1550.parse 44 29 gold detect detect.01 ----- 19:1-ARGM-TMP 21:1-ARGM-TMP 28:1-ARG0 29:0-rel 30:1-ARG1 33:1-ARGM-LOC
@@ -212,7 +213,6 @@ nw/wsj/15/wsj_1550.parse 40 9 gold measure measure.01 ----- 3:1*5:1*18:1-ARGM-MN
 nw/wsj/15/wsj_1550.parse 5 26 gold fuse fuse.01 ----- 25:0-ARGM-ADJ 26:0-rel
 nw/wsj/15/wsj_1550.parse 23 3 gold stop stop.01 ----- 0:1*4:1-ARG1 3:0-rel 5:1-ARGM-TMP 6:2-ARGM-PRP
 nw/wsj/15/wsj_1550.parse 48 23 gold conduct conduct.01 ----- 21:1-ARG0 22:0-ARGM-MOD 23:0-rel 24:1-ARG1
-nw/wsj/15/wsj_1550.parse 10 26 gold experiment experiment.01 ----- 19:1-ARGM-ADJ 21:2-ARG1 26:0-rel
 nw/wsj/15/wsj_1550.parse 2 1 gold experiment experiment.01 ----- 0:0-ARGM-TMP 1:0-rel 2:1-ARGM-LOC
 nw/wsj/15/wsj_1550.parse 44 43 gold be be.01 ----- 42:1-ARG1 43:0-rel 44:1-ARG2
 nw/wsj/15/wsj_1550.parse 34 20 gold measure measure.01 ----- 16:1*21:1-ARG1 20:0-rel 22:1-ARG2
@@ -224,42 +224,42 @@ nw/wsj/15/wsj_1550.parse 31 27 gold be be.03 ----- 27:0-rel
 nw/wsj/15/wsj_1550.parse 22 8 gold borrow borrow.01 ----- 8:0-rel 9:0-ARG1
 nw/wsj/15/wsj_1550.parse 48 9 gold experiment experiment.01 ----- 8:0-ARGM-TMP 9:0-rel
 nw/wsj/15/wsj_1550.parse 32 16 gold produce produce.01 ----- 8:1-ARG0 14:0-ARGM-MOD 16:0-rel 17:1-ARG1
-nw/wsj/15/wsj_1550.parse 34 19 gold be be.03 ----- 19:0-rel
+nw/wsj/15/wsj_1550.parse 39 28 gold occur occur.01 ----- 25:1-ARG1 28:0-rel
 nw/wsj/15/wsj_1550.parse 23 8 gold change change.01 ----- 6:1-ARG0 8:0-rel 9:1-ARG1
-nw/wsj/15/wsj_1550.parse 35 19 gold put put.01 ----- 3:2*9:1*25:1-ARGM-LOC 3:2*9:1-LINK-SLC 10:3*20:1-ARG1 19:0-rel 21:1-ARG2
 nw/wsj/15/wsj_1550.parse 45 11 gold detect detect.01 ----- 9:2-ARG0 11:0-rel 12:2-ARG1
 nw/wsj/15/wsj_1550.parse 38 14 gold increase increase.01 ----- 14:0-rel 15:0-ARG1
-nw/wsj/15/wsj_1550.parse 13 11 gold consume consume.01 ----- 0:1-ARGM-TMP 1:2-ARG0 10:0-ARGM-MOD 11:0-rel 12:3-ARG1
 nw/wsj/15/wsj_1550.parse 44 26 gold experiment experiment.01 ----- 26:0-rel
 nw/wsj/15/wsj_1550.parse 3 7 gold be be.03 ----- 7:0-rel
 nw/wsj/15/wsj_1550.parse 30 7 gold get get.01 ----- 4:1-ARG0 5:1-ARGM-DIS 7:0-rel 8:3-ARG1
+nw/wsj/15/wsj_1550.parse 31 3 gold occur occur.01 ----- 0:1-ARG1 2:1-ARGM-TMP 3:0-rel 10:1-ARGM-TMP
 nw/wsj/15/wsj_1550.parse 39 27 gold burst burst.01 ----- 26:0-ARG1 27:0-rel
-nw/wsj/15/wsj_1550.parse 23 1 gold experiment experiment.01 ----- 1:0-rel
 nw/wsj/15/wsj_1550.parse 26 2 gold go go.06 ----- 0:1-ARG1 1:0-ARGM-MOD 2:0-rel 3:1-ARG2 4:2-ARGM-ADV
-nw/wsj/15/wsj_1550.parse 11 2 gold involve involve.01 ----- 0:1-ARG2 2:0-rel 3:2-ARG1
 nw/wsj/15/wsj_1550.parse 45 29 gold announce announce.01 ----- 9:2*26:1-ARG0 27:0-ARGM-NEG 29:0-rel 30:1-ARG1 31:1-ARGM-TMP
 nw/wsj/15/wsj_1550.parse 35 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:3-ARG2
+nw/wsj/15/wsj_1550.parse 26 37 gold quieten quiet.03 ----- 20:1*36:1-ARG1 20:1*36:1-LINK-PRO 37:0,38:1-rel
 nw/wsj/15/wsj_1550.parse 9 17 gold fuse fuse.01 ----- 16:0-ARGM-ADJ 17:0-rel
+nw/wsj/15/wsj_1550.parse 29 2 gold be be.02 ----- 2:0-rel 3:2-ARG1
 nw/wsj/15/wsj_1550.parse 35 5 gold experiment experiment.01 ----- 4:0-ARGM-TMP 5:0-rel 6:1-ARGM-LOC 9:2-ARGM-ADJ
-nw/wsj/15/wsj_1550.parse 8 19 gold evaluate evaluate.01 ----- 4:1*10:1*17:1-ARG0 4:1*10:1-LINK-PSV 19:0-rel 20:1-ARG1
 nw/wsj/15/wsj_1550.parse 42 10 gold be be.03 ----- 10:0-rel
 nw/wsj/15/wsj_1550.parse 33 4 gold surround surround.01 ----- 3:1-ARG1 4:0-rel 5:1-ARG2
 nw/wsj/15/wsj_1550.parse 28 33 gold experiment experiment.01 ----- 33:0-rel
+nw/wsj/15/wsj_1550.parse 40 24 gold be be.01 ----- 24:0-rel 25:1-ARG2 26:2-ARG1
+nw/wsj/15/wsj_1550.parse 3 8 gold present present.01 ----- 0:2*9:1-ARG1 8:0-rel 10:1-ARGM-LOC
+nw/wsj/15/wsj_1550.parse 31 32 gold switch switch.01 ----- 11:1*18:1-ARG0 32:0,35:1-rel 33:1-ARG1
+nw/wsj/15/wsj_1550.parse 7 9 gold trigger trigger.01 ----- 2:1*5:1*8:1-ARG0 2:1*5:1-LINK-SLC 9:0-rel 10:1-ARG1
+nw/wsj/15/wsj_1550.parse 20 18 gold get get.01 ----- 16:1-ARG0 18:0-rel 19:1-ARG1
 nw/wsj/15/wsj_1550.parse 17 20 gold experiment experiment.01 ----- 18:0-ARGM-ADJ 19:0-ARG2 20:0-rel
 nw/wsj/15/wsj_1550.parse 16 9 gold radiate radiate.01 ----- 8:0-ARG1 9:0-rel
-nw/wsj/15/wsj_1550.parse 31 3 gold occur occur.01 ----- 0:1-ARG1 2:1-ARGM-TMP 3:0-rel 10:1-ARGM-TMP
 nw/wsj/15/wsj_1550.parse 15 6 gold consume consume.01 ----- 4:1*7:1-ARG1 4:1*7:1-LINK-PSV 6:0-rel 8:1-ARG0
 nw/wsj/15/wsj_1550.parse 39 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 nw/wsj/15/wsj_1550.parse 44 5 gold detect detect.01 ----- 0:2-ARGM-TMP 4:1-ARG0 5:0-rel 6:1-ARG1 7:1-ARGM-LOC
 nw/wsj/15/wsj_1550.parse 48 14 gold add add.02 ----- 12:1*15:1-ARG1 12:1*15:1-LINK-PSV 14:0-rel 16:1-ARG2 20:1-ARGM-PRP
-nw/wsj/15/wsj_1550.parse 39 28 gold occur occur.01 ----- 25:1-ARG1 28:0-rel
 nw/wsj/15/wsj_1550.parse 6 34 gold crowd crowd.01 ----- 5:3*19:1*50:1-ARGM-TMP 5:3*19:1-LINK-SLC 20:2-ARG0 25:1-ARGM-MNR 34:0-rel 35:1-ARG1 41:1-ARGM-PRP
 nw/wsj/15/wsj_1550.parse 39 19 gold correlate correlate.01 ----- 18:0-ARGM-EXT 19:0-rel 21:1-ARG1
 nw/wsj/15/wsj_1550.parse 12 18 gold do do.01 ----- 18:0-rel
+nw/wsj/15/wsj_1550.parse 11 2 gold involve involve.01 ----- 0:1-ARG2 2:0-rel 3:2-ARG1
 nw/wsj/15/wsj_1550.parse 19 16 gold experiment experiment.01 ----- 14:0-ARG0 15:0-ARGM-TMP 16:0-rel 17:1-ARGM-TMP
 nw/wsj/15/wsj_1550.parse 41 11 gold be be.01 ----- 6:1*8:1*9:1-ARG1 6:1*8:1-LINK-SLC 10:0-ARGM-MOD 11:0-rel 12:2-ARG2
 nw/wsj/15/wsj_1550.parse 21 8 gold say say.01 ----- 1:2*9:1-ARG1 7:1-ARG0 8:0-rel
-nw/wsj/15/wsj_1550.parse 45 25 gold decide decide.01 ----- 9:2-ARG0 25:0-rel 26:2-ARG1
-nw/wsj/15/wsj_1550.parse 14 5 gold say say.01 ----- 0:0-ARGM-DIS 1:1-ARG0 5:0-rel 6:1-ARG1
 nw/wsj/15/wsj_1550.parse 11 36 gold know know.02 ----- 32:1*37:1-ARG1 32:1*37:1-LINK-PSV 36:0-rel 38:1-ARG2
 nw/wsj/15/wsj_1550.parse 14 8 gold experiment experiment.01 ----- 7:0-ARG0 8:0-rel

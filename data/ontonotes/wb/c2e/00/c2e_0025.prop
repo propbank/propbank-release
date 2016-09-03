@@ -1,4 +1,5 @@
 wb/c2e/00/c2e_0025.parse 5 5 gold be be.01 ----- 0:2-ARG1 5:0-rel 6:2-ARG2 11:1-ARGM-ADV
+wb/c2e/00/c2e_0025.parse 8 14 gold be be.03 ----- 14:0-rel
 wb/c2e/00/c2e_0025.parse 8 21 gold be be.01 ----- 0:1-ARGM-ADV 19:1-ARG1 20:0-ARGM-MOD 21:0-rel 22:4-ARG2
 wb/c2e/00/c2e_0025.parse 11 1 gold restore restore.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 wb/c2e/00/c2e_0025.parse 9 36 gold make make.02 ----- 35:1-ARG0 36:0-rel 37:2-ARG1
@@ -6,24 +7,23 @@ wb/c2e/00/c2e_0025.parse 6 6 gold talk talk.01 ----- 0:1-ARGM-ADV 3:1-ARG0 4:0-A
 wb/c2e/00/c2e_0025.parse 10 25 gold set set_up.03 ----- 1:1*24:1-ARG0 25:0,26:1-rel 27:2-ARG1
 wb/c2e/00/c2e_0025.parse 5 13 gold prove prove.01 ----- 12:1-ARG1 13:0-rel 15:1-ARG0
 wb/c2e/00/c2e_0025.parse 9 30 gold be be.01 ----- 0:1-ARGM-TMP 6:1-ARGM-ADV 27:1-ARG1 28:0-ARGM-MOD 29:0-ARGM-NEG 30:0-rel 31:2-ARG2
-wb/c2e/00/c2e_0025.parse 10 9 gold station station.01 ----- 4:1*5:1*6:1*10:1-ARG1 4:1*5:1-LINK-SLC 9:0-rel 11:1-ARG2
 wb/c2e/00/c2e_0025.parse 11 6 gold ensure ensure.01 ----- 0:2-ARG0 5:0-ARGM-MOD 6:0-rel 7:1-ARG1
 wb/c2e/00/c2e_0025.parse 7 27 gold bear bear.01 ----- 26:1-ARG0 27:0-rel 28:1-ARG1
+wb/c2e/00/c2e_0025.parse 7 7 gold be be.01 ----- 0:1-ARGM-TMP 5:1-ARG1 7:0-rel 8:2-ARG2
 wb/c2e/00/c2e_0025.parse 7 15 gold be be.03 ----- 15:0-rel
 wb/c2e/00/c2e_0025.parse 5 22 gold inherit inherit.01 ----- 21:1-ARG0 22:0-rel 23:1-ARG1 25:1-ARG2 27:1-ARGM-ADV
-wb/c2e/00/c2e_0025.parse 8 14 gold be be.03 ----- 14:0-rel
+wb/c2e/00/c2e_0025.parse 8 16 gold achieve achieve.01 ----- 1:1-ARGM-TMP 4:2*17:1-ARG1 15:1-ARGM-ADV 16:0-rel
 wb/c2e/00/c2e_0025.parse 10 8 gold be be.03 ----- 8:0-rel
+wb/c2e/00/c2e_0025.parse 0 8 gold be be.01 ----- 0:1-ARGM-MNR 6:1-ARG1 8:0-rel 9:1-ARG2
+wb/c2e/00/c2e_0025.parse 10 3 gold send send.01 ----- 0:1-ARGM-TMP 1:1-ARG0 3:0-rel 4:2-ARG1
 wb/c2e/00/c2e_0025.parse 10 34 gold spend spend.02 ----- 32:1-ARG0 34:0-rel 35:1-ARG1 38:1-ARGM-MNR
 wb/c2e/00/c2e_0025.parse 9 15 gold come come.04 ----- 9:2-ARG1 15:0-rel 16:2-ARG2
-wb/c2e/00/c2e_0025.parse 7 7 gold be be.01 ----- 0:1-ARGM-TMP 5:1-ARG1 7:0-rel 8:2-ARG2
 wb/c2e/00/c2e_0025.parse 7 16 gold pressure pressure.01 ----- 14:1*17:1-ARG1 16:0-rel 18:1-ARG0 21:1-ARGM-TMP
 wb/c2e/00/c2e_0025.parse 10 14 gold follow follow.02 ----- 0:1-ARGM-TMP 1:1-ARG0 2:0-ARGM-MOD 14:0-rel 15:2-ARG1 24:2-ARGM-ADV
 wb/c2e/00/c2e_0025.parse 9 18 gold force force.02 ----- 9:2*16:1-ARG0 18:0-rel 19:2-ARG1
 wb/c2e/00/c2e_0025.parse 11 13 gold be be.01 ----- 8:2-ARG1 13:0-rel 14:2-ARG2
-wb/c2e/00/c2e_0025.parse 10 3 gold send send.01 ----- 0:1-ARGM-TMP 1:1-ARG0 3:0-rel 4:2-ARG1
-wb/c2e/00/c2e_0025.parse 9 38 gold happen happen.01 ----- 37:1-ARG1 38:0-rel 39:1-ARGM-REC
-wb/c2e/00/c2e_0025.parse 8 16 gold achieve achieve.01 ----- 1:1-ARGM-TMP 4:2*17:1-ARG1 15:1-ARGM-ADV 16:0-rel
-wb/c2e/00/c2e_0025.parse 8 34 gold shave shave.01 ----- 28:1*31:1*37:1-ARGM-TMP 28:1*31:1-LINK-SLC 32:1-ARG0 34:0-rel 35:1-ARG1
-wb/c2e/00/c2e_0025.parse 0 8 gold be be.01 ----- 0:1-ARGM-MNR 6:1-ARG1 8:0-rel 9:1-ARG2
 wb/c2e/00/c2e_0025.parse 9 8 gold let let.01 ----- 7:1-ARG0 8:0-rel 9:3-ARG1
+wb/c2e/00/c2e_0025.parse 9 38 gold happen happen.01 ----- 37:1-ARG1 38:0-rel 39:1-ARGM-REC
+wb/c2e/00/c2e_0025.parse 10 9 gold station station.01 ----- 4:1*5:1*6:1*10:1-ARG1 4:1*5:1-LINK-SLC 9:0-rel 11:1-ARG2
+wb/c2e/00/c2e_0025.parse 8 34 gold shave shave.01 ----- 28:1*31:1*37:1-ARGM-TMP 28:1*31:1-LINK-SLC 32:1-ARG0 34:0-rel 35:1-ARG1
 wb/c2e/00/c2e_0025.parse 3 10 gold be be.01 ----- 2:1-ARGM-MNR 8:1-ARG1 10:0-rel 11:1-ARG2

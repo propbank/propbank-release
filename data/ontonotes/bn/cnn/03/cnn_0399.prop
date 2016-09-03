@@ -1,13 +1,13 @@
 bn/cnn/03/cnn_0399.parse 1 4 gold link link.01 ----- 0:1-ARG2 3:1-ARGM-MNR 4:0-rel 5:1-ARG1
 bn/cnn/03/cnn_0399.parse 1 2 gold have have.01 ----- 2:0-rel
+bn/cnn/03/cnn_0399.parse 0 17 gold target target.01 ----- 6:1*13:1*19:1-ARGM-LOC 6:1*13:1-LINK-SLC 14:1-ARG0 17:0-rel 18:1-ARG1
 bn/cnn/03/cnn_0399.parse 5 6 gold operate operate.01 ----- 5:0-ARGM-ADJ 6:0-rel
 bn/cnn/03/cnn_0399.parse 0 16 gold be be.03 ----- 16:0-rel
 bn/cnn/03/cnn_0399.parse 1 1 gold test test.01 ----- 0:0-ARG1 1:0-rel
-bn/cnn/03/cnn_0399.parse 0 17 gold target target.01 ----- 6:1*13:1*19:1-ARGM-LOC 6:1*13:1-LINK-SLC 14:1-ARG0 17:0-rel 18:1-ARG1
+bn/cnn/03/cnn_0399.parse 3 12 gold be be.01 ----- 4:2-ARG1 12:0-rel 13:1-ARG2 15:1-ARGM-DIS
 bn/cnn/03/cnn_0399.parse 3 7 gold attack attack.01 ----- 6:1*8:1-ARG1 6:1*8:1-LINK-PSV 7:0-rel 9:1-ARGM-LOC
 bn/cnn/03/cnn_0399.parse 4 9 gold be be.02 ----- 9:0-rel 10:3-ARG1
 bn/cnn/03/cnn_0399.parse 0 4 gold get get.05 ----- 0:1*2:1-ARG1 4:0-rel 5:1;13:2-ARG2 9:2-ARGM-ADV
-bn/cnn/03/cnn_0399.parse 3 12 gold be be.01 ----- 4:2-ARG1 12:0-rel 13:1-ARG2 15:1-ARGM-DIS
 bn/cnn/03/cnn_0399.parse 0 1 gold want want.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 bn/cnn/03/cnn_0399.parse 4 12 gold concern concern.01 ----- 10:1-ARGM-ADJ 12:0-rel 13:1-ARGM-LOC
 bn/cnn/03/cnn_0399.parse 4 1 gold talk talk.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG2

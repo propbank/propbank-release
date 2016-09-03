@@ -1,13 +1,14 @@
-pt/nt/60/nt_6004.parse 42 2 gold continue continue.01 ----- 0:1-ARGM-ADV 1:1-ARG0 2:0-rel 3:2-ARG1
 pt/nt/60/nt_6004.parse 33 6 gold be be.01 ----- 5:1-ARG1 6:0-rel 7:1-ARG2
 pt/nt/60/nt_6004.parse 31 6 gold show show.01 ----- 0:2-ARGM-TMP 5:1-ARG0 6:0-rel 7:1-ARG1
 pt/nt/60/nt_6004.parse 1 3 gold strengthen strengthen.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:1-ARG1 5:1-ARGM-MNR
 pt/nt/60/nt_6004.parse 21 4 gold speak speak.01 ----- 4:0-rel
+pt/nt/60/nt_6004.parse 27 7 gold be be.03 ----- 7:0-rel
+pt/nt/60/nt_6004.parse 27 3 gold think think.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:1-ARG1
 pt/nt/60/nt_6004.parse 30 17 gold bless bless.01 ----- 17:0-rel
 pt/nt/60/nt_6004.parse 8 3 gold say say.01 ----- 0:0-ARGM-DIS 1:1-ARGM-DIS 2:1-ARG0 3:0-rel 4:1-ARG1 6:1-ARG3
 pt/nt/60/nt_6004.parse 9 6 gold face face.01 ----- 1:1*4:1-ARG0 6:0-rel 7:1-ARG1 8:2-ARGM-PRP
-pt/nt/60/nt_6004.parse 17 13 gold make make.02 ----- 12:1-ARG0 13:0-rel 14:2-ARG1
 pt/nt/60/nt_6004.parse 26 6 gold be be.01 ----- 0:1-ARGM-DIS 3:1-ARG1 5:0-ARGM-NEG 6:0-rel 7:2-ARG2
+pt/nt/60/nt_6004.parse 36 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 pt/nt/60/nt_6004.parse 5 16 gold do do.02 ----- 8:1*11:1*17:1-ARG1 8:1*11:1-LINK-SLC 12:1*14:1-ARG0 16:0-rel
 pt/nt/60/nt_6004.parse 42 5 gold do do.02 ----- 1:1*3:1-ARG0 5:0-rel 6:1-ARG1
 pt/nt/60/nt_6004.parse 4 21 gold do do.02 ----- 10:1*22:1-ARG1 11:2*19:1-ARG0 21:0-rel
@@ -19,20 +20,24 @@ pt/nt/60/nt_6004.parse 4 16 gold know know.02 ----- 11:1*12:1*13:1-ARG0 11:1*12:
 pt/nt/60/nt_6004.parse 2 9 gold have have.01 ----- 9:0-rel
 pt/nt/60/nt_6004.parse 23 7 gold be be.03 ----- 7:0-rel
 pt/nt/60/nt_6004.parse 18 8 gold share share.01 ----- 0:1-ARG0 8:0-rel 9:1-ARG1 11:1-ARGM-MNR
+pt/nt/60/nt_6004.parse 42 2 gold continue continue.01 ----- 0:1-ARGM-ADV 1:1-ARG0 2:0-rel 3:2-ARG1
 pt/nt/60/nt_6004.parse 10 14 gold be be.03 ----- 14:0-rel
+pt/nt/60/nt_6004.parse 17 13 gold make make.02 ----- 12:1-ARG0 13:0-rel 14:2-ARG1
 pt/nt/60/nt_6004.parse 22 14 gold give give.01 ----- 10:1*12:1*15:1-ARG1 10:1*12:1-LINK-SLC 13:1-ARG0 14:0-rel
 pt/nt/60/nt_6004.parse 19 2 gold show show.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG2 4:1-ARG1 6:1-ARGM-MNR
 pt/nt/60/nt_6004.parse 18 13 gold complain complain.01 ----- 12:1-ARG0 13:0-rel
 pt/nt/60/nt_6004.parse 9 14 gold do do.02 ----- 11:1*15:1-ARG1 12:1-ARG0 14:0-rel
 pt/nt/60/nt_6004.parse 26 16 gold suffer suffer.01 ----- 9:1*12:1*17:1-ARG1 9:1*12:1-LINK-SLC 13:1-ARG0 15:1-ARGM-TMP 16:0-rel
+pt/nt/60/nt_6004.parse 7 15 gold join join.01 ----- 12:1-ARG0 13:1-ARGM-NEG 15:0-rel 16:1-ARG1 17:1-ARGM-MNR
+pt/nt/60/nt_6004.parse 19 1 gold have have.01 ----- 1:0-rel
+pt/nt/60/nt_6004.parse 39 19 gold happen happen.01 ----- 16:1*17:1-ARG1 18:0-ARGM-MOD 19:0-rel 20:1-ARG2
 pt/nt/60/nt_6004.parse 3 26 gold want want.01 ----- 25:1-ARG0 26:0-rel 27:2-ARG1
 pt/nt/60/nt_6004.parse 2 4 gold accept accept.01 ----- 0:1*2:1*3:1-ARG0 0:1*2:1-LINK-SLC 4:0-rel 5:1-ARG1 6:1-ARGM-TMP
 pt/nt/60/nt_6004.parse 13 17 gold have have.03 ----- 15:1-ARG0 16:0-ARGM-MOD 17:0-rel 18:1-ARG1 21:1-ARGM-MNR
-pt/nt/60/nt_6004.parse 14 9 gold end end.01 ----- 0:1*5:1*10:1-ARGM-TMP 0:1*5:1-LINK-SLC 6:1-ARG1 8:0-ARGM-MOD 9:0-rel
+pt/nt/60/nt_6004.parse 41 12 gold trust trust.02 ----- 10:1-ARG0 11:0-ARGM-MOD 12:0-rel 13:1-ARG1
 pt/nt/60/nt_6004.parse 34 4 gold do do.01 ----- 4:0-rel
-pt/nt/60/nt_6004.parse 9 13 gold have have.01 ----- 13:0-rel
+pt/nt/60/nt_6004.parse 14 9 gold end end.01 ----- 0:1*5:1*10:1-ARGM-TMP 0:1*5:1-LINK-SLC 6:1-ARG1 8:0-ARGM-MOD 9:0-rel
 pt/nt/60/nt_6004.parse 22 3 gold be be.01 ----- 1:1-ARG1 3:0-rel 4:1-ARG2
-pt/nt/60/nt_6004.parse 27 3 gold think think.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:1-ARG1
 pt/nt/60/nt_6004.parse 34 6 gold be be.01 ----- 0:0*3:1-ARG1 0:0*3:1-LINK-PRO 5:0-ARGM-NEG 6:0-rel 7:1-ARG2
 pt/nt/60/nt_6004.parse 37 3 gold begin begin.01 ----- 0:1-ARG1 2:0-ARGM-MOD 3:0-rel 4:1-ARG0
 pt/nt/60/nt_6004.parse 11 9 gold die die.01 ----- 8:1-ARG1 9:0-rel
@@ -46,7 +51,6 @@ pt/nt/60/nt_6004.parse 41 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 pt/nt/60/nt_6004.parse 27 1 gold do do.01 ----- 1:0-rel
 pt/nt/60/nt_6004.parse 22 4 gold serve serve.01 ----- 4:0-rel
 pt/nt/60/nt_6004.parse 40 10 gold trust trust.01 ----- 0:1-ARGM-DIS 1:1-ARGM-ADV 8:1-ARG0 9:0-ARGM-MOD 10:0-rel 11:1-ARG1 13:1-ARG2
-pt/nt/60/nt_6004.parse 36 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 pt/nt/60/nt_6004.parse 22 8 gold serve serve.01 ----- 0:1-ARGM-ADV 6:1-ARG0 7:0-ARGM-MOD 8:0-rel 9:1-ARGM-MNR
 pt/nt/60/nt_6004.parse 41 6 gold make make.01 ----- 2:1*4:1*5:1-ARG0 2:1*4:1-LINK-SLC 6:0-rel 7:1-ARG1
 pt/nt/60/nt_6004.parse 40 3 gold want want.01 ----- 2:1-ARG0 3:0-rel 4:2-ARG1
@@ -57,41 +61,36 @@ pt/nt/60/nt_6004.parse 32 2 gold suffer suffer.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:
 pt/nt/60/nt_6004.parse 9 3 gold have have.02 ----- 3:0-rel
 pt/nt/60/nt_6004.parse 18 1 gold open open.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 4:1-ARG3
 pt/nt/60/nt_6004.parse 33 3 gold suffer suffer.01 ----- 2:1-ARG0 3:0-rel 4:1-ARGM-CAU
-pt/nt/60/nt_6004.parse 20 10 gold have have.01 ----- 10:0-rel
-pt/nt/60/nt_6004.parse 7 15 gold join join.01 ----- 12:1-ARG0 13:1-ARGM-NEG 15:0-rel 16:1-ARG1 17:1-ARGM-MNR
 pt/nt/60/nt_6004.parse 17 6 gold love love.01 ----- 0:2-ARGM-ADV 5:1-ARG0 6:0-rel 7:1-ARG1 9:1-ARGM-MNR 11:1-ARGM-CAU
 pt/nt/60/nt_6004.parse 38 15 gold do do.01 ----- 15:0-rel
 pt/nt/60/nt_6004.parse 15 9 gold control control.01 ----- 0:1-ARGM-ADV 1:1-ARG0 9:0-rel 10:1-ARG1
-pt/nt/60/nt_6004.parse 20 6 gold use use.01 ----- 0:1-ARGM-DIS 1:1-ARG0 6:0-rel 7:2-ARG1 14:1-ARGM-MNR
-pt/nt/60/nt_6004.parse 39 19 gold happen happen.01 ----- 16:1*17:1-ARG1 18:0-ARGM-MOD 19:0-rel 20:1-ARG2
+pt/nt/60/nt_6004.parse 26 14 gold be be.03 ----- 14:0-rel
+pt/nt/60/nt_6004.parse 32 8 gold let let.01 ----- 5:1-ARG0 7:0-ARGM-NEG 8:0-rel 9:2-ARG1
 pt/nt/60/nt_6004.parse 5 13 gold want want.01 ----- 12:1-ARG0 13:0-rel 14:2-ARG1
 pt/nt/60/nt_6004.parse 4 4 gold waste waste.01 ----- 0:1-ARGM-TMP 3:1-ARG0 4:0-rel 5:2-ARG1 8:2-ARG2
 pt/nt/60/nt_6004.parse 32 15 gold steal steal.01 ----- 12:1-ARG0 15:0-rel
 pt/nt/60/nt_6004.parse 0 4 gold be be.01 ----- 3:1-ARG1 4:0-rel 5:1-ARG2
 pt/nt/60/nt_6004.parse 30 2 gold say say.01 ----- 0:1*11:1-ARGM-TMP 1:1-ARG0 2:0-rel 3:1-ARG1 5:1-ARG2 7:1-ARGM-CAU
 pt/nt/60/nt_6004.parse 9 10 gold explain explain.01 ----- 1:1*4:1*8:1-ARG0 10:0-rel 11:2-ARG1
+pt/nt/60/nt_6004.parse 28 3 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 2:0-ARGM-MOD 3:0-rel 4:2-ARG2
 pt/nt/60/nt_6004.parse 3 17 gold want want.01 ----- 15:1*18:1-ARG1 16:1-ARG0 17:0-rel
+pt/nt/60/nt_6004.parse 23 2 gold be be.01 ----- 0:1-ARGM-DIS 1:1-ARG1 2:0-rel 3:1-ARG2 4:2-ARGM-PRD
 pt/nt/60/nt_6004.parse 16 2 gold help help.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG2 4:1-ARG1
 pt/nt/60/nt_6004.parse 6 3 gold get get.03 ----- 0:1-ARG1 2:1-ARGM-TMP 3:0-rel 4:1-ARG2
 pt/nt/60/nt_6004.parse 32 6 gold do do.01 ----- 6:0-rel
+pt/nt/60/nt_6004.parse 4 18 gold liken like.02 ----- 11:2-ARG0 18:0-rel 19:2-ARG1
 pt/nt/60/nt_6004.parse 10 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
-pt/nt/60/nt_6004.parse 31 2 gold happen happen.01 ----- 0:1*3:1-ARGM-TMP 1:1-ARG1 2:0-rel
-pt/nt/60/nt_6004.parse 27 7 gold be be.03 ----- 7:0-rel
 pt/nt/60/nt_6004.parse 20 2 gold be be.01 ----- 0:1-ARGM-DIS 1:1-ARG1 2:0-rel 3:1-ARG2
-pt/nt/60/nt_6004.parse 38 10 gold happen happen.01 ----- 7:1*8:1-ARG1 9:0-ARGM-MOD 10:0-rel 11:1-ARG2
+pt/nt/60/nt_6004.parse 20 10 gold have have.01 ----- 10:0-rel
 pt/nt/60/nt_6004.parse 2 16 gold sin sin.01 ----- 0:2*12:1-ARG0 16:0-rel
 pt/nt/60/nt_6004.parse 0 1 gold suffer suffer.01 ----- 0:1-ARG0 1:0-rel 2:1-ARGM-TMP
-pt/nt/60/nt_6004.parse 41 12 gold trust trust.02 ----- 10:1-ARG0 11:0-ARGM-MOD 12:0-rel 13:1-ARG1
 pt/nt/60/nt_6004.parse 26 22 gold test test.01 ----- 9:1*19:1*20:1-ARG0 9:1*19:1-LINK-SLC 22:0-rel 23:1-ARG1
 pt/nt/60/nt_6004.parse 36 7 gold begin begin.01 ----- 2:1*3:1*8:1-ARGM-TMP 2:1*3:1-LINK-SLC 5:1-ARG1 7:0-rel
-pt/nt/60/nt_6004.parse 19 1 gold have have.01 ----- 1:0-rel
 pt/nt/60/nt_6004.parse 21 9 gold be be.01 ----- 0:1-ARGM-ADV 6:1-ARG1 8:0-ARGM-MOD 9:0-rel 10:1-ARG2
 pt/nt/60/nt_6004.parse 1 13 gold have have.LV ----- 10:1-ARGM-PRR 13:0-rel
-pt/nt/60/nt_6004.parse 28 3 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 2:0-ARGM-MOD 3:0-rel 4:2-ARG2
 pt/nt/60/nt_6004.parse 28 8 gold share share.01 ----- 6:1-ARG0 8:0-rel 9:1-ARG1
 pt/nt/60/nt_6004.parse 12 1 gold be be.03 ----- 1:0-rel
-pt/nt/60/nt_6004.parse 26 14 gold be be.03 ----- 14:0-rel
-pt/nt/60/nt_6004.parse 32 8 gold let let.01 ----- 5:1-ARG0 7:0-ARGM-NEG 8:0-rel 9:2-ARG1
+pt/nt/60/nt_6004.parse 9 13 gold have have.01 ----- 13:0-rel
 pt/nt/60/nt_6004.parse 28 7 gold be be.03 ----- 7:0-rel
 pt/nt/60/nt_6004.parse 3 1 gold strengthen strengthen.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:1-ARGM-PRP
 pt/nt/60/nt_6004.parse 31 17 gold be be.01 ----- 8:3-ARG1 17:0-rel 18:1-ARG2
@@ -99,7 +98,7 @@ pt/nt/60/nt_6004.parse 39 12 gold be be.03 ----- 12:0-rel
 pt/nt/60/nt_6004.parse 39 25 gold be be.01 ----- 21:1*23:1*24:1-ARG1 21:1*23:1-LINK-SLC 25:0-rel 26:2-ARG2
 pt/nt/60/nt_6004.parse 24 3 gold belong belong.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1 6:1-ARGM-TMP
 pt/nt/60/nt_6004.parse 4 14 gold do do.01 ----- 14:0-rel
-pt/nt/60/nt_6004.parse 32 13 gold murder murder.01 ----- 12:1-ARG0 13:0-rel
+pt/nt/60/nt_6004.parse 31 2 gold happen happen.01 ----- 0:1*3:1-ARGM-TMP 1:1-ARG1 2:0-rel
 pt/nt/60/nt_6004.parse 10 21 gold have have.01 ----- 21:0-rel
 pt/nt/60/nt_6004.parse 13 3 gold be be.01 ----- 0:0-ARGM-DIS 3:0-rel 4:2-ARG2 7:1-ARG1 13:1-ARGM-PRP
 pt/nt/60/nt_6004.parse 39 13 gold save save.02 ----- 7:1*14:1-ARG1 13:0-rel
@@ -108,12 +107,13 @@ pt/nt/60/nt_6004.parse 6 6 gold have have.LV ----- 6:0-rel 9:0-ARGM-PRR
 pt/nt/60/nt_6004.parse 21 3 gold be be.01 ----- 1:1-ARG1 3:0-rel 4:1-ARG2
 pt/nt/60/nt_6004.parse 12 2 gold criticize criticize.01 ----- 0:1*3:1-ARG1 2:0-rel 4:1-ARG0 6:1-ARGM-TMP
 pt/nt/60/nt_6004.parse 14 3 gold be be.01 ----- 0:2;5:2-ARG1 3:0-rel 4:1-ARG2
-pt/nt/60/nt_6004.parse 32 17 gold make make.01 ----- 12:1-ARG0 17:0-rel 18:1-ARG1
 pt/nt/60/nt_6004.parse 30 9 gold follow follow.02 ----- 8:1-ARG0 9:0-rel 10:1-ARG1
 pt/nt/60/nt_6004.parse 35 2 gold praise praise.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG1 4:1-ARG2
 pt/nt/60/nt_6004.parse 3 29 gold do do.02 ----- 21:1*24:1*30:1-ARG1 21:1*24:1-LINK-SLC 25:1*27:1-ARG0 29:0-rel
+pt/nt/60/nt_6004.parse 38 10 gold happen happen.01 ----- 7:1*8:1-ARG1 9:0-ARGM-MOD 10:0-rel 11:1-ARG2
 pt/nt/60/nt_6004.parse 29 2 gold be be.01 ----- 0:1-ARG1 1:0-ARGM-MOD 2:0-rel 3:2-ARG2 8:2-ARGM-TMP
 pt/nt/60/nt_6004.parse 6 1 gold be be.03 ----- 1:0-rel
+pt/nt/60/nt_6004.parse 20 6 gold use use.01 ----- 0:1-ARGM-DIS 1:1-ARG0 6:0-rel 7:2-ARG1 14:1-ARGM-MNR
 pt/nt/60/nt_6004.parse 39 4 gold be be.01 ----- 4:0-rel 5:1-ARG2 6:1-ARG1
 pt/nt/60/nt_6004.parse 5 2 gold live live.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1 6:2-ARGM-ADV
 pt/nt/60/nt_6004.parse 20 11 gold give give.01 ----- 7:1*13:1-ARG1 9:1-ARG0 11:0-rel 12:1-ARG2
@@ -123,18 +123,18 @@ pt/nt/60/nt_6004.parse 29 10 gold show show.01 ----- 8:1*13:1-ARGM-TMP 9:1-ARG0 
 pt/nt/60/nt_6004.parse 6 12 gold do do.02 ----- 0:1-ARG0 12:0-rel 13:1-ARG1 15:1-ARGM-MNR
 pt/nt/60/nt_6004.parse 5 7 gold do do.02 ----- 0:1*6:1-ARG0 7:0-rel 8:2-ARG1
 pt/nt/60/nt_6004.parse 3 14 gold do do.02 ----- 13:1-ARG0 14:0-rel 15:3-ARG1
-pt/nt/60/nt_6004.parse 23 2 gold be be.01 ----- 0:1-ARGM-DIS 1:1-ARG1 2:0-rel 3:1-ARG2 4:2-ARGM-PRD
 pt/nt/60/nt_6004.parse 15 2 gold keep keep.02 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:1,5:2-ARG1
 pt/nt/60/nt_6004.parse 17 18 gold forgive forgive.01 ----- 14:1*16:1-ARG0 18:0-rel 19:1-ARG2
 pt/nt/60/nt_6004.parse 2 11 gold decide decide.01 ----- 0:2-ARG0 10:1-ARGM-MNR 11:0-rel 12:2-ARG1
 pt/nt/60/nt_6004.parse 7 26 gold do do.02 ----- 18:1*24:1*27:1-ARG1 18:1*24:1-LINK-SLC 25:1-ARG0 26:0-rel
 pt/nt/60/nt_6004.parse 23 8 gold praise praise.01 ----- 3:1*4:1*5:1*9:1-ARG1 3:1*4:1-LINK-SLC 6:0-ARGM-MOD 8:0-rel 10:1-ARG2 12:1-ARGM-MNR
-pt/nt/60/nt_6004.parse 4 18 gold liken like.02 ----- 11:2-ARG0 18:0-rel 19:2-ARG1
 pt/nt/60/nt_6004.parse 2 14 gold stop stop.01 ----- 0:2*12:1-ARG0 14:0-rel 15:2-ARG1
 pt/nt/60/nt_6004.parse 32 24 gold control control.01 ----- 12:1*22:1-ARG0 24:0-rel 25:2-ARG1
 pt/nt/60/nt_6004.parse 11 1 gold be be.03 ----- 1:0-rel
+pt/nt/60/nt_6004.parse 32 13 gold murder murder.01 ----- 12:1-ARG0 13:0-rel
 pt/nt/60/nt_6004.parse 10 8 gold judge judge.01 ----- 2:1*4:1*5:1-ARG0 2:1*4:1-LINK-SLC 6:0-ARGM-MOD 7:1-ARGM-TMP 8:0-rel 9:2-ARG1
 pt/nt/60/nt_6004.parse 7 5 gold think think.01 ----- 0:1-ARGM-TMP 1:1-ARG0 5:0-rel 6:1-ARG1
+pt/nt/60/nt_6004.parse 32 17 gold make make.01 ----- 12:1-ARG0 17:0-rel 18:1-ARG1
 pt/nt/60/nt_6004.parse 10 22 gold die die.01 ----- 18:1*19:1*20:1-ARG1 18:1*19:1-LINK-SLC 22:0-rel
 pt/nt/60/nt_6004.parse 38 2 gold begin begin.01 ----- 1:1-ARG1 2:0-rel 3:1-ARGM-LOC
 pt/nt/60/nt_6004.parse 30 14 gold consider consider.01 ----- 0:2-ARGM-TMP 13:1-ARG0 14:0-rel 15:2-ARG1

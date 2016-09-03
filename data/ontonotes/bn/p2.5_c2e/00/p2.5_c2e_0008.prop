@@ -3,17 +3,16 @@ bn/p2.5_c2e/00/p2.5_c2e_0008.parse 3 7 gold be be.01 ----- 0:2-ARG1 7:0-rel 8:1-
 bn/p2.5_c2e/00/p2.5_c2e_0008.parse 4 19 gold be be.01 ----- 16:2-ARG1 19:0-rel 20:1-ARG2
 bn/p2.5_c2e/00/p2.5_c2e_0008.parse 10 5 gold shop shop.01 ----- 3:1*11:1-ARGM-TMP 4:1-ARG0 5:0-rel 6:1-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0008.parse 11 13 gold use use.01 ----- 10:1-ARG0 11:0-ARGM-NEG 13:0-rel 14:1-ARG1 15:2-ARG2 21:1-ARGM-CAU
-bn/p2.5_c2e/00/p2.5_c2e_0008.parse 0 10 gold conduct conduct.01 ----- 0:2-ARG0 9:1-ARGM-TMP 10:0-rel 11:2-ARG1
+bn/p2.5_c2e/00/p2.5_c2e_0008.parse 9 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 bn/p2.5_c2e/00/p2.5_c2e_0008.parse 10 14 gold choose choose.01 ----- 3:2-ARGM-TMP 13:1-ARG0 14:0-rel 15:2-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0008.parse 2 17 gold package package.01 ----- 16:0-ARG1 17:0-rel
-bn/p2.5_c2e/00/p2.5_c2e_0008.parse 5 10 gold exceed exceed.01 ----- 6:2-ARG0 10:0-rel 11:1-ARG1
+bn/p2.5_c2e/00/p2.5_c2e_0008.parse 0 10 gold conduct conduct.01 ----- 0:2-ARG0 9:1-ARGM-TMP 10:0-rel 11:2-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0008.parse 6 9 gold refer refer.01 ----- 0:1-ARGM-ADV 5:2-ARG0 9:0-rel 10:1-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0008.parse 1 2 gold show show.01 ----- 0:1-ARG0 2:0-rel 4:1-ARGM-DIS 6:1-ARG1
-bn/p2.5_c2e/00/p2.5_c2e_0008.parse 9 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 bn/p2.5_c2e/00/p2.5_c2e_0008.parse 2 3 gold inspect inspect.01 ----- 1:0-ARGM-MNR 2:0-ARG2 3:0-rel 4:1-ARGM-TMP
 bn/p2.5_c2e/00/p2.5_c2e_0008.parse 6 22 gold come come.04 ----- 20:1*37:1-ARGM-TMP 21:1-ARG1 22:0-rel 23:1-ARG2 35:1-ARGM-TMP
 bn/p2.5_c2e/00/p2.5_c2e_0008.parse 10 30 gold smell smell.01 ----- 15:1*19:1*20:1-ARG1 15:1*19:1-LINK-SLC 26:0-ARGM-NEG 29:0-ARGM-ADJ 30:0-rel
-bn/p2.5_c2e/00/p2.5_c2e_0008.parse 1 16 gold contain contain.01 ----- 7:3-ARG0 15:0-ARGM-MOD 16:0-rel 17:1-ARG1
+bn/p2.5_c2e/00/p2.5_c2e_0008.parse 5 10 gold exceed exceed.01 ----- 6:2-ARG0 10:0-rel 11:1-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0008.parse 9 15 gold pass pass.07 ----- 13:1-ARG1 15:0-rel
 bn/p2.5_c2e/00/p2.5_c2e_0008.parse 11 25 gold accelerate accelerate.01 ----- 22:1-ARG0 24:0-ARGM-MOD 25:0-rel 26:2-ARG1 32:1-ARGM-PRP
 bn/p2.5_c2e/00/p2.5_c2e_0008.parse 5 4 gold be be.01 ----- 0:1-ARG1 4:0-rel 5:1-ARG2
@@ -29,11 +28,12 @@ bn/p2.5_c2e/00/p2.5_c2e_0008.parse 3 6 gold inspect inspect.01 ----- 5:0-ARGM-MN
 bn/p2.5_c2e/00/p2.5_c2e_0008.parse 8 4 gold add add.02 ----- 0:1-ARG0 4:0-rel 5:2-ARG1 16:1-ARG2 19:1-ARGM-PRP
 bn/p2.5_c2e/00/p2.5_c2e_0008.parse 4 9 gold fail fail.01 ----- 0:3;14:2-ARG1 9:0-rel 10:2-ARG2
 bn/p2.5_c2e/00/p2.5_c2e_0008.parse 10 1 gold suggest suggest.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
-bn/p2.5_c2e/00/p2.5_c2e_0008.parse 5 12 gold limit limit.01 ----- 12:0-rel
 bn/p2.5_c2e/00/p2.5_c2e_0008.parse 11 40 gold affect affect.01 ----- 34:1-ARG0 35:0-ARGM-MOD 40:0-rel 41:2-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0008.parse 2 21 gold manufacture manufacture.01 ----- 9:2*22:1-ARG1 9:2*22:1-LINK-PSV 21:0-rel 23:1-ARG0
 bn/p2.5_c2e/00/p2.5_c2e_0008.parse 11 36 gold enter enter.01 ----- 34:1-ARG0 35:0-ARGM-MOD 36:0-rel 37:1-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0008.parse 9 5 gold result result.01 ----- 2:1-ARG1 5:0-rel 6:1-ARG2
+bn/p2.5_c2e/00/p2.5_c2e_0008.parse 1 16 gold contain contain.01 ----- 7:3-ARG0 15:0-ARGM-MOD 16:0-rel 17:1-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0008.parse 6 15 gold produce produce.01 ----- 11:1*16:1-ARG1 11:1*16:1-LINK-PSV 14:1-ARGM-ADV 15:0-rel 17:1-ARG0 20:2-ARGM-TMP
 bn/p2.5_c2e/00/p2.5_c2e_0008.parse 0 13 gold inspect inspect.01 ----- 12:0-ARGM-ADJ 13:0-rel 14:1-ARG2
+bn/p2.5_c2e/00/p2.5_c2e_0008.parse 5 12 gold limit limit.01 ----- 12:0-rel
 bn/p2.5_c2e/00/p2.5_c2e_0008.parse 5 9 gold evaporate evaporate.01 ----- 9:0-rel

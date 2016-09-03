@@ -1,11 +1,8 @@
 bn/cnn/04/cnn_0406.parse 11 28 gold make make.LV ----- 28:0-rel 29:1-ARGM-PRR
 bn/cnn/04/cnn_0406.parse 1 15 gold reach reach.01 ----- 8:1*13:1-ARG0 15:0-rel 16:1-ARG1
 bn/cnn/04/cnn_0406.parse 11 22 gold decide decide.01 ----- 0:2-ARGM-PRD 21:1-ARG0 22:0-rel 23:2-ARG1
-bn/cnn/04/cnn_0406.parse 7 0 gold question question.01 ----- 0:0-rel 1:1-ARGM-TMP
-bn/cnn/04/cnn_0406.parse 15 2 gold email email.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG2
 bn/cnn/04/cnn_0406.parse 11 10 gold look look.01 ----- 8:1-ARG0 10:0-rel 11:1-ARG1
 bn/cnn/04/cnn_0406.parse 9 13 gold head head.02 ----- 0:2*4:1*5:1-ARG0 0:2*4:1-LINK-SLC 13:0-rel 14:1-ARG1
-bn/cnn/04/cnn_0406.parse 2 4 gold say say.01 ----- 0:1-ARG0 4:0-rel 5:1-ARG1
 bn/cnn/04/cnn_0406.parse 13 1 gold think think.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bn/cnn/04/cnn_0406.parse 0 15 gold rescue rescue.01 ----- 13:1*16:1-ARG1 15:0-rel 17:1-ARGM-LOC 19:1-ARG0
 bn/cnn/04/cnn_0406.parse 1 2 gold hold hold_on.06 ----- 0:1-ARG0 2:0,3:0-rel 4:1-ARG1 7:1-ARGM-TMP
@@ -13,27 +10,29 @@ bn/cnn/04/cnn_0406.parse 10 18 gold honor honor.01 ----- 18:0-rel
 bn/cnn/04/cnn_0406.parse 10 8 gold be be.03 ----- 8:0-rel
 bn/cnn/04/cnn_0406.parse 10 15 gold have have.01 ----- 15:0-rel
 bn/cnn/04/cnn_0406.parse 1 11 gold be be.01 ----- 8:1-ARG1 11:0-rel 12:1-ARG2
-bn/cnn/04/cnn_0406.parse 16 8 gold go go.02 ----- 6:0-ARG0 7:0-ARGM-ADV 8:0-rel
+bn/cnn/04/cnn_0406.parse 7 0 gold question question.01 ----- 0:0-rel 1:1-ARGM-TMP
 bn/cnn/04/cnn_0406.parse 10 5 gold say say.01 ----- 0:2-ARG0 5:0-rel 6:1-ARG1
 bn/cnn/04/cnn_0406.parse 2 21 gold have have.01 ----- 21:0-rel
 bn/cnn/04/cnn_0406.parse 10 26 gold leave leave.15 ----- 24:1-ARG0 26:0-rel 27:1-ARGM-PRP
 bn/cnn/04/cnn_0406.parse 9 7 gold take take.01 ----- 0:2*4:1*5:1-ARG0 0:2*4:1-LINK-SLC 7:0-rel 8:1-ARG1 9:1-ARG2
 bn/cnn/04/cnn_0406.parse 6 1 gold be be.01 ----- 0:1*2:1-ARG1 1:0-rel 3:1-ARG2
 bn/cnn/04/cnn_0406.parse 19 14 gold move move.01 ----- 0:1*9:1-ARG0 14:0-rel 15:1-ARG1 16:1-ARGM-LOC
+bn/cnn/04/cnn_0406.parse 2 4 gold say say.01 ----- 0:1-ARG0 4:0-rel 5:1-ARG1
+bn/cnn/04/cnn_0406.parse 15 2 gold email email.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG2
 bn/cnn/04/cnn_0406.parse 11 30 gold compare compare.01 ----- 29:1-ARG0 30:0-rel 31:1-ARG1 34:1-ARG2
-bn/cnn/04/cnn_0406.parse 1 5 gold sink sink.01 ----- 5:0-rel 6:0-ARG1
 bn/cnn/04/cnn_0406.parse 10 9 gold leave leave.11 ----- 7:1-ARG0 9:0-rel
 bn/cnn/04/cnn_0406.parse 19 1 gold spend spend.02 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 4:1-ARGM-LOC 9:2-ARG2
 bn/cnn/04/cnn_0406.parse 13 19 gold have have.03 ----- 13:1*16:1*20:1-ARG1 13:1*16:1-LINK-SLC 17:1-ARG0 18:1-ARGM-TMP 19:0-rel
 bn/cnn/04/cnn_0406.parse 3 9 gold have have.03 ----- 0:2*6:1*16:1-ARGM-LOC 0:2*6:1-LINK-SLC 8:1-ARG0 9:0-rel 10:1-ARG1 13:1-ARGM-TMP
 bn/cnn/04/cnn_0406.parse 14 1 gold do do.01 ----- 1:0-rel
 bn/cnn/04/cnn_0406.parse 16 1 gold do do.01 ----- 1:0-rel
-bn/cnn/04/cnn_0406.parse 10 16 gold be be.01 ----- 16:0-rel 17:1-ARG2 19:2-ARG1
 bn/cnn/04/cnn_0406.parse 13 6 gold be be.01 ----- 5:0-ARGM-MOD 6:0-rel 7:1-ARG2 8:2-ARG1
+bn/cnn/04/cnn_0406.parse 10 16 gold be be.01 ----- 16:0-rel 17:1-ARG2 19:2-ARG1
 bn/cnn/04/cnn_0406.parse 11 5 gold set set_up.03 ----- 3:1*6:1-ARG1 3:1*6:1-LINK-PSV 5:0,7:1-rel 8:2-ARG2
 bn/cnn/04/cnn_0406.parse 9 6 gold be be.03 ----- 6:0-rel
 bn/cnn/04/cnn_0406.parse 11 12 gold allege allege.01 ----- 12:0-rel 13:1-ARG1
 bn/cnn/04/cnn_0406.parse 2 8 gold be be.01 ----- 7:1-ARG1 8:0-rel 9:0-ARGM-NEG 10:1-ARG2
+bn/cnn/04/cnn_0406.parse 16 8 gold go go.02 ----- 6:0-ARG0 7:0-ARGM-ADV 8:0-rel
 bn/cnn/04/cnn_0406.parse 10 20 gold serve serve.01 ----- 0:2*19:1-ARG0 0:2*19:1-LINK-PRO 20:0-rel 21:1-ARG1
 bn/cnn/04/cnn_0406.parse 18 0 gold work work.01 ----- 0:0-rel 1:1-ARG3
 bn/cnn/04/cnn_0406.parse 4 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
@@ -41,10 +40,11 @@ bn/cnn/04/cnn_0406.parse 10 11 gold say say.01 ----- 0:2-ARG0 11:0-rel 12:1-ARG1
 bn/cnn/04/cnn_0406.parse 11 2 gold leave leave.14 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
 bn/cnn/04/cnn_0406.parse 11 15 gold abuse abuse.01 ----- 14:0-ARGM-MNR 15:0-rel 16:1-ARGM-LOC
 bn/cnn/04/cnn_0406.parse 8 5 gold have have.03 ----- 0:1*2:1*6:1-ARG1 0:1*2:1-LINK-SLC 3:1-ARG0 4:1-ARGM-TMP 5:0-rel
+bn/cnn/04/cnn_0406.parse 2 22 gold stay stay.01 ----- 6:1-ARGM-ADV 17:1-ARG1 18:1-ARGM-ADV 19:0-ARGM-MOD 20:0-ARGM-NEG 22:0-rel 23:1-ARG2
 bn/cnn/04/cnn_0406.parse 2 27 gold survive survive.01 ----- 17:1*25:1-ARG0 27:0-rel
 bn/cnn/04/cnn_0406.parse 13 10 gold share share.01 ----- 8:1-ARG0 10:0-rel 11:2-ARG1
 bn/cnn/04/cnn_0406.parse 14 3 gold leave leave.15 ----- 0:1*5:1-ARGM-CAU 2:1-ARG0 3:0-rel 4:1-ARG1
+bn/cnn/04/cnn_0406.parse 1 5 gold sink sink.01 ----- 5:0-rel 6:0-ARG1
 bn/cnn/04/cnn_0406.parse 11 25 gold quit quit.01 ----- 21:1*23:1-ARG0 25:0-rel 26:1-ARGM-TMP
 bn/cnn/04/cnn_0406.parse 11 29 gold comment comment.01 ----- 27:1-ARG0 28:0-ARGM-LVB 29:0-rel 30:1-ARG1
 bn/cnn/04/cnn_0406.parse 19 10 gold wax wax.01 ----- 0:1*9:1-ARG0 10:0-rel 11:1-ARG1
-bn/cnn/04/cnn_0406.parse 2 22 gold stay stay.01 ----- 6:1-ARGM-ADV 17:1-ARG1 18:1-ARGM-ADV 19:0-ARGM-MOD 20:0-ARGM-NEG 22:0-rel 23:1-ARG2

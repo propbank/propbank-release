@@ -3,6 +3,7 @@ nw/wsj/04/wsj_0443.parse 12 31 gold price price.01 ----- 25:1*32:1-ARG1 25:1*32:
 nw/wsj/04/wsj_0443.parse 12 5 gold be be.01 ----- 0:2-ARG1 4:0-ARGM-MOD 5:0-rel 6:1-ARG2
 nw/wsj/04/wsj_0443.parse 2 5 gold see see.01 ----- 0:1*6:1-ARG1 5:0-rel 7:1-ARG0
 nw/wsj/04/wsj_0443.parse 9 11 gold decline decline.02 ----- 8:2-ARG0 11:0-rel 12:2-ARG1
+nw/wsj/04/wsj_0443.parse 7 11 gold have have.01 ----- 11:0-rel
 nw/wsj/04/wsj_0443.parse 10 30 gold air air.01 ----- 24:2*28:1*31:1-ARG1 24:2*28:1-LINK-SLC 29:1-ARG0 30:0-rel 32:1-ARGM-LOC
 nw/wsj/04/wsj_0443.parse 21 14 gold soar soar.01 ----- 9:2-ARG1 14:0-rel 15:2-ARGM-TMP
 nw/wsj/04/wsj_0443.parse 5 7 gold have have.03 ----- 0:1*5:1-ARG0 7:0-rel 8:2-ARG1 19:1-ARGM-TMP
@@ -17,18 +18,17 @@ nw/wsj/04/wsj_0443.parse 9 14 gold be be.03 ----- 14:0-rel
 nw/wsj/04/wsj_0443.parse 1 27 gold be be.01 ----- 0:2-ARG1 27:0-rel 28:1-ARG2
 nw/wsj/04/wsj_0443.parse 10 17 gold limit limit.01 ----- 6:1-ARG0 8:1-ARGM-PRP 17:0-rel 18:1-ARG1 20:1-ARGM-MNR
 nw/wsj/04/wsj_0443.parse 23 8 gold draw draw.02 ----- 0:2-ARG0 8:0-rel 9:1-ARG1
-nw/wsj/04/wsj_0443.parse 20 24 gold earthquake earthquake.01 ----- 24:0-rel
 nw/wsj/04/wsj_0443.parse 11 5 gold carry carry.01 ----- 0:1-ARG0 4:1-ARGM-ADV 5:0-rel 6:1-ARG1
 nw/wsj/04/wsj_0443.parse 3 8 gold be be.01 ----- 0:2-ARG1 8:0-rel 9:1-ARG2
-nw/wsj/04/wsj_0443.parse 13 5 gold have have.01 ----- 5:0-rel
 nw/wsj/04/wsj_0443.parse 14 19 gold go go.01 ----- 6:1-ARG1 18:0-ARGM-MOD 19:0-rel 20:1-ARGM-DIR 22:1-ARGM-ADV
 nw/wsj/04/wsj_0443.parse 20 9 gold go go.01 ----- 5:2-ARG1 8:0-ARGM-MOD 9:0-rel 10:1-ARGM-DIR 11:1-ARGM-CAU
 nw/wsj/04/wsj_0443.parse 8 2 gold base base.02 ----- 0:1-ARG0 2:0-rel 3:2-ARG1 7:1-ARG2
 nw/wsj/04/wsj_0443.parse 22 3 gold decrease decrease.01 ----- 1:1-ARG1 2:1-ARGM-DIS 3:0-rel
 nw/wsj/04/wsj_0443.parse 14 9 gold reach reach.01 ----- 6:1-ARG0 8:0-ARGM-MOD 9:0-rel 10:2-ARG1 14:1-ARGM-TMP
 nw/wsj/04/wsj_0443.parse 10 22 gold jack jack_up.01 ----- 6:1*21:1-ARG0 22:0,23:1-rel 24:3-ARG1
-nw/wsj/04/wsj_0443.parse 19 3 gold earthquake earthquake.01 ----- 3:0-rel
+nw/wsj/04/wsj_0443.parse 13 5 gold have have.01 ----- 5:0-rel
 nw/wsj/04/wsj_0443.parse 12 16 gold take take_over.12 ----- 9:1*12:1*13:1-ARG0 9:1*12:1-LINK-SLC 14:1-ARGM-TMP 16:0,17:1-rel 18:2-ARG1 24:1-ARGM-LOC
+nw/wsj/04/wsj_0443.parse 21 8 gold send send.02 ----- 0:3-ARG0 7:1-ARGM-ADV 8:0-rel 9:2-ARG1 14:1-ARG2 15:2-ARGM-TMP
 nw/wsj/04/wsj_0443.parse 16 14 gold be be.01 ----- 0:3-ARG1 14:0-rel 15:2-ARG2
 nw/wsj/04/wsj_0443.parse 19 1 gold come come.01 ----- 0:1-ARGM-DIS 1:0-rel 2:2-ARG1
 nw/wsj/04/wsj_0443.parse 4 29 gold own own.01 ----- 27:1*30:1-ARG1 27:1*30:1-LINK-PSV 29:0-rel 31:1-ARG0
@@ -36,20 +36,22 @@ nw/wsj/04/wsj_0443.parse 1 11 gold diminish diminish.01 ----- 0:1*12:1-ARG1 0:1*
 nw/wsj/04/wsj_0443.parse 1 8 gold devastate devastate.01 ----- 8:0-rel 9:0-ARG0
 nw/wsj/04/wsj_0443.parse 20 2 gold have have.01 ----- 2:0-rel
 nw/wsj/04/wsj_0443.parse 7 36 gold have have.01 ----- 36:0-rel
-nw/wsj/04/wsj_0443.parse 6 2 gold be be.01 ----- 2:0-rel 3:0-ARGM-NEG 4:1-ARG2 5:2-ARG1
 nw/wsj/04/wsj_0443.parse 0 28 gold incur incur.01 ----- 19:2*23:1*29:1-ARG1 19:2*23:1-LINK-SLC 24:1-ARG0 27:0-ARGM-MOD 28:0-rel 30:1-ARGM-TMP
-nw/wsj/04/wsj_0443.parse 21 8 gold send send.02 ----- 0:3-ARG0 7:1-ARGM-ADV 8:0-rel 9:2-ARG1 14:1-ARG2 15:2-ARGM-TMP
 nw/wsj/04/wsj_0443.parse 14 26 gold end end.01 ----- 23:1-ARG1 26:0-rel 27:1-ARG2
 nw/wsj/04/wsj_0443.parse 6 10 gold widen widen.01 ----- 5:1-ARG2 7:1-ARG1 9:0-ARGM-MOD 10:0-rel 12:1-ARGM-CAU
 nw/wsj/04/wsj_0443.parse 16 40 gold pit pit.01 ----- 24:1-ARGM-ADV 39:1-ARG0 40:0-rel 41:1-ARG1 45:1-ARG2
 nw/wsj/04/wsj_0443.parse 4 23 gold make make.02 ----- 0:2-ARG0 21:0-ARGM-MOD 22:1-ARGM-ADV 23:0-rel 24:2-ARG1
+nw/wsj/04/wsj_0443.parse 1 4 gold disrupt disrupt.01 ----- 0:1*5:1-ARG1 0:1*5:1-LINK-PSV 4:0-rel 6:1-ARG0 16:1-ARGM-CAU
 nw/wsj/04/wsj_0443.parse 2 4 gold be be.03 ----- 4:0-rel
-nw/wsj/04/wsj_0443.parse 5 2 gold have have.01 ----- 2:0-rel
 nw/wsj/04/wsj_0443.parse 12 19 gold broadcast broadcast.01 ----- 19:0-rel 20:1-ARG1
+nw/wsj/04/wsj_0443.parse 19 3 gold earthquake earthquake.01 ----- 3:0-rel
 nw/wsj/04/wsj_0443.parse 7 37 gold receive receive.01 ----- 30:1*33:1*38:1-ARG1 30:1*33:1-LINK-SLC 34:1-ARG0 35:0-ARGM-MOD 37:0-rel 39:1-ARG3
 nw/wsj/04/wsj_0443.parse 4 14 gold dominate dominate.01 ----- 3:1*6:1*13:1-ARG0 3:1*6:1-LINK-SLC 14:0-rel 15:1-ARG1
 nw/wsj/04/wsj_0443.parse 5 4 gold expect expect.01 ----- 0:1,5:2-ARG1 4:0-rel
+nw/wsj/04/wsj_0443.parse 18 20 gold draw draw.02 ----- 16:1-ARGM-TMP 19:1-ARG0 20:0-rel 21:2-ARG1
+nw/wsj/04/wsj_0443.parse 20 24 gold earthquake earthquake.01 ----- 24:0-rel
 nw/wsj/04/wsj_0443.parse 1 19 gold come come.03 ----- 17:1-ARG1 19:0-rel 20:1-ARG2
+nw/wsj/04/wsj_0443.parse 6 2 gold be be.01 ----- 2:0-rel 3:0-ARGM-NEG 4:1-ARG2 5:2-ARG1
 nw/wsj/04/wsj_0443.parse 7 3 gold go go.06 ----- 1:1-ARG1 3:0-rel 4:1-ARG2
 nw/wsj/04/wsj_0443.parse 10 4 gold say say.01 ----- 0:0-ARGM-DIS 1:1-ARG0 4:0-rel 5:1-ARG1
 nw/wsj/04/wsj_0443.parse 0 18 gold widen widen.01 ----- 0:3-ARG0 17:0-ARGM-MOD 18:0-rel 19:3-ARG1
@@ -58,16 +60,14 @@ nw/wsj/04/wsj_0443.parse 14 4 gold contend contend.01 ----- 0:0-ARGM-DIS 1:1-ARG
 nw/wsj/04/wsj_0443.parse 1 49 gold broadcast broadcast.01 ----- 45:1*50:1-ARG1 49:0-rel
 nw/wsj/04/wsj_0443.parse 8 1 gold have have.01 ----- 1:0-rel
 nw/wsj/04/wsj_0443.parse 9 5 gold comment comment.01 ----- 0:1-ARG0 3:0-ARGM-MOD 4:0-ARGM-NEG 5:0-rel
-nw/wsj/04/wsj_0443.parse 5 3 gold be be.03 ----- 3:0-rel
-nw/wsj/04/wsj_0443.parse 7 11 gold have have.01 ----- 11:0-rel
+nw/wsj/04/wsj_0443.parse 5 2 gold have have.01 ----- 2:0-rel
 nw/wsj/04/wsj_0443.parse 11 18 gold be be.03 ----- 18:0-rel
 nw/wsj/04/wsj_0443.parse 7 2 gold contest contest.02 ----- 2:0-rel
 nw/wsj/04/wsj_0443.parse 17 3 gold be be.01 ----- 0:2-ARG1 3:0-rel 4:1-ARG2 6:1-ARGM-TMP 8:1-ARGM-ADV
 nw/wsj/04/wsj_0443.parse 15 3 gold be be.01 ----- 0:1-ARG1 2:1-ARGM-ADV 3:0-rel 4:1-ARG2
 nw/wsj/04/wsj_0443.parse 7 12 gold reap reap.01 ----- 0:2-ARGM-ADV 9:1-ARG0 10:0-ARGM-MOD 12:0-rel 13:2-ARG1 22:1-ARG2 28:1-ARGM-ADV
-nw/wsj/04/wsj_0443.parse 1 4 gold disrupt disrupt.01 ----- 0:1*5:1-ARG1 0:1*5:1-LINK-PSV 4:0-rel 6:1-ARG0 16:1-ARGM-CAU
 nw/wsj/04/wsj_0443.parse 1 48 gold be be.03 ----- 48:0-rel
-nw/wsj/04/wsj_0443.parse 18 20 gold draw draw.02 ----- 16:1-ARGM-TMP 19:1-ARG0 20:0-rel 21:2-ARG1
 nw/wsj/04/wsj_0443.parse 9 15 gold interview interview.01 ----- 8:2*12:1*16:1-ARG1 15:0-rel
 nw/wsj/04/wsj_0443.parse 1 47 gold have have.01 ----- 47:0-rel
 nw/wsj/04/wsj_0443.parse 11 27 gold generate generate.01 ----- 17:1*25:1-ARG0 27:0-rel 28:1-ARG1
+nw/wsj/04/wsj_0443.parse 5 3 gold be be.03 ----- 3:0-rel

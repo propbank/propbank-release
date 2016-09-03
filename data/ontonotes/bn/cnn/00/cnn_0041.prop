@@ -1,4 +1,5 @@
 bn/cnn/00/cnn_0041.parse 7 3 gold stop stop.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-ARGM-NEG 3:0-rel 4:2-ARG1
+bn/cnn/00/cnn_0041.parse 6 4 gold attack attack.01 ----- 1:1*2:1*3:1-ARG0 1:1*2:1-LINK-SLC 4:0-rel 5:1-ARG1
 bn/cnn/00/cnn_0041.parse 4 2 gold meet meet.03 ----- 0:1-ARG0 2:0-rel 3:1-ARGM-MNR 4:1-ARG1 7:1-ARGM-TMP 9:2-ARGM-PRP
 bn/cnn/00/cnn_0041.parse 7 5 gold stand stand.02 ----- 0:1*4:1-ARG1 5:0-rel 6:1-ARG2 7:1-ARGM-PRP
 bn/cnn/00/cnn_0041.parse 3 15 gold be be.03 ----- 15:0-rel
@@ -8,7 +9,6 @@ bn/cnn/00/cnn_0041.parse 0 4 gold be be.01 ----- 0:2;13:1-ARG1 4:0-rel 5:1-ARG2 
 bn/cnn/00/cnn_0041.parse 11 2 gold question question.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG2 8:1-ARGM-TMP
 bn/cnn/00/cnn_0041.parse 4 15 gold serve serve.01 ----- 14:0-ARG0 15:0-rel 16:1-ARG2
 bn/cnn/00/cnn_0041.parse 12 18 gold give give.01 ----- 0:1-ARG0 18:0-rel 19:1-ARG1
-bn/cnn/00/cnn_0041.parse 11 16 gold have have.01 ----- 16:0-rel
 bn/cnn/00/cnn_0041.parse 10 10 gold meet meet.03 ----- 0:2*8:1-ARG0 10:0-rel 11:1-ARG1
 bn/cnn/00/cnn_0041.parse 5 2 gold be be.03 ----- 2:0-rel
 bn/cnn/00/cnn_0041.parse 3 20 gold blast blast.05 ----- 20:0-rel
@@ -20,21 +20,20 @@ bn/cnn/00/cnn_0041.parse 3 16 gold wound wound.01 ----- 6:1*13:1*14:1*17:1-ARG1 
 bn/cnn/00/cnn_0041.parse 6 13 gold find find.01 ----- 10:1-ARG0 11:0-ARGM-MOD 12:0-ARGM-NEG 13:0-rel 14:1-ARG1
 bn/cnn/00/cnn_0041.parse 0 25 gold bomb bomb.01 ----- 24:0-ARG0 25:0-rel 26:1-ARG1
 bn/cnn/00/cnn_0041.parse 8 2 gold take take.14 ----- 0:1-ARG1 2:0-rel 3:1-ARG2 4:1-ARGM-TMP
-bn/cnn/00/cnn_0041.parse 6 8 gold say say.01 ----- 0:1-ARG2 7:1-ARG0 8:0-rel 10:3-ARG1
 bn/cnn/00/cnn_0041.parse 9 1 gold explode explode.01 ----- 1:0-rel
 bn/cnn/00/cnn_0041.parse 10 4 gold be be.03 ----- 4:0-rel
 bn/cnn/00/cnn_0041.parse 12 10 gold find find.01 ----- 5:2*11:1-ARG1 10:0-rel 12:1-ARGM-LOC
+bn/cnn/00/cnn_0041.parse 1 13 gold dock dock.01 ----- 13:0-rel 14:0-ARG1
+bn/cnn/00/cnn_0041.parse 12 2 gold tell tell.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG2 4:1-ARG1
 bn/cnn/00/cnn_0041.parse 1 3 gold be be.03 ----- 3:0-rel
 bn/cnn/00/cnn_0041.parse 11 18 gold develop develop.02 ----- 14:1*19:1-ARG1 18:0-rel
 bn/cnn/00/cnn_0041.parse 13 6 gold be be.03 ----- 6:0-rel
-bn/cnn/00/cnn_0041.parse 6 4 gold attack attack.01 ----- 1:1*2:1*3:1-ARG0 1:1*2:1-LINK-SLC 4:0-rel 5:1-ARG1
 bn/cnn/00/cnn_0041.parse 13 1 gold gather gather.01 ----- 0:1*2:1-ARG1 0:1*2:1-LINK-PSV 1:0-rel 3:1-ARG0
 bn/cnn/00/cnn_0041.parse 11 17 gold be be.03 ----- 17:0-rel
-bn/cnn/00/cnn_0041.parse 1 13 gold dock dock.01 ----- 13:0-rel 14:0-ARG1
 bn/cnn/00/cnn_0041.parse 6 26 gold prevail prevail.01 ----- 24:1-ARG0 25:0-ARGM-MOD 26:0-rel
 bn/cnn/00/cnn_0041.parse 4 11 gold thank thank.01 ----- 0:1*9:1-ARG0 11:0-rel 12:1-ARG1 13:1-ARG2
-bn/cnn/00/cnn_0041.parse 12 2 gold tell tell.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG2 4:1-ARG1
 bn/cnn/00/cnn_0041.parse 5 3 gold vow vow.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
+bn/cnn/00/cnn_0041.parse 11 16 gold have have.01 ----- 16:0-rel
 bn/cnn/00/cnn_0041.parse 9 2 gold blow blow.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
 bn/cnn/00/cnn_0041.parse 0 18 gold kill kill.01 ----- 14:1*19:1-ARG1 14:1*19:1-LINK-PSV 18:0-rel 20:1-ARGM-TMP 22:1-ARGM-LOC
 bn/cnn/00/cnn_0041.parse 1 4 gold hold hold.04 ----- 0:1*5:1-ARG1 4:0-rel 6:1-ARGM-LOC
@@ -42,15 +41,16 @@ bn/cnn/00/cnn_0041.parse 2 2 gold take take.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1 4
 bn/cnn/00/cnn_0041.parse 10 16 gold be be.03 ----- 16:0-rel
 bn/cnn/00/cnn_0041.parse 13 8 gold send send.01 ----- 0:2*9:1-ARG1 8:0-rel 10:1-ARG2 12:1-ARGM-PRP
 bn/cnn/00/cnn_0041.parse 6 20 gold find find.01 ----- 18:1-ARG0 19:0-ARGM-MOD 20:0-rel 21:1-ARG1
+bn/cnn/00/cnn_0041.parse 6 8 gold say say.01 ----- 0:1-ARG2 7:1-ARG0 8:0-rel 10:3-ARG1
 bn/cnn/00/cnn_0041.parse 1 2 gold be be.03 ----- 2:0-rel
 bn/cnn/00/cnn_0041.parse 3 2 gold be be.01 ----- 0:1-ARGM-DIS 1:1*3:1-ARG2 2:0-rel 4:2-ARG1
 bn/cnn/00/cnn_0041.parse 13 7 gold be be.03 ----- 7:0-rel
+bn/cnn/00/cnn_0041.parse 10 23 gold be be.01 ----- 21:1*22:1-ARG1 23:0-rel 24:1-ARG2
 bn/cnn/00/cnn_0041.parse 10 5 gold fly fly.01 ----- 0:2-ARG1 5:0-rel 6:1-ARGM-DIR 8:2-ARGM-PRP
-bn/cnn/00/cnn_0041.parse 5 9 gold bomb bomb.01 ----- 9:0-rel
 bn/cnn/00/cnn_0041.parse 5 11 gold be be.03 ----- 11:0-rel
 bn/cnn/00/cnn_0041.parse 10 20 gold determine determine.01 ----- 12:1*14:1*15:1*18:1-ARG0 12:1*14:1-LINK-SLC 20:0-rel 21:2-ARG1
-bn/cnn/00/cnn_0041.parse 8 10 gold refuel refuel.01 ----- 5:1-ARG1 10:0-rel 11:1-ARGM-LOC
-bn/cnn/00/cnn_0041.parse 10 23 gold be be.01 ----- 21:1*22:1-ARG1 23:0-rel 24:1-ARG2
-bn/cnn/00/cnn_0041.parse 8 9 gold be be.03 ----- 9:0-rel
 bn/cnn/00/cnn_0041.parse 11 12 gold say say.01 ----- 11:1-ARG0 12:0-rel 13:1-ARG1
+bn/cnn/00/cnn_0041.parse 8 10 gold refuel refuel.01 ----- 5:1-ARG1 10:0-rel 11:1-ARGM-LOC
+bn/cnn/00/cnn_0041.parse 8 9 gold be be.03 ----- 9:0-rel
+bn/cnn/00/cnn_0041.parse 5 9 gold bomb bomb.01 ----- 9:0-rel
 bn/cnn/00/cnn_0041.parse 2 9 gold accompany accompany.01 ----- 0:1*8:1*10:1-ARG1 9:0-rel 11:1-ARG0

@@ -4,11 +4,10 @@ bn/cnn/03/cnn_0348.parse 14 14 gold see see.01 ----- 12:1-ARGM-ADJ 14:0-rel
 bn/cnn/03/cnn_0348.parse 7 0 gold thank thank.01 ----- 0:0-rel 1:1-ARGM-EXT
 bn/cnn/03/cnn_0348.parse 14 56 gold be be.01 ----- 47:1*50:1*54:1-ARG1 56:0-rel 57:1-ARG2
 bn/cnn/03/cnn_0348.parse 14 53 gold have have.02 ----- 53:0-rel
-bn/cnn/03/cnn_0348.parse 3 19 gold present present.01 ----- 16:1-ARG0 18:1-ARGM-TMP 19:0-rel 20:1-ARG1
-bn/cnn/03/cnn_0348.parse 12 3 gold be be.01 ----- 2:1*9:1-ARG1 3:0-rel 4:2-ARG2
-bn/cnn/03/cnn_0348.parse 4 19 gold beat beat.01 ----- 0:1*12:1-ARG0 0:1*12:1-LINK-PRO 18:1-ARGM-MNR 19:0-rel 20:1-ARG1 21:2-ARGM-TMP
 bn/cnn/03/cnn_0348.parse 3 17 gold be be.03 ----- 17:0-rel
 bn/cnn/03/cnn_0348.parse 19 31 gold do do.02 ----- 26:1*29:1-ARG0 31:0-rel
+bn/cnn/03/cnn_0348.parse 3 19 gold present present.01 ----- 16:1-ARG0 18:1-ARGM-TMP 19:0-rel 20:1-ARG1
+bn/cnn/03/cnn_0348.parse 4 19 gold beat beat.01 ----- 0:1*12:1-ARG0 0:1*12:1-LINK-PRO 18:1-ARGM-MNR 19:0-rel 20:1-ARG1 21:2-ARGM-TMP
 bn/cnn/03/cnn_0348.parse 14 35 gold do do.01 ----- 35:0-rel
 bn/cnn/03/cnn_0348.parse 14 21 gold be be.03 ----- 21:0-rel
 bn/cnn/03/cnn_0348.parse 14 44 gold see see.01 ----- 34:1*38:1*42:1-ARG0 44:0-rel 45:1-ARG1
@@ -22,18 +21,19 @@ bn/cnn/03/cnn_0348.parse 3 12 gold decide decide.01 ----- 9:1*11:0-ARG0 12:0-rel
 bn/cnn/03/cnn_0348.parse 12 20 gold die die.01 ----- 20:0-rel
 bn/cnn/03/cnn_0348.parse 19 3 gold collect collect.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
 bn/cnn/03/cnn_0348.parse 15 9 gold have have.02 ----- 8:0-ARGM-NEG 9:0-rel
-bn/cnn/03/cnn_0348.parse 12 23 gold be be.03 ----- 23:0-rel
 bn/cnn/03/cnn_0348.parse 12 24 gold require require.01 ----- 22:1*25:1-ARG2 24:0-rel 26:2-ARG1
 bn/cnn/03/cnn_0348.parse 19 17 gold show show.01 ----- 8:1-ARGM-DIS 11:2-ARGM-TMP 16:1-ARG0 17:0-rel 18:1-ARG2 19:1-ARG1
 bn/cnn/03/cnn_0348.parse 3 14 gold come come.01 ----- 9:1*11:1*13:1-ARG1 9:1*11:1-LINK-SLC 14:0-rel 15:1-ARGM-TMP
 bn/cnn/03/cnn_0348.parse 13 1 gold do do.01 ----- 1:0-rel
 bn/cnn/03/cnn_0348.parse 10 11 gold do do.01 ----- 11:0-rel
 bn/cnn/03/cnn_0348.parse 4 9 gold accuse accuse.01 ----- 0:1*8:1*10:1-ARG1 9:0-rel 11:1-ARG2
+bn/cnn/03/cnn_0348.parse 12 10 gold be be.01 ----- 0:1-ARGM-DIS 2:2-ARGM-ADV 9:1-ARG1 10:0-rel 11:2-ARG2
 bn/cnn/03/cnn_0348.parse 8 1 gold be be.01 ----- 0:1*6:1-ARGM-CAU 1:0-rel 2:1-ARG1 3:1-ARG2 4:1-ARGM-MNR
 bn/cnn/03/cnn_0348.parse 19 28 gold have have.02 ----- 27:1-ARGM-TMP 28:0-rel
 bn/cnn/03/cnn_0348.parse 16 2 gold be be.01 ----- 0:1-ARG1 1:1-ARGM-ADV 2:0-rel 3:1-ARG2 5:1-ARGM-DIS 7:1-ARGM-DIS
 bn/cnn/03/cnn_0348.parse 14 48 gold be be.01 ----- 47:1-ARG1 48:0-rel 49:1-ARG2
 bn/cnn/03/cnn_0348.parse 3 6 gold set set.01 ----- 0:1*7:1-ARG1 4:0-ARGM-NEG 5:1-ARGM-TMP 6:0-rel 8:1-ARG0
+bn/cnn/03/cnn_0348.parse 15 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bn/cnn/03/cnn_0348.parse 15 27 gold be be.01 ----- 22:1*28:1-ARG2 24:1-ARG1 25:0-ARGM-MOD 27:0-rel
 bn/cnn/03/cnn_0348.parse 14 10 gold see see.01 ----- 2:2-ARGM-ADV 9:1-ARG0 10:0-rel 11:1-ARG1
 bn/cnn/03/cnn_0348.parse 0 15 gold have have.01 ----- 15:0-rel
@@ -45,35 +45,35 @@ bn/cnn/03/cnn_0348.parse 15 26 gold have have.01 ----- 26:0-rel
 bn/cnn/03/cnn_0348.parse 15 12 gold go go.06 ----- 6:1*10:1-ARG1 12:0-rel 13:1-ARG2
 bn/cnn/03/cnn_0348.parse 14 37 gold have have.02 ----- 36:0-ARGM-NEG 37:0-rel
 bn/cnn/03/cnn_0348.parse 16 11 gold account account.01 ----- 9:0-ARG0 10:0-ARGM-ADJ 11:0-rel
+bn/cnn/03/cnn_0348.parse 12 3 gold be be.01 ----- 2:1*9:1-ARG1 3:0-rel 4:2-ARG2
 bn/cnn/03/cnn_0348.parse 13 3 gold see see.01 ----- 0:1*4:1-ARG1 2:1-ARG0 3:0-rel 5:2-ARGM-TMP
+bn/cnn/03/cnn_0348.parse 5 10 gold read read.01 ----- 8:1-ARG0 10:0-rel 11:3-ARG1
+bn/cnn/03/cnn_0348.parse 12 23 gold be be.03 ----- 23:0-rel
 bn/cnn/03/cnn_0348.parse 9 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:0-ARGM-NEG 3:1-ARGM-ADV 4:1-ARG2 5:1-ARGM-MNR
-bn/cnn/03/cnn_0348.parse 0 23 gold try try.02 ----- 23:0-rel
 bn/cnn/03/cnn_0348.parse 0 22 gold stand stand.04 ----- 18:1-ARG1 20:0-ARGM-MOD 21:1-ARGM-DIS 22:0-rel 23:1-ARG2 24:1-ARGM-LOC 28:1-ARGM-ADV
 bn/cnn/03/cnn_0348.parse 11 6 gold be be.01 ----- 0:2-ARG1 6:0-rel
 bn/cnn/03/cnn_0348.parse 19 13 gold get get.05 ----- 11:1*15:1-ARGM-TMP 12:1-ARG1 13:0-rel 14:1-ARG2
 bn/cnn/03/cnn_0348.parse 14 17 gold think think.01 ----- 16:1-ARG0 17:0-rel 18:1-ARG1
 bn/cnn/03/cnn_0348.parse 4 3 gold be be.01 ----- 0:1-ARG1 3:0-rel 4:1-ARG2 6:1-ARGM-TMP 8:2-ARGM-ADV
 bn/cnn/03/cnn_0348.parse 18 2 gold collect collect.01 ----- 0:1,9:1-ARG0 2:0-rel 3:1-ARG1 4:1-ARGM-TMP
+bn/cnn/03/cnn_0348.parse 14 22 gold talk talk.01 ----- 19:1,23:1-ARG1 22:0-rel 25:1-ARGM-EXT 28:1-ARGM-TMP
 bn/cnn/03/cnn_0348.parse 1 7 gold serve serve.04 ----- 0:1-ARG0 6:1-ARGM-TMP 7:0-rel 8:1-ARG1 11:1-ARGM-LOC
 bn/cnn/03/cnn_0348.parse 19 2 gold be be.03 ----- 2:0-rel
+bn/cnn/03/cnn_0348.parse 3 3 gold be be.03 ----- 3:0-rel
 bn/cnn/03/cnn_0348.parse 18 6 gold be be.01 ----- 5:1-ARG1 6:0-rel 7:1-ARG2
+bn/cnn/03/cnn_0348.parse 0 23 gold try try.02 ----- 23:0-rel
 bn/cnn/03/cnn_0348.parse 2 9 gold be be.03 ----- 9:0-rel
 bn/cnn/03/cnn_0348.parse 1 5 gold be be.03 ----- 5:0-rel
 bn/cnn/03/cnn_0348.parse 2 10 gold convict convict.01 ----- 8:1*11:1-ARG1 10:0-rel
-bn/cnn/03/cnn_0348.parse 2 3 gold bring bring.01 ----- 0:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:1-ARG1 7:1-ARGM-ADV
 bn/cnn/03/cnn_0348.parse 17 2 gold happen happen.01 ----- 0:1*1:1-ARG1 2:0-rel
-bn/cnn/03/cnn_0348.parse 12 10 gold be be.01 ----- 0:1-ARGM-DIS 2:2-ARGM-ADV 9:1-ARG1 10:0-rel 11:2-ARG2
 bn/cnn/03/cnn_0348.parse 10 2 gold respond respond.01 ----- 0:1-ARG0 1:1-ARGM-ADV 2:0-rel 3:2-ARGM-TMP
-bn/cnn/03/cnn_0348.parse 3 3 gold be be.03 ----- 3:0-rel
-bn/cnn/03/cnn_0348.parse 15 21 gold imagine imagine.01 ----- 18:1-ARG0 19:0-ARGM-MOD 20:1-ARGM-ADV 21:0-rel 22:2-ARG1
 bn/cnn/03/cnn_0348.parse 5 20 gold assault assault.01 ----- 19:0-ARGM-ADJ 20:0-rel
 bn/cnn/03/cnn_0348.parse 0 2 gold tell tell.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG2 4:1-ARG1 5:1-ARGM-TMP
 bn/cnn/03/cnn_0348.parse 11 4 gold go go.02 ----- 0:1*2:1*5:1-ARGM-CAU 0:1*2:1-LINK-SLC 3:1-ARG0 4:0-rel
+bn/cnn/03/cnn_0348.parse 2 3 gold bring bring.01 ----- 0:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:1-ARG1 7:1-ARGM-ADV
 bn/cnn/03/cnn_0348.parse 5 17 gold murder murder.01 ----- 16:0-ARGM-ADJ 17:0-rel
 bn/cnn/03/cnn_0348.parse 18 1 gold be be.03 ----- 1:0-rel
 bn/cnn/03/cnn_0348.parse 14 4 gold be be.01 ----- 2:1*9:1-ARG1 4:0-rel 5:1-ARG2
 bn/cnn/03/cnn_0348.parse 19 1 gold have have.01 ----- 1:0-rel
-bn/cnn/03/cnn_0348.parse 15 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
+bn/cnn/03/cnn_0348.parse 15 21 gold imagine imagine.01 ----- 18:1-ARG0 19:0-ARGM-MOD 20:1-ARGM-ADV 21:0-rel 22:2-ARG1
 bn/cnn/03/cnn_0348.parse 15 4 gold see see.01 ----- 3:0-ARGM-ADJ 4:0-rel
-bn/cnn/03/cnn_0348.parse 5 10 gold read read.01 ----- 8:1-ARG0 10:0-rel 11:3-ARG1
-bn/cnn/03/cnn_0348.parse 14 22 gold talk talk.01 ----- 19:1,23:1-ARG1 22:0-rel 25:1-ARGM-EXT 28:1-ARGM-TMP

@@ -8,10 +8,12 @@ bn/pri/00/pri_0018.parse 7 12 gold peace peace.01 ----- 12:0-rel
 bn/pri/00/pri_0018.parse 7 24 gold force force.01 ----- 22:1-ARG0 23:0-ARGM-MOD 24:0-rel 25:1-ARG1 26:2-ARG2
 bn/pri/00/pri_0018.parse 0 7 gold have have.01 ----- 7:0-rel
 bn/pri/00/pri_0018.parse 10 8 gold have have.01 ----- 8:0-rel
+bn/pri/00/pri_0018.parse 7 8 gold remain remain.01 ----- 4:0*6:1-ARG1 4:0*6:1-LINK-PRO 8:0-rel 9:2-ARG3
 bn/pri/00/pri_0018.parse 2 4 gold report report.01 ----- 0:2-ARG0 4:0-rel
 bn/pri/00/pri_0018.parse 1 11 gold be be.03 ----- 11:0-rel
 bn/pri/00/pri_0018.parse 5 12 gold place place.01 ----- 4:2*13:1-ARG1 12:0-rel 14:1-ARG2 20:1-ARGM-TMP
 bn/pri/00/pri_0018.parse 0 8 gold leave leave.13 ----- 0:2-ARG0 8:0-rel 9:3,14:2-ARG1
+bn/pri/00/pri_0018.parse 5 11 gold be be.03 ----- 11:0-rel
 bn/pri/00/pri_0018.parse 1 12 gold refuel refuel.01 ----- 4:2-ARG1 12:0-rel 13:1-ARGM-LOC
 bn/pri/00/pri_0018.parse 3 14 gold be be.01 ----- 9:1*12:1-ARG1 14:0-rel 15:2-ARG2
 bn/pri/00/pri_0018.parse 5 2 gold come come.01 ----- 0:1-ARG1 2:0-rel 3:1-ARGM-TMP
@@ -23,9 +25,7 @@ bn/pri/00/pri_0018.parse 9 4 gold arrive arrive.01 ----- 0:1-ARG1 3:1-ARGM-ADV 4
 bn/pri/00/pri_0018.parse 7 28 gold retreat retreat.01 ----- 25:1*26:1-ARG1 28:0-rel
 bn/pri/00/pri_0018.parse 4 3 gold whisk whisk.01 ----- 0:1-ARG0 2:1-ARGM-TMP 3:0-rel 4:1-ARG2 7:2-ARG1
 bn/pri/00/pri_0018.parse 10 9 gold be be.03 ----- 9:0-rel
-bn/pri/00/pri_0018.parse 5 11 gold be be.03 ----- 11:0-rel
 bn/pri/00/pri_0018.parse 9 2 gold have have.01 ----- 2:0-rel
-bn/pri/00/pri_0018.parse 7 8 gold remain remain.01 ----- 4:0*6:1-ARG1 4:0*6:1-LINK-PRO 8:0-rel 9:2-ARG3
 bn/pri/00/pri_0018.parse 7 3 gold doubt doubt.01 ----- 0:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:1-ARG1
 bn/pri/00/pri_0018.parse 3 18 gold terrorize terrorize.01 ----- 18:0-rel
 bn/pri/00/pri_0018.parse 10 19 gold blast blast.05 ----- 19:0-rel

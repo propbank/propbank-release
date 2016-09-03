@@ -9,7 +9,8 @@ pt/nt/45/nt_4505.parse 38 6 gold die die.01 ----- 6:0-rel
 pt/nt/45/nt_4505.parse 19 10 gold make make.02 ----- 0:0-ARGM-DIS 1:2-ARG0 10:0-rel 11:3-ARG1
 pt/nt/45/nt_4505.parse 12 13 gold die die.01 ----- 7:1-ARGM-TMP 12:1-ARG1 13:0-rel 14:1-ARGM-GOL
 pt/nt/45/nt_4505.parse 45 14 gold make make.02 ----- 12:0-ARGM-MOD 14:0-rel 15:2-ARG1
-pt/nt/45/nt_4505.parse 1 3 gold peace peace.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-ARGM-LVB 3:0-rel 4:1-ARG1 6:1-ARGM-MNR
+pt/nt/45/nt_4505.parse 27 16 gold die die.01 ----- 12:1*14:1-ARG1 16:0-rel
+pt/nt/45/nt_4505.parse 6 6 gold make make.02 ----- 4:1-ARG0 6:0-rel 7:2-ARG1
 pt/nt/45/nt_4505.parse 20 6 gold save save.02 ----- 0:0-ARGM-DIS 3:0-ARGM-MOD 4:1*7:1-ARG1 6:0-rel
 pt/nt/45/nt_4505.parse 13 17 gold be be.01 ----- 16:1-ARG1 17:0-rel 18:1-ARG2
 pt/nt/45/nt_4505.parse 15 7 gold be be.01 ----- 6:1-ARG1 7:0-rel 8:1-ARGM-TMP 9:1-ARG2
@@ -17,26 +18,28 @@ pt/nt/45/nt_4505.parse 11 6 gold be be.01 ----- 4:1*12:1-ARGM-TMP 5:1-ARG1 6:0-r
 pt/nt/45/nt_4505.parse 35 7 gold judge judge.01 ----- 0:1-ARGM-TMP 5:1-ARG1 7:0-rel 8:2-ARG2
 pt/nt/45/nt_4505.parse 13 7 gold save save.02 ----- 0:2*5:1-ARG0 7:0-rel 8:2-ARG1
 pt/nt/45/nt_4505.parse 4 2 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 2:0-rel 3:1-ARGM-ADV 4:1-ARG2 5:1-ARGM-PRD
+pt/nt/45/nt_4505.parse 16 2 gold be be.03 ----- 2:0-rel
 pt/nt/45/nt_4505.parse 29 5 gold do do.01 ----- 5:0-rel
 pt/nt/45/nt_4505.parse 2 10 gold bless bless.01 ----- 10:0-rel 11:1-ARG2 15:2-ARGM-ADJ
 pt/nt/45/nt_4505.parse 14 6 gold die die.01 ----- 0:1*4:1-ARG1 6:0-rel 7:1-ARGM-GOL
 pt/nt/45/nt_4505.parse 0 2 gold be be.03 ----- 2:0-rel
+pt/nt/45/nt_4505.parse 21 8 gold be be.01 ----- 2:1*5:1-ARGM-CAU 2:1*5:1-LINK-SLC 7:1-ARG1 8:0-rel 9:1-ARGM-TMP 10:2-ARG2
+pt/nt/45/nt_4505.parse 48 2 gold use use.01 ----- 0:1-ARG0 1:1-ARGM-TMP 2:0-rel 3:1-ARG1 4:2-ARG2
 pt/nt/45/nt_4505.parse 35 2 gold sin sin.01 ----- 1:1-ARG0 2:0-rel 3:1-ARGM-TMP
+pt/nt/45/nt_4505.parse 2 5 gold have have.01 ----- 5:0-rel
 pt/nt/45/nt_4505.parse 50 2 gold bring bring.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG2 4:1-ARG1 6:1-ARGM-MNR
+pt/nt/45/nt_4505.parse 49 15 gold make make.02 ----- 14:1-ARG0 15:0-rel 16:2-ARG1
 pt/nt/45/nt_4505.parse 9 5 gold disappoint disappoint.01 ----- 0:0-ARGM-DIS 1:1-ARG0 3:0-ARGM-MOD 4:1-ARGM-NEG 5:0-rel 6:1-ARG1
-pt/nt/45/nt_4505.parse 12 2 gold live live.01 ----- 0:1-ARG0 2:0-rel 3:1-ARGM-MNR
 pt/nt/45/nt_4505.parse 10 1 gold know know.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:1-ARGM-CAU
 pt/nt/45/nt_4505.parse 18 1 gold mean mean.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG2
-pt/nt/45/nt_4505.parse 39 15 gold be be.03 ----- 15:0-rel
 pt/nt/45/nt_4505.parse 14 2 gold be be.01 ----- 0:1-ARG1 1:0-ARGM-MOD 2:0-rel 3:2-ARG2
-pt/nt/45/nt_4505.parse 20 18 gold have have.01 ----- 18:0-rel
 pt/nt/45/nt_4505.parse 46 16 gold do do.02 ----- 12:1*14:1*17:1-ARGM-MNR 12:1*14:1-LINK-SLC 15:1-ARG0 16:0-rel
 pt/nt/45/nt_4505.parse 13 4 gold die die.01 ----- 0:2-ARG1 3:0-ARGM-MOD 4:0-rel 5:2-ARGM-PRP 14:1-ARGM-ADV
 pt/nt/45/nt_4505.parse 31 5 gold be be.01 ----- 0:0-ARGM-DIS 1:2-ARG1 5:0-rel 6:0-ARGM-NEG 7:1-ARG2
 pt/nt/45/nt_4505.parse 46 3 gold bring bring.01 ----- 0:1*4:1-ARG1 3:0-rel 5:1-ARGM-PRD 6:1-ARGM-PRP
 pt/nt/45/nt_4505.parse 23 5 gold die die.01 ----- 5:0-rel
-pt/nt/45/nt_4505.parse 48 2 gold use use.01 ----- 0:1-ARG0 1:1-ARGM-TMP 2:0-rel 3:1-ARG1 4:2-ARG2
 pt/nt/45/nt_4505.parse 12 1 gold be be.03 ----- 1:0-rel
+pt/nt/45/nt_4505.parse 26 4 gold consider consider.01 ----- 0:0-ARGM-DIS 1:1-ARG0 3:0-ARGM-NEG 4:0-rel 5:2-ARG1 9:1-ARGM-ADV
 pt/nt/45/nt_4505.parse 46 2 gold be be.03 ----- 2:0-rel
 pt/nt/45/nt_4505.parse 37 10 gold make make.02 ----- 9:1-ARG0 10:0-rel 11:2-ARG1
 pt/nt/45/nt_4505.parse 0 3 gold make make.02 ----- 3:0-rel 4:2-ARG1 8:1-ARGM-CAU
@@ -45,28 +48,24 @@ pt/nt/45/nt_4505.parse 16 3 gold make make.02 ----- 3:0-rel 4:2-ARG1 8:1-ARG0
 pt/nt/45/nt_4505.parse 30 8 gold compare compare.01 ----- 0:2*9:1-ARG1 6:0-ARGM-MOD 8:0-rel 10:1-ARG2
 pt/nt/45/nt_4505.parse 26 2 gold do do.01 ----- 2:0-rel
 pt/nt/45/nt_4505.parse 29 14 gold die die.01 ----- 1:2*12:1-ARG1 14:0-rel
-pt/nt/45/nt_4505.parse 49 15 gold make make.02 ----- 14:1-ARG0 15:0-rel 16:2-ARG1
-pt/nt/45/nt_4505.parse 22 10 gold do do.02 ----- 7:1*11:1-ARG1 8:1-ARG0 10:0-rel
 pt/nt/45/nt_4505.parse 30 7 gold be be.03 ----- 7:0-rel
 pt/nt/45/nt_4505.parse 29 7 gold sin sin.01 ----- 1:1*3:1*4:1-ARG0 1:1*3:1-LINK-SLC 6:0-ARGM-NEG 7:0-rel 8:1-ARGM-MNR
+pt/nt/45/nt_4505.parse 47 7 gold be be.02 ----- 0:0-ARGM-DIS 1:2-ARGM-LOC 7:0-rel 8:2-ARG1
 pt/nt/45/nt_4505.parse 27 13 gold have have.02 ----- 13:0-rel
 pt/nt/45/nt_4505.parse 40 7 gold rule rule.03 ----- 0:1-ARGM-ADV 1:1-ARG0 2:0-ARGM-MOD 7:0-rel 8:1-ARGM-MNR
 pt/nt/45/nt_4505.parse 41 8 gold punish punish.01 ----- 8:0-rel 9:1-ARG3
-pt/nt/45/nt_4505.parse 32 2 gold die die.01 ----- 0:1-ARG1 2:0-rel 3:1-ARGM-CAU
 pt/nt/45/nt_4505.parse 30 17 gold be be.03 ----- 17:0-rel
-pt/nt/45/nt_4505.parse 27 16 gold die die.01 ----- 12:1*14:1-ARG1 16:0-rel
 pt/nt/45/nt_4505.parse 2 18 gold enjoy enjoy.01 ----- 9:2*15:1*19:1-ARG1 9:2*15:1-LINK-SLC 16:1-ARG0 17:1-ARGM-TMP 18:0-rel
 pt/nt/45/nt_4505.parse 11 1 gold die die.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-GOL 4:2-ARGM-TMP
 pt/nt/45/nt_4505.parse 46 11 gold sin sin.01 ----- 8:1-ARG0 10:0-ARGM-MOD 11:0-rel 12:2-ARGM-MNR
 pt/nt/45/nt_4505.parse 26 11 gold be be.02 ----- 11:0-rel 12:1-ARG1
-pt/nt/45/nt_4505.parse 16 2 gold be be.03 ----- 2:0-rel
 pt/nt/45/nt_4505.parse 49 2 gold give give.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG2 4:2-ARG1 8:1-ARGM-PRP
 pt/nt/45/nt_4505.parse 43 2 gold bring bring.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG2 4:1-ARG1
 pt/nt/45/nt_4505.parse 11 10 gold help help.01 ----- 5:1*8:1-ARG0 5:1*8:1-LINK-PRO 10:0-rel 11:1-ARG1
-pt/nt/45/nt_4505.parse 26 4 gold consider consider.01 ----- 0:0-ARGM-DIS 1:1-ARG0 3:0-ARGM-NEG 4:0-rel 5:2-ARG1 9:1-ARGM-ADV
 pt/nt/45/nt_4505.parse 25 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2 5:1-ARGM-TMP
 pt/nt/45/nt_4505.parse 24 15 gold sin sin.01 ----- 12:1-ARG0 15:0-rel
-pt/nt/45/nt_4505.parse 17 6 gold be be.03 ----- 6:0-rel
+pt/nt/45/nt_4505.parse 1 3 gold peace peace.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-ARGM-LVB 3:0-rel 4:1-ARG1 6:1-ARGM-MNR
+pt/nt/45/nt_4505.parse 22 10 gold do do.02 ----- 7:1*11:1-ARG1 8:1-ARG0 10:0-rel
 pt/nt/45/nt_4505.parse 44 6 gold become become.01 ----- 5:1-ARG1 6:0-rel 7:1-ARG2
 pt/nt/45/nt_4505.parse 20 19 gold do do.02 ----- 16:1*20:1-ARG1 17:1-ARG0 19:0-rel 21:1-ARG2 23:1-ARGM-MNR
 pt/nt/45/nt_4505.parse 20 12 gold rejoice rejoice.01 ----- 10:1-ARG1 11:1-ARGM-ADV 12:0-rel 13:1-ARGM-TMP 15:1-ARG0
@@ -75,36 +74,30 @@ pt/nt/45/nt_4505.parse 22 1 gold come come.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG4 5:
 pt/nt/45/nt_4505.parse 15 19 gold love love.01 ----- 16:1*21:1-ARGM-EXT 18:1-ARG0 19:0-rel 20:1-ARG1
 pt/nt/45/nt_4505.parse 45 13 gold be be.03 ----- 13:0-rel
 pt/nt/45/nt_4505.parse 18 19 gold die die.01 ----- 16:1-ARG1 19:0-rel
-pt/nt/45/nt_4505.parse 48 3 gold die die.01 ----- 3:0-rel
 pt/nt/45/nt_4505.parse 3 11 gold have have.03 ----- 7:1*9:1*12:1-ARG1 7:1*9:1-LINK-SLC 10:1-ARG0 11:0-rel
+pt/nt/45/nt_4505.parse 17 6 gold be be.03 ----- 6:0-rel
 pt/nt/45/nt_4505.parse 41 6 gold bring bring.01 ----- 0:1-ARGM-DIS 1:2-ARG0 6:0-rel 7:2-ARG1 11:1-ARG2
 pt/nt/45/nt_4505.parse 19 5 gold be be.01 ----- 4:1-ARG1 5:0-rel 6:1-ARGM-TMP 7:2-ARG2
 pt/nt/45/nt_4505.parse 18 5 gold be be.01 ----- 4:1-ARG1 5:0-rel 6:2-ARG2
+pt/nt/45/nt_4505.parse 12 2 gold live live.01 ----- 0:1-ARG0 2:0-rel 3:1-ARGM-MNR
 pt/nt/45/nt_4505.parse 28 8 gold obey obey.01 ----- 3:1*6:1-ARG0 3:1*6:1-LINK-PRO 7:0-ARGM-NEG 8:0-rel 9:2-ARG1
-pt/nt/45/nt_4505.parse 3 15 gold share share.01 ----- 14:1-ARG0 15:0-rel 16:2-ARG1
-pt/nt/45/nt_4505.parse 6 6 gold make make.02 ----- 4:1-ARG0 6:0-rel 7:2-ARG1
 pt/nt/45/nt_4505.parse 48 6 gold rule rule.03 ----- 0:1*4:1-ARG0 6:0-rel 7:1-ARG1
 pt/nt/45/nt_4505.parse 39 16 gold make make.02 ----- 16:0-rel 17:2-ARG1
 pt/nt/45/nt_4505.parse 36 5 gold be be.01 ----- 0:0-ARGM-DIS 1:2-ARG1 5:0-rel 6:1-ARG2
 pt/nt/45/nt_4505.parse 10 12 gold fill fill.01 ----- 4:1*10:1-ARG0 12:0-rel 13:1-ARG1 15:1-ARGM-MNR
 pt/nt/45/nt_4505.parse 16 1 gold have have.01 ----- 1:0-rel
-pt/nt/45/nt_4505.parse 2 5 gold have have.01 ----- 5:0-rel
-pt/nt/45/nt_4505.parse 7 7 gold be be.01 ----- 6:1-ARG1 7:0-rel 8:1-ARG2
 pt/nt/45/nt_4505.parse 10 6 gold pour pour.01 ----- 4:1-ARG0 6:0-rel 7:1-ARGM-DIR 8:1-ARG1 10:2-ARGM-PRP
 pt/nt/45/nt_4505.parse 5 1 gold be be.01 ----- 0:1*6:1-ARGM-CAU 1:0-rel 2:1-ARG1 3:1-ARG2 4:1-ARGM-PRD
-pt/nt/45/nt_4505.parse 47 7 gold be be.02 ----- 0:0-ARGM-DIS 1:2-ARGM-LOC 7:0-rel 8:2-ARG1
 pt/nt/45/nt_4505.parse 20 5 gold be be.03 ----- 5:0-rel
 pt/nt/45/nt_4505.parse 38 2 gold sin sin.01 ----- 0:1-ARG0 2:0-rel
 pt/nt/45/nt_4505.parse 24 8 gold die die.01 ----- 4:1*9:1-ARGM-CAU 5:1-ARG1 7:0-ARGM-MOD 8:0-rel
 pt/nt/45/nt_4505.parse 29 11 gold have have.02 ----- 11:0-rel
 pt/nt/45/nt_4505.parse 0 1 gold have have.01 ----- 1:0-rel
-pt/nt/45/nt_4505.parse 23 3 gold come come.01 ----- 0:0-ARGM-DIS 1:1*4:1-ARGM-COM 3:0-rel 5:1-ARG1
-pt/nt/45/nt_4505.parse 28 1 gold die die.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-CAU
-pt/nt/45/nt_4505.parse 49 12 gold rule rule.03 ----- 10:1-ARG0 11:0-ARGM-MOD 12:0-rel 13:1-ARGM-MNR
 pt/nt/45/nt_4505.parse 10 21 gold give give.01 ----- 16:1*19:1-ARG1 16:1*19:1-LINK-SLC 20:1-ARG0 21:0-rel 22:1-ARG2
 pt/nt/45/nt_4505.parse 18 11 gold make make.01 ----- 3:1-ARGM-TMP 10:1-ARG0 11:0-rel 12:1-ARG1 13:1-ARG2 15:1-ARGM-MNR
 pt/nt/45/nt_4505.parse 6 2 gold know know.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG1
 pt/nt/45/nt_4505.parse 38 7 gold rule rule.03 ----- 5:1-ARGM-ADV 6:1-ARG0 7:0-rel 8:1-ARG1 10:1-ARGM-CAU
+pt/nt/45/nt_4505.parse 20 18 gold have have.01 ----- 18:0-rel
 pt/nt/45/nt_4505.parse 33 9 gold be be.01 ----- 0:0-ARGM-DIS 1:2-ARG1 9:0-rel 10:1-ARG2
 pt/nt/45/nt_4505.parse 47 3 gold increase increase.01 ----- 1:1*4:1-ARGM-LOC 2:1-ARG1 3:0-rel
 pt/nt/45/nt_4505.parse 24 3 gold be be.01 ----- 0:1-ARGM-DIS 1:2;11:1-ARG1 3:0-rel 4:2-ARG2
@@ -116,13 +109,20 @@ pt/nt/45/nt_4505.parse 4 10 gold have have.03 ----- 6:1*8:1*11:1-ARG1 6:1*8:1-LI
 pt/nt/45/nt_4505.parse 42 7 gold do do.02 ----- 0:0-ARGM-DIS 1:1-ARGM-MNR 6:1-ARG0 7:0-rel 8:2-ARG1
 pt/nt/45/nt_4505.parse 30 18 gold come come.01 ----- 13:1*15:1*16:1-ARG1 13:1*15:1-LINK-SLC 18:0-rel 19:1-ARGM-TMP
 pt/nt/45/nt_4505.parse 15 2 gold die die.01 ----- 1:1-ARG1 2:0-rel 3:1-ARGM-GOL 5:1-ARGM-TMP
-pt/nt/45/nt_4505.parse 21 8 gold be be.01 ----- 2:1*5:1-ARGM-CAU 2:1*5:1-LINK-SLC 7:1-ARG1 8:0-rel 9:1-ARGM-TMP 10:2-ARG2
+pt/nt/45/nt_4505.parse 7 7 gold be be.01 ----- 6:1-ARG1 7:0-rel 8:1-ARG2
 pt/nt/45/nt_4505.parse 39 4 gold accept accept.01 ----- 0:0-ARGM-DIS 1:1-ARGM-TMP 2:1-ARG0 4:0-rel 5:3-ARG1
-pt/nt/45/nt_4505.parse 24 14 gold have have.01 ----- 14:0-rel
+pt/nt/45/nt_4505.parse 32 2 gold die die.01 ----- 0:1-ARG1 2:0-rel 3:1-ARGM-CAU
+pt/nt/45/nt_4505.parse 3 15 gold share share.01 ----- 14:1-ARG0 15:0-rel 16:2-ARG1
 pt/nt/45/nt_4505.parse 34 1 gold receive receive.01 ----- 0:1-ARG0 1:0-rel 2:3-ARG1 7:1-ARGM-MNR
 pt/nt/45/nt_4505.parse 8 3 gold give give.01 ----- 0:0-ARGM-DIS 1:1-ARG0 3:0-rel 4:1-ARG2 5:1-ARG1
 pt/nt/45/nt_4505.parse 40 3 gold have have.03 ----- 0:1-ARGM-ADV 1:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:1-ARG1
+pt/nt/45/nt_4505.parse 39 15 gold be be.03 ----- 15:0-rel
 pt/nt/45/nt_4505.parse 17 7 gold save save.02 ----- 0:1-ARGM-DIS 1:1-ARGM-MNR 3:1*8:1-ARG1 4:0-ARGM-MOD 5:1-ARGM-ADV 7:0-rel 9:1-ARG2
 pt/nt/45/nt_4505.parse 10 5 gold have have.01 ----- 5:0-rel
+pt/nt/45/nt_4505.parse 28 1 gold die die.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-CAU
+pt/nt/45/nt_4505.parse 49 12 gold rule rule.03 ----- 10:1-ARG0 11:0-ARGM-MOD 12:0-rel 13:1-ARGM-MNR
+pt/nt/45/nt_4505.parse 24 14 gold have have.01 ----- 14:0-rel
 pt/nt/45/nt_4505.parse 28 4 gold sin sin.01 ----- 3:1-ARG0 4:0-rel 5:1-ARGM-MNR
+pt/nt/45/nt_4505.parse 48 3 gold die die.01 ----- 3:0-rel
 pt/nt/45/nt_4505.parse 3 2 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 2:0-rel 3:1-ARG2 5:1-ARGM-CAU
+pt/nt/45/nt_4505.parse 23 3 gold come come.01 ----- 0:0-ARGM-DIS 1:1*4:1-ARGM-COM 3:0-rel 5:1-ARG1

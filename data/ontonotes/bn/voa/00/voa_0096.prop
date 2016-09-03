@@ -1,5 +1,4 @@
 bn/voa/00/voa_0096.parse 4 18 gold use use.01 ----- 15:1-ARG0 18:0-rel 19:1-ARG1 21:1-ARG2
-bn/voa/00/voa_0096.parse 4 7 gold find find.01 ----- 5:0-ARG1 7:0-rel 8:0-ARG0
 bn/voa/00/voa_0096.parse 4 32 gold riot riot.01 ----- 32:0-rel 33:1-ARGM-LOC
 bn/voa/00/voa_0096.parse 1 12 gold get get.LV ----- 12:0-rel 16:0-ARGM-PRR
 bn/voa/00/voa_0096.parse 3 2 gold be be.03 ----- 2:0-rel
@@ -9,7 +8,6 @@ bn/voa/00/voa_0096.parse 0 26 gold be be.03 ----- 26:0-rel
 bn/voa/00/voa_0096.parse 7 3 gold say say.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
 bn/voa/00/voa_0096.parse 9 3 gold be be.01 ----- 1:1-ARG1 3:0-rel 4:1-ARG2
 bn/voa/00/voa_0096.parse 3 17 gold be be.01 ----- 12:1-ARG1 17:0-rel 18:1-ARG2 20:1-ARGM-TMP
-bn/voa/00/voa_0096.parse 0 35 gold report report.01 ----- 33:1-ARG0 35:0-rel 37:1-ARG1
 bn/voa/00/voa_0096.parse 2 1 gold bullet bullet.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1 16:1-ARGM-TMP
 bn/voa/00/voa_0096.parse 1 19 gold violent violent.01 ----- 19:0-rel 20:1-ARGM-PRD
 bn/voa/00/voa_0096.parse 1 16 gold look look.01 ----- 0:2-ARG0 12:0-ARGM-LVB 14:1-ARGM-ADJ 16:0-rel 17:1-ARG1 25:2-ARGM-TMP
@@ -17,19 +15,20 @@ bn/voa/00/voa_0096.parse 7 8 gold have have.01 ----- 8:0-rel
 bn/voa/00/voa_0096.parse 4 23 gold bid bid.01 ----- 23:0-rel 24:2-ARG1
 bn/voa/00/voa_0096.parse 9 15 gold be be.03 ----- 15:0-rel
 bn/voa/00/voa_0096.parse 0 20 gold carry carry.01 ----- 18:1-ARG0 20:0-rel 21:1-ARG1 22:1-ARGM-DIR
-bn/voa/00/voa_0096.parse 3 10 gold report report.01 ----- 9:1-ARG0 10:0-rel 11:1-ARG1
 bn/voa/00/voa_0096.parse 10 2 gold worship worship.01 ----- 0:1-ARG0 2:0-rel 3:1-ARGM-LOC
 bn/voa/00/voa_0096.parse 4 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2 9:1-ARGM-TMP
 bn/voa/00/voa_0096.parse 9 16 gold station station.01 ----- 0:1-ARGM-ADV 13:1*17:1-ARG1 16:0-rel 18:1-ARG2 23:2-ARGM-PRP
 bn/voa/00/voa_0096.parse 0 12 gold swell swell.01 ----- 0:3*11:1-ARG0 12:0-rel 13:1-ARG1 16:1-ARGM-TMP 17:2-ARGM-TMP
 bn/voa/00/voa_0096.parse 0 27 gold fire fire.01 ----- 17:1*30:1-ARGM-TMP 18:2,28:1-ARGM-DIR 27:0-rel
+bn/voa/00/voa_0096.parse 8 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 bn/voa/00/voa_0096.parse 5 7 gold exchange exchange.01 ----- 7:0-rel 8:1-ARG1 10:1-ARG0
+bn/voa/00/voa_0096.parse 0 35 gold report report.01 ----- 33:1-ARG0 35:0-rel 37:1-ARG1
 bn/voa/00/voa_0096.parse 4 17 gold have have.01 ----- 17:0-rel
+bn/voa/00/voa_0096.parse 3 10 gold report report.01 ----- 9:1-ARG0 10:0-rel 11:1-ARG1
 bn/voa/00/voa_0096.parse 3 7 gold shoot shoot.02 ----- 7:0-rel
 bn/voa/00/voa_0096.parse 2 10 gold transport transport.01 ----- 5:1-ARG0 10:0-rel 11:2-ARG1
 bn/voa/00/voa_0096.parse 9 25 gold protect protect.01 ----- 13:1*17:1*23:1-ARG0 25:0-rel 26:2-ARG1
 bn/voa/00/voa_0096.parse 2 18 gold tour tour.01 ----- 17:1-ARG0 18:0-rel 19:2-ARG1
-bn/voa/00/voa_0096.parse 8 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 bn/voa/00/voa_0096.parse 2 30 gold conflict conflict.01 ----- 27:1-ARG0 30:0-rel
 bn/voa/00/voa_0096.parse 10 26 gold leave leave.11 ----- 23:1-ARG0 24:0-ARGM-MOD 25:1-ARGM-NEG 26:0-rel 27:1-ARG1 28:1-ARGM-ADV
 bn/voa/00/voa_0096.parse 6 5 gold blame blame.01 ----- 0:1-ARG0 5:0-rel 6:1-ARG1 8:1-ARG2
@@ -45,3 +44,4 @@ bn/voa/00/voa_0096.parse 8 9 gold have have.01 ----- 9:0-rel
 bn/voa/00/voa_0096.parse 8 10 gold fire fire.01 ----- 4:2-ARG0 10:0-rel 11:1-ARGM-DIR 14:1-ARGM-LOC
 bn/voa/00/voa_0096.parse 0 39 gold escape escape.01 ----- 38:1-ARG0 39:0-rel 40:2-ARGM-PRD
 bn/voa/00/voa_0096.parse 4 8 gold mission mission.01 ----- 5:1-ARG1 8:0-rel
+bn/voa/00/voa_0096.parse 4 7 gold find find.01 ----- 5:0-ARG1 7:0-rel 8:0-ARG0

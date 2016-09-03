@@ -6,18 +6,18 @@ bn/cnn/00/cnn_0011.parse 4 5 gold be be.03 ----- 5:0-rel
 bn/cnn/00/cnn_0011.parse 4 4 gold have have.01 ----- 4:0-rel
 bn/cnn/00/cnn_0011.parse 1 2 gold throw throw.01 ----- 0:0-ARG1 2:0-rel 3:0-ARG0
 bn/cnn/00/cnn_0011.parse 3 13 gold revere revere.01 ----- 10:1*14:1-ARG1 10:1*14:1-LINK-PSV 13:0-rel 15:1-ARG0
-bn/cnn/00/cnn_0011.parse 2 0 gold report report.01 ----- 0:0-rel
+bn/cnn/00/cnn_0011.parse 2 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bn/cnn/00/cnn_0011.parse 1 7 gold protect protect.01 ----- 5:1-ARG0 7:0-rel 8:2-ARG1
 bn/cnn/00/cnn_0011.parse 3 5 gold intervene intervene.01 ----- 0:1-ARGM-TMP 2:1-ARG0 5:0-rel 6:1-ARG1
 bn/cnn/00/cnn_0011.parse 0 16 gold seal seal.01 ----- 15:1-ARG0 16:0,17:1-rel 18:1-ARG1
 bn/cnn/00/cnn_0011.parse 6 7 gold escalate escalate.01 ----- 3:1*6:1-ARG1 7:0-rel
 bn/cnn/00/cnn_0011.parse 0 12 gold prevent prevent.01 ----- 10:1-ARG0 12:0-rel 13:1-ARG1 14:1-ARGM-MNR
-bn/cnn/00/cnn_0011.parse 2 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bn/cnn/00/cnn_0011.parse 1 4 gold confront confront.01 ----- 0:2-ARG0 4:0-rel 5:2-ARG1
 bn/cnn/00/cnn_0011.parse 6 2 gold keep keep.04 ----- 0:1-ARG0 2:0-rel 3:1-ARG1 5:1-ARG2
 bn/cnn/00/cnn_0011.parse 2 5 gold have have.01 ----- 5:0-rel
 bn/cnn/00/cnn_0011.parse 2 6 gold be be.03 ----- 6:0-rel
 bn/cnn/00/cnn_0011.parse 2 7 gold kill kill.01 ----- 3:1*8:1-ARG1 7:0-rel 9:1-ARGM-TMP 10:2-ARGM-LOC
+bn/cnn/00/cnn_0011.parse 2 0 gold report report.01 ----- 0:0-rel
 bn/cnn/00/cnn_0011.parse 0 1 gold continue continue.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-LOC 5:1-ARGM-ADV
 bn/cnn/00/cnn_0011.parse 5 8 gold throw throw.01 ----- 6:0-ARG1 8:0-rel 9:0-ARG0
 bn/cnn/00/cnn_0011.parse 0 13 gold violent violent.01 ----- 13:0-rel

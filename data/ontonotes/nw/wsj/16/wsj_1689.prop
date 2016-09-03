@@ -1,8 +1,6 @@
 nw/wsj/16/wsj_1689.parse 13 43 gold know know.02 ----- 32:1*39:1*40:1*44:1-ARG1 32:1*39:1-LINK-SLC 43:0-rel 45:1-ARG2 49:1-ARGM-LOC
 nw/wsj/16/wsj_1689.parse 13 26 gold audit audit.01 ----- 17:0-ARG0 18:0-ARGM-TMP 19:2-ARGM-EXT 23:1-ARGM-LOC 26:0-rel
 nw/wsj/16/wsj_1689.parse 10 15 gold agree agree.01 ----- 4:1-ARGM-TMP 7:2-ARG0 15:0-rel 16:1-ARG1
-nw/wsj/16/wsj_1689.parse 12 30 gold keep keep.04 ----- 22:1*29:1-ARG0 30:0-rel 31:1-ARG1 34:1-ARG2
-nw/wsj/16/wsj_1689.parse 13 42 gold be be.03 ----- 42:0-rel
 nw/wsj/16/wsj_1689.parse 14 11 gold lose lose.02 ----- 7:1-ARG0 10:0-ARGM-MOD 11:0-rel 12:2-ARG1
 nw/wsj/16/wsj_1689.parse 16 2 gold have have.01 ----- 2:0-rel
 nw/wsj/16/wsj_1689.parse 8 4 gold note note.02 ----- 1:1*5:1-ARG1 3:0-ARGM-NEG 4:0-rel 6:1-ARG2
@@ -14,11 +12,11 @@ nw/wsj/16/wsj_1689.parse 2 4 gold begin begin.01 ----- 0:1-ARG0 4:0-rel 5:1-ARG1
 nw/wsj/16/wsj_1689.parse 7 45 gold predate predate.01 ----- 41:1*43:1*48:1-ARGM-LOC 41:1*43:1-LINK-SLC 44:1-ARG1 45:0-rel 46:1-ARG2
 nw/wsj/16/wsj_1689.parse 16 27 gold merge merge.01 ----- 24:1-ARG1 27:0-rel
 nw/wsj/16/wsj_1689.parse 7 24 gold involve involve.01 ----- 20:2,22:1*25:1-ARG1 20:2*25:1-LINK-PSV 24:0-rel 26:1-ARG2
-nw/wsj/16/wsj_1689.parse 4 22 gold be be.03 ----- 22:0-rel
-nw/wsj/16/wsj_1689.parse 16 4 gold be be.03 ----- 4:0-rel
 nw/wsj/16/wsj_1689.parse 16 18 gold benefit benefit.01 ----- 0:1-ARGM-ADV 16:1-ARG1 18:0-rel 19:1-ARGM-MNR 20:1-ARG0
 nw/wsj/16/wsj_1689.parse 8 21 gold say say.01 ----- 0:2*22:1-ARG1 21:0-rel 23:2-ARG0
 nw/wsj/16/wsj_1689.parse 13 13 gold agree agree.01 ----- 0:2-ARG0 9:1-ARGM-DIS 13:0-rel 14:2-ARG1
+nw/wsj/16/wsj_1689.parse 4 20 gold have have.01 ----- 20:0-rel
+nw/wsj/16/wsj_1689.parse 5 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 nw/wsj/16/wsj_1689.parse 6 21 gold add add.02 ----- 17:1*19:1*31:1-ARGM-TMP 17:1*19:1-LINK-SLC 20:1-ARG0 21:0-rel 22:2-ARG1
 nw/wsj/16/wsj_1689.parse 13 16 gold keep keep.04 ----- 0:2*14:1-ARG0 16:0-rel 17:1-ARG1 31:1-ARG2
 nw/wsj/16/wsj_1689.parse 8 26 gold former former.01 ----- 26:0-rel 27:0,28:0-ARG1
@@ -26,14 +24,22 @@ nw/wsj/16/wsj_1689.parse 12 23 gold merge merge.01 ----- 23:0-rel 24:1,27:0-ARG1
 nw/wsj/16/wsj_1689.parse 15 16 gold make make.02 ----- 0:2-ARG0 15:0-ARGM-MOD 16:0-rel 17:2-ARG1
 nw/wsj/16/wsj_1689.parse 11 2 gold merge merge.01 ----- 2:0-rel
 nw/wsj/16/wsj_1689.parse 11 4 gold proceed proceed.01 ----- 1:1-ARG1 4:0-rel 5:1-ARGM-MNR 9:1-ARGM-ADV
-nw/wsj/16/wsj_1689.parse 12 5 gold say say.01 ----- 0:2-ARG0 5:0-rel 6:1-ARG1
+nw/wsj/16/wsj_1689.parse 11 22 gold say say.01 ----- 1:2*23:1-ARG1 21:1-ARG0 22:0-rel
+nw/wsj/16/wsj_1689.parse 4 22 gold be be.03 ----- 22:0-rel
+nw/wsj/16/wsj_1689.parse 12 30 gold keep keep.04 ----- 22:1*29:1-ARG0 30:0-rel 31:1-ARG1 34:1-ARG2
 nw/wsj/16/wsj_1689.parse 2 3 gold have have.01 ----- 3:0-rel
+nw/wsj/16/wsj_1689.parse 18 5 gold comment comment.01 ----- 0:1*3:1-ARG0 5:0-rel 6:1-ARG3
+nw/wsj/16/wsj_1689.parse 17 16 gold be be.01 ----- 14:1-ARG1 16:0-rel 17:1-ARG2
 nw/wsj/16/wsj_1689.parse 5 7 gold have have.01 ----- 7:0-rel
 nw/wsj/16/wsj_1689.parse 17 25 gold decline decline.02 ----- 0:1-ARGM-LOC 24:1-ARG0 25:0-rel 26:1-ARG1
 nw/wsj/16/wsj_1689.parse 17 12 gold say say.01 ----- 0:1-ARGM-LOC 4:2-ARG0 12:0-rel 13:1-ARG1
 nw/wsj/16/wsj_1689.parse 7 16 gold say say.01 ----- 0:2-ARG0 16:0-rel 18:2-ARG1
+nw/wsj/16/wsj_1689.parse 18 25 gold keep keep.01 ----- 17:1*23:1-ARG0 17:1*23:1-LINK-PRO 20:1*22:1-ARGM-MNR 20:1*22:1-LINK-SLC 25:0-rel 26:1-ARG1
+nw/wsj/16/wsj_1689.parse 11 3 gold be be.03 ----- 3:0-rel
 nw/wsj/16/wsj_1689.parse 9 16 gold believe believe.01 ----- 15:1-ARG0 16:0-rel 17:3-ARG1
 nw/wsj/16/wsj_1689.parse 13 12 gold have have.01 ----- 12:0-rel
+nw/wsj/16/wsj_1689.parse 13 42 gold be be.03 ----- 42:0-rel
+nw/wsj/16/wsj_1689.parse 12 5 gold say say.01 ----- 0:2-ARG0 5:0-rel 6:1-ARG1
 nw/wsj/16/wsj_1689.parse 16 17 gold be be.03 ----- 17:0-rel
 nw/wsj/16/wsj_1689.parse 18 19 gold win win.01 ----- 17:1-ARG0 19:0-rel 20:2-ARG2
 nw/wsj/16/wsj_1689.parse 6 10 gold know know.01 ----- 0:1-ARGM-LOC 4:1*11:1-ARG1 10:0-rel 12:1-ARG2 16:1-ARGM-TMP
@@ -42,20 +48,14 @@ nw/wsj/16/wsj_1689.parse 9 26 gold be be.01 ----- 17:2-ARG1 26:0-rel 27:1-ARG2
 nw/wsj/16/wsj_1689.parse 13 6 gold audit audit.01 ----- 5:0-ARG0 6:0-rel
 nw/wsj/16/wsj_1689.parse 16 5 gold court court.01 ----- 1:1*6:1-ARG1 3:0-ARGM-NEG 5:0-rel 7:1-ARG0 12:1-ARGM-PRP
 nw/wsj/16/wsj_1689.parse 12 19 gold get get_even.16 ----- 7:2*17:1-ARG0 19:0,20:1-rel 21:1-ARG1 22:1,28:1-ARG2
-nw/wsj/16/wsj_1689.parse 15 28 gold rival rival.01 ----- 17:1*27:1-ARG0 28:0-rel 29:1-ARG1 32:1-ARGM-LOC
 nw/wsj/16/wsj_1689.parse 16 14 gold merge merge.01 ----- 14:0-rel
-nw/wsj/16/wsj_1689.parse 18 5 gold comment comment.01 ----- 0:1*3:1-ARG0 5:0-rel 6:1-ARG3
 nw/wsj/16/wsj_1689.parse 16 21 gold fallout fallout.01 ----- 21:0-rel 22:1-ARG2
-nw/wsj/16/wsj_1689.parse 4 20 gold have have.01 ----- 20:0-rel
-nw/wsj/16/wsj_1689.parse 5 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
-nw/wsj/16/wsj_1689.parse 11 3 gold be be.03 ----- 3:0-rel
 nw/wsj/16/wsj_1689.parse 12 13 gold be be.03 ----- 13:0-rel
-nw/wsj/16/wsj_1689.parse 17 16 gold be be.01 ----- 14:1-ARG1 16:0-rel 17:1-ARG2
-nw/wsj/16/wsj_1689.parse 18 25 gold keep keep.01 ----- 17:1*23:1-ARG0 17:1*23:1-LINK-PRO 20:1*22:1-ARGM-MNR 20:1*22:1-LINK-SLC 25:0-rel 26:1-ARG1
 nw/wsj/16/wsj_1689.parse 18 12 gold use use.01 ----- 7:1*9:1*13:1-ARG1 7:1*9:1-LINK-SLC 10:1-ARG0 11:0-ARGM-MOD 12:0-rel 14:1-ARGM-LOC 16:1-ARGM-ADV
 nw/wsj/16/wsj_1689.parse 19 1 gold use use.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 7:1-ARGM-LOC
 nw/wsj/16/wsj_1689.parse 4 11 gold say say.01 ----- 0:2-ARG0 11:0-rel 13:2-ARG1
 nw/wsj/16/wsj_1689.parse 0 1 gold be be.01 ----- 0:1*2:1-ARG1 1:0-rel 3:1-ARG2
+nw/wsj/16/wsj_1689.parse 16 4 gold be be.03 ----- 4:0-rel
 nw/wsj/16/wsj_1689.parse 8 2 gold be be.03 ----- 2:0-rel
 nw/wsj/16/wsj_1689.parse 7 19 gold be be.02 ----- 19:0-rel 20:3-ARG1
 nw/wsj/16/wsj_1689.parse 14 5 gold mean mean.01 ----- 0:1-ARGM-LOC 3:1-ARG1 4:0-ARGM-MOD 5:0-rel 6:1-ARG2
@@ -65,7 +65,6 @@ nw/wsj/16/wsj_1689.parse 9 13 gold say say.01 ----- 0:2-ARG0 13:0-rel 14:1-ARG1
 nw/wsj/16/wsj_1689.parse 13 28 gold associate associate.01 ----- 28:0-rel 29:0,30:0-ARG1
 nw/wsj/16/wsj_1689.parse 3 17 gold join join.01 ----- 0:1-ARG0 4:1-ARGM-TMP 17:0-rel 18:1-ARG1
 nw/wsj/16/wsj_1689.parse 12 14 gold file file.01 ----- 7:2-ARG0 14:0-rel 15:1-ARG1 17:2-ARG4
-nw/wsj/16/wsj_1689.parse 11 22 gold say say.01 ----- 1:2*23:1-ARG1 21:1-ARG0 22:0-rel
 nw/wsj/16/wsj_1689.parse 3 8 gold merge merge.01 ----- 8:0-rel 9:1-ARG1 13:1-ARGM-ADJ
 nw/wsj/16/wsj_1689.parse 6 9 gold be be.03 ----- 9:0-rel
 nw/wsj/16/wsj_1689.parse 2 11 gold prevent prevent.01 ----- 0:1*9:1-ARG0 11:0-rel 12:2-ARG1
@@ -73,3 +72,4 @@ nw/wsj/16/wsj_1689.parse 5 8 gold use use.01 ----- 4:1-ARG0 8:0-rel 9:1-ARG1 14:
 nw/wsj/16/wsj_1689.parse 3 5 gold withdraw withdraw.01 ----- 0:1-ARG0 4:1-ARGM-TMP 5:0-rel 6:1-ARG2
 nw/wsj/16/wsj_1689.parse 14 15 gold audit audit.01 ----- 14:0-ARG0 15:0-rel 16:1-ARG1
 nw/wsj/16/wsj_1689.parse 8 15 gold hold hold.01 ----- 0:1-ARGM-ADV 13:1-ARG0 14:1-ARGM-ADV 15:0-rel 16:2-ARG1 18:1-ARGM-LOC
+nw/wsj/16/wsj_1689.parse 15 28 gold rival rival.01 ----- 17:1*27:1-ARG0 28:0-rel 29:1-ARG1 32:1-ARGM-LOC

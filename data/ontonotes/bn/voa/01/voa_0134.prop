@@ -1,13 +1,13 @@
 bn/voa/01/voa_0134.parse 2 30 gold return return.01 ----- 30:0-rel 31:1-ARG1
 bn/voa/01/voa_0134.parse 2 2 gold reject reject.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1 6:2-ARGM-PRD
+bn/voa/01/voa_0134.parse 0 3 gold turn turn_down.05 ----- 0:1-ARG0 3:0,4:1-rel 5:2-ARG1
 bn/voa/01/voa_0134.parse 2 21 gold concern concern.01 ----- 19:0-ARG1 20:0-ARGM-ADJ 21:0-rel 23:2-ARG0
 bn/voa/01/voa_0134.parse 2 15 gold fail fail.01 ----- 10:1*13:1*14:1-ARG1 10:1*13:1-LINK-SLC 15:0-rel 16:2-ARG2
 bn/voa/01/voa_0134.parse 1 2 gold declare declare.01 ----- 0:1-ARG0 2:0-rel 3:1-ARGM-TMP 5:1-ARG1
-bn/voa/01/voa_0134.parse 2 18 gold address address.02 ----- 10:1*13:1*14:1*16:1-ARG0 10:1*13:1-LINK-SLC 18:0-rel 19:2-ARG1
 bn/voa/01/voa_0134.parse 2 7 gold call call.01 ----- 0:1*6:1-ARG0 7:0-rel 8:1-ARG1 9:2-ARG2
 bn/voa/01/voa_0134.parse 1 7 gold be be.01 ----- 6:1-ARG1 7:0-rel 8:1-ARG2
-bn/voa/01/voa_0134.parse 0 3 gold turn turn_down.05 ----- 0:1-ARG0 3:0,4:1-rel 5:2-ARG1
 bn/voa/01/voa_0134.parse 0 2 gold have have.01 ----- 2:0-rel
+bn/voa/01/voa_0134.parse 2 18 gold address address.02 ----- 10:1*13:1*14:1*16:1-ARG0 10:1*13:1-LINK-SLC 18:0-rel 19:2-ARG1
 bn/voa/01/voa_0134.parse 1 30 gold be be.03 ----- 30:0-rel
 bn/voa/01/voa_0134.parse 1 11 gold recognize recognize.01 ----- 6:1*9:1-ARG0 11:0-rel 12:1-ARG1
 bn/voa/01/voa_0134.parse 1 31 gold set set.01 ----- 20:2*32:1-ARG1 29:0-ARGM-MOD 31:0-rel 33:1-ARG2 34:1-ARGM-TMP

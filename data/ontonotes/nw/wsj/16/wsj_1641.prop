@@ -6,7 +6,7 @@ nw/wsj/16/wsj_1641.parse 9 24 gold acquire acquire.01 ----- 16:1*22:1-ARG0 24:0-
 nw/wsj/16/wsj_1641.parse 1 35 gold acquire acquire.01 ----- 30:1*34:1-ARG0 35:0-rel 36:1-ARG1
 nw/wsj/16/wsj_1641.parse 11 7 gold trade trade.01 ----- 1:0-ARG0 2:2-ARGM-MNR 7:0-rel
 nw/wsj/16/wsj_1641.parse 9 14 gold say say.01 ----- 0:1-ARGM-LOC 4:2-ARG0 14:0-rel 15:1-ARG1
-nw/wsj/16/wsj_1641.parse 4 18 gold agree agree.01 ----- 14:2-ARG0 18:0-rel 19:1-ARGM-TMP 21:1-ARG1
+nw/wsj/16/wsj_1641.parse 1 31 gold be be.01 ----- 30:1-ARG1 31:0-rel 32:1-ARG2 33:1-ARGM-LOC
 nw/wsj/16/wsj_1641.parse 11 11 gold close close.02 ----- 0:1-ARGM-LOC 8:1-ARGM-TMP 10:1-ARG1 11:0-rel 12:1-ARGM-EXT 17:1-ARGM-MNR
 nw/wsj/16/wsj_1641.parse 1 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 nw/wsj/16/wsj_1641.parse 6 15 gold form form.02 ----- 10:1*13:1*14:1-ARG0 10:1*13:1-LINK-SLC 15:0-rel 16:2-ARG1
@@ -16,35 +16,35 @@ nw/wsj/16/wsj_1641.parse 5 11 gold own own.01 ----- 10:0-ARG0 11:0-rel
 nw/wsj/16/wsj_1641.parse 3 28 gold bid bid.01 ----- 19:2-ARG0 25:0-ARGM-LVB 27:0-ARGM-PRP 28:0-rel 29:1-ARG2
 nw/wsj/16/wsj_1641.parse 4 2 gold be be.03 ----- 2:0-rel
 nw/wsj/16/wsj_1641.parse 9 19 gold be be.01 ----- 16:1-ARG1 19:0-rel 20:1-ARGM-TMP 21:1-ARG2
+nw/wsj/16/wsj_1641.parse 4 18 gold agree agree.01 ----- 14:2-ARG0 18:0-rel 19:1-ARGM-TMP 21:1-ARG1
 nw/wsj/16/wsj_1641.parse 0 15 gold reach reach.01 ----- 0:2*14:1-ARG0 15:0-rel 16:1-ARG1 19:1-ARGM-COM
-nw/wsj/16/wsj_1641.parse 8 11 gold base base.01 ----- 9:1*12:1-ARG1 11:0-rel 13:1-ARGM-LOC
 nw/wsj/16/wsj_1641.parse 9 21 gold determine determine.01 ----- 16:1-ARG0 20:1-ARGM-TMP 21:0-rel 22:2-ARG1
 nw/wsj/16/wsj_1641.parse 1 7 gold agree agree.01 ----- 4:1-ARG0 7:0-rel 8:2-ARG1 29:1-ARGM-ADV
+nw/wsj/16/wsj_1641.parse 4 28 gold transfer transfer.01 ----- 22:2*29:1-ARG1 25:0-ARGM-MOD 26:0-ARGM-NEG 28:0-rel 30:1-ARG2
 nw/wsj/16/wsj_1641.parse 5 18 gold be be.01 ----- 13:3-ARG1 18:0-rel 19:1-ARG2
 nw/wsj/16/wsj_1641.parse 6 8 gold replace replace.01 ----- 3:1-ARG2 6:0-ARGM-MOD 8:0-rel 10:2-ARG1
 nw/wsj/16/wsj_1641.parse 6 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 nw/wsj/16/wsj_1641.parse 4 3 gold seek seek.01 ----- 0:1-ARG0 3:0-rel 4:2-ARG1 11:2-ARGM-PRD
 nw/wsj/16/wsj_1641.parse 10 37 gold produce produce.01 ----- 32:1-ARG0 35:0-ARGM-NEG 36:1-ARGM-TMP 37:0-rel 40:1-ARG1
-nw/wsj/16/wsj_1641.parse 1 31 gold be be.01 ----- 30:1-ARG1 31:0-rel 32:1-ARG2 33:1-ARGM-LOC
 nw/wsj/16/wsj_1641.parse 4 24 gold own own.01 ----- 22:1-ARG0 24:0-rel
 nw/wsj/16/wsj_1641.parse 3 24 gold have have.01 ----- 24:0-rel
 nw/wsj/16/wsj_1641.parse 4 5 gold injunct injunct.01 ----- 5:0-rel 6:1-ARG2
+nw/wsj/16/wsj_1641.parse 10 47 gold promise promise.01 ----- 32:2*42:1*44:1-ARG0 32:2*42:1-LINK-SLC 45:0-ARGM-MOD 46:1-ARGM-ADV 47:0-rel 48:1-ARG2 49:1-ARGM-TMP
 nw/wsj/16/wsj_1641.parse 0 8 gold contest contest.02 ----- 8:0-rel 9:1-ARG3
-nw/wsj/16/wsj_1641.parse 3 9 gold bid bid.01 ----- 0:2-ARG0 6:0-ARGM-LVB 8:0-ARGM-MNR 9:0-rel 10:1-ARG2 15:1-ARG1
 nw/wsj/16/wsj_1641.parse 4 12 gold argue argue.01 ----- 0:1*11:1-ARG0 12:0-rel 13:1-ARG1
 nw/wsj/16/wsj_1641.parse 4 27 gold be be.03 ----- 27:0-rel
 nw/wsj/16/wsj_1641.parse 7 3 gold own own.01 ----- 2:0-ARG0 3:0-rel 4:1-ARG1
-nw/wsj/16/wsj_1641.parse 4 28 gold transfer transfer.01 ----- 22:2*29:1-ARG1 25:0-ARGM-MOD 26:0-ARGM-NEG 28:0-rel 30:1-ARG2
 nw/wsj/16/wsj_1641.parse 3 5 gold have have.01 ----- 5:0-rel
 nw/wsj/16/wsj_1641.parse 5 2 gold imply imply.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
+nw/wsj/16/wsj_1641.parse 10 22 gold transfer transfer.01 ----- 20:1-ARG0 21:0-ARGM-MOD 22:0-rel 23:1-ARG1 27:1-ARG2 29:2-ARGM-MNR
 nw/wsj/16/wsj_1641.parse 0 4 gold step step.01 ----- 0:2-ARG1 4:0-rel 5:1-ARGM-MNR 6:1-ARG2 13:1-ARGM-MNR
+nw/wsj/16/wsj_1641.parse 8 11 gold base base.01 ----- 9:1*12:1-ARG1 11:0-rel 13:1-ARGM-LOC
 nw/wsj/16/wsj_1641.parse 10 39 gold market market.01 ----- 32:1-ARG0 35:0-ARGM-NEG 36:1-ARGM-TMP 39:0-rel 40:1-ARG1
 nw/wsj/16/wsj_1641.parse 7 10 gold enhance enhance.01 ----- 1:1-ARGM-ADV 7:1-ARG2 9:0-ARGM-MOD 10:0-rel 11:2-ARG1
 nw/wsj/16/wsj_1641.parse 8 3 gold be be.01 ----- 0:1-ARG1 3:0-rel 4:1-ARG2
 nw/wsj/16/wsj_1641.parse 8 10 gold be be.03 ----- 10:0-rel
-nw/wsj/16/wsj_1641.parse 10 47 gold promise promise.01 ----- 32:2*42:1*44:1-ARG0 32:2*42:1-LINK-SLC 45:0-ARGM-MOD 46:1-ARGM-ADV 47:0-rel 48:1-ARG2 49:1-ARGM-TMP
+nw/wsj/16/wsj_1641.parse 3 9 gold bid bid.01 ----- 0:2-ARG0 6:0-ARGM-LVB 8:0-ARGM-MNR 9:0-rel 10:1-ARG2 15:1-ARG1
 nw/wsj/16/wsj_1641.parse 2 8 gold go go.10 ----- 3:2-ARG1 7:0-ARGM-MOD 8:0-rel 9:1-ARG2
-nw/wsj/16/wsj_1641.parse 10 22 gold transfer transfer.01 ----- 20:1-ARG0 21:0-ARGM-MOD 22:0-rel 23:1-ARG1 27:1-ARG2 29:2-ARGM-MNR
 nw/wsj/16/wsj_1641.parse 1 10 gold spend spend.01 ----- 4:1*8:1-ARG0 10:0-rel 11:3-ARG3 21:1-ARGM-TMP 24:1-ARG1
 nw/wsj/16/wsj_1641.parse 7 18 gold say say.01 ----- 1:2*19:1-ARG1 18:0-rel 20:2-ARG0
 nw/wsj/16/wsj_1641.parse 3 6 gold make make.LV ----- 6:0-rel 9:0-ARGM-PRR

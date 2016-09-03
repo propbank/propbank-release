@@ -1,9 +1,8 @@
-nw/wsj/17/wsj_1732.parse 0 18 gold sell sell.01 ----- 13:1*16:1-ARG0 18:0-rel 19:2-ARG1
 nw/wsj/17/wsj_1732.parse 3 9 gold plan plan.01 ----- 0:1-ARGM-DIS 3:1-ARG0 9:0-rel 10:2-ARG1 19:1-ARGM-ADV
 nw/wsj/17/wsj_1732.parse 4 5 gold be be.03 ----- 5:0-rel
-nw/wsj/17/wsj_1732.parse 0 15 gold plan plan.01 ----- 13:1-ARG0 15:0-rel 16:2-ARG1
 nw/wsj/17/wsj_1732.parse 0 28 gold operate operate.01 ----- 21:1*23:1*29:1-ARG1 21:1*23:1-LINK-SLC 24:1-ARG0 28:0-rel
-nw/wsj/17/wsj_1732.parse 5 2 gold complete complete.01 ----- 1:1*9:1-ARG0 2:0-rel 3:1-ARG1
+nw/wsj/17/wsj_1732.parse 4 0 gold exclude exclude.01 ----- 0:0-rel 1:1*7:2-ARG1 2:1-ARG2
+nw/wsj/17/wsj_1732.parse 0 18 gold sell sell.01 ----- 13:1*16:1-ARG0 18:0-rel 19:2-ARG1
 nw/wsj/17/wsj_1732.parse 6 19 gold say say.01 ----- 0:2*21:1-ARG1 17:1-ARG0 19:0-rel
 nw/wsj/17/wsj_1732.parse 0 26 gold own own.01 ----- 21:1*23:1-ARG1 21:1*23:1-LINK-SLC 24:1-ARG0 26:0-rel
 nw/wsj/17/wsj_1732.parse 2 9 gold disclose disclose.01 ----- 0:2*10:1-ARG1 8:0-ARGM-NEG 9:0-rel
@@ -11,12 +10,13 @@ nw/wsj/17/wsj_1732.parse 3 12 gold sell sell.01 ----- 3:1*10:1-ARG0 12:0-rel 13:
 nw/wsj/17/wsj_1732.parse 1 13 gold say say.01 ----- 0:2*15:1-ARG1 13:0-rel 16:2-ARG0
 nw/wsj/17/wsj_1732.parse 5 14 gold consider consider.01 ----- 0:1-ARGM-TMP 9:1-ARG0 13:0-ARGM-MOD 14:0-rel 15:2-ARG1
 nw/wsj/17/wsj_1732.parse 1 7 gold sell sell.01 ----- 0:1*8:1-ARG1 5:0-ARGM-MOD 7:0-rel 9:1-ARGM-LOC
+nw/wsj/17/wsj_1732.parse 5 2 gold complete complete.01 ----- 1:1*9:1-ARG0 2:0-rel 3:1-ARG1
 nw/wsj/17/wsj_1732.parse 2 7 gold be be.03 ----- 7:0-rel
 nw/wsj/17/wsj_1732.parse 1 6 gold be be.03 ----- 6:0-rel
 nw/wsj/17/wsj_1732.parse 5 6 gold pay pay.01 ----- 1:1*9:1-ARG0 6:0-rel 7:1-ARG3
-nw/wsj/17/wsj_1732.parse 4 0 gold exclude exclude.01 ----- 0:0-rel 1:1*7:2-ARG1 2:1-ARG2
+nw/wsj/17/wsj_1732.parse 0 11 gold say say.01 ----- 0:2-ARG0 11:0-rel 12:1-ARG1
+nw/wsj/17/wsj_1732.parse 0 15 gold plan plan.01 ----- 13:1-ARG0 15:0-rel 16:2-ARG1
+nw/wsj/17/wsj_1732.parse 5 22 gold repurchase repurchase.01 ----- 21:0-ARG1 22:0-rel
 nw/wsj/17/wsj_1732.parse 7 10 gold have have.03 ----- 0:1-ARGM-TMP 6:1-ARG0 10:0-rel 11:2-ARG1
 nw/wsj/17/wsj_1732.parse 3 23 gold sell sell.01 ----- 20:1-ARG0 22:0-ARGM-MOD 23:0-rel 24:2-ARG1
-nw/wsj/17/wsj_1732.parse 5 22 gold repurchase repurchase.01 ----- 21:0-ARG1 22:0-rel
-nw/wsj/17/wsj_1732.parse 0 11 gold say say.01 ----- 0:2-ARG0 11:0-rel 12:1-ARG1
 nw/wsj/17/wsj_1732.parse 6 3 gold retain retain.01 ----- 0:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:2-ARG1 12:1-ARGM-TMP

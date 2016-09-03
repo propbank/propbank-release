@@ -1,6 +1,5 @@
 bn/voa/01/voa_0117.parse 4 35 gold occur occur.01 ----- 28:1*32:1*33:1-ARG1 28:1*32:1-LINK-SLC 35:0-rel 36:1-ARGM-TMP
 bn/voa/01/voa_0117.parse 4 11 gold welcome welcome.01 ----- 6:1*8:1-ARGM-TMP 6:1*8:1-LINK-SLC 9:1-ARG0 11:0-rel 12:2-ARGM-LOC 28:2-ARG1
-bn/voa/01/voa_0117.parse 7 16 gold help help.01 ----- 5:1*13:1*14:1-ARG0 5:1*13:1-LINK-SLC 16:0-rel 17:2-ARG2
 bn/voa/01/voa_0117.parse 7 32 gold collapse collapse.01 ----- 31:0-ARG1 32:0-rel
 bn/voa/01/voa_0117.parse 8 12 gold continue continue.01 ----- 2:1*10:1-ARG0 12:0-rel 13:2-ARG1
 bn/voa/01/voa_0117.parse 6 26 gold declare declare.01 ----- 26:0-rel
@@ -22,22 +21,23 @@ bn/voa/01/voa_0117.parse 0 9 gold meet meet.03 ----- 0:2-ARG0 9:0-rel 10:1-ARGM-
 bn/voa/01/voa_0117.parse 3 13 gold say say.01 ----- 0:2-ARG0 13:0-rel 14:1-ARG1
 bn/voa/01/voa_0117.parse 2 18 gold show show.01 ----- 0:2*16:1-ARG0 18:0-rel 19:1-ARG2 22:1-ARG1
 bn/voa/01/voa_0117.parse 2 26 gold prepare prepare.02 ----- 23:1-ARG0 26:0-rel 27:2-ARG2
+bn/voa/01/voa_0117.parse 5 17 gold be be.01 ----- 4:3-ARG1 17:0-rel 18:2-ARG2
 bn/voa/01/voa_0117.parse 9 13 gold fight fight.01 ----- 11:1-ARG0 13:0-rel 14:2-ARG1
 bn/voa/01/voa_0117.parse 7 25 gold devastate devastate.01 ----- 17:1*20:1*21:1*26:1-ARG1 17:1*20:1-LINK-SLC 25:0-rel 27:1-ARG0
 bn/voa/01/voa_0117.parse 2 5 gold be be.03 ----- 5:0-rel
-bn/voa/01/voa_0117.parse 5 17 gold be be.01 ----- 4:3-ARG1 17:0-rel 18:2-ARG2
 bn/voa/01/voa_0117.parse 4 38 gold begin begin.01 ----- 38:0-rel 39:1-ARG1
-bn/voa/01/voa_0117.parse 11 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
-bn/voa/01/voa_0117.parse 6 9 gold summit summit.01 ----- 9:0-rel
 bn/voa/01/voa_0117.parse 7 4 gold offer offer.01 ----- 0:1-ARG0 4:0-rel 5:2-ARG1
+bn/voa/01/voa_0117.parse 11 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
+bn/voa/01/voa_0117.parse 7 16 gold help help.01 ----- 5:1*13:1*14:1-ARG0 5:1*13:1-LINK-SLC 16:0-rel 17:2-ARG2
+bn/voa/01/voa_0117.parse 6 9 gold summit summit.01 ----- 9:0-rel
 bn/voa/01/voa_0117.parse 3 17 gold have have.03 ----- 15:1-ARG0 17:0-rel 18:1-ARG1
-bn/voa/01/voa_0117.parse 8 7 gold call call_on.05 ----- 0:1-ARGM-ADV 2:1-ARG1 5:0-ARGM-MOD 7:0,8:1-rel 10:2-ARG2
-bn/voa/01/voa_0117.parse 10 11 gold sign sign.02 ----- 6:1*9:1-ARG0 11:0-rel 12:2-ARG1
 bn/voa/01/voa_0117.parse 10 7 gold be be.03 ----- 7:0-rel
 bn/voa/01/voa_0117.parse 9 4 gold be be.03 ----- 4:0-rel
+bn/voa/01/voa_0117.parse 10 11 gold sign sign.02 ----- 6:1*9:1-ARG0 11:0-rel 12:2-ARG1
 bn/voa/01/voa_0117.parse 0 31 gold conflict conflict.01 ----- 31:0-rel
 bn/voa/01/voa_0117.parse 6 27 gold call call.03 ----- 25:1-ARG0 27:0-rel 28:1-ARG1
 bn/voa/01/voa_0117.parse 7 24 gold be be.03 ----- 24:0-rel
+bn/voa/01/voa_0117.parse 7 35 gold isolate isolate.01 ----- 34:0-ARGM-MNR 35:0-rel
 bn/voa/01/voa_0117.parse 10 4 gold summit summit.01 ----- 3:0-ARGM-LOC 4:0-rel
 bn/voa/01/voa_0117.parse 9 22 gold launder launder.01 ----- 21:0-ARG1 22:0-rel
 bn/voa/01/voa_0117.parse 3 16 gold summit summit.01 ----- 16:0-rel
@@ -53,10 +53,10 @@ bn/voa/01/voa_0117.parse 10 15 gold stabilize stabilize.01 ----- 15:0-rel
 bn/voa/01/voa_0117.parse 0 15 gold hail hail.02 ----- 0:2*13:1-ARG0 15:0-rel 16:2-ARG1
 bn/voa/01/voa_0117.parse 10 8 gold expect expect.01 ----- 0:1-ARGM-DIS 1:1-ARGM-LOC 6:1,9:2-ARG1 8:0-rel
 bn/voa/01/voa_0117.parse 4 5 gold be be.01 ----- 3:1-ARG1 4:0-ARGM-MOD 5:0-rel 6:2-ARG2
+bn/voa/01/voa_0117.parse 8 7 gold call call_on.05 ----- 0:1-ARGM-ADV 2:1-ARG1 5:0-ARGM-MOD 7:0,8:1-rel 10:2-ARG2
 bn/voa/01/voa_0117.parse 10 13 gold associate associate.01 ----- 13:0-rel
 bn/voa/01/voa_0117.parse 4 1 gold think think.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bn/voa/01/voa_0117.parse 0 28 gold tear tear.01 ----- 22:1*24:1*25:1*29:1-ARG1 22:1*24:1-LINK-SLC 28:0-rel 30:1-ARG0
-bn/voa/01/voa_0117.parse 7 35 gold isolate isolate.01 ----- 34:0-ARGM-MNR 35:0-rel
 bn/voa/01/voa_0117.parse 1 2 gold have have.03 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
 bn/voa/01/voa_0117.parse 6 24 gold adopt adopt.01 ----- 0:2*22:1-ARG0 24:0-rel 25:2-ARG1
 bn/voa/01/voa_0117.parse 2 6 gold be be.03 ----- 6:0-rel

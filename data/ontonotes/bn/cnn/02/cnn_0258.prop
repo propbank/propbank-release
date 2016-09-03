@@ -13,19 +13,19 @@ bn/cnn/02/cnn_0258.parse 6 8 gold tell tell.01 ----- 6:1-ARG0 7:0-ARGM-MOD 8:0-r
 bn/cnn/02/cnn_0258.parse 5 3 gold disappear disappear.01 ----- 2:1-ARG1 3:0-rel 4:1-ARGM-DIR
 bn/cnn/02/cnn_0258.parse 4 3 gold show show.01 ----- 0:0-ARGM-DIS 1:1-ARG0 3:0-rel 4:2-ARG1
 bn/cnn/02/cnn_0258.parse 2 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
-bn/cnn/02/cnn_0258.parse 5 10 gold hear hear.01 ----- 0:2-ARGM-TMP 8:1-ARG0 9:0-ARGM-MOD 10:0-rel 11:2-ARG1
 bn/cnn/02/cnn_0258.parse 2 6 gold blaze blaze.01 ----- 6:0-rel
 bn/cnn/02/cnn_0258.parse 0 2 gold battle battle.01 ----- 0:1-ARGM-TMP 2:0-rel
-bn/cnn/02/cnn_0258.parse 3 7 gold work work.01 ----- 3:1*5:1*6:1-ARG0 3:1*5:1-LINK-SLC 7:0-rel 8:1-ARGM-LOC 11:1-ARGM-TMP
 bn/cnn/02/cnn_0258.parse 2 15 gold burn burn.01 ----- 10:3;16:1-ARG1 14:1-ARGM-ADV 15:0-rel
+bn/cnn/02/cnn_0258.parse 5 10 gold hear hear.01 ----- 0:2-ARGM-TMP 8:1-ARG0 9:0-ARGM-MOD 10:0-rel 11:2-ARG1
 bn/cnn/02/cnn_0258.parse 6 18 gold recover recover.02 ----- 16:1-ARG0 18:0-rel 19:2-ARG1
 bn/cnn/02/cnn_0258.parse 2 9 gold leave leave.13 ----- 3:1*8:1-ARG0 9:0-rel 10:4-ARG1
 bn/cnn/02/cnn_0258.parse 3 16 gold ask ask.02 ----- 3:2-ARG0 14:1-ARGM-TMP 16:0-rel 17:1-ARG1 20:1-ARGM-PRD
 bn/cnn/02/cnn_0258.parse 8 3 gold be be.01 ----- 0:1-ARG1 3:0-rel 4:1-ARG2 5:1-ARGM-ADV
 bn/cnn/02/cnn_0258.parse 6 13 gold do do.02 ----- 11:1-ARG0 12:0-ARGM-MOD 13:0-rel 14:2-ARG1 16:2-ARGM-PRP
+bn/cnn/02/cnn_0258.parse 7 4 gold carry carry_out.03 ----- 0:1*5:1-ARG1 4:0,6:1-rel 7:1-ARG0
 bn/cnn/02/cnn_0258.parse 2 4 gold cap cap.02 ----- 3:1-ARG0 4:0-rel 5:1-ARG1 8:2-ARGM-ADV
+bn/cnn/02/cnn_0258.parse 3 7 gold work work.01 ----- 3:1*5:1*6:1-ARG0 3:1*5:1-LINK-SLC 7:0-rel 8:1-ARGM-LOC 11:1-ARGM-TMP
 bn/cnn/02/cnn_0258.parse 6 1 gold ask ask.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG2
 bn/cnn/02/cnn_0258.parse 0 3 gold include include.01 ----- 0:2-ARG2 3:0-rel 4:2-ARG1
-bn/cnn/02/cnn_0258.parse 7 4 gold carry carry_out.03 ----- 0:1*5:1-ARG1 4:0,6:1-rel 7:1-ARG0
 bn/cnn/02/cnn_0258.parse 7 9 gold engage engage.01 ----- 8:1*10:1-ARG1 8:1*10:1-LINK-PSV 9:0-rel 11:1-ARG2
 bn/cnn/02/cnn_0258.parse 7 2 gold task task.01 ----- 1:0-ARGM-ADJ 2:0-rel

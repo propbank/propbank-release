@@ -6,6 +6,7 @@ bn/pri/00/pri_0053.parse 9 12 gold defend defend.01 ----- 7:1*10:1-ARG0 12:0-rel
 bn/pri/00/pri_0053.parse 27 12 gold have have.01 ----- 12:0-rel
 bn/pri/00/pri_0053.parse 26 21 gold wake wake_up.02 ----- 20:1-ARG1 21:0,22:1-rel
 bn/pri/00/pri_0053.parse 6 18 gold do do.01 ----- 18:0-rel
+bn/pri/00/pri_0053.parse 19 1 gold have have.02 ----- 1:0-rel
 bn/pri/00/pri_0053.parse 4 23 gold vote vote.01 ----- 20:1*22:1-ARG0 23:0-rel
 bn/pri/00/pri_0053.parse 1 11 gold factor factor.01 ----- 2:1*19:1-ARGM-TMP 3:1*12:1-ARG1 6:0-ARGM-MOD 11:0-rel 13:1-ARG2
 bn/pri/00/pri_0053.parse 5 34 gold go go.02 ----- 29:2-ARG0 34:0-rel 35:1-ARG4
@@ -14,6 +15,8 @@ bn/pri/00/pri_0053.parse 8 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bn/pri/00/pri_0053.parse 9 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bn/pri/00/pri_0053.parse 5 37 gold poll poll.01 ----- 37:0-rel
 bn/pri/00/pri_0053.parse 19 19 gold get get.01 ----- 17:1-ARG0 19:0-rel 20:2-ARG1
+bn/pri/00/pri_0053.parse 19 4 gold make make.LV ----- 4:0-rel 8:0-ARGM-PRR
+bn/pri/00/pri_0053.parse 6 5 gold know know.01 ----- 4:1-ARG0 5:0-rel
 bn/pri/00/pri_0053.parse 26 12 gold call call.07 ----- 9:1*33:1-ARGM-TMP 10:1-ARG0 12:0-rel 13:1-ARGM-TMP 15:2-ARGM-PRP
 bn/pri/00/pri_0053.parse 21 19 gold vote vote.01 ----- 7:1-ARG0 9:1-ARGM-ADV 19:0-rel 20:1-ARGM-CAU
 bn/pri/00/pri_0053.parse 5 3 gold do do.02 ----- 0:1*1:1*2:1-ARG0 0:1*1:1-LINK-SLC 3:0-rel 4:1-ARG1
@@ -24,21 +27,20 @@ bn/pri/00/pri_0053.parse 26 50 gold do do.01 ----- 50:0-rel
 bn/pri/00/pri_0053.parse 15 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bn/pri/00/pri_0053.parse 6 38 gold get get.05 ----- 36:1-ARG1 37:0-ARGM-MOD 38:0-rel 39:1-ARG2
 bn/pri/00/pri_0053.parse 26 31 gold count count.04 ----- 25:1*29:1-ARG1 31:0-rel
-bn/pri/00/pri_0053.parse 24 13 gold insist insist.01 ----- 12:1-ARG0 13:0-rel
+bn/pri/00/pri_0053.parse 29 29 gold count count.04 ----- 14:1-ARGM-LOC 21:3-ARGM-DIS 24:1-ARGM-LOC 27:1-ARG1 29:0-rel 31:1-ARGM-ADV
 bn/pri/00/pri_0053.parse 2 5 gold report report.01 ----- 0:2-ARG0 5:0-rel 6:1-ARGM-DIR
 bn/pri/00/pri_0053.parse 29 22 gold know know.06 ----- 21:1-ARG0 22:0-rel
 bn/pri/00/pri_0053.parse 24 7 gold waste waste.01 ----- 7:0-rel 8:1-ARG1
 bn/pri/00/pri_0053.parse 11 1 gold keep keep.02 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 bn/pri/00/pri_0053.parse 10 6 gold be be.01 ----- 5:1-ARG1 6:0-rel 7:1-ARG2
 bn/pri/00/pri_0053.parse 26 37 gold be be.01 ----- 9:2-ARGM-TMP 35:1-ARGM-ADV 36:1-ARG1 37:0-rel 38:1-ARGM-ADV 39:2-ARG2
+bn/pri/00/pri_0053.parse 8 7 gold ballot ballot.01 ----- 5:0-ARG0 6:0-ARGM-ADJ 7:0-rel
 bn/pri/00/pri_0053.parse 35 18 gold have have.01 ----- 18:0-rel
+bn/pri/00/pri_0053.parse 33 28 gold be be.03 ----- 28:0-rel
 bn/pri/00/pri_0053.parse 20 17 gold get get.01 ----- 14:1-ARGM-TMP 15:1*21:1-ARGM-TMP 16:1-ARG0 17:0-rel 18:1-ARG1
 bn/pri/00/pri_0053.parse 31 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bn/pri/00/pri_0053.parse 6 31 gold do do.01 ----- 31:0-rel
-bn/pri/00/pri_0053.parse 3 1 gold be be.02 ----- 1:0-rel 2:2-ARG1
 bn/pri/00/pri_0053.parse 33 38 gold fall fall_back.08 ----- 32:2*35:1,40:1-ARG1 32:2*35:1-LINK-SLC 36:1-ARG0 38:0,39:0-rel 42:2-ARGM-PRP
-bn/pri/00/pri_0053.parse 22 16 gold say say.01 ----- 0:1-ARGM-LOC 8:2-ARG0 16:0-rel 17:1-ARG1
-bn/pri/00/pri_0053.parse 33 28 gold be be.03 ----- 28:0-rel
 bn/pri/00/pri_0053.parse 18 16 gold work work.01 ----- 15:0-ARGM-ADJ 16:0-rel 17:1-ARGM-ADJ
 bn/pri/00/pri_0053.parse 32 6 gold concern concern.01 ----- 0:1-ARG1 3:1-ARGM-ADV 4:0-ARGM-LVB 6:0-rel 7:1-ARGM-ADJ
 bn/pri/00/pri_0053.parse 26 44 gold know know.06 ----- 43:1-ARG0 44:0-rel
@@ -48,43 +50,47 @@ bn/pri/00/pri_0053.parse 14 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bn/pri/00/pri_0053.parse 29 49 gold count count.04 ----- 44:1-ARGM-TMP 48:1-ARG1 49:0-rel 50:2-ARGM-ADV 56:1-ARGM-CAU
 bn/pri/00/pri_0053.parse 29 2 gold be be.01 ----- 2:0-rel 3:1-ARG2 7:2-ARG1
 bn/pri/00/pri_0053.parse 5 11 gold work work.01 ----- 9:1-ARG0 11:0-rel 12:1-ARGM-LOC
-bn/pri/00/pri_0053.parse 20 24 gold have have.02 ----- 24:0-rel
-bn/pri/00/pri_0053.parse 26 26 gold vote vote.01 ----- 25:0-ARG0 26:0-rel
-bn/pri/00/pri_0053.parse 26 52 gold count count.04 ----- 46:1,51:1-ARG1 48:1-ARGM-ADV 52:0-rel 53:1-ARGM-MNR
-bn/pri/00/pri_0053.parse 8 7 gold ballot ballot.01 ----- 5:0-ARG0 6:0-ARGM-ADJ 7:0-rel
 bn/pri/00/pri_0053.parse 4 12 gold know know.01 ----- 0:1-ARGM-CAU 10:1-ARG0 12:0-rel 13:2-ARG1
+bn/pri/00/pri_0053.parse 26 52 gold count count.04 ----- 46:1,51:1-ARG1 48:1-ARGM-ADV 52:0-rel 53:1-ARGM-MNR
 bn/pri/00/pri_0053.parse 21 10 gold wander wander.01 ----- 7:1-ARG0 9:1-ARGM-ADV 10:0-rel 11:1-ARGM-DIR 15:1-ARGM-TMP
+bn/pri/00/pri_0053.parse 19 12 gold take take.10 ----- 12:0-rel 13:2-ARG1 17:2-ARG0
+bn/pri/00/pri_0053.parse 15 6 gold let let.01 ----- 3:1-ARG0 4:0-ARGM-MOD 5:0-ARGM-NEG 6:0-rel 7:2-ARG1
 bn/pri/00/pri_0053.parse 13 14 gold happen happen.01 ----- 6:1*11:1*17:1-ARGM-CAU 6:1*11:1-LINK-SLC 12:1-ARG1 14:0-rel 15:1-ARGM-MNR
-bn/pri/00/pri_0053.parse 19 1 gold have have.02 ----- 1:0-rel
+bn/pri/00/pri_0053.parse 3 1 gold be be.02 ----- 1:0-rel 2:2-ARG1
 bn/pri/00/pri_0053.parse 19 22 gold vote vote.01 ----- 17:1*20:1-ARG0 22:0-rel
 bn/pri/00/pri_0053.parse 24 5 gold be be.01 ----- 4:1-ARG1 5:0-rel 6:2-ARG2
 bn/pri/00/pri_0053.parse 21 23 gold be be.01 ----- 21:1-ARG1 23:0-rel 24:1-ARG2 25:1-ARGM-TMP
 bn/pri/00/pri_0053.parse 22 23 gold do do.01 ----- 23:0-rel
 bn/pri/00/pri_0053.parse 27 22 gold hold hold.04 ----- 18:1*23:1-ARG1 18:1*23:1-LINK-PSV 22:0-rel 24:1-ARGM-TMP
+bn/pri/00/pri_0053.parse 13 5 gold be be.01 ----- 5:0-rel 6:1-ARG2 11:2-ARG1
 bn/pri/00/pri_0053.parse 7 12 gold live live.01 ----- 7:1*10:1*11:1-ARG0 7:1*10:1-LINK-SLC 12:0-rel 13:1-ARGM-LOC 15:1-ARGM-TMP
 bn/pri/00/pri_0053.parse 26 69 gold vote vote.01 ----- 68:1-ARG0 69:0-rel 70:1-ARG1
 bn/pri/00/pri_0053.parse 33 29 gold move move.01 ----- 24:1*26:1*30:1-ARGM-MNR 24:1*26:1-LINK-SLC 27:1-ARG1 29:0-rel
 bn/pri/00/pri_0053.parse 25 2 gold say say.01 ----- 0:1-ARGM-TMP 1:1-ARG0 2:0-rel 3:1-ARG1
 bn/pri/00/pri_0053.parse 33 44 gold keep keep.02 ----- 42:1-ARG0 44:0-rel 45:2-ARG1
+bn/pri/00/pri_0053.parse 5 20 gold be be.01 ----- 19:1-ARG1 20:0-rel 21:1;38:1-ARG2 23:3-ARGM-TMP
+bn/pri/00/pri_0053.parse 22 16 gold say say.01 ----- 0:1-ARGM-LOC 8:2-ARG0 16:0-rel 17:1-ARG1
 bn/pri/00/pri_0053.parse 25 5 gold be be.01 ----- 4:1-ARG1 5:0-rel 6:1-ARG2
 bn/pri/00/pri_0053.parse 29 61 gold be be.03 ----- 61:0-rel
-bn/pri/00/pri_0053.parse 13 2 gold say say.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
-bn/pri/00/pri_0053.parse 33 51 gold be be.01 ----- 50:1-ARG1 51:0-rel 52:0-ARGM-NEG 53:1-ARG2
+bn/pri/00/pri_0053.parse 7 6 gold be be.01 ----- 0:1-ARGM-LOC 4:1-ARG1 6:0-rel 7:2-ARG2
 bn/pri/00/pri_0053.parse 32 1 gold do do.01 ----- 1:0-rel
-bn/pri/00/pri_0053.parse 18 13 gold vote vote.01 ----- 13:0-rel
+bn/pri/00/pri_0053.parse 4 4 gold count count.01 ----- 1:1*5:1-ARG1 3:0-ARGM-NEG 4:0-rel 6:1-ARGM-LOC
 bn/pri/00/pri_0053.parse 32 4 gold have have.LV ----- 4:0-rel 6:0-ARGM-PRR
+bn/pri/00/pri_0053.parse 26 26 gold vote vote.01 ----- 25:0-ARG0 26:0-rel
 bn/pri/00/pri_0053.parse 21 3 gold be be.01 ----- 0:1-ARGM-ADV 2:1-ARG1 3:0-rel 4:2-ARG2
+bn/pri/00/pri_0053.parse 6 9 gold go go.03 ----- 7:1-ARG0 9:0-rel 10:1-ARG1 14:1-ARGM-MNR
 bn/pri/00/pri_0053.parse 19 14 gold mail mail.01 ----- 13:1-ARG0 14:0-rel 15:1-ARG1
 bn/pri/00/pri_0053.parse 24 4 gold vote vote.01 ----- 4:0-rel
 bn/pri/00/pri_0053.parse 27 8 gold vote vote.01 ----- 5:1*9:1-ARGM-MNR 7:1-ARG0 8:0-rel
 bn/pri/00/pri_0053.parse 29 8 gold think think.01 ----- 8:0-rel 9:1-ARG1
 bn/pri/00/pri_0053.parse 29 33 gold do do.01 ----- 33:0-rel
 bn/pri/00/pri_0053.parse 27 4 gold say say.01 ----- 0:0-ARGM-DIS 1:1-ARG0 3:0-ARGM-NEG 4:0-rel 5:2-ARG1
-bn/pri/00/pri_0053.parse 5 20 gold be be.01 ----- 19:1-ARG1 20:0-rel 21:1;38:1-ARG2 23:3-ARGM-TMP
 bn/pri/00/pri_0053.parse 30 9 gold be be.01 ----- 0:2-ARG1 9:0-rel 10:1-ARG2
 bn/pri/00/pri_0053.parse 26 55 gold show show.01 ----- 54:1-ARG0 55:0-rel 56:1-ARGM-LOC
 bn/pri/00/pri_0053.parse 21 14 gold poll poll.01 ----- 13:0-ARG0 14:0-rel
 bn/pri/00/pri_0053.parse 24 15 gold mail mail.01 ----- 12:1-ARG0 15:0-rel 16:1-ARG1
+bn/pri/00/pri_0053.parse 18 10 gold participate participate.01 ----- 2:2-ARG0 10:0-rel 11:1-ARG1
+bn/pri/00/pri_0053.parse 33 51 gold be be.01 ----- 50:1-ARG1 51:0-rel 52:0-ARGM-NEG 53:1-ARG2
 bn/pri/00/pri_0053.parse 26 63 gold count count.04 ----- 61:1-ARG1 62:1-ARGM-ADV 63:0-rel 64:1-ARGM-LOC
 bn/pri/00/pri_0053.parse 26 28 gold go go.04 ----- 28:0-rel
 bn/pri/00/pri_0053.parse 20 27 gold send send.01 ----- 14:1-ARGM-TMP 15:2-ARGM-TMP 23:1*25:1-ARG0 27:0-rel 28:1-ARG1 30:1-ARGM-DIR
@@ -95,10 +101,10 @@ bn/pri/00/pri_0053.parse 29 28 gold vote vote.01 ----- 27:0-ARG0 28:0-rel
 bn/pri/00/pri_0053.parse 21 8 gold be be.03 ----- 8:0-rel
 bn/pri/00/pri_0053.parse 24 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 bn/pri/00/pri_0053.parse 23 2 gold arrive arrive.01 ----- 0:1-ARG1 2:0-rel 3:1-ARGM-TMP
-bn/pri/00/pri_0053.parse 19 12 gold take take.10 ----- 12:0-rel 13:2-ARG1 17:2-ARG0
 bn/pri/00/pri_0053.parse 10 9 gold have have.01 ----- 9:0-rel
 bn/pri/00/pri_0053.parse 6 8 gold be be.03 ----- 8:0-rel
 bn/pri/00/pri_0053.parse 27 14 gold ballot ballot.01 ----- 14:0-rel
+bn/pri/00/pri_0053.parse 29 12 gold know know.06 ----- 11:1-ARG0 12:0-rel
 bn/pri/00/pri_0053.parse 20 10 gold start start.01 ----- 8:1-ARG0 10:0-rel 11:1-ARG2
 bn/pri/00/pri_0053.parse 5 17 gold say say.01 ----- 6:2*16:1-ARG0 17:0-rel 18:1-ARG1
 bn/pri/00/pri_0053.parse 15 8 gold slide slide.01 ----- 7:1-ARG1 8:0-rel
@@ -114,23 +120,23 @@ bn/pri/00/pri_0053.parse 26 1 gold do do.01 ----- 1:0-rel
 bn/pri/00/pri_0053.parse 16 4 gold know know.01 ----- 0:1*2:1-ARG0 4:0-rel 5:1-ARG1
 bn/pri/00/pri_0053.parse 10 15 gold think think.01 ----- 13:1*16:1-ARG1 14:1-ARG0 15:0-rel 17:1-ARG2
 bn/pri/00/pri_0053.parse 4 8 gold census census.01 ----- 7:0-ARG0 8:0-rel
-bn/pri/00/pri_0053.parse 19 4 gold make make.LV ----- 4:0-rel 8:0-ARGM-PRR
 bn/pri/00/pri_0053.parse 33 13 gold balance balance.01 ----- 5:2*9:1*10:1-ARG0 5:2*9:1-LINK-SLC 13:0-rel 14:3-ARG1
 bn/pri/00/pri_0053.parse 29 58 gold be be.01 ----- 57:1-ARG1 58:0-rel 59:2-ARG2
-bn/pri/00/pri_0053.parse 22 25 gold vote vote.01 ----- 18:2-ARG0 22:1-ARGM-ADV 24:0-ARGM-NEG 25:0-rel
+bn/pri/00/pri_0053.parse 13 2 gold say say.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
 bn/pri/00/pri_0053.parse 18 14 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARGM-ADV 13:1-ARG1 14:0-rel 15:2-ARG2
 bn/pri/00/pri_0053.parse 33 20 gold process process.02 ----- 20:0-rel
 bn/pri/00/pri_0053.parse 14 4 gold get get.01 ----- 3:1-ARG0 4:0-rel 5:1-ARG1
 bn/pri/00/pri_0053.parse 34 6 gold make make.LV ----- 6:0-rel 11:0-ARGM-PRR
+bn/pri/00/pri_0053.parse 20 24 gold have have.02 ----- 24:0-rel
 bn/pri/00/pri_0053.parse 4 2 gold be be.03 ----- 2:0-rel
-bn/pri/00/pri_0053.parse 15 6 gold let let.01 ----- 3:1-ARG0 4:0-ARGM-MOD 5:0-ARGM-NEG 6:0-rel 7:2-ARG1
 bn/pri/00/pri_0053.parse 28 7 gold have have.01 ----- 7:0-rel
 bn/pri/00/pri_0053.parse 26 27 gold be be.03 ----- 27:0-rel
 bn/pri/00/pri_0053.parse 31 5 gold wait wait.01 ----- 5:0-rel
 bn/pri/00/pri_0053.parse 26 72 gold ballot ballot.01 ----- 71:0-ARG0 72:0-rel
+bn/pri/00/pri_0053.parse 22 25 gold vote vote.01 ----- 18:2-ARG0 22:1-ARGM-ADV 24:0-ARGM-NEG 25:0-rel
 bn/pri/00/pri_0053.parse 18 5 gold say say.01 ----- 0:1-ARG1-DSP 5:0-rel 8:1-ARG0
 bn/pri/00/pri_0053.parse 26 17 gold say say.01 ----- 10:1*15:1-ARG0 17:0-rel 19:1-ARG1
-bn/pri/00/pri_0053.parse 13 5 gold be be.01 ----- 5:0-rel 6:1-ARG2 11:2-ARG1
+bn/pri/00/pri_0053.parse 18 13 gold vote vote.01 ----- 13:0-rel
 bn/pri/00/pri_0053.parse 33 46 gold process process.02 ----- 46:0-rel
 bn/pri/00/pri_0053.parse 33 11 gold check check.01 ----- 5:2*9:1*10:1-ARG0 5:2*9:1-LINK-SLC 11:0-rel
 bn/pri/00/pri_0053.parse 1 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
@@ -138,14 +144,15 @@ bn/pri/00/pri_0053.parse 26 47 gold vote vote.01 ----- 46:0-ARG0 47:0-rel
 bn/pri/00/pri_0053.parse 5 43 gold ballot ballot.01 ----- 41:0-ARG0 42:0-ARGM-ADJ 43:0-rel
 bn/pri/00/pri_0053.parse 37 5 gold be be.01 ----- 0:1-ARGM-ADV 4:1-ARG1 5:0-rel 6:2-ARG2
 bn/pri/00/pri_0053.parse 29 42 gold vote vote.01 ----- 38:1-ARG0 42:0-rel
-bn/pri/00/pri_0053.parse 6 9 gold go go.03 ----- 7:1-ARG0 9:0-rel 10:1-ARG1 14:1-ARGM-MNR
-bn/pri/00/pri_0053.parse 31 15 gold be be.01 ----- 3:1-ARGM-ADV 14:1-ARG1 15:0-rel 16:0-ARGM-NEG 17:1-ARG2
 bn/pri/00/pri_0053.parse 5 40 gold cast cast.01 ----- 39:1-ARG0 40:0-rel 41:1-ARG1 44:1-ARGM-ADV
 bn/pri/00/pri_0053.parse 17 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
+bn/pri/00/pri_0053.parse 11 3 gold say say.01 ----- 0:1*2:1-ARG0 3:0-rel 5:1-ARG1
 bn/pri/00/pri_0053.parse 10 10 gold let let.01 ----- 0:2-ARG0 10:0-rel 11:2-ARG1
 bn/pri/00/pri_0053.parse 14 6 gold vote vote.01 ----- 6:0-rel
+bn/pri/00/pri_0053.parse 36 4 gold do do.02 ----- 0:1-ARGM-LOC 2:1-ARG0 4:0-rel
 bn/pri/00/pri_0053.parse 34 11 gold comment comment.01 ----- 0:2-ARG0 6:0-ARGM-LVB 8:1-ARGM-MNR 11:0-rel 12:1-ARGM-TMP
 bn/pri/00/pri_0053.parse 35 8 gold hang hang.01 ----- 6:1-ARG1 8:0-rel 9:1-ARG2
+bn/pri/00/pri_0053.parse 0 4 gold declare declare.01 ----- 0:1*5:1-ARG1 2:0-ARGM-MOD 4:0-rel 6:2-ARG3 11:1-ARGM-TMP
 bn/pri/00/pri_0053.parse 0 3 gold be be.03 ----- 3:0-rel
 bn/pri/00/pri_0053.parse 11 8 gold be be.01 ----- 6:1-ARGM-DIS 8:0-rel 9:0-ARGM-NEG 10:1-ARG1 11:1-ARG2
 bn/pri/00/pri_0053.parse 31 21 gold be be.02 ----- 20:0-ARGM-MOD 21:0-rel 22:2-ARG1
@@ -154,22 +161,15 @@ bn/pri/00/pri_0053.parse 27 13 gold cast cast.01 ----- 11:1-ARG0 13:0-rel 14:1-A
 bn/pri/00/pri_0053.parse 16 1 gold want want.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 bn/pri/00/pri_0053.parse 8 4 gold cast cast.01 ----- 3:1-ARG0 4:0-rel 5:1-ARG1 8:1-ARGM-ADV
 bn/pri/00/pri_0053.parse 27 2 gold do do.01 ----- 2:0-rel
-bn/pri/00/pri_0053.parse 7 6 gold be be.01 ----- 0:1-ARGM-LOC 4:1-ARG1 6:0-rel 7:2-ARG2
 bn/pri/00/pri_0053.parse 9 9 gold have have.02 ----- 9:0-rel
 bn/pri/00/pri_0053.parse 4 19 gold know know.01 ----- 0:1-ARGM-CAU 17:1-ARG0 19:0-rel 20:2-ARG1
-bn/pri/00/pri_0053.parse 6 5 gold know know.01 ----- 4:1-ARG0 5:0-rel
-bn/pri/00/pri_0053.parse 18 10 gold participate participate.01 ----- 2:2-ARG0 10:0-rel 11:1-ARG1
+bn/pri/00/pri_0053.parse 31 15 gold be be.01 ----- 3:1-ARGM-ADV 14:1-ARG1 15:0-rel 16:0-ARGM-NEG 17:1-ARG2
 bn/pri/00/pri_0053.parse 33 47 gold move move.01 ----- 45:1-ARG1 47:0-rel
 bn/pri/00/pri_0053.parse 10 3 gold notice notice.01 ----- 0:1*1:1*2:1-ARG0 0:1*1:1-LINK-SLC 3:0-rel 4:1-ARG1
-bn/pri/00/pri_0053.parse 29 12 gold know know.06 ----- 11:1-ARG0 12:0-rel
-bn/pri/00/pri_0053.parse 36 4 gold do do.02 ----- 0:1-ARGM-LOC 2:1-ARG0 4:0-rel
-bn/pri/00/pri_0053.parse 29 29 gold count count.04 ----- 14:1-ARGM-LOC 21:3-ARGM-DIS 24:1-ARGM-LOC 27:1-ARG1 29:0-rel 31:1-ARGM-ADV
 bn/pri/00/pri_0053.parse 7 8 gold retire retire.01 ----- 8:0-rel 9:0-ARG0
 bn/pri/00/pri_0053.parse 12 10 gold fall fall.01 ----- 7:1-ARG1 9:0-ARGM-ADV 10:0-rel 11:1-ARG4
 bn/pri/00/pri_0053.parse 21 22 gold have have.01 ----- 22:0-rel
-bn/pri/00/pri_0053.parse 11 3 gold say say.01 ----- 0:1*2:1-ARG0 3:0-rel 5:1-ARG1
 bn/pri/00/pri_0053.parse 25 11 gold listen listen.01 ----- 8:1-ARG0 10:0-ARGM-NEG 11:0-rel 12:1-ARG1
-bn/pri/00/pri_0053.parse 4 4 gold count count.01 ----- 1:1*5:1-ARG1 3:0-ARGM-NEG 4:0-rel 6:1-ARGM-LOC
-bn/pri/00/pri_0053.parse 0 4 gold declare declare.01 ----- 0:1*5:1-ARG1 2:0-ARGM-MOD 4:0-rel 6:2-ARG3 11:1-ARGM-TMP
 bn/pri/00/pri_0053.parse 25 17 gold be be.01 ----- 16:1*18:1-ARG2 17:0-rel 19:1-ARG1
+bn/pri/00/pri_0053.parse 24 13 gold insist insist.01 ----- 12:1-ARG0 13:0-rel
 bn/pri/00/pri_0053.parse 13 8 gold be be.01 ----- 7:1-ARG1 8:0-rel 9:1-ARG2

@@ -1,26 +1,24 @@
 nw/wsj/24/wsj_2440.parse 5 29 gold replay replay.01 ----- 29:0-rel
-nw/wsj/24/wsj_2440.parse 1 10 gold run run.09 ----- 0:2-ARG1 10:0-rel 11:1-ARG2
 nw/wsj/24/wsj_2440.parse 5 5 gold miss miss.02 ----- 2:1*3:1*4:1-ARG0 2:1*3:1-LINK-SLC 5:0-rel 6:1-ARG1 8:1-ARGM-TMP
 nw/wsj/24/wsj_2440.parse 2 31 gold talk talk.01 ----- 31:0-rel 32:0-ARG0
 nw/wsj/24/wsj_2440.parse 3 39 gold be be.01 ----- 38:1-ARG1 39:0-rel 40:1-ARG2
 nw/wsj/24/wsj_2440.parse 5 16 gold worry worry.01 ----- 2:2*14:1-ARG1 2:2*14:1-LINK-PRO 13:0-ARGM-NEG 16:0-rel
+nw/wsj/24/wsj_2440.parse 1 10 gold run run.09 ----- 0:2-ARG1 10:0-rel 11:1-ARG2
 nw/wsj/24/wsj_2440.parse 2 25 gold announce announce.01 ----- 15:1-ARG0 25:0-rel 28:2-ARG1 35:1-ARGM-ADV
 nw/wsj/24/wsj_2440.parse 2 10 gold press press.01 ----- 0:1*1:1*2:1-ARG0 0:1*1:1-LINK-SLC 10:0-rel 11:1-ARG1
 nw/wsj/24/wsj_2440.parse 0 4 gold hear hear.01 ----- 0:2-ARG0 3:0-ARGM-MOD 4:0-rel 5:3-ARG1
-nw/wsj/24/wsj_2440.parse 4 15 gold play play.11 ----- 8:1*13:1*14:1-ARG0 8:1*13:1-LINK-SLC 15:0-rel 16:1-ARG1
 nw/wsj/24/wsj_2440.parse 3 26 gold add add.02 ----- 25:1-ARG0 26:0-rel 27:1-ARGM-DIR 28:2-ARG1
 nw/wsj/24/wsj_2440.parse 3 1 gold talk talk.01 ----- 1:0-rel 2:0-ARG0
 nw/wsj/24/wsj_2440.parse 1 36 gold laminate laminate.01 ----- 33:1*37:1-ARG1 33:1*37:1-LINK-PSV 36:0-rel 38:1-ARGM-LOC
 nw/wsj/24/wsj_2440.parse 3 31 gold charge charge.01 ----- 28:1-ARG0 31:0-rel
+nw/wsj/24/wsj_2440.parse 1 30 gold publish publish.01 ----- 26:1-ARG0 30:0-rel
 nw/wsj/24/wsj_2440.parse 4 2 gold have have.01 ----- 2:0-rel
 nw/wsj/24/wsj_2440.parse 3 23 gold be be.01 ----- 22:1-ARG1 23:0-rel 24:1-ARG2
-nw/wsj/24/wsj_2440.parse 1 30 gold publish publish.01 ----- 26:1-ARG0 30:0-rel
-nw/wsj/24/wsj_2440.parse 3 15 gold be be.01 ----- 7:2-ARG1 15:0-rel 16:2-ARG2
+nw/wsj/24/wsj_2440.parse 4 15 gold play play.11 ----- 8:1*13:1*14:1-ARG0 8:1*13:1-LINK-SLC 15:0-rel 16:1-ARG1
 nw/wsj/24/wsj_2440.parse 4 47 gold call call.02 ----- 38:1*46:1-ARG0 47:0-rel 48:1-ARG1
 nw/wsj/24/wsj_2440.parse 4 50 gold serve serve.01 ----- 48:0,49:0-ARG1 50:0-rel
 nw/wsj/24/wsj_2440.parse 3 3 gold be be.01 ----- 0:1-ARG1 3:0-rel 5:1-ARG2
 nw/wsj/24/wsj_2440.parse 2 24 gold voice voice.01 ----- 16:2-ARGM-ADJ 24:0-rel
-nw/wsj/24/wsj_2440.parse 4 26 gold be be.01 ----- 20:2-ARG1 26:0-rel 27:2-ARG2 31:1-ARGM-ADV
 nw/wsj/24/wsj_2440.parse 4 7 gold feature feature.01 ----- 4:1-ARG0 7:0-rel 8:2-ARG1
 nw/wsj/24/wsj_2440.parse 1 32 gold contain contain.01 ----- 0:3-ARG0 32:0-rel 33:2-ARG1
 nw/wsj/24/wsj_2440.parse 2 29 gold be be.01 ----- 28:1-ARG1 29:0-rel 30:1-ARG2
@@ -31,5 +29,7 @@ nw/wsj/24/wsj_2440.parse 0 9 gold talk talk.01 ----- 5:2-ARG0 9:0-rel 10:1-ARGM-
 nw/wsj/24/wsj_2440.parse 2 37 gold launch launch.01 ----- 36:1-ARG0 37:0-rel 38:1-ARGM-DIR
 nw/wsj/24/wsj_2440.parse 3 36 gold believe believe.01 ----- 34:1-ARG0 36:0-rel 37:1-ARG1
 nw/wsj/24/wsj_2440.parse 2 43 gold discourse discourse.01 ----- 40:1-ARGM-TMP 43:0-rel 44:1-ARG1
+nw/wsj/24/wsj_2440.parse 4 26 gold be be.01 ----- 20:2-ARG1 26:0-rel 27:2-ARG2 31:1-ARGM-ADV
 nw/wsj/24/wsj_2440.parse 4 3 gold include include.01 ----- 0:1-ARG2 3:0-rel 4:2-ARG1
 nw/wsj/24/wsj_2440.parse 2 3 gold pull pull.01 ----- 0:1*1:1*2:1-ARG0 0:1*1:1-LINK-SLC 3:0-rel 4:1-ARG2 5:2-ARG1
+nw/wsj/24/wsj_2440.parse 3 15 gold be be.01 ----- 7:2-ARG1 15:0-rel 16:2-ARG2

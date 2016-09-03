@@ -1,5 +1,4 @@
 bc/cctv/00/cctv_0003.parse 150 13 gold be be.01 ----- 7:1*11:1*12:1-ARG1 7:1*11:1-LINK-SLC 13:0-rel 15:1-ARGM-DIS 17:1-ARG2
-bc/cctv/00/cctv_0003.parse 335 40 gold agree agree.01 ----- 38:1-ARG0 39:1-ARGM-NEG 40:0-rel
 bc/cctv/00/cctv_0003.parse 41 3 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARG1 3:0-rel 4:1-ARGM-ADV 5:1-ARG2 7:1-ARGM-CAU
 bc/cctv/00/cctv_0003.parse 109 29 gold return return.03 ----- 13:1-ARG0 14:1-ARGM-TMP 23:1-ARGM-LOC 29:0-rel 30:1-ARG1
 bc/cctv/00/cctv_0003.parse 89 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
@@ -9,7 +8,6 @@ bc/cctv/00/cctv_0003.parse 219 3 gold be be.03 ----- 3:0-rel
 bc/cctv/00/cctv_0003.parse 152 6 gold have have.03 ----- 2:1*4:1-ARG0 6:0-rel 7:1-ARG1 11:1-ARGM-LOC
 bc/cctv/00/cctv_0003.parse 295 28 gold be be.02 ----- 28:0-rel 29:2-ARG1
 bc/cctv/00/cctv_0003.parse 141 12 gold have have.01 ----- 12:0-rel
-bc/cctv/00/cctv_0003.parse 363 12 gold close close.01 ----- 0:1-ARGM-DIS 2:1-ARGM-ADV 9:0-ARGM-MOD 10:0-ARGM-NEG 11:1-ARG0 12:0-rel 13:1-ARG1 15:1-ARGM-ADV
 bc/cctv/00/cctv_0003.parse 48 4 gold sign sign.01 ----- 1:1-ARG0 4:0-rel 5:1-ARG1
 bc/cctv/00/cctv_0003.parse 72 17 gold achieve achieve.01 ----- 15:1-ARG0 17:0-rel 18:1-ARG1
 bc/cctv/00/cctv_0003.parse 40 37 gold return return.02 ----- 34:1-ARG0 37:0-rel 38:1-ARG1
@@ -20,6 +18,7 @@ bc/cctv/00/cctv_0003.parse 421 7 gold commit commit.01 ----- 1:1-ARG0 3:0-ARGM-N
 bc/cctv/00/cctv_0003.parse 194 17 gold deny deny.01 ----- 13:1-ARGM-DIS 16:1-ARG0 17:0-rel 18:1-ARGM-TMP 21:1-ARG1 27:2-ARGM-ADV
 bc/cctv/00/cctv_0003.parse 333 11 gold sign sign.01 ----- 6:1-ARG0 10:0-ARGM-NEG 11:0-rel 12:1-ARG1
 bc/cctv/00/cctv_0003.parse 31 11 gold prioritize prioritize.01 ----- 6:1*9:1-ARG0 11:0-rel 12:1-ARG1
+bc/cctv/00/cctv_0003.parse 38 20 gold make make.01 ----- 16:1*18:1*21:1-ARG1 16:1*18:1-LINK-SLC 19:1-ARG0 20:0-rel 22:1-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 260 4 gold say say.01 ----- 2:1-ARG0 4:0-rel 5:1-ARG1
 bc/cctv/00/cctv_0003.parse 122 23 gold apply apply.02 ----- 7:1*10:1-ARG0 23:0-rel 24:1-ARG1
 bc/cctv/00/cctv_0003.parse 115 1 gold have have.01 ----- 1:0-rel
@@ -27,6 +26,7 @@ bc/cctv/00/cctv_0003.parse 31 12 gold connect connect.01 ----- 6:1*9:1-ARG0 12:0
 bc/cctv/00/cctv_0003.parse 279 7 gold hide hide.01 ----- 0:1-ARGM-DIS 3:1*8:1-ARG1 6:0-ARGM-EXT 7:0-rel 9:1-ARGM-LOC
 bc/cctv/00/cctv_0003.parse 158 28 gold be be.03 ----- 28:0-rel
 bc/cctv/00/cctv_0003.parse 133 11 gold be be.01 ----- 1:2-ARGM-DIS 10:1-ARG1 11:0-rel 12:1-ARGM-ADV 13:1-ARG2
+bc/cctv/00/cctv_0003.parse 238 39 gold invest invest.01 ----- 22:1-ARGM-ADV 36:1-ARGM-DIS 38:1-ARG0 39:0-rel 40:2-ARG1 43:1-ARG2
 bc/cctv/00/cctv_0003.parse 21 13 gold be be.03 ----- 13:0-rel
 bc/cctv/00/cctv_0003.parse 173 29 gold visit visit.01 ----- 10:2-ARG0 14:1-ARGM-ADV 29:0-rel 30:1-ARG1 31:1-ARGM-TMP 32:2-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 386 26 gold be be.03 ----- 26:0-rel
@@ -40,7 +40,6 @@ bc/cctv/00/cctv_0003.parse 54 27 gold trip trip.03 ----- 26:0-ARG0 27:0-rel 28:1
 bc/cctv/00/cctv_0003.parse 207 7 gold press press.01 ----- 0:1-ARGM-TMP 4:1-ARG0 6:1-ARGM-ADV 7:0-rel 8:1-ARG2
 bc/cctv/00/cctv_0003.parse 57 9 gold be be.01 ----- 0:1-ARGM-DIS 4:1-ARGM-DIS 6:1-ARG1 9:0-rel 10:1-ARGM-TMP 11:1-ARG2
 bc/cctv/00/cctv_0003.parse 264 22 gold be be.01 ----- 0:1-ARGM-DIS 1:2-ARG1 22:0-rel 23:2-ARG2
-bc/cctv/00/cctv_0003.parse 317 10 gold originate originate.01 ----- 2:1*11:1-ARGM-MNR 5:1-ARG1 10:0-rel
 bc/cctv/00/cctv_0003.parse 9 7 gold be be.01 ----- 6:1-ARG1 7:0-rel 8:2-ARG2
 bc/cctv/00/cctv_0003.parse 428 7 gold end end.01 ----- 0:1-ARGM-DIS 2:1-ARGM-DIS 4:1-ARGM-TMP 5:1-ARG0 6:0-ARGM-MOD 7:0-rel 8:2;12:1-ARG1 11:1-ARGM-LOC
 bc/cctv/00/cctv_0003.parse 222 3 gold say say.01 ----- 0:1*5:1-ARGM-CAU 1:0-ARGM-MOD 2:1-ARG0 3:0-rel 4:1-ARG1
@@ -57,45 +56,42 @@ bc/cctv/00/cctv_0003.parse 257 17 gold have have.01 ----- 17:0-rel
 bc/cctv/00/cctv_0003.parse 333 25 gold be be.01 ----- 19:1-ARGM-TMP 22:1-ARG1 25:0-rel 26:1-ARGM-TMP 27:1-ARG2
 bc/cctv/00/cctv_0003.parse 261 5 gold play play.02 ----- 0:1-ARGM-ADV 1:1-ARG0 5:0-rel 6:1-ARG1
 bc/cctv/00/cctv_0003.parse 155 3 gold be be.03 ----- 3:0-rel
-bc/cctv/00/cctv_0003.parse 344 19 gold get get.03 ----- 17:1-ARG1 19:0-rel 20:1-ARG2
 bc/cctv/00/cctv_0003.parse 89 15 gold be be.01 ----- 14:1-ARG1 15:0-rel 16:1-ARG2
-bc/cctv/00/cctv_0003.parse 387 21 gold be be.01 ----- 19:1-ARG1 21:0-rel 22:1-ARG2
 bc/cctv/00/cctv_0003.parse 54 6 gold have have.01 ----- 6:0-rel
-bc/cctv/00/cctv_0003.parse 142 10 gold do do.04 ----- 5:1*7:1*11:1-ARG0 5:1*7:1-LINK-SLC 10:0-rel 12:1-ARG1
-bc/cctv/00/cctv_0003.parse 330 9 gold return return.02 ----- 5:1*10:1-ARG1 9:0-rel 11:1-ARGM-MNR
 bc/cctv/00/cctv_0003.parse 404 5 gold be be.01 ----- 0:1-ARGM-DIS 3:1-ARG1 4:0-ARGM-MOD 5:0-rel 9:1-ARGM-DIS 12:3-ARG2
 bc/cctv/00/cctv_0003.parse 326 7 gold return return.02 ----- 4:1-ARG0 7:0-rel 8:1-ARG1 11:1-ARGM-ADV
-bc/cctv/00/cctv_0003.parse 40 15 gold see see.01 ----- 9:1-ARGM-DIS 11:1-ARGM-DIS 13:1-ARG0 14:1-ARGM-ADV 15:0-rel 17:1-ARGM-DIS 19:1-ARG1
 bc/cctv/00/cctv_0003.parse 284 7 gold have have.01 ----- 7:0-rel
 bc/cctv/00/cctv_0003.parse 382 9 gold reject reject.01 ----- 0:1*10:1-ARG1 2:1-ARGM-ADV 9:0-rel 11:1-ARG0
 bc/cctv/00/cctv_0003.parse 114 14 gold propose propose.01 ----- 0:1-ARGM-DIS 2:1-ARGM-TMP 6:2-ARGM-TMP 12:1-ARG0 13:1-ARGM-ADV 14:0-rel 15:1-ARG1 16:2-ARGM-TMP
-bc/cctv/00/cctv_0003.parse 324 11 gold normalize normalize.01 ----- 11:0-rel 12:1-ARG1
 bc/cctv/00/cctv_0003.parse 113 9 gold be be.03 ----- 9:0-rel
 bc/cctv/00/cctv_0003.parse 135 6 gold state state.01 ----- 4:1-ARG0 6:0-rel 7:1-ARGM-MNR 10:2-ARG1
 bc/cctv/00/cctv_0003.parse 47 6 gold talk talk.01 ----- 0:1-ARGM-TMP 3:1-ARG0 6:0-rel 7:1-ARG1
 bc/cctv/00/cctv_0003.parse 317 4 gold do do.01 ----- 4:0-rel
 bc/cctv/00/cctv_0003.parse 376 11 gold lead lead.03 ----- 0:1-ARGM-DIS 2:1-ARGM-TMP 8:1-ARG0 10:0-ARGM-MOD 11:0-rel 12:1-ARG2
+bc/cctv/00/cctv_0003.parse 82 35 gold accomplish accomplish.01 ----- 18:1-ARGM-MNR 26:1-ARGM-DIS 28:3*36:1-ARG1 34:1-ARGM-MNR 35:0-rel
 bc/cctv/00/cctv_0003.parse 148 11 gold be be.03 ----- 11:0-rel
+bc/cctv/00/cctv_0003.parse 303 3 gold be be.02 ----- 0:1-ARGM-DIS 3:0-rel 4:2-ARG1
 bc/cctv/00/cctv_0003.parse 373 8 gold give give_away.02 ----- 0:1-ARGM-DIS 2:2-ARG0 6:0-ARGM-MOD 7:1-ARGM-MNR 8:0,9:1-rel 10:1-ARG1
 bc/cctv/00/cctv_0003.parse 157 25 gold exist exist.01 ----- 22:1-ARG1 25:0-rel 26:1-ARGM-LOC 30:1-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 41 12 gold make make.01 ----- 8:1*13:1-ARG1 12:0-rel 14:1-ARG3
 bc/cctv/00/cctv_0003.parse 30 16 gold connect connect.01 ----- 10:1*14:1-ARG0 16:0-rel 17:1-ARG1 18:1-ARG2
 bc/cctv/00/cctv_0003.parse 346 6 gold have have.01 ----- 6:0-rel
-bc/cctv/00/cctv_0003.parse 300 29 gold own own.01 ----- 29:0-rel 30:1-ARG1
+bc/cctv/00/cctv_0003.parse 4 1 gold head head.01 ----- 0:1*15:1-ARG0 1:0-rel 2:2-ARG1 12:1-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 310 18 gold be be.03 ----- 18:0-rel
 bc/cctv/00/cctv_0003.parse 164 5 gold say say.01 ----- 4:1-ARG0 5:0-rel 6:1-ARG1
-bc/cctv/00/cctv_0003.parse 223 34 gold have have.01 ----- 34:0-rel
 bc/cctv/00/cctv_0003.parse 295 16 gold regard regard.01 ----- 0:0-ARGM-DIS 2:1-ARGM-ADV 9:1-ARGM-DIS 11:1*17:1-ARG1 12:0-ARGM-MOD 13:0-ARGM-NEG 15:1-ARGM-ADV 16:0-rel 18:1-ARG2 26:1-ARGM-CAU
-bc/cctv/00/cctv_0003.parse 109 20 gold say say.01 ----- 18:1-ARG0 20:0-rel 21:1-ARG1
 bc/cctv/00/cctv_0003.parse 30 13 gold promise promise.01 ----- 10:1-ARG0 13:0-rel 14:2-ARG2
 bc/cctv/00/cctv_0003.parse 68 9 gold say say.01 ----- 2:1*8:1-ARG0 9:0-rel 10:3-ARG1
 bc/cctv/00/cctv_0003.parse 192 17 gold retreat retreat.01 ----- 0:2-ARGM-TMP 13:1-ARG1 17:0-rel 18:1-ARGM-TMP 19:1-ARGM-PRD
+bc/cctv/00/cctv_0003.parse 54 9 gold put put_off.06 ----- 5:1*8:1-ARG0 9:0,10:1-rel 11:2-ARG1 15:1-ARG2
 bc/cctv/00/cctv_0003.parse 278 10 gold be be.01 ----- 8:1*9:1-ARG1 10:0-rel 11:2-ARG2
+bc/cctv/00/cctv_0003.parse 346 8 gold improve improve.01 ----- 4:1-ARG1 7:1-ARGM-MNR 8:0-rel
 bc/cctv/00/cctv_0003.parse 122 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/cctv/00/cctv_0003.parse 190 44 gold claim claim.02 ----- 40:1-ARG0 44:0-rel 45:1-ARG1
 bc/cctv/00/cctv_0003.parse 7 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 bc/cctv/00/cctv_0003.parse 29 9 gold declare declare.01 ----- 8:0-ARGM-MNR 9:0-rel
 bc/cctv/00/cctv_0003.parse 158 13 gold provide provide.01 ----- 10:1-ARG0 11:0-ARGM-MOD 12:0-ARGM-NEG 13:0-rel 14:2-ARG1
+bc/cctv/00/cctv_0003.parse 289 25 gold come come.01 ----- 22:1*26:1-ARGM-TMP 23:1-ARG1 25:0-rel
 bc/cctv/00/cctv_0003.parse 98 3 gold sign sign.01 ----- 0:0-ARGM-DIS 1:1*4:1-ARG1 3:0-rel
 bc/cctv/00/cctv_0003.parse 215 14 gold arrange arrange.01 ----- 0:1-ARGM-DIS 2:1-ARGM-LOC 6:1*10:1-ARG0 8:1-ARGM-DIS 11:0-ARGM-MOD 12:0-ARGM-LVB 13:0-ARGM-ADJ 14:0-rel 15:1-ARGM-MNR
 bc/cctv/00/cctv_0003.parse 290 9 gold hold hold.04 ----- 5:1-ARG0 9:0-rel 10:1-ARG1
@@ -106,7 +102,8 @@ bc/cctv/00/cctv_0003.parse 287 17 gold be be.03 ----- 17:0-rel
 bc/cctv/00/cctv_0003.parse 395 15 gold develop develop.02 ----- 0:1-ARGM-ADV 3:2-ARGM-ADV 8:2*16:1-ARG1 11:0-ARGM-MOD 12:1-ARGM-TMP 14:1-ARGM-MNR 15:0-rel
 bc/cctv/00/cctv_0003.parse 298 3 gold think think.01 ----- 0:1-ARGM-DIS 2:1-ARG0 3:0-rel 4:1-ARG1
 bc/cctv/00/cctv_0003.parse 253 3 gold do do.01 ----- 3:0-rel
-bc/cctv/00/cctv_0003.parse 262 1 gold have have.01 ----- 1:0-rel
+bc/cctv/00/cctv_0003.parse 423 13 gold be be.03 ----- 13:0-rel
+bc/cctv/00/cctv_0003.parse 94 10 gold give give.01 ----- 9:1-ARG0 10:0-rel 11:1-ARG1 12:1-ARG2
 bc/cctv/00/cctv_0003.parse 359 27 gold repeat repeat.01 ----- 27:0-rel 28:0-ARG1
 bc/cctv/00/cctv_0003.parse 386 46 gold develop develop.01 ----- 40:1*50:1-ARGM-MNR 41:0-ARGM-MOD 42:2-ARG1 46:0-rel 47:1-ARGM-LOC
 bc/cctv/00/cctv_0003.parse 253 6 gold show show.01 ----- 0:1-ARGM-DIS 2:1*7:1-ARG1 4:1-ARG0 6:0-rel
@@ -114,18 +111,18 @@ bc/cctv/00/cctv_0003.parse 419 9 gold be be.01 ----- 0:1-ARGM-DIS 2:2-ARG1 9:0-r
 bc/cctv/00/cctv_0003.parse 80 20 gold refuse refuse.01 ----- 14:1-ARG0 20:0-rel 21:2-ARG1
 bc/cctv/00/cctv_0003.parse 6 11 gold hamper hamper.01 ----- 0:0-ARGM-DIS 1:0-ARGM-MOD 2:3*12:1-ARG1 11:0-rel 13:1-ARGM-CAU
 bc/cctv/00/cctv_0003.parse 346 13 gold need need.01 ----- 0:1-ARGM-DIS 2:1-ARGM-TMP 10:1-ARG0 12:0-ARGM-NEG 13:0-rel 14:2-ARG1
-bc/cctv/00/cctv_0003.parse 340 2 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 2:0-rel 3:1-ARG2
 bc/cctv/00/cctv_0003.parse 40 35 gold return return.02 ----- 34:1-ARG0 35:0-rel
+bc/cctv/00/cctv_0003.parse 112 46 gold develop develop.02 ----- 26:1-ARGM-DIS 29:1-ARG0 45:1-ARGM-MNR 46:0-rel 47:1-ARG1
 bc/cctv/00/cctv_0003.parse 68 12 gold return return.02 ----- 10:1-ARG0 11:1-ARGM-TMP 12:0-rel 13:1-ARG1
 bc/cctv/00/cctv_0003.parse 408 4 gold say say.01 ----- 2:1-ARG0 4:0-rel 5:1-ARG1
 bc/cctv/00/cctv_0003.parse 432 1 gold thank thank.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:1-ARG2
+bc/cctv/00/cctv_0003.parse 20 26 gold sign sign.01 ----- 0:1-ARGM-DIS 2:1-ARGM-DIS 4:2*13:1-ARG0 26:0-rel 27:2-ARG1
 bc/cctv/00/cctv_0003.parse 249 11 gold equal equal.01 ----- 0:1-ARGM-DIS 2:1-ARGM-PRD 7:1-ARG1 10:1-ARGM-ADV 11:0-rel 13:2-ARG2
-bc/cctv/00/cctv_0003.parse 40 3 gold be be.01 ----- 2:1-ARG1 3:0-rel 4:2-ARG2
+bc/cctv/00/cctv_0003.parse 423 14 gold connect connect.01 ----- 7:1-ARGM-TMP 8:2*15:1-ARG1 12:0-ARGM-MOD 14:0-rel 16:1-ARG2 22:2-ARGM-ADV
 bc/cctv/00/cctv_0003.parse 48 9 gold seem seem.01 ----- 0:1-ARGM-ADV 9:0-rel 10:1-ARG1
 bc/cctv/00/cctv_0003.parse 165 17 gold visit visit.01 ----- 14:1-ARG0 15:0-ARGM-MOD 16:0-ARGM-NEG 17:0-rel 18:1-ARG1 19:1-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 263 4 gold say say.01 ----- 3:1-ARG0 4:0-rel 5:1-ARG1
 bc/cctv/00/cctv_0003.parse 75 4 gold be be.01 ----- 0:2-ARG1 4:0-rel 5:1-ARGM-ADV 7:2-ARG2
-bc/cctv/00/cctv_0003.parse 138 1 gold drop drop.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/cctv/00/cctv_0003.parse 82 33 gold be be.03 ----- 33:0-rel
 bc/cctv/00/cctv_0003.parse 336 11 gold propose propose.01 ----- 7:1-ARG0 10:1-ARGM-ADV 11:0-rel
 bc/cctv/00/cctv_0003.parse 27 13 gold have have.01 ----- 13:0-rel
@@ -143,65 +140,59 @@ bc/cctv/00/cctv_0003.parse 374 9 gold add add.01 ----- 7:1-ARG0 8:1-ARGM-ADV 9:0
 bc/cctv/00/cctv_0003.parse 243 10 gold exceed exceed.01 ----- 8:1-ARG0 9:0-ARGM-MOD 10:0-rel 11:2-ARG1
 bc/cctv/00/cctv_0003.parse 72 6 gold have have.01 ----- 6:0-rel
 bc/cctv/00/cctv_0003.parse 165 31 gold be be.03 ----- 31:0-rel
-bc/cctv/00/cctv_0003.parse 380 1 gold have have.01 ----- 1:0-rel
-bc/cctv/00/cctv_0003.parse 238 39 gold invest invest.01 ----- 22:1-ARGM-ADV 36:1-ARGM-DIS 38:1-ARG0 39:0-rel 40:2-ARG1 43:1-ARG2
 bc/cctv/00/cctv_0003.parse 331 11 gold make make.01 ----- 0:1-ARGM-TMP 5:2-ARG0 10:0-ARGM-NEG 11:0-rel 12:1-ARG1 14:1-ARGM-CAU
 bc/cctv/00/cctv_0003.parse 350 10 gold be be.01 ----- 0:1-ARGM-DIS 2:2-ARG1 10:0-rel 11:2-ARG2
+bc/cctv/00/cctv_0003.parse 317 10 gold originate originate.01 ----- 2:1*11:1-ARGM-MNR 5:1-ARG1 10:0-rel
 bc/cctv/00/cctv_0003.parse 55 4 gold say say.01 ----- 2:1-ARG0 4:0-rel 5:1-ARG1
-bc/cctv/00/cctv_0003.parse 31 29 gold be be.01 ----- 28:1-ARG1 29:0-rel 30:1-ARG2
 bc/cctv/00/cctv_0003.parse 336 5 gold notice notice.01 ----- 0:0-ARGM-DIS 1:1-ARGM-TMP 3:1-ARG0 4:1-ARGM-ADV 5:0-rel 6:1-ARG1
-bc/cctv/00/cctv_0003.parse 202 6 gold show show.01 ----- 0:1-ARGM-DIS 2:2-ARG0 6:0-rel 7:1-ARG1
-bc/cctv/00/cctv_0003.parse 94 10 gold give give.01 ----- 9:1-ARG0 10:0-rel 11:1-ARG1 12:1-ARG2
+bc/cctv/00/cctv_0003.parse 344 19 gold get get.03 ----- 17:1-ARG1 19:0-rel 20:1-ARG2
 bc/cctv/00/cctv_0003.parse 339 3 gold work work.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-ARGM-NEG 3:0-rel 5:1-ARGM-ADV 7:1-ARGM-DIS 9:1-ARGM-DIS
 bc/cctv/00/cctv_0003.parse 320 4 gold have have.03 ----- 0:1-ARG0 4:0-rel 5:2-ARG1
 bc/cctv/00/cctv_0003.parse 2 5 gold trip trip.03 ----- 4:0-ARG0 5:0-rel 6:1-ARG1
 bc/cctv/00/cctv_0003.parse 423 4 gold say say.01 ----- 2:1-ARG0 4:0-rel 5:1-ARG1
 bc/cctv/00/cctv_0003.parse 399 3 gold be be.01 ----- 0:1-ARGM-DIS 2:1*5:1-ARG1 3:0-rel 4:1-ARG2
+bc/cctv/00/cctv_0003.parse 58 6 gold decide decide.01 ----- 0:1-ARGM-DIS 2:1*7:1-ARG1 5:0-ARGM-NEG 6:0-rel 8:1-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 161 12 gold tour tour.01 ----- 6:1*10:1-ARG0 12:0-rel 13:1-ARG1
 bc/cctv/00/cctv_0003.parse 173 20 gold be be.01 ----- 18:1-ARG1 20:0-rel 21:1-ARG2 24:1-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 49 6 gold expect expect.01 ----- 6:0-rel 7:1-ARG0
 bc/cctv/00/cctv_0003.parse 232 11 gold be be.01 ----- 8:2-ARG1 11:0-rel 12:1-ARG2
-bc/cctv/00/cctv_0003.parse 305 5 gold be be.01 ----- 4:1-ARG1 5:0-rel 6:2-ARG2 15:1-ARGM-PRD
 bc/cctv/00/cctv_0003.parse 286 14 gold be be.03 ----- 14:0-rel
 bc/cctv/00/cctv_0003.parse 275 3 gold go go.02 ----- 0:1*5:1-ARGM-TMP 1:1-ARG0 3:0-rel 4:1-ARG4
 bc/cctv/00/cctv_0003.parse 56 4 gold ask ask.02 ----- 0:1-ARGM-DIS 3:1-ARG0 4:0-rel 5:1-ARG2 8:2-ARG1
 bc/cctv/00/cctv_0003.parse 316 6 gold talk talk.01 ----- 0:1-ARGM-DIS 2:1-ARGM-TMP 3:1-ARG0 6:0-rel 7:1-ARG1
-bc/cctv/00/cctv_0003.parse 107 9 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARGM-ADV 8:1-ARG1 9:0-rel 10:2-ARG2
-bc/cctv/00/cctv_0003.parse 220 6 gold be be.01 ----- 0:1-ARGM-DIS 4:1-ARG1 6:0-rel 7:2-ARG2
+bc/cctv/00/cctv_0003.parse 202 6 gold show show.01 ----- 0:1-ARGM-DIS 2:2-ARG0 6:0-rel 7:1-ARG1
 bc/cctv/00/cctv_0003.parse 112 31 gold postpone postpone.01 ----- 26:1-ARGM-DIS 29:1-ARG0 31:0-rel 34:2-ARG1
 bc/cctv/00/cctv_0003.parse 183 1 gold be be.02 ----- 1:0-rel 2:2-ARG1 5:1-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 107 5 gold know know.01 ----- 3:1-ARG0 4:0-ARGM-MOD 5:0-rel 6:1-ARG1
-bc/cctv/00/cctv_0003.parse 100 4 gold interpret interpret.01 ----- 0:1-ARGM-DIS 2:0-ARGM-MOD 3:1-ARG0 4:0-rel 5:1-ARG1 6:1-ARGM-MNR
-bc/cctv/00/cctv_0003.parse 89 12 gold be be.01 ----- 5:1*10:1*11:1-ARG1 5:1*10:1-LINK-SLC 12:0-rel 14:3-ARG2
 bc/cctv/00/cctv_0003.parse 18 10 gold discuss discuss.01 ----- 7:1*8:1*11:1-ARG1 10:0-rel 12:1-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 48 66 gold have have.01 ----- 66:0-rel
 bc/cctv/00/cctv_0003.parse 330 2 gold say say.01 ----- 0:1-ARG0 1:1-ARGM-TMP 2:0-rel 3:1-ARG1
 bc/cctv/00/cctv_0003.parse 323 32 gold occupy occupy.01 ----- 19:1*30:1*33:1-ARG1 19:1*30:1-LINK-SLC 31:1-ARG0 32:0-rel 34:1-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 122 15 gold control control.01 ----- 14:0-ARG0 15:0-rel 16:0-ARG1
-bc/cctv/00/cctv_0003.parse 408 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
+bc/cctv/00/cctv_0003.parse 100 4 gold interpret interpret.01 ----- 0:1-ARGM-DIS 2:0-ARGM-MOD 3:1-ARG0 4:0-rel 5:1-ARG1 6:1-ARGM-MNR
 bc/cctv/00/cctv_0003.parse 214 9 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARGM-TMP 4:2-ARG1 9:0-rel 10:1-ARG2
 bc/cctv/00/cctv_0003.parse 52 24 gold be be.01 ----- 11:2*20:1*21:1-ARG1 11:2*20:1-LINK-SLC 22:1-ARGM-MNR 24:0-rel 25:1-ARG2
 bc/cctv/00/cctv_0003.parse 289 30 gold be be.02 ----- 22:2-ARGM-TMP 29:0-ARGM-MOD 30:0-rel 31:3-ARG1 64:2-ARGM-PRP
-bc/cctv/00/cctv_0003.parse 116 8 gold propose propose.01 ----- 0:1-ARGM-DIS 2:1*17:1-ARGM-CAU 4:1-ARG0 6:1-ARGM-TMP 7:1-ARGM-TMP 8:0-rel 12:1-ARGM-DIS 14:1-ARG1
 bc/cctv/00/cctv_0003.parse 386 27 gold work work.01 ----- 25:1-ARG0 27:0-rel 28:1-ARGM-MNR 30:1-ARGM-MNR
-bc/cctv/00/cctv_0003.parse 164 9 gold visit visit.01 ----- 7:1-ARG0 8:0-ARGM-MOD 9:0-rel 10:1-ARG1 11:1-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 286 6 gold do do.01 ----- 6:0-rel
 bc/cctv/00/cctv_0003.parse 327 10 gold attend attend.01 ----- 4:1*8:1-ARG0 10:0-rel 11:1-ARG1 15:2-ARGM-PRP
 bc/cctv/00/cctv_0003.parse 68 3 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARG1 3:0-rel 4:1-ARGM-TMP 5:1-ARG2 8:2-ARGM-ADV
 bc/cctv/00/cctv_0003.parse 391 6 gold say say.01 ----- 0:1-ARGM-DIS 3:1-ARG0 4:0-ARGM-MOD 5:0-ARGM-NEG 6:0-rel 7:2-ARG1
 bc/cctv/00/cctv_0003.parse 276 11 gold develop develop.02 ----- 7:1*9:1-ARG0 11:0-rel 12:1-ARG1
 bc/cctv/00/cctv_0003.parse 326 2 gold request request.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
-bc/cctv/00/cctv_0003.parse 239 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
+bc/cctv/00/cctv_0003.parse 408 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 bc/cctv/00/cctv_0003.parse 165 10 gold rumor rumor.01 ----- 9:0-ARGM-ADJ 10:0-rel 12:1-ARG1
 bc/cctv/00/cctv_0003.parse 241 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/cctv/00/cctv_0003.parse 55 13 gold price price.01 ----- 10:1-ARGM-ADJ 13:0-rel
 bc/cctv/00/cctv_0003.parse 397 7 gold get get.03 ----- 0:1-ARGM-DIS 3:1-ARG1 5:0-ARGM-NEG 6:1-ARGM-TMP 7:0-rel 8:1-ARG2
+bc/cctv/00/cctv_0003.parse 134 5 gold propose propose.01 ----- 3:1-ARG0 5:0-rel 6:1-ARG1
 bc/cctv/00/cctv_0003.parse 267 4 gold promote promote.01 ----- 0:1-ARGM-DIS 2:1-ARG0 3:0-ARGM-MOD 4:0-rel 5:2-ARG1 11:1-ARGM-CAU
 bc/cctv/00/cctv_0003.parse 296 2 gold have have.03 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
 bc/cctv/00/cctv_0003.parse 269 1 gold come come.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-TMP 4:2-ARGM-PRD
-bc/cctv/00/cctv_0003.parse 61 5 gold be be.01 ----- 0:1-ARGM-PRD 4:1-ARG1 5:0-rel 6:1-ARG2
+bc/cctv/00/cctv_0003.parse 335 24 gold agree agree.01 ----- 18:1-ARGM-TMP 21:1-ARG0 24:0-rel 25:2-ARG1
 bc/cctv/00/cctv_0003.parse 359 11 gold be be.01 ----- 10:1-ARG1 11:0-rel 12:2-ARG2
 bc/cctv/00/cctv_0003.parse 414 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2
+bc/cctv/00/cctv_0003.parse 359 5 gold say say.01 ----- 3:1-ARG0 4:1-ARGM-ADV 5:0-rel 6:1-ARG1 7:1-ARGM-MNR
 bc/cctv/00/cctv_0003.parse 206 4 gold be be.01 ----- 0:1-ARG1 4:0-rel 5:1-ARGM-TMP 6:1-ARG2
 bc/cctv/00/cctv_0003.parse 25 14 gold avoid avoid.01 ----- 0:1-ARGM-ADV 9:1-ARGM-DIS 11:1-ARG0 13:1-ARGM-MNR 14:0-rel 15:1-ARG1
 bc/cctv/00/cctv_0003.parse 296 1 gold have have.01 ----- 1:0-rel
@@ -210,10 +201,11 @@ bc/cctv/00/cctv_0003.parse 6 10 gold be be.03 ----- 10:0-rel
 bc/cctv/00/cctv_0003.parse 264 15 gold think think.01 ----- 13:1-ARG0 14:1-ARGM-ADV 15:0-rel 16:1-ARG1
 bc/cctv/00/cctv_0003.parse 116 3 gold do do.01 ----- 3:0-rel
 bc/cctv/00/cctv_0003.parse 211 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
-bc/cctv/00/cctv_0003.parse 335 3 gold notice notice.01 ----- 0:1-ARGM-DIS 2:1-ARG0 3:0-rel 5:1-ARGM-DIS 17:1-ARG1
 bc/cctv/00/cctv_0003.parse 310 7 gold look look.01 ----- 6:1-ARG0 7:0-rel 8:1-ARG1
 bc/cctv/00/cctv_0003.parse 302 3 gold own own.01 ----- 3:0-rel 4:1-ARG1
 bc/cctv/00/cctv_0003.parse 316 5 gold be be.03 ----- 5:0-rel
+bc/cctv/00/cctv_0003.parse 203 10 gold need need.01 ----- 3:1*7:1-ARG0 9:1-ARGM-MNR 10:0-rel 11:1-ARG1
+bc/cctv/00/cctv_0003.parse 89 12 gold be be.01 ----- 5:1*10:1*11:1-ARG1 5:1*10:1-LINK-SLC 12:0-rel 14:3-ARG2
 bc/cctv/00/cctv_0003.parse 91 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:2-ARG2
 bc/cctv/00/cctv_0003.parse 171 25 gold insist insist.01 ----- 20:1-ARGM-TMP 21:2-ARG0 25:0-rel 26:1-ARG1
 bc/cctv/00/cctv_0003.parse 387 6 gold know know.02 ----- 3:1-ARG0 5:1-ARGM-ADV 6:0-rel 7:3-ARG1 16:2-ARGM-PRD
@@ -222,20 +214,20 @@ bc/cctv/00/cctv_0003.parse 105 11 gold be be.01 ----- 5:1-ARGM-TMP 10:0-ARGM-MOD
 bc/cctv/00/cctv_0003.parse 211 9 gold need need.01 ----- 3:1*7:1*8:1-ARG0 3:1*7:1-LINK-SLC 9:0-rel 10:2-ARG1
 bc/cctv/00/cctv_0003.parse 391 9 gold stay stay.01 ----- 7:1-ARG1 8:0-ARGM-MOD 9:0-rel 10:1-ARG3 14:2-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 416 8 gold cut cut.01 ----- 6:0-ARG1 8:0-rel
-bc/cctv/00/cctv_0003.parse 50 3 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARG1 3:0-rel 4:1-ARG2
 bc/cctv/00/cctv_0003.parse 273 13 gold have have.01 ----- 13:0-rel
 bc/cctv/00/cctv_0003.parse 312 20 gold bring bring.01 ----- 12:2-ARGM-PRD 16:1*21:1-ARG1 20:0-rel 22:1-ARG3
-bc/cctv/00/cctv_0003.parse 280 12 gold want want.01 ----- 0:1-ARGM-DIS 2:1-ARGM-TMP 10:1-ARG0 11:1-ARGM-TMP 12:0-rel 13:2-ARG1
 bc/cctv/00/cctv_0003.parse 423 25 gold benefit benefit.01 ----- 22:1*23:1-ARG0 24:0-ARGM-MOD 25:0-rel 26:1-ARG1
 bc/cctv/00/cctv_0003.parse 262 3 gold be be.01 ----- 0:1-ARG1 2:1-ARGM-TMP 3:0-rel 4:1-ARG2
-bc/cctv/00/cctv_0003.parse 321 20 gold be be.01 ----- 9:2*17:1*18:1-ARG1 9:2*17:1-LINK-SLC 20:0-rel 21:1-ARG2
+bc/cctv/00/cctv_0003.parse 188 32 gold make make.LV ----- 32:0-rel 33:1-ARGM-PRR
+bc/cctv/00/cctv_0003.parse 228 8 gold be be.01 ----- 7:1-ARG1 8:0-rel 9:1-ARG2 11:1-ARGM-MNR
+bc/cctv/00/cctv_0003.parse 158 17 gold resolve resolve.01 ----- 16:1-ARG0 17:0-rel 18:1-ARG1
 bc/cctv/00/cctv_0003.parse 255 13 gold show show.01 ----- 9:1-ARGM-DIS 11:1-ARG0 12:0-ARGM-MOD 13:0-rel 14:1-ARG1
+bc/cctv/00/cctv_0003.parse 255 20 gold be be.01 ----- 15:2-ARG1 20:0-rel 21:1-ARGM-ADV 22:0-ARGM-NEG 23:1-ARG2
 bc/cctv/00/cctv_0003.parse 255 5 gold explain explain.01 ----- 3:1-ARG0 4:0-ARGM-MOD 5:0-rel 6:1-ARG1
 bc/cctv/00/cctv_0003.parse 158 8 gold say say.01 ----- 0:1-ARGM-DIS 2:1-ARGM-TMP 5:1-ARG0 8:0-rel 9:1-ARG1
 bc/cctv/00/cctv_0003.parse 291 3 gold ask ask.02 ----- 0:1*4:1-ARG1 2:1-ARG0 3:0-rel
 bc/cctv/00/cctv_0003.parse 384 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1,6:1-ARG2
 bc/cctv/00/cctv_0003.parse 295 23 gold make make.01 ----- 19:2-ARG0 23:0-rel 24:1-ARG1
-bc/cctv/00/cctv_0003.parse 305 2 gold say say.01 ----- 0:1-ARGM-TMP 1:1-ARG0 2:0-rel 3:1-ARG1
 bc/cctv/00/cctv_0003.parse 270 5 gold solicit solicit.01 ----- 0:1*3:1-ARG0 5:0-rel 6:1-ARG2 10:2-ARG1
 bc/cctv/00/cctv_0003.parse 294 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 bc/cctv/00/cctv_0003.parse 169 27 gold be be.03 ----- 27:0-rel
@@ -243,13 +235,14 @@ bc/cctv/00/cctv_0003.parse 34 22 gold concern concern.01 ----- 18:1-ARG1 22:0-re
 bc/cctv/00/cctv_0003.parse 318 1 gold let let.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 bc/cctv/00/cctv_0003.parse 82 2 gold mention mention.01 ----- 1:1*3:1-ARG1 2:0-rel 4:1-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 313 13 gold be be.01 ----- 0:1-ARGM-DIS 2:2-ARG1 13:0-rel 14:0-ARGM-NEG 15:1-ARG2 20:1-ARGM-CAU
+bc/cctv/00/cctv_0003.parse 381 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
+bc/cctv/00/cctv_0003.parse 65 7 gold be be.01 ----- 0:1-ARGM-DIS 2:2-ARG1 7:0-rel 8:2-ARG2
 bc/cctv/00/cctv_0003.parse 192 28 gold be be.03 ----- 28:0-rel
-bc/cctv/00/cctv_0003.parse 20 15 gold talk talk.01 ----- 0:1-ARGM-DIS 2:1-ARGM-DIS 4:2,13:1-ARG0 15:0-rel 16:1-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 4 19 gold improve improve.01 ----- 15:1*17:1-ARG0 19:0-rel 20:1-ARG1 22:1-ARGM-MNR
+bc/cctv/00/cctv_0003.parse 335 3 gold notice notice.01 ----- 0:1-ARGM-DIS 2:1-ARG0 3:0-rel 5:1-ARGM-DIS 17:1-ARG1
 bc/cctv/00/cctv_0003.parse 203 34 gold be be.01 ----- 30:1*35:1-ARG2 31:1-ARG1 34:0-rel
 bc/cctv/00/cctv_0003.parse 93 2 gold save save.02 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
 bc/cctv/00/cctv_0003.parse 170 10 gold want want.01 ----- 9:1-ARG0 10:0-rel 11:2-ARG1
-bc/cctv/00/cctv_0003.parse 313 35 gold entangle entangle.01 ----- 21:2*36:1-ARG1 35:0-rel 37:1-ARGM-MNR
 bc/cctv/00/cctv_0003.parse 134 11 gold reject reject.01 ----- 8:1-ARGM-TMP 9:1-ARG0 10:1-ARGM-ADV 11:0-rel 12:1-ARG1
 bc/cctv/00/cctv_0003.parse 309 28 gold send send.03 ----- 17:1*27:1-ARG0 28:0-rel 29:1-ARG1 30:1-ARG4
 bc/cctv/00/cctv_0003.parse 290 4 gold do do.01 ----- 4:0-rel
@@ -261,25 +254,28 @@ bc/cctv/00/cctv_0003.parse 153 1 gold let let.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 bc/cctv/00/cctv_0003.parse 277 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bc/cctv/00/cctv_0003.parse 184 11 gold recognize recognize.02 ----- 0:1-ARGM-TMP 4:2*12:1-ARG1 11:0-rel
 bc/cctv/00/cctv_0003.parse 127 13 gold progress progress.01 ----- 1:2*10:1-ARG1 12:0-ARGM-LVB 13:0-rel
+bc/cctv/00/cctv_0003.parse 168 14 gold confirm confirm.01 ----- 0:1-ARGM-DIS 2:2-ARGM-CAU 7:3*15:1-ARG1 13:1-ARGM-ADV 14:0-rel
 bc/cctv/00/cctv_0003.parse 408 12 gold set set.02 ----- 7:1*13:1-ARG1 12:0-rel
 bc/cctv/00/cctv_0003.parse 101 39 gold want want.01 ----- 37:1*40:1-ARG1 38:1-ARG0 39:0-rel
 bc/cctv/00/cctv_0003.parse 19 0 gold be be.03 ----- 0:0-rel
 bc/cctv/00/cctv_0003.parse 274 1 gold think think.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/cctv/00/cctv_0003.parse 192 38 gold resolve resolve.01 ----- 33:1*39:1-ARG1 35:0-ARGM-MOD 36:1-ARGM-TMP 38:0-rel 40:1-ARGM-TMP
+bc/cctv/00/cctv_0003.parse 174 5 gold be be.01 ----- 4:1-ARG1 5:0-rel 6:0-ARGM-NEG 7:1-ARGM-ADV 8:1-ARG2
 bc/cctv/00/cctv_0003.parse 322 14 gold succeed succeed.03 ----- 14:0-rel
 bc/cctv/00/cctv_0003.parse 399 12 gold be be.02 ----- 11:0-ARGM-MOD 12:0-rel 13:2-ARG1
 bc/cctv/00/cctv_0003.parse 394 13 gold become become.01 ----- 7:1-ARGM-TMP 10:1-ARG1 12:0-ARGM-MOD 13:0-rel 14:1-ARG2
 bc/cctv/00/cctv_0003.parse 152 3 gold happen happen.02 ----- 0:1-ARGM-DIS 2:1*4:2-ARG1 3:0-rel
+bc/cctv/00/cctv_0003.parse 154 5 gold visit visit.01 ----- 0:1*25:1-ARGM-CAU 2:2-ARG0 5:0-rel 6:1-ARG1 7:1-ARGM-ADV 8:1-ARGM-TMP 18:1-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 166 15 gold victory victory.01 ----- 15:0-rel 16:1-ARG2
 bc/cctv/00/cctv_0003.parse 397 4 gold do do.01 ----- 4:0-rel
 bc/cctv/00/cctv_0003.parse 212 5 gold need need.01 ----- 0:1-ARGM-TMP 4:1-ARG0 5:0-rel
-bc/cctv/00/cctv_0003.parse 279 5 gold be be.03 ----- 5:0-rel
 bc/cctv/00/cctv_0003.parse 117 3 gold check check.01 ----- 0:1-ARGM-DIS 2:1-ARG0 3:0-rel 4:1-ARG1 7:1-ARGM-DIS
 bc/cctv/00/cctv_0003.parse 190 37 gold be be.01 ----- 0:1-ARGM-DIS 2:2-ARGM-TMP 19:2-ARGM-CAU 37:0-rel 38:1-ARG2 39:1-ARG1
 bc/cctv/00/cctv_0003.parse 146 5 gold include include.01 ----- 0:1*6:1-ARG1 5:0-rel 7:1-ARG2
 bc/cctv/00/cctv_0003.parse 398 9 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARGM-ADV 6:1-ARG1 9:0-rel 10:1-ARGM-ADV 11:1-ARG2
 bc/cctv/00/cctv_0003.parse 207 5 gold be be.03 ----- 5:0-rel
 bc/cctv/00/cctv_0003.parse 209 2 gold be be.01 ----- 1:1-ARG1 2:0-rel 3:1-ARG2
+bc/cctv/00/cctv_0003.parse 239 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bc/cctv/00/cctv_0003.parse 232 1 gold use use.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 5:2-ARGM-PRD
 bc/cctv/00/cctv_0003.parse 27 15 gold be be.02 ----- 14:1-ARGM-TMP 15:0-rel 16:2-ARG1
 bc/cctv/00/cctv_0003.parse 109 48 gold separate separate.01 ----- 48:0-rel 49:1-ARG1
@@ -288,44 +284,35 @@ bc/cctv/00/cctv_0003.parse 228 5 gold say say.01 ----- 2:0-ARGM-MOD 3:1-ARGM-DIS
 bc/cctv/00/cctv_0003.parse 376 4 gold enter enter.01 ----- 3:1-ARG0 4:0-rel
 bc/cctv/00/cctv_0003.parse 298 6 gold originate originate.01 ----- 5:1-ARG1 6:0-rel 7:2-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 65 5 gold want want.01 ----- 2:1*6:1-ARG1 3:1-ARG0 4:1-ARGM-ADV 5:0-rel
-bc/cctv/00/cctv_0003.parse 307 4 gold recognize recognize.02 ----- 0:1-ARG0 4:0-rel 5:1-ARG1
 bc/cctv/00/cctv_0003.parse 48 12 gold be be.01 ----- 11:1-ARG1 12:0-rel 13:0-ARGM-NEG 14:1-ARG2 25:1-ARGM-LOC 31:1-ARGM-CAU
 bc/cctv/00/cctv_0003.parse 73 8 gold have have.01 ----- 8:0-rel
-bc/cctv/00/cctv_0003.parse 265 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2
 bc/cctv/00/cctv_0003.parse 71 27 gold be be.01 ----- 12:1-ARGM-TMP 14:2-ARG1 27:0-rel 28:2-ARG2
 bc/cctv/00/cctv_0003.parse 203 29 gold think think.01 ----- 28:1-ARG0 29:0-rel 30:2-ARG1
 bc/cctv/00/cctv_0003.parse 372 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-ADV 3:1-ARG2
-bc/cctv/00/cctv_0003.parse 164 21 gold say say.01 ----- 20:1-ARG0 21:0-rel 22:1-ARG1
 bc/cctv/00/cctv_0003.parse 242 7 gold be be.01 ----- 0:1-ARGM-DIS 2:2-ARG1 7:0-rel 8:2-ARG2
 bc/cctv/00/cctv_0003.parse 57 13 gold be be.01 ----- 0:1-ARGM-DIS 4:1-ARGM-DIS 6:1-ARG1 13:0-rel 14:1-ARG2
 bc/cctv/00/cctv_0003.parse 77 37 gold make make.01 ----- 23:1-ARG0 37:0-rel 38:2-ARG1
 bc/cctv/00/cctv_0003.parse 278 1 gold know know.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/cctv/00/cctv_0003.parse 8 2 gold have have.01 ----- 2:0-rel
-bc/cctv/00/cctv_0003.parse 196 9 gold give give.01 ----- 7:1-ARG0 9:0-rel 10:1-ARG1 12:1-ARG2
-bc/cctv/00/cctv_0003.parse 38 20 gold make make.01 ----- 16:1*18:1*21:1-ARG1 16:1*18:1-LINK-SLC 19:1-ARG0 20:0-rel 22:1-ARGM-TMP
-bc/cctv/00/cctv_0003.parse 327 19 gold own own.01 ----- 19:0-rel 20:1-ARG1
 bc/cctv/00/cctv_0003.parse 40 29 gold demonstrate demonstrate.01 ----- 29:0-rel
-bc/cctv/00/cctv_0003.parse 38 39 gold have have.01 ----- 39:0-rel
+bc/cctv/00/cctv_0003.parse 22 37 gold be be.01 ----- 36:1-ARG1 37:0-rel 38:1-ARG2
 bc/cctv/00/cctv_0003.parse 54 2 gold know know.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG1
-bc/cctv/00/cctv_0003.parse 335 24 gold agree agree.01 ----- 18:1-ARGM-TMP 21:1-ARG0 24:0-rel 25:2-ARG1
-bc/cctv/00/cctv_0003.parse 327 7 gold promise promise.01 ----- 4:1-ARG0 7:0-rel 8:2-ARG2
 bc/cctv/00/cctv_0003.parse 368 11 gold tide tide.01 ----- 10:0-ARGM-ADJ 11:0-rel
 bc/cctv/00/cctv_0003.parse 82 11 gold postpone postpone.01 ----- 6:1-ARGM-DIS 8:1*12:1-ARG1 11:0-rel 13:1-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 359 14 gold say say.01 ----- 12:1-ARG0 14:0-rel 15:1-ARG1
+bc/cctv/00/cctv_0003.parse 72 11 gold do do.01 ----- 11:0-rel
 bc/cctv/00/cctv_0003.parse 418 4 gold say say.01 ----- 2:1-ARG0 4:0-rel 5:1-ARG1
-bc/cctv/00/cctv_0003.parse 402 8 gold be be.01 ----- 0:1-ARGM-DIS 1:2-ARG1 8:0-rel 9:0-ARGM-NEG 10:1-ARG2
 bc/cctv/00/cctv_0003.parse 313 6 gold feud feud.01 ----- 5:0-ARGM-ADJ 6:0-rel
 bc/cctv/00/cctv_0003.parse 274 4 gold regard regard.01 ----- 4:0-rel 5:1-ARG1
-bc/cctv/00/cctv_0003.parse 359 5 gold say say.01 ----- 3:1-ARG0 4:1-ARGM-ADV 5:0-rel 6:1-ARG1 7:1-ARGM-MNR
 bc/cctv/00/cctv_0003.parse 297 4 gold say say.01 ----- 2:1-ARG0 4:0-rel 5:1-ARG1
-bc/cctv/00/cctv_0003.parse 112 46 gold develop develop.02 ----- 26:1-ARGM-DIS 29:1-ARG0 45:1-ARGM-MNR 46:0-rel 47:1-ARG1
 bc/cctv/00/cctv_0003.parse 321 1 gold own own.01 ----- 1:0-rel 2:1-ARG1
 bc/cctv/00/cctv_0003.parse 417 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 4:1-ARG2
 bc/cctv/00/cctv_0003.parse 312 19 gold be be.03 ----- 19:0-rel
 bc/cctv/00/cctv_0003.parse 14 10 gold let let.01 ----- 0:1-ARGM-DIS 2:1-ARGM-TMP 9:1-ARG0 10:0-rel 11:2-ARG1
+bc/cctv/00/cctv_0003.parse 357 24 gold spare spare.01 ----- 20:1*21:1*25:1-ARG1 20:1*21:1-LINK-SLC 22:1-ARG0 24:0-rel
 bc/cctv/00/cctv_0003.parse 8 4 gold invite invite.01 ----- 0:1*5:1-ARG1 4:0-rel 6:1-ARG2
+bc/cctv/00/cctv_0003.parse 313 35 gold entangle entangle.01 ----- 21:2*36:1-ARG1 35:0-rel 37:1-ARGM-MNR
 bc/cctv/00/cctv_0003.parse 188 33 gold progress progress.01 ----- 30:1-ARG1 32:0-ARGM-LVB 33:0-rel 34:1-ARG2 36:1-ARGM-TMP
-bc/cctv/00/cctv_0003.parse 366 6 gold have have.03 ----- 0:1-ARG0 4:1-ARGM-DIS 6:0-rel 7:2-ARG1
 bc/cctv/00/cctv_0003.parse 381 5 gold reject reject.01 ----- 2:1*7:1-ARGM-CAU 3:1-ARG0 4:1-ARGM-TMP 5:0-rel 6:1-ARG1
 bc/cctv/00/cctv_0003.parse 11 3 gold be be.01 ----- 0:1-ARG1 3:0-rel 4:2-ARG2
 bc/cctv/00/cctv_0003.parse 416 4 gold attend attend.01 ----- 0:1-ARGM-DIS 3:1-ARG0 4:0-rel 5:1-ARG1
@@ -339,40 +326,38 @@ bc/cctv/00/cctv_0003.parse 406 17 gold see see.01 ----- 0:1-ARGM-DIS 3:2-ARGM-PR
 bc/cctv/00/cctv_0003.parse 187 1 gold have have.01 ----- 1:0-rel
 bc/cctv/00/cctv_0003.parse 159 12 gold visit visit.01 ----- 10:1-ARG0 11:0-ARGM-MOD 12:0-rel 13:1-ARGM-TMP 15:1-ARGM-CAU
 bc/cctv/00/cctv_0003.parse 223 4 gold say say.01 ----- 2:1-ARG0 4:0-rel 5:1-ARG1
-bc/cctv/00/cctv_0003.parse 174 5 gold be be.01 ----- 4:1-ARG1 5:0-rel 6:0-ARGM-NEG 7:1-ARGM-ADV 8:1-ARG2
 bc/cctv/00/cctv_0003.parse 273 14 gold outdo outdo.01 ----- 7:1*11:1-ARG0 14:0-rel 15:1-ARG1
 bc/cctv/00/cctv_0003.parse 354 25 gold be be.02 ----- 0:1-ARGM-DIS 2:1-ARGM-DIS 4:4-ARGM-TMP 25:0-rel 26:1-ARG1
-bc/cctv/00/cctv_0003.parse 303 3 gold be be.02 ----- 0:1-ARGM-DIS 3:0-rel 4:2-ARG1
 bc/cctv/00/cctv_0003.parse 338 1 gold think think.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/cctv/00/cctv_0003.parse 171 8 gold talk talk.01 ----- 6:1-ARG0 7:0-ARGM-MOD 8:0-rel 9:1-ARG1
-bc/cctv/00/cctv_0003.parse 231 4 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARG1 4:0-rel 5:1-ARG2
-bc/cctv/00/cctv_0003.parse 21 14 gold sign sign.01 ----- 7:2*15:1-ARG1 14:0-rel
 bc/cctv/00/cctv_0003.parse 77 25 gold have have.03 ----- 23:1-ARG0 25:0-rel 26:1-ARG1
-bc/cctv/00/cctv_0003.parse 382 1 gold be be.03 ----- 1:0-rel
 bc/cctv/00/cctv_0003.parse 146 4 gold be be.03 ----- 4:0-rel
-bc/cctv/00/cctv_0003.parse 291 1 gold be be.03 ----- 1:0-rel
 bc/cctv/00/cctv_0003.parse 391 18 gold be be.01 ----- 17:1-ARG1 18:0-rel 19:1-ARG2
 bc/cctv/00/cctv_0003.parse 336 27 gold have have.01 ----- 27:0-rel
+bc/cctv/00/cctv_0003.parse 366 6 gold have have.03 ----- 0:1-ARG0 4:1-ARGM-DIS 6:0-rel 7:2-ARG1
 bc/cctv/00/cctv_0003.parse 166 13 gold anniversary anniversary.01 ----- 12:0-ARG2 13:0-rel 14:1-ARG1
 bc/cctv/00/cctv_0003.parse 286 8 gold think think.01 ----- 0:1-ARGM-DIS 2:1-ARGM-MNR 5:1-ARG0 7:0-ARGM-NEG 8:0-rel 9:1-ARG1
 bc/cctv/00/cctv_0003.parse 362 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bc/cctv/00/cctv_0003.parse 421 4 gold make make.LV ----- 4:0-rel 7:0-ARGM-PRR
+bc/cctv/00/cctv_0003.parse 231 4 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARG1 4:0-rel 5:1-ARG2
 bc/cctv/00/cctv_0003.parse 312 3 gold be be.02 ----- 3:0-rel 4:1-ARGM-ADV 5:1-ARG1
 bc/cctv/00/cctv_0003.parse 211 12 gold drink drink.01 ----- 3:1*7:1*8:1*10:1-ARG0 3:1*7:1-LINK-SLC 12:0-rel 13:1-ARG1
 bc/cctv/00/cctv_0003.parse 38 24 gold trip trip.03 ----- 23:0-ARG0 24:0-rel 25:1-ARG1
+bc/cctv/00/cctv_0003.parse 331 9 gold have have.01 ----- 9:0-rel
 bc/cctv/00/cctv_0003.parse 371 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-TMP 3:1-ARG2
 bc/cctv/00/cctv_0003.parse 203 18 gold need need.01 ----- 3:1*7:1-ARG0 17:1-ARGM-MNR 18:0-rel 19:1-ARG1
 bc/cctv/00/cctv_0003.parse 42 9 gold concern concern.01 ----- 8:0-ARGM-ADJ 9:0-rel
-bc/cctv/00/cctv_0003.parse 42 12 gold be be.01 ----- 11:1-ARG1 12:0-rel 13:2-ARG2
 bc/cctv/00/cctv_0003.parse 128 13 gold be be.01 ----- 0:1-ARGM-DIS 1:1-ARGM-LOC 6:3-ARG1 13:0-rel 14:2-ARG2
 bc/cctv/00/cctv_0003.parse 425 5 gold be be.02 ----- 5:0-rel 6:2-ARG1
 bc/cctv/00/cctv_0003.parse 325 8 gold return return.02 ----- 6:1-ARG0 8:0-rel 9:2-ARG1
 bc/cctv/00/cctv_0003.parse 19 6 gold touch touch_upon.05 ----- 1:1*8:1-ARG1 6:0,7:0-rel
+bc/cctv/00/cctv_0003.parse 142 10 gold do do.04 ----- 5:1*7:1*11:1-ARG0 5:1*7:1-LINK-SLC 10:0-rel 12:1-ARG1
 bc/cctv/00/cctv_0003.parse 386 20 gold untie untie.01 ----- 9:2*15:1*16:1*21:1-ARG1 9:2*15:1-LINK-SLC 17:0-ARGM-MOD 18:0-ARGM-NEG 20:0-rel
 bc/cctv/00/cctv_0003.parse 4 24 gold promote promote.01 ----- 15:1*17:1*23:1-ARG0 24:0-rel 25:1-ARG1
 bc/cctv/00/cctv_0003.parse 143 12 gold develop develop.02 ----- 0:1*11:1-ARG0 0:1*11:1-LINK-PRO 12:0-rel 13:1-ARG1
 bc/cctv/00/cctv_0003.parse 260 14 gold need need.01 ----- 11:1-ARG0 13:0-ARGM-NEG 14:0-rel 15:1-ARG1
 bc/cctv/00/cctv_0003.parse 155 19 gold realize realize.02 ----- 7:3*20:1-ARG1 19:0-rel 21:1-ARGM-TMP
+bc/cctv/00/cctv_0003.parse 217 3 gold think think.01 ----- 0:1-ARGM-DIS 2:1-ARG0 3:0-rel 4:1-ARG1
 bc/cctv/00/cctv_0003.parse 38 11 gold have have.03 ----- 2:2*12:1-ARG1 8:2-ARG0 11:0-rel
 bc/cctv/00/cctv_0003.parse 226 18 gold need need.01 ----- 0:1-ARGM-DIS 2:1-ARGM-PRD 7:2-ARGM-CAU 16:1-ARG0 17:1-ARGM-ADV 18:0-rel 19:2;24:1-ARG1 23:1-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 334 43 gold want want.01 ----- 42:1-ARG0 43:0-rel 44:2-ARG1
@@ -384,84 +369,98 @@ bc/cctv/00/cctv_0003.parse 162 4 gold infuriate infuriate.01 ----- 0:1-ARG0 2:1-
 bc/cctv/00/cctv_0003.parse 289 15 gold predict predict.01 ----- 0:1-ARGM-DIS 3:1-ARGM-ADV 12:1-ARG0 14:1-ARGM-TMP 15:0-rel 17:1-ARGM-LOC 21:1-ARG1
 bc/cctv/00/cctv_0003.parse 171 2 gold be be.02 ----- 1:0-ARGM-MOD 2:0-rel 3:1-ARG1 5:1-ARGM-TMP 16:2-ARGM-ADV
 bc/cctv/00/cctv_0003.parse 321 6 gold have have.01 ----- 6:0-rel
+bc/cctv/00/cctv_0003.parse 388 6 gold go go_on.15 ----- 3:1-ARG1 6:0,7:1-rel 8:1-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 307 10 gold belong belong.01 ----- 6:1-ARG0 9:0-ARGM-MOD 10:0-rel 11:1-ARG1
+bc/cctv/00/cctv_0003.parse 49 2 gold be be.01 ----- 0:1-ARGM-DIS 2:0-rel 3:1-ARG1 4:1-ARG2
 bc/cctv/00/cctv_0003.parse 32 7 gold get get.01 ----- 0:1-ARGM-MNR 4:1-ARG0 5:0-ARGM-MOD 6:0-ARGM-NEG 7:0-rel 9:1-ARGM-DIS 11:1-ARG1 15:1-ARGM-ADV
 bc/cctv/00/cctv_0003.parse 357 17 gold do do.01 ----- 17:0-rel
 bc/cctv/00/cctv_0003.parse 277 4 gold have have.03 ----- 3:1-ARG0 4:0-rel 5:2-ARG1
-bc/cctv/00/cctv_0003.parse 342 9 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARGM-DIS 9:0-rel 10:1-ARG2 14:2-ARG1
 bc/cctv/00/cctv_0003.parse 255 1 gold show show.01 ----- 0:1-ARG0 1:0-rel
 bc/cctv/00/cctv_0003.parse 212 11 gold give give.01 ----- 8:1-ARG0 11:0-rel 12:1-ARG2 13:2-ARG1
 bc/cctv/00/cctv_0003.parse 399 8 gold say say.01 ----- 6:1-ARG0 8:0-rel 9:2-ARG1
 bc/cctv/00/cctv_0003.parse 151 5 gold have have.03 ----- 0:1-ARGM-DIS 2:1-ARG0 4:0-ARGM-MOD 5:0-rel 6:2-ARG1
-bc/cctv/00/cctv_0003.parse 203 10 gold need need.01 ----- 3:1*7:1-ARG0 9:1-ARGM-MNR 10:0-rel 11:1-ARG1
+bc/cctv/00/cctv_0003.parse 313 18 gold cut cut.01 ----- 18:0-rel
 bc/cctv/00/cctv_0003.parse 333 17 gold mean mean.01 ----- 0:1-ARGM-MNR 5:1-ARGM-ADV 16:1-ARG1 17:0-rel 18:1-ARG2
+bc/cctv/00/cctv_0003.parse 414 9 gold invest invest.01 ----- 4:1-ARGM-TMP 6:1-ARG0 9:0-rel 10:1-ARG2
 bc/cctv/00/cctv_0003.parse 432 4 gold watch watch.01 ----- 4:0-rel
-bc/cctv/00/cctv_0003.parse 243 6 gold say say.01 ----- 0:1-ARGM-TMP 5:1-ARG0 6:0-rel 7:1-ARG1
 bc/cctv/00/cctv_0003.parse 168 12 gold be be.03 ----- 12:0-rel
 bc/cctv/00/cctv_0003.parse 109 34 gold call call.01 ----- 31:1*32:1*35:1-ARG1 34:0-rel 37:1-ARGM-DIS 39:2-ARG2
 bc/cctv/00/cctv_0003.parse 140 3 gold say say.01 ----- 0:1*4:1-ARG1 2:1-ARG0 3:0-rel 5:1-ARG3
 bc/cctv/00/cctv_0003.parse 165 7 gold be be.02 ----- 0:1-ARGM-LOC 7:0-rel 8:1-ARGM-ADV 9:2-ARG1
 bc/cctv/00/cctv_0003.parse 278 13 gold say say.01 ----- 11:1-ARG0 13:0-rel 14:1-ARG1
+bc/cctv/00/cctv_0003.parse 423 1 gold be be.01 ----- 0:2-ARG1 1:0-rel 2:2-ARG2
 bc/cctv/00/cctv_0003.parse 335 27 gold return return.02 ----- 21:1*25:1-ARG0 27:0-rel 28:1-ARG1 30:1-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 150 26 gold repeat repeat.01 ----- 26:0-rel 27:0-ARG1
 bc/cctv/00/cctv_0003.parse 233 7 gold promote promote.01 ----- 0:1-ARG0 6:0-ARGM-MOD 7:0-rel 8:2-ARG1
 bc/cctv/00/cctv_0003.parse 431 6 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARGM-DIS 5:1-ARG1 6:0-rel 7:2-ARG2
 bc/cctv/00/cctv_0003.parse 7 7 gold be be.03 ----- 7:0-rel
 bc/cctv/00/cctv_0003.parse 219 4 gold say say.01 ----- 0:1*5:2-ARG1 1:0-ARGM-MOD 2:0-ARGM-NEG 4:0-rel
+bc/cctv/00/cctv_0003.parse 297 8 gold involve involve.01 ----- 7:1-ARG2 8:0-rel 9:2-ARG1
+bc/cctv/00/cctv_0003.parse 346 16 gold take take.01 ----- 10:1*14:1-ARG0 16:0-rel 17:1-ARG1
 bc/cctv/00/cctv_0003.parse 334 4 gold be be.03 ----- 4:0-rel
 bc/cctv/00/cctv_0003.parse 190 4 gold come come.12 ----- 2:1*17:1-ARGM-TMP 4:0-rel 5:1-ARG1
+bc/cctv/00/cctv_0003.parse 394 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
+bc/cctv/00/cctv_0003.parse 173 9 gold cause cause.01 ----- 5:1*7:1*8:1-ARG0 5:1*7:1-LINK-SLC 9:0-rel 10:3-ARG1
 bc/cctv/00/cctv_0003.parse 81 7 gold come come.01 ----- 4:1*8:1-ARGM-MNR 6:1-ARG1 7:0-rel
 bc/cctv/00/cctv_0003.parse 94 38 gold mention mention.01 ----- 36:1*39:1-ARG1 37:1-ARGM-TMP 38:0-rel
 bc/cctv/00/cctv_0003.parse 123 24 gold be be.01 ----- 21:1-ARG1 24:0-rel 25:2-ARG2
 bc/cctv/00/cctv_0003.parse 30 22 gold be be.02 ----- 0:1-ARGM-DIS 2:1-ARGM-ADV 22:0-rel 23:2-ARG1
 bc/cctv/00/cctv_0003.parse 330 20 gold accept accept.01 ----- 4:1-ARGM-ADV 13:1*21:1-ARG1 16:0-ARGM-MOD 17:1-ARGM-ADV 18:0-ARGM-NEG 20:0-rel
 bc/cctv/00/cctv_0003.parse 132 5 gold add add.01 ----- 0:1*3:1-ARG0 5:0-rel 6:2-ARG1
-bc/cctv/00/cctv_0003.parse 55 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
+bc/cctv/00/cctv_0003.parse 67 18 gold trade trade.01 ----- 18:0-rel
 bc/cctv/00/cctv_0003.parse 192 29 gold separate separate.01 ----- 23:1*30:1-ARG1 26:0-ARGM-MOD 27:0-ARGM-NEG 29:0-rel
+bc/cctv/00/cctv_0003.parse 176 8 gold separate separate.01 ----- 8:0-rel 9:1-ARG1
 bc/cctv/00/cctv_0003.parse 73 9 gold achieve achieve.01 ----- 2:1*6:1-ARG0 9:0-rel 10:1-ARG1
-bc/cctv/00/cctv_0003.parse 223 17 gold invest invest.01 ----- 11:1-ARG0 13:0-ARGM-LVB 15:1-ARGM-ADJ 17:0-rel 18:1-ARG2
 bc/cctv/00/cctv_0003.parse 170 13 gold develop develop.02 ----- 9:1*11:1-ARG0 13:0-rel 14:1-ARG1 16:1-ARGM-TMP
+bc/cctv/00/cctv_0003.parse 406 15 gold do do.01 ----- 15:0-rel
 bc/cctv/00/cctv_0003.parse 169 28 gold concern concern.01 ----- 26:1*29:1-ARG1 28:0-rel
 bc/cctv/00/cctv_0003.parse 22 4 gold react react.01 ----- 3:0-ARGM-ADJ 4:0-rel 5:1-ARG0
 bc/cctv/00/cctv_0003.parse 149 2 gold discuss discuss.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG1 5:1-ARGM-ADV 6:1-ARGM-MNR 8:1-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 3 4 gold say say.01 ----- 0:2*5:1-ARG1 2:0-ARGM-MOD 4:0-rel
 bc/cctv/00/cctv_0003.parse 199 1 gold think think.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
-bc/cctv/00/cctv_0003.parse 173 9 gold cause cause.01 ----- 5:1*7:1*8:1-ARG0 5:1*7:1-LINK-SLC 9:0-rel 10:3-ARG1
+bc/cctv/00/cctv_0003.parse 155 4 gold say say.01 ----- 0:2*5:1-ARG1 2:0-ARGM-MOD 4:0-rel
 bc/cctv/00/cctv_0003.parse 104 9 gold have have.03 ----- 0:3-ARGM-DIS 7:1-ARG0 9:0-rel 10:3-ARG1
 bc/cctv/00/cctv_0003.parse 135 1 gold reject reject.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/cctv/00/cctv_0003.parse 332 24 gold realize realize.02 ----- 21:1-ARG0 24:0-rel 25:2-ARG1
-bc/cctv/00/cctv_0003.parse 228 4 gold be be.03 ----- 4:0-rel
 bc/cctv/00/cctv_0003.parse 270 2 gold intend intend.01 ----- 0:1-ARG0 1:1-ARGM-TMP 2:0-rel 3:2-ARG1 10:2-ARGM-ADV
+bc/cctv/00/cctv_0003.parse 109 17 gold be be.01 ----- 16:1-ARG1 17:0-rel 18:2-ARG2
 bc/cctv/00/cctv_0003.parse 133 6 gold talk talk.01 ----- 1:1*4:1,7:1-ARG1 1:1*4:1-LINK-SLC 5:1-ARG0 6:0-rel
+bc/cctv/00/cctv_0003.parse 335 40 gold agree agree.01 ----- 38:1-ARG0 39:1-ARGM-NEG 40:0-rel
+bc/cctv/00/cctv_0003.parse 336 15 gold propose propose.01 ----- 13:1-ARG0 15:0-rel 16:2-ARG1
 bc/cctv/00/cctv_0003.parse 60 20 gold view view.02 ----- 0:1-ARGM-DIS 5:1-ARGM-DIR 11:1-ARGM-ADV 17:1*21:1-ARG1 20:0-rel 22:1-ARG2
+bc/cctv/00/cctv_0003.parse 363 12 gold close close.01 ----- 0:1-ARGM-DIS 2:1-ARGM-ADV 9:0-ARGM-MOD 10:0-ARGM-NEG 11:1-ARG0 12:0-rel 13:1-ARG1 15:1-ARGM-ADV
 bc/cctv/00/cctv_0003.parse 310 31 gold be be.02 ----- 31:0-rel 32:2-ARG1
 bc/cctv/00/cctv_0003.parse 40 6 gold say say.01 ----- 4:1-ARG0 6:0-rel 7:1-ARG1
-bc/cctv/00/cctv_0003.parse 388 6 gold go go_on.15 ----- 3:1-ARG1 6:0,7:1-rel 8:1-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 54 25 gold postpone postpone.01 ----- 20:1*22:1*30:1-ARGM-TMP 20:1*22:1-LINK-SLC 23:1-ARG0 24:1-ARGM-MNR 25:0-rel 26:2-ARG1
-bc/cctv/00/cctv_0003.parse 82 35 gold accomplish accomplish.01 ----- 18:1-ARGM-MNR 26:1-ARGM-DIS 28:3*36:1-ARG1 34:1-ARGM-MNR 35:0-rel
 bc/cctv/00/cctv_0003.parse 188 23 gold propose propose.01 ----- 0:1-ARGM-DIS 2:2-ARGM-TMP 4:2-ARGM-TMP 11:1-ARGM-DIS 14:1-ARGM-TMP 20:1-ARGM-DIS 22:1-ARG0 23:0-rel 24:2-ARG1 30:2-ARGM-PRP
 bc/cctv/00/cctv_0003.parse 22 28 gold be be.02 ----- 28:0-rel 29:2-ARG1
 bc/cctv/00/cctv_0003.parse 292 5 gold have have.04 ----- 0:0-ARGM-DIS 1:1*6:1-ARG1 3:0-ARGM-MOD 4:1-ARG0 5:0-rel 7:1-ARGM-LOC
 bc/cctv/00/cctv_0003.parse 3 3 gold be be.03 ----- 3:0-rel
+bc/cctv/00/cctv_0003.parse 387 21 gold be be.01 ----- 19:1-ARG1 21:0-rel 22:1-ARG2
 bc/cctv/00/cctv_0003.parse 91 7 gold achieve achieve.01 ----- 6:1-ARG0 7:0-rel 8:1-ARG1
+bc/cctv/00/cctv_0003.parse 324 11 gold normalize normalize.01 ----- 11:0-rel 12:1-ARG1
 bc/cctv/00/cctv_0003.parse 71 9 gold say say.01 ----- 0:1-ARGM-DIS 2:1-ARGM-DIS 5:2*10:1-ARG1 7:0-ARGM-MOD 9:0-rel
-bc/cctv/00/cctv_0003.parse 4 1 gold head head.01 ----- 0:1*15:1-ARG0 1:0-rel 2:2-ARG1 12:1-ARGM-TMP
+bc/cctv/00/cctv_0003.parse 300 29 gold own own.01 ----- 29:0-rel 30:1-ARG1
 bc/cctv/00/cctv_0003.parse 312 17 gold have have.01 ----- 17:0-rel
+bc/cctv/00/cctv_0003.parse 50 3 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARG1 3:0-rel 4:1-ARG2
+bc/cctv/00/cctv_0003.parse 270 12 gold use use.01 ----- 10:1-ARG0 12:0-rel 13:1-ARG1
 bc/cctv/00/cctv_0003.parse 15 22 gold be be.03 ----- 22:0-rel
 bc/cctv/00/cctv_0003.parse 316 4 gold have have.01 ----- 4:0-rel
 bc/cctv/00/cctv_0003.parse 324 7 gold begin begin.01 ----- 0:1-ARGM-TMP 2:2-ARG0 7:0-rel 8:2-ARG1
 bc/cctv/00/cctv_0003.parse 173 2 gold be be.01 ----- 0:1-ARGM-DIS 2:0-rel 3:1-ARG1 4:1-ARGM-ADV 5:2-ARG2
 bc/cctv/00/cctv_0003.parse 77 13 gold have have.01 ----- 13:0-rel
-bc/cctv/00/cctv_0003.parse 168 14 gold confirm confirm.01 ----- 0:1-ARGM-DIS 2:2-ARGM-CAU 7:3*15:1-ARG1 13:1-ARGM-ADV 14:0-rel
 bc/cctv/00/cctv_0003.parse 32 21 gold gain gain.02 ----- 16:1-ARG0 19:0-ARGM-MOD 21:0-rel 22:3-ARG1
 bc/cctv/00/cctv_0003.parse 334 6 gold discuss discuss.01 ----- 1:1-ARG0 5:1-ARGM-MNR 6:0-rel 7:1-ARG1 9:2-ARGM-PRD
-bc/cctv/00/cctv_0003.parse 408 10 gold have have.01 ----- 10:0-rel
 bc/cctv/00/cctv_0003.parse 286 15 gold untie untie.01 ----- 10:1*16:1-ARG1 13:0-ARGM-MOD 15:0-rel
+bc/cctv/00/cctv_0003.parse 305 5 gold be be.01 ----- 4:1-ARG1 5:0-rel 6:2-ARG2 15:1-ARGM-PRD
+bc/cctv/00/cctv_0003.parse 243 6 gold say say.01 ----- 0:1-ARGM-TMP 5:1-ARG0 6:0-rel 7:1-ARG1
 bc/cctv/00/cctv_0003.parse 323 17 gold give give.01 ----- 0:2-ARGM-PRP 13:2-ARG0 17:0-rel 18:1-ARG2 19:2-ARG1
 bc/cctv/00/cctv_0003.parse 40 32 gold demand demand.01 ----- 23:1*31:1-ARG0 32:0-rel 33:1-ARG1
 bc/cctv/00/cctv_0003.parse 410 9 gold be be.03 ----- 9:0-rel
 bc/cctv/00/cctv_0003.parse 319 16 gold locate locate.01 ----- 0:2*17:1-ARG1 16:0-rel 18:1-ARGM-LOC 28:1-ARGM-PRD
 bc/cctv/00/cctv_0003.parse 90 2 gold have have.03 ----- 0:1-ARG0 1:1-ARGM-MNR 2:0-rel 3:1-ARG1
+bc/cctv/00/cctv_0003.parse 81 13 gold come come.01 ----- 10:1*16:1-ARGM-MNR 12:1-ARG1 13:0-rel 14:1-ARG4
+bc/cctv/00/cctv_0003.parse 61 5 gold be be.01 ----- 0:1-ARGM-PRD 4:1-ARG1 5:0-rel 6:1-ARG2
 bc/cctv/00/cctv_0003.parse 192 37 gold be be.03 ----- 37:0-rel
 bc/cctv/00/cctv_0003.parse 342 5 gold mention mention.01 ----- 3:1-ARG0 4:1-ARGM-TMP 5:0-rel 6:1-ARG1
 bc/cctv/00/cctv_0003.parse 368 5 gold be be.01 ----- 1:1*3:1-ARG1 5:0-rel 6:1-ARG2
@@ -478,43 +477,47 @@ bc/cctv/00/cctv_0003.parse 77 5 gold be be.03 ----- 5:0-rel
 bc/cctv/00/cctv_0003.parse 15 1 gold let let.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 bc/cctv/00/cctv_0003.parse 89 4 gold send send.01 ----- 3:1-ARG0 4:0-rel 5:2-ARG1
 bc/cctv/00/cctv_0003.parse 102 7 gold be be.03 ----- 7:0-rel
-bc/cctv/00/cctv_0003.parse 73 4 gold be be.03 ----- 4:0-rel
+bc/cctv/00/cctv_0003.parse 196 9 gold give give.01 ----- 7:1-ARG0 9:0-rel 10:1-ARG1 12:1-ARG2
 bc/cctv/00/cctv_0003.parse 29 4 gold abandon abandon.01 ----- 0:1-ARGM-DIS 1:1-ARG0 4:0-rel 5:2-ARG1
 bc/cctv/00/cctv_0003.parse 334 46 gold untie untie.01 ----- 42:1*44:1-ARG0 46:0-rel 47:1-ARG1
+bc/cctv/00/cctv_0003.parse 402 8 gold be be.01 ----- 0:1-ARGM-DIS 1:2-ARG1 8:0-rel 9:0-ARGM-NEG 10:1-ARG2
 bc/cctv/00/cctv_0003.parse 301 7 gold have have.03 ----- 0:1-ARGM-ADV 5:1-ARG0 7:0-rel 8:1-ARG1
 bc/cctv/00/cctv_0003.parse 288 3 gold be be.01 ----- 2:1-ARG1 3:0-rel
 bc/cctv/00/cctv_0003.parse 48 33 gold seem seem.01 ----- 33:0-rel 34:1-ARG1
 bc/cctv/00/cctv_0003.parse 14 12 gold learn learn.01 ----- 11:1-ARG0 12:0-rel 13:1-ARG1
-bc/cctv/00/cctv_0003.parse 349 5 gold see see.01 ----- 0:1-ARGM-DIS 2:1*6:1-ARG1 3:0-ARGM-MOD 5:0-rel 7:1-ARGM-PRD
+bc/cctv/00/cctv_0003.parse 321 20 gold be be.01 ----- 9:2*17:1*18:1-ARG1 9:2*17:1-LINK-SLC 20:0-rel 21:1-ARG2
+bc/cctv/00/cctv_0003.parse 291 1 gold be be.03 ----- 1:0-rel
 bc/cctv/00/cctv_0003.parse 223 35 gold help help.01 ----- 0:3-ARGM-DIS 7:1-ARGM-TMP 10:1-ARGM-ADV 21:1-ARGM-DIS 23:1,32:1-ARG0 25:1-ARGM-ADV 33:0-ARGM-MOD 35:0-rel 36:2-ARG1
 bc/cctv/00/cctv_0003.parse 166 9 gold celebrate celebrate.02 ----- 9:0-rel 10:1-ARG1
+bc/cctv/00/cctv_0003.parse 225 4 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARGM-TMP 3:1-ARG1 4:0-rel 5:1-ARG2 9:1-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 56 10 gold come come.01 ----- 5:1*8:1-ARG1 10:0-rel 11:1-ARG4 13:2-ARGM-PRP
-bc/cctv/00/cctv_0003.parse 85 7 gold want want.01 ----- 2:2*8:1-ARG1 6:1-ARG0 7:0-rel
 bc/cctv/00/cctv_0003.parse 329 12 gold return return.02 ----- 10:1-ARG0 12:0-rel 13:2-ARG1
+bc/cctv/00/cctv_0003.parse 395 8 gold normalize normalize.01 ----- 8:0-rel 9:1-ARG1
 bc/cctv/00/cctv_0003.parse 80 18 gold go go.01 ----- 14:1*16:1-ARG1 14:1*16:1-LINK-PRO 18:0-rel
 bc/cctv/00/cctv_0003.parse 18 9 gold be be.03 ----- 9:0-rel
+bc/cctv/00/cctv_0003.parse 194 23 gold be be.02 ----- 23:0-rel 24:1-ARG1
 bc/cctv/00/cctv_0003.parse 433 1 gold see see.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:1-ARGM-TMP 4:1-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 77 15 gold set set.02 ----- 10:1-ARGM-TMP 11:1*16:1-ARG1 15:0-rel
-bc/cctv/00/cctv_0003.parse 255 20 gold be be.01 ----- 15:2-ARG1 20:0-rel 21:1-ARGM-ADV 22:0-ARGM-NEG 23:1-ARG2
 bc/cctv/00/cctv_0003.parse 85 11 gold be be.01 ----- 0:1-ARGM-ADV 10:1-ARG1 11:0-rel 12:1-ARG2
 bc/cctv/00/cctv_0003.parse 101 4 gold give give.01 ----- 2:1*5:1-ARG1 2:1*5:1-LINK-PSV 4:0-rel 6:1-ARG0
 bc/cctv/00/cctv_0003.parse 267 13 gold be be.01 ----- 12:1-ARG1 13:0-rel 14:1-ARG2
+bc/cctv/00/cctv_0003.parse 340 2 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 2:0-rel 3:1-ARG2
+bc/cctv/00/cctv_0003.parse 408 10 gold have have.01 ----- 10:0-rel
 bc/cctv/00/cctv_0003.parse 177 6 gold be be.01 ----- 4:1-ARG1 5:0-ARGM-MOD 6:0-rel 7:3-ARG2
 bc/cctv/00/cctv_0003.parse 129 2 gold do do.01 ----- 2:0-rel
-bc/cctv/00/cctv_0003.parse 81 13 gold come come.01 ----- 10:1*16:1-ARGM-MNR 12:1-ARG1 13:0-rel 14:1-ARG4
 bc/cctv/00/cctv_0003.parse 263 12 gold play play.02 ----- 0:1-ARGM-DIS 2:1-ARGM-DIS 7:2-ARG0 12:0-rel 13:1-ARG1 16:1-ARGM-LOC
 bc/cctv/00/cctv_0003.parse 241 5 gold be be.01 ----- 3:1-ARG1 4:0-ARGM-MOD 5:0-rel 6:2-ARG2
 bc/cctv/00/cctv_0003.parse 18 4 gold brief brief.01 ----- 0:1-ARGM-TMP 2:1-ARGM-DIS 3:1-ARG0 4:0-rel 5:1-ARG1 6:1-ARG2
 bc/cctv/00/cctv_0003.parse 57 18 gold concede concede.01 ----- 6:1*15:1-ARG0 17:0-ARGM-LVB 18:0-rel
 bc/cctv/00/cctv_0003.parse 171 18 gold mean mean.01 ----- 3:1*16:1*17:1-ARG1 3:1*16:1-LINK-SLC 18:0-rel 19:1-ARG2
+bc/cctv/00/cctv_0003.parse 382 1 gold be be.03 ----- 1:0-rel
 bc/cctv/00/cctv_0003.parse 334 10 gold say say.01 ----- 1:1*9:1-ARG0 10:0-rel 11:1-ARG1
 bc/cctv/00/cctv_0003.parse 282 7 gold use use.01 ----- 0:1-ARGM-DIS 3:1-ARGM-DIS 6:1-ARG0 7:0-rel 8:1-ARG1 9:1-ARG2
-bc/cctv/00/cctv_0003.parse 58 6 gold decide decide.01 ----- 0:1-ARGM-DIS 2:1*7:1-ARG1 5:0-ARGM-NEG 6:0-rel 8:1-ARGM-TMP
+bc/cctv/00/cctv_0003.parse 305 2 gold say say.01 ----- 0:1-ARGM-TMP 1:1-ARG0 2:0-rel 3:1-ARG1
 bc/cctv/00/cctv_0003.parse 302 15 gold have have.01 ----- 15:0-rel
 bc/cctv/00/cctv_0003.parse 356 7 gold appeal appeal.01 ----- 0:1-ARGM-DIS 2:1-ARG0 4:1-ARGM-ADV 5:0-ARGM-LVB 6:0-ARGM-ADJ 7:0-rel 8:1-ARGM-ADJ
 bc/cctv/00/cctv_0003.parse 229 8 gold build build.01 ----- 6:1-ARG0 8:0-rel 9:1-ARG1
 bc/cctv/00/cctv_0003.parse 55 8 gold ask ask.03 ----- 7:1-ARG0 8:0-rel 9:1-ARG3
-bc/cctv/00/cctv_0003.parse 49 2 gold be be.01 ----- 0:1-ARGM-DIS 2:0-rel 3:1-ARG1 4:1-ARG2
 bc/cctv/00/cctv_0003.parse 81 11 gold do do.01 ----- 11:0-rel
 bc/cctv/00/cctv_0003.parse 287 4 gold continue continue.01 ----- 3:1-ARG1 4:0-rel 5:1-ARGM-MNR
 bc/cctv/00/cctv_0003.parse 64 2 gold do do.01 ----- 2:0-rel
@@ -528,6 +531,7 @@ bc/cctv/00/cctv_0003.parse 22 17 gold be be.01 ----- 0:1-ARGM-DIS 2:2-ARG1 17:0-
 bc/cctv/00/cctv_0003.parse 356 5 gold make make.LV ----- 5:0-rel 7:0-ARGM-PRR
 bc/cctv/00/cctv_0003.parse 386 8 gold be be.01 ----- 3:1-ARG1 8:0-rel 9:3-ARG2
 bc/cctv/00/cctv_0003.parse 201 3 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARG1 3:0-rel 4:1-ARGM-ADV 5:2-ARG2
+bc/cctv/00/cctv_0003.parse 280 15 gold solve solve.01 ----- 10:1*13:1-ARG0 15:0-rel 16:1-ARG1
 bc/cctv/00/cctv_0003.parse 104 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 bc/cctv/00/cctv_0003.parse 184 10 gold be be.03 ----- 10:0-rel
 bc/cctv/00/cctv_0003.parse 136 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
@@ -540,18 +544,15 @@ bc/cctv/00/cctv_0003.parse 410 10 gold move move.02 ----- 6:1-ARG0 10:0-rel 11:1
 bc/cctv/00/cctv_0003.parse 312 13 gold include include.01 ----- 12:1*16:1-ARG2 13:0-rel 14:1-ARG1
 bc/cctv/00/cctv_0003.parse 219 8 gold lose lose.02 ----- 0:1*5:1-ARG0 8:0-rel 9:1-ARG1 10:1-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 219 7 gold have have.01 ----- 7:0-rel
-bc/cctv/00/cctv_0003.parse 344 12 gold need need.01 ----- 0:1-ARGM-PRD 11:1-ARG0 12:0-rel 13:1-ARG1
+bc/cctv/00/cctv_0003.parse 174 18 gold be be.01 ----- 13:1-ARGM-DIS 16:1-ARG1 18:0-rel 19:1-ARG2 21:1-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 172 9 gold become become.01 ----- 0:1-ARGM-DIS 2:1-ARGM-MNR 6:1-ARG1 8:0-ARGM-MOD 9:0-rel 10:1-ARG2 12:1-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 182 4 gold recognize recognize.02 ----- 0:1-ARGM-DIS 3:1-ARG0 4:0-rel 5:2-ARG1
-bc/cctv/00/cctv_0003.parse 174 17 gold have have.01 ----- 17:0-rel
 bc/cctv/00/cctv_0003.parse 315 3 gold mention mention.01 ----- 0:1-ARGM-TMP 2:1-ARG0 3:0-rel 4:2-ARG1
 bc/cctv/00/cctv_0003.parse 252 1 gold seem seem.01 ----- 0:1*2:2-ARG1 1:0-rel
 bc/cctv/00/cctv_0003.parse 202 12 gold account account.01 ----- 8:2-ARG0 12:0-rel 13:1-ARG1
 bc/cctv/00/cctv_0003.parse 104 4 gold say say.01 ----- 2:1-ARG0 4:0-rel 5:1-ARG1
-bc/cctv/00/cctv_0003.parse 381 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
-bc/cctv/00/cctv_0003.parse 319 50 gold call call.01 ----- 29:2*38:1*51:1-ARG1 29:2*38:1-LINK-SLC 49:1-ARG0 50:0-rel 52:2-ARG2
-bc/cctv/00/cctv_0003.parse 65 7 gold be be.01 ----- 0:1-ARGM-DIS 2:2-ARG1 7:0-rel 8:2-ARG2
 bc/cctv/00/cctv_0003.parse 245 1 gold have have.01 ----- 1:0-rel
+bc/cctv/00/cctv_0003.parse 20 15 gold talk talk.01 ----- 0:1-ARGM-DIS 2:1-ARGM-DIS 4:2,13:1-ARG0 15:0-rel 16:1-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 413 2 gold give give.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG1
 bc/cctv/00/cctv_0003.parse 197 12 gold resolve resolve.01 ----- 10:1-ARG0 12:0-rel 13:2-ARG1
 bc/cctv/00/cctv_0003.parse 272 3 gold think think.01 ----- 0:1-ARGM-DIS 2:1-ARG0 3:0-rel
@@ -564,7 +565,6 @@ bc/cctv/00/cctv_0003.parse 388 5 gold have have.01 ----- 5:0-rel
 bc/cctv/00/cctv_0003.parse 387 26 gold resolve resolve.01 ----- 23:1*27:1-ARG1 24:1-ARG0 26:0-rel
 bc/cctv/00/cctv_0003.parse 42 27 gold take take.10 ----- 22:2-ARG0 26:0-ARGM-MOD 27:0-rel 28:1-ARG1
 bc/cctv/00/cctv_0003.parse 32 20 gold have have.01 ----- 20:0-rel
-bc/cctv/00/cctv_0003.parse 155 18 gold be be.03 ----- 18:0-rel
 bc/cctv/00/cctv_0003.parse 157 3 gold hope hope.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
 bc/cctv/00/cctv_0003.parse 284 10 gold change change.01 ----- 6:1-ARG0 8:1-ARGM-TMP 9:0-ARGM-NEG 10:0-rel 11:1-ARG1
 bc/cctv/00/cctv_0003.parse 82 9 gold have have.01 ----- 9:0-rel
@@ -584,6 +584,7 @@ bc/cctv/00/cctv_0003.parse 278 18 gold develop develop.02 ----- 15:1-ARG0 16:0-A
 bc/cctv/00/cctv_0003.parse 421 10 gold be be.02 ----- 0:1-ARGM-ADV 10:0-rel 11:1-ARGM-TMP 12:1-ARG1
 bc/cctv/00/cctv_0003.parse 77 4 gold have have.01 ----- 4:0-rel
 bc/cctv/00/cctv_0003.parse 174 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-TMP
+bc/cctv/00/cctv_0003.parse 141 8 gold have have.01 ----- 8:0-rel
 bc/cctv/00/cctv_0003.parse 13 9 gold come come.01 ----- 3:1*8:1-ARG1 9:0-rel 10:1-ARG4 13:1-ARGM-PRP
 bc/cctv/00/cctv_0003.parse 196 5 gold be be.01 ----- 0:1-ARGM-DIS 5:0-rel 6:1-ARG2 7:2-ARG1
 bc/cctv/00/cctv_0003.parse 319 15 gold be be.03 ----- 15:0-rel
@@ -591,47 +592,49 @@ bc/cctv/00/cctv_0003.parse 48 61 gold make make.01 ----- 35:2-ARG0 61:0-rel 62:2
 bc/cctv/00/cctv_0003.parse 9 1 gold let let.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 bc/cctv/00/cctv_0003.parse 169 33 gold hope hope.01 ----- 0:1-ARGM-TMP 3:1-ARGM-LOC 19:1-ARGM-DIS 21:1-ARGM-DIS 23:2-ARGM-ADV 31:1-ARG0 32:1-ARGM-ADV 33:0-rel 34:1-ARG1
 bc/cctv/00/cctv_0003.parse 217 11 gold lose lose.02 ----- 5:1-ARG0 7:1-ARGM-DIS 10:1-ARGM-ADV 11:0-rel 12:1-ARG1
-bc/cctv/00/cctv_0003.parse 270 12 gold use use.01 ----- 10:1-ARG0 12:0-rel 13:1-ARG1
 bc/cctv/00/cctv_0003.parse 77 14 gold be be.03 ----- 14:0-rel
 bc/cctv/00/cctv_0003.parse 150 6 gold have have.03 ----- 0:1-ARGM-DIS 2:1-ARGM-TMP 5:1-ARG0 6:0-rel 7:2-ARG1
-bc/cctv/00/cctv_0003.parse 395 13 gold be be.03 ----- 13:0-rel
 bc/cctv/00/cctv_0003.parse 123 4 gold make make.LV ----- 4:0-rel 5:1-ARGM-PRR
 bc/cctv/00/cctv_0003.parse 418 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 bc/cctv/00/cctv_0003.parse 52 10 gold be be.01 ----- 0:1-ARGM-DIS 6:1,9:1-ARG1 10:0-rel 11:3-ARG2
 bc/cctv/00/cctv_0003.parse 370 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-TMP 3:1-ARG2
 bc/cctv/00/cctv_0003.parse 244 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 bc/cctv/00/cctv_0003.parse 199 15 gold be be.01 ----- 3:1-ARGM-TMP 10:2-ARG1 15:0-rel 16:1-ARGM-DIS 20:1-ARG2
-bc/cctv/00/cctv_0003.parse 38 36 gold trip trip.03 ----- 36:0-rel 37:1-ARG1
 bc/cctv/00/cctv_0003.parse 310 28 gold hear hear.01 ----- 27:1-ARG0 28:0-rel 29:1-ARG1
 bc/cctv/00/cctv_0003.parse 328 1 gold break break_down.12 ----- 0:1-ARG1 1:0,2:1-rel 3:1-ARGM-ADV
 bc/cctv/00/cctv_0003.parse 274 14 gold be be.01 ----- 3:1-ARGM-ADV 12:1-ARG1 14:0-rel 15:1-ARG2 17:1-ARGM-TMP
-bc/cctv/00/cctv_0003.parse 423 14 gold connect connect.01 ----- 7:1-ARGM-TMP 8:2*15:1-ARG1 12:0-ARGM-MOD 14:0-rel 16:1-ARG2 22:2-ARGM-ADV
 bc/cctv/00/cctv_0003.parse 56 15 gold make make.LV ----- 15:0-rel 16:1-ARGM-PRR
+bc/cctv/00/cctv_0003.parse 380 1 gold have have.01 ----- 1:0-rel
 bc/cctv/00/cctv_0003.parse 421 2 gold do do.01 ----- 2:0-rel
+bc/cctv/00/cctv_0003.parse 302 9 gold change change.01 ----- 3:2-ARG1 9:0-rel 10:1-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 72 16 gold have have.01 ----- 16:0-rel
-bc/cctv/00/cctv_0003.parse 423 1 gold be be.01 ----- 0:2-ARG1 1:0-rel 2:2-ARG2
 bc/cctv/00/cctv_0003.parse 204 1 gold think think.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/cctv/00/cctv_0003.parse 354 41 gold give give.01 ----- 39:1-ARG0 41:0-rel 42:1-ARG1 44:1-ARG2
 bc/cctv/00/cctv_0003.parse 278 5 gold be be.01 ----- 3:1-ARG1 5:0-rel 6:1-ARG2
 bc/cctv/00/cctv_0003.parse 122 11 gold adopt adopt.01 ----- 7:1*10:1-ARG0 11:0-rel 12:2-ARG1
 bc/cctv/00/cctv_0003.parse 197 3 gold show show.01 ----- 0:1-ARGM-DIS 2:1-ARG0 3:0-rel 4:2-ARG1
 bc/cctv/00/cctv_0003.parse 203 6 gold say say.01 ----- 3:1*7:2-ARG1 4:0-ARGM-MOD 6:0-rel
+bc/cctv/00/cctv_0003.parse 409 3 gold be be.01 ----- 0:1-ARG1 3:0-rel 4:1-ARG2
 bc/cctv/00/cctv_0003.parse 357 19 gold have have.03 ----- 9:1-ARGM-ADV 16:1-ARG0 18:0-ARGM-NEG 19:0-rel 20:2-ARG1
+bc/cctv/00/cctv_0003.parse 280 12 gold want want.01 ----- 0:1-ARGM-DIS 2:1-ARGM-TMP 10:1-ARG0 11:1-ARGM-TMP 12:0-rel 13:2-ARG1
 bc/cctv/00/cctv_0003.parse 295 3 gold regard regard.01 ----- 3:0-rel 4:1-ARG1
-bc/cctv/00/cctv_0003.parse 228 8 gold be be.01 ----- 7:1-ARG1 8:0-rel 9:1-ARG2 11:1-ARGM-MNR
-bc/cctv/00/cctv_0003.parse 158 17 gold resolve resolve.01 ----- 16:1-ARG0 17:0-rel 18:1-ARG1
 bc/cctv/00/cctv_0003.parse 319 40 gold call call.01 ----- 29:2*38:1*41:1-ARG1 29:2*38:1-LINK-SLC 39:1-ARG0 40:0-rel 42:2-ARG2
+bc/cctv/00/cctv_0003.parse 40 28 gold hold hold.04 ----- 20:1-ARGM-LOC 23:1-ARG0 28:0-rel 29:1-ARG1 31:2-ARGM-ADV
 bc/cctv/00/cctv_0003.parse 419 4 gold hope hope.01 ----- 3:1-ARG0 4:0-rel 5:2-ARG1
 bc/cctv/00/cctv_0003.parse 334 38 gold have have.03 ----- 35:1-ARGM-TMP 36:1-ARG0 38:0-rel 39:2-ARG1
 bc/cctv/00/cctv_0003.parse 166 1 gold speculate speculate.01 ----- 0:0-ARGM-ADJ 1:0-rel
+bc/cctv/00/cctv_0003.parse 155 18 gold be be.03 ----- 18:0-rel
 bc/cctv/00/cctv_0003.parse 374 15 gold want want.01 ----- 14:1-ARG0 15:0-rel 16:1-ARG1
 bc/cctv/00/cctv_0003.parse 112 6 gold propose propose.01 ----- 3:1-ARG0 5:1-ARGM-ADV 6:0-rel
+bc/cctv/00/cctv_0003.parse 21 14 gold sign sign.01 ----- 7:2*15:1-ARG1 14:0-rel
 bc/cctv/00/cctv_0003.parse 290 12 gold represent represent.01 ----- 2:1*13:1-ARG1 5:2-ARG0 12:0-rel
 bc/cctv/00/cctv_0003.parse 300 33 gold be be.03 ----- 33:0-rel
 bc/cctv/00/cctv_0003.parse 123 15 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARGM-MNR 8:1-ARGM-ADV 11:1-ARGM-DIS 13:1-ARG1 14:0-ARGM-MOD 15:0-rel 16:1-ARG2
+bc/cctv/00/cctv_0003.parse 327 19 gold own own.01 ----- 19:0-rel 20:1-ARG1
 bc/cctv/00/cctv_0003.parse 2 13 gold arrive arrive.01 ----- 0:1-ARGM-TMP 9:2-ARG1 12:1-ARGM-TMP 13:0-rel 14:1-ARG4 19:1-ARGM-TMP 23:2-ARGM-PRD
 bc/cctv/00/cctv_0003.parse 22 27 gold have have.01 ----- 27:0-rel
 bc/cctv/00/cctv_0003.parse 308 12 gold recognize recognize.02 ----- 0:1-ARG0 12:0-rel 13:3-ARG1
+bc/cctv/00/cctv_0003.parse 330 9 gold return return.02 ----- 5:1*10:1-ARG1 9:0-rel 11:1-ARGM-MNR
 bc/cctv/00/cctv_0003.parse 305 19 gold recognize recognize.02 ----- 16:1-ARG0 18:1-ARGM-ADV 19:0-rel 20:1-ARG1 21:1-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 388 15 gold have have.03 ----- 0:1-ARGM-DIS 2:1-ARGM-ADV 12:1-ARG0 14:0-ARGM-MOD 15:0-rel 16:1-ARG1
 bc/cctv/00/cctv_0003.parse 118 4 gold be be.01 ----- 0:2-ARG1 4:0-rel 5:0-ARGM-NEG 6:2-ARG2
@@ -640,15 +643,15 @@ bc/cctv/00/cctv_0003.parse 330 8 gold be be.03 ----- 8:0-rel
 bc/cctv/00/cctv_0003.parse 320 1 gold surround surround.01 ----- 1:0-rel 2:0,3:0-ARG1
 bc/cctv/00/cctv_0003.parse 334 33 gold seem seem.01 ----- 0:1-ARGM-ADV 27:1-ARGM-DIS 28:1-ARGM-PRD 33:0-rel 34:1-ARG1
 bc/cctv/00/cctv_0003.parse 416 9 gold ceremony ceremony.01 ----- 6:1-ARG1 9:0-rel
-bc/cctv/00/cctv_0003.parse 174 18 gold be be.01 ----- 13:1-ARGM-DIS 16:1-ARG1 18:0-rel 19:1-ARG2 21:1-ARGM-TMP
+bc/cctv/00/cctv_0003.parse 42 12 gold be be.01 ----- 11:1-ARG1 12:0-rel 13:2-ARG2
 bc/cctv/00/cctv_0003.parse 167 10 gold celebrate celebrate.02 ----- 10:0-rel
 bc/cctv/00/cctv_0003.parse 105 3 gold think think.01 ----- 0:1-ARGM-DIS 2:1-ARG0 3:0-rel 4:1-ARG1
 bc/cctv/00/cctv_0003.parse 132 2 gold liken like.02 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:2-ARG1
 bc/cctv/00/cctv_0003.parse 323 8 gold declare declare.01 ----- 3:1*6:1-ARG0 8:0-rel 9:1-ARG1 10:1-ARG3
 bc/cctv/00/cctv_0003.parse 223 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 bc/cctv/00/cctv_0003.parse 265 7 gold tackle tackle.01 ----- 4:1*8:1-ARG1 5:1-ARG0 7:0-rel
-bc/cctv/00/cctv_0003.parse 414 9 gold invest invest.01 ----- 4:1-ARGM-TMP 6:1-ARG0 9:0-rel 10:1-ARG2
 bc/cctv/00/cctv_0003.parse 4 16 gold want want.01 ----- 0:2-ARGM-PRD 15:1-ARG0 16:0-rel 17:2-ARG1
+bc/cctv/00/cctv_0003.parse 223 34 gold have have.01 ----- 34:0-rel
 bc/cctv/00/cctv_0003.parse 363 17 gold lose lose.02 ----- 16:1-ARG0 17:0-rel 18:2-ARG1 24:1-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 115 12 gold do do.01 ----- 12:0-rel
 bc/cctv/00/cctv_0003.parse 38 7 gold do do.01 ----- 7:0-rel
@@ -664,35 +667,34 @@ bc/cctv/00/cctv_0003.parse 321 19 gold have have.01 ----- 19:0-rel
 bc/cctv/00/cctv_0003.parse 25 25 gold want want.01 ----- 18:1-ARGM-DIS 21:1-ARG0 23:0-ARGM-NEG 24:1-ARGM-ADV 25:0-rel 26:2-ARG1
 bc/cctv/00/cctv_0003.parse 42 7 gold have have.03 ----- 2:1-ARG0 7:0-rel 8:1-ARG1
 bc/cctv/00/cctv_0003.parse 297 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
+bc/cctv/00/cctv_0003.parse 107 9 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARGM-ADV 8:1-ARG1 9:0-rel 10:2-ARG2
 bc/cctv/00/cctv_0003.parse 159 20 gold anniversary anniversary.01 ----- 19:0-ARG2 20:0-rel 21:1-ARG1
 bc/cctv/00/cctv_0003.parse 360 3 gold do do.01 ----- 3:0-rel
-bc/cctv/00/cctv_0003.parse 187 2 gold change change.01 ----- 0:1-ARG1 2:0-rel 3:1-ARGM-EXT 5:1-ARGM-ADV
-bc/cctv/00/cctv_0003.parse 395 8 gold normalize normalize.01 ----- 8:0-rel 9:1-ARG1
-bc/cctv/00/cctv_0003.parse 194 23 gold be be.02 ----- 23:0-rel 24:1-ARG1
 bc/cctv/00/cctv_0003.parse 34 43 gold go go.01 ----- 38:1*44:1-ARG2 40:1-ARG1 42:0-ARGM-MOD 43:0-rel
 bc/cctv/00/cctv_0003.parse 113 11 gold propose propose.01 ----- 0:1-ARGM-DIS 2:1-ARGM-DIS 4:2*12:1-ARG1 10:1-ARGM-TMP 11:0-rel 13:1-ARG0
 bc/cctv/00/cctv_0003.parse 338 4 gold be be.01 ----- 3:1-ARG1 4:0-rel 5:1-ARG2 8:1-ARGM-CAU
 bc/cctv/00/cctv_0003.parse 425 12 gold be be.03 ----- 12:0-rel
-bc/cctv/00/cctv_0003.parse 260 1 gold be be.03 ----- 1:0-rel
 bc/cctv/00/cctv_0003.parse 394 4 gold say say.01 ----- 2:1-ARG0 4:0-rel 5:1-ARG1
 bc/cctv/00/cctv_0003.parse 82 10 gold be be.03 ----- 10:0-rel
-bc/cctv/00/cctv_0003.parse 154 5 gold visit visit.01 ----- 0:1*25:1-ARGM-CAU 2:2-ARG0 5:0-rel 6:1-ARG1 7:1-ARGM-ADV 8:1-ARGM-TMP 18:1-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 21 4 gold say say.01 ----- 0:2*5:1-ARG1 2:0-ARGM-MOD 4:0-rel
 bc/cctv/00/cctv_0003.parse 44 13 gold brief brief.01 ----- 4:1*12:1-ARG0 13:0-rel 14:1-ARG1 15:1-ARG2
 bc/cctv/00/cctv_0003.parse 309 21 gold break break.01 ----- 17:1-ARG0 20:1-ARGM-MNR 21:0-rel 22:2-ARG1 27:2-ARGM-ADV
 bc/cctv/00/cctv_0003.parse 39 3 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARG1 3:0-rel 4:1-ARGM-TMP 5:1-ARG2
+bc/cctv/00/cctv_0003.parse 228 4 gold be be.03 ----- 4:0-rel
 bc/cctv/00/cctv_0003.parse 94 22 gold see see.01 ----- 0:1-ARGM-DIS 2:1-ARGM-DIS 4:1-ARGM-DIS 6:1-ARGM-ADV 16:1-ARGM-ADV 18:1-ARGM-LOC 21:1-ARG0 22:0-rel 23:1-ARG1
 bc/cctv/00/cctv_0003.parse 159 2 gold express express.01 ----- 1:1-ARG0 2:0-rel 3:2-ARG1
+bc/cctv/00/cctv_0003.parse 344 12 gold need need.01 ----- 0:1-ARGM-PRD 11:1-ARG0 12:0-rel 13:1-ARG1
 bc/cctv/00/cctv_0003.parse 408 11 gold be be.03 ----- 11:0-rel
-bc/cctv/00/cctv_0003.parse 40 28 gold hold hold.04 ----- 20:1-ARGM-LOC 23:1-ARG0 28:0-rel 29:1-ARG1 31:2-ARGM-ADV
 bc/cctv/00/cctv_0003.parse 169 39 gold talk talk.01 ----- 35:2-ARG0 38:0-ARGM-MOD 39:0-rel 40:1-ARG1 46:1-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 334 17 gold be be.01 ----- 12:1-ARG1 17:0-rel 18:2-ARG2
 bc/cctv/00/cctv_0003.parse 89 19 gold develop develop.02 ----- 14:1*17:1-ARG0 19:0-rel 20:2-ARG1
 bc/cctv/00/cctv_0003.parse 120 8 gold oppose oppose.01 ----- 0:1-ARGM-DIS 2:3-ARG0 8:0-rel 9:2-ARG1
 bc/cctv/00/cctv_0003.parse 127 12 gold make make.LV ----- 12:0-rel 13:1-ARGM-PRR
+bc/cctv/00/cctv_0003.parse 40 3 gold be be.01 ----- 2:1-ARG1 3:0-rel 4:2-ARG2
 bc/cctv/00/cctv_0003.parse 332 27 gold normalize normalize.01 ----- 26:0-ARGM-EXT 27:0-rel 28:1-ARG1
 bc/cctv/00/cctv_0003.parse 346 11 gold do do.01 ----- 11:0-rel
 bc/cctv/00/cctv_0003.parse 163 10 gold turn turn.02 ----- 0:1-ARGM-DIS 2:2-ARG1 10:0-rel 11:1-ARG2
+bc/cctv/00/cctv_0003.parse 94 25 gold look look.02 ----- 24:1-ARG0 25:0-rel 26:1-ARG1 28:1-ARGM-PRD 35:1-ARGM-DIS
 bc/cctv/00/cctv_0003.parse 98 2 gold be be.03 ----- 2:0-rel
 bc/cctv/00/cctv_0003.parse 287 9 gold increase increase.01 ----- 8:1-ARG0 9:0-rel 10:2-ARG1
 bc/cctv/00/cctv_0003.parse 329 7 gold restate restate.01 ----- 0:1-ARGM-TMP 3:1-ARG0 7:0-rel 8:1-ARG1
@@ -708,7 +710,7 @@ bc/cctv/00/cctv_0003.parse 102 8 gold connect connect.01 ----- 0:1-ARGM-ADV 4:1*
 bc/cctv/00/cctv_0003.parse 270 20 gold be be.01 ----- 18:1-ARG1 20:0-rel 21:1-ARG2
 bc/cctv/00/cctv_0003.parse 284 4 gold seem seem.01 ----- 0:1-ARGM-DIS 2:1-ARGM-TMP 4:0-rel 5:1-ARG1
 bc/cctv/00/cctv_0003.parse 148 15 gold be be.01 ----- 6:1*13:1-ARG1 15:0-rel 16:1-ARG2
-bc/cctv/00/cctv_0003.parse 394 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
+bc/cctv/00/cctv_0003.parse 185 13 gold do do.01 ----- 13:0-rel
 bc/cctv/00/cctv_0003.parse 245 3 gold reach reach.02 ----- 0:1-ARG0 2:1-ARGM-EXT 3:0-rel 4:3-ARG1
 bc/cctv/00/cctv_0003.parse 359 43 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARGM-ADV 17:1-ARGM-ADV 39:1-ARG1 43:0-rel 44:1-ARGM-ADV 45:2-ARG2
 bc/cctv/00/cctv_0003.parse 45 1 gold thank thank.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
@@ -716,31 +718,31 @@ bc/cctv/00/cctv_0003.parse 232 6 gold say say.01 ----- 0:1*5:1-ARG0 6:0-rel 7:1-
 bc/cctv/00/cctv_0003.parse 87 4 gold trip trip.03 ----- 4:0-rel
 bc/cctv/00/cctv_0003.parse 252 4 gold be be.01 ----- 0:1*2:1-ARG1 4:0-rel 5:2-ARG2
 bc/cctv/00/cctv_0003.parse 387 17 gold know know.01 ----- 3:1*16:1-ARG0 17:0-rel 18:1-ARG1
-bc/cctv/00/cctv_0003.parse 9 4 gold introduce introduce.01 ----- 2:1-ARG0 3:1-ARGM-MNR 4:0-rel
 bc/cctv/00/cctv_0003.parse 418 12 gold invest invest.01 ----- 9:1-ARG0 11:1-ARGM-TMP 12:0-rel 13:1-ARG2
 bc/cctv/00/cctv_0003.parse 322 6 gold drop drop.01 ----- 0:1-ARGM-TMP 4:1-ARG0 6:0-rel 7:1-ARG1 9:1-ARG4 13:1-ARGM-MNR
 bc/cctv/00/cctv_0003.parse 95 2 gold give give.01 ----- 0:2-ARG0 2:0-rel 3:1-ARG1
 bc/cctv/00/cctv_0003.parse 15 4 gold connect connect.01 ----- 2:1-ARG0 3:1-ARGM-TMP 4:0-rel 5:1-ARG2 7:1-ARG1
+bc/cctv/00/cctv_0003.parse 9 4 gold introduce introduce.01 ----- 2:1-ARG0 3:1-ARGM-MNR 4:0-rel
 bc/cctv/00/cctv_0003.parse 259 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bc/cctv/00/cctv_0003.parse 223 13 gold make make.LV ----- 13:0-rel 17:0-ARGM-PRR
 bc/cctv/00/cctv_0003.parse 217 17 gold enter enter.01 ----- 5:1*15:1-ARG0 5:1*15:1-LINK-PRO 17:0-rel 18:1-ARG1
 bc/cctv/00/cctv_0003.parse 357 5 gold state state.01 ----- 0:1-ARGM-DIS 2:1-ARG0 5:0-rel 6:1-ARGM-MNR 8:1-ARG1
 bc/cctv/00/cctv_0003.parse 48 46 gold talk talk.01 ----- 37:1*40:1,47:1-ARG1 37:1*40:1-LINK-SLC 41:1*44:1-ARG0 46:0-rel
+bc/cctv/00/cctv_0003.parse 342 9 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARGM-DIS 9:0-rel 10:1-ARG2 14:2-ARG1
 bc/cctv/00/cctv_0003.parse 309 34 gold defeat defeat.01 ----- 17:1*27:1-ARG0 34:0-rel 35:1-ARG1
 bc/cctv/00/cctv_0003.parse 380 2 gold foresee foresee.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 bc/cctv/00/cctv_0003.parse 276 2 gold invest invest.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel
 bc/cctv/00/cctv_0003.parse 384 4 gold incarnate incarnate.01 ----- 3:0-ARGM-TMP 4:0-rel
 bc/cctv/00/cctv_0003.parse 57 17 gold make make.LV ----- 17:0-rel 18:1-ARGM-PRR
 bc/cctv/00/cctv_0003.parse 48 67 gold anticipate anticipate.01 ----- 62:1*64:1*68:1-ARG1 62:1*64:1-LINK-SLC 65:1-ARG0 67:0-rel
+bc/cctv/00/cctv_0003.parse 276 6 gold give give.01 ----- 4:1-ARG0 5:0-ARGM-MOD 6:0-rel 7:1-ARG2 8:1-ARG1 9:2-ARGM-PRP
+bc/cctv/00/cctv_0003.parse 55 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 bc/cctv/00/cctv_0003.parse 80 23 gold come come.01 ----- 14:1*21:1-ARG1 23:0-rel
 bc/cctv/00/cctv_0003.parse 79 23 gold promote promote.01 ----- 17:2*24:1-ARG1 20:0-ARGM-MOD 22:1-ARGM-EXT 23:0-rel
-bc/cctv/00/cctv_0003.parse 344 16 gold need need.01 ----- 0:1-ARGM-PRD 11:1-ARG0 16:0-rel 17:2-ARG1
 bc/cctv/00/cctv_0003.parse 27 9 gold say say.01 ----- 0:1-ARGM-DIS 2:1-ARGM-DIS 5:2*10:1-ARG1 7:0-ARGM-MOD 9:0-rel
-bc/cctv/00/cctv_0003.parse 67 18 gold trade trade.01 ----- 18:0-rel
 bc/cctv/00/cctv_0003.parse 188 25 gold separate separate.01 ----- 24:1-ARG0 25:0-rel 26:1-ARG1 27:1-ARG2
 bc/cctv/00/cctv_0003.parse 238 5 gold mention mention.01 ----- 2:1-ARGM-TMP 4:1-ARG0 5:0-rel 6:2-ARG1
 bc/cctv/00/cctv_0003.parse 261 4 gold be be.03 ----- 4:0-rel
-bc/cctv/00/cctv_0003.parse 176 8 gold separate separate.01 ----- 8:0-rel 9:1-ARG1
 bc/cctv/00/cctv_0003.parse 34 34 gold remain remain.01 ----- 0:1-ARGM-DIS 2:1-ARGM-CAU 30:1-ARGM-DIS 34:0-rel 35:1-ARG3 38:2-ARG1
 bc/cctv/00/cctv_0003.parse 46 5 gold return return.01 ----- 0:1-ARGM-DIS 2:1-ARGM-TMP 3:1-ARG1 4:0-ARGM-MOD 5:0-rel 6:1-ARG4 9:2-ARGM-PRP
 bc/cctv/00/cctv_0003.parse 294 3 gold focus focus.01 ----- 3:0-rel 4:1,7:0-ARG1
@@ -753,30 +755,29 @@ bc/cctv/00/cctv_0003.parse 313 3 gold unravel unravel.01 ----- 2:1-ARG0 3:0-rel 
 bc/cctv/00/cctv_0003.parse 94 33 gold sign sign.01 ----- 31:1*34:1-ARG1 33:0-rel
 bc/cctv/00/cctv_0003.parse 185 15 gold seize seize.01 ----- 11:1-ARG0 12:1-ARGM-TMP 14:0-ARGM-NEG 15:0-rel 16:1-ARG1
 bc/cctv/00/cctv_0003.parse 5 12 gold untie untie.01 ----- 2:1*14:1-ARGM-MNR 3:0-ARGM-MOD 4:1*13:1-ARG1 12:0-rel
+bc/cctv/00/cctv_0003.parse 223 17 gold invest invest.01 ----- 11:1-ARG0 13:0-ARGM-LVB 15:1-ARGM-ADJ 17:0-rel 18:1-ARG2
+bc/cctv/00/cctv_0003.parse 109 20 gold say say.01 ----- 18:1-ARG0 20:0-rel 21:1-ARG1
 bc/cctv/00/cctv_0003.parse 333 9 gold have have.01 ----- 9:0-rel
 bc/cctv/00/cctv_0003.parse 63 2 gold provide provide.01 ----- 0:1-ARG0 1:1-ARGM-ADV 2:0-rel 3:1-ARG2 4:1-ARG1
 bc/cctv/00/cctv_0003.parse 235 3 gold see see.01 ----- 2:1*4:1-ARG1 3:0-rel 5:1-ARGM-DIR
 bc/cctv/00/cctv_0003.parse 366 22 gold be be.01 ----- 17:1-ARGM-PRP 21:1-ARG1 22:0-rel 23:2-ARG2
 bc/cctv/00/cctv_0003.parse 69 13 gold think think.01 ----- 0:1-ARGM-DIS 5:1-ARGM-ADV 9:1-ARGM-TMP 12:1-ARG0 13:0-rel 14:1-ARG1
+bc/cctv/00/cctv_0003.parse 138 1 gold drop drop.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/cctv/00/cctv_0003.parse 170 5 gold be be.01 ----- 0:1-ARGM-DIS 2:2-ARG1 5:0-rel 7:1-ARGM-DIS 9:2-ARG2
 bc/cctv/00/cctv_0003.parse 359 30 gold own own.01 ----- 30:0-rel
-bc/cctv/00/cctv_0003.parse 337 5 gold lead lead.03 ----- 0:1-ARGM-DIS 2:0-ARGM-MOD 3:1-ARG0 5:0-rel 6:1-ARG2
-bc/cctv/00/cctv_0003.parse 418 10 gold have have.01 ----- 10:0-rel
 bc/cctv/00/cctv_0003.parse 92 1 gold have have.03 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
-bc/cctv/00/cctv_0003.parse 406 15 gold do do.01 ----- 15:0-rel
 bc/cctv/00/cctv_0003.parse 275 9 gold do do.02 ----- 0:2-ARGM-TMP 7:1-ARG0 8:1-ARGM-ADV 9:0-rel 10:1-ARG1
-bc/cctv/00/cctv_0003.parse 379 2 gold benefit benefit.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG1
+bc/cctv/00/cctv_0003.parse 377 6 gold benefit benefit.01 ----- 1:1*4:1-ARG0 6:0-rel 7:1-ARG1
 bc/cctv/00/cctv_0003.parse 399 29 gold achieve achieve.01 ----- 22:1-ARG0 27:0-ARGM-MOD 28:1-ARGM-TMP 29:0-rel 30:2-ARG1
+bc/cctv/00/cctv_0003.parse 319 50 gold call call.01 ----- 29:2*38:1*51:1-ARG1 29:2*38:1-LINK-SLC 49:1-ARG0 50:0-rel 52:2-ARG2
 bc/cctv/00/cctv_0003.parse 229 17 gold make make.02 ----- 16:1-ARG0 17:0-rel 18:3-ARG1
 bc/cctv/00/cctv_0003.parse 194 8 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARGM-ADV 5:1-ARG1 8:0-rel 9:2-ARG2
 bc/cctv/00/cctv_0003.parse 309 4 gold be be.02 ----- 0:1-ARGM-DIS 2:1-ARGM-TMP 4:0-rel 5:3-ARG1
 bc/cctv/00/cctv_0003.parse 387 14 gold operate operate.01 ----- 13:0-ARGM-MNR 14:0-rel
 bc/cctv/00/cctv_0003.parse 2 3 gold postpone postpone.01 ----- 1:1*9:2-ARG0 2:1-ARGM-MNR 3:0-rel 4:2-ARG1
 bc/cctv/00/cctv_0003.parse 156 2 gold be be.03 ----- 2:0-rel
-bc/cctv/00/cctv_0003.parse 188 32 gold make make.LV ----- 32:0-rel 33:1-ARGM-PRR
 bc/cctv/00/cctv_0003.parse 129 4 gold have have.03 ----- 0:1-ARG0 3:0-ARGM-NEG 4:0-rel 5:1-ARG1
 bc/cctv/00/cctv_0003.parse 88 1 gold be be.01 ----- 0:1*4:1-ARG2 1:0-rel 2:1-ARG1
-bc/cctv/00/cctv_0003.parse 414 8 gold have have.01 ----- 8:0-rel
 bc/cctv/00/cctv_0003.parse 335 13 gold talk talk.01 ----- 7:1-ARGM-TMP 9:1-ARG0 12:1-ARGM-DIS 13:0-rel 14:1-ARG1
 bc/cctv/00/cctv_0003.parse 299 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bc/cctv/00/cctv_0003.parse 368 2 gold seem seem.01 ----- 0:1-ARGM-TMP 1:1*3:2-ARG1 2:0-rel
@@ -785,36 +786,34 @@ bc/cctv/00/cctv_0003.parse 288 11 gold mention mention.01 ----- 0:1-ARGM-DIS 5:1
 bc/cctv/00/cctv_0003.parse 321 8 gold be be.01 ----- 0:2-ARG1 7:1-ARGM-TMP 8:0-rel 9:3-ARG2
 bc/cctv/00/cctv_0003.parse 3 12 gold be be.01 ----- 7:1-ARG1 12:0-rel 13:1-ARGM-TMP 14:2-ARG2
 bc/cctv/00/cctv_0003.parse 387 1 gold think think.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+bc/cctv/00/cctv_0003.parse 260 1 gold be be.03 ----- 1:0-rel
 bc/cctv/00/cctv_0003.parse 69 18 gold remain remain.01 ----- 15:1-ARG1 18:0-rel 19:1-ARG3
 bc/cctv/00/cctv_0003.parse 156 4 gold schedule schedule.01 ----- 0:1*5:1-ARG1 3:1-ARGM-TMP 4:0-rel 6:1-ARG3
+bc/cctv/00/cctv_0003.parse 164 21 gold say say.01 ----- 20:1-ARG0 21:0-rel 22:1-ARG1
+bc/cctv/00/cctv_0003.parse 327 7 gold promise promise.01 ----- 4:1-ARG0 7:0-rel 8:2-ARG2
 bc/cctv/00/cctv_0003.parse 15 24 gold visit visit.01 ----- 8:2*20:1*21:1-ARG0 8:2*20:1-LINK-SLC 23:1-ARGM-TMP 24:0-rel 25:1-ARG1
+bc/cctv/00/cctv_0003.parse 38 39 gold have have.01 ----- 39:0-rel
 bc/cctv/00/cctv_0003.parse 260 8 gold be be.01 ----- 7:1-ARG1 8:0-rel 9:0-ARGM-NEG 10:1-ARG2
 bc/cctv/00/cctv_0003.parse 349 4 gold be be.03 ----- 4:0-rel
+bc/cctv/00/cctv_0003.parse 144 1 gold have have.03 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/cctv/00/cctv_0003.parse 58 4 gold be be.03 ----- 4:0-rel
 bc/cctv/00/cctv_0003.parse 299 9 gold change change.01 ----- 3:1-ARGM-MNR 7:1-ARG1 9:0-rel 10:1-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 269 5 gold bring bring.01 ----- 0:1*4:1-ARG0 5:0-rel 6:3-ARG1 16:1-ARG2
 bc/cctv/00/cctv_0003.parse 157 20 gold intervene intervene.01 ----- 5:1-ARGM-TMP 17:1-ARG0 18:0-ARGM-MOD 19:1-ARGM-MNR 20:0-rel 21:1-ARG1
 bc/cctv/00/cctv_0003.parse 143 6 gold formulate formulate.01 ----- 0:1*3:1-ARG0 1:1-ARGM-TMP 5:1-ARGM-MNR 6:0-rel 7:2-ARG1
-bc/cctv/00/cctv_0003.parse 185 13 gold do do.01 ----- 13:0-rel
 bc/cctv/00/cctv_0003.parse 80 2 gold be be.02 ----- 1:0-ARGM-MOD 2:0-rel 3:2-ARG1 8:2-ARGM-PRD
-bc/cctv/00/cctv_0003.parse 331 9 gold have have.01 ----- 9:0-rel
 bc/cctv/00/cctv_0003.parse 77 30 gold be be.01 ----- 29:1-ARG1 30:0-rel 31:2-ARG2
 bc/cctv/00/cctv_0003.parse 197 8 gold be be.01 ----- 4:1*9:1-ARG2 7:1*10:2-ARG1 8:0-rel
-bc/cctv/00/cctv_0003.parse 377 6 gold benefit benefit.01 ----- 1:1*4:1-ARG0 6:0-rel 7:1-ARG1
-bc/cctv/00/cctv_0003.parse 289 25 gold come come.01 ----- 22:1*26:1-ARGM-TMP 23:1-ARG1 25:0-rel
 bc/cctv/00/cctv_0003.parse 407 6 gold do do.01 ----- 6:0-rel
 bc/cctv/00/cctv_0003.parse 87 2 gold make make.18 ----- 1:1-ARG0 2:0-rel 3:1-ARG1
-bc/cctv/00/cctv_0003.parse 297 8 gold involve involve.01 ----- 7:1-ARG2 8:0-rel 9:2-ARG1
+bc/cctv/00/cctv_0003.parse 164 9 gold visit visit.01 ----- 7:1-ARG0 8:0-ARGM-MOD 9:0-rel 10:1-ARG1 11:1-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 48 42 gold want want.01 ----- 41:1-ARG0 42:0-rel 43:1-ARGM-EXT 44:2-ARG1
-bc/cctv/00/cctv_0003.parse 22 37 gold be be.01 ----- 36:1-ARG1 37:0-rel 38:1-ARG2
-bc/cctv/00/cctv_0003.parse 109 17 gold be be.01 ----- 16:1-ARG1 17:0-rel 18:2-ARG2
-bc/cctv/00/cctv_0003.parse 155 4 gold say say.01 ----- 0:2*5:1-ARG1 2:0-ARGM-MOD 4:0-rel
+bc/cctv/00/cctv_0003.parse 279 5 gold be be.03 ----- 5:0-rel
+bc/cctv/00/cctv_0003.parse 85 7 gold want want.01 ----- 2:2*8:1-ARG1 6:1-ARG0 7:0-rel
+bc/cctv/00/cctv_0003.parse 40 15 gold see see.01 ----- 9:1-ARGM-DIS 11:1-ARGM-DIS 13:1-ARG0 14:1-ARGM-ADV 15:0-rel 17:1-ARGM-DIS 19:1-ARG1
 bc/cctv/00/cctv_0003.parse 31 25 gold be be.01 ----- 22:2-ARG1 25:0-rel 26:1-ARG2
 bc/cctv/00/cctv_0003.parse 101 36 gold obtain obtain.01 ----- 0:1-ARGM-ADV 11:1,22:2-ARG0 36:0-rel 37:2-ARG1 41:1-ARGM-MNR
-bc/cctv/00/cctv_0003.parse 217 3 gold think think.01 ----- 0:1-ARGM-DIS 2:1-ARG0 3:0-rel 4:1-ARG1
-bc/cctv/00/cctv_0003.parse 336 15 gold propose propose.01 ----- 13:1-ARG0 15:0-rel 16:2-ARG1
 bc/cctv/00/cctv_0003.parse 204 11 gold be be.01 ----- 3:2-ARG1 11:0-rel 12:1-ARGM-TMP 13:1-ARG2
-bc/cctv/00/cctv_0003.parse 123 5 gold invest invest.01 ----- 3:1-ARG0 4:0-ARGM-LVB 5:0-rel 6:1-ARGM-LOC
 bc/cctv/00/cctv_0003.parse 323 2 gold ask ask.02 ----- 0:1-ARG0 2:0-rel 3:1-ARG2 6:2-ARG1
 bc/cctv/00/cctv_0003.parse 56 16 gold concede concede.01 ----- 5:1*8:1*13:1-ARG0 15:0-ARGM-LVB 16:0-rel 17:1-ARGM-ADJ
 bc/cctv/00/cctv_0003.parse 60 24 gold make make.18 ----- 17:1*21:1*23:1-ARG0 24:0-rel 25:1-ARG1
@@ -822,62 +821,63 @@ bc/cctv/00/cctv_0003.parse 105 16 gold concede concede.01 ----- 14:1-ARG0 16:0-r
 bc/cctv/00/cctv_0003.parse 273 10 gold seem seem.01 ----- 0:1-ARGM-DIS 2:1-ARGM-ADV 7:1*11:2-ARG1 9:1-ARGM-TMP 10:0-rel
 bc/cctv/00/cctv_0003.parse 127 8 gold be be.01 ----- 0:1-ARGM-DIS 1:2-ARG1 6:0-ARGM-MOD 7:0-ARGM-NEG 8:0-rel 9:1-ARG2 14:1-ARGM-ADV
 bc/cctv/00/cctv_0003.parse 80 15 gold refuse refuse.01 ----- 14:1-ARG0 15:0-rel 16:2-ARG1
+bc/cctv/00/cctv_0003.parse 73 4 gold be be.03 ----- 4:0-rel
+bc/cctv/00/cctv_0003.parse 349 5 gold see see.01 ----- 0:1-ARGM-DIS 2:1*6:1-ARG1 3:0-ARGM-MOD 5:0-rel 7:1-ARGM-PRD
 bc/cctv/00/cctv_0003.parse 118 3 gold react react.01 ----- 0:1-ARG0 2:0-ARGM-TMP 3:0-rel
 bc/cctv/00/cctv_0003.parse 309 15 gold believe believe.01 ----- 11:1-ARGM-DIS 14:1-ARG0 15:0-rel 16:1-ARG1
 bc/cctv/00/cctv_0003.parse 259 8 gold be be.02 ----- 8:0-rel 9:1-ARG1 12:1-ARGM-ADV
 bc/cctv/00/cctv_0003.parse 203 27 gold do do.01 ----- 27:0-rel
+bc/cctv/00/cctv_0003.parse 262 1 gold have have.01 ----- 1:0-rel
 bc/cctv/00/cctv_0003.parse 115 2 gold be be.03 ----- 2:0-rel
 bc/cctv/00/cctv_0003.parse 377 3 gold seem seem.01 ----- 0:1-ARGM-TMP 1:1*4:2-ARG1 2:0-ARGM-MOD 3:0-rel
 bc/cctv/00/cctv_0003.parse 425 14 gold explore explore.01 ----- 0:1-ARGM-DIS 3:1-ARGM-ADV 11:1-ARG0 13:1-ARGM-TMP 14:0-rel 15:1-ARG1
-bc/cctv/00/cctv_0003.parse 72 11 gold do do.01 ----- 11:0-rel
+bc/cctv/00/cctv_0003.parse 174 17 gold have have.01 ----- 17:0-rel
 bc/cctv/00/cctv_0003.parse 289 66 gold protest protest.01 ----- 52:3*64:1-ARG0 52:3*64:1-LINK-PRO 66:0-rel 67:1-ARG1
 bc/cctv/00/cctv_0003.parse 299 8 gold have have.01 ----- 8:0-rel
+bc/cctv/00/cctv_0003.parse 116 8 gold propose propose.01 ----- 0:1-ARGM-DIS 2:1*17:1-ARGM-CAU 4:1-ARG0 6:1-ARGM-TMP 7:1-ARGM-TMP 8:0-rel 12:1-ARGM-DIS 14:1-ARG1
+bc/cctv/00/cctv_0003.parse 307 4 gold recognize recognize.02 ----- 0:1-ARG0 4:0-rel 5:1-ARG1
 bc/cctv/00/cctv_0003.parse 321 25 gold untie untie.01 ----- 22:1*26:1-ARG1 23:1-ARG0 25:0-rel
 bc/cctv/00/cctv_0003.parse 382 3 gold propose propose.01 ----- 0:1*4:1-ARG1 2:1-ARGM-TMP 3:0-rel 5:1-ARG0
-bc/cctv/00/cctv_0003.parse 357 24 gold spare spare.01 ----- 20:1*21:1*25:1-ARG1 20:1*21:1-LINK-SLC 22:1-ARG0 24:0-rel
-bc/cctv/00/cctv_0003.parse 141 8 gold have have.01 ----- 8:0-rel
+bc/cctv/00/cctv_0003.parse 395 13 gold be be.03 ----- 13:0-rel
 bc/cctv/00/cctv_0003.parse 229 5 gold be be.01 ----- 0:3;13:2-ARG1 5:0-rel 6:2-ARG2
-bc/cctv/00/cctv_0003.parse 302 9 gold change change.01 ----- 3:2-ARG1 9:0-rel 10:1-ARGM-TMP
+bc/cctv/00/cctv_0003.parse 38 36 gold trip trip.03 ----- 36:0-rel 37:1-ARG1
 bc/cctv/00/cctv_0003.parse 410 4 gold show show.01 ----- 0:1-ARGM-DIS 2:1-ARG0 4:0-rel 5:1-ARG1
+bc/cctv/00/cctv_0003.parse 123 5 gold invest invest.01 ----- 3:1-ARG0 4:0-ARGM-LVB 5:0-rel 6:1-ARGM-LOC
 bc/cctv/00/cctv_0003.parse 354 38 gold mean mean.02 ----- 26:0-ARG1 27:1-ARGM-LOC 38:0-rel 39:2-ARG2
+bc/cctv/00/cctv_0003.parse 79 14 gold develop develop.02 ----- 9:2*15:1-ARG1 12:0-ARGM-MOD 14:0-rel
 bc/cctv/00/cctv_0003.parse 59 10 gold talk talk.01 ----- 7:1-ARG0 8:0-ARGM-MOD 9:0-ARGM-NEG 10:0-rel 11:1-ARG1 14:1-ARGM-ADV
-bc/cctv/00/cctv_0003.parse 313 18 gold cut cut.01 ----- 18:0-rel
 bc/cctv/00/cctv_0003.parse 64 11 gold remedy remedy.01 ----- 3:1*5:1*9:1-ARG0 11:0-rel 12:1-ARG1
 bc/cctv/00/cctv_0003.parse 85 13 gold matter matter.02 ----- 13:0-rel
 bc/cctv/00/cctv_0003.parse 363 18 gold hold hold.01 ----- 18:0-rel 19:1-ARG1
+bc/cctv/00/cctv_0003.parse 344 16 gold need need.01 ----- 0:1-ARGM-PRD 11:1-ARG0 16:0-rel 17:2-ARG1
+bc/cctv/00/cctv_0003.parse 265 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2
 bc/cctv/00/cctv_0003.parse 79 21 gold be be.03 ----- 21:0-rel
 bc/cctv/00/cctv_0003.parse 158 29 gold push push.01 ----- 23:3*30:1-ARG1 29:0-rel 31:1-ARG2
-bc/cctv/00/cctv_0003.parse 94 25 gold look look.02 ----- 24:1-ARG0 25:0-rel 26:1-ARG1 28:1-ARGM-PRD 35:1-ARGM-DIS
+bc/cctv/00/cctv_0003.parse 31 29 gold be be.01 ----- 28:1-ARG1 29:0-rel 30:1-ARG2
+bc/cctv/00/cctv_0003.parse 220 6 gold be be.01 ----- 0:1-ARGM-DIS 4:1-ARG1 6:0-rel 7:2-ARG2
 bc/cctv/00/cctv_0003.parse 87 5 gold be be.01 ----- 0:0-ARGM-DIS 1:2-ARG1 5:0-rel 6:1-ARG2 7:1-ARGM-ADV
 bc/cctv/00/cctv_0003.parse 37 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 bc/cctv/00/cctv_0003.parse 33 14 gold urge urge.01 ----- 0:1-ARGM-DIS 2:1-ARGM-DIS 5:1-ARGM-LOC 11:2-ARG0 14:0-rel 15:1-ARG1 19:2-ARG2
-bc/cctv/00/cctv_0003.parse 346 8 gold improve improve.01 ----- 4:1-ARG1 7:1-ARGM-MNR 8:0-rel
-bc/cctv/00/cctv_0003.parse 79 14 gold develop develop.02 ----- 9:2*15:1-ARG1 12:0-ARGM-MOD 14:0-rel
-bc/cctv/00/cctv_0003.parse 276 6 gold give give.01 ----- 4:1-ARG0 5:0-ARGM-MOD 6:0-rel 7:1-ARG2 8:1-ARG1 9:2-ARGM-PRP
+bc/cctv/00/cctv_0003.parse 414 8 gold have have.01 ----- 8:0-rel
 bc/cctv/00/cctv_0003.parse 163 17 gold explain explain.01 ----- 12:1*14:1*18:1-ARG1 12:1*14:1-LINK-SLC 15:1-ARG0 16:0-ARGM-MOD 17:0-rel
 bc/cctv/00/cctv_0003.parse 298 12 gold involve involve.01 ----- 5:1-ARG0 12:0-rel 13:1-ARG1
 bc/cctv/00/cctv_0003.parse 157 7 gold win win.01 ----- 6:1-ARG0 7:0-rel 8:1-ARG2 11:1-ARGM-TMP
-bc/cctv/00/cctv_0003.parse 409 3 gold be be.01 ----- 0:1-ARG1 3:0-rel 4:1-ARG2
-bc/cctv/00/cctv_0003.parse 54 9 gold put put_off.06 ----- 5:1*8:1-ARG0 9:0,10:1-rel 11:2-ARG1 15:1-ARG2
 bc/cctv/00/cctv_0003.parse 327 14 gold confer confer.01 ----- 12:0-ARGM-ADJ 13:0-ARGM-ADJ 14:0-rel
+bc/cctv/00/cctv_0003.parse 337 5 gold lead lead.03 ----- 0:1-ARGM-DIS 2:0-ARGM-MOD 3:1-ARG0 5:0-rel 6:1-ARG2
+bc/cctv/00/cctv_0003.parse 418 10 gold have have.01 ----- 10:0-rel
+bc/cctv/00/cctv_0003.parse 379 2 gold benefit benefit.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG1
 bc/cctv/00/cctv_0003.parse 374 25 gold enter enter.01 ----- 13:1-ARGM-ADV 19:2-ARG0 24:0-ARGM-MOD 25:0-rel 26:1-ARG1
 bc/cctv/00/cctv_0003.parse 109 33 gold be be.03 ----- 33:0-rel
 bc/cctv/00/cctv_0003.parse 60 19 gold be be.03 ----- 19:0-rel
-bc/cctv/00/cctv_0003.parse 20 26 gold sign sign.01 ----- 0:1-ARGM-DIS 2:1-ARGM-DIS 4:2*13:1-ARG0 26:0-rel 27:2-ARG1
-bc/cctv/00/cctv_0003.parse 144 1 gold have have.03 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 bc/cctv/00/cctv_0003.parse 248 2 gold have have.03 ----- 0:1-ARGM-LOC 1:1-ARG0 2:0-rel 3:1-ARG1
 bc/cctv/00/cctv_0003.parse 115 14 gold accept accept.01 ----- 11:1-ARG0 13:0-ARGM-NEG 14:0-rel 15:1-ARG1 16:1-ARGM-TMP
-bc/cctv/00/cctv_0003.parse 134 5 gold propose propose.01 ----- 3:1-ARG0 5:0-rel 6:1-ARG1
 bc/cctv/00/cctv_0003.parse 302 16 gold be be.02 ----- 16:0-rel 17:1-ARG1
+bc/cctv/00/cctv_0003.parse 187 2 gold change change.01 ----- 0:1-ARG1 2:0-rel 3:1-ARGM-EXT 5:1-ARGM-ADV
 bc/cctv/00/cctv_0003.parse 109 3 gold seem seem.01 ----- 0:1-ARGM-DIS 3:0-rel 4:1-ARG1
 bc/cctv/00/cctv_0003.parse 223 12 gold have have.01 ----- 12:0-rel
-bc/cctv/00/cctv_0003.parse 423 13 gold be be.03 ----- 13:0-rel
-bc/cctv/00/cctv_0003.parse 225 4 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARGM-TMP 3:1-ARG1 4:0-rel 5:1-ARG2 9:1-ARGM-TMP
 bc/cctv/00/cctv_0003.parse 226 10 gold be be.01 ----- 9:1-ARG1 10:0-rel 11:1-ARG2
 bc/cctv/00/cctv_0003.parse 143 4 gold have have.01 ----- 4:0-rel
 bc/cctv/00/cctv_0003.parse 3 24 gold visit visit.01 ----- 17:1*23:1-ARG0 24:0-rel 25:1-ARG1
-bc/cctv/00/cctv_0003.parse 346 16 gold take take.01 ----- 10:1*14:1-ARG0 16:0-rel 17:1-ARG1
-bc/cctv/00/cctv_0003.parse 280 15 gold solve solve.01 ----- 10:1*13:1-ARG0 15:0-rel 16:1-ARG1
 bc/cctv/00/cctv_0003.parse 109 9 gold be be.01 ----- 7:0-ARGM-MOD 8:1-ARGM-ADV 9:0-rel 10:1-ARG2 12:1-ARG1
 bc/cctv/00/cctv_0003.parse 42 15 gold say say.01 ----- 13:1-ARG0 15:0-rel 16:1-ARG1
 bc/cctv/00/cctv_0003.parse 166 2 gold exist exist.01 ----- 0:1-ARG1 2:0-rel 3:1-ARGM-TMP 7:1-ARGM-LOC

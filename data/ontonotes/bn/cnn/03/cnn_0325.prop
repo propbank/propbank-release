@@ -8,17 +8,17 @@ bn/cnn/03/cnn_0325.parse 6 7 gold make make.LV ----- 7:0-rel 10:0-ARGM-PRR
 bn/cnn/03/cnn_0325.parse 5 4 gold meet meet.03 ----- 4:0-rel 5:1-ARG1 7:1-ARGM-LOC 10:2-ARG0
 bn/cnn/03/cnn_0325.parse 10 1 gold be be.03 ----- 1:0-rel
 bn/cnn/03/cnn_0325.parse 8 2 gold bring bring.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG2 4:1-ARG1 6:2-ARGM-TMP
-bn/cnn/03/cnn_0325.parse 10 2 gold join join.04 ----- 0:1-ARG0 2:0-rel 3:1-ARG1 4:1-ARGM-MNR
 bn/cnn/03/cnn_0325.parse 5 28 gold look look.01 ----- 26:1-ARG0 28:0-rel 29:1-ARG1
 bn/cnn/03/cnn_0325.parse 7 5 gold wait wait.01 ----- 0:1-ARGM-TMP 2:1-ARG1 4:1-ARGM-DIS 5:0-rel 6:2-ARG2
-bn/cnn/03/cnn_0325.parse 8 26 gold move move.02 ----- 26:0-rel 27:1-ARG0 30:1-ARGM-TMP
-bn/cnn/03/cnn_0325.parse 8 15 gold get get.05 ----- 13:1-ARG1 14:0-ARGM-MOD 15:0-rel 16:1-ARG2 20:1-ARGM-TMP
-bn/cnn/03/cnn_0325.parse 6 23 gold combat combat.01 ----- 22:0-ARGM-ADJ 23:0-rel 24:1-ARGM-LOC
-bn/cnn/03/cnn_0325.parse 8 35 gold save save.02 ----- 33:1-ARG0 35:0-rel 36:2-ARG1
-bn/cnn/03/cnn_0325.parse 4 5 gold be be.01 ----- 4:1-ARG1 5:0-rel 6:1-ARG2
-bn/cnn/03/cnn_0325.parse 3 1 gold be be.03 ----- 1:0-rel
-bn/cnn/03/cnn_0325.parse 2 4 gold report report.01 ----- 2:1-ARG0 4:0-rel
-bn/cnn/03/cnn_0325.parse 8 31 gold design design.01 ----- 25:2*32:1-ARG1 25:2*32:1-LINK-PSV 31:0-rel 33:2-ARG3
-bn/cnn/03/cnn_0325.parse 4 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bn/cnn/03/cnn_0325.parse 8 10 gold get get.01 ----- 9:1-ARG0 10:0-rel 11:1-ARG1
+bn/cnn/03/cnn_0325.parse 10 2 gold join join.04 ----- 0:1-ARG0 2:0-rel 3:1-ARG1 4:1-ARGM-MNR
+bn/cnn/03/cnn_0325.parse 8 15 gold get get.05 ----- 13:1-ARG1 14:0-ARGM-MOD 15:0-rel 16:1-ARG2 20:1-ARGM-TMP
 bn/cnn/03/cnn_0325.parse 6 10 gold announce announce.01 ----- 0:1-ARGM-DIR 4:1-ARG0 6:0-ARGM-MOD 7:0-ARGM-LVB 9:0-ARGM-ADJ 10:0-rel 11:1-ARG2 15:1*18:1-ARG3 16:1-ARGM-TMP
+bn/cnn/03/cnn_0325.parse 6 23 gold combat combat.01 ----- 22:0-ARGM-ADJ 23:0-rel 24:1-ARGM-LOC
+bn/cnn/03/cnn_0325.parse 2 4 gold report report.01 ----- 2:1-ARG0 4:0-rel
+bn/cnn/03/cnn_0325.parse 4 5 gold be be.01 ----- 4:1-ARG1 5:0-rel 6:1-ARG2
+bn/cnn/03/cnn_0325.parse 8 31 gold design design.01 ----- 25:2*32:1-ARG1 25:2*32:1-LINK-PSV 31:0-rel 33:2-ARG3
+bn/cnn/03/cnn_0325.parse 8 35 gold save save.02 ----- 33:1-ARG0 35:0-rel 36:2-ARG1
+bn/cnn/03/cnn_0325.parse 3 1 gold be be.03 ----- 1:0-rel
+bn/cnn/03/cnn_0325.parse 8 26 gold move move.02 ----- 26:0-rel 27:1-ARG0 30:1-ARGM-TMP
+bn/cnn/03/cnn_0325.parse 4 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2

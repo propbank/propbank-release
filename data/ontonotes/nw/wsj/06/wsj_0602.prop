@@ -1,16 +1,17 @@
 nw/wsj/06/wsj_0602.parse 30 33 gold cap cap.01 ----- 32:0-ARG1 33:0-rel
 nw/wsj/06/wsj_0602.parse 27 16 gold cap cap.01 ----- 15:0-ARG1 16:0-rel
+nw/wsj/06/wsj_0602.parse 1 16 gold do do.01 ----- 16:0-rel
+nw/wsj/06/wsj_0602.parse 30 13 gold price price.01 ----- 0:2*14:1-ARG1 0:2*14:1-LINK-PSV 13:0-rel 15:1-ARG2
 nw/wsj/06/wsj_0602.parse 15 3 gold be be.01 ----- 0:1-ARG1 3:0-rel 4:1-ARG2
 nw/wsj/06/wsj_0602.parse 21 15 gold quote quote.01 ----- 15:0-rel 16:1-ARGM-LOC
+nw/wsj/06/wsj_0602.parse 14 4 gold pay pay.01 ----- 2:1*5:1-ARG1 2:1*5:1-LINK-PSV 4:0-rel 6:1-ARG0 11:1,20:1-ARG2 19:1-ARGM-TMP
 nw/wsj/06/wsj_0602.parse 18 9 gold finance finance.01 ----- 0:1-ARG2 8:1-ARGM-TMP 9:0-rel 10:1-ARG1
 nw/wsj/06/wsj_0602.parse 11 2 gold place place.01 ----- 0:1*3:1-ARG1 0:1*3:1-LINK-PSV 2:0-rel 4:1-ARGM-MNR 5:1-ARG0
-nw/wsj/06/wsj_0602.parse 30 13 gold price price.01 ----- 0:2*14:1-ARG1 0:2*14:1-LINK-PSV 13:0-rel 15:1-ARG2
+nw/wsj/06/wsj_0602.parse 23 2 gold indicate indicate.01 ----- 1:0-ARG1 2:0-rel
 nw/wsj/06/wsj_0602.parse 4 17 gold close close.02 ----- 17:0-rel 18:0-ARG1
-nw/wsj/06/wsj_0602.parse 1 16 gold do do.01 ----- 16:0-rel
 nw/wsj/06/wsj_0602.parse 12 8 gold sell sell.01 ----- 3:2*9:1-ARG1 3:2*9:1-LINK-PSV 8:0-rel 10:1-ARGM-MNR 12:1-ARG0 15:1-ARGM-MNR
 nw/wsj/06/wsj_0602.parse 23 10 gold vary vary.01 ----- 8:1-ARG1 10:0-rel 11:1-ARG2 12:1-ARGM-MNR
 nw/wsj/06/wsj_0602.parse 23 3 gold be be.01 ----- 0:1-ARG1 3:0-rel 4:0-ARGM-NEG 5:1-ARG2
-nw/wsj/06/wsj_0602.parse 14 4 gold pay pay.01 ----- 2:1*5:1-ARG1 2:1*5:1-LINK-PSV 4:0-rel 6:1-ARG0 11:1,20:1-ARG2 19:1-ARGM-TMP
 nw/wsj/06/wsj_0602.parse 1 9 gold be be.01 ----- 0:2-ARG1 9:0-rel 10:2-ARG2
 nw/wsj/06/wsj_0602.parse 21 4 gold offer offer.01 ----- 4:0-rel 5:0-ARG1
 nw/wsj/06/wsj_0602.parse 30 0 gold post post.01 ----- 0:0-rel 1:0-ARG1
@@ -18,7 +19,6 @@ nw/wsj/06/wsj_0602.parse 26 0 gold post post.01 ----- 0:0-rel 1:0-ARG1
 nw/wsj/06/wsj_0602.parse 1 19 gold represent represent.01 ----- 0:2-ARG0 17:0-ARGM-NEG 18:1-ARGM-TMP 19:0-rel 20:1-ARG1
 nw/wsj/06/wsj_0602.parse 5 1 gold trade trade.01 ----- 0:1*2:1-ARG1 0:1*2:1-LINK-PSV 1:0-rel 3:1-ARG0 6:1-ARGM-PRP 9:1-ARGM-MNR
 nw/wsj/06/wsj_0602.parse 24 22 gold sell sell.01 ----- 15:2*23:1-ARG1 15:2*23:1-LINK-PSV 22:0-rel 24:1-ARG3 30:1-ARGM-MNR
-nw/wsj/06/wsj_0602.parse 23 2 gold indicate indicate.01 ----- 1:0-ARG1 2:0-rel
 nw/wsj/06/wsj_0602.parse 24 26 gold discount discount.01 ----- 26:0-rel 27:1-ARG3
 nw/wsj/06/wsj_0602.parse 4 23 gold offer offer.01 ----- 20:2*24:1-ARG1 20:2*24:1-LINK-PSV 23:0-rel
 nw/wsj/06/wsj_0602.parse 20 2 gold offer offer.01 ----- 2:0-rel 3:0-ARG1

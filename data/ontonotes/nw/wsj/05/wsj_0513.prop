@@ -1,9 +1,9 @@
 nw/wsj/05/wsj_0513.parse 0 4 gold expect expect.01 ----- 0:2,5:2-ARG1 4:0-rel
 nw/wsj/05/wsj_0513.parse 1 8 gold rise rise.01 ----- 4:1-ARG1 8:0-rel 9:1-ARG2 11:1-ARGM-TMP 17:1-ARG3
 nw/wsj/05/wsj_0513.parse 1 14 gold end end.01 ----- 12:1-ARG1 14:0-rel 15:1-ARGM-TMP
+nw/wsj/05/wsj_0513.parse 0 16 gold end end.01 ----- 14:1-ARG1 16:0-rel 17:1-ARGM-TMP
 nw/wsj/05/wsj_0513.parse 0 7 gold rise rise.01 ----- 0:2*5:1-ARG1 7:0-rel 8:2-ARG2 13:1-ARGM-TMP
 nw/wsj/05/wsj_0513.parse 0 3 gold be be.03 ----- 3:0-rel
-nw/wsj/05/wsj_0513.parse 0 16 gold end end.01 ----- 14:1-ARG1 16:0-rel 17:1-ARGM-TMP
 nw/wsj/05/wsj_0513.parse 0 22 gold fall fall.01 ----- 0:2-ARG1 21:0-ARGM-MOD 22:0-rel 23:1-ARG4 27:1-ARGM-TMP 30:1-ARGM-ADV
 nw/wsj/05/wsj_0513.parse 1 6 gold price price.01 ----- 5:0-ARGM-GOL 6:0-rel
 nw/wsj/05/wsj_0513.parse 1 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1

@@ -1,5 +1,6 @@
+nw/xinhua/00/chtb_0011.parse 16 4 gold use use.01 ----- 3:1-ARG0 4:0-rel 5:1-ARG1 6:1-ARGM-PRD 10:2-ARG2
 nw/xinhua/00/chtb_0011.parse 16 27 gold transform transform.01 ----- 0:3*28:1-ARG1 27:0-rel 29:1-ARG0 39:1-ARG2
-nw/xinhua/00/chtb_0011.parse 4 13 gold collaborate collaborate.01 ----- 0:1-ARGM-TMP 3:2-ARG0 13:0-rel 14:1-ARG1 21:2-ARG2
+nw/xinhua/00/chtb_0011.parse 15 8 gold be be.01 ----- 0:2-ARG1 8:0-rel 9:1-ARG2 11:1-ARGM-LOC
 nw/xinhua/00/chtb_0011.parse 5 11 gold trade trade.01 ----- 11:0-rel 12:1-ARG0
 nw/xinhua/00/chtb_0011.parse 11 26 gold take take.01 ----- 0:2*24:1-ARG1 26:0-rel 27:1-ARG2
 nw/xinhua/00/chtb_0011.parse 17 9 gold reach reach.01 ----- 0:1-ARGM-TMP 1:2-ARG0 9:0-rel 10:2-ARG1 15:2-ARGM-ADV
@@ -31,9 +32,9 @@ nw/xinhua/00/chtb_0011.parse 1 12 gold transform transform.01 ----- 0:1-ARG0 11:
 nw/xinhua/00/chtb_0011.parse 16 25 gold have have.01 ----- 25:0-rel
 nw/xinhua/00/chtb_0011.parse 2 19 gold identify identify.01 ----- 15:2*20:1-ARG1 19:0-rel 21:1-ARG2
 nw/xinhua/00/chtb_0011.parse 10 26 gold be be.01 ----- 23:1-ARG1 26:0-rel 27:1-ARG2 28:1-ARGM-LOC
-nw/xinhua/00/chtb_0011.parse 15 8 gold be be.01 ----- 0:2-ARG1 8:0-rel 9:1-ARG2 11:1-ARGM-LOC
+nw/xinhua/00/chtb_0011.parse 4 13 gold collaborate collaborate.01 ----- 0:1-ARGM-TMP 3:2-ARG0 13:0-rel 14:1-ARG1 21:2-ARG2
 nw/xinhua/00/chtb_0011.parse 4 12 gold have have.01 ----- 12:0-rel
-nw/xinhua/00/chtb_0011.parse 13 12 gold research research.01 ----- 0:1*15:1-ARG1 0:1*15:1-LINK-PSV 11:1-ARGM-MNR 12:0-rel 16:1-ARGM-TMP 23:1*28:1-ARG0
+nw/xinhua/00/chtb_0011.parse 14 38 gold control control.01 ----- 36:1-ARG0 37:1-ARGM-MNR 38:0-rel 39:1-ARG1
 nw/xinhua/00/chtb_0011.parse 1 25 gold be be.01 ----- 23:1-ARG1 25:0-rel 26:1-ARG2
 nw/xinhua/00/chtb_0011.parse 10 10 gold be be.03 ----- 10:0-rel
 nw/xinhua/00/chtb_0011.parse 13 48 gold produce produce.01 ----- 48:0-rel
@@ -45,7 +46,6 @@ nw/xinhua/00/chtb_0011.parse 14 19 gold form form.01 ----- 0:1-ARGM-TMP 3:2-ARG0
 nw/xinhua/00/chtb_0011.parse 12 12 gold be be.01 ----- 0:2-ARG1 12:0-rel 13:2-ARG2
 nw/xinhua/00/chtb_0011.parse 2 18 gold be be.03 ----- 18:0-rel
 nw/xinhua/00/chtb_0011.parse 6 33 gold approve approve.01 ----- 22:1*34:1-ARG1 22:1*34:1-LINK-PSV 33:0-rel 35:1-ARG2 37:1-ARG0 41:1-ARGM-TMP
-nw/xinhua/00/chtb_0011.parse 16 4 gold use use.01 ----- 3:1-ARG0 4:0-rel 5:1-ARG1 6:1-ARGM-PRD 10:2-ARG2
 nw/xinhua/00/chtb_0011.parse 11 22 gold have have.01 ----- 22:0-rel
 nw/xinhua/00/chtb_0011.parse 16 26 gold be be.03 ----- 26:0-rel
 nw/xinhua/00/chtb_0011.parse 3 4 gold start start.01 ----- 3:1*5:1-ARG1 3:1*5:1-LINK-PSV 4:0-rel 6:1-ARG0
@@ -56,12 +56,12 @@ nw/xinhua/00/chtb_0011.parse 13 25 gold head head.01 ----- 0:1*26:1-ARG1 0:1*26:
 nw/xinhua/00/chtb_0011.parse 14 10 gold produce produce.01 ----- 3:1*8:1*9:1-ARG0 3:1*8:1-LINK-SLC 10:0-rel 11:1-ARG1 13:1-ARGM-LOC
 nw/xinhua/00/chtb_0011.parse 3 21 gold account account.01 ----- 0:1-ARGM-LOC 3:2-ARG0 21:0-rel 22:1-ARG1
 nw/xinhua/00/chtb_0011.parse 14 17 gold have have.01 ----- 17:0-rel
-nw/xinhua/00/chtb_0011.parse 14 38 gold control control.01 ----- 36:1-ARG0 37:1-ARGM-MNR 38:0-rel 39:1-ARG1
-nw/xinhua/00/chtb_0011.parse 13 2 gold advance advance.01 ----- 1:0-ARGM-MNR 2:0-rel 3:1,7:2,10:0-ARG1
 nw/xinhua/00/chtb_0011.parse 13 14 gold produce produce.01 ----- 0:1*15:1-ARG1 0:1*15:1-LINK-PSV 11:1-ARGM-MNR 14:0-rel 16:1-ARGM-TMP 23:1*28:1-ARG0
 nw/xinhua/00/chtb_0011.parse 7 6 gold be be.03 ----- 6:0-rel
+nw/xinhua/00/chtb_0011.parse 13 2 gold advance advance.01 ----- 1:0-ARGM-MNR 2:0-rel 3:1,7:2,10:0-ARG1
 nw/xinhua/00/chtb_0011.parse 16 22 gold invent invent.01 ----- 21:0-ARGM-ADJ 22:0-rel
 nw/xinhua/00/chtb_0011.parse 11 23 gold begin begin.01 ----- 0:2,24:2-ARG1 23:0-rel
+nw/xinhua/00/chtb_0011.parse 13 12 gold research research.01 ----- 0:1*15:1-ARG1 0:1*15:1-LINK-PSV 11:1-ARGM-MNR 12:0-rel 16:1-ARGM-TMP 23:1*28:1-ARG0
 nw/xinhua/00/chtb_0011.parse 16 12 gold stretch stretch.01 ----- 10:1-ARG0 12:0-rel 13:1-ARG1
 nw/xinhua/00/chtb_0011.parse 5 16 gold reach reach.01 ----- 0:1-ARGM-TMP 3:2-ARG0 16:0-rel 17:3-ARG1
 nw/xinhua/00/chtb_0011.parse 5 29 gold profit profit.01 ----- 28:0-ARG1 29:0-rel 30:1-ARG2

@@ -6,10 +6,10 @@ nw/wsj/15/wsj_1508.parse 4 3 gold market market.01 ----- 0:1-ARG0 2:1-ARGM-TMP 3
 nw/wsj/15/wsj_1508.parse 2 4 gold agree agree.01 ----- 0:2-ARG0 4:0-rel 5:2-ARG1
 nw/wsj/15/wsj_1508.parse 0 12 gold terminate terminate.01 ----- 11:0-ARGM-TMP 12:0-rel 13:1-ARG1
 nw/wsj/15/wsj_1508.parse 3 3 gold mark mark.01 ----- 0:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:2-ARG1
+nw/wsj/15/wsj_1508.parse 3 5 gold enter enter.01 ----- 5:0-rel 6:1-ARG0 8:1-ARG1
 nw/wsj/15/wsj_1508.parse 2 17 gold share share.01 ----- 17:0-rel 18:1-ARG1
 nw/wsj/15/wsj_1508.parse 0 10 gold receive receive.01 ----- 9:1-ARG0 10:0-rel 11:2-ARG1
 nw/wsj/15/wsj_1508.parse 0 7 gold say say.01 ----- 0:2-ARG0 7:0-rel 8:1-ARG1
-nw/wsj/15/wsj_1508.parse 3 5 gold enter enter.01 ----- 5:0-rel 6:1-ARG0 8:1-ARG1
+nw/wsj/15/wsj_1508.parse 3 1 gold transact transact.01 ----- 1:0-rel
 nw/wsj/15/wsj_1508.parse 0 27 gold propose propose.01 ----- 27:0-rel 32:0-ARG1
 nw/wsj/15/wsj_1508.parse 1 14 gold merge merge.01 ----- 14:0-rel
-nw/wsj/15/wsj_1508.parse 3 1 gold transact transact.01 ----- 1:0-rel

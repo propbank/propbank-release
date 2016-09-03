@@ -1,19 +1,23 @@
 wb/c2e/00/c2e_0001.parse 8 15 gold be be.01 ----- 11:2-ARG1 15:0-rel 16:2-ARG2
+wb/c2e/00/c2e_0001.parse 11 10 gold whiten whiten.01 ----- 10:0-rel 11:0-ARG1
 wb/c2e/00/c2e_0001.parse 18 15 gold wear wear.01 ----- 12:1-ARG0 14:0-ARGM-NEG 15:0-rel 16:1-ARG1
 wb/c2e/00/c2e_0001.parse 17 5 gold wear wear.01 ----- 0:1*4:1-ARG0 5:0-rel 6:1-ARG1
 wb/c2e/00/c2e_0001.parse 16 5 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARG1 4:1-ARGM-TMP 5:0-rel 6:1-ARG2 8:1-ARGM-MNR
 wb/c2e/00/c2e_0001.parse 18 4 gold former former.01 ----- 4:0-rel 5:0-ARG1
 wb/c2e/00/c2e_0001.parse 8 3 gold make make.01 ----- 2:1-ARG0 3:0-rel
 wb/c2e/00/c2e_0001.parse 5 19 gold be be.03 ----- 19:0-rel
-wb/c2e/00/c2e_0001.parse 4 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:2-ARG2
 wb/c2e/00/c2e_0001.parse 5 2 gold whiten whiten.01 ----- 2:0-rel 3:0-ARG0
 wb/c2e/00/c2e_0001.parse 8 23 gold be be.01 ----- 16:1*21:1*22:1-ARG1 16:1*21:1-LINK-SLC 23:0-rel 24:1-ARG2
 wb/c2e/00/c2e_0001.parse 22 16 gold be be.01 ----- 14:1-ARG1 16:0-rel 17:1-ARG2 18:1-ARGM-LOC
-wb/c2e/00/c2e_0001.parse 5 8 gold consume consume.01 ----- 0:2*9:1-ARG1 6:0-ARGM-MOD 8:0-rel 10:1-ARGM-TMP
 wb/c2e/00/c2e_0001.parse 6 1 gold have have.01 ----- 1:0-rel
 wb/c2e/00/c2e_0001.parse 18 6 gold say say.01 ----- 3:1-ARG0 6:0-rel 7:1-ARG1
+wb/c2e/00/c2e_0001.parse 17 3 gold liken like.02 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:2-ARG1 8:2-ARGM-ADV
+wb/c2e/00/c2e_0001.parse 5 8 gold consume consume.01 ----- 0:2*9:1-ARG1 6:0-ARGM-MOD 8:0-rel 10:1-ARGM-TMP
 wb/c2e/00/c2e_0001.parse 10 24 gold last last.01 ----- 19:2-ARG1 24:0-rel 25:1-ARG2 30:1-ARGM-ADV
+wb/c2e/00/c2e_0001.parse 21 3 gold know know.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:1-ARG1
+wb/c2e/00/c2e_0001.parse 20 4 gold do do.01 ----- 4:0-rel
 wb/c2e/00/c2e_0001.parse 4 13 gold pour pour.01 ----- 3:1-ARG0 13:0-rel 14:1-ARG1 16:1-ARGM-DIR
+wb/c2e/00/c2e_0001.parse 22 3 gold feel feel.01 ----- 0:1-ARGM-DIS 2:1-ARG0 3:0-rel 4:1-ARG1 9:1-ARGM-PRD 12:1-ARGM-ADV
 wb/c2e/00/c2e_0001.parse 10 1 gold sell sell.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG3
 wb/c2e/00/c2e_0001.parse 13 9 gold liken like.02 ----- 0:1-ARGM-ADV 8:1-ARG0 9:0-rel 10:2-ARG1
 wb/c2e/00/c2e_0001.parse 20 6 gold buy buy.01 ----- 0:1-ARGM-DIS 2:1-ARG0 3:1-ARGM-ADV 5:0-ARGM-NEG 6:0-rel 7:1-ARG1 16:1-ARGM-PRD
@@ -22,8 +26,6 @@ wb/c2e/00/c2e_0001.parse 23 1 gold feel feel.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 wb/c2e/00/c2e_0001.parse 12 3 gold have have.01 ----- 3:0-rel
 wb/c2e/00/c2e_0001.parse 2 6 gold prefer prefer.01 ----- 0:1-ARGM-ADV 5:1-ARG0 6:0-rel 7:2-ARG1
 wb/c2e/00/c2e_0001.parse 9 2 gold be be.01 ----- 0:1*1:1-ARG1 2:0-rel 3:1-ARG2
-wb/c2e/00/c2e_0001.parse 8 13 gold use use.01 ----- 11:1*14:1-ARG1 12:1-ARG0 13:0-rel
-wb/c2e/00/c2e_0001.parse 24 1 gold click click.01 ----- 0:1-ARG0 1:0-rel 2:1-ARGM-PRP 7:1-ARG1
 wb/c2e/00/c2e_0001.parse 13 12 gold use use.01 ----- 8:1*10:1-ARG0 12:0-rel 13:1-ARG1
 wb/c2e/00/c2e_0001.parse 15 21 gold dare dare.01 ----- 20:1-ARG1 21:0-rel 22:0-ARGM-NEG 23:1-ARG2
 wb/c2e/00/c2e_0001.parse 18 13 gold do do.01 ----- 13:0-rel
@@ -34,43 +36,41 @@ wb/c2e/00/c2e_0001.parse 23 9 gold make make.02 ----- 4:1*7:1*8:1-ARG0 4:1*7:1-L
 wb/c2e/00/c2e_0001.parse 21 1 gold do do.01 ----- 1:0-rel
 wb/c2e/00/c2e_0001.parse 8 7 gold consume consume.01 ----- 2:1-ARG0 7:0-rel
 wb/c2e/00/c2e_0001.parse 19 7 gold realize realize.01 ----- 0:1-ARGM-TMP 5:1-ARG0 6:1-ARGM-MNR 7:0-rel 8:1-ARG1
-wb/c2e/00/c2e_0001.parse 11 10 gold whiten whiten.01 ----- 10:0-rel 11:0-ARG1
 wb/c2e/00/c2e_0001.parse 15 3 gold hear hear.01 ----- 2:1-ARG0 3:0-rel 4:1-ARGM-TMP 5:1-ARG1
 wb/c2e/00/c2e_0001.parse 18 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
-wb/c2e/00/c2e_0001.parse 17 3 gold liken like.02 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:2-ARG1 8:2-ARGM-ADV
-wb/c2e/00/c2e_0001.parse 22 3 gold feel feel.01 ----- 0:1-ARGM-DIS 2:1-ARG0 3:0-rel 4:1-ARG1 9:1-ARGM-PRD 12:1-ARGM-ADV
 wb/c2e/00/c2e_0001.parse 4 5 gold take take.01 ----- 3:1-ARG0 5:0-rel 6:2-ARG1
 wb/c2e/00/c2e_0001.parse 17 1 gold do do.01 ----- 1:0-rel
+wb/c2e/00/c2e_0001.parse 8 13 gold use use.01 ----- 11:1*14:1-ARG1 12:1-ARG0 13:0-rel
+wb/c2e/00/c2e_0001.parse 24 1 gold click click.01 ----- 0:1-ARG0 1:0-rel 2:1-ARGM-PRP 7:1-ARG1
 wb/c2e/00/c2e_0001.parse 3 15 gold come come.01 ----- 14:1-ARG1 15:0-rel 16:1-ARGM-MNR
 wb/c2e/00/c2e_0001.parse 7 2 gold lose lose.02 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG1 6:2-ARGM-TMP
 wb/c2e/00/c2e_0001.parse 6 2 gold read read.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 wb/c2e/00/c2e_0001.parse 20 19 gold buy buy.01 ----- 2:1*18:1-ARG0 19:0-rel 20:1-ARG1 24:1-ARGM-PRP
+wb/c2e/00/c2e_0001.parse 4 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:2-ARG2
 wb/c2e/00/c2e_0001.parse 18 9 gold liken like.02 ----- 8:1-ARG0 9:0-rel 10:1-ARG1 11:1-ARGM-CAU
 wb/c2e/00/c2e_0001.parse 11 14 gold cost cost.01 ----- 7:1*12:1*13:1-ARG1 7:1*12:1-LINK-SLC 14:0-rel 15:2-ARG2
 wb/c2e/00/c2e_0001.parse 19 10 gold turn turn_out.11 ----- 10:0,11:1-rel 12:1-ARG1
+wb/c2e/00/c2e_0001.parse 8 9 gold ensure ensure.01 ----- 0:0-ARGM-DIS 2:2-ARG0 8:0-ARGM-MOD 9:0-rel 10:1-ARG1
 wb/c2e/00/c2e_0001.parse 13 5 gold constrain constrain.01 ----- 1:1*6:1-ARG1 3:0-ARGM-NEG 4:1-ARGM-MNR 5:0-rel
 wb/c2e/00/c2e_0001.parse 11 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:4-ARG2
-wb/c2e/00/c2e_0001.parse 21 3 gold know know.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:1-ARG1
 wb/c2e/00/c2e_0001.parse 16 10 gold use use.01 ----- 9:1-ARG0 10:0-rel 11:1-ARG1
 wb/c2e/00/c2e_0001.parse 19 15 gold liken like.02 ----- 13:1-ARG0 15:0-rel 16:2-ARG1
+wb/c2e/00/c2e_0001.parse 17 9 gold face face.01 ----- 0:1*8:1-ARG0 9:0-rel 10:1-ARG1 12:1-ARGM-TMP 13:1-ARGM-MNR
 wb/c2e/00/c2e_0001.parse 6 14 gold dissolve dissolve.01 ----- 13:1-ARG1 14:0-rel 15:1-ARG2
 wb/c2e/00/c2e_0001.parse 6 10 gold oxidize oxidize.01 ----- 6:1-ARG1 10:0-rel 11:1-ARGM-MNR 12:1-ARGM-TMP
 wb/c2e/00/c2e_0001.parse 23 17 gold drink drink.01 ----- 14:1-ARG0 16:1-ARGM-ADV 17:0-rel 18:1-ARG1
 wb/c2e/00/c2e_0001.parse 12 4 gold use use.01 ----- 0:1-ARGM-ADV 2:1-ARG0 4:0-rel 5:1-ARG1
-wb/c2e/00/c2e_0001.parse 14 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2 7:1-ARGM-TMP
 wb/c2e/00/c2e_0001.parse 21 6 gold agree agree.01 ----- 5:1-ARG0 6:0-rel 7:1-ARG1
 wb/c2e/00/c2e_0001.parse 3 10 gold moisturize moisturize.01 ----- 10:0-rel 11:0-ARG0
+wb/c2e/00/c2e_0001.parse 14 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2 7:1-ARGM-TMP
 wb/c2e/00/c2e_0001.parse 8 18 gold whiten whiten.01 ----- 18:0-rel 19:0-ARG0
-wb/c2e/00/c2e_0001.parse 17 9 gold face face.01 ----- 0:1*8:1-ARG0 9:0-rel 10:1-ARG1 12:1-ARGM-TMP 13:1-ARGM-MNR
 wb/c2e/00/c2e_0001.parse 15 23 gold use use.01 ----- 20:1-ARG0 22:0-ARGM-NEG 23:0-rel 24:1-ARG1 26:1-ARGM-TMP
-wb/c2e/00/c2e_0001.parse 8 9 gold ensure ensure.01 ----- 0:0-ARGM-DIS 2:2-ARG0 8:0-ARGM-MOD 9:0-rel 10:1-ARG1
+wb/c2e/00/c2e_0001.parse 3 5 gold be be.01 ----- 0:2-ARG1 5:0-rel 6:2-ARG2
 wb/c2e/00/c2e_0001.parse 5 24 gold make make.01 ----- 22:1-ARG0 24:0-rel 25:1-ARG1
 wb/c2e/00/c2e_0001.parse 10 32 gold use use.01 ----- 31:1-ARG1 32:0-rel 34:1-ARGM-MNR
 wb/c2e/00/c2e_0001.parse 5 20 gold use use.01 ----- 16:1*21:1-ARG1 20:0-rel 22:2-ARG2
 wb/c2e/00/c2e_0001.parse 9 6 gold be be.01 ----- 0:2-ARGM-ADV 5:1-ARG1 6:0-rel 7:2-ARG2
-wb/c2e/00/c2e_0001.parse 20 4 gold do do.01 ----- 4:0-rel
 wb/c2e/00/c2e_0001.parse 20 21 gold lighten lighten.01 ----- 21:0-rel 22:0,23:0-ARG0
-wb/c2e/00/c2e_0001.parse 3 5 gold be be.01 ----- 0:2-ARG1 5:0-rel 6:2-ARG2
 wb/c2e/00/c2e_0001.parse 4 18 gold add add.02 ----- 3:1-ARG0 18:0-rel 19:2-ARG1
-wb/c2e/00/c2e_0001.parse 4 29 gold shake shake.01 ----- 3:1-ARG0 29:0-rel 30:1-ARGM-MNR
 wb/c2e/00/c2e_0001.parse 7 8 gold oxidize oxidize.01 ----- 0:1*6:1*9:1-ARG1 7:1-ARGM-TMP 8:0-rel
+wb/c2e/00/c2e_0001.parse 4 29 gold shake shake.01 ----- 3:1-ARG0 29:0-rel 30:1-ARGM-MNR

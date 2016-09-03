@@ -2,10 +2,13 @@ SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 11 20 gold control control.01 ----- 17
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 17 25 gold reject reject.01 ----- 21:0-ARGM-DIS 22:1-ARG0 24:1-ARGM-ADV 25:0-rel 26:1-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 51 2 gold be be.01 ----- 0:1-ARG1 1:1-ARGM-ADV 2:0-rel 3:1-ARG2
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 14 44 gold ready ready.01 ----- 41:1-ARG1 42:0-ARGM-MOD 44:0-rel 45:2-ARGM-ADV
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 21 1 gold be be.02 ----- 1:0-rel 2:2-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 69 8 gold facilitate facilitate.01 ----- 0:0-ARGM-MOD 1:1-ARG0 8:0-rel 9:1-ARG1 10:1-ARGM-GOL 13:1-ARGM-DIS
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 107 5 gold confirm confirm.01 ----- 0:1-ARGM-DIS 2:1-ARG0 4:0-ARGM-MOD 5:0-rel 6:1-ARG2
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 90 1 gold leave leave.15 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 4:1-ARGM-DIS
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 53 29 gold care care.03 ----- 26:1-ARG0 27:0-ARGM-MOD 28:0-ARGM-LVB 29:0-rel 30:1-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 14 37 gold say say.01 ----- 36:1-ARG0 37:0-rel 38:1-ARG2 40:1-ARG1
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 29 6 gold engage engagement.02 ----- 6:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 100 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG2 4:1-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 32 11 gold serve serve.02 ----- 6:1*8:1*9:1-ARG0 6:1*8:1-LINK-SLC 11:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 89 20 gold do do.01 ----- 20:0-rel
@@ -19,7 +22,6 @@ SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 96 6 gold feel feel.02 ----- 4:1-ARG0 
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 89 3 gold take take.LV ----- 3:0-rel 4:1-ARGM-PRR
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 73 3 gold say say.01 ----- 0:1*4:1-ARG1 2:1-ARG0 3:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 53 13 gold insist insist.01 ----- 11:1-ARG0 13:0-rel
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 69 2 gold make make.02 ----- 0:0-ARGM-MOD 1:1-ARG0 2:0-rel 3:2-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 15 15 gold be be.01 ----- 12:1*16:1-ARG2 13:1-ARG1 15:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 94 1 gold look look.09 ----- 0:1-ARG0 1:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 7 10 gold tell tell.01 ----- 0:1-ARGM-ADV 4:1-ARG0 10:0-rel 11:1-ARG2 12:2-ARG1
@@ -27,90 +29,104 @@ SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 118 3 gold understand understand.01 --
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 57 5 gold want want.01 ----- 0:1-ARGM-DIS 3:0-ARGM-NEG 4:1-ARG0 5:0-rel 6:1-ARG1 7:1-ARG4
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 124 4 gold become become.01 ----- 2:1-ARG1 4:0-rel 5:1-ARG2 7:1-ARGM-TMP
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 4 10 gold take take.LV ----- 10:0-rel 11:1-ARGM-PRR
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 35 18 gold be be.02 ----- 15:1-ARGM-TMP 18:0-rel 19:2-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 113 2 gold have have.03 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 53 6 gold do do.02 ----- 3:1*7:1-ARG1 5:1-ARG0 6:0-rel 8:1-ARG2
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 0 6 gold try try.01 ----- 5:1-ARG0 6:0-rel 7:2-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 1 2 gold change change.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 72 3 gold know know.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:2-ARG1
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 17 23 gold be be.03 ----- 23:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 120 13 gold issue issue.02 ----- 13:0-rel
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 13 4 gold want want.01 ----- 3:1-ARG0 4:0-rel 5:2-ARG1
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 0 13 gold will will.02 ----- 12:1-ARG0 13:0-rel
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 9 0 gold do do.01 ----- 0:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 41 4 gold pass pass.03 ----- 3:1-ARG1 4:0-rel 5:1-ARGM-MNR 8:1-ARGM-DIS
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 26 8 gold come come.01 ----- 7:1-ARG1 8:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 9 8 gold come come.01 ----- 3:1*6:1-ARG1 8:0-rel 9:1-ARGM-TMP 11:1-ARGM-DIS
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 79 3 gold kind kind.01 ----- 0:1-ARG0 2:0-ARGM-EXT 3:0-rel
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 81 14 gold make make.02 ----- 13:1-ARG0 14:0-rel 15:1,17:1-ARG1 18:1-ARGM-MNR
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 87 3 gold do do.01 ----- 3:0-rel
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 115 3 gold facilitate facilitate.01 ----- 0:0-ARGM-MOD 1:1-ARG0 3:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 59 7 gold make make_it.14 ----- 3:1-ARG0 5:0-ARGM-MOD 6:0-ARGM-NEG 7:0,8:1-rel
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 16 3 gold be be.01 ----- 2:1*5:1-ARG2 3:0-rel 4:1-ARG1 6:2-ARGM-ADV
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 72 1 gold do do.01 ----- 1:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 60 8 gold work work.09 ----- 3:1-ARGM-ADV 5:1-ARG1 6:0-ARGM-MOD 7:0-ARGM-NEG 8:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 13 10 gold make make.02 ----- 5:1-ARG0 10:0-rel 11:2-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 81 1 gold feel feel.02 ----- 0:1-ARG0 1:0-rel 2:1-ARGM-DIR 4:1-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 49 1 gold feel feel.02 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 75 4 gold talk talk.01 ----- 0:1-ARGM-DIS 2:1-ARG0 4:0-rel 5:1-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 14 47 gold will will.02 ----- 46:1-ARG0 47:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 87 11 gold be be.01 ----- 10:1-ARG1 11:0-rel 12:1-ARGM-ADV 15:1-ARG2 22:2-ARGM-ADV
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 99 11 gold late late.02 ----- 0:0-ARGM-DIS 1:2-ARGM-ADV 7:1-ARG1 8:0-ARGM-MOD 9:0-ARGM-NEG 11:0-rel
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 14 29 gold be be.01 ----- 26:1-ARG1 27:0-ARGM-MOD 28:1-ARGM-ADV 29:0-rel 30:1-ARG2 31:1-ARGM-GOL
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 28 1 gold appoint appointment.02 ----- 0:0-ARG0 1:0-rel
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 105 6 gold come come.01 ----- 3:1-ARG1 4:0-ARGM-MOD 5:0-ARGM-ADV 6:0-rel 7:1-ARGM-TMP
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 20 15 gold delay delay.01 ----- 6:1*16:1-ARG1 15:0-rel 17:1-ARG2
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 94 8 gold have have.01 ----- 8:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 70 5 gold wait wait.01 ----- 0:1-ARGM-GOL 3:1-ARG1 4:0-ARGM-MOD 5:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 32 10 gold be be.03 ----- 10:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 16 8 gold will will.02 ----- 7:1-ARG0 8:0-rel
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 17 6 gold know know.01 ----- 1:1*4:1-ARG0 6:0-rel 14:2-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 18 12 gold work work.01 ----- 5:2-ARG0 11:0-ARGM-LVB 12:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 17 17 gold come come.01 ----- 14:1*18:1-ARG3 15:1-ARG1 17:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 65 10 gold rest rest.01 ----- 4:1*6:1-ARG1 8:0-ARGM-LVB 10:0-rel 12:2-ARGM-ADV
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 96 9 gold be be.01 ----- 8:1-ARG1 9:0-rel 10:1-ARG2
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 32 4 gold annoy annoy.01 ----- 0:0-ARGM-DIS 1:1-ARG1 3:0-ARGM-EXT 4:0-rel 5:1-ARGM-CAU
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 85 7 gold wed wed.01 ----- 5:1-ARG1 7:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 64 13 gold will will.02 ----- 12:1-ARG0 13:0-rel
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 101 3 gold find find.01 ----- 1:1*7:1-ARGM-TMP 2:1-ARG0 3:0-rel 4:1-ARG1
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 81 19 gold force force.04 ----- 19:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 44 1 gold feel feel.02 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 17 3 gold want want.01 ----- 1:1-ARG0 2:1-ARGM-ADV 3:0-rel 4:2-ARG1
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 88 17 gold come come.01 ----- 14:1-ARG1 15:0-ARGM-MOD 16:1-ARGM-ADV 17:0-rel 18:1-ARGM-TMP 19:1-ARGM-ADV
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 47 15 gold keep keep.02 ----- 14:1-ARG0 15:0-rel 16:2-ARG2
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 96 9 gold be be.01 ----- 8:1-ARG1 9:0-rel 10:1-ARG2
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 116 12 gold do do.01 ----- 12:0-rel
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 99 10 gold be be.01 ----- 0:0-ARGM-DIS 1:2-ARGM-DIS 7:1-ARG1 8:0-ARGM-MOD 9:0-ARGM-NEG 10:0-rel 11:1-ARG2
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 98 10 gold busy busy.01 ----- 7:1-ARG1 8:0-ARGM-MOD 10:0-rel 11:1-ARG2 15:2-ARGM-ADV
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 89 22 gold understand understand.01 ----- 21:1-ARG0 22:0-rel 23:1-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 24 16 gold be be.01 ----- 11:1*14:1-ARG1 16:0-rel 17:1-ARG2
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 65 14 gold will will.02 ----- 13:1-ARG0 14:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 47 8 gold be be.02 ----- 8:0-rel 9:1-ARG1
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 78 4 gold liken like.02 ----- 0:1-ARG0 3:0-ARGM-NEG 4:0-rel 5:2-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 0 20 gold take take.LV ----- 20:0-rel 21:1-ARGM-PRR
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 101 10 gold be be.01 ----- 0:0-ARGM-DIS 1:2-ARGM-TMP 9:1-ARG1 10:0-rel 11:1-ARG2
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 35 9 gold intend intend.01 ----- 9:0-rel
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 101 3 gold find find.01 ----- 1:1*7:1-ARGM-TMP 2:1-ARG0 3:0-rel 4:1-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 20 12 gold write write.01 ----- 11:0-ARG1 12:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 94 24 gold come come.01 ----- 13:2-ARG1 23:0-ARGM-MOD 24:0-rel 25:1-ARGM-TMP
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 2 17 gold be be.01 ----- 0:0-ARGM-DIS 1:2-ARGM-DIS 7:1-ARG1 16:0-ARGM-MOD 17:0-rel 18:1-ARG2 20:1-ARGM-ADV
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 7 19 gold will will.02 ----- 18:1-ARG0 19:0-rel
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 79 6 gold have have.01 ----- 6:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 116 9 gold permit permit.01 ----- 7:1-ARG0 9:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 104 5 gold come come.01 ----- 0:1-ARG1 4:1-ARGM-ADV 5:0-rel 6:1-ARGM-COM
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 109 4 gold talk talk.01 ----- 3:1-ARG0 4:0-rel 5:1-ARG2
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 19 10 gold delay delay.01 ----- 7:1-ARGM-CAU 9:1-ARG0 10:0-rel 11:1-ARG1
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 94 5 gold liken like.02 ----- 4:1-ARG0 5:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 24 4 gold mean mean.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-ARGM-NEG 4:0-rel 5:1-ARG2 7:1-ARGM-DIS 9:1-ARGM-CAU
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 6 1 gold be be.01 ----- 0:1*3:1-ARG2 1:0-rel 2:1-ARG1
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 114 4 gold be be.01 ----- 3:1-ARG1 4:0-rel 5:2-ARG2
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 51 9 gold dialogue dialogue.01 ----- 9:0-rel
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 99 10 gold be be.01 ----- 0:0-ARGM-DIS 1:2-ARGM-DIS 7:1-ARG1 8:0-ARGM-MOD 9:0-ARGM-NEG 10:0-rel 11:1-ARG2
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 59 1 gold look look.09 ----- 0:1-ARG0 1:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 87 37 gold love love.01 ----- 33:1*39:1-ARGM-EXT 35:1-ARG0 36:1-ARGM-ADV 37:0-rel 38:1-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 122 8 gold beautify beautiful.02 ----- 0:1-ARGM-DIS 3:1-ARG1 4:0-ARGM-MOD 6:0-ARGM-ADV 8:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 14 43 gold be be.01 ----- 41:1-ARG1 42:0-ARGM-MOD 43:0-rel 44:1-ARG2 45:2-ARGM-DIS
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 28 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:1-ARG2
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 55 10 gold let let.01 ----- 0:1-ARGM-DIS 2:1-ARG0 10:0-rel 11:2-ARG1
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 11 13 gold say say.01 ----- 6:1*12:1-ARG0 13:0-rel 14:1-ARG2 16:1-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 20 4 gold forbid forbid.01 ----- 3:1-ARG0 4:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 39 6 gold say say.01 ----- 0:0-ARGM-DIS 1:1-ARG0 6:0-rel 7:1-ARG2 9:3-ARG1
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 39 17 gold present present.02 ----- 11:1-ARG1 13:0-ARGM-NEG 15:1-ARGM-REC 17:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 84 5 gold have have.01 ----- 5:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 77 1 gold look look.09 ----- 0:1-ARG0 1:0-rel 3:1-ARGM-DIS
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 98 10 gold busy busy.01 ----- 7:1-ARG1 8:0-ARGM-MOD 10:0-rel 11:1-ARG2 15:2-ARGM-ADV
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 42 5 gold be be.01 ----- 5:0-rel 6:1-ARG1 7:1-ARG2
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 0 13 gold will will.02 ----- 12:1-ARG0 13:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 96 1 gold do do.01 ----- 1:0-rel
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 32 15 gold leave leave.11 ----- 6:1*8:1*9:1*13:1-ARG0 6:1*8:1-LINK-SLC 15:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 53 28 gold take take.LV ----- 28:0-rel 29:1-ARGM-PRR
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 39 28 gold write write.01 ----- 27:0-ARG1 28:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 79 12 gold act act.01 ----- 8:1-ARGM-ADJ 12:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 122 21 gold know know.01 ----- 20:1-ARG0 21:0-rel 22:1-ARG1
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 17 6 gold know know.01 ----- 1:1*4:1-ARG0 6:0-rel 14:2-ARG1
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 32 4 gold annoy annoy.01 ----- 0:0-ARGM-DIS 1:1-ARG1 3:0-ARGM-EXT 4:0-rel 5:1-ARGM-CAU
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 100 9 gold expect expect.01 ----- 5:1-ARGM-TMP 8:1-ARG0 9:0-rel 10:3-ARG1
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 90 1 gold leave leave.15 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 4:1-ARGM-DIS
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 79 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 55 3 gold let let.01 ----- 0:1-ARGM-DIS 2:1-ARG0 3:0-rel 4:2-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 67 10 gold annoy annoy.01 ----- 5:1-ARGM-ADV 8:0-ARGM-NEG 9:1-ARG1 10:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 18 2 gold say say.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG2 5:3-ARG1
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 13 12 gold wed wed.01 ----- 12:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 54 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2 5:1-ARGM-DIS
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 34 2 gold right right.06 ----- 0:1-ARG1 2:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 65 5 gold have have.02 ----- 5:0-rel
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 28 3 gold worsen bad.07 ----- 0:1-ARG1 3:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 0 9 gold come come.01 ----- 5:1*7:1-ARG1 9:0-rel 10:1-ARGM-TMP 11:2-ARGM-DIS 17:1-ARGM-PRP
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 122 5 gold be be.01 ----- 0:1-ARGM-DIS 3:1-ARG1 4:0-ARGM-MOD 5:0-rel 6:1-ARG2 13:2-ARGM-DIS
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 98 17 gold will will.02 ----- 16:1-ARG0 17:0-rel
@@ -122,52 +138,55 @@ SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 87 15 gold nice nice.01 ----- 10:1-ARG
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 94 9 gold say say.01 ----- 7:1-ARG0 9:0-rel 10:1-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 13 1 gold feel feel.02 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 35 7 gold intend intend.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-ARGM-LVB 4:1-ARGM-ADJ 7:0-rel 11:1-ARG1 14:1-ARGM-CAU
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 38 8 gold make make.02 ----- 0:1-ARGM-DIS 4:1-ARG0 8:0-rel 9:2-ARG1
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 98 9 gold be be.01 ----- 7:1-ARG1 8:0-ARGM-MOD 9:0-rel 10:1-ARG2 15:2-ARGM-ADV
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 101 11 gold happy happy.01 ----- 0:0-ARGM-DIS 1:2-ARGM-TMP 9:1-ARG1 11:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 88 10 gold say say.01 ----- 9:1-ARG0 10:0-rel 11:1-ARG2 13:1-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 25 8 gold surprise surprise.01 ----- 6:1-ARG1 8:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 53 4 gold do do.01 ----- 4:0-rel
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 62 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 29 2 gold do do.01 ----- 2:0-rel
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 79 7 gold see see.01 ----- 5:1-ARG0 7:0-rel 8:2-ARG1 13:1-ARGM-DIR
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 125 3 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARG1 3:0-rel 4:3-ARG2
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 22 12 gold delay delay.01 ----- 0:1-ARGM-DIS 2:2-ARGM-DIS 9:1*13:1-ARG1 10:0-ARGM-MOD 12:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 91 5 gold come come.01 ----- 1:1*3:1-ARG1 5:0-rel 6:1-ARGM-TMP
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 24 17 gold late late.02 ----- 11:1*14:1-ARG1 17:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 53 21 gold be be.01 ----- 20:1-ARG1 21:0-rel 22:0-ARGM-NEG 23:1-ARG2
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 52 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-ADV 3:1-ARG2
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 10 5 gold come come.01 ----- 0:1-ARGM-ADV 3:1-ARG1 4:0-ARGM-MOD 5:0-rel 6:1-ARGM-COM
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 89 15 gold be be.01 ----- 13:1-ARGM-ADV 14:1-ARG1 15:0-rel 16:1-ARG2
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 114 13 gold be be.01 ----- 11:1-ARG1 13:0-rel 14:1-ARG2
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 109 2 gold make make.02 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:2-ARG1
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 79 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 26 3 gold say say.01 ----- 0:0-ARGM-DIS 1:1-ARGM-DIS 2:1-ARG0 3:0-rel 4:1-ARGM-ADV 5:1-ARGM-CAU
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 49 4 gold be be.01 ----- 3:1-ARG1 4:0-rel 5:1-ARG2
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 53 12 gold be be.03 ----- 12:0-rel
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 25 3 gold know know.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 16 3 gold be be.01 ----- 2:1*5:1-ARG2 3:0-rel 4:1-ARG1 6:2-ARGM-ADV
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 81 19 gold force force.04 ----- 19:0-rel
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 24 3 gold have have.01 ----- 3:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 65 8 gold take take.LV ----- 8:0-rel 10:0-ARGM-PRR
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 88 17 gold come come.01 ----- 14:1-ARG1 15:0-ARGM-MOD 16:1-ARGM-ADV 17:0-rel 18:1-ARGM-TMP 19:1-ARGM-ADV
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 18 15 gold work work.01 ----- 15:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 44 6 gold ready ready.01 ----- 3:1-ARG1 5:0-ARGM-NEG 6:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 25 7 gold be be.01 ----- 6:1-ARG1 7:0-rel 8:1-ARG2
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 94 5 gold liken like.02 ----- 4:1-ARG0 5:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 14 30 gold late late.02 ----- 26:1-ARG1 27:0-ARGM-MOD 28:1-ARGM-ADV 30:0-rel 31:1-ARG2
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 32 17 gold heat heat.01 ----- 6:2-ARG0 17:0-rel 18:1-ARG1 20:1-ARGM-TMP
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 89 9 gold jump jump.03 ----- 1:1-ARG0 9:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 14 57 gold late late.02 ----- 41:1-ARG1 55:0-ARGM-MOD 57:0-rel 58:1-ARG2
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 44 4 gold be be.01 ----- 3:1-ARG1 4:0-rel 5:0-ARGM-NEG 6:1-ARG2
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 38 8 gold make make.02 ----- 0:1-ARGM-DIS 4:1-ARG0 8:0-rel 9:2-ARG1
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 98 9 gold be be.01 ----- 7:1-ARG1 8:0-ARGM-MOD 9:0-rel 10:1-ARG2 15:2-ARGM-ADV
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 81 8 gold say say.01 ----- 5:1-ARG0 6:0-ARGM-MOD 7:1-ARGM-ADV 8:0-rel 9:1-ARG1
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 109 2 gold make make.02 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:2-ARG1
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 49 4 gold be be.01 ----- 3:1-ARG1 4:0-rel 5:1-ARG2
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 21 1 gold be be.02 ----- 1:0-rel 2:2-ARG1
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 62 6 gold be be.01 ----- 5:1-ARG1 6:0-rel 7:1-ARG2
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 55 15 gold finish finish.01 ----- 13:1-ARGM-ADV 14:1-ARG0 15:0-rel 16:1-ARGM-TMP
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 35 28 gold able able.01 ----- 25:1-ARG1 27:0-ARGM-NEG 28:0-rel 29:2-ARG2
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 24 3 gold have have.01 ----- 3:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 94 16 gold respect respect.01 ----- 13:1*14:1*15:1-ARG0 13:1*14:1-LINK-SLC 16:0-rel 17:1-ARG1
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 62 6 gold be be.01 ----- 5:1-ARG1 6:0-rel 7:1-ARG2
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 18 15 gold work work.01 ----- 15:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 68 8 gold wish wish.01 ----- 3:1-ARGM-ADV 5:1-ARG0 6:1-ARGM-DIS 7:1*9:1-ARG1 8:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 55 5 gold take take.LV ----- 5:0-rel 6:1-ARGM-PRR
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 101 6 gold come come.01 ----- 5:1-ARG1 6:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 62 2 gold okay okay.04 ----- 0:1-ARG1 2:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 0 21 gold picture picture.01 ----- 18:1-ARG0 19:0-ARGM-MOD 20:0-ARGM-LVB 21:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 67 3 gold mind mind.01 ----- 0:1-ARGM-DIS 1:1-ARGM-NEG 2:1-ARG0 3:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 87 32 gold know know.01 ----- 31:1-ARG0 32:0-rel 33:2-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 116 14 gold worry worry.02 ----- 11:1-ARG0 13:0-ARGM-NEG 14:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 26 11 gold be be.01 ----- 6:1-ARGM-TMP 9:1-ARG1 10:0-ARGM-MOD 11:0-rel 12:1-ARG2
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 72 20 gold be be.01 ----- 19:1-ARG1 20:0-rel 21:1-ARG2
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 78 2 gold do do.01 ----- 2:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 30 2 gold come come.01 ----- 0:1-ARG1 1:1-ARGM-ADV 2:0-rel 3:1-ARGM-TMP
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 47 17 gold talk talk.01 ----- 14:1*16:1-ARG0 17:0-rel 18:1-ARG2 20:1-ARGM-EXT
@@ -185,27 +204,21 @@ SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 88 6 gold late late.02 ----- 4:1-ARG1 
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 24 20 gold mean mean.01 ----- 19:1-ARG0 20:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 38 5 gold help help.01 ----- 0:1-ARGM-DIS 4:1-ARG0 5:0-rel 6:1-ARG2
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 24 13 gold go go.04 ----- 13:0-rel
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 22 11 gold be be.03 ----- 11:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 9 2 gold tell tell.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG2 6:2-ARG1
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 69 2 gold make make.02 ----- 0:0-ARGM-MOD 1:1-ARG0 2:0-rel 3:2-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 112 4 gold do do.01 ----- 4:0-rel
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 9 0 gold do do.01 ----- 0:0-rel
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 13 4 gold want want.01 ----- 3:1-ARG0 4:0-rel 5:2-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 67 7 gold be be.01 ----- 5:1-ARGM-ADV 7:0-rel 8:0-ARGM-NEG 9:1-ARG1 10:1-ARG2
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 47 2 gold talk talk.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG2 5:1-ARGM-TMP
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 81 14 gold make make.02 ----- 13:1-ARG0 14:0-rel 15:1,17:1-ARG1 18:1-ARGM-MNR
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 115 3 gold facilitate facilitate.01 ----- 0:0-ARGM-MOD 1:1-ARG0 3:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 42 3 gold wrong wrong.02 ----- 0:1*1:1-ARG1 3:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 72 6 gold feel feel.02 ----- 4:1*17:1-ARGM-CAU 5:1-ARG0 6:0-rel 7:1-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 39 12 gold be be.01 ----- 11:1-ARG1 12:0-rel 13:0-ARGM-NEG 15:1-ARGM-REC 17:1-ARG2
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 99 11 gold late late.02 ----- 0:0-ARGM-DIS 1:2-ARGM-ADV 7:1-ARG1 8:0-ARGM-MOD 9:0-ARGM-NEG 11:0-rel
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 14 29 gold be be.01 ----- 26:1-ARG1 27:0-ARGM-MOD 28:1-ARGM-ADV 29:0-rel 30:1-ARG2 31:1-ARGM-GOL
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 94 20 gold love love.01 ----- 13:1*14:1*15:1-ARG0 13:1*14:1-LINK-SLC 20:0-rel 21:1-ARG1 22:1-ARGM-ADV
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 81 11 gold insist insist.01 ----- 10:1-ARG0 11:0-rel 12:1-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 20 24 gold make make.01 ----- 0:0-ARGM-DIS 1:1-ARGM-ADV 20:1-ARG0 21:0-ARGM-MOD 22:1-ARGM-ADV 24:0-rel 25:1-ARG1
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 39 17 gold present present.02 ----- 11:1-ARG1 13:0-ARGM-NEG 15:1-ARGM-REC 17:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 11 7 gold be be.03 ----- 7:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 88 5 gold be be.01 ----- 4:1-ARG1 5:0-rel 6:1-ARG2
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 39 28 gold write write.01 ----- 27:0-ARG1 28:0-rel
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 29 4 gold remember remember.01 ----- 3:1-ARG0 4:0-rel 5:1-ARG1
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 11 13 gold say say.01 ----- 6:1*12:1-ARG0 13:0-rel 14:1-ARG2 16:1-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 93 6 gold insist insist.01 ----- 4:1-ARG0 6:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 53 15 gold be be.03 ----- 15:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 35 2 gold have have.LV ----- 2:0-rel 7:0-ARGM-PRR
@@ -214,25 +227,27 @@ SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 69 4 gold pass pass.03 ----- 3:1-ARG1 
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 15 14 gold wed wed.01 ----- 14:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 35 31 gold stay stay.01 ----- 25:1*29:1-ARG1 31:0-rel 32:1-ARGM-TMP
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 123 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2 3:1-ARGM-ADV
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 13 12 gold wed wed.01 ----- 12:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 50 5 gold agree agree.01 ----- 0:1-ARG0 2:0-ARGM-MOD 3:0-ARGM-NEG 4:1-ARGM-ADV 5:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 98 5 gold worry worry.02 ----- 0:1-ARGM-DIS 2:1-ARG0 4:0-ARGM-NEG 5:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 55 6 gold care care.03 ----- 4:1-ARG0 5:0-ARGM-LVB 6:0-rel 7:1-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 43 1 gold know know.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 72 20 gold be be.01 ----- 19:1-ARG1 20:0-rel 21:1-ARG2
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 89 4 gold picture picture.01 ----- 1:1-ARG0 3:0-ARGM-LVB 4:0-rel 5:1-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 39 4 gold wait wait.01 ----- 0:0-ARGM-DIS 1:1-ARG1 2:0-ARGM-MOD 3:0-ARGM-NEG 4:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 4 11 gold picture picture.01 ----- 7:1-ARGM-ADV 8:1-ARG0 9:0-ARGM-MOD 10:0-ARGM-LVB 11:0-rel 12:1-ARGM-MNR
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 25 3 gold know know.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 120 9 gold issue issue.02 ----- 8:0-ARGM-ADJ 9:0-rel 15:1-ARG0
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 51 3 gold tire tire.03 ----- 0:1-ARG0 1:1-ARGM-ADV 3:0-rel 4:1-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 95 3 gold be be.01 ----- 0:1-ARGM-DIS 2:1-ARG1 3:0-rel 4:1-ARG2
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 41 2 gold make make.02 ----- 0:0-ARGM-MOD 1:1-ARG0 2:0-rel 3:2-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 82 1 gold liken like.02 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 22 11 gold be be.03 ----- 11:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 88 2 gold find find.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 82 19 gold bother bother.01 ----- 17:1-ARG0 18:0-ARGM-MOD 19:0-rel 20:1-ARG1
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 87 6 gold liken like.02 ----- 2:1*8:1-ARGM-CAU 4:0-ARGM-NEG 5:1-ARG0 6:0-rel 7:1-ARG1
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 78 4 gold liken like.02 ----- 0:1-ARG0 3:0-ARGM-NEG 4:0-rel 5:2-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 3 1 gold tell tell.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG2 3:2-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 78 7 gold talk talk.01 ----- 0:1*5:1-ARG0 7:0-rel 8:1-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 14 2 gold say say.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG2 5:1-ARG1
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 28 3 gold worsen bad.07 ----- 0:1-ARG1 3:0-rel
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 42 7 gold okay okay.04 ----- 6:1-ARG1 7:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 61 1 gold be be.01 ----- 0:1*3:1-ARG2 1:0-rel 2:1-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 56 4 gold agree agree.01 ----- 3:1-ARG0 4:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 42 2 gold be be.01 ----- 0:1*1:1-ARG1 2:0-rel 3:1-ARG2
@@ -244,20 +259,14 @@ SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 36 2 gold come come.01 ----- 0:0-ARGM-
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 47 9 gold out outing.07 ----- 9:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 35 26 gold be be.01 ----- 25:1-ARG1 26:0-rel 27:0-ARGM-NEG 28:1-ARG2
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 34 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 29 6 gold engage engagement.02 ----- 6:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 55 12 gold refuse refuse.01 ----- 11:1-ARG0 12:0-rel
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 72 3 gold know know.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:2-ARG1
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 17 23 gold be be.03 ----- 23:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 20 14 gold be be.03 ----- 14:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 7 14 gold come come.01 ----- 11:1*12:1-ARG1 14:0-rel 15:1-ARGM-TMP 17:2-ARGM-DIS
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 35 18 gold be be.02 ----- 15:1-ARGM-TMP 18:0-rel 19:2-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 1 1 gold have have.01 ----- 1:0-rel
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 26 3 gold say say.01 ----- 0:0-ARGM-DIS 1:1-ARGM-DIS 2:1-ARG0 3:0-rel 4:1-ARGM-ADV 5:1-ARGM-CAU
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 73 1 gold be be.03 ----- 1:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 15 10 gold ask ask.01 ----- 8:1-ARG0 10:0-rel 11:1-ARG2 12:3-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 3 6 gold come come.01 ----- 3:1*7:1-ARGM-TMP 4:1-ARG1 6:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 14 8 gold want want.01 ----- 6:1-ARG0 7:1-ARGM-ADV 8:0-rel 9:1-ARG1 10:1-ARGM-TMP
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 75 4 gold talk talk.01 ----- 0:1-ARGM-DIS 2:1-ARG0 4:0-rel 5:1-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 11 2 gold talk talk.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG2
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 14 22 gold say say.01 ----- 21:1-ARG0 22:0-rel 23:1-ARG2 26:2-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 57 2 gold do do.01 ----- 2:0-rel
@@ -268,31 +277,22 @@ SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 32 2 gold be be.01 ----- 0:0-ARGM-DIS 
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 13 13 gold start start.01 ----- 11:1-ARG1 13:0-rel 14:1-ARGM-TMP 16:1-ARGM-ADV
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 85 3 gold come come.01 ----- 0:0-ARGM-DIS 1:1-ARGM-DIS 2:1-ARG1 3:0-rel 4:1-ARG4 8:1-ARGM-TMP
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 11 18 gold have have.LV ----- 18:0-rel 20:0-ARGM-PRR
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 79 7 gold see see.01 ----- 5:1-ARG0 7:0-rel 8:2-ARG1 13:1-ARGM-DIR
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 114 4 gold be be.01 ----- 3:1-ARG1 4:0-rel 5:2-ARG2
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 17 3 gold want want.01 ----- 1:1-ARG0 2:1-ARGM-ADV 3:0-rel 4:2-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 25 1 gold do do.01 ----- 1:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 39 21 gold do do.02 ----- 9:2-ARGM-ADV 19:1-ARG0 20:0-ARGM-MOD 21:0-rel 22:1-ARG1 30:1-ARGM-TMP 32:2-ARGM-DIS
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 62 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 58 10 gold be be.01 ----- 9:1*14:1-ARG2 10:0-rel 11:1-ARG1
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 101 6 gold come come.01 ----- 5:1-ARG1 6:0-rel
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 89 22 gold understand understand.01 ----- 21:1-ARG0 22:0-rel 23:1-ARG1
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 105 6 gold come come.01 ----- 3:1-ARG1 4:0-ARGM-MOD 5:0-ARGM-ADV 6:0-rel 7:1-ARGM-TMP
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 117 1 gold be be.02 ----- 1:0-rel 2:2-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 14 15 gold delay delay.01 ----- 14:1-ARG0 15:0-rel 16:1-ARG1 17:1-ARGM-GOL
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 93 3 gold want want.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:1-ARGM-ADV 3:0-rel 4:2-ARG1 7:1-ARGM-ADV
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 96 11 gold alone alone.01 ----- 8:1-ARG1 11:0-rel
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 79 6 gold have have.01 ----- 6:0-rel
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 87 6 gold liken like.02 ----- 2:1*8:1-ARGM-CAU 4:0-ARGM-NEG 5:1-ARG0 6:0-rel 7:1-ARG1
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 55 10 gold let let.01 ----- 0:1-ARGM-DIS 2:1-ARG0 10:0-rel 11:2-ARG1
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 89 4 gold picture picture.01 ----- 1:1-ARG0 3:0-ARGM-LVB 4:0-rel 5:1-ARG1
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 82 19 gold bother bother.01 ----- 17:1-ARG0 18:0-ARGM-MOD 19:0-rel 20:1-ARG1
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 52 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-ADV 3:1-ARG2
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 29 4 gold remember remember.01 ----- 3:1-ARG0 4:0-rel 5:1-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 98 3 gold do do.01 ----- 3:0-rel
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 42 7 gold okay okay.04 ----- 6:1-ARG1 7:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 80 5 gold liken like.02 ----- 2:1-ARG0 4:0-ARGM-NEG 5:0-rel 6:1-ARG1
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 104 3 gold be be.03 ----- 3:0-rel
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 59 1 gold look look.09 ----- 0:1-ARG0 1:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 100 15 gold come come.01 ----- 10:2-ARG1 15:0-rel 16:1-ARGM-GOL
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 72 11 gold explode explode.03 ----- 8:1-ARG1 9:0-ARGM-MOD 11:0-rel 13:1-ARGM-GOL 16:1-ARGM-MNR
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 112 6 gold have have.03 ----- 0:1-ARG0 5:0-ARGM-NEG 6:0-rel 7:1-ARG1 10:1-ARGM-DIS
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 15 6 gold be be.01 ----- 0:1-ARG1 4:1-ARGM-ADV 6:0-rel 7:1-ARG2
+SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 32 15 gold leave leave.11 ----- 6:1*8:1*9:1*13:1-ARG0 6:1*8:1-LINK-SLC 15:0-rel
 SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 91 2 gold intend intend.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:2-ARG1
-SMS/05/CHT_ARZ_20120621.0002.arabizi.tree 72 11 gold explode explode.03 ----- 8:1-ARG1 9:0-ARGM-MOD 11:0-rel 13:1-ARGM-GOL 16:1-ARGM-MNR

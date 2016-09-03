@@ -1,9 +1,9 @@
 bn/cnn/01/cnn_0194.parse 1 1 gold call call.03 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 6:1-ARGM-TMP
 bn/cnn/01/cnn_0194.parse 2 15 gold restart restart.01 ----- 0:2-ARGM-ADV 12:1-ARG1 13:0-ARGM-MOD 14:0-ARGM-NEG 15:0-rel 16:1-ARGM-TMP
+bn/cnn/01/cnn_0194.parse 2 3 gold decide decide.01 ----- 2:1-ARG0 3:0-rel 4:2-ARG1
 bn/cnn/01/cnn_0194.parse 0 2 gold be be.03 ----- 2:0-rel
 bn/cnn/01/cnn_0194.parse 2 6 gold go go.06 ----- 2:1*4:1-ARG0 6:0-rel 7:1-ARG2 8:1-ARG1
 bn/cnn/01/cnn_0194.parse 2 10 gold talk talk.01 ----- 10:0-rel
-bn/cnn/01/cnn_0194.parse 1 10 gold talk talk.01 ----- 10:0-rel 11:1-ARGM-LOC
-bn/cnn/01/cnn_0194.parse 2 3 gold decide decide.01 ----- 2:1-ARG0 3:0-rel 4:2-ARG1
-bn/cnn/01/cnn_0194.parse 0 3 gold talk talk.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG2 7:1-ARGM-TMP
 bn/cnn/01/cnn_0194.parse 2 23 gold slay slay.01 ----- 23:0-rel 24:0-ARG1
+bn/cnn/01/cnn_0194.parse 1 10 gold talk talk.01 ----- 10:0-rel 11:1-ARGM-LOC
+bn/cnn/01/cnn_0194.parse 0 3 gold talk talk.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG2 7:1-ARGM-TMP

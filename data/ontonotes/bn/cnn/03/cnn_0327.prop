@@ -1,5 +1,5 @@
-bn/cnn/03/cnn_0327.parse 2 67 gold end end.01 ----- 67:0-rel 68:1-ARG1
 bn/cnn/03/cnn_0327.parse 2 56 gold be be.03 ----- 56:0-rel
+bn/cnn/03/cnn_0327.parse 2 65 gold regard regard.01 ----- 58:2-ARG0 65:0-rel 66:2-ARG1
 bn/cnn/03/cnn_0327.parse 4 40 gold be be.03 ----- 40:0-rel
 bn/cnn/03/cnn_0327.parse 4 18 gold go go.02 ----- 2:1-ARGM-TMP 16:1-ARG0 17:1-ARGM-ADV 18:0-rel 19:1-ARG4
 bn/cnn/03/cnn_0327.parse 0 19 gold hit hit.01 ----- 18:1-ARG0 19:0-rel 20:2-ARG1
@@ -15,6 +15,8 @@ bn/cnn/03/cnn_0327.parse 2 57 gold issue issue.01 ----- 50:1-ARGM-TMP 51:1-ARGM-
 bn/cnn/03/cnn_0327.parse 2 15 gold talk talk.01 ----- 6:1*14:1-ARG0 15:0-rel 16:1-ARG2
 bn/cnn/03/cnn_0327.parse 0 17 gold land land.01 ----- 0:0-ARG0 17:0-rel 18:2-ARGM-PRD
 bn/cnn/03/cnn_0327.parse 3 3 gold call call.01 ----- 0:2-ARG0 3:0-rel 4:1-ARG1 5:2-ARG2
+bn/cnn/03/cnn_0327.parse 4 57 gold deploy deploy.01 ----- 53:2-ARGM-TMP 57:0-rel
+bn/cnn/03/cnn_0327.parse 2 67 gold end end.01 ----- 67:0-rel 68:1-ARG1
 bn/cnn/03/cnn_0327.parse 1 9 gold take take.14 ----- 2:1*6:1*7:1-ARG1 2:1*6:1-LINK-SLC 9:0-rel 10:1-ARG2 11:1-ARGM-LOC 18:1-ARGM-TMP
 bn/cnn/03/cnn_0327.parse 2 60 gold address address.03 ----- 59:0-ARGM-ADJ 60:0-rel 61:1-ARG2
 bn/cnn/03/cnn_0327.parse 2 29 gold take take.01 ----- 6:1-ARG0 29:0-rel 30:1-ARG1 31:1-ARG2 34:2-ARGM-ADV
@@ -24,7 +26,5 @@ bn/cnn/03/cnn_0327.parse 4 9 gold tour tour.01 ----- 3:1*16:1-ARG0 6:0-ARGM-LVB 
 bn/cnn/03/cnn_0327.parse 4 31 gold operate operate.01 ----- 30:0-ARG1 31:0-rel 32:1-ARG0
 bn/cnn/03/cnn_0327.parse 2 46 gold talk talk.01 ----- 6:1*14:1-ARG0 46:0-rel 47:1-ARG2
 bn/cnn/03/cnn_0327.parse 1 23 gold deploy deploy.01 ----- 20:2-ARGM-TMP 23:0-rel 25:2-ARGM-ADJ
-bn/cnn/03/cnn_0327.parse 4 57 gold deploy deploy.01 ----- 53:2-ARGM-TMP 57:0-rel
 bn/cnn/03/cnn_0327.parse 4 6 gold take take.LV ----- 6:0-rel 9:0-ARGM-PRR
 bn/cnn/03/cnn_0327.parse 0 4 gold come come.01 ----- 0:0-ARG1 1:1-ARGM-LOC 4:0-rel 5:1;9:1-ARG4 7:1-ARGM-MNR
-bn/cnn/03/cnn_0327.parse 2 65 gold regard regard.01 ----- 58:2-ARG0 65:0-rel 66:2-ARG1

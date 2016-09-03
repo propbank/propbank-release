@@ -1,8 +1,9 @@
 nw/wsj/18/wsj_1877.parse 5 4 gold be be.03 ----- 4:0-rel
 nw/wsj/18/wsj_1877.parse 0 23 gold steal steal.01 ----- 23:0-rel 24:0-ARG1
 nw/wsj/18/wsj_1877.parse 1 22 gold charge charge.05 ----- 0:2*21:1-ARG0 22:0-rel 23:1-ARG1 24:1-ARG2
+nw/wsj/18/wsj_1877.parse 0 21 gold transport transport.01 ----- 20:0-ARGM-LOC 21:0-rel 22:1-ARG1
 nw/wsj/18/wsj_1877.parse 4 7 gold be be.03 ----- 7:0-rel
-nw/wsj/18/wsj_1877.parse 7 1 gold make make.01 ----- 0:1-ARG0 1:0-rel 2:3-ARG1
+nw/wsj/18/wsj_1877.parse 0 17 gold charge charge.05 ----- 0:2*16:1-ARG0 17:0-rel 18:1-ARG1 19:1-ARG2
 nw/wsj/18/wsj_1877.parse 4 8 gold imprison imprison.01 ----- 0:1-ARGM-PRD 5:1*9:1-ARG1 6:0-ARGM-MOD 8:0-rel 10:1-ARG2
 nw/wsj/18/wsj_1877.parse 1 26 gold steal steal.01 ----- 23:1*25:1-ARG0 26:0-rel 27:1-ARG1
 nw/wsj/18/wsj_1877.parse 6 2 gold deny deny.01 ----- 0:1-ARG0 1:1-ARGM-TMP 2:0-rel 3:2-ARG1
@@ -12,9 +13,8 @@ nw/wsj/18/wsj_1877.parse 1 7 gold file file.01 ----- 0:2-ARG0 5:1-ARGM-TMP 7:0-r
 nw/wsj/18/wsj_1877.parse 3 7 gold involve involve.01 ----- 0:2-ARG2 7:0-rel 8:1-ARG1
 nw/wsj/18/wsj_1877.parse 2 3 gold work work.01 ----- 0:1-ARG0 2:1-ARGM-TMP 3:0-rel 4:1-ARGM-LOC 7:1-ARG1
 nw/wsj/18/wsj_1877.parse 4 2 gold convict convict.01 ----- 1:1*5:1-ARG1 2:0-rel
-nw/wsj/18/wsj_1877.parse 0 21 gold transport transport.01 ----- 20:0-ARGM-LOC 21:0-rel 22:1-ARG1
-nw/wsj/18/wsj_1877.parse 0 17 gold charge charge.05 ----- 0:2*16:1-ARG0 17:0-rel 18:1-ARG1 19:1-ARG2
+nw/wsj/18/wsj_1877.parse 7 1 gold make make.01 ----- 0:1-ARG0 1:0-rel 2:3-ARG1
 nw/wsj/18/wsj_1877.parse 0 4 gold indict indict.01 ----- 0:2-ARG0 4:0-rel 5:3-ARG1 16:2-ARGM-PRD
-nw/wsj/18/wsj_1877.parse 1 12 gold former former.01 ----- 12:0-rel 13:0,14:0-ARG1
 nw/wsj/18/wsj_1877.parse 0 8 gold former former.01 ----- 8:0-rel 9:0-ARG1
 nw/wsj/18/wsj_1877.parse 3 3 gold bring bring.01 ----- 0:1*4:1-ARG1 0:1*4:1-LINK-PSV 3:0-rel 5:1-ARG2
+nw/wsj/18/wsj_1877.parse 1 12 gold former former.01 ----- 12:0-rel 13:0,14:0-ARG1

@@ -1,6 +1,7 @@
 nw/wsj/18/wsj_1843.parse 11 21 gold say say.01 ----- 1:2*22:1-ARG1 21:0-rel 23:2-ARG0
 nw/wsj/18/wsj_1843.parse 5 12 gold track track.01 ----- 8:1*13:1-ARG1 8:1*13:1-LINK-PSV 12:0-rel 14:1-ARG0
 nw/wsj/18/wsj_1843.parse 16 4 gold tend tend.02 ----- 0:2-ARG1 4:0-rel 5:2-ARG2
+nw/wsj/18/wsj_1843.parse 8 6 gold rise rise.01 ----- 0:2-ARG1 6:0-rel 7:1-ARG2 18:1-ARGM-TMP 28:2-ARGM-ADV
 nw/wsj/18/wsj_1843.parse 16 13 gold adjust adjust.01 ----- 11:1-ARG0 13:0-rel 14:2-ARG1 32:2-ARGM-PRP
 nw/wsj/18/wsj_1843.parse 17 0 gold mature maturate.03 ----- 0:0-rel
 nw/wsj/18/wsj_1843.parse 21 7 gold be be.01 ----- 0:1-ARG1 7:0-rel 8:1-ARG2 11:1-ARGM-ADV
@@ -8,36 +9,34 @@ nw/wsj/18/wsj_1843.parse 18 13 gold remain remain.01 ----- 0:2-ARG1 13:0-rel 14:
 nw/wsj/18/wsj_1843.parse 7 7 gold be be.03 ----- 7:0-rel
 nw/wsj/18/wsj_1843.parse 26 12 gold be be.01 ----- 0:2-ARG1 12:0-rel 13:1-ARG2
 nw/wsj/18/wsj_1843.parse 6 10 gold continue continue.01 ----- 8:1-ARG1 10:0-rel 11:1-ARGM-TMP
+nw/wsj/18/wsj_1843.parse 2 15 gold say say.01 ----- 1:2*16:1-ARG1 15:0-rel 17:2-ARG0
 nw/wsj/18/wsj_1843.parse 3 2 gold be be.01 ----- 1:1-ARG1 2:0-rel 3:2-ARG2
 nw/wsj/18/wsj_1843.parse 7 8 gold yield yield.01 ----- 0:1-ARG0 8:0-rel 9:2-ARG1 14:1-ARGM-LOC
 nw/wsj/18/wsj_1843.parse 10 7 gold increase increase.01 ----- 5:1-ARG1 6:0-ARGM-MOD 7:0-rel 8:1-ARGM-TMP 11:1-ARGM-CAU
-nw/wsj/18/wsj_1843.parse 8 6 gold rise rise.01 ----- 0:2-ARG1 6:0-rel 7:1-ARG2 18:1-ARGM-TMP 28:2-ARGM-ADV
 nw/wsj/18/wsj_1843.parse 11 4 gold sell sell.01 ----- 2:1-ARG0 4:0-rel 5:1-ARG1
 nw/wsj/18/wsj_1843.parse 25 12 gold have have.03 ----- 0:1-ARGM-LOC 8:2-ARG0 12:0-rel 13:2-ARG1 22:1-ARGM-TMP
 nw/wsj/18/wsj_1843.parse 8 29 gold reflect reflect.01 ----- 0:2*28:1-ARG1 29:0-rel 30:1-ARG2
 nw/wsj/18/wsj_1843.parse 4 9 gold continue continue.01 ----- 0:1-ARGM-ADV 7:1,10:2-ARG1 9:0-rel
 nw/wsj/18/wsj_1843.parse 0 21 gold opt opt.01 ----- 20:1-ARG0 21:0-rel 22:1-ARG1
 nw/wsj/18/wsj_1843.parse 19 23 gold hit hit.02 ----- 0:1-ARG0 23:0-rel 24:1-ARG1 26:1-ARGM-TMP
-nw/wsj/18/wsj_1843.parse 0 6 gold grow grow.01 ----- 0:3-ARG1 6:0-rel 7:1-ARG2 14:1-ARGM-TMP 19:1-ARGM-TMP
 nw/wsj/18/wsj_1843.parse 15 11 gold have have.01 ----- 11:0-rel
-nw/wsj/18/wsj_1843.parse 17 13 gold be be.03 ----- 13:0-rel
+nw/wsj/18/wsj_1843.parse 16 15 gold mature maturate.03 ----- 15:0-rel 16:1-ARG1
 nw/wsj/18/wsj_1843.parse 15 12 gold lean lean.01 ----- 4:2*9:1*10:1-ARG1 4:2*9:1-LINK-SLC 12:0-rel 13:1-ARG2 16:1-ARGM-TMP
-nw/wsj/18/wsj_1843.parse 22 3 gold post post.01 ----- 0:1-ARG0 3:0-rel 4:2-ARG1
-nw/wsj/18/wsj_1843.parse 19 16 gold be be.03 ----- 16:0-rel
 nw/wsj/18/wsj_1843.parse 11 28 gold manage manage.01 ----- 23:1*26:1*27:1-ARG0 23:1*26:1-LINK-SLC 28:0-rel 29:1-ARG1
 nw/wsj/18/wsj_1843.parse 24 1 gold include include.01 ----- 0:1-ARG2 1:0-rel 2:2-ARG1
 nw/wsj/18/wsj_1843.parse 5 19 gold be be.01 ----- 0:2-ARG1 19:0-rel 20:1-ARG2 22:1-ARGM-TMP 27:1-ARGM-ADV
 nw/wsj/18/wsj_1843.parse 14 5 gold run run.02 ----- 1:1-ARG0 3:0-ARGM-NEG 4:1-ARGM-ADV 5:0-rel 6:2-ARGM-PRD
-nw/wsj/18/wsj_1843.parse 8 24 gold say say.01 ----- 22:1-ARG0 24:0-rel
 nw/wsj/18/wsj_1843.parse 2 3 gold expect expect.01 ----- 1:1-ARG0 3:0-rel 4:1-ARG1 6:1-ARGM-TMP
+nw/wsj/18/wsj_1843.parse 8 24 gold say say.01 ----- 22:1-ARG0 24:0-rel
 nw/wsj/18/wsj_1843.parse 1 4 gold soar soar.01 ----- 0:2-ARG1 4:0-rel 5:2-ARG2 9:1-ARGM-TMP 15:1-ARG4 23:1-ARGM-ADV
+nw/wsj/18/wsj_1843.parse 0 6 gold grow grow.01 ----- 0:3-ARG1 6:0-rel 7:1-ARG2 14:1-ARGM-TMP 19:1-ARGM-TMP
 nw/wsj/18/wsj_1843.parse 15 3 gold maintain maintain.01 ----- 1:1-ARG0 3:0-rel 4:3-ARG1
 nw/wsj/18/wsj_1843.parse 7 30 gold fall fall.01 ----- 19:2-ARG1 30:0-rel 31:1-ARG4
 nw/wsj/18/wsj_1843.parse 17 6 gold be be.03 ----- 6:0-rel
-nw/wsj/18/wsj_1843.parse 16 15 gold mature maturate.03 ----- 15:0-rel 16:1-ARG1
 nw/wsj/18/wsj_1843.parse 11 8 gold do do.01 ----- 8:0-rel
 nw/wsj/18/wsj_1843.parse 23 7 gold be be.01 ----- 0:2-ARG1 7:0-rel 8:2-ARG2
 nw/wsj/18/wsj_1843.parse 18 6 gold track track.01 ----- 4:1*7:1-ARG1 4:1*7:1-LINK-PSV 6:0-rel 8:1-ARG0
+nw/wsj/18/wsj_1843.parse 17 13 gold be be.03 ----- 13:0-rel
 nw/wsj/18/wsj_1843.parse 3 5 gold fly flee.05 ----- 4:0-ARGM-ADJ 5:0-rel 6:1-ARG2
 nw/wsj/18/wsj_1843.parse 7 24 gold sell sell.01 ----- 22:1*25:1-ARG1 22:1*25:1-LINK-PSV 24:0-rel 26:1-ARGM-LOC
 nw/wsj/18/wsj_1843.parse 20 10 gold fall fall.01 ----- 0:2-ARG1 10:0-rel 11:1-ARG4 14:1-ARGM-TMP 16:1-ARG3
@@ -50,6 +49,7 @@ nw/wsj/18/wsj_1843.parse 11 10 gold start start.01 ----- 1:1-ARGM-ADV 7:1,11:2-A
 nw/wsj/18/wsj_1843.parse 21 26 gold slide slide.02 ----- 20:1-ARG1 26:0-rel 27:1-ARG4 30:1-ARG3
 nw/wsj/18/wsj_1843.parse 4 12 gold offer offer.01 ----- 7:1*10:1-ARG0 12:0-rel 13:2-ARG1
 nw/wsj/18/wsj_1843.parse 12 10 gold say say.01 ----- 0:2-ARG0 10:0-rel 11:1-ARG1
+nw/wsj/18/wsj_1843.parse 22 3 gold post post.01 ----- 0:1-ARG0 3:0-rel 4:2-ARG1
 nw/wsj/18/wsj_1843.parse 17 14 gold fall fall.01 ----- 11:1*15:1-ARGM-TMP 12:1-ARG1 14:0-rel
 nw/wsj/18/wsj_1843.parse 16 34 gold capture capture.01 ----- 11:1*32:1-ARG0 34:0-rel 35:1-ARG1
 nw/wsj/18/wsj_1843.parse 24 6 gold be be.03 ----- 6:0-rel
@@ -59,16 +59,16 @@ nw/wsj/18/wsj_1843.parse 10 3 gold say say.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
 nw/wsj/18/wsj_1843.parse 19 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2 7:1-ARGM-TMP
 nw/wsj/18/wsj_1843.parse 22 2 gold be be.03 ----- 2:0-rel
 nw/wsj/18/wsj_1843.parse 12 34 gold come come.03 ----- 32:1-ARG1 34:0-rel 35:1-ARG2
-nw/wsj/18/wsj_1843.parse 2 15 gold say say.01 ----- 1:2*16:1-ARG1 15:0-rel 17:2-ARG0
+nw/wsj/18/wsj_1843.parse 19 16 gold be be.03 ----- 16:0-rel
 nw/wsj/18/wsj_1843.parse 17 7 gold rise rise.01 ----- 4:1*8:1-ARGM-TMP 5:1-ARG1 7:0-rel
 nw/wsj/18/wsj_1843.parse 8 4 gold have have.01 ----- 4:0-rel
 nw/wsj/18/wsj_1843.parse 1 12 gold end end.01 ----- 10:1-ARG1 12:0-rel 13:1-ARGM-TMP
 nw/wsj/18/wsj_1843.parse 24 7 gold pass pass.05 ----- 2:1*4:1*5:1*8:1-ARG1 2:1*4:1-LINK-SLC 7:0-rel 9:1-ARGM-DIR 10:1-ARG2
-nw/wsj/18/wsj_1843.parse 12 25 gold be be.01 ----- 12:2-ARG1 25:0-rel 26:2-ARG2 31:1-ARGM-MNR
 nw/wsj/18/wsj_1843.parse 11 12 gold get get.01 ----- 7:1*11:1-ARG0 12:0-rel 13:1-ARG1
 nw/wsj/18/wsj_1843.parse 14 2 gold be be.03 ----- 2:0-rel
 nw/wsj/18/wsj_1843.parse 13 11 gold say say.01 ----- 0:2*13:1-ARG1 10:1-ARG0 11:0-rel
 nw/wsj/18/wsj_1843.parse 17 2 gold be be.01 ----- 0:1-ARG1 1:1-ARGM-TMP 2:0-rel 3:1-ARG2 4:2-ARGM-TMP
 nw/wsj/18/wsj_1843.parse 8 5 gold be be.03 ----- 5:0-rel
 nw/wsj/18/wsj_1843.parse 19 17 gold march march.02 ----- 8:2*14:1*20:1-ARGM-TMP 8:2*14:1-LINK-SLC 15:1-ARG1 17:0-rel 18:1-ARGM-MNR 19:1-ARGM-DIR
+nw/wsj/18/wsj_1843.parse 12 25 gold be be.01 ----- 12:2-ARG1 25:0-rel 26:2-ARG2 31:1-ARGM-MNR
 nw/wsj/18/wsj_1843.parse 14 12 gold say say.01 ----- 1:2*13:1-ARG1 10:1-ARG0 12:0-rel

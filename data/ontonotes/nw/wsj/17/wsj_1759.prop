@@ -1,7 +1,7 @@
 nw/wsj/17/wsj_1759.parse 4 2 gold estimate estimate.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 nw/wsj/17/wsj_1759.parse 0 21 gold take take_over.12 ----- 16:1*18:1*19:1-ARG0 16:1*18:1-LINK-SLC 21:0,22:1-rel 23:1-ARG1
 nw/wsj/17/wsj_1759.parse 6 4 gold be be.03 ----- 4:0-rel
-nw/wsj/17/wsj_1759.parse 7 9 gold derive derive.01 ----- 5:1*8:1-ARG0 9:0-rel 10:3-ARG1 16:1-ARG2
+nw/wsj/17/wsj_1759.parse 1 8 gold control control.01 ----- 7:1*9:1-ARG1 7:1*9:1-LINK-PSV 8:0-rel 10:1-ARG0
 nw/wsj/17/wsj_1759.parse 13 2 gold decline decline.02 ----- 0:2-ARG0 2:0-rel 3:2-ARG1 7:1-ARGM-ADV
 nw/wsj/17/wsj_1759.parse 0 3 gold plan plan.01 ----- 0:1-ARG0 3:0-rel 4:2-ARG1 26:1-ARGM-ADV
 nw/wsj/17/wsj_1759.parse 3 26 gold strip strip_away.02 ----- 16:2*22:1*23:1*27:1-ARG1 16:2*22:1-LINK-SLC 26:0,28:1-rel
@@ -9,42 +9,42 @@ nw/wsj/17/wsj_1759.parse 11 9 gold transfer transfer.01 ----- 0:2*6:1*10:1-ARG1 
 nw/wsj/17/wsj_1759.parse 11 8 gold be be.03 ----- 8:0-rel
 nw/wsj/17/wsj_1759.parse 0 15 gold seek seek.01 ----- 0:1*4:1-ARG0 15:0-rel 16:2-ARG1 26:1-ARGM-ADV
 nw/wsj/17/wsj_1759.parse 3 25 gold be be.03 ----- 25:0-rel
+nw/wsj/17/wsj_1759.parse 9 15 gold put put.01 ----- 0:3-ARG0 15:0-rel 16:1-ARG1 17:1-ARG2
 nw/wsj/17/wsj_1759.parse 3 47 gold evade evade.01 ----- 46:0-ARG1 47:0-rel
+nw/wsj/17/wsj_1759.parse 7 18 gold insure insure.02 ----- 5:1*8:1*17:1-ARG0 18:0-rel 19:1-ARG1
 nw/wsj/17/wsj_1759.parse 9 11 gold relate relate.01 ----- 11:0-rel 12:0,13:0-ARG1
+nw/wsj/17/wsj_1759.parse 7 9 gold derive derive.01 ----- 5:1*8:1-ARG0 9:0-rel 10:3-ARG1 16:1-ARG2
 nw/wsj/17/wsj_1759.parse 8 4 gold have have.01 ----- 4:0-rel
 nw/wsj/17/wsj_1759.parse 13 5 gold comment comment.01 ----- 0:2*3:1-ARG0 5:0-rel
 nw/wsj/17/wsj_1759.parse 0 14 gold be be.03 ----- 14:0-rel
 nw/wsj/17/wsj_1759.parse 9 5 gold surround surround.01 ----- 3:1-ARG1 5:0-rel 6:2-ARG2
+nw/wsj/17/wsj_1759.parse 5 9 gold cover cover.01 ----- 8:1-ARG2 9:0-rel 10:2-ARG1
 nw/wsj/17/wsj_1759.parse 12 9 gold be be.03 ----- 9:0-rel
 nw/wsj/17/wsj_1759.parse 3 41 gold be be.03 ----- 41:0-rel
 nw/wsj/17/wsj_1759.parse 8 11 gold say say.01 ----- 10:1-ARG0 11:0-rel
 nw/wsj/17/wsj_1759.parse 0 6 gold close close.01 ----- 0:1*4:1-ARG0 6:0-rel 7:1-ARG1
 nw/wsj/17/wsj_1759.parse 10 26 gold be be.01 ----- 9:2-ARG1 26:0-rel 27:0-ARGM-NEG 28:2-ARG2
-nw/wsj/17/wsj_1759.parse 1 8 gold control control.01 ----- 7:1*9:1-ARG1 7:1*9:1-LINK-PSV 8:0-rel 10:1-ARG0
-nw/wsj/17/wsj_1759.parse 10 10 gold shutter shutter.01 ----- 9:1-ARG0 10:0-rel 11:2-ARG1
 nw/wsj/17/wsj_1759.parse 3 42 gold find find.02 ----- 30:1*32:1*48:1-ARGM-TMP 30:1*32:1-LINK-SLC 42:0-rel 43:2-ARG1
+nw/wsj/17/wsj_1759.parse 10 10 gold shutter shutter.01 ----- 9:1-ARG0 10:0-rel 11:2-ARG1
 nw/wsj/17/wsj_1759.parse 3 15 gold be be.01 ----- 0:2-ARG1 14:0-ARGM-MOD 15:0-rel 16:3-ARG2
 nw/wsj/17/wsj_1759.parse 7 4 gold prohibit prohibit.01 ----- 0:3-ARG0 4:0-rel 5:1-ARG1 7:1-ARG2
 nw/wsj/17/wsj_1759.parse 8 29 gold be be.03 ----- 29:0-rel
 nw/wsj/17/wsj_1759.parse 11 4 gold be be.03 ----- 4:0-rel
 nw/wsj/17/wsj_1759.parse 2 1 gold include include.01 ----- 0:1-ARG2 1:0-rel 2:4-ARG1
 nw/wsj/17/wsj_1759.parse 7 19 gold affiliate affiliate.01 ----- 19:0-rel 20:0-ARG1
-nw/wsj/17/wsj_1759.parse 5 9 gold cover cover.01 ----- 8:1-ARG2 9:0-rel 10:2-ARG1
 nw/wsj/17/wsj_1759.parse 6 5 gold own own.01 ----- 0:2*6:1-ARG1 5:0-rel 7:1-ARGM-MNR
 nw/wsj/17/wsj_1759.parse 12 11 gold work work_out.02 ----- 0:2-ARG0 11:0,12:1-rel 13:1-ARG1 15:1-ARG2
-nw/wsj/17/wsj_1759.parse 10 7 gold insist insist.01 ----- 0:1-ARGM-DIS 2:2-ARG0 7:0-rel 8:1-ARG1
 nw/wsj/17/wsj_1759.parse 6 10 gold control control.01 ----- 8:1*11:1-ARG1 8:1*11:1-LINK-PSV 10:0-rel 12:1-ARG0
 nw/wsj/17/wsj_1759.parse 5 11 gold manage manage.01 ----- 10:1*12:1-ARG1 10:1*12:1-LINK-PSV 11:0-rel 13:1-ARG0
 nw/wsj/17/wsj_1759.parse 9 4 gold scandal scandal.01 ----- 4:0-rel 5:1-ARGM-PRD
 nw/wsj/17/wsj_1759.parse 8 30 gold restructure restructure.01 ----- 27:1*31:1-ARG1 30:0-rel
-nw/wsj/17/wsj_1759.parse 7 18 gold insure insure.02 ----- 5:1*8:1*17:1-ARG0 18:0-rel 19:1-ARG1
 nw/wsj/17/wsj_1759.parse 6 8 gold limit limit.01 ----- 8:0-rel 9:0-ARG1
-nw/wsj/17/wsj_1759.parse 5 3 gold act act.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
 nw/wsj/17/wsj_1759.parse 4 20 gold have have.03 ----- 4:1-ARG0 20:0-rel 21:2-ARG1
 nw/wsj/17/wsj_1759.parse 8 18 gold be be.03 ----- 18:0-rel
 nw/wsj/17/wsj_1759.parse 9 14 gold have have.01 ----- 14:0-rel
 nw/wsj/17/wsj_1759.parse 1 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:2-ARG2
+nw/wsj/17/wsj_1759.parse 10 7 gold insist insist.01 ----- 0:1-ARGM-DIS 2:2-ARG0 7:0-rel 8:1-ARG1
 nw/wsj/17/wsj_1759.parse 8 20 gold consider consider.01 ----- 19:0-ARGM-NEG 20:0-rel 21:2-ARG1 33:1-ARGM-TMP
-nw/wsj/17/wsj_1759.parse 9 15 gold put put.01 ----- 0:3-ARG0 15:0-rel 16:1-ARG1 17:1-ARG2
 nw/wsj/17/wsj_1759.parse 8 6 gold exceed exceed.01 ----- 0:2-ARG0 5:1-ARG2 6:0-rel 7:1-ARG1
+nw/wsj/17/wsj_1759.parse 5 3 gold act act.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
 nw/wsj/17/wsj_1759.parse 11 5 gold expect expect.01 ----- 0:2,6:2-ARG1 5:0-rel

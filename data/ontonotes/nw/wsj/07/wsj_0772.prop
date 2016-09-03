@@ -8,6 +8,7 @@ nw/wsj/07/wsj_0772.parse 10 13 gold continue continue.01 ----- 13:0-rel 14:0-ARG
 nw/wsj/07/wsj_0772.parse 4 1 gold think think.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG2
 nw/wsj/07/wsj_0772.parse 3 9 gold compete compete.02 ----- 9:0-rel 10:0-ARG0
 nw/wsj/07/wsj_0772.parse 5 13 gold accept accept.01 ----- 9:1*14:1-ARG1 13:0-rel 15:1-ARG0
+nw/wsj/07/wsj_0772.parse 3 25 gold live live.01 ----- 18:1*20:1*26:1-ARGM-LOC 18:1*20:1-LINK-SLC 21:1*23:1-ARG0 25:0-rel
 nw/wsj/07/wsj_0772.parse 5 1 gold remember remember.01 ----- 0:1-ARG0 1:0-rel 2:3-ARG1
 nw/wsj/07/wsj_0772.parse 7 4 gold be be.01 ----- 0:1*5:1-ARG2 4:0-rel 6:1-ARG1
 nw/wsj/07/wsj_0772.parse 7 8 gold think think.01 ----- 8:0-rel 9:0-ARG0
@@ -16,18 +17,18 @@ nw/wsj/07/wsj_0772.parse 2 41 gold be be.01 ----- 35:1*39:1-ARG1 35:1*39:1-LINK-
 nw/wsj/07/wsj_0772.parse 1 1 gold live live.01 ----- 0:1-ARG0 1:0-rel 2:1-ARGM-LOC 5:1-ARGM-TMP
 nw/wsj/07/wsj_0772.parse 5 6 gold be be.01 ----- 2:1*7:1-ARG2 6:0-rel 8:1-ARG1
 nw/wsj/07/wsj_0772.parse 10 21 gold think think.01 ----- 16:1,22:2-ARG1 21:0-rel
-nw/wsj/07/wsj_0772.parse 9 5 gold die die.01 ----- 2:1-ARG1 5:0-rel 6:2-ARGM-TMP
 nw/wsj/07/wsj_0772.parse 0 21 gold hoe hoe.01 ----- 16:1*18:1*22:1-ARG1 16:1*18:1-LINK-SLC 19:1-ARG0 21:0-rel
-nw/wsj/07/wsj_0772.parse 3 25 gold live live.01 ----- 18:1*20:1*26:1-ARGM-LOC 18:1*20:1-LINK-SLC 21:1*23:1-ARG0 25:0-rel
-nw/wsj/07/wsj_0772.parse 5 37 gold be be.01 ----- 34:1*35:1*36:1-ARG1 34:1*35:1-LINK-SLC 37:0-rel 38:1-ARG2
 nw/wsj/07/wsj_0772.parse 3 11 gold be be.01 ----- 0:2-ARG1 11:0-rel 12:2-ARG2
 nw/wsj/07/wsj_0772.parse 2 36 gold make make.LV ----- 36:0-rel 38:0-ARGM-PRR
-nw/wsj/07/wsj_0772.parse 10 24 gold exist exist.01 ----- 16:1*22:1-ARG1 16:1*22:1-LINK-PRO 24:0-rel 25:1-ARGM-LOC
-nw/wsj/07/wsj_0772.parse 2 45 gold expand expand.01 ----- 45:0-rel 46:0-ARG1
-nw/wsj/07/wsj_0772.parse 2 26 gold think think.01 ----- 0:1-ARGM-TMP 2:1-ARGM-TMP 25:1-ARG0 26:0-rel 27:1-ARG1
 nw/wsj/07/wsj_0772.parse 2 4 gold drive drive.01 ----- 3:1-ARG0 4:0-rel 5:2-ARG1
+nw/wsj/07/wsj_0772.parse 5 37 gold be be.01 ----- 34:1*35:1*36:1-ARG1 34:1*35:1-LINK-SLC 37:0-rel 38:1-ARG2
+nw/wsj/07/wsj_0772.parse 10 24 gold exist exist.01 ----- 16:1*22:1-ARG1 16:1*22:1-LINK-PRO 24:0-rel 25:1-ARGM-LOC
+nw/wsj/07/wsj_0772.parse 2 26 gold think think.01 ----- 0:1-ARGM-TMP 2:1-ARGM-TMP 25:1-ARG0 26:0-rel 27:1-ARG1
 nw/wsj/07/wsj_0772.parse 6 4 gold fire fire.02 ----- 0:1*2:1*5:1-ARG1 4:0-rel 6:1-ARGM-TMP 10:1-ARGM-ADV
 nw/wsj/07/wsj_0772.parse 0 1 gold be be.03 ----- 1:0-rel
+nw/wsj/07/wsj_0772.parse 7 14 gold root root.02 ----- 13:1*15:1-ARG1 13:1*15:1-LINK-PSV 14:0-rel 16:1-ARG2
+nw/wsj/07/wsj_0772.parse 2 45 gold expand expand.01 ----- 45:0-rel 46:0-ARG1
+nw/wsj/07/wsj_0772.parse 9 5 gold die die.01 ----- 2:1-ARG1 5:0-rel 6:2-ARGM-TMP
 nw/wsj/07/wsj_0772.parse 6 22 gold deem deem.01 ----- 16:1*33:1-ARGM-TMP 22:0-rel 23:2-ARG1 25:1-ARG0
 nw/wsj/07/wsj_0772.parse 10 11 gold harbor harbor.01 ----- 0:1-ARGM-DIS 1:1-ARGM-DIS 4:2-ARG0 11:0-rel 12:2-ARG1
 nw/wsj/07/wsj_0772.parse 2 56 gold happen happen.01 ----- 44:1*52:1*57:1-ARGM-LOC 44:1*52:1-LINK-SLC 53:2-ARG1 56:0-rel
@@ -37,6 +38,5 @@ nw/wsj/07/wsj_0772.parse 9 12 gold bury bury.01 ----- 0:1-ARGM-DIS 1:2-ARGM-TMP 
 nw/wsj/07/wsj_0772.parse 6 21 gold be be.03 ----- 21:0-rel
 nw/wsj/07/wsj_0772.parse 6 3 gold be be.03 ----- 3:0-rel
 nw/wsj/07/wsj_0772.parse 5 29 gold await await.01 ----- 26:1*28:1-ARG1 29:0-rel 30:1-ARG2 33:1-ARGM-LOC
-nw/wsj/07/wsj_0772.parse 7 14 gold root root.02 ----- 13:1*15:1-ARG1 13:1*15:1-LINK-PSV 14:0-rel 16:1-ARG2
-nw/wsj/07/wsj_0772.parse 8 3 gold revel revel.01 ----- 0:1-ARGM-TMP 2:1-ARG0 3:0-rel 4:1-ARG1
 nw/wsj/07/wsj_0772.parse 5 12 gold become become.01 ----- 9:1-ARG1 12:0-rel 13:1-ARG2
+nw/wsj/07/wsj_0772.parse 8 3 gold revel revel.01 ----- 0:1-ARGM-TMP 2:1-ARG0 3:0-rel 4:1-ARG1

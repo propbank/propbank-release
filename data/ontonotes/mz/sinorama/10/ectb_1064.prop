@@ -1,4 +1,5 @@
 mz/sinorama/10/ectb_1064.parse 153 15 gold save save_up.04 ----- 10:1*13:1-ARG0 15:0,16:1-rel 17:1-ARG1 18:2-ARG2
+mz/sinorama/10/ectb_1064.parse 175 21 gold fire fire.03 ----- 20:1-ARG0 21:0-rel 22:1-ARG1
 mz/sinorama/10/ectb_1064.parse 111 14 gold look look.01 ----- 14:0-rel
 mz/sinorama/10/ectb_1064.parse 146 15 gold have have.03 ----- 9:1*12:1*16:1-ARG1 9:1*12:1-LINK-SLC 13:1-ARG0 15:0-rel 17:1-ARGM-CAU
 mz/sinorama/10/ectb_1064.parse 25 17 gold display display.01 ----- 13:1*14:1*18:1-ARG1 13:1*14:1-LINK-SLC 15:1-ARG0 17:0-rel
@@ -9,19 +10,22 @@ mz/sinorama/10/ectb_1064.parse 110 23 gold have have.03 ----- 22:1-ARG0 23:0-rel
 mz/sinorama/10/ectb_1064.parse 148 14 gold steal steal.01 ----- 13:1-ARG0 14:0-rel 15:1-ARG1 16:1-ARG2
 mz/sinorama/10/ectb_1064.parse 169 1 gold photograph photograph.01 ----- 1:0-rel
 mz/sinorama/10/ectb_1064.parse 57 6 gold give give.01 ----- 0:0-ARGM-DIS 1:1-ARGM-NEG 4:1*7:1-ARG2 6:0-rel 8:2-ARG1
-mz/sinorama/10/ectb_1064.parse 103 37 gold absorb absorb.01 ----- 24:1*35:1-ARG0 24:1*35:1-LINK-PRO 37:0-rel 38:1-ARG1
 mz/sinorama/10/ectb_1064.parse 28 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2 3:1-ARGM-CAU
+mz/sinorama/10/ectb_1064.parse 18 11 gold be be.01 ----- 10:1*15:1-ARG1 11:0-rel 12:1-ARG2
 mz/sinorama/10/ectb_1064.parse 63 1 gold tackle tackle.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 4:1-ARG2 12:1-ARGM-TMP
+mz/sinorama/10/ectb_1064.parse 110 28 gold be be.01 ----- 26:1*29:1-ARG2 27:1-ARG1 28:0-rel
 mz/sinorama/10/ectb_1064.parse 162 9 gold be be.01 ----- 0:3-ARG1 9:0-rel 10:1-ARG2 12:1-ARGM-LOC
-mz/sinorama/10/ectb_1064.parse 175 21 gold fire fire.03 ----- 20:1-ARG0 21:0-rel 22:1-ARG1
 mz/sinorama/10/ectb_1064.parse 37 25 gold have have.01 ----- 25:0-rel
 mz/sinorama/10/ectb_1064.parse 91 21 gold ruin ruin.01 ----- 0:1-ARGM-ADV 17:1-ARG0 18:0-ARGM-MOD 19:1-ARGM-ADV 21:0-rel 22:1-ARG1
 mz/sinorama/10/ectb_1064.parse 132 13 gold judge judge.01 ----- 11:1-ARG0 13:0-rel 14:2-ARG1
 mz/sinorama/10/ectb_1064.parse 22 11 gold open open.01 ----- 10:1-ARG0 11:0-rel 12:2-ARG1 16:1-ARGM-TMP
 mz/sinorama/10/ectb_1064.parse 30 20 gold be be.01 ----- 18:1-ARG1 20:0-rel 21:1-ARG2
 mz/sinorama/10/ectb_1064.parse 102 3 gold process process.02 ----- 3:0-rel
+mz/sinorama/10/ectb_1064.parse 106 2 gold reconstruct reconstruct.01 ----- 0:1*15:1-ARG0 2:0-rel 3:2-ARG1
 mz/sinorama/10/ectb_1064.parse 144 17 gold be be.01 ----- 9:1-ARG1 14:1-ARGM-TMP 17:0-rel 18:2-ARG2
 mz/sinorama/10/ectb_1064.parse 120 21 gold specify specify.01 ----- 21:0-rel
+mz/sinorama/10/ectb_1064.parse 53 5 gold say say.01 ----- 1:1-ARG0 5:0-rel 6:1-ARG1 8:1-ARGM-ADV
+mz/sinorama/10/ectb_1064.parse 121 3 gold add add.02 ----- 0:1*5:1-ARGM-TMP 1:0-ARGM-MOD 2:1-ARG0 3:0-rel 4:1-ARG1
 mz/sinorama/10/ectb_1064.parse 52 19 gold fit fit.06 ----- 17:1-ARG1 18:1-ARGM-MNR 19:0-rel 20:1-ARG2
 mz/sinorama/10/ectb_1064.parse 33 12 gold borrow borrow.01 ----- 0:1*10:1-ARG0 0:1*10:1-LINK-PRO 12:0-rel 13:2-ARG1
 mz/sinorama/10/ectb_1064.parse 77 9 gold say say.01 ----- 0:1-ARG1-DSP 9:0-rel 11:1-ARG0 12:1-ARG3
@@ -31,7 +35,6 @@ mz/sinorama/10/ectb_1064.parse 172 48 gold design design.01 ----- 47:0-ARGM-ADJ 
 mz/sinorama/10/ectb_1064.parse 18 31 gold be be.01 ----- 30:1-ARG1 31:0-rel 32:1-ARG2
 mz/sinorama/10/ectb_1064.parse 22 6 gold be be.03 ----- 6:0-rel
 mz/sinorama/10/ectb_1064.parse 46 10 gold have have.03 ----- 6:1*8:1-ARG0 10:0-rel 11:3-ARG1
-mz/sinorama/10/ectb_1064.parse 103 41 gold prevent prevent.01 ----- 24:1*35:1-ARG0 24:1*35:1-LINK-PRO 41:0-rel 42:1-ARG1 44:1-ARG2
 mz/sinorama/10/ectb_1064.parse 10 9 gold interchange interchange.01 ----- 8:0-ARGM-LOC 9:0-rel 10:1-ARG1
 mz/sinorama/10/ectb_1064.parse 65 4 gold make make.LV ----- 4:0-rel 7:0-ARGM-PRR
 mz/sinorama/10/ectb_1064.parse 88 6 gold add add.01 ----- 0:1-ARG0 5:1-ARGM-TMP 6:0-rel 9:2-ARG1
@@ -43,38 +46,36 @@ mz/sinorama/10/ectb_1064.parse 39 11 gold turn turn.14 ----- 9:1-ARG0 11:0-rel 1
 mz/sinorama/10/ectb_1064.parse 35 14 gold request request.01 ----- 13:0-ARGM-ADJ 14:0-rel
 mz/sinorama/10/ectb_1064.parse 60 1 gold take take.04 ----- 0:1-ARG0 1:0-rel 2:1-ARGM-DIS 4:2-ARG1
 mz/sinorama/10/ectb_1064.parse 157 23 gold beep beep.01 ----- 19:1*21:1-ARG0 23:0-rel 24:1-ARG1 26:1-ARGM-TMP 27:2-ARGM-PRP
+mz/sinorama/10/ectb_1064.parse 98 22 gold knead knead.01 ----- 22:0-rel 23:1-ARG1 24:1-ARGM-MNR
 mz/sinorama/10/ectb_1064.parse 114 22 gold mix mix.01 ----- 19:1*27:1-ARGM-PRP 20:1*23:1-ARG1 22:0-rel 24:1-ARG2
-mz/sinorama/10/ectb_1064.parse 93 15 gold use use.01 ----- 11:1-ARG0 13:0-ARGM-MOD 15:0-rel 16:1-ARG1 19:2-ARGM-TMP
 mz/sinorama/10/ectb_1064.parse 99 7 gold have have.01 ----- 7:0-rel
 mz/sinorama/10/ectb_1064.parse 157 96 gold drink drink.01 ----- 91:1-ARG0 92:1-ARGM-ADV 96:0-rel 97:1-ARG1
 mz/sinorama/10/ectb_1064.parse 133 10 gold chew chew.01 ----- 1:1-ARG0 2:1-ARGM-ADV 10:0-rel 11:1-ARG1 12:1-ARGM-MNR 13:1-ARGM-TMP
+mz/sinorama/10/ectb_1064.parse 38 17 gold do do.01 ----- 17:0-rel
 mz/sinorama/10/ectb_1064.parse 165 1 gold dig dig.01 ----- 1:0-rel
 mz/sinorama/10/ectb_1064.parse 141 25 gold expose expose.01 ----- 9:1*10:1*26:1-ARG1 9:1*10:1-LINK-SLC 25:0-rel 27:1-ARG2
 mz/sinorama/10/ectb_1064.parse 169 4 gold unearth unearth.01 ----- 3:1*5:1-ARG1 3:1*5:1-LINK-PSV 4:0-rel 6:1-ARGM-DIR
 mz/sinorama/10/ectb_1064.parse 157 75 gold dream dream.01 ----- 0:1-ARGM-LOC 38:1-ARGM-LOC 71:1-ARG0 75:0-rel 76:1-ARG1
-mz/sinorama/10/ectb_1064.parse 51 34 gold paint paint.01 ----- 34:0-rel 35:0-ARG1
 mz/sinorama/10/ectb_1064.parse 144 23 gold procedure procedure.01 ----- 22:0-ARGM-TMP 23:0-rel
 mz/sinorama/10/ectb_1064.parse 153 11 gold be be.03 ----- 11:0-rel
+mz/sinorama/10/ectb_1064.parse 51 34 gold paint paint.01 ----- 34:0-rel 35:0-ARG1
 mz/sinorama/10/ectb_1064.parse 21 46 gold graduate graduate.01 ----- 35:2*43:1*44:1-ARG1 35:2*43:1-LINK-SLC 45:1-ARGM-ADV 46:0-rel 47:1-ARG0 49:1-ARGM-PRD
 mz/sinorama/10/ectb_1064.parse 21 10 gold give give.01 ----- 1:1*5:1*29:1-ARGM-CAU 1:1*5:1-LINK-SLC 6:1-ARG0 10:0-rel 11:1-ARG2 12:3-ARG1
-mz/sinorama/10/ectb_1064.parse 86 2 gold wonder wonder.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 4:2-ARG1
 mz/sinorama/10/ectb_1064.parse 102 1 gold repeat repeat.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 4:2-ARGM-PRP
 mz/sinorama/10/ectb_1064.parse 2 11 gold translate translate.01 ----- 11:0-rel 12:1-ARG1 13:1-ARG0
 mz/sinorama/10/ectb_1064.parse 75 5 gold capture capture.01 ----- 3:1-ARG0 5:0-rel 6:1-ARG1
 mz/sinorama/10/ectb_1064.parse 143 19 gold try trial.06 ----- 0:1-ARGM-DIS 2:1-ARGM-TMP 16:1-ARG0 17:0-ARGM-LVB 18:0-ARGM-ADJ 19:0-rel 21:2-ARGM-ADV
-mz/sinorama/10/ectb_1064.parse 86 13 gold bring bring.01 ----- 4:1-ARGM-ADV 10:1*17:1-ARGM-MNR 11:0-ARGM-MOD 12:1-ARG0 13:0-rel 14:1-ARG1 15:1-ARG2
 mz/sinorama/10/ectb_1064.parse 46 30 gold study study.01 ----- 22:1*26:1*27:1-ARG0 22:1*26:1-LINK-SLC 29:1-ARGM-DIS 30:0-rel 31:1-ARGM-LOC
 mz/sinorama/10/ectb_1064.parse 14 2 gold be be.02 ----- 0:1-ARGM-TMP 2:0-rel 3:2-ARG1
+mz/sinorama/10/ectb_1064.parse 38 31 gold pick pick_up.04 ----- 29:1*37:1-ARGM-TMP 30:1*32:1-ARG1 30:1*32:1-LINK-PSV 31:0,33:1-rel 34:1-ARGM-MNR
 mz/sinorama/10/ectb_1064.parse 30 3 gold be be.01 ----- 0:0-ARGM-DIS 2:1*7:2-ARG1 3:0-rel 4:1-ARG2 16:2-ARGM-CAU
 mz/sinorama/10/ectb_1064.parse 108 9 gold go go.02 ----- 0:2-ARGM-TMP 8:1-ARG0 9:0-rel 10:1-ARG4
 mz/sinorama/10/ectb_1064.parse 97 5 gold think think.01 ----- 0:1-ARG1-DSP 5:0-rel 7:1-ARG0
 mz/sinorama/10/ectb_1064.parse 4 22 gold seem seem.01 ----- 22:0-rel 23:2-ARG1
-mz/sinorama/10/ectb_1064.parse 13 20 gold document document.01 ----- 19:1-ARG0 20:0-rel 21:1-ARG1 23:1-ARGM-MNR 25:1-ARGM-TMP
 mz/sinorama/10/ectb_1064.parse 102 6 gold make make.01 ----- 0:1*4:1-ARG0 6:0-rel 7:1-ARG1
 mz/sinorama/10/ectb_1064.parse 76 2 gold be be.01 ----- 0:1-ARG1 1:0-ARGM-MOD 2:0-rel 3:2-ARG2
 mz/sinorama/10/ectb_1064.parse 147 1 gold feel feel.02 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 4:1-ARG2
 mz/sinorama/10/ectb_1064.parse 30 10 gold create create.01 ----- 7:1-ARG0 9:1-ARGM-MNR 10:0-rel 11:1-ARG1
-mz/sinorama/10/ectb_1064.parse 76 9 gold brush brush.01 ----- 9:0-rel 10:0-ARG1
 mz/sinorama/10/ectb_1064.parse 16 4 gold be be.02 ----- 1:1-ARGM-DIS 4:0-rel 6:2-ARG1
 mz/sinorama/10/ectb_1064.parse 68 3 gold polish polish.01 ----- 0:1-ARGM-DIS 2:1-ARG0 3:0-rel 4:1-ARG1 6:1-ARG2 9:2-ARGM-ADV
 mz/sinorama/10/ectb_1064.parse 25 12 gold acquire acquire.01 ----- 10:1-ARG0 12:0-rel 13:2-ARG1
@@ -96,31 +97,31 @@ mz/sinorama/10/ectb_1064.parse 172 25 gold rework rework.01 ----- 0:1-ARGM-ADV 2
 mz/sinorama/10/ectb_1064.parse 125 14 gold shape shape.01 ----- 0:1*2:1-ARG0 14:0-rel 15:1-ARG1
 mz/sinorama/10/ectb_1064.parse 127 19 gold mix mix.01 ----- 19:0-rel 20:0-ARG1
 mz/sinorama/10/ectb_1064.parse 100 17 gold pare pare.01 ----- 10:1*16:1-ARG0 10:1*16:1-LINK-PRO 17:0-rel 18:1-ARGM-PRD 19:1-ARG1
-mz/sinorama/10/ectb_1064.parse 117 11 gold get get.01 ----- 9:1-ARG0 11:0-rel 12:2-ARG1
 mz/sinorama/10/ectb_1064.parse 34 13 gold submit submit.01 ----- 8:1-ARG0 10:0-ARGM-MOD 12:1-ARGM-TMP 13:0-rel 14:1-ARG1 17:1-ARGM-TMP
 mz/sinorama/10/ectb_1064.parse 0 1 gold reproduce reproduce.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 mz/sinorama/10/ectb_1064.parse 79 20 gold aim aim.01 ----- 9:1-ARG0 11:2-ARGM-TMP 20:0-rel 21:2-ARG1
+mz/sinorama/10/ectb_1064.parse 111 9 gold identify identify.01 ----- 0:0-ARGM-DIS 1:3-ARG0 8:0-ARGM-MOD 9:0-rel 10:1-ARG1 12:1-ARGM-MNR
 mz/sinorama/10/ectb_1064.parse 104 19 gold look look.02 ----- 17:1-ARG0 19:0-rel 20:2-ARG1
 mz/sinorama/10/ectb_1064.parse 129 35 gold make make.01 ----- 28:2*33:1*37:1-ARGM-LOC 28:2*33:1-LINK-SLC 34:1-ARG0 35:0-rel 36:1-ARG1
 mz/sinorama/10/ectb_1064.parse 87 14 gold follow follow.02 ----- 10:1-ARG0 13:1-ARGM-DIS 14:0-rel 15:1-ARG1
 mz/sinorama/10/ectb_1064.parse 172 2 gold process process.02 ----- 2:0-rel 3:1-ARG1
 mz/sinorama/10/ectb_1064.parse 21 30 gold be be.01 ----- 1:2-ARG1 30:0-rel 31:1-ARG2
 mz/sinorama/10/ectb_1064.parse 127 24 gold be be.01 ----- 22:1*23:1-ARG1 24:0-rel 25:2-ARG2
-mz/sinorama/10/ectb_1064.parse 116 2 gold include include.01 ----- 0:1-ARG2 1:1-ARGM-DIS 2:0-rel 3:1-ARG1
 mz/sinorama/10/ectb_1064.parse 61 7 gold be be.01 ----- 0:2-ARG1 7:0-rel 8:1-ARG2 12:1-ARGM-PRD
 mz/sinorama/10/ectb_1064.parse 66 19 gold add add.02 ----- 15:1*17:1-ARG0 19:0-rel 20:2-ARG1
 mz/sinorama/10/ectb_1064.parse 77 21 gold work work.01 ----- 1:1-ARGM-TMP 16:1-ARG0 17:0-ARGM-LVB 18:1-ARGM-MNR 21:0-rel 22:1-ARGM-LOC 26:2-ARGM-ADV
 mz/sinorama/10/ectb_1064.parse 96 14 gold leave leave.12 ----- 4:2*9:1*15:1-ARG1 4:2*9:1-LINK-SLC 11:0-ARGM-MOD 12:1-ARGM-TMP 14:0-rel 16:2-ARG2
 mz/sinorama/10/ectb_1064.parse 157 29 gold warn warn.01 ----- 13:1*18:1*36:1-ARGM-LOC 13:1*18:1-LINK-SLC 19:1*27:1-ARG0 19:1*27:1-LINK-PRO 29:0-rel 30:2-ARG2
-mz/sinorama/10/ectb_1064.parse 28 16 gold decide decide.01 ----- 5:1-ARGM-TMP 14:1*18:2-ARG1 16:0-rel
 mz/sinorama/10/ectb_1064.parse 74 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
-mz/sinorama/10/ectb_1064.parse 81 8 gold reconstruct reconstruct.01 ----- 6:1-ARG0 8:0-rel 9:2-ARG1 15:1-ARG2
 mz/sinorama/10/ectb_1064.parse 109 12 gold make make.01 ----- 0:2-ARGM-TMP 11:1-ARG0 12:0-rel 13:2-ARG1
+mz/sinorama/10/ectb_1064.parse 103 41 gold prevent prevent.01 ----- 24:1*35:1-ARG0 24:1*35:1-LINK-PRO 41:0-rel 42:1-ARG1 44:1-ARG2
 mz/sinorama/10/ectb_1064.parse 108 20 gold cut cut_off.04 ----- 0:2-ARGM-TMP 8:1-ARG0 20:0,21:1-rel 22:1-ARG1 24:1-ARG3 26:2-ARGM-PRP
 mz/sinorama/10/ectb_1064.parse 20 2 gold gain gain.02 ----- 0:1-ARG0 1:1-ARGM-TMP 2:0-rel 3:1-ARG1 4:1-ARGM-MNR
 mz/sinorama/10/ectb_1064.parse 119 2 gold conclude conclude.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
+mz/sinorama/10/ectb_1064.parse 86 2 gold wonder wonder.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 4:2-ARG1
 mz/sinorama/10/ectb_1064.parse 53 13 gold come come.03 ----- 9:1*11:1*12:1-ARG1 9:1*11:1-LINK-SLC 13:0-rel 14:1-ARG2
 mz/sinorama/10/ectb_1064.parse 42 5 gold uncover uncover.01 ----- 3:1-ARG0 5:0-rel 6:2-ARG1
+mz/sinorama/10/ectb_1064.parse 64 3 gold have have.02 ----- 0:0-ARGM-DIS 2:1-ARGM-DIS 3:0-rel
 mz/sinorama/10/ectb_1064.parse 59 27 gold work work.01 ----- 22:1*24:1,28:1-ARG1 22:1*24:1-LINK-SLC 25:1-ARG0 27:0-rel
 mz/sinorama/10/ectb_1064.parse 79 14 gold reproduce reproduce.01 ----- 9:1*12:1-ARG0 9:1*12:1-LINK-PRO 11:1*18:1-ARGM-TMP 13:0-ARGM-LVB 14:0-rel 15:1-ARG1
 mz/sinorama/10/ectb_1064.parse 128 1 gold find find.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1 19:1-ARGM-ADV
@@ -131,25 +132,22 @@ mz/sinorama/10/ectb_1064.parse 45 10 gold do do.LV ----- 10:0-rel 11:1-ARGM-PRR
 mz/sinorama/10/ectb_1064.parse 27 8 gold be be.01 ----- 0:1-ARGM-DIS 1:2-ARG1 8:0-rel 9:2-ARG2
 mz/sinorama/10/ectb_1064.parse 91 14 gold form form.01 ----- 10:1*15:1-ARG1 14:0-rel
 mz/sinorama/10/ectb_1064.parse 104 13 gold imprint imprint.01 ----- 9:1*14:1-ARG2 12:1-ARGM-TMP 13:0-rel
-mz/sinorama/10/ectb_1064.parse 59 32 gold say say.01 ----- 1:3*33:1-ARG1 32:0-rel 34:1-ARG0
-mz/sinorama/10/ectb_1064.parse 127 14 gold understand understand.01 ----- 12:1-ARG0 14:0-rel 15:2-ARG1
-mz/sinorama/10/ectb_1064.parse 110 28 gold be be.01 ----- 26:1*29:1-ARG2 27:1-ARG1 28:0-rel
 mz/sinorama/10/ectb_1064.parse 36 18 gold have have.01 ----- 18:0-rel
 mz/sinorama/10/ectb_1064.parse 61 2 gold depict depict.01 ----- 0:1*3:1-ARG1 0:1*3:1-LINK-PSV 2:0-rel 4:1-ARGM-LOC
 mz/sinorama/10/ectb_1064.parse 142 7 gold process process.02 ----- 6:0-ARGM-MNR 7:0-rel 9:1-ARGM-ADJ
 mz/sinorama/10/ectb_1064.parse 142 25 gold get get.04 ----- 3:1-ARGM-ADV 23:1-ARG0 24:0-ARGM-MOD 25:0-rel 26:2-ARG1
 mz/sinorama/10/ectb_1064.parse 98 15 gold add add.02 ----- 0:1-ARGM-ADV 6:1-ARG0 15:0-rel 16:1-ARG1 17:1-ARG2
+mz/sinorama/10/ectb_1064.parse 113 2 gold help help.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG1 5:1-ARGM-ADV
 mz/sinorama/10/ectb_1064.parse 10 20 gold scurry scurry.01 ----- 19:1-ARG0 20:0-rel 23:1-ARGM-LOC
+mz/sinorama/10/ectb_1064.parse 76 9 gold brush brush.01 ----- 9:0-rel 10:0-ARG1
 mz/sinorama/10/ectb_1064.parse 146 6 gold do do.01 ----- 6:0-rel
 mz/sinorama/10/ectb_1064.parse 15 3 gold have have.01 ----- 3:0-rel
 mz/sinorama/10/ectb_1064.parse 137 6 gold get get.04 ----- 5:1-ARG0 6:0-rel 7:3-ARG1
 mz/sinorama/10/ectb_1064.parse 110 16 gold say say.01 ----- 0:3-ARG1-DSP 16:0-rel 18:1-ARG0
 mz/sinorama/10/ectb_1064.parse 104 16 gold show show.01 ----- 0:2,8:1-ARG0 16:0-rel 17:2-ARG1
 mz/sinorama/10/ectb_1064.parse 77 37 gold recreate recreate.01 ----- 16:1*26:1-ARG0 34:1-ARGM-LOC 37:0-rel 38:2-ARG1
-mz/sinorama/10/ectb_1064.parse 73 11 gold cry cry.02 ----- 8:1-ARG0 10:0-ARGM-NEG 11:0-rel 12:0-ARGM-ADV
 mz/sinorama/10/ectb_1064.parse 126 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 mz/sinorama/10/ectb_1064.parse 14 34 gold happen happen.01 ----- 31:1*32:1-ARG1 34:0-rel
-mz/sinorama/10/ectb_1064.parse 103 23 gold hold hold.01 ----- 19:1-ARGM-MNR 22:1-ARG0 23:0-rel 24:1-ARG1 29:1-ARG2 35:2-ARGM-PRP
 mz/sinorama/10/ectb_1064.parse 46 14 gold name name.01 ----- 11:1*15:1-ARG1 11:1*15:1-LINK-PSV 14:0-rel 16:2-ARG2
 mz/sinorama/10/ectb_1064.parse 109 21 gold mention mention.01 ----- 19:0-ARGM-ADV 21:0-rel
 mz/sinorama/10/ectb_1064.parse 160 1 gold aspire aspire.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
@@ -160,57 +158,49 @@ mz/sinorama/10/ectb_1064.parse 53 35 gold do do.LV ----- 35:0-rel 36:1-ARGM-PRR
 mz/sinorama/10/ectb_1064.parse 57 9 gold task task.01 ----- 9:0-rel 10:2-ARGM-ADJ
 mz/sinorama/10/ectb_1064.parse 160 6 gold reproduce reproduce.01 ----- 0:1*2:1-ARG0 6:0-rel 7:1-ARG1
 mz/sinorama/10/ectb_1064.parse 125 1 gold have have.02 ----- 1:0-rel
-mz/sinorama/10/ectb_1064.parse 59 3 gold be be.01 ----- 1:1*2:1-ARG1 3:0-rel 4:1-ARG2
 mz/sinorama/10/ectb_1064.parse 12 32 gold intersperse intersperse.01 ----- 27:2*33:1-ARG1 27:2*33:1-LINK-PSV 32:0-rel 34:1-ARG2
 mz/sinorama/10/ectb_1064.parse 146 20 gold fire fire.03 ----- 18:1*21:1-ARG1 18:1*21:1-LINK-PSV 20:0-rel 22:1-ARGM-LOC 23:1-ARGM-MNR
 mz/sinorama/10/ectb_1064.parse 83 13 gold correlate correlate.01 ----- 13:0-rel
 mz/sinorama/10/ectb_1064.parse 48 8 gold work work.01 ----- 0:2-ARGM-TMP 7:1-ARG0 8:0-rel 9:1-ARG1
 mz/sinorama/10/ectb_1064.parse 31 11 gold be be.03 ----- 11:0-rel
+mz/sinorama/10/ectb_1064.parse 102 12 gold connect connect.01 ----- 0:1*4:1-ARG0 11:1-ARGM-TMP 12:0-rel 13:1-ARG1
 mz/sinorama/10/ectb_1064.parse 50 5 gold inspire inspire.01 ----- 3:1-ARG1 5:0-rel 6:1-ARG2
 mz/sinorama/10/ectb_1064.parse 13 22 gold process process.02 ----- 22:0-rel
+mz/sinorama/10/ectb_1064.parse 134 14 gold be be.01 ----- 0:2-ARGM-TMP 6:2-ARG1 14:0-rel 15:1-ARG2
 mz/sinorama/10/ectb_1064.parse 86 6 gold be be.03 ----- 6:0-rel
-mz/sinorama/10/ectb_1064.parse 113 2 gold help help.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG1 5:1-ARGM-ADV
 mz/sinorama/10/ectb_1064.parse 68 15 gold increase increase.01 ----- 2:1*9:1-ARG0 2:1*9:1-LINK-PRO 15:0-rel 16:2-ARG1
 mz/sinorama/10/ectb_1064.parse 10 22 gold work work.01 ----- 19:1-ARG0 22:0-rel 23:1-ARGM-LOC
 mz/sinorama/10/ectb_1064.parse 52 9 gold grow grow.01 ----- 9:0-rel 10:0-ARG1
 mz/sinorama/10/ectb_1064.parse 126 19 gold increase increase.01 ----- 17:1-ARG0 19:0-rel 20:1-ARG1
 mz/sinorama/10/ectb_1064.parse 47 2 gold be be.01 ----- 1:1-ARG1 2:0-rel 3:2-ARG2 7:1-ARGM-LOC
-mz/sinorama/10/ectb_1064.parse 122 29 gold crack crack.02 ----- 16:1*28:1-ARG1 16:1*28:1-LINK-PRO 29:0-rel 30:1-ARG2
 mz/sinorama/10/ectb_1064.parse 35 10 gold be be.01 ----- 9:1-ARG1 10:0-rel 11:0-ARGM-NEG 12:1-ARG2
 mz/sinorama/10/ectb_1064.parse 140 3 gold do do.01 ----- 3:0-rel
-mz/sinorama/10/ectb_1064.parse 13 9 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARGM-LOC 5:2-ARG1 9:0-rel 10:1-ARG2
-mz/sinorama/10/ectb_1064.parse 111 6 gold make make.01 ----- 1:2*4:1*5:1-ARG0 1:2*4:1-LINK-SLC 6:0-rel 7:1-ARG1
 mz/sinorama/10/ectb_1064.parse 24 1 gold include include.01 ----- 0:1-ARG2 1:0-rel 2:3-ARG1
-mz/sinorama/10/ectb_1064.parse 91 20 gold have have.01 ----- 20:0-rel
-mz/sinorama/10/ectb_1064.parse 78 7 gold attach attach.01 ----- 5:1-ARGM-ADJ 7:0-rel 8:1-ARG2
 mz/sinorama/10/ectb_1064.parse 4 2 gold be be.01 ----- 0:1*3:1-ARG2 2:0-rel 4:3-ARG1
 mz/sinorama/10/ectb_1064.parse 120 1 gold explain explain.01 ----- 0:1-ARG0 1:0-rel 4:2-ARG1
 mz/sinorama/10/ectb_1064.parse 95 7 gold wrap wrap.01 ----- 0:1-ARG0 1:0-ARGM-MOD 7:0-rel 8:1-ARG2 9:1-ARG1
 mz/sinorama/10/ectb_1064.parse 18 48 gold exhibit exhibit.01 ----- 48:0-rel
 mz/sinorama/10/ectb_1064.parse 71 18 gold testify testify.01 ----- 0:2-ARGM-PRD 17:1-ARG0 18:0-rel 21:2-ARG1
 mz/sinorama/10/ectb_1064.parse 141 46 gold do do.02 ----- 40:1*43:1*47:1-ARG1 40:1*43:1-LINK-SLC 44:1-ARG0 46:0-rel 48:1-ARGM-TMP
-mz/sinorama/10/ectb_1064.parse 134 20 gold say say.01 ----- 0:3*21:1-ARG1 20:0-rel 22:1-ARG0 23:1-ARGM-MNR
 mz/sinorama/10/ectb_1064.parse 77 17 gold do do.LV ----- 17:0-rel 21:0-ARGM-PRR
 mz/sinorama/10/ectb_1064.parse 120 16 gold meet meet.01 ----- 10:2*14:1*15:1-ARG0 10:2*14:1-LINK-SLC 16:0-rel 17:2-ARG1
 mz/sinorama/10/ectb_1064.parse 55 4 gold be be.01 ----- 0:1-ARGM-ADV 3:1-ARG1 4:0-rel 5:1-ARG2
 mz/sinorama/10/ectb_1064.parse 143 22 gold use use.01 ----- 16:1*21:1-ARG0 22:0-rel 23:2-ARG1 48:2-ARG2
 mz/sinorama/10/ectb_1064.parse 83 45 gold bring bring.01 ----- 37:1-ARG0 45:0-rel 46:1-ARG1 49:1-ARG3 51:1-ARGM-TMP
 mz/sinorama/10/ectb_1064.parse 175 24 gold drink drink.01 ----- 20:1-ARG0 24:0-rel 25:1-ARG1
+mz/sinorama/10/ectb_1064.parse 134 16 gold write write.01 ----- 16:0-rel 17:0-ARG1
+mz/sinorama/10/ectb_1064.parse 19 27 gold be be.01 ----- 0:2-ARG1 27:0-rel 28:2-ARG2
 mz/sinorama/10/ectb_1064.parse 22 7 gold devote devote.01 ----- 0:2*8:1-ARG1 7:0-rel 9:1-ARG2
-mz/sinorama/10/ectb_1064.parse 126 4 gold add add.02 ----- 2:1*42:1-ARGM-CAU 3:1-ARG0 4:0-rel 5:1-ARG1 6:1-ARG2 10:1-ARGM-PRD 17:2-ARGM-PRP
 mz/sinorama/10/ectb_1064.parse 129 13 gold be be.03 ----- 13:0-rel
 mz/sinorama/10/ectb_1064.parse 71 35 gold know know.01 ----- 33:1-ARG0 34:0-ARGM-MOD 35:0-rel 37:3-ARG1
+mz/sinorama/10/ectb_1064.parse 136 45 gold feel feel.02 ----- 0:1-ARGM-ADV 42:2-ARG0 44:1-ARGM-TMP 45:0-rel 46:1-ARG1
 mz/sinorama/10/ectb_1064.parse 71 27 gold dig dig_up.02 ----- 23:1*25:1*26:1-ARG0 23:1*25:1-LINK-SLC 27:0,28:1-rel 29:1-ARG1 32:1-ARGM-PRP
 mz/sinorama/10/ectb_1064.parse 45 1 gold ask ask.02 ----- 0:1-ARG0 1:0-rel 2:1-ARG2 3:1-ARG1
-mz/sinorama/10/ectb_1064.parse 121 3 gold add add.02 ----- 0:1*5:1-ARGM-TMP 1:0-ARGM-MOD 2:1-ARG0 3:0-rel 4:1-ARG1
-mz/sinorama/10/ectb_1064.parse 118 10 gold be be.01 ----- 0:1-ARGM-DIS 4:2-ARG1 10:0-rel 11:1-ARGM-TMP 12:1-ARG2
 mz/sinorama/10/ectb_1064.parse 98 8 gold grind grind_up.02 ----- 0:1-ARGM-ADV 6:1-ARG0 7:1-ARGM-TMP 8:0,9:1-rel 10:2-ARG1
-mz/sinorama/10/ectb_1064.parse 100 13 gold prepare prepare.01 ----- 5:1*9:1*14:1-ARG1 5:1*9:1-LINK-SLC 10:1-ARG0 12:1-ARGM-MNR 13:0-rel 15:1-ARGM-MNR
 mz/sinorama/10/ectb_1064.parse 82 10 gold be be.01 ----- 0:2-ARG1 8:0-ARGM-MOD 9:1-ARGM-ADV 10:0-rel 11:1-ARG2
 mz/sinorama/10/ectb_1064.parse 17 16 gold damage damage.01 ----- 16:0-rel
-mz/sinorama/10/ectb_1064.parse 46 1 gold hit hit.02 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 5:1-ARGM-CAU
 mz/sinorama/10/ectb_1064.parse 13 12 gold put put.01 ----- 5:2*11:1-ARG0 5:2*11:1-LINK-PRO 12:0-rel 13:1-ARG1 16:1-ARG2 19:2-ARGM-PRD
-mz/sinorama/10/ectb_1064.parse 49 23 gold be be.01 ----- 21:1-ARG1 23:0-rel 24:2-ARG2
+mz/sinorama/10/ectb_1064.parse 73 11 gold cry cry.02 ----- 8:1-ARG0 10:0-ARGM-NEG 11:0-rel 12:0-ARGM-ADV
 mz/sinorama/10/ectb_1064.parse 66 8 gold get get.03 ----- 6:1-ARG1 8:0-rel 9:1-ARG2
 mz/sinorama/10/ectb_1064.parse 96 5 gold carve carve.02 ----- 4:1*6:1-ARG1 4:1*6:1-LINK-PSV 5:0-rel 7:1-ARG2
 mz/sinorama/10/ectb_1064.parse 79 13 gold do do.LV ----- 13:0-rel 14:1-ARGM-PRR
@@ -222,13 +212,16 @@ mz/sinorama/10/ectb_1064.parse 99 9 gold make make.01 ----- 3:1*5:1*10:1-ARG1 3:
 mz/sinorama/10/ectb_1064.parse 103 7 gold pick pick_up.04 ----- 0:1-ARGM-TMP 2:1-ARGM-MNR 6:1-ARG0 7:0,8:1-rel 9:1-ARG1
 mz/sinorama/10/ectb_1064.parse 71 1 gold point point.01 ----- 0:1*17:1-ARG0 1:0-rel 2:1-ARG2
 mz/sinorama/10/ectb_1064.parse 9 3 gold go go.02 ----- 2:1-ARG0 3:0-rel 4:1-ARGM-DIR 5:1-ARG4
+mz/sinorama/10/ectb_1064.parse 2 4 gold photograph photograph.01 ----- 4:0-rel 5:1-ARG0
 mz/sinorama/10/ectb_1064.parse 61 10 gold design design.01 ----- 9:0-ARGM-ADJ 10:0-rel
 mz/sinorama/10/ectb_1064.parse 58 14 gold get get.05 ----- 9:1*12:1-ARG1 14:0-rel 15:1-ARG2 21:2-ARGM-PRP
 mz/sinorama/10/ectb_1064.parse 79 4 gold be be.01 ----- 3:1-ARG1 4:0-rel 5:1-ARGM-ADV 6:2-ARG2
+mz/sinorama/10/ectb_1064.parse 103 23 gold hold hold.01 ----- 19:1-ARGM-MNR 22:1-ARG0 23:0-rel 24:1-ARG1 29:1-ARG2 35:2-ARGM-PRP
 mz/sinorama/10/ectb_1064.parse 76 14 gold make make.01 ----- 13:1*15:1-ARG1 13:1*15:1-LINK-PSV 14:0-rel 16:1-ARG2
 mz/sinorama/10/ectb_1064.parse 65 14 gold collect collect.01 ----- 3:1*12:1-ARG0 14:0-rel 15:1-ARG1
 mz/sinorama/10/ectb_1064.parse 154 24 gold believe believe.01 ----- 23:1-ARG0 24:0-rel 25:1-ARG1
 mz/sinorama/10/ectb_1064.parse 95 27 gold make make.02 ----- 25:1-ARG0 27:0-rel 28:2-ARG1
+mz/sinorama/10/ectb_1064.parse 26 28 gold dig dig_up.02 ----- 24:1*26:1*27:1-ARG0 24:1*26:1-LINK-SLC 28:0,30:1-rel 29:1-ARG1
 mz/sinorama/10/ectb_1064.parse 14 33 gold have have.01 ----- 33:0-rel
 mz/sinorama/10/ectb_1064.parse 107 4 gold avoid avoid.01 ----- 0:1-ARGM-DIS 3:1-ARG0 4:0-rel 5:2-ARG1 11:1-ARGM-CAU
 mz/sinorama/10/ectb_1064.parse 87 8 gold think think.01 ----- 7:1-ARG0 8:0-rel 9:1-ARG1
@@ -236,9 +229,9 @@ mz/sinorama/10/ectb_1064.parse 143 17 gold make make.LV ----- 17:0-rel 19:0-ARGM
 mz/sinorama/10/ectb_1064.parse 164 12 gold include include.01 ----- 0:2-ARG2 12:0-rel 13:2-ARG1
 mz/sinorama/10/ectb_1064.parse 53 10 gold satisfy satisfy.01 ----- 10:0-rel 11:2-ARG0
 mz/sinorama/10/ectb_1064.parse 53 28 gold be be.01 ----- 0:1-ARGM-ADV 27:1-ARG1 28:0-rel 29:2-ARG2
-mz/sinorama/10/ectb_1064.parse 143 29 gold try try.01 ----- 16:1*21:1-ARG0 29:0-rel 30:1-ARG1
 mz/sinorama/10/ectb_1064.parse 137 4 gold be be.01 ----- 1:1-ARG1 4:0-rel 5:2-ARG2
 mz/sinorama/10/ectb_1064.parse 52 1 gold note note.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+mz/sinorama/10/ectb_1064.parse 132 18 gold be be.01 ----- 0:2-ARG1 18:0-rel 19:2-ARG2
 mz/sinorama/10/ectb_1064.parse 63 14 gold get get.05 ----- 13:1-ARG1 14:0-rel 15:1-ARG2
 mz/sinorama/10/ectb_1064.parse 18 42 gold be be.03 ----- 42:0-rel
 mz/sinorama/10/ectb_1064.parse 148 22 gold be be.01 ----- 22:0-rel 23:1-ARG2 24:2-ARG1
@@ -247,6 +240,9 @@ mz/sinorama/10/ectb_1064.parse 77 31 gold observe observe.01 ----- 16:1*26:1-ARG
 mz/sinorama/10/ectb_1064.parse 141 31 gold transform transform.01 ----- 30:0-ARG0 31:0-rel
 mz/sinorama/10/ectb_1064.parse 136 2 gold be be.01 ----- 1:1-ARG1 2:0-rel 3:1-ARG2
 mz/sinorama/10/ectb_1064.parse 141 13 gold be be.03 ----- 13:0-rel
+mz/sinorama/10/ectb_1064.parse 33 4 gold write write.01 ----- 4:0-rel 5:0-ARG1
+mz/sinorama/10/ectb_1064.parse 154 31 gold divide divide.02 ----- 29:1-ARGM-ADJ 31:0-rel
+mz/sinorama/10/ectb_1064.parse 36 19 gold be be.01 ----- 16:1*21:2-ARG1 17:0-ARGM-MOD 19:0-rel 20:1-ARG2
 mz/sinorama/10/ectb_1064.parse 151 2 gold be be.02 ----- 2:0-rel 3:1-ARGM-ADV 4:2-ARG1
 mz/sinorama/10/ectb_1064.parse 21 37 gold lead lead.01 ----- 37:0-rel 38:0-ARG0
 mz/sinorama/10/ectb_1064.parse 5 10 gold exist exist.01 ----- 6:1*8:1*9:1-ARG1 6:1*8:1-LINK-SLC 10:0-rel 11:1-ARGM-TMP
@@ -257,9 +253,10 @@ mz/sinorama/10/ectb_1064.parse 16 10 gold ask ask.01 ----- 0:1*11:1-ARG1 10:0-re
 mz/sinorama/10/ectb_1064.parse 81 4 gold be be.01 ----- 0:1*2:1-ARG1 4:0-rel 5:1-ARG2
 mz/sinorama/10/ectb_1064.parse 6 2 gold be be.01 ----- 1:1*5:2-ARG1 2:0-rel 3:1-ARG2
 mz/sinorama/10/ectb_1064.parse 125 9 gold filter filter.02 ----- 0:1*2:1-ARG0 9:0-rel 10:1-ARG2
-mz/sinorama/10/ectb_1064.parse 26 21 gold guard guard.01 ----- 9:2*22:1-ARG1 20:1-ARGM-MNR 21:0-rel 23:1-ARG0
 mz/sinorama/10/ectb_1064.parse 97 18 gold compact compact.01 ----- 17:1-ARG0 18:0-rel 19:1-ARG1
+mz/sinorama/10/ectb_1064.parse 46 1 gold hit hit.02 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 5:1-ARGM-CAU
 mz/sinorama/10/ectb_1064.parse 101 11 gold remove remove.01 ----- 10:1-ARGM-MNR 11:0-rel 12:1-ARG1
+mz/sinorama/10/ectb_1064.parse 49 23 gold be be.01 ----- 21:1-ARG1 23:0-rel 24:2-ARG2
 mz/sinorama/10/ectb_1064.parse 83 39 gold draw draw.01 ----- 37:1-ARG0 39:0-rel 40:1-ARG1 41:1-ARGM-MNR
 mz/sinorama/10/ectb_1064.parse 70 7 gold say say.01 ----- 0:1-ARGM-DIS 1:1-ARG0 5:0-ARGM-MOD 6:0-ARGM-NEG 7:0-rel 8:2-ARG1
 mz/sinorama/10/ectb_1064.parse 159 22 gold strengthen strengthen.01 ----- 11:2*18:1-ARG0 22:0-rel 23:1-ARG1
@@ -268,83 +265,76 @@ mz/sinorama/10/ectb_1064.parse 159 2 gold reproduce reproduce.01 ----- 1:1-ARG0 
 mz/sinorama/10/ectb_1064.parse 154 4 gold restore restore.02 ----- 0:1-ARG0 1:0-ARGM-MOD 4:0-rel 5:2-ARG1
 mz/sinorama/10/ectb_1064.parse 138 20 gold be be.01 ----- 17:1*18:1*19:1-ARG1 17:1*18:1-LINK-SLC 20:0-rel 21:1-ARG2
 mz/sinorama/10/ectb_1064.parse 64 6 gold try try.01 ----- 1:1-ARG0 6:0-rel 7:2-ARG1
-mz/sinorama/10/ectb_1064.parse 132 18 gold be be.01 ----- 0:2-ARG1 18:0-rel 19:2-ARG2
 mz/sinorama/10/ectb_1064.parse 29 15 gold have have.01 ----- 15:0-rel
+mz/sinorama/10/ectb_1064.parse 104 26 gold photograph photograph.01 ----- 26:0-rel
 mz/sinorama/10/ectb_1064.parse 42 7 gold relate relation.03 ----- 7:0-rel 8:1-ARG0
 mz/sinorama/10/ectb_1064.parse 127 4 gold see see.01 ----- 0:1-ARGM-ADV 2:1-ARG0 3:0-ARGM-MOD 4:0-rel 10:1-ARG1
 mz/sinorama/10/ectb_1064.parse 4 17 gold be be.02 ----- 4:2*15:1*38:1-ARGM-LOC 4:2*15:1-LINK-SLC 17:0-rel 18:3-ARG1
-mz/sinorama/10/ectb_1064.parse 9 1 gold let let.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 mz/sinorama/10/ectb_1064.parse 57 16 gold represent represent.01 ----- 15:1-ARG0 16:0-rel 17:2-ARG1
 mz/sinorama/10/ectb_1064.parse 127 27 gold break break_through.22 ----- 26:0-ARGM-ADJ 27:0-rel 28:1-ARG1
+mz/sinorama/10/ectb_1064.parse 95 2 gold take take.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG1
 mz/sinorama/10/ectb_1064.parse 6 7 gold tell tell.02 ----- 5:1-ARG0 7:0-rel 8:1-ARG1
+mz/sinorama/10/ectb_1064.parse 9 1 gold let let.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 mz/sinorama/10/ectb_1064.parse 151 20 gold sense sense.01 ----- 18:0-ARGM-NEG 19:0-ARG2 20:0-rel 21:1-ARG1
+mz/sinorama/10/ectb_1064.parse 101 2 gold cut cut.01 ----- 0:1-ARGM-TMP 1:1-ARG0 2:0-rel 3:1-ARGM-PRD 4:2-ARG1
 mz/sinorama/10/ectb_1064.parse 55 10 gold have have.01 ----- 10:0-rel
 mz/sinorama/10/ectb_1064.parse 143 50 gold get get.05 ----- 48:1-ARG1 50:0-rel 51:3-ARG2
 mz/sinorama/10/ectb_1064.parse 129 24 gold go go.02 ----- 0:1-ARGM-LOC 4:2-ARG0 24:0-rel 25:2-ARG1
-mz/sinorama/10/ectb_1064.parse 3 27 gold open open.01 ----- 0:1-ARGM-LOC 18:2*28:1-ARG1 26:1-ARGM-MNR 27:0-rel 29:1-ARG3
 mz/sinorama/10/ectb_1064.parse 141 1 gold do do.01 ----- 1:0-rel
 mz/sinorama/10/ectb_1064.parse 146 2 gold be be.01 ----- 1:1-ARG1 2:0-rel 3:1-ARG2
 mz/sinorama/10/ectb_1064.parse 56 5 gold exhibit exhibit.01 ----- 4:0-ARGM-ADJ 5:0-rel 6:1-ARG1
 mz/sinorama/10/ectb_1064.parse 126 41 gold cool cool.01 ----- 40:1-ARG1 41:0-rel
-mz/sinorama/10/ectb_1064.parse 131 7 gold work work.01 ----- 1:1-ARG0 4:1-ARGM-MNR 7:0-rel 8:2-ARG1
-mz/sinorama/10/ectb_1064.parse 12 25 gold put put_up.13 ----- 24:1-ARG0 25:0,26:1-rel 27:3-ARG1
 mz/sinorama/10/ectb_1064.parse 73 9 gold be be.03 ----- 9:0-rel
 mz/sinorama/10/ectb_1064.parse 150 8 gold sever sever.01 ----- 0:2*9:1-ARG1 8:0-rel 10:1-ARG0
 mz/sinorama/10/ectb_1064.parse 73 3 gold be be.03 ----- 3:0-rel
-mz/sinorama/10/ectb_1064.parse 83 3 gold use use.01 ----- 0:1*2:1-ARG0 3:0-rel 4:3-ARG1
 mz/sinorama/10/ectb_1064.parse 144 13 gold process process.02 ----- 10:1-ARG1 13:0-rel
+mz/sinorama/10/ectb_1064.parse 42 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:2-ARG2
 mz/sinorama/10/ectb_1064.parse 18 39 gold take take.02 ----- 34:1*36:1*40:1-ARG1 34:1*36:1-LINK-SLC 37:1-ARG0 38:0-ARGM-MOD 39:0-rel 41:2-ARGM-MNR
-mz/sinorama/10/ectb_1064.parse 102 12 gold connect connect.01 ----- 0:1*4:1-ARG0 11:1-ARGM-TMP 12:0-rel 13:1-ARG1
-mz/sinorama/10/ectb_1064.parse 107 13 gold have have.01 ----- 13:0-rel
+mz/sinorama/10/ectb_1064.parse 39 5 gold have have.03 ----- 0:1-ARGM-TMP 4:1-ARG0 5:0-rel 6:1-ARG1
 mz/sinorama/10/ectb_1064.parse 40 4 gold be be.03 ----- 4:0-rel
 mz/sinorama/10/ectb_1064.parse 90 11 gold be be.01 ----- 9:1-ARG1 11:0-rel 12:1-ARG2
-mz/sinorama/10/ectb_1064.parse 106 2 gold reconstruct reconstruct.01 ----- 0:1*15:1-ARG0 2:0-rel 3:2-ARG1
+mz/sinorama/10/ectb_1064.parse 89 30 gold approach approach.02 ----- 27:1-ARG0 29:0-ARGM-ADJ 30:0-rel
 mz/sinorama/10/ectb_1064.parse 139 8 gold use use.01 ----- 1:2*9:1-ARG1 6:1-ARG0 8:0-rel
 mz/sinorama/10/ectb_1064.parse 96 3 gold have have.04 ----- 0:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:3-ARG1
+mz/sinorama/10/ectb_1064.parse 51 18 gold forget forget.01 ----- 4:1-ARGM-ADV 15:1-ARG0 17:0-ARGM-NEG 18:0-rel 19:2-ARG1
 mz/sinorama/10/ectb_1064.parse 120 12 gold produce produce.01 ----- 10:0-ARGM-MNR 12:0-rel
-mz/sinorama/10/ectb_1064.parse 90 7 gold discover discover.01 ----- 0:1-ARGM-TMP 6:1-ARG0 7:0-rel 8:1-ARG1
 mz/sinorama/10/ectb_1064.parse 134 17 gold specify specify.01 ----- 16:0-ARGM-PRD 17:0-rel
 mz/sinorama/10/ectb_1064.parse 28 28 gold be be.03 ----- 28:0-rel
-mz/sinorama/10/ectb_1064.parse 134 14 gold be be.01 ----- 0:2-ARGM-TMP 6:2-ARG1 14:0-rel 15:1-ARG2
 mz/sinorama/10/ectb_1064.parse 105 0 gold dialogue dialogue.01 ----- 0:0-rel 1:1-ARG2
 mz/sinorama/10/ectb_1064.parse 48 17 gold say say.01 ----- 0:3*18:1-ARG1 17:0-rel 19:1-ARG0
+mz/sinorama/10/ectb_1064.parse 14 4 gold crash crash.01 ----- 4:0-rel
 mz/sinorama/10/ectb_1064.parse 67 37 gold add add.02 ----- 29:2*38:1-ARG1 29:2*38:1-LINK-PSV 37:0-rel 39:1-ARG2
 mz/sinorama/10/ectb_1064.parse 55 11 gold do do.02 ----- 5:1*8:1*16:1-ARGM-TMP 5:1*8:1-LINK-SLC 9:1-ARG0 11:0-rel 12:2-ARG1
-mz/sinorama/10/ectb_1064.parse 42 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:2-ARG2
+mz/sinorama/10/ectb_1064.parse 172 31 gold recreate recreate.01 ----- 0:1-ARGM-ADV 21:1-ARG0 31:0-rel 32:1-ARG1 35:1-ARGM-MNR
 mz/sinorama/10/ectb_1064.parse 136 54 gold do do.02 ----- 49:1*50:1*55:1-ARG1 49:1*50:1-LINK-SLC 51:1-ARG0 52:0-ARGM-MOD 54:0-rel 56:1-ARGM-MNR
 mz/sinorama/10/ectb_1064.parse 43 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-ADV 3:2-ARG2
 mz/sinorama/10/ectb_1064.parse 62 4 gold be be.01 ----- 1:1-ARG1 4:0-rel 5:1-ARG2
 mz/sinorama/10/ectb_1064.parse 136 14 gold request request.01 ----- 11:1*15:1-ARG1 11:1*15:1-LINK-PSV 14:0-rel 16:1-ARG0
+mz/sinorama/10/ectb_1064.parse 58 10 gold be be.01 ----- 0:1-ARGM-TMP 9:1-ARG1 10:0-rel 11:1-ARG2
 mz/sinorama/10/ectb_1064.parse 156 2 gold be be.01 ----- 0:1-ARGM-DIS 1:1-ARG1 2:0-rel 3:1-ARG2
 mz/sinorama/10/ectb_1064.parse 99 8 gold be be.03 ----- 8:0-rel
+mz/sinorama/10/ectb_1064.parse 126 28 gold fracture fracture.01 ----- 26:1-ARG1 28:0-rel 29:1-ARGM-TMP
 mz/sinorama/10/ectb_1064.parse 49 10 gold be be.01 ----- 9:1-ARG1 10:0-rel 11:2-ARG2
 mz/sinorama/10/ectb_1064.parse 112 10 gold have have.01 ----- 10:0-rel
-mz/sinorama/10/ectb_1064.parse 155 14 gold create create.01 ----- 1:1-ARG0 2:0-ARGM-MOD 9:1-ARGM-ADV 10:1-ARGM-MNR 14:0-rel 15:2-ARG1
 mz/sinorama/10/ectb_1064.parse 119 9 gold have have.01 ----- 9:0-rel
 mz/sinorama/10/ectb_1064.parse 93 1 gold have have.01 ----- 1:0-rel
 mz/sinorama/10/ectb_1064.parse 67 5 gold settle settle.01 ----- 0:1-ARGM-TMP 4:1-ARG0 5:0-rel 6:1-ARG1 20:1-ARGM-PRD
 mz/sinorama/10/ectb_1064.parse 75 9 gold express express.01 ----- 7:0-ARG1 8:0-ARGM-MNR 9:0-rel
-mz/sinorama/10/ectb_1064.parse 54 4 gold read read.01 ----- 0:1*2:1*3:1-ARG0 0:1*2:1-LINK-SLC 4:0-rel 5:1-ARG1
-mz/sinorama/10/ectb_1064.parse 15 4 gold fall fall.01 ----- 0:1-ARG1 4:0-rel 5:1-ARGM-PRD
-mz/sinorama/10/ectb_1064.parse 28 20 gold establish establish.01 ----- 18:1-ARG0 20:0-rel 21:2-ARG1
 mz/sinorama/10/ectb_1064.parse 14 6 gold follow follow.01 ----- 3:1*7:1-ARG2 3:1*7:1-LINK-PSV 6:0-rel 8:1-ARG1
 mz/sinorama/10/ectb_1064.parse 68 10 gold create create.01 ----- 9:1-ARG0 10:0-rel 11:1-ARG1
+mz/sinorama/10/ectb_1064.parse 138 13 gold manipulate manipulate.01 ----- 8:1*10:1*14:1-ARG1 8:1*10:1-LINK-SLC 11:1-ARG0 12:0-ARGM-MOD 13:0-rel
+mz/sinorama/10/ectb_1064.parse 150 1 gold relate relation.03 ----- 1:0-rel 2:1-ARG0
 mz/sinorama/10/ectb_1064.parse 134 11 gold look look.01 ----- 6:1*9:1,12:1-ARG1 6:1*9:1-LINK-SLC 10:1-ARG0 11:0-rel
 mz/sinorama/10/ectb_1064.parse 6 16 gold be be.01 ----- 9:2-ARG1 16:0-rel 17:0-ARGM-NEG 18:1-ARG2
 mz/sinorama/10/ectb_1064.parse 173 6 gold come come.04 ----- 0:2-ARGM-MNR 4:1-ARG1 6:0-rel 7:1-ARG2
 mz/sinorama/10/ectb_1064.parse 130 9 gold become become.01 ----- 0:2-ARGM-TMP 6:1-ARG1 9:0-rel 10:2-ARG2
 mz/sinorama/10/ectb_1064.parse 44 1 gold love love.01 ----- 1:0-rel 2:1-ARG1
-mz/sinorama/10/ectb_1064.parse 47 12 gold work work.01 ----- 11:1-ARG0 12:0-rel 13:1-ARGM-REC 14:1-ARG1 16:1-ARGM-TMP
-mz/sinorama/10/ectb_1064.parse 22 5 gold have have.01 ----- 5:0-rel
 mz/sinorama/10/ectb_1064.parse 157 15 gold wind wind.01 ----- 15:0-rel 16:0-ARGM-LOC 17:0-ARG1
-mz/sinorama/10/ectb_1064.parse 59 11 gold be be.01 ----- 1:2-ARG1 11:0-rel 12:1-ARG2
-mz/sinorama/10/ectb_1064.parse 136 28 gold receive receive.01 ----- 25:1*26:1*27:1-ARG0 25:1*26:1-LINK-SLC 28:0-rel 29:1-ARG1 31:2-ARG2
 mz/sinorama/10/ectb_1064.parse 159 20 gold compact compact.01 ----- 11:2*18:1-ARG0 20:0-rel 23:1-ARG1
 mz/sinorama/10/ectb_1064.parse 19 8 gold address address.02 ----- 0:1*5:1*9:1-ARG1 0:1*5:1-LINK-SLC 8:0-rel 10:1-ARGM-MNR 18:1-ARG0
 mz/sinorama/10/ectb_1064.parse 21 34 gold be be.01 ----- 33:1-ARG1 34:0-rel 35:3-ARG2
 mz/sinorama/10/ectb_1064.parse 137 16 gold come come_through.18 ----- 7:2-ARG1 16:0,17:1-rel 18:1-ARGM-LOC
 mz/sinorama/10/ectb_1064.parse 21 18 gold recreate recreate.01 ----- 18:0-rel 19:1-ARG1
-mz/sinorama/10/ectb_1064.parse 28 15 gold be be.03 ----- 15:0-rel
 mz/sinorama/10/ectb_1064.parse 117 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-ADV 3:0-ARGM-NEG 4:1-ARG2
 mz/sinorama/10/ectb_1064.parse 8 2 gold be be.01 ----- 1:1*5:1-ARG1 2:0-rel 3:1-ARG2 13:1-ARGM-CAU
 mz/sinorama/10/ectb_1064.parse 140 5 gold fire fire.03 ----- 0:1*8:1-ARGM-MNR 4:1-ARG0 5:0-rel 6:1-ARG1
@@ -354,26 +344,34 @@ mz/sinorama/10/ectb_1064.parse 26 14 gold have have.01 ----- 14:0-rel
 mz/sinorama/10/ectb_1064.parse 57 14 gold make make.01 ----- 13:1-ARG0 14:0-rel 15:2-ARG1
 mz/sinorama/10/ectb_1064.parse 29 7 gold cover cover.01 ----- 4:1-ARG0 6:0-ARGM-MOD 7:0-rel 8:2-ARG1
 mz/sinorama/10/ectb_1064.parse 18 2 gold raise raise.01 ----- 0:1-ARGM-TMP 1:1-ARG0 2:0-rel 3:1-ARG1
-mz/sinorama/10/ectb_1064.parse 119 5 gold include include.01 ----- 5:0-rel 6:1-ARG1
 mz/sinorama/10/ectb_1064.parse 118 8 gold use use.01 ----- 4:1*6:1*9:1-ARG1 4:1*6:1-LINK-SLC 7:1-ARG0 8:0-rel
+mz/sinorama/10/ectb_1064.parse 93 15 gold use use.01 ----- 11:1-ARG0 13:0-ARGM-MOD 15:0-rel 16:1-ARG1 19:2-ARGM-TMP
 mz/sinorama/10/ectb_1064.parse 8 8 gold be be.01 ----- 6:1-ARG1 7:0-ARGM-MOD 8:0-rel 9:2-ARG2
 mz/sinorama/10/ectb_1064.parse 88 1 gold consider consider.02 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 mz/sinorama/10/ectb_1064.parse 77 39 gold process process.02 ----- 39:0-rel 40:2-ARGM-ADJ
+mz/sinorama/10/ectb_1064.parse 143 29 gold try try.01 ----- 16:1*21:1-ARG0 29:0-rel 30:1-ARG1
+mz/sinorama/10/ectb_1064.parse 13 20 gold document document.01 ----- 19:1-ARG0 20:0-rel 21:1-ARG1 23:1-ARGM-MNR 25:1-ARGM-TMP
 mz/sinorama/10/ectb_1064.parse 112 11 gold give give.01 ----- 6:2-ARG0 11:0-rel 12:1-ARG2 13:2-ARG1
+mz/sinorama/10/ectb_1064.parse 131 7 gold work work.01 ----- 1:1-ARG0 4:1-ARGM-MNR 7:0-rel 8:2-ARG1
+mz/sinorama/10/ectb_1064.parse 117 11 gold get get.01 ----- 9:1-ARG0 11:0-rel 12:2-ARG1
 mz/sinorama/10/ectb_1064.parse 127 18 gold use use.01 ----- 15:1*30:1-ARG2 16:1-ARG0 18:0-rel 19:1-ARG1 22:2-ARGM-ADV
 mz/sinorama/10/ectb_1064.parse 131 23 gold turn turn.01 ----- 0:1-ARGM-TMP 14:2-ARG0 22:1-ARGM-ADV 23:0-rel 24:1-ARG1 26:1-ARGM-TMP 27:1-ARGM-MNR
 mz/sinorama/10/ectb_1064.parse 41 2 gold do do.02 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
-mz/sinorama/10/ectb_1064.parse 101 2 gold cut cut.01 ----- 0:1-ARGM-TMP 1:1-ARG0 2:0-rel 3:1-ARGM-PRD 4:2-ARG1
+mz/sinorama/10/ectb_1064.parse 28 16 gold decide decide.01 ----- 5:1-ARGM-TMP 14:1*18:2-ARG1 16:0-rel
 mz/sinorama/10/ectb_1064.parse 93 9 gold conclude conclude.01 ----- 0:2-ARGM-ADV 8:1-ARG0 9:0-rel 10:1-ARG1
 mz/sinorama/10/ectb_1064.parse 12 2 gold climb climb.01 ----- 0:1*7:1-ARGM-TMP 1:1-ARG0 2:0-rel 3:1-ARGM-GOL
 mz/sinorama/10/ectb_1064.parse 77 45 gold be be.03 ----- 45:0-rel
 mz/sinorama/10/ectb_1064.parse 30 25 gold come come_by.20 ----- 23:1-ARG0 25:0,26:1-rel
 mz/sinorama/10/ectb_1064.parse 37 7 gold find find.01 ----- 0:1-ARGM-TMP 5:1-ARG0 7:0-rel 8:3-ARG1
 mz/sinorama/10/ectb_1064.parse 83 16 gold be be.01 ----- 0:1-ARG1 2:2-ARGM-MNR 16:0-rel 17:1-ARG2
+mz/sinorama/10/ectb_1064.parse 127 14 gold understand understand.01 ----- 12:1-ARG0 14:0-rel 15:2-ARG1
 mz/sinorama/10/ectb_1064.parse 77 36 gold mind mind.05 ----- 35:0-ARG0 36:0-rel
 mz/sinorama/10/ectb_1064.parse 138 1 gold relate relate.02 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 mz/sinorama/10/ectb_1064.parse 87 25 gold do do.01 ----- 25:0-rel
+mz/sinorama/10/ectb_1064.parse 122 29 gold crack crack.02 ----- 16:1*28:1-ARG1 16:1*28:1-LINK-PRO 29:0-rel 30:1-ARG2
 mz/sinorama/10/ectb_1064.parse 136 53 gold have have.01 ----- 53:0-rel
+mz/sinorama/10/ectb_1064.parse 111 6 gold make make.01 ----- 1:2*4:1*5:1-ARG0 1:2*4:1-LINK-SLC 6:0-rel 7:1-ARG1
+mz/sinorama/10/ectb_1064.parse 91 20 gold have have.01 ----- 20:0-rel
 mz/sinorama/10/ectb_1064.parse 46 7 gold happen happen.02 ----- 6:1*8:2-ARG1 7:0-rel
 mz/sinorama/10/ectb_1064.parse 94 8 gold pick pick_up.04 ----- 3:1*4:1*9:1-ARG1 3:1*4:1-LINK-SLC 5:1-ARG0 6:0-ARGM-MOD 7:1-ARGM-ADV 8:0,10:1-rel 11:1-ARG2
 mz/sinorama/10/ectb_1064.parse 58 23 gold secure secure.01 ----- 9:1*21:1-ARG0 23:0-rel 24:1-ARG1
@@ -386,39 +384,41 @@ mz/sinorama/10/ectb_1064.parse 87 3 gold be be.01 ----- 0:2-ARG1 3:0-rel 4:1-ARG
 mz/sinorama/10/ectb_1064.parse 168 14 gold base base.02 ----- 12:1*15:1-ARG1 12:1*15:1-LINK-PSV 14:0-rel 16:1-ARGM-ADV 17:1-ARG2
 mz/sinorama/10/ectb_1064.parse 29 27 gold begin begin.01 ----- 23:2-ARG1 27:0-rel 28:1-ARGM-DIR
 mz/sinorama/10/ectb_1064.parse 23 2 gold devote devote.01 ----- 1:1*3:1-ARG1 1:1*3:1-LINK-PSV 2:0-rel 4:1-ARG2
-mz/sinorama/10/ectb_1064.parse 95 2 gold take take.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:1-ARG1
+mz/sinorama/10/ectb_1064.parse 26 21 gold guard guard.01 ----- 9:2*22:1-ARG1 20:1-ARGM-MNR 21:0-rel 23:1-ARG0
 mz/sinorama/10/ectb_1064.parse 38 3 gold examine examine.01 ----- 1:1*7:1-ARGM-TMP 2:1-ARG0 3:0-rel 4:1-ARG1
 mz/sinorama/10/ectb_1064.parse 154 6 gold relate relation.03 ----- 6:0-rel 7:1-ARG0
 mz/sinorama/10/ectb_1064.parse 5 5 gold represent represent.01 ----- 0:2-ARG0 5:0-rel 6:2-ARG1
+mz/sinorama/10/ectb_1064.parse 126 4 gold add add.02 ----- 2:1*42:1-ARGM-CAU 3:1-ARG0 4:0-rel 5:1-ARG1 6:1-ARG2 10:1-ARGM-PRD 17:2-ARGM-PRP
+mz/sinorama/10/ectb_1064.parse 3 27 gold open open.01 ----- 0:1-ARGM-LOC 18:2*28:1-ARG1 26:1-ARGM-MNR 27:0-rel 29:1-ARG3
 mz/sinorama/10/ectb_1064.parse 63 16 gold work work.01 ----- 16:0-rel
 mz/sinorama/10/ectb_1064.parse 17 4 gold turn turn.01 ----- 0:1-ARG0 4:0-rel 5:1-ARG1 7:1-ARGM-LOC 11:2-ARGM-PRD
 mz/sinorama/10/ectb_1064.parse 24 21 gold found found.01 ----- 20:0-ARGM-MNR 21:0-rel 24:0-ARG1
 mz/sinorama/10/ectb_1064.parse 11 8 gold stand stand.01 ----- 0:1*9:1-ARG1 8:0-rel
+mz/sinorama/10/ectb_1064.parse 100 2 gold tap tap.01 ----- 0:1-ARGM-TMP 1:1-ARG0 2:0-rel 3:1-ARG1 4:1-ARG2
 mz/sinorama/10/ectb_1064.parse 142 5 gold utilize utilize.01 ----- 4:1-ARG0 5:0-rel 6:2-ARG1
-mz/sinorama/10/ectb_1064.parse 138 13 gold manipulate manipulate.01 ----- 8:1*10:1*14:1-ARG1 8:1*10:1-LINK-SLC 11:1-ARG0 12:0-ARGM-MOD 13:0-rel
+mz/sinorama/10/ectb_1064.parse 59 11 gold be be.01 ----- 1:2-ARG1 11:0-rel 12:1-ARG2
 mz/sinorama/10/ectb_1064.parse 128 12 gold possess possess.01 ----- 9:1*13:1-ARG1 9:1*13:1-LINK-PSV 12:0-rel 14:1-ARG0
 mz/sinorama/10/ectb_1064.parse 83 20 gold link link.01 ----- 0:1*18:1-ARG0 0:1*18:1-LINK-PRO 20:0-rel 21:1-ARGM-PRD 22:1-ARG1 25:1-ARG2 35:2-ARGM-ADV
-mz/sinorama/10/ectb_1064.parse 39 5 gold have have.03 ----- 0:1-ARGM-TMP 4:1-ARG0 5:0-rel 6:1-ARG1
 mz/sinorama/10/ectb_1064.parse 114 4 gold have have.01 ----- 4:0-rel
 mz/sinorama/10/ectb_1064.parse 53 23 gold want want.01 ----- 21:1*24:1-ARG1 22:1-ARG0 23:0-rel
 mz/sinorama/10/ectb_1064.parse 78 3 gold have have.03 ----- 0:1-ARG0 2:1-ARGM-TMP 3:0-rel 4:2-ARG1
+mz/sinorama/10/ectb_1064.parse 151 17 gold be be.01 ----- 17:0-rel 18:2-ARG1
 mz/sinorama/10/ectb_1064.parse 106 16 gold use use.01 ----- 0:2-ARG2 9:2-ARGM-EXT 15:1-ARG0 16:0-rel 17:2-ARG1
-mz/sinorama/10/ectb_1064.parse 26 28 gold dig dig_up.02 ----- 24:1*26:1*27:1-ARG0 24:1*26:1-LINK-SLC 28:0,30:1-rel 29:1-ARG1
+mz/sinorama/10/ectb_1064.parse 19 7 gold be be.03 ----- 7:0-rel
 mz/sinorama/10/ectb_1064.parse 10 16 gold be be.03 ----- 16:0-rel
 mz/sinorama/10/ectb_1064.parse 99 17 gold spread spread.01 ----- 0:1-ARGM-TMP 1:1-ARG0 17:0-rel 18:2-ARG1 29:1-ARG2
 mz/sinorama/10/ectb_1064.parse 77 27 gold dig dig_up.02 ----- 16:1*26:1-ARG0 27:0,28:1-rel 29:1-ARG1
 mz/sinorama/10/ectb_1064.parse 97 9 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 9:0-rel 10:1-ARGM-ADV 11:1-ARG2
-mz/sinorama/10/ectb_1064.parse 151 17 gold be be.01 ----- 17:0-rel 18:2-ARG1
 mz/sinorama/10/ectb_1064.parse 128 4 gold confirm confirm.01 ----- 2:0-ARGM-EXT 3:0-ARGM-MNR 4:0-rel 5:1-ARG1
 mz/sinorama/10/ectb_1064.parse 72 9 gold express express.01 ----- 8:0-ARGM-MNR 9:0-rel
 mz/sinorama/10/ectb_1064.parse 27 16 gold make make.LV ----- 16:0-rel 17:1-ARGM-PRR
 mz/sinorama/10/ectb_1064.parse 33 5 gold request request.01 ----- 4:0-ARGM-MNR 5:0-rel
-mz/sinorama/10/ectb_1064.parse 136 45 gold feel feel.02 ----- 0:1-ARGM-ADV 42:2-ARG0 44:1-ARGM-TMP 45:0-rel 46:1-ARG1
+mz/sinorama/10/ectb_1064.parse 28 15 gold be be.03 ----- 15:0-rel
 mz/sinorama/10/ectb_1064.parse 134 25 gold laugh laugh.01 ----- 25:0-rel
 mz/sinorama/10/ectb_1064.parse 175 6 gold be be.01 ----- 0:2-ARG1 6:0-rel 7:2-ARG2
+mz/sinorama/10/ectb_1064.parse 134 20 gold say say.01 ----- 0:3*21:1-ARG1 20:0-rel 22:1-ARG0 23:1-ARGM-MNR
 mz/sinorama/10/ectb_1064.parse 150 6 gold have have.01 ----- 6:0-rel
 mz/sinorama/10/ectb_1064.parse 11 18 gold represent represent.01 ----- 10:2-ARG0 18:0-rel 19:2-ARG1
-mz/sinorama/10/ectb_1064.parse 89 30 gold approach approach.02 ----- 27:1-ARG0 29:0-ARGM-ADJ 30:0-rel
 mz/sinorama/10/ectb_1064.parse 45 11 gold reproduce reproduce.01 ----- 6:1*8:1-ARG0 6:1*8:1-LINK-PRO 10:0-ARGM-LVB 11:0-rel 12:1-ARG1
 mz/sinorama/10/ectb_1064.parse 157 62 gold surround surround.01 ----- 60:1*63:1-ARG2 60:1*63:1-LINK-PSV 62:0-rel 64:1-ARG1
 mz/sinorama/10/ectb_1064.parse 148 5 gold escape escape.01 ----- 0:1-ARGM-LOC 4:1-ARG0 5:0-rel 6:2-ARG1 12:1-ARGM-MNR
@@ -431,8 +431,8 @@ mz/sinorama/10/ectb_1064.parse 31 4 gold reveal reveal.01 ----- 0:1-ARG0 4:0-rel
 mz/sinorama/10/ectb_1064.parse 38 12 gold be be.01 ----- 10:1-ARG1 12:0-rel 13:1-ARG2
 mz/sinorama/10/ectb_1064.parse 27 11 gold find find.01 ----- 9:1-ARG0 11:0-rel 12:2-ARG1
 mz/sinorama/10/ectb_1064.parse 82 3 gold rest rest.02 ----- 0:1*1:1*2:1-ARG1 0:1*1:1-LINK-SLC 3:0-rel 4:1-ARG2
+mz/sinorama/10/ectb_1064.parse 81 8 gold reconstruct reconstruct.01 ----- 6:1-ARG0 8:0-rel 9:2-ARG1 15:1-ARG2
 mz/sinorama/10/ectb_1064.parse 79 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
-mz/sinorama/10/ectb_1064.parse 134 16 gold write write.01 ----- 16:0-rel 17:0-ARG1
 mz/sinorama/10/ectb_1064.parse 41 1 gold have have.01 ----- 1:0-rel
 mz/sinorama/10/ectb_1064.parse 141 12 gold have have.01 ----- 12:0-rel
 mz/sinorama/10/ectb_1064.parse 157 20 gold need need.01 ----- 19:1-ARG0 20:0-rel 21:2-ARG1
@@ -440,66 +440,65 @@ mz/sinorama/10/ectb_1064.parse 108 2 gold make make.01 ----- 0:1*6:1-ARGM-TMP 1:
 mz/sinorama/10/ectb_1064.parse 37 16 gold make make.01 ----- 15:1-ARG0 16:0-rel 17:2-ARG1
 mz/sinorama/10/ectb_1064.parse 59 20 gold take take.01 ----- 13:1-ARG0 14:1-ARGM-ADV 20:0-rel 21:1-ARGM-DIR 22:2-ARG1
 mz/sinorama/10/ectb_1064.parse 29 2 gold feel feel.02 ----- 1:1-ARG0 2:0-rel 3:1-ARG1
-mz/sinorama/10/ectb_1064.parse 91 12 gold have have.01 ----- 12:0-rel
 mz/sinorama/10/ectb_1064.parse 59 15 gold look look.01 ----- 13:1-ARG0 14:1-ARGM-ADV 15:0-rel 16:1-ARG1
 mz/sinorama/10/ectb_1064.parse 154 38 gold cooperate cooperate.01 ----- 16:3*36:1-ARG0 38:0-rel 39:1-ARG1
 mz/sinorama/10/ectb_1064.parse 73 5 gold smile smile.01 ----- 1:1-ARG0 4:0-ARGM-NEG 5:0-rel
 mz/sinorama/10/ectb_1064.parse 165 3 gold be be.03 ----- 3:0-rel
 mz/sinorama/10/ectb_1064.parse 122 35 gold cool cool.01 ----- 31:1-ARGM-TMP 35:0-rel
 mz/sinorama/10/ectb_1064.parse 153 20 gold build build.01 ----- 18:1-ARG0 20:0-rel 21:2-ARG1
-mz/sinorama/10/ectb_1064.parse 14 4 gold crash crash.01 ----- 4:0-rel
-mz/sinorama/10/ectb_1064.parse 126 28 gold fracture fracture.01 ----- 26:1-ARG1 28:0-rel 29:1-ARGM-TMP
 mz/sinorama/10/ectb_1064.parse 122 20 gold fire fire.03 ----- 16:1*21:1-ARG1 18:0-ARGM-MOD 20:0-rel 22:1-ARGM-MNR 24:1-ARGM-ADV
 mz/sinorama/10/ectb_1064.parse 119 10 gold be be.01 ----- 4:2-ARG1 8:0-ARGM-MOD 10:0-rel 11:1-ARG2
+mz/sinorama/10/ectb_1064.parse 12 15 gold stir stir.01 ----- 0:2-ARGM-TMP 9:1-ARGM-LOC 12:1-ARG0 15:0-rel 16:1-ARG1 17:1-ARGM-MNR 21:1-ARGM-PRP
 mz/sinorama/10/ectb_1064.parse 89 25 gold illustrate illustrate.01 ----- 24:0-ARGM-ADJ 25:0-rel 26:1-ARG1
 mz/sinorama/10/ectb_1064.parse 23 13 gold be be.01 ----- 0:1-ARGM-ADV 9:1-ARG1 13:0-rel 14:1-ARG2
 mz/sinorama/10/ectb_1064.parse 112 23 gold visualize visualize.01 ----- 19:1-ARG0 21:1-ARGM-MNR 23:0-rel 24:2-ARG1
 mz/sinorama/10/ectb_1064.parse 138 7 gold be be.02 ----- 3:1-ARGM-DIS 7:0-rel 8:3-ARG1
 mz/sinorama/10/ectb_1064.parse 117 7 gold be be.01 ----- 5:1-ARG1 7:0-rel 8:1-ARG2
+mz/sinorama/10/ectb_1064.parse 86 13 gold bring bring.01 ----- 4:1-ARGM-ADV 10:1*17:1-ARGM-MNR 11:0-ARGM-MOD 12:1-ARG0 13:0-rel 14:1-ARG1 15:1-ARG2
 mz/sinorama/10/ectb_1064.parse 165 2 gold have have.01 ----- 2:0-rel
 mz/sinorama/10/ectb_1064.parse 73 16 gold look look.02 ----- 14:1-ARGM-DIS 15:1-ARG0 16:0-rel 17:2-ARG1
 mz/sinorama/10/ectb_1064.parse 29 16 gold do do.02 ----- 11:1*17:1-ARG1 12:2-ARG0 16:0-rel 18:1-ARGM-TMP
 mz/sinorama/10/ectb_1064.parse 149 6 gold take take.01 ----- 0:0-ARGM-DIS 1:1-ARGM-TMP 3:1*7:1-ARG1 6:0-rel 8:1-ARG2
 mz/sinorama/10/ectb_1064.parse 100 11 gold have have.01 ----- 11:0-rel
 mz/sinorama/10/ectb_1064.parse 136 6 gold complete complete.01 ----- 4:1-ARG0 6:0-rel 7:2-ARG1 20:1-ARGM-MNR
-mz/sinorama/10/ectb_1064.parse 38 17 gold do do.01 ----- 17:0-rel
+mz/sinorama/10/ectb_1064.parse 62 11 gold have have.02 ----- 0:1-ARGM-PRP 11:0-rel
 mz/sinorama/10/ectb_1064.parse 26 35 gold lend lend.01 ----- 32:1*36:1-ARG1 34:1-ARGM-ADV 35:0-rel 37:1-ARGM-DIR
 mz/sinorama/10/ectb_1064.parse 142 1 gold admit admit.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
-mz/sinorama/10/ectb_1064.parse 64 3 gold have have.02 ----- 0:0-ARGM-DIS 2:1-ARGM-DIS 3:0-rel
 mz/sinorama/10/ectb_1064.parse 107 6 gold use use.01 ----- 3:1*5:1-ARG0 6:0-rel 7:1-ARG1
 mz/sinorama/10/ectb_1064.parse 35 4 gold say say.01 ----- 0:1-ARG0 4:0-rel 5:1-ARGM-MNR 9:2-ARG1
+mz/sinorama/10/ectb_1064.parse 13 9 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARGM-LOC 5:2-ARG1 9:0-rel 10:1-ARG2
+mz/sinorama/10/ectb_1064.parse 59 3 gold be be.01 ----- 1:1*2:1-ARG1 3:0-rel 4:1-ARG2
 mz/sinorama/10/ectb_1064.parse 125 19 gold fire fire.03 ----- 0:1*2:1-ARG0 19:0-rel 20:1-ARG1 21:1-ARGM-REC 23:1-ARGM-LOC 29:1-ARGM-LOC
 mz/sinorama/10/ectb_1064.parse 28 29 gold call call.01 ----- 21:1*25:1*30:1-ARG1 21:1*25:1-LINK-SLC 29:0-rel 32:1-ARG2
 mz/sinorama/10/ectb_1064.parse 34 20 gold ask ask.02 ----- 8:1*19:1-ARG0 8:1*19:1-LINK-PRO 20:0-rel 21:1-ARG1
 mz/sinorama/10/ectb_1064.parse 146 25 gold expose expose.01 ----- 24:0-ARGM-MNR 25:0-rel 26:1-ARG2
 mz/sinorama/10/ectb_1064.parse 172 37 gold strike strike.01 ----- 36:1-ARG0 37:0-rel 38:1-ARG1 40:1-ARG2
-mz/sinorama/10/ectb_1064.parse 19 27 gold be be.01 ----- 0:2-ARG1 27:0-rel 28:2-ARG2
 mz/sinorama/10/ectb_1064.parse 37 26 gold do do.02 ----- 8:2*23:1*24:1-ARG0 8:2*23:1-LINK-SLC 26:0-rel 27:1-ARG1 29:1-ARG2
 mz/sinorama/10/ectb_1064.parse 89 22 gold be be.01 ----- 0:2-ARG1 22:0-rel 23:2-ARG2
 mz/sinorama/10/ectb_1064.parse 168 11 gold make make.01 ----- 0:1-ARGM-MNR 7:1-ARG0 11:0-rel 12:2-ARG1
 mz/sinorama/10/ectb_1064.parse 64 9 gold duplicate duplicate.01 ----- 1:1*7:1-ARG0 9:0-rel 10:3-ARG1
-mz/sinorama/10/ectb_1064.parse 110 8 gold unearth unearth.01 ----- 0:1*9:1-ARG1 8:0-rel 10:1-ARGM-LOC
 mz/sinorama/10/ectb_1064.parse 141 14 gold bury bury.01 ----- 9:1*10:1*15:1-ARG1 9:1*10:1-LINK-SLC 14:0-rel 16:1-ARG2 19:1-ARGM-TMP 24:2-ARGM-PRD
 mz/sinorama/10/ectb_1064.parse 77 46 gold make make.01 ----- 38:1*40:1*48:1-ARGM-MNR 38:1*40:1-LINK-SLC 42:1*47:1-ARG1 43:0-ARGM-MOD 46:0-rel
 mz/sinorama/10/ectb_1064.parse 57 3 gold have have.01 ----- 3:0-rel
 mz/sinorama/10/ectb_1064.parse 71 42 gold be be.01 ----- 37:2-ARG1 42:0-rel 43:0-ARGM-NEG 44:1-ARG2 46:1-ARGM-ADV
+mz/sinorama/10/ectb_1064.parse 159 17 gold make make.01 ----- 15:0-ARG0 16:0-ARGM-REC 17:0-rel
 mz/sinorama/10/ectb_1064.parse 155 19 gold have have.01 ----- 19:0-rel
 mz/sinorama/10/ectb_1064.parse 142 41 gold lose lose.02 ----- 37:1-ARGM-TMP 38:1-ARG0 39:0-ARGM-MOD 41:0-rel 42:2-ARG1 44:1-ARGM-TMP
 mz/sinorama/10/ectb_1064.parse 96 17 gold imprint imprint.01 ----- 4:2*9:1*18:1-ARG2 4:2*9:1-LINK-SLC 17:0-rel 19:1-ARG1
 mz/sinorama/10/ectb_1064.parse 154 27 gold be be.02 ----- 16:2*21:1*34:1-ARGM-LOC 16:2*21:1-LINK-SLC 27:0-rel 28:1-ARGM-TMP 29:2-ARG1
 mz/sinorama/10/ectb_1064.parse 112 4 gold state state.01 ----- 0:1-ARG0 4:0-rel 5:1-ARG1
 mz/sinorama/10/ectb_1064.parse 144 12 gold make make.01 ----- 10:0-ARG1 12:0-rel
-mz/sinorama/10/ectb_1064.parse 104 26 gold photograph photograph.01 ----- 26:0-rel
-mz/sinorama/10/ectb_1064.parse 58 10 gold be be.01 ----- 0:1-ARGM-TMP 9:1-ARG1 10:0-rel 11:1-ARG2
 mz/sinorama/10/ectb_1064.parse 157 93 gold fire fire.03 ----- 91:1-ARG0 92:1-ARGM-ADV 93:0-rel 94:1-ARG1
 mz/sinorama/10/ectb_1064.parse 71 4 gold photograph photograph.01 ----- 4:0-rel 5:1-ARGM-LOC
 mz/sinorama/10/ectb_1064.parse 58 5 gold make make.01 ----- 4:1-ARG0 5:0-rel 6:1-ARG1
 mz/sinorama/10/ectb_1064.parse 74 4 gold be be.01 ----- 3:1-ARG1 4:0-rel 5:1-ARG2
 mz/sinorama/10/ectb_1064.parse 83 36 gold allow allow.01 ----- 35:1-ARG0 36:0-rel 37:2-ARG1
+mz/sinorama/10/ectb_1064.parse 83 3 gold use use.01 ----- 0:1*2:1-ARG0 3:0-rel 4:3-ARG1
 mz/sinorama/10/ectb_1064.parse 172 13 gold unearth unearth.01 ----- 6:2*14:1-ARG1 6:2*14:1-LINK-PSV 13:0-rel 15:1-ARGM-LOC
-mz/sinorama/10/ectb_1064.parse 51 18 gold forget forget.01 ----- 4:1-ARGM-ADV 15:1-ARG0 17:0-ARGM-NEG 18:0-rel 19:2-ARG1
+mz/sinorama/10/ectb_1064.parse 78 7 gold attach attach.01 ----- 5:1-ARGM-ADJ 7:0-rel 8:1-ARG2
 mz/sinorama/10/ectb_1064.parse 51 29 gold be be.03 ----- 29:0-rel
 mz/sinorama/10/ectb_1064.parse 51 7 gold leave leave.15 ----- 5:1-ARGM-TMP 6:1-ARG0 7:0-rel 8:1-ARG1 9:2-ARGM-PRP
+mz/sinorama/10/ectb_1064.parse 59 32 gold say say.01 ----- 1:3*33:1-ARG1 32:0-rel 34:1-ARG0
 mz/sinorama/10/ectb_1064.parse 148 26 gold allow allow.01 ----- 23:1*24:1*25:1-ARG0 23:1*24:1-LINK-SLC 26:0-rel 27:2-ARG1
 mz/sinorama/10/ectb_1064.parse 93 3 gold think think.01 ----- 0:1*8:1-ARG0 2:1-ARGM-ADV 3:0-rel 4:1-ARG2
 mz/sinorama/10/ectb_1064.parse 124 5 gold possess possess.01 ----- 0:0-ARGM-DIS 1:1-ARG0 4:0-ARGM-NEG 5:0-rel 6:2-ARG1
@@ -507,11 +506,13 @@ mz/sinorama/10/ectb_1064.parse 36 11 gold lose lose.02 ----- 6:1*8:1*12:1-ARG1 6
 mz/sinorama/10/ectb_1064.parse 151 8 gold turn turn_on.13 ----- 4:1*6:1*12:1-ARGM-TMP 4:1*6:1-LINK-SLC 7:1-ARG0 8:0,9:1-rel 10:1-ARG1 14:1-ARGM-DIS
 mz/sinorama/10/ectb_1064.parse 91 6 gold stamp stamp.01 ----- 1:1*7:1-ARG2 6:0-rel 8:1-ARGM-PRD 9:1-ARGM-TMP
 mz/sinorama/10/ectb_1064.parse 15 7 gold strike strike.01 ----- 0:1-ARG2 7:0-rel 8:1-ARG1
+mz/sinorama/10/ectb_1064.parse 107 13 gold have have.01 ----- 13:0-rel
 mz/sinorama/10/ectb_1064.parse 18 17 gold increase increase.01 ----- 16:1-ARG0 17:0-rel 18:1-ARG1 21:2-ARGM-PRP 29:1-ARGM-CAU
 mz/sinorama/10/ectb_1064.parse 115 8 gold include include.01 ----- 0:0-ARGM-ADV 6:1-ARG2 8:0-rel 9:1-ARG1 11:2-ARGM-MNR
+mz/sinorama/10/ectb_1064.parse 4 43 gold be be.01 ----- 42:1-ARG1 43:0-rel 44:1-ARG2
+mz/sinorama/10/ectb_1064.parse 155 14 gold create create.01 ----- 1:1-ARG0 2:0-ARGM-MOD 9:1-ARGM-ADV 10:1-ARGM-MNR 14:0-rel 15:2-ARG1
 mz/sinorama/10/ectb_1064.parse 153 12 gold go go.04 ----- 12:0-rel
 mz/sinorama/10/ectb_1064.parse 146 19 gold be be.03 ----- 19:0-rel
-mz/sinorama/10/ectb_1064.parse 26 15 gold be be.03 ----- 15:0-rel
 mz/sinorama/10/ectb_1064.parse 92 6 gold get get.04 ----- 0:1*11:1-ARGM-MNR 3:1-ARG0 6:0-rel 7:2-ARG1
 mz/sinorama/10/ectb_1064.parse 107 14 gold be be.01 ----- 12:1-ARG1 14:0-rel 15:1-ARG2 16:1-ARGM-TMP
 mz/sinorama/10/ectb_1064.parse 33 9 gold ask ask.02 ----- 3:1-ARG0 9:0-rel 10:2-ARG1
@@ -519,6 +520,7 @@ mz/sinorama/10/ectb_1064.parse 31 12 gold hold hold.13 ----- 6:2*13:1-ARG1 12:0-
 mz/sinorama/10/ectb_1064.parse 30 6 gold challenge challenge.01 ----- 4:0-ARGM-ADJ 6:0-rel
 mz/sinorama/10/ectb_1064.parse 33 19 gold make make.01 ----- 13:1*14:1*21:1-ARG2 13:1*14:1-LINK-SLC 16:1*20:1-ARG1 17:0-ARGM-MOD 19:0-rel
 mz/sinorama/10/ectb_1064.parse 126 32 gold expand expand.01 ----- 30:1-ARG1 31:1-ARGM-TMP 32:0-rel 33:1-ARGM-LOC
+mz/sinorama/10/ectb_1064.parse 26 4 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 4:0-rel 5:1-ARGM-ADV 6:1-ARG2
 mz/sinorama/10/ectb_1064.parse 142 40 gold be be.03 ----- 40:0-rel
 mz/sinorama/10/ectb_1064.parse 76 5 gold dress dress.01 ----- 4:0-ARGM-MNR 5:0-rel 6:0-ARG1
 mz/sinorama/10/ectb_1064.parse 26 16 gold find find.01 ----- 16:0-rel 17:2-ARG1
@@ -527,21 +529,24 @@ mz/sinorama/10/ectb_1064.parse 133 22 gold be be.01 ----- 21:1-ARG1 22:0-rel 23:
 mz/sinorama/10/ectb_1064.parse 43 22 gold display display.01 ----- 13:1*18:1*23:1-ARG1 13:1*18:1-LINK-SLC 22:0-rel 24:1-ARG2
 mz/sinorama/10/ectb_1064.parse 27 17 gold copy copy.01 ----- 12:1*13:1*14:1-ARG0 12:1*13:1-LINK-SLC 16:0-ARGM-LVB 17:0-rel 18:1-ARG1
 mz/sinorama/10/ectb_1064.parse 29 26 gold migrate migrate.01 ----- 23:1-ARGM-ADJ 26:0-rel
+mz/sinorama/10/ectb_1064.parse 54 4 gold read read.01 ----- 0:1*2:1*3:1-ARG0 0:1*2:1-LINK-SLC 4:0-rel 5:1-ARG1
 mz/sinorama/10/ectb_1064.parse 90 2 gold inspect inspect.01 ----- 1:1*6:1-ARG0 2:0-rel 3:1-ARG1
 mz/sinorama/10/ectb_1064.parse 155 20 gold return return.01 ----- 18:1-ARG1 20:0-rel 21:1-ARG4
 mz/sinorama/10/ectb_1064.parse 110 7 gold be be.03 ----- 7:0-rel
 mz/sinorama/10/ectb_1064.parse 93 21 gold work work.01 ----- 19:1*22:1-ARGM-TMP 20:1-ARG0 21:0-rel
 mz/sinorama/10/ectb_1064.parse 149 4 gold have have.01 ----- 4:0-rel
+mz/sinorama/10/ectb_1064.parse 15 4 gold fall fall.01 ----- 0:1-ARG1 4:0-rel 5:1-ARGM-PRD
 mz/sinorama/10/ectb_1064.parse 146 8 gold leave leave.12 ----- 0:1-ARGM-ADV 5:1-ARG0 7:0-ARGM-NEG 8:0-rel 9:2-ARG1
+mz/sinorama/10/ectb_1064.parse 28 20 gold establish establish.01 ----- 18:1-ARG0 20:0-rel 21:2-ARG1
 mz/sinorama/10/ectb_1064.parse 124 3 gold do do.01 ----- 3:0-rel
 mz/sinorama/10/ectb_1064.parse 133 19 gold know know.04 ----- 18:1-ARG0 19:0-rel 20:1-ARG1
 mz/sinorama/10/ectb_1064.parse 43 21 gold be be.03 ----- 21:0-rel
+mz/sinorama/10/ectb_1064.parse 125 6 gold rinse rinse.01 ----- 0:1*2:1-ARG0 6:0-rel 10:1-ARG1
 mz/sinorama/10/ectb_1064.parse 89 10 gold find find.01 ----- 3:1*11:1-ARG1 3:1*11:1-LINK-PSV 10:0-rel 12:1-ARG0 17:1-ARGM-LOC
 mz/sinorama/10/ectb_1064.parse 12 14 gold be be.03 ----- 14:0-rel
 mz/sinorama/10/ectb_1064.parse 33 18 gold be be.03 ----- 18:0-rel
 mz/sinorama/10/ectb_1064.parse 103 13 gold tap tap.01 ----- 0:1-ARGM-TMP 2:1-ARGM-MNR 6:1-ARG0 13:0-rel 14:1-ARG1 18:1-ARGM-TMP
 mz/sinorama/10/ectb_1064.parse 13 27 gold go go.06 ----- 26:1-ARG0 27:0-rel 28:1-ARG2
-mz/sinorama/10/ectb_1064.parse 33 4 gold write write.01 ----- 4:0-rel 5:0-ARG1
 mz/sinorama/10/ectb_1064.parse 50 9 gold come come.03 ----- 0:1-ARGM-ADV 3:3-ARG1 8:1-ARGM-TMP 9:0-rel 10:1-ARG2
 mz/sinorama/10/ectb_1064.parse 88 15 gold reproduce reproduce.01 ----- 9:1*13:1-ARG0 15:0-rel 16:3-ARG1
 mz/sinorama/10/ectb_1064.parse 57 5 gold be be.03 ----- 5:0-rel
@@ -550,29 +555,26 @@ mz/sinorama/10/ectb_1064.parse 3 25 gold be be.03 ----- 25:0-rel
 mz/sinorama/10/ectb_1064.parse 51 16 gold do do.01 ----- 16:0-rel
 mz/sinorama/10/ectb_1064.parse 136 48 gold be be.02 ----- 48:0-rel 49:2-ARG1
 mz/sinorama/10/ectb_1064.parse 103 46 gold collapse collapse.01 ----- 45:1-ARG1 46:0-rel 47:1-ARGM-DIR
-mz/sinorama/10/ectb_1064.parse 150 1 gold relate relation.03 ----- 1:0-rel 2:1-ARG0
-mz/sinorama/10/ectb_1064.parse 125 6 gold rinse rinse.01 ----- 0:1*2:1-ARG0 6:0-rel 10:1-ARG1
+mz/sinorama/10/ectb_1064.parse 100 13 gold prepare prepare.01 ----- 5:1*9:1*14:1-ARG1 5:1*9:1-LINK-SLC 10:1-ARG0 12:1-ARGM-MNR 13:0-rel 15:1-ARGM-MNR
 mz/sinorama/10/ectb_1064.parse 129 27 gold visit visit.01 ----- 4:2*25:1-ARG0 27:0-rel 28:3-ARG1
 mz/sinorama/10/ectb_1064.parse 79 23 gold capture capture.01 ----- 6:1*8:1*30:1-ARGM-CAU 6:1*8:1-LINK-SLC 9:1*21:1-ARG0 23:0-rel 24:2;32:2-ARG1
 mz/sinorama/10/ectb_1064.parse 126 38 gold contract contract.01 ----- 30:1-ARG1 37:1-ARGM-TMP 38:0-rel 39:1-ARGM-TMP
-mz/sinorama/10/ectb_1064.parse 62 11 gold have have.02 ----- 0:1-ARGM-PRP 11:0-rel
 mz/sinorama/10/ectb_1064.parse 34 11 gold have have.01 ----- 11:0-rel
 mz/sinorama/10/ectb_1064.parse 95 17 gold tap tap.01 ----- 0:1-ARG0 1:0-ARGM-MOD 17:0-rel 18:1-ARG1 19:1-ARGM-DIR 20:1-ARGM-MNR 21:1-ARG2 25:2-ARGM-PRP
 mz/sinorama/10/ectb_1064.parse 80 8 gold be be.01 ----- 0:2*9:1-ARG2 8:0-rel 10:1-ARG1
 mz/sinorama/10/ectb_1064.parse 103 39 gold shock shock.01 ----- 39:0-rel
 mz/sinorama/10/ectb_1064.parse 34 6 gold decide decide.01 ----- 0:2-ARG0 6:0-rel 7:1-ARG1
+mz/sinorama/10/ectb_1064.parse 118 10 gold be be.01 ----- 0:1-ARGM-DIS 4:2-ARG1 10:0-rel 11:1-ARGM-TMP 12:1-ARG2
 mz/sinorama/10/ectb_1064.parse 164 4 gold discover discover.01 ----- 0:1*5:1-ARG1 0:1*5:1-LINK-PSV 4:0-rel 6:1-ARGM-ADV 7:1-ARGM-TMP
-mz/sinorama/10/ectb_1064.parse 53 5 gold say say.01 ----- 1:1-ARG0 5:0-rel 6:1-ARG1 8:1-ARGM-ADV
 mz/sinorama/10/ectb_1064.parse 175 9 gold sit sit.01 ----- 7:1-ARG1 9:0-rel 10:1-ARG2 12:1-ARGM-LOC 15:1-ARGM-COM 20:2-ARGM-PRD
 mz/sinorama/10/ectb_1064.parse 33 2 gold send send.01 ----- 0:1-ARG0 2:0-rel 3:2;9:1-ARG1 7:1-ARG2
 mz/sinorama/10/ectb_1064.parse 52 7 gold have have.01 ----- 7:0-rel
 mz/sinorama/10/ectb_1064.parse 153 8 gold decide decide.01 ----- 0:1-ARGM-TMP 7:1-ARG0 8:0-rel 9:1-ARG1
-mz/sinorama/10/ectb_1064.parse 4 43 gold be be.01 ----- 42:1-ARG1 43:0-rel 44:1-ARG2
 mz/sinorama/10/ectb_1064.parse 154 15 gold induce induce.01 ----- 0:1-ARG0 13:0-ARGM-MOD 14:1-ARGM-DIS 15:0-rel 16:3-ARG1 36:2-ARG2
 mz/sinorama/10/ectb_1064.parse 89 1 gold reconstruct reconstruct.01 ----- 1:0-rel 2:1-ARG1
-mz/sinorama/10/ectb_1064.parse 120 9 gold buy buy.01 ----- 4:1-ARGM-TMP 6:1-ARG0 9:0-rel 10:3-ARG1
+mz/sinorama/10/ectb_1064.parse 143 4 gold get get_down.15 ----- 3:1-ARG1 4:0,5:1-rel 6:1-ARG2
 mz/sinorama/10/ectb_1064.parse 66 2 gold find find.02 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:2-ARG1 14:1-ARGM-ADV
-mz/sinorama/10/ectb_1064.parse 154 31 gold divide divide.02 ----- 29:1-ARGM-ADJ 31:0-rel
+mz/sinorama/10/ectb_1064.parse 120 9 gold buy buy.01 ----- 4:1-ARGM-TMP 6:1-ARG0 9:0-rel 10:3-ARG1
 mz/sinorama/10/ectb_1064.parse 106 22 gold be be.01 ----- 21:1-ARG1 22:0-rel 23:1-ARG2
 mz/sinorama/10/ectb_1064.parse 80 5 gold reproduce reproduce.01 ----- 4:1-ARG0 5:0-rel 6:1-ARG1
 mz/sinorama/10/ectb_1064.parse 149 11 gold replace replace.01 ----- 0:0-ARGM-DIS 1:1-ARGM-TMP 3:1*12:1-ARG1 11:0-rel 13:1-ARG2
@@ -583,55 +585,56 @@ mz/sinorama/10/ectb_1064.parse 43 8 gold ask ask.02 ----- 3:1*5:1*9:1-ARG2 3:1*5
 mz/sinorama/10/ectb_1064.parse 143 39 gold make make.02 ----- 37:1-ARG0 39:0-rel 40:2-ARG1
 mz/sinorama/10/ectb_1064.parse 23 12 gold have have.01 ----- 12:0-rel
 mz/sinorama/10/ectb_1064.parse 141 45 gold be be.03 ----- 45:0-rel
+mz/sinorama/10/ectb_1064.parse 47 12 gold work work.01 ----- 11:1-ARG0 12:0-rel 13:1-ARGM-REC 14:1-ARG1 16:1-ARGM-TMP
 mz/sinorama/10/ectb_1064.parse 8 17 gold be be.01 ----- 14:1-ARG1 17:0-rel 18:1-ARGM-TMP 19:2-ARG2
 mz/sinorama/10/ectb_1064.parse 130 2 gold arrive arrive.01 ----- 0:1*4:1-ARGM-TMP 2:0-rel 3:1-ARG4
 mz/sinorama/10/ectb_1064.parse 25 7 gold be be.01 ----- 0:1-ARGM-GOL 3:1-ARG1 7:0-rel 8:1-ARGM-DIS 10:2-ARG2
 mz/sinorama/10/ectb_1064.parse 51 30 gold influence influence.01 ----- 26:1*31:1-ARG1 30:0-rel 32:1-ARG0
 mz/sinorama/10/ectb_1064.parse 37 2 gold ask ask.01 ----- 1:1*5:1-ARG0 2:0-rel 3:1-ARGM-LOC
-mz/sinorama/10/ectb_1064.parse 114 21 gold be be.03 ----- 21:0-rel
+mz/sinorama/10/ectb_1064.parse 22 5 gold have have.01 ----- 5:0-rel
 mz/sinorama/10/ectb_1064.parse 53 36 gold reproduce reproduce.01 ----- 29:1*32:1*33:1-ARG0 29:1*32:1-LINK-SLC 35:0-ARGM-LVB 36:0-rel 37:1-ARG1
 mz/sinorama/10/ectb_1064.parse 87 2 gold respond respond.01 ----- 0:1-ARG0 2:0-rel
 mz/sinorama/10/ectb_1064.parse 48 2 gold be be.01 ----- 0:1*5:1-ARGM-TMP 1:1-ARG1 2:0-rel 3:1-ARG2
 mz/sinorama/10/ectb_1064.parse 32 0 gold hang hang.02 ----- 0:0-rel 1:1-ARG1 2:1-ARGM-DIR 3:1-ARG2
 mz/sinorama/10/ectb_1064.parse 112 18 gold allow allow.01 ----- 6:2-ARG0 18:0-rel 19:2-ARG1
-mz/sinorama/10/ectb_1064.parse 2 4 gold photograph photograph.01 ----- 4:0-rel 5:1-ARG0
 mz/sinorama/10/ectb_1064.parse 17 12 gold examine examine.01 ----- 0:1*11:1-ARG0 12:0-rel 13:1-ARG1 14:1-ARGM-MNR 15:1-ARG2
 mz/sinorama/10/ectb_1064.parse 100 22 gold carve carve.02 ----- 10:1*16:1-ARG0 10:1*16:1-LINK-PRO 22:0-rel 23:2-ARG1 27:1-ARG2
 mz/sinorama/10/ectb_1064.parse 125 4 gold dig dig.01 ----- 0:1*2:1-ARG0 4:0-rel 10:1-ARG1
 mz/sinorama/10/ectb_1064.parse 155 3 gold encourage encourage.02 ----- 1:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:1-ARG1
 mz/sinorama/10/ectb_1064.parse 36 23 gold file file.01 ----- 21:1-ARG0 23:0-rel 24:1-ARG1
+mz/sinorama/10/ectb_1064.parse 119 5 gold include include.01 ----- 5:0-rel 6:1-ARG1
 mz/sinorama/10/ectb_1064.parse 58 7 gold recreate recreate.01 ----- 6:0-ARG0 7:0-rel
 mz/sinorama/10/ectb_1064.parse 3 7 gold ceremony ceremony.01 ----- 2:2-ARGM-ADJ 7:0-rel 8:1-ARGM-TMP
-mz/sinorama/10/ectb_1064.parse 172 31 gold recreate recreate.01 ----- 0:1-ARGM-ADV 21:1-ARG0 31:0-rel 32:1-ARG1 35:1-ARGM-MNR
-mz/sinorama/10/ectb_1064.parse 153 2 gold mull mull.01 ----- 1:1-ARG0 2:0-rel 3:1,4:1-ARG1
+mz/sinorama/10/ectb_1064.parse 136 28 gold receive receive.01 ----- 25:1*26:1*27:1-ARG0 25:1*26:1-LINK-SLC 28:0-rel 29:1-ARG1 31:2-ARG2
 mz/sinorama/10/ectb_1064.parse 83 31 gold find find.01 ----- 26:2*32:1-ARG1 26:2*32:1-LINK-PSV 31:0-rel 33:1-ARGM-LOC
 mz/sinorama/10/ectb_1064.parse 7 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-ADV 4:2-ARG2
-mz/sinorama/10/ectb_1064.parse 111 9 gold identify identify.01 ----- 0:0-ARGM-DIS 1:3-ARG0 8:0-ARGM-MOD 9:0-rel 10:1-ARG1 12:1-ARGM-MNR
+mz/sinorama/10/ectb_1064.parse 104 2 gold examine examine.01 ----- 1:0-ARGM-MNR 2:0-rel 3:1-ARG1
+mz/sinorama/10/ectb_1064.parse 103 37 gold absorb absorb.01 ----- 24:1*35:1-ARG0 24:1*35:1-LINK-PRO 37:0-rel 38:1-ARG1
 mz/sinorama/10/ectb_1064.parse 131 18 gold work work.01 ----- 14:1-ARG0 18:0-rel 19:1-ARGM-LOC
 mz/sinorama/10/ectb_1064.parse 33 27 gold hit hit.02 ----- 24:1-ARG0 26:1-ARGM-MNR 27:0-rel 28:1-ARG1
 mz/sinorama/10/ectb_1064.parse 126 25 gold have have.04 ----- 3:1*17:1-ARG0 3:1*17:1-LINK-PRO 23:1-ARGM-DIS 25:0-rel 26:2-ARG1
 mz/sinorama/10/ectb_1064.parse 51 11 gold do do.02 ----- 6:1*9:1-ARG0 11:0-rel 12:1-ARG1
 mz/sinorama/10/ectb_1064.parse 46 28 gold have have.01 ----- 28:0-rel
 mz/sinorama/10/ectb_1064.parse 26 19 gold be be.03 ----- 19:0-rel
+mz/sinorama/10/ectb_1064.parse 114 21 gold be be.03 ----- 21:0-rel
 mz/sinorama/10/ectb_1064.parse 43 12 gold select select.01 ----- 3:1*5:1*10:1-ARG0 3:1*5:1-LINK-SLC 12:0-rel 13:2-ARG1
-mz/sinorama/10/ectb_1064.parse 19 7 gold be be.03 ----- 7:0-rel
 mz/sinorama/10/ectb_1064.parse 38 19 gold capture capture.01 ----- 0:0-ARGM-DIS 1:2-ARGM-TMP 9:1-ARGM-ADV 15:1-ARG0 18:0-ARGM-NEG 19:0-rel 20:2-ARG1 27:2-ARGM-PRD
 mz/sinorama/10/ectb_1064.parse 145 4 gold use use.01 ----- 1:1-ARGM-TMP 3:1-ARG0 4:0-rel 5:1-ARG1
-mz/sinorama/10/ectb_1064.parse 38 31 gold pick pick_up.04 ----- 29:1*37:1-ARGM-TMP 30:1*32:1-ARG1 30:1*32:1-LINK-PSV 31:0,33:1-rel 34:1-ARGM-MNR
 mz/sinorama/10/ectb_1064.parse 153 5 gold experience experience.01 ----- 4:0-ARG0 5:0-rel
 mz/sinorama/10/ectb_1064.parse 122 33 gold heat heat.01 ----- 31:1-ARGM-TMP 33:0-rel
+mz/sinorama/10/ectb_1064.parse 74 14 gold be be.01 ----- 11:1-ARG1 14:0-rel 15:1-ARG2
+mz/sinorama/10/ectb_1064.parse 90 7 gold discover discover.01 ----- 0:1-ARGM-TMP 6:1-ARG0 7:0-rel 8:1-ARG1
 mz/sinorama/10/ectb_1064.parse 71 22 gold be be.01 ----- 21:1-ARG1 22:0-rel 23:2-ARG2
+mz/sinorama/10/ectb_1064.parse 91 12 gold have have.01 ----- 12:0-rel
 mz/sinorama/10/ectb_1064.parse 88 31 gold make make.01 ----- 27:1*29:1*30:1-ARG0 27:1*29:1-LINK-SLC 31:0-rel 32:1-ARG1
-mz/sinorama/10/ectb_1064.parse 12 15 gold stir stir.01 ----- 0:2-ARGM-TMP 9:1-ARGM-LOC 12:1-ARG0 15:0-rel 16:1-ARG1 17:1-ARGM-MNR 21:1-ARGM-PRP
 mz/sinorama/10/ectb_1064.parse 81 11 gold design design.01 ----- 10:0-ARGM-ADJ 11:0-rel 12:1-ARG1
 mz/sinorama/10/ectb_1064.parse 56 2 gold work work.01 ----- 0:1-ARG0 1:1-ARGM-TMP 2:0-rel 3:2-ARG1
 mz/sinorama/10/ectb_1064.parse 18 23 gold make make.02 ----- 21:1-ARG0 23:0-rel 24:2-ARG1
-mz/sinorama/10/ectb_1064.parse 159 17 gold make make.01 ----- 15:0-ARG0 16:0-ARGM-REC 17:0-rel
+mz/sinorama/10/ectb_1064.parse 116 2 gold include include.01 ----- 0:1-ARG2 1:1-ARGM-DIS 2:0-rel 3:1-ARG1
 mz/sinorama/10/ectb_1064.parse 88 12 gold want want.01 ----- 9:1-ARG0 12:0-rel 13:2-ARG1
-mz/sinorama/10/ectb_1064.parse 100 2 gold tap tap.01 ----- 0:1-ARGM-TMP 1:1-ARG0 2:0-rel 3:1-ARG1 4:1-ARG2
 mz/sinorama/10/ectb_1064.parse 83 53 gold remain remain.01 ----- 52:1-ARG1 53:0-rel 54:1-ARG3
-mz/sinorama/10/ectb_1064.parse 143 4 gold get get_down.15 ----- 3:1-ARG1 4:0,5:1-rel 6:1-ARG2
 mz/sinorama/10/ectb_1064.parse 122 10 gold offer offer.01 ----- 9:1-ARG0 10:0-rel 11:1-ARG1 15:1-ARGM-PRP
+mz/sinorama/10/ectb_1064.parse 26 15 gold be be.03 ----- 15:0-rel
 mz/sinorama/10/ectb_1064.parse 51 1 gold continue continue.02 ----- 0:1-ARG0 1:0-rel 4:3-ARG1
 mz/sinorama/10/ectb_1064.parse 144 5 gold be be.02 ----- 0:0-ARGM-DIS 1:1-ARGM-DIS 2:1-ARGM-ADV 5:0-rel 6:1-ARG1
 mz/sinorama/10/ectb_1064.parse 10 3 gold locate locate.01 ----- 0:1*4:1-ARG1 0:1*4:1-LINK-PSV 3:0-rel 5:1-ARGM-LOC
@@ -642,22 +645,19 @@ mz/sinorama/10/ectb_1064.parse 114 5 gold bring bring.01 ----- 0:1-ARGM-DIS 3:1-
 mz/sinorama/10/ectb_1064.parse 122 4 gold use use.01 ----- 0:1-ARGM-DIS 3:1-ARG0 4:0-rel 5:1-ARG1 8:1-ARGM-CAU
 mz/sinorama/10/ectb_1064.parse 18 43 gold move move.01 ----- 37:1*44:1-ARG1 43:0-rel 45:1-ARGM-DIR 46:1-ARGM-PRP
 mz/sinorama/10/ectb_1064.parse 160 12 gold rediscover rediscover.01 ----- 0:1*2:1-ARG0 12:0-rel 13:2-ARG1
-mz/sinorama/10/ectb_1064.parse 98 22 gold knead knead.01 ----- 22:0-rel 23:1-ARG1 24:1-ARGM-MNR
-mz/sinorama/10/ectb_1064.parse 36 19 gold be be.01 ----- 16:1*21:2-ARG1 17:0-ARGM-MOD 19:0-rel 20:1-ARG2
+mz/sinorama/10/ectb_1064.parse 110 8 gold unearth unearth.01 ----- 0:1*9:1-ARG1 8:0-rel 10:1-ARGM-LOC
+mz/sinorama/10/ectb_1064.parse 149 5 gold be be.03 ----- 5:0-rel
 mz/sinorama/10/ectb_1064.parse 72 6 gold be be.01 ----- 0:1-ARGM-ADV 3:1-ARG1 6:0-rel 7:1-ARG2
 mz/sinorama/10/ectb_1064.parse 75 12 gold imagine imagine.01 ----- 0:1-ARGM-PRP 11:1-ARG0 12:0-rel 13:1-ARG1 15:1-ARG2
 mz/sinorama/10/ectb_1064.parse 91 4 gold have have.01 ----- 4:0-rel
 mz/sinorama/10/ectb_1064.parse 109 2 gold be be.02 ----- 0:1*9:1-ARGM-TMP 2:0-rel 3:2-ARG1
-mz/sinorama/10/ectb_1064.parse 104 2 gold examine examine.01 ----- 1:0-ARGM-MNR 2:0-rel 3:1-ARG1
+mz/sinorama/10/ectb_1064.parse 153 2 gold mull mull.01 ----- 1:1-ARG0 2:0-rel 3:1,4:1-ARG1
 mz/sinorama/10/ectb_1064.parse 53 18 gold have have.01 ----- 18:0-rel
 mz/sinorama/10/ectb_1064.parse 26 33 gold be be.03 ----- 33:0-rel
-mz/sinorama/10/ectb_1064.parse 26 4 gold be be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 4:0-rel 5:1-ARGM-ADV 6:1-ARG2
-mz/sinorama/10/ectb_1064.parse 74 14 gold be be.01 ----- 11:1-ARG1 14:0-rel 15:1-ARG2
 mz/sinorama/10/ectb_1064.parse 150 7 gold be be.03 ----- 7:0-rel
 mz/sinorama/10/ectb_1064.parse 58 2 gold process process.02 ----- 2:0-rel 3:1-ARG1
-mz/sinorama/10/ectb_1064.parse 10 17 gold hop hop.01 ----- 0:2-ARG0 17:0-rel 18:1-ARGM-MNR
 mz/sinorama/10/ectb_1064.parse 9 10 gold open open.01 ----- 10:0-rel
 mz/sinorama/10/ectb_1064.parse 127 6 gold affirm affirm.01 ----- 6:0-rel 8:1-ARG0 10:1-ARG1
-mz/sinorama/10/ectb_1064.parse 18 11 gold be be.01 ----- 10:1*15:1-ARG1 11:0-rel 12:1-ARG2
-mz/sinorama/10/ectb_1064.parse 149 5 gold be be.03 ----- 5:0-rel
+mz/sinorama/10/ectb_1064.parse 12 25 gold put put_up.13 ----- 24:1-ARG0 25:0,26:1-rel 27:3-ARG1
 mz/sinorama/10/ectb_1064.parse 49 2 gold have have.03 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
+mz/sinorama/10/ectb_1064.parse 10 17 gold hop hop.01 ----- 0:2-ARG0 17:0-rel 18:1-ARGM-MNR

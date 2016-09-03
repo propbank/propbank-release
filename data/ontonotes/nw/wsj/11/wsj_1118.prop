@@ -13,14 +13,14 @@ nw/wsj/11/wsj_1118.parse 5 1 gold trade trade.01 ----- 0:1*2:1-ARG1 0:1*2:1-LINK
 nw/wsj/11/wsj_1118.parse 8 1 gold charge charge.01 ----- 1:0-rel 2:1-ARG3
 nw/wsj/11/wsj_1118.parse 5 8 gold use use.01 ----- 7:0-ARG2 8:0-rel
 nw/wsj/11/wsj_1118.parse 18 12 gold order order.02 ----- 11:0-ARGM-ADJ 12:0-rel
-nw/wsj/11/wsj_1118.parse 1 9 gold be be.01 ----- 0:2-ARG1 9:0-rel 10:2-ARG2
+nw/wsj/11/wsj_1118.parse 1 16 gold do do.01 ----- 16:0-rel
 nw/wsj/11/wsj_1118.parse 21 15 gold quote quote.01 ----- 15:0-rel 16:1-ARGM-LOC
 nw/wsj/11/wsj_1118.parse 20 2 gold offer offer.01 ----- 2:0-rel 3:0-ARG1
 nw/wsj/11/wsj_1118.parse 28 22 gold price price.01 ----- 9:2*23:1-ARG1 9:2*23:1-LINK-PSV 22:0-rel 24:1-ARG2
 nw/wsj/11/wsj_1118.parse 25 11 gold post post.01 ----- 11:0-rel 12:0-ARG1
-nw/wsj/11/wsj_1118.parse 1 16 gold do do.01 ----- 16:0-rel
 nw/wsj/11/wsj_1118.parse 23 3 gold be be.01 ----- 0:1-ARG1 3:0-rel 4:0-ARGM-NEG 5:1-ARG2
 nw/wsj/11/wsj_1118.parse 14 4 gold pay pay.01 ----- 2:1*5:1-ARG1 2:1*5:1-LINK-PSV 4:0-rel 6:1-ARG0 11:1-ARGM-MNR 19:1-ARGM-TMP 20:0,21:2-ARG2
+nw/wsj/11/wsj_1118.parse 1 9 gold be be.01 ----- 0:2-ARG1 9:0-rel 10:2-ARG2
 nw/wsj/11/wsj_1118.parse 28 17 gold deliver deliver.01 ----- 17:0-rel 18:1-ARGM-TMP
 nw/wsj/11/wsj_1118.parse 25 20 gold deliver deliver.01 ----- 20:0-rel 21:1-ARGM-TMP
 nw/wsj/11/wsj_1118.parse 24 26 gold discount discount.01 ----- 26:0-rel 27:1-ARG3

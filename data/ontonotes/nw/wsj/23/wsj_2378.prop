@@ -1,13 +1,15 @@
+nw/wsj/23/wsj_2378.parse 8 2 gold find find.01 ----- 0:1-ARG0 2:0-rel 4:3-ARG1
 nw/wsj/23/wsj_2378.parse 7 6 gold be be.01 ----- 1:1*4:1-ARG1 6:0-rel 7:2-ARG2 14:1-ARGM-ADV
 nw/wsj/23/wsj_2378.parse 5 19 gold be be.03 ----- 19:0-rel
+nw/wsj/23/wsj_2378.parse 10 8 gold title title.01 ----- 4:1*9:1-ARG1 4:1*9:1-LINK-PSV 8:0-rel 10:2-ARG2
 nw/wsj/23/wsj_2378.parse 8 15 gold have have.03 ----- 4:2-ARG0 15:0-rel 16:3-ARG1
 nw/wsj/23/wsj_2378.parse 5 2 gold study study.01 ----- 1:0-ARG0 2:0-rel 4:2-ARGM-ADJ
-nw/wsj/23/wsj_2378.parse 10 8 gold title title.01 ----- 4:1*9:1-ARG1 4:1*9:1-LINK-PSV 8:0-rel 10:2-ARG2
+nw/wsj/23/wsj_2378.parse 10 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
+nw/wsj/23/wsj_2378.parse 11 21 gold play play.02 ----- 8:3-ARG0 19:0-ARGM-MOD 21:0-rel 22:1-ARG1 25:1-ARGM-DIS 27:1-ARGM-LOC
 nw/wsj/23/wsj_2378.parse 11 13 gold crash crash.01 ----- 12:0-ARGM-TMP 13:0-rel
 nw/wsj/23/wsj_2378.parse 8 30 gold tend tend.02 ----- 24:2*28:1*29:1-ARG1 24:2*28:1-LINK-SLC 30:0-rel 31:2-ARG2
 nw/wsj/23/wsj_2378.parse 5 6 gold span span.01 ----- 1:1*4:1*5:1-ARG0 1:1*4:1-LINK-SLC 6:0-rel 7:1-ARG1
 nw/wsj/23/wsj_2378.parse 10 6 gold study study.01 ----- 5:0-ARGM-TMP 6:0-rel
-nw/wsj/23/wsj_2378.parse 8 2 gold find find.01 ----- 0:1-ARG0 2:0-rel 4:3-ARG1
 nw/wsj/23/wsj_2378.parse 4 20 gold be be.03 ----- 20:0-rel
 nw/wsj/23/wsj_2378.parse 0 10 gold plummet plummet.01 ----- 7:1-ARG1 10:0-rel 11:2-ARG2
 nw/wsj/23/wsj_2378.parse 3 11 gold have have.01 ----- 11:0-rel
@@ -15,9 +17,7 @@ nw/wsj/23/wsj_2378.parse 2 10 gold justify justify.01 ----- 2:2-ARG1 10:0-rel
 nw/wsj/23/wsj_2378.parse 5 16 gold show show.01 ----- 0:0-ARGM-DIS 1:2,17:2*21:1-ARG1 14:1-ARGM-TMP 16:0-rel
 nw/wsj/23/wsj_2378.parse 8 19 gold return return.06 ----- 16:1-ARG1 19:0-rel 21:2-ARGM-ADJ
 nw/wsj/23/wsj_2378.parse 6 7 gold fall fall.01 ----- 0:1-ARGM-TMP 4:1-ARG1 6:0-ARGM-LVB 7:0-rel 8:2-ARGM-TMP 13:0-ARGM-TMP
-nw/wsj/23/wsj_2378.parse 10 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 nw/wsj/23/wsj_2378.parse 6 6 v01000 take take.LV ----- 6:0-rel 7:1-ARGM-PRR
-nw/wsj/23/wsj_2378.parse 9 15 gold rise rise.01 ----- 0:1-ARGM-TMP 10:1-ARG1 15:0-rel 16:2-ARG2
 nw/wsj/23/wsj_2378.parse 5 13 gold have have.01 ----- 13:0-rel
 nw/wsj/23/wsj_2378.parse 3 13 gold set set_up.03 ----- 0:1-ARGM-LOC 3:1*14:1-ARG1 13:0,15:1-rel
 nw/wsj/23/wsj_2378.parse 8 33 gold be be.01 ----- 24:2*28:1*29:1*31:1-ARG1 24:2*28:1-LINK-SLC 33:0-rel 34:2-ARG2
@@ -29,13 +29,13 @@ nw/wsj/23/wsj_2378.parse 10 18 gold be be.03 ----- 18:0-rel
 nw/wsj/23/wsj_2378.parse 8 38 gold price price.01 ----- 37:0-ARG1 38:0-rel
 nw/wsj/23/wsj_2378.parse 4 21 gold spook spook.01 ----- 18:1*22:1-ARG1 21:0-rel 23:1-ARG0
 nw/wsj/23/wsj_2378.parse 10 19 gold publish publish.01 ----- 4:2*20:1-ARG1 19:0-rel 21:1-ARGM-MNR
+nw/wsj/23/wsj_2378.parse 8 1 gold study study.01 ----- 1:0-rel
 nw/wsj/23/wsj_2378.parse 11 20 gold have have.01 ----- 20:0-rel
 nw/wsj/23/wsj_2378.parse 7 3 gold tend tend.02 ----- 0:0-ARGM-DIS 1:1-ARG1 3:0-rel 4:2-ARG2 17:1-ARGM-ADV
-nw/wsj/23/wsj_2378.parse 11 21 gold play play.02 ----- 8:3-ARG0 19:0-ARGM-MOD 21:0-rel 22:1-ARG1 25:1-ARGM-DIS 27:1-ARGM-LOC
+nw/wsj/23/wsj_2378.parse 9 15 gold rise rise.01 ----- 0:1-ARGM-TMP 10:1-ARG1 15:0-rel 16:2-ARG2
 nw/wsj/23/wsj_2378.parse 0 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 nw/wsj/23/wsj_2378.parse 5 15 gold be be.03 ----- 15:0-rel
 nw/wsj/23/wsj_2378.parse 3 17 gold shoot shoot_down.05 ----- 3:1*18:1-ARG1 17:0,19:1-rel 20:1-ARG0
 nw/wsj/23/wsj_2378.parse 4 15 gold find find.01 ----- 0:3-ARG0 15:0-rel 16:1-ARG1
 nw/wsj/23/wsj_2378.parse 11 6 gold add add.01 ----- 0:1-ARGM-LOC 5:1-ARG0 6:0-rel 7:1-ARG1
-nw/wsj/23/wsj_2378.parse 8 1 gold study study.01 ----- 1:0-rel
 nw/wsj/23/wsj_2378.parse 2 4 gold fear fear.01 ----- 4:0-rel 5:1-ARG1

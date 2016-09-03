@@ -16,12 +16,13 @@ bn/p2.5_c2e/00/p2.5_c2e_0047.parse 11 3 gold ask ask.02 ----- 0:1-ARG0 2:1-ARGM-
 bn/p2.5_c2e/00/p2.5_c2e_0047.parse 2 3 gold declare declare.01 ----- 2:0-ARGM-MNR 3:0-rel
 bn/p2.5_c2e/00/p2.5_c2e_0047.parse 2 4 gold issue issue.01 ----- 1:1*5:1-ARG1 1:1*5:1-LINK-PSV 4:0-rel 6:1-ARGM-TMP
 bn/p2.5_c2e/00/p2.5_c2e_0047.parse 8 3 gold have have.01 ----- 3:0-rel
-bn/p2.5_c2e/00/p2.5_c2e_0047.parse 4 5 gold declare declare.01 ----- 4:0-ARGM-MNR 5:0-rel 6:0-ARGM-LVB 8:1-ARGM-TMP
-bn/p2.5_c2e/00/p2.5_c2e_0047.parse 2 37 gold iterate iterate.01 ----- 0:1-ARGM-LOC 15:2-ARG0 37:0-rel 38:1-ARG1
+bn/p2.5_c2e/00/p2.5_c2e_0047.parse 3 6 gold relate relate.01 ----- 0:2*7:1-ARG1 5:1-ARGM-ADV 6:0-rel 8:1-ARG2
 bn/p2.5_c2e/00/p2.5_c2e_0047.parse 2 55 gold violent violent.01 ----- 55:0-rel
 bn/p2.5_c2e/00/p2.5_c2e_0047.parse 0 34 gold expand expand.01 ----- 31:1-ARG1 34:0-rel
+bn/p2.5_c2e/00/p2.5_c2e_0047.parse 2 37 gold iterate iterate.01 ----- 0:1-ARGM-LOC 15:2-ARG0 37:0-rel 38:1-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0047.parse 1 2 gold say say.01 ----- 0:1-ARG0 1:1-ARGM-ADV 2:0-rel 3:1-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0047.parse 2 49 gold peace peace.01 ----- 49:0-rel
+bn/p2.5_c2e/00/p2.5_c2e_0047.parse 5 4 gold express express.01 ----- 0:1-ARG0 4:0-rel 5:2-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0047.parse 2 10 gold hold hold.04 ----- 7:1*11:1-ARG1 7:1*11:1-LINK-PSV 10:0-rel 12:1-ARGM-LOC
 bn/p2.5_c2e/00/p2.5_c2e_0047.parse 9 1 gold imply imply.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0047.parse 2 25 gold be be.03 ----- 25:0-rel
@@ -29,8 +30,8 @@ bn/p2.5_c2e/00/p2.5_c2e_0047.parse 4 6 gold make make.LV ----- 5:0-ARGM-PRR 6:0-
 bn/p2.5_c2e/00/p2.5_c2e_0047.parse 7 14 gold be be.03 ----- 14:0-rel
 bn/p2.5_c2e/00/p2.5_c2e_0047.parse 9 3 gold accord accord.01 ----- 2:1-ARG0 3:0-rel 4:1-ARG2 5:1-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0047.parse 6 4 gold consider consider.01 ----- 0:1-ARG0 2:0-ARGM-MOD 3:1-ARGM-MNR 4:0-rel 5:2-ARG1
+bn/p2.5_c2e/00/p2.5_c2e_0047.parse 4 5 gold declare declare.01 ----- 4:0-ARGM-MNR 5:0-rel 6:0-ARGM-LVB 8:1-ARGM-TMP
 bn/p2.5_c2e/00/p2.5_c2e_0047.parse 2 26 gold carry carry_out.03 ----- 23:1*27:1-ARG1 24:0-ARGM-MOD 26:0,28:1-rel 29:1-ARGM-MNR
-bn/p2.5_c2e/00/p2.5_c2e_0047.parse 5 4 gold express express.01 ----- 0:1-ARG0 4:0-rel 5:2-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0047.parse 0 28 gold protect protect.01 ----- 19:2*29:1-ARG1 26:0-ARGM-MOD 28:0-rel 30:1-ARGM-TMP
 bn/p2.5_c2e/00/p2.5_c2e_0047.parse 10 2 gold have have.03 ----- 0:1-ARG0 1:1-ARGM-TMP 2:0-rel 3:2-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0047.parse 9 9 gold own own.01 ----- 7:1-ARG0 9:0-rel 10:1-ARG1
@@ -44,4 +45,3 @@ bn/p2.5_c2e/00/p2.5_c2e_0047.parse 11 8 gold protect protect.01 ----- 4:1*5:1-AR
 bn/p2.5_c2e/00/p2.5_c2e_0047.parse 1 14 gold support support.01 ----- 4:1-ARGM-ADV 12:1-ARG0 14:0-rel 15:3-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0047.parse 6 9 gold influence influence.01 ----- 5:1*7:1*8:1-ARG0 5:1*7:1-LINK-SLC 9:0-rel 10:2-ARG1
 bn/p2.5_c2e/00/p2.5_c2e_0047.parse 0 27 gold be be.03 ----- 27:0-rel
-bn/p2.5_c2e/00/p2.5_c2e_0047.parse 3 6 gold relate relate.01 ----- 0:2*7:1-ARG1 5:1-ARGM-ADV 6:0-rel 8:1-ARG2

@@ -7,16 +7,16 @@ nw/wsj/02/wsj_0250.parse 0 16 gold open open.01 ----- 0:2*15:1-ARG0 16:0-rel 17:
 nw/wsj/02/wsj_0250.parse 6 19 gold have have.01 ----- 19:0-rel
 nw/wsj/02/wsj_0250.parse 18 4 gold vote vote.01 ----- 0:1-ARG0 2:0-ARGM-MOD 3:1-ARGM-ADV 4:0-rel 5:2-ARGM-TMP
 nw/wsj/02/wsj_0250.parse 10 2 gold have have.01 ----- 2:0-rel
+nw/wsj/02/wsj_0250.parse 7 9 gold have have.03 ----- 1:1-ARGM-TMP 8:1-ARG0 9:0-rel 10:2-ARG1
 nw/wsj/02/wsj_0250.parse 21 16 gold increase increase.01 ----- 16:0-rel
 nw/wsj/02/wsj_0250.parse 2 25 gold go go.01 ----- 18:1*23:1*24:1-ARG1 18:1*23:1-LINK-SLC 25:0-rel 26:1-ARG4
 nw/wsj/02/wsj_0250.parse 21 37 gold make make.02 ----- 21:2*31:1*36:1-ARG0 21:2*31:1-LINK-SLC 37:0-rel 38:2-ARG1
 nw/wsj/02/wsj_0250.parse 16 60 gold override override.01 ----- 58:1-ARG0 60:0-rel 61:1-ARG1
-nw/wsj/02/wsj_0250.parse 2 12 gold say say.01 ----- 0:1-ARG0 2:1-ARGM-TMP 12:0-rel 13:1-ARG1
+nw/wsj/02/wsj_0250.parse 5 3 gold pay pay.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:1-ARGM-DIS 3:0-rel 4:1-ARG1 10:1-ARGM-TMP 13:1-ARG2
 nw/wsj/02/wsj_0250.parse 8 24 gold increase increase.01 ----- 20:0-ARGM-TMP 21:1-ARG1 24:0-rel
 nw/wsj/02/wsj_0250.parse 12 32 gold be be.03 ----- 32:0-rel
 nw/wsj/02/wsj_0250.parse 15 2 gold be be.03 ----- 2:0-rel
 nw/wsj/02/wsj_0250.parse 12 24 gold need need.01 ----- 22:1-ARG0 24:0-rel 25:2-ARG1 30:2-ARGM-PRP
-nw/wsj/02/wsj_0250.parse 16 28 gold rank rank.01 ----- 28:0-rel 30:0-ARG1
 nw/wsj/02/wsj_0250.parse 20 21 gold have have.01 ----- 21:0-rel
 nw/wsj/02/wsj_0250.parse 16 63 gold veto veto.01 ----- 62:0-ARG0 63:0-rel
 nw/wsj/02/wsj_0250.parse 17 2 gold be be.03 ----- 2:0-rel
@@ -25,11 +25,11 @@ nw/wsj/02/wsj_0250.parse 11 27 gold be be.03 ----- 27:0-rel
 nw/wsj/02/wsj_0250.parse 11 11 gold reach reach.01 ----- 0:1-ARGM-LOC 4:1*12:1-ARG1 9:0-ARGM-MOD 11:0-rel 13:2-ARGM-TMP 17:1-ARGM-ADV 25:1-ARGM-ADV
 nw/wsj/02/wsj_0250.parse 19 7 gold compromise compromise.01 ----- 4:1-ARG0 5:0-ARGM-MOD 7:0-rel 8:1-ARGM-MNR
 nw/wsj/02/wsj_0250.parse 24 3 gold contribute contribute.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG2
+nw/wsj/02/wsj_0250.parse 2 12 gold say say.01 ----- 0:1-ARG0 2:1-ARGM-TMP 12:0-rel 13:1-ARG1
 nw/wsj/02/wsj_0250.parse 10 25 gold couple couple.01 ----- 7:2*26:1-ARG1 7:2*26:1-LINK-PSV 25:0-rel 27:1-ARG2
+nw/wsj/02/wsj_0250.parse 16 28 gold rank rank.01 ----- 28:0-rel 30:0-ARG1
 nw/wsj/02/wsj_0250.parse 2 17 gold accept accept.01 ----- 14:1-ARG0 15:0-ARGM-MOD 16:0-ARGM-NEG 17:0-rel 18:2-ARG1
 nw/wsj/02/wsj_0250.parse 16 54 gold head head.02 ----- 48:1*51:1-ARG0 54:0-rel 55:1-ARG1
-nw/wsj/02/wsj_0250.parse 17 3 gold schedule schedule.01 ----- 0:1*4:1-ARG1 3:0-rel 5:2-ARG2
-nw/wsj/02/wsj_0250.parse 9 2 gold veto veto.01 ----- 0:1-ARG1 2:0-rel 5:1-ARG0 7:1-ARGM-TMP
 nw/wsj/02/wsj_0250.parse 15 9 gold compromise compromise.01 ----- 4:1*7:1-ARG0 9:0-rel 10:1-ARG1
 nw/wsj/02/wsj_0250.parse 14 41 gold benefit benefit.01 ----- 31:1*37:1*38:1-ARG0 31:1*37:1-LINK-SLC 39:0-ARGM-MOD 40:1-ARGM-MNR 41:0-rel 42:1-ARG1
 nw/wsj/02/wsj_0250.parse 22 35 gold be be.01 ----- 0:1-ARGM-ADV 15:2-ARG1 33:0-ARGM-MOD 34:0-ARGM-NEG 35:0-rel 36:1-ARG2
@@ -37,13 +37,11 @@ nw/wsj/02/wsj_0250.parse 3 17 gold accept accept.01 ----- 8:1*18:1-ARG1 15:1-ARG
 nw/wsj/02/wsj_0250.parse 5 38 gold train train.01 ----- 38:0-rel 39:0-ARG0
 nw/wsj/02/wsj_0250.parse 0 6 gold agree agree.01 ----- 0:2-ARG0 6:0-rel 7:1-ARG1 15:2-ARGM-ADV
 nw/wsj/02/wsj_0250.parse 7 16 gold be be.01 ----- 10:1*13:1*14:1-ARG1 10:1*13:1-LINK-SLC 15:0-ARGM-MOD 16:0-rel 17:2-ARG2
+nw/wsj/02/wsj_0250.parse 12 33 gold train train.01 ----- 22:1*30:1*34:1-ARG2 33:0-rel 35:1-ARG1
 nw/wsj/02/wsj_0250.parse 14 29 gold move move.01 ----- 24:1*26:1*44:1-ARGM-TMP 24:1*26:1-LINK-SLC 27:1-ARG1 29:0-rel 30:1-ARG2
 nw/wsj/02/wsj_0250.parse 21 33 gold say say.01 ----- 32:1-ARG0 32:4-ARG1-DSP 33:0-rel
-nw/wsj/02/wsj_0250.parse 7 9 gold have have.03 ----- 1:1-ARGM-TMP 8:1-ARG0 9:0-rel 10:2-ARG1
-nw/wsj/02/wsj_0250.parse 9 21 gold lift lift.01 ----- 0:3-ARG0 19:0-ARGM-MOD 21:0-rel 22:1-ARG1 25:1-ARG4 31:1-ARGM-TMP 35:1-ARGM-MNR
 nw/wsj/02/wsj_0250.parse 22 19 gold get get.01 ----- 18:1-ARG0 19:0-rel 20:3-ARG1
 nw/wsj/02/wsj_0250.parse 23 29 gold exploit exploit.01 ----- 25:1*30:1-ARG1 28:0-ARGM-NEG 29:0-rel
-nw/wsj/02/wsj_0250.parse 5 3 gold pay pay.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:1-ARGM-DIS 3:0-rel 4:1-ARG1 10:1-ARGM-TMP 13:1-ARG2
 nw/wsj/02/wsj_0250.parse 14 12 gold oppose oppose.01 ----- 6:1*11:1-ARG0 12:0-rel 13:2-ARG1 23:1-ARGM-TMP
 nw/wsj/02/wsj_0250.parse 23 34 gold be be.03 ----- 34:0-rel
 nw/wsj/02/wsj_0250.parse 16 46 gold show show.01 ----- 44:1-ARG0 46:0-rel 47:1-ARG1
@@ -52,6 +50,7 @@ nw/wsj/02/wsj_0250.parse 22 30 gold be be.01 ----- 18:2*28:1*29:1-ARG1 18:2*28:1
 nw/wsj/02/wsj_0250.parse 2 4 gold veto veto.01 ----- 0:1-ARG0 2:1-ARGM-TMP 4:0-rel 5:2-ARG1
 nw/wsj/02/wsj_0250.parse 8 29 gold set set.02 ----- 27:1*30:1-ARG1 27:1*30:1-LINK-PSV 29:0-rel 31:1-ARG0
 nw/wsj/02/wsj_0250.parse 6 3 gold be be.01 ----- 0:2-ARG1 3:0-rel 4:1-ARG2
+nw/wsj/02/wsj_0250.parse 15 3 gold implore implore.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG2 7:2-ARG1
 nw/wsj/02/wsj_0250.parse 9 20 gold have have.01 ----- 20:0-rel
 nw/wsj/02/wsj_0250.parse 2 30 gold set set.02 ----- 27:1*28:1*31:1-ARG1 27:1*28:1-LINK-SLC 29:1-ARG0 30:0-rel 32:2-ARGM-TMP
 nw/wsj/02/wsj_0250.parse 19 2 gold think think.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
@@ -59,6 +58,8 @@ nw/wsj/02/wsj_0250.parse 12 14 gold pay pay.01 ----- 12:1-ARG0 14:0-rel 15:2-ARG
 nw/wsj/02/wsj_0250.parse 12 11 gold allow allow.01 ----- 3:1*10:1-ARG0 3:1*10:1-LINK-PRO 11:0-rel 12:2-ARG1
 nw/wsj/02/wsj_0250.parse 10 37 gold hire hire.01 ----- 35:1*38:1-ARG1 35:1*38:1-LINK-PSV 36:1-ARGM-ADV 37:0-rel 39:1-ARG0
 nw/wsj/02/wsj_0250.parse 5 18 gold be be.01 ----- 14:1*16:1*17:1-ARG1 14:1*16:1-LINK-SLC 18:0-rel 19:3-ARG2
+nw/wsj/02/wsj_0250.parse 17 3 gold schedule schedule.01 ----- 0:1*4:1-ARG1 3:0-rel 5:2-ARG2
+nw/wsj/02/wsj_0250.parse 9 2 gold veto veto.01 ----- 0:1-ARG1 2:0-rel 5:1-ARG0 7:1-ARGM-TMP
 nw/wsj/02/wsj_0250.parse 9 16 gold override override.01 ----- 0:2*10:1*17:1-ARG1 0:2*10:1-LINK-SLC 11:1*14:1-ARG0 16:0-rel
 nw/wsj/02/wsj_0250.parse 6 20 gold fight fight.01 ----- 12:1*16:1,21:1-ARG2 12:1*16:1-LINK-SLC 17:1-ARG0 20:0-rel 23:1-ARGM-TMP
 nw/wsj/02/wsj_0250.parse 2 27 gold limit limit.01 ----- 27:0-rel 28:2-ARGM-ADJ
@@ -73,23 +74,22 @@ nw/wsj/02/wsj_0250.parse 20 28 gold hold hold.01 ----- 26:1-ARG0 28:0-rel 29:1-A
 nw/wsj/02/wsj_0250.parse 8 26 gold meet meet.01 ----- 5:1-ARGM-ADV 19:1-ARG0 25:0-ARGM-MOD 26:0-rel 27:2-ARG1
 nw/wsj/02/wsj_0250.parse 16 37 gold be be.03 ----- 37:0-rel
 nw/wsj/02/wsj_0250.parse 20 22 gold do do.02 ----- 19:1-ARG0 20:0-ARGM-MOD 22:0-rel 23:1-ARGM-MNR 25:1-ARGM-ADV
+nw/wsj/02/wsj_0250.parse 9 21 gold lift lift.01 ----- 0:3-ARG0 19:0-ARGM-MOD 21:0-rel 22:1-ARG1 25:1-ARG4 31:1-ARGM-TMP 35:1-ARGM-MNR
 nw/wsj/02/wsj_0250.parse 13 3 gold negotiate negotiate.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1 9:1-ARG2 12:1-ARGM-TMP
-nw/wsj/02/wsj_0250.parse 12 33 gold train train.01 ----- 22:1*30:1*34:1-ARG2 33:0-rel 35:1-ARG1
 nw/wsj/02/wsj_0250.parse 23 15 gold say say.01 ----- 0:2-ARG0 15:0-rel 16:1-ARG1
 nw/wsj/02/wsj_0250.parse 16 69 gold say say.01 ----- 65:1-ARG0 69:0-rel 70:1-ARG1
 nw/wsj/02/wsj_0250.parse 13 2 gold be be.03 ----- 2:0-rel
 nw/wsj/02/wsj_0250.parse 14 9 gold worry worry.02 ----- 0:1-ARGM-ADV 6:1-ARG0 9:0-rel 10:1-ARG1
 nw/wsj/02/wsj_0250.parse 19 6 gold have have.01 ----- 6:0-rel
 nw/wsj/02/wsj_0250.parse 1 2 gold end end.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
-nw/wsj/02/wsj_0250.parse 3 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:2-ARG2
 nw/wsj/02/wsj_0250.parse 23 36 gold displace displace.01 ----- 32:1*37:1-ARG1 35:0-ARGM-NEG 36:0-rel
 nw/wsj/02/wsj_0250.parse 7 26 gold say say.01 ----- 1:2*28:1-ARG1 26:0-rel 29:2-ARG0
 nw/wsj/02/wsj_0250.parse 21 2 gold suggest suggest.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
+nw/wsj/02/wsj_0250.parse 3 2 gold be be.01 ----- 0:1-ARG1 2:0-rel 3:2-ARG2
 nw/wsj/02/wsj_0250.parse 10 4 gold hold hold_out.09 ----- 0:1-ARG1 4:0,5:1-rel 6:1-ARG2
 nw/wsj/02/wsj_0250.parse 3 12 gold have have.01 ----- 12:0-rel
 nw/wsj/02/wsj_0250.parse 14 28 gold be be.03 ----- 28:0-rel
 nw/wsj/02/wsj_0250.parse 21 20 gold cite cite.01 ----- 19:1-ARG0 20:0-rel 21:3-ARG1
-nw/wsj/02/wsj_0250.parse 15 3 gold implore implore.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG2 7:2-ARG1
 nw/wsj/02/wsj_0250.parse 10 9 gold boost boost.01 ----- 7:1-ARG0 9:0-rel 10:1-ARG1 13:1-ARG4 19:1-ARGM-TMP
 nw/wsj/02/wsj_0250.parse 21 6 gold yield yield.02 ----- 4:1-ARG0 6:0-rel 7:1,11:1-ARG1
 nw/wsj/02/wsj_0250.parse 17 24 gold water water_down.02 ----- 23:1*25:1-ARG1 23:1*25:1-LINK-PSV 24:0,26:1-rel 27:1-ARGM-ADV

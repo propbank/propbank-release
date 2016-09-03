@@ -1,7 +1,7 @@
-bn/cnn/01/cnn_0117.parse 2 3 gold infect infect.01 ----- 0:2*4:1-ARG1 3:0-rel 5:1-ARGM-TMP
 bn/cnn/01/cnn_0117.parse 1 2 gold say say.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
 bn/cnn/01/cnn_0117.parse 3 19 gold dead deadly.04 ----- 19:0-rel 20:0-ARG0
 bn/cnn/01/cnn_0117.parse 4 25 gold face face.01 ----- 8:1*15:1-ARG0 25:0-rel 26:2-ARG1 30:1-ARGM-MNR
+bn/cnn/01/cnn_0117.parse 4 6 gold say say.01 ----- 0:2-ARG0 6:0-rel 7:1-ARG1
 bn/cnn/01/cnn_0117.parse 4 16 gold be be.01 ----- 8:1*15:1-ARG1 16:0-rel 17:1-ARG2
 bn/cnn/01/cnn_0117.parse 3 16 gold spread spread.02 ----- 16:0-rel 17:1-ARG1
 bn/cnn/01/cnn_0117.parse 0 25 gold epidemic epidemic.01 ----- 24:0-ARGM-LOC 25:0-rel
@@ -13,8 +13,8 @@ bn/cnn/01/cnn_0117.parse 3 7 gold take take.01 ----- 5:1-ARG0 6:0-ARGM-MOD 7:0-r
 bn/cnn/01/cnn_0117.parse 0 3 gold observe observe.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1 7:1-ARGM-TMP 8:1-ARGM-PRP
 bn/cnn/01/cnn_0117.parse 3 14 gold stop stop.01 ----- 5:1*12:1-ARG0 5:1*12:1-LINK-PRO 14:0-rel 15:2-ARG1
 bn/cnn/01/cnn_0117.parse 2 2 gold be be.03 ----- 2:0-rel
-bn/cnn/01/cnn_0117.parse 4 6 gold say say.01 ----- 0:2-ARG0 6:0-rel 7:1-ARG1
 bn/cnn/01/cnn_0117.parse 3 3 gold say say.01 ----- 0:1-ARG0 3:0-rel 4:1-ARG1
 bn/cnn/01/cnn_0117.parse 0 20 gold call call.01 ----- 18:1*21:1-ARG1 19:1-ARG0 20:0-rel 22:2-ARG2
 bn/cnn/01/cnn_0117.parse 1 7 gold be be.03 ----- 7:0-rel
+bn/cnn/01/cnn_0117.parse 2 3 gold infect infect.01 ----- 0:2*4:1-ARG1 3:0-rel 5:1-ARGM-TMP
 bn/cnn/01/cnn_0117.parse 0 13 gold battle battle.01 ----- 0:1*11:1-ARG0 0:1*11:1-LINK-PRO 13:0-rel 14:2-ARG1

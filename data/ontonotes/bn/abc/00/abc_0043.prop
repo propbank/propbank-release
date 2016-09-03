@@ -1,53 +1,53 @@
 bn/abc/00/abc_0043.parse 10 3 gold win win.01 ----- 0:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:1-ARGM-MNR 5:1-ARGM-ADV
 bn/abc/00/abc_0043.parse 11 6 gold choose choose.01 ----- 3:1*11:1-ARGM-PRP 4:1-ARG0 6:0-rel 7:2-ARG1
 bn/abc/00/abc_0043.parse 14 4 gold be be.01 ----- 0:1-ARG1 2:0-ARGM-MOD 3:0-ARGM-NEG 4:0-rel 5:1-ARG2
+bn/abc/00/abc_0043.parse 6 13 gold resign resign.01 ----- 3:1*11:1-ARG0 3:1*11:1-LINK-PRO 13:0-rel
 bn/abc/00/abc_0043.parse 15 7 gold rule rule.01 ----- 4:1-ARG0 6:0-ARG1 7:0-rel
 bn/abc/00/abc_0043.parse 16 8 gold lose lose.03 ----- 6:1*12:1-ARGM-TMP 7:1-ARG0 8:0-rel 9:1-ARG1
 bn/abc/00/abc_0043.parse 6 10 gold decide decide.01 ----- 9:0-ARG0 10:0-rel 11:2-ARG1
 bn/abc/00/abc_0043.parse 9 13 gold weaken weaken.01 ----- 0:3-ARG0 13:0-rel 14:1-ARG1
 bn/abc/00/abc_0043.parse 9 18 gold speculate speculate.01 ----- 18:0-rel 19:1-ARG1
 bn/abc/00/abc_0043.parse 9 8 gold violent violent.01 ----- 8:0-rel 9:2-ARGM-ADJ
-bn/abc/00/abc_0043.parse 15 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
+bn/abc/00/abc_0043.parse 9 20 gold former former.01 ----- 20:0-rel 21:0,22:0-ARG1
 bn/abc/00/abc_0043.parse 9 25 gold return return.01 ----- 20:2-ARG1 24:0-ARGM-MOD 25:0-rel 26:1-ARG4
 bn/abc/00/abc_0043.parse 9 16 gold strengthen strengthen.01 ----- 0:3-ARG0 16:0-rel 17:1-ARG1
-bn/abc/00/abc_0043.parse 6 13 gold resign resign.01 ----- 3:1*11:1-ARG0 3:1*11:1-LINK-PRO 13:0-rel
 bn/abc/00/abc_0043.parse 9 11 gold have have.01 ----- 11:0-rel
 bn/abc/00/abc_0043.parse 0 4 gold say say.01 ----- 0:2-ARG0 4:0-rel 5:1-ARG1
 bn/abc/00/abc_0043.parse 9 2 gold talk talk.01 ----- 0:0-ARGM-PRD 1:0-ARG1 2:0-rel 3:1-ARG2
 bn/abc/00/abc_0043.parse 3 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bn/abc/00/abc_0043.parse 2 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
+bn/abc/00/abc_0043.parse 15 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
 bn/abc/00/abc_0043.parse 16 2 gold give give_up.08 ----- 0:1-ARG0 2:0,3:1-rel 4:1-ARG1 6:2-ARGM-TMP
-bn/abc/00/abc_0043.parse 11 2 gold be be.01 ----- 0:1-ARG1 1:0-ARGM-MOD 2:0-rel 3:2-ARG2
+bn/abc/00/abc_0043.parse 13 2 gold announce announce.01 ----- 1:1*6:1-ARG0 2:0-rel 3:1-ARG1
 bn/abc/00/abc_0043.parse 13 8 gold ensure ensure.01 ----- 0:1-ARGM-MNR 6:1-ARG0 8:0-rel 9:1-ARG1
+bn/abc/00/abc_0043.parse 11 2 gold be be.01 ----- 0:1-ARG1 1:0-ARGM-MOD 2:0-rel 3:2-ARG2
 bn/abc/00/abc_0043.parse 1 6 gold seem seem.01 ----- 5:1-ARG1 6:0-rel
 bn/abc/00/abc_0043.parse 13 7 gold have have.01 ----- 7:0-rel
 bn/abc/00/abc_0043.parse 13 4 gold resign resign.01 ----- 3:0-ARG0 4:0-rel
-bn/abc/00/abc_0043.parse 12 1 gold be be.03 ----- 1:0-rel
 bn/abc/00/abc_0043.parse 9 0 gold fail fail.01 ----- 0:0-rel 1:0,2:0-ARG1
 bn/abc/00/abc_0043.parse 15 16 gold run run.02 ----- 3:1-ARGM-LOC 9:2-ARG0 15:0-ARGM-MOD 16:0-rel 17:1-ARGM-LOC
 bn/abc/00/abc_0043.parse 15 11 gold sit sit.01 ----- 11:0-rel 12:0-ARG1
-bn/abc/00/abc_0043.parse 5 4 gold speak speak.01 ----- 3:0-ARGM-MNR 4:0-rel
-bn/abc/00/abc_0043.parse 13 12 gold be be.01 ----- 10:1-ARG1 11:0-ARGM-MOD 12:0-rel 13:2-ARG2
 bn/abc/00/abc_0043.parse 5 1 gold be be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
 bn/abc/00/abc_0043.parse 6 16 gold say say.01 ----- 1:2*17:1-ARG1 16:0-rel 18:1-ARG0
-bn/abc/00/abc_0043.parse 9 20 gold former former.01 ----- 20:0-rel 21:0,22:0-ARG1
-bn/abc/00/abc_0043.parse 13 2 gold announce announce.01 ----- 1:1*6:1-ARG0 2:0-rel 3:1-ARG1
+bn/abc/00/abc_0043.parse 10 7 gold poll poll.01 ----- 7:0-rel
 bn/abc/00/abc_0043.parse 17 0 gold thank thank.01 ----- 0:0-rel 2:2-ARG1
 bn/abc/00/abc_0043.parse 9 12 gold follow follow.01 ----- 7:1*9:1*10:1-ARG2 7:1*9:1-LINK-SLC 12:0-rel
+bn/abc/00/abc_0043.parse 12 1 gold be be.03 ----- 1:0-rel
 bn/abc/00/abc_0043.parse 11 5 gold have have.01 ----- 5:0-rel
+bn/abc/00/abc_0043.parse 5 4 gold speak speak.01 ----- 3:0-ARGM-MNR 4:0-rel
 bn/abc/00/abc_0043.parse 9 32 gold unseat unseat.01 ----- 20:2*30:1-ARG0 20:2*30:1-LINK-PRO 32:0-rel 33:1-ARG1
 bn/abc/00/abc_0043.parse 9 29 gold try try.01 ----- 20:2-ARG0 24:0-ARGM-MOD 29:0-rel 30:2-ARG1
 bn/abc/00/abc_0043.parse 5 11 gold expect expect.01 ----- 6:1*7:1*12:1-ARG1 6:1*7:1-LINK-SLC 8:1-ARG0 10:0-ARGM-NEG 11:0-rel
+bn/abc/00/abc_0043.parse 8 2 gold have have.01 ----- 2:0-rel
 bn/abc/00/abc_0043.parse 1 2 gold be be.01 ----- 0:1-ARGM-TMP 1:1-ARG1 2:0-rel 3:0-ARGM-NEG 4:1-ARG2
 bn/abc/00/abc_0043.parse 0 8 gold resign resign.01 ----- 6:1-ARG0 7:0-ARGM-MOD 8:0-rel 9:1-ARGM-TMP
 bn/abc/00/abc_0043.parse 8 12 gold come come.04 ----- 11:1-ARG1 12:0-rel 13:1-ARG2
+bn/abc/00/abc_0043.parse 13 12 gold be be.01 ----- 10:1-ARG1 11:0-ARGM-MOD 12:0-rel 13:2-ARG2
 bn/abc/00/abc_0043.parse 6 5 gold inform inform.01 ----- 1:1-ARGM-TMP 3:1-ARG0 4:0-ARGM-MOD 5:0-rel 6:1-ARG1 8:1-ARG2
 bn/abc/00/abc_0043.parse 11 9 gold resign resign.01 ----- 3:1*11:1-ARGM-PRP 4:1*7:1-ARG0 9:0-rel 10:1-ARGM-TMP
 bn/abc/00/abc_0043.parse 4 4 gold be be.01 ----- 0:2-ARG1 4:0-rel 5:1-ARG2 7:1-ARGM-TMP
-bn/abc/00/abc_0043.parse 7 3 gold ask ask.02 ----- 1:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:1-ARGM-ADV 5:1-ARG1
 bn/abc/00/abc_0043.parse 8 3 gold plummet plummet.01 ----- 0:1-ARG1 3:0-rel 4:1-ARGM-TMP
-bn/abc/00/abc_0043.parse 10 7 gold poll poll.01 ----- 7:0-rel
 bn/abc/00/abc_0043.parse 3 5 gold move move.02 ----- 3:0-ARGM-MNR 4:0-ARGM-ADJ 5:0-rel
 bn/abc/00/abc_0043.parse 12 2 gold head head.02 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
-bn/abc/00/abc_0043.parse 8 2 gold have have.01 ----- 2:0-rel
 bn/abc/00/abc_0043.parse 5 9 gold have have.01 ----- 9:0-rel
+bn/abc/00/abc_0043.parse 7 3 gold ask ask.02 ----- 1:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:1-ARGM-ADV 5:1-ARG1

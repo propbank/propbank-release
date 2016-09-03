@@ -1,14 +1,16 @@
 nw/xinhua/00/chtb_0073.parse 9 13 gold own own.01 ----- 11:0-ARG0 13:0-rel 14:0,15:0-ARG1
-nw/xinhua/00/chtb_0073.parse 10 26 gold increase increase.01 ----- 16:1*25:1-ARG1 16:1*25:1-LINK-PRO 26:0-rel 27:1-ARG2 30:1-ARGM-ADV
 nw/xinhua/00/chtb_0073.parse 8 8 gold make make.LV ----- 5:0-ARGM-PRR 8:0-rel
-nw/xinhua/00/chtb_0073.parse 4 48 gold own own.01 ----- 46:0-ARG0 48:0-rel 49:0-ARG1
+nw/xinhua/00/chtb_0073.parse 7 9 gold invest invest.01 ----- 9:0-rel 10:1-ARG1
 nw/xinhua/00/chtb_0073.parse 7 2 gold be be.01 ----- 2:0-rel 3:1-ARG2 4:2-ARG1
 nw/xinhua/00/chtb_0073.parse 9 18 gold list list.01 ----- 18:0-rel 19:0-ARG1
 nw/xinhua/00/chtb_0073.parse 8 1 gold believe believe.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
 nw/xinhua/00/chtb_0073.parse 4 60 gold produce produce.01 ----- 60:0-rel
 nw/xinhua/00/chtb_0073.parse 6 7 gold construct construct.01 ----- 7:0-rel 8:1-ARG1
+nw/xinhua/00/chtb_0073.parse 4 42 gold take take.04 ----- 22:1-ARGM-ADV 41:1-ARG0 42:0-rel 43:2-ARG1 51:1-ARG2
 nw/xinhua/00/chtb_0073.parse 5 4 gold present present.01 ----- 3:0-ARG0 4:0-rel
 nw/xinhua/00/chtb_0073.parse 6 4 gold progress progress.01 ----- 4:0-rel 5:1-ARG2
+nw/xinhua/00/chtb_0073.parse 10 26 gold increase increase.01 ----- 16:1*25:1-ARG1 16:1*25:1-LINK-PRO 26:0-rel 27:1-ARG2 30:1-ARGM-ADV
+nw/xinhua/00/chtb_0073.parse 4 48 gold own own.01 ----- 46:0-ARG0 48:0-rel 49:0-ARG1
 nw/xinhua/00/chtb_0073.parse 5 36 gold require require.01 ----- 36:0-rel 37:1-ARG0
 nw/xinhua/00/chtb_0073.parse 2 45 gold achieve achieve.01 ----- 35:1-ARGM-ADV 39:1-ARG0 44:0-ARGM-MOD 45:0-rel 46:2-ARG1
 nw/xinhua/00/chtb_0073.parse 4 55 gold complete complete.01 ----- 22:1-ARGM-ADV 41:1-ARG0 55:0-rel 56:2-ARG1 64:1-ARGM-MNR
@@ -16,13 +18,11 @@ nw/xinhua/00/chtb_0073.parse 10 2 gold emphasize emphasize.01 ----- 0:1-ARG0 1:1
 nw/xinhua/00/chtb_0073.parse 4 63 gold task task.01 ----- 56:1-ARGM-TMP 60:1-ARG1 63:0-rel
 nw/xinhua/00/chtb_0073.parse 9 16 gold have have.01 ----- 16:0-rel
 nw/xinhua/00/chtb_0073.parse 8 6 gold have have.01 ----- 6:0-rel
-nw/xinhua/00/chtb_0073.parse 7 9 gold invest invest.01 ----- 9:0-rel 10:1-ARG1
-nw/xinhua/00/chtb_0073.parse 4 15 gold report report.01 ----- 13:0-ARG0 14:0-ARGM-ADJ 15:0-rel 16:0-ARGM-LVB 18:1-ARGM-LOC
 nw/xinhua/00/chtb_0073.parse 7 23 gold complete complete.01 ----- 4:1-ARG0 23:0-rel 24:2-ARG1
+nw/xinhua/00/chtb_0073.parse 8 13 gold own own.01 ----- 11:0-ARG0 13:0-rel 14:0,15:0-ARG1
 nw/xinhua/00/chtb_0073.parse 1 23 gold complete complete.01 ----- 0:2-ARGM-PRD 19:2-ARG0 23:0-rel 24:2-ARG1 35:2-ARGM-ADV
 nw/xinhua/00/chtb_0073.parse 4 38 gold slip slip.01 ----- 38:0-rel 39:0-ARG1
 nw/xinhua/00/chtb_0073.parse 10 19 gold reach reach.01 ----- 16:1-ARG0 18:1-ARGM-ADV 19:0-rel 20:2-ARG1 25:2-ARGM-PRD
-nw/xinhua/00/chtb_0073.parse 5 28 gold increase increase.01 ----- 20:1*27:1-ARG1 28:0-rel 29:1-ARG2
 nw/xinhua/00/chtb_0073.parse 7 38 gold produce produce.01 ----- 38:0-rel
 nw/xinhua/00/chtb_0073.parse 8 5 gold progress progress.01 ----- 3:1-ARGM-EXT 5:0-rel 8:0-ARGM-LVB 10:1-ARG4
 nw/xinhua/00/chtb_0073.parse 11 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
@@ -32,14 +32,14 @@ nw/xinhua/00/chtb_0073.parse 4 10 gold point point_out.02 ----- 0:2-ARG0 10:0,11
 nw/xinhua/00/chtb_0073.parse 9 17 gold become become.01 ----- 0:1-ARGM-LOC 10:1-ARG1 17:0-rel 18:2-ARG2
 nw/xinhua/00/chtb_0073.parse 11 13 gold reach reach.01 ----- 3:2-ARG0 12:0-ARGM-MOD 13:0-rel 14:2-ARG1 18:2-ARGM-ADV
 nw/xinhua/00/chtb_0073.parse 7 16 gold fix fix.03 ----- 16:0-rel 17:0-ARG1
+nw/xinhua/00/chtb_0073.parse 10 9 gold import import.01 ----- 9:0-rel
 nw/xinhua/00/chtb_0073.parse 2 5 gold confer confer.01 ----- 5:0-rel 6:1-ARG0 15:2-ARGM-LOC
 nw/xinhua/00/chtb_0073.parse 4 35 gold decrease decrease.01 ----- 34:0-ARG1 35:0-rel
-nw/xinhua/00/chtb_0073.parse 7 7 gold complete complete.01 ----- 4:1-ARG0 6:1-ARGM-TMP 7:0-rel 8:2-ARG1 14:1-ARGM-GOL
 nw/xinhua/00/chtb_0073.parse 10 52 gold increase increase.01 ----- 38:1*51:1-ARG1 52:0-rel 53:1-ARG2 56:1-ARGM-ADV
-nw/xinhua/00/chtb_0073.parse 4 42 gold take take.04 ----- 22:1-ARGM-ADV 41:1-ARG0 42:0-rel 43:2-ARG1 51:1-ARG2
 nw/xinhua/00/chtb_0073.parse 3 29 gold increase increase.01 ----- 11:2*23:2*28:1-ARG1 11:2*23:2-LINK-SLC 29:0-rel 30:1-ARG2 31:1-ARGM-ADV
 nw/xinhua/00/chtb_0073.parse 3 10 gold be be.02 ----- 0:1-ARGM-LOC 10:0-rel 11:3-ARG1
 nw/xinhua/00/chtb_0073.parse 8 7 gold be be.03 ----- 7:0-rel
+nw/xinhua/00/chtb_0073.parse 4 15 gold report report.01 ----- 13:0-ARG0 14:0-ARGM-ADJ 15:0-rel 16:0-ARGM-LVB 18:1-ARGM-LOC
 nw/xinhua/00/chtb_0073.parse 7 35 gold put put.03 ----- 24:1*32:1*36:1-ARG1 24:1*32:1-LINK-SLC 33:1-ARG0 35:0-rel 37:1-ARG2
 nw/xinhua/00/chtb_0073.parse 5 10 gold produce produce.01 ----- 6:1-ARG0 9:1-ARGM-TMP 10:0-rel 11:4-ARG1
 nw/xinhua/00/chtb_0073.parse 2 2 gold learn learn.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG2 21:2-ARG1
@@ -50,8 +50,8 @@ nw/xinhua/00/chtb_0073.parse 10 45 gold reach reach.01 ----- 38:1-ARG0 44:0-ARGM
 nw/xinhua/00/chtb_0073.parse 1 1 gold have have.01 ----- 1:0-rel
 nw/xinhua/00/chtb_0073.parse 4 20 gold confer confer.01 ----- 20:0-rel
 nw/xinhua/00/chtb_0073.parse 6 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
-nw/xinhua/00/chtb_0073.parse 10 9 gold import import.01 ----- 9:0-rel
 nw/xinhua/00/chtb_0073.parse 1 2 gold go go.12 ----- 0:1*19:2-ARG1 2:0-rel 3:1-ARG2 13:1-ARGM-TMP
+nw/xinhua/00/chtb_0073.parse 5 28 gold increase increase.01 ----- 20:1*27:1-ARG1 28:0-rel 29:1-ARG2
 nw/xinhua/00/chtb_0073.parse 4 62 gold construct construct.01 ----- 62:0-rel
 nw/xinhua/00/chtb_0073.parse 5 1 gold say say.01 ----- 0:1-ARG0 1:0-rel 2:1-ARGM-LOC 5:1-ARG1
 nw/xinhua/00/chtb_0073.parse 12 6 gold reach reach.01 ----- 0:1*4:1-ARG0 6:0-rel 7:2-ARG1 11:1-ARGM-EXT
@@ -60,12 +60,12 @@ nw/xinhua/00/chtb_0073.parse 1 48 gold maintain maintain.01 ----- 46:1-ARG0 48:0
 nw/xinhua/00/chtb_0073.parse 12 3 gold strive strive.01 ----- 0:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:2-ARG1
 nw/xinhua/00/chtb_0073.parse 1 7 gold incur incur.01 ----- 4:1*8:1-ARG1 4:1*8:1-LINK-PSV 7:0-rel 9:1-ARG0
 nw/xinhua/00/chtb_0073.parse 4 16 gold make make.LV ----- 15:0-ARGM-PRR 16:0-rel
+nw/xinhua/00/chtb_0073.parse 7 7 gold complete complete.01 ----- 4:1-ARG0 6:1-ARGM-TMP 7:0-rel 8:2-ARG1 14:1-ARGM-GOL
 nw/xinhua/00/chtb_0073.parse 5 34 gold meet meet.01 ----- 20:1*27:1-ARG0 34:0-rel 35:2-ARG1 40:1-ARGM-MNR
 nw/xinhua/00/chtb_0073.parse 9 27 gold activate activate.01 ----- 27:0-rel 28:0,29:0-ARG1
 nw/xinhua/00/chtb_0073.parse 11 20 gold maintain maintain.01 ----- 3:2*18:1-ARG0 19:1-ARGM-ADV 20:0-rel 21:1-ARG1
 nw/xinhua/00/chtb_0073.parse 9 20 gold raise raise.02 ----- 18:1-ARG0 20:0-rel 21:3-ARG1
 nw/xinhua/00/chtb_0073.parse 5 22 gold be be.01 ----- 11:3*18:1*42:1-ARGM-LOC 11:3*18:1-LINK-SLC 20:1-ARG1 22:0-rel 23:2-ARG2 27:2-ARGM-ADV
 nw/xinhua/00/chtb_0073.parse 2 26 gold turn turn.02 ----- 22:2-ARG0 26:0-rel 27:1-ARG1 28:1-ARG2 30:1-ARGM-TMP
-nw/xinhua/00/chtb_0073.parse 8 13 gold own own.01 ----- 11:0-ARG0 13:0-rel 14:0,15:0-ARG1
 nw/xinhua/00/chtb_0073.parse 12 17 gold market market.01 ----- 17:0-rel
 nw/xinhua/00/chtb_0073.parse 2 17 gold convene convene.01 ----- 4:2*15:1*16:1-ARG1 4:2*15:1-LINK-SLC 17:0-rel 18:1-ARGM-LOC 20:1-ARGM-TMP
