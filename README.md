@@ -1,9 +1,7 @@
 # The Propbank Annotations
-This is the repository for the new *unified* Propbank annotations.  Unified frames generalize over different parts of speech, covering verbal, nominal, adjectival and light verb annotations.  We have 
-retrofit a few of the core datasets annotated with this Propbank data -- the GALE Ontonotes propbank data, the BOLT data, and two corpora funded with gifts from Google -- and are releasing it all with 
-consitent set of Propbank frames and a consistent conversion to a CoNLL-style format. 
+This is the repository for the new *unified* Propbank annotations.  Unified frames generalize over different parts of speech, covering verbal, nominal, adjectival and light verb annotations.  
 
-This annotation is a *tentative release*, and some small issues will be subject to change. 
+This release updates the annotations for Ontonotes data, the English Web Treebank, Question Bank, and all corpora released under the BOLT project.  This should be considered a *preliminary*, *beta* release of this data; please contact us before reporting results on the data. 
 
 
 ### What is the data?
@@ -21,22 +19,6 @@ The data is comes from a variety of sources:
 
 For all questions regarding acquiring the data, consult the [LDC](https://www.ldc.upenn.edu/)
 
-### What's different with this "unified" data?
-
-Older versions of Propbank split up predicates into verbal, nominal and (in more recent corpora) adjectival forms.  "Unified" propbank brings those together; "create" and "creation" now link to the same sense, for example.  For more
-details, see the [Description of Unification Changes](https://github.com/propbank/propbank-documentation/blob/master/other-documentation/Description-of-PB3-changes.md).  The frame files used for this can be acquired [here](https://github.com/propbank/propbank-frames/), with searchable and more readable versions located [here](http://verbs.colorado.edu/propbank/framesets-english-aliases/):
-
-
-### Are there train/dev/test splits?
-
-
-*Please use pre-existing splits to make sure your results are valid*.  We'll try to keep as much information as possible in docs/evaluation to make this as easy as possible.
-
- 
-### How does this relate to the AMR inventory?
-
-With the exception of AMR's special "-91" frames (like "have-org-role-91"), AMR annotation uses the same set of Propbank frames used here.  The AMR frames exclude certain Propbank rolesets when it can decompose them (for example,
-Propbank "unhappy.01" is treated as Propbank "happy.01" combined with a ```:polarity -``` argument), but such cases are relatively rare. 
 
 ### Setup
 
@@ -44,3 +26,31 @@ Go to /docs/scripts and use the little script ```map_all_to_conll.py```.  This s
 and ```--questionbank```) and an argument ```--bolt``` pointing at a folder containing the 15 BOLT treebanks.  It should prepare .gold_conll files in place for every Treebank that you can provide; 10120 files and 3,699,171 words total, if you have all releases. 
 
 
+### What's different with this "unified" data?
+
+Older versions of Propbank split up predicates into verbal, nominal and (in more recent corpora) adjectival forms.  "Unified" propbank brings those together; "create" and "creation" now link to the same sense, for example.  For more
+details, see the [Description of Unification Changes](https://github.com/propbank/propbank-documentation/blob/master/other-documentation/Description-of-PB3-changes.md).  The frame files used for this can be acquired [here](https://github.com/propbank/propbank-frames/), with searchable and more readable versions located [here](http://verbs.colorado.edu/propbank/framesets-english-aliases/):
+
+ 
+### How does this relate to the AMR inventory?
+
+With the exception of AMR's special "-91" frames (like "have-org-role-91"), AMR annotation uses the same set of Propbank frames used here.  The AMR annotation has not yet adopted all Propbank frames, often because of the different treatment of compositionality in AMR (for example,
+Propbank "unhappy.01" is treated  ```happy.01 :polarity -``` within AMR), but any roleset that exists in AMR should exist in our annotations and make the sme sense and numbered argument distinctions. 
+
+### How does this relate to prior Ontonotes releases?
+
+We don't include any other data related to the Ontonotes project, and users are invited to make those links themselves.  A specific caveat regarding the current form of the  data is important in this regard: our current release *does not* remove parts of the surface trees that were labeled in Treebank with "EDITED" nodes.  Prior Ontonotes CoNLL conversions did remove those tokens from their releases, and therefore you may need to handle that difference when handling the data. 
+
+### What frame files do these annotations correspond to? 
+
+These correspond to release "3.1" from https://github.com/propbank/propbank-frames/releases .  
+
+### Were all predicates annotated? 
+
+Generally, Propbank annotation dealt with every verb in every sentence, every noun that was in the inventory at the time of annotation, and -- in recent corpora such as English Web Treebank, Questionbank and the BOLT corpora -- every adjective that was the predicate of a copular verb.  Some portions of the data -- specifically, the wb/sel folders within ontonotes -- also did not gain full coverage of all verbs.  If one wants to train a system for predicate detection, we invite them to use more recent Google and BOLT datasets to do so.  
+
+We have also included in this release the semi-gold annotations of auxiliary verbs such as have.01, be.03, and get.03 (passive 'got').  These were automatically labeled if and only if the gold syntax annotations treated them unambigiously as auxiliaries, and all edge cases were manually annotated. 
+
+### Are there train/dev/test splits?
+
+*Please use pre-existing splits to make sure your results are valid*.  We'll try to keep as much information as possible in docs/evaluation to make this as easy as possible.  Most of these corpora have well-established train/dev/splits that should be followed. 
