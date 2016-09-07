@@ -6,7 +6,7 @@ This release updates the annotations for Ontonotes data, the English Web Treeban
 
 ### What is the data?
 
-This repository contains two stand-off formats for Propbank data, standard Propbank pointers and stand-off "skel" files, with each token replaced with ```[WORD]```.  To use the data, you will have to acquire the corresponding Treebank releases from the LDC
+This repository contains two stand-off formats for Propbank data, standard Propbank pointers and stand-off "gold_skel" files, with each token replaced with ```[WORD]```.  To use the data, you will have to acquire the corresponding Treebank releases from the LDC
 and run a conversion script (included) to replace those ```[WORD]``` instances with the real text. 
 
 The data is comes from a variety of sources:
@@ -53,21 +53,27 @@ details, see the [Description of Unification Changes](https://github.com/propban
 ### How does this relate to the AMR inventory?
 
 With the exception of AMR's special "-91" frames (like "have-org-role-91"), AMR annotation uses the same set of Propbank frames used here.  The AMR annotation has not yet adopted all Propbank frames, often because of the different treatment of compositionality in AMR (for example,
-Propbank "unhappy.01" is treated  ```happy.01 :polarity -``` within AMR), but any roleset that exists in AMR should exist in our annotations and make the sme sense and numbered argument distinctions. 
+Propbank "unhappy.01" is treated  as ```happy.01 :polarity -``` within AMR), but any roleset that exists in AMR will exist in our annotations and will use the same sense and numbered argument distinctions in both projects. 
 
 ### How does this relate to prior Ontonotes releases?
 
-We don't include any other data related to the Ontonotes project, and users are invited to make those links themselves.  A specific caveat regarding the current form of the  data is important in this regard: our current release *does not* remove parts of the surface trees that were labeled in Treebank with "EDITED" nodes.  Prior Ontonotes CoNLL conversions did remove those tokens from their releases, and therefore you may need to handle that difference when handling the data. 
+We don't include any other data related to the Ontonotes project, such as coreference annotations.  For those using other Ontonotes resources, it is important to know that our current release *does not* remove disfluencies (labeled in Treebank with "EDITED" nodes) from the surface forms.  [Prior Ontonotes CoNLL-formatted conversions](https://github.com/ontonotes/conll-formatted-ontonotes-5.0) *did* remove those tokens from the data, and that difference may need to be dealt with if your are comparing the two resources. We are very open to feedback regarding this shift, if it causes too much trouble for users of the data. 
 
 ### What frame files do these annotations correspond to? 
 
-These correspond to release "3.1" from https://github.com/propbank/propbank-frames/releases .  
+The current release corresponds to release "3.1" from https://github.com/propbank/propbank-frames/releases . 
 
-### Were all predicates annotated? 
+### Are the .prop files included here the original annotations? How was this retrofitting done? 
 
-Generally, Propbank annotation dealt with every verb in every sentence, every noun that was in the inventory at the time of annotation, and -- in recent corpora such as English Web Treebank, Questionbank and the BOLT corpora -- every adjective that was the predicate of a copular verb.  Some portions of the data -- specifically, the wb/sel folders within ontonotes -- also did not gain full coverage of all verbs.  If one wants to train a system for predicate detection, we invite them to use more recent Google and BOLT datasets to do so.  
+The .prop files included in these releases have been adjudicated, quality-controlled, and passed through [a post-processing script](https://github.com/propbank/propbank-documentation/blob/master/postprocessing-documentation/propbank-postprocessing-description.md)). Although specific details of Propbank annotation over the years have changed, we've corrected these files to behave as if they were all annotated in the same way with the same annotators.
 
-We have also included in this release the semi-gold annotations of auxiliary verbs such as have.01, be.03, and get.03 (passive 'got').  These were automatically labeled if and only if the gold syntax annotations treated them unambigiously as auxiliaries, and all edge cases were manually annotated. 
+Much of the data was also annotated before "Unification" of the frame files, and therefore required retrofitting. Mapping files were manually constructed during this process that mapped different rolesets into the new unified rolesets, which labels which numbered arguments mapped onto the numbered arguments in the new unification files, and which sense and role mappings were ambiguous.  All ambiguous mappings were manually corrected by Propbank annotators, using double annotation and adjudication. 
+
+### I'm seeing nouns and adjectives without annotations
+
+Generally, Propbank annotated every verb in every sentence, every noun in our inventory at the time of annotation, and -- in recent corpora such as English Web Treebank, Questionbank and the BOLT corpora -- every adjective that was the predicate of a copular verb. Only more recent corpora -- such as the English Web Trebank or the BOLT CTS or SMS data -- will have full coverage over both adjectives and all nouns in the frame inventory. 
+
+Prior releases also lacked any annotation over most auxiliary verbs, which may have led to imbalances in roleset distributions, or may have led users to (incorrectly) assume that all unannotated verbs can be assumed to be auxiliaries. We have instead included the annotations of auxiliary verbs such as have.01, be.03, do.01, and even get.03 (passive 'got'), which were automatically given auxiliary senses if and only if the gold Treebank annotations marked them unambiguously as auxiliaries; all edge cases were manually disambiguated.
 
 ### Are there train/dev/test splits?
 
