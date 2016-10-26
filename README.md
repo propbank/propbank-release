@@ -1,19 +1,20 @@
 # The Propbank Annotations
 This is the repository for the new *unified* Propbank annotations.  Unified frames generalize over different parts of speech, covering verbal, nominal, adjectival and light verb annotations.  
 
-This release updates the annotations for Ontonotes data, the English Web Treebank.  We intend to add, in the same format, data for the Question Bank, all corpora released under the BOLT project, the MASC propbank annotations, and more.  
+This release updates the annotations for Ontonotes data and the English Web Treebank.  An additional 160,000 predicates of data has been annotated in the BOLT corpora, and will be made public when LDC releases BOLT to the general catalog. This will also host other English Propbank annotations whenever we are able to post them.
 
 
 ### What is the data?
 
-This repository contains two stand-off formats for Propbank data, standard Propbank pointers and stand-off "gold_skel" files, with each token replaced with ```[WORD]```.  To use the data, you will have to acquire the corresponding Treebank releases from the LDC
-and run a conversion script (included) to replace those ```[WORD]``` instances with the real text. 
+This repository contains two stand-off formats for Propbank data, standard Propbank ".prop" pointers (with stand-off annotations pointing to locations in the parse tree) and ".gold_skel" files, with each token replaced with ```[WORD]```.  To use the data, you will have to acquire the corresponding Treebank releases from the LDC
+and run a conversion script (included) to replace those ```[WORD]``` instances with the real text, producing files similar to the CoNLL 2004/2005 SRL format.
 
 The data we can currently release is from two sources:
 - data/ontonotes/: [Ontonotes Release 5.0 (LDC2013T19)](https://catalog.ldc.upenn.edu/ldc2013t19)
 - data/google/ewt/ : [The English Web Treebank(LDC2012T13)](https://catalog.ldc.upenn.edu/ldc2012t13), developed by the LDC with funding from Google
 
 There are retrofitted datasets awaiting release for the [The Google Questionbank corpus(LDC2012R121)](https://catalog.ldc.upenn.edu/LDC2012R121) and the [BOLT English corpora](http://www.darpa.mil/program/broad-operational-language-translation).  We will post those here as soon as we can. 
+
 ### Setup
 
 Go to /docs/scripts and use the little script ```map_all_to_conll.py```.  This script takes direct flags for the locations of the ontonotes, English Web Treebank and Question Bank (```--ontonotes```, ```---ewt```). 
