@@ -52,7 +52,7 @@ Prior releases also lacked any annotation over most auxiliary verbs, which may h
 
 ### Are there train/dev/test splits?
 
-*Please use pre-existing splits to make sure your results are valid*.  We'll try to keep as much information as possible in docs/evaluation to make this as easy as possible.  Most of these corpora have well-established train/dev/splits that should be followed. 
+Files listing the train/dev/test splits are listed in the docs/evaluation folder.  For EWT, we used the splits listed by the [Universal Dependencies project](https://github.com/UniversalDependencies/UD_English).  Note that this data, while retrofits of prior data, uses different assumptions from prior Propbank releases, and therefore SRL results will not be directly comparable against scores reported on CoNLL 2012 data. 
 
 ### A very minor caveat about "the empty parse"
 
