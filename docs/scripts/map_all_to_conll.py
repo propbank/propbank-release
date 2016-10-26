@@ -7,13 +7,14 @@ logger = logging.getLogger('setup')
 
 
 
-##########################################
-####### Goes through every corpus (treating each BOLT release as its own corpus), and passes evertyhing through skeleton2conll.py)
-############################################
 
 
 
 def flesh_out_all_skel_files(corpora, pathconfigurations):
+    ##########################################
+    ####### Goes through every corpus (treating each BOLT release as its own corpus), and passes evertyhing through skeleton2conll.py)
+    ############################################
+
     localpaths, modifications, metadata, flagdict, filemoddict = pathconfigurations['localpaths'], pathconfigurations['modifications'], pathconfigurations['metadata'], pathconfigurations['flagdict'], pathconfigurations['filemoddict']
 
     for a_project in corpora:
@@ -32,11 +33,7 @@ def flesh_out_all_skel_files(corpora, pathconfigurations):
                             for term in filemoddict[a_project]:
                                 tempparsefile = tempparsefile.replace(term[0],term[1])
                         if each_file.replace(".gold_skel","") in tempparsefile and (tempparsefile.endswith(".parse") or tempparsefile.endswith(".tree")):
-                            #try:
                             skeleton2conll.start(parse_folder+"/"+each_parse_file, any_folder+"/"+each_file, any_folder+"/"+each_file.replace(".gold_skel",".gold_conll"), 'utf8', ["-trace","--text"]+flagdict.get(a_project,[]))
-                            #except:
-                            #    print parse_folder+"/"+each_parse_file
-                            #    print tempparsefile
                             conversion_found= True
                     if not conversion_found:
                         logging.info(each_file+" couldn't find its corresponding parse file in "+parse_folder)
@@ -44,6 +41,10 @@ def flesh_out_all_skel_files(corpora, pathconfigurations):
             logging.info(a_project+" doesn't seem to be at "+corpora[a_project])
 
 def check_locations(corpora, pathconfigurations):
+    ##########################################
+    ####### Check if all locations work as expected
+    ############################################
+
     localpaths, modifications, metadata, flagdict, filemoddict = pathconfigurations['localpaths'], pathconfigurations['modifications'], pathconfigurations['metadata'], pathconfigurations['flagdict'], pathconfigurations['filemoddict']
     for a_project in corpora:
         if not os.path.exists(corpora[a_project]):
@@ -58,25 +59,16 @@ def check_locations(corpora, pathconfigurations):
 
 if __name__ == "__main__":
     corpora = {}
-    boltpackages =json.load(codecs.open("boltreleases.json",'r','utf-8'))
     pathconfigurations = json.load(codecs.open("configurations.json",'r','utf-8'))
     parser = argparse.ArgumentParser()
     parser.add_argument("--ontonotes", help="Location of extracted ontonotes 5.0", default=False)
     parser.add_argument("--ewt", help="Location of extracted English Web Treebank top directory (LDC2012T13", default=False)
-    parser.add_argument("--questionbank", help="Location of extracted questionbank directory", default=False)
-    parser.add_argument("--bolt", help="base directory of bolt folders (assuming bolt LDC packages listed in boltreleases.json)", default=False)
     parser.add_argument("--test", help="just display paths and confirm packages", default="False")
     args = parser.parse_args()
     if args.ontonotes:
         corpora["ontonotes"] = args.ontonotes
     if args.ewt:
         corpora["ewt"] = args.ewt
-    if args.questionbank:
-        corpora["questionbank"] = args.questionbank
-    if args.bolt:
-        for each_release in boltpackages:
-            if os.path.exists(os.path.normpath(args.bolt+'/'+boltpackages[each_release])):
-                corpora[each_release] = os.path.normpath(args.bolt+'/'+boltpackages[each_release])    
     if args.test.lower() == "true":
         check_locations(corpora, pathconfigurations)
     else:

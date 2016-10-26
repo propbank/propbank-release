@@ -1,7 +1,7 @@
 # The Propbank Annotations
 This is the repository for the new *unified* Propbank annotations.  Unified frames generalize over different parts of speech, covering verbal, nominal, adjectival and light verb annotations.  
 
-This release updates the annotations for Ontonotes data, the English Web Treebank, Question Bank, and all corpora released under the BOLT project.  This should be considered a *preliminary*, *beta* release of this data; please contact us before reporting results on the data. 
+This release updates the annotations for Ontonotes data, the English Web Treebank.  We intend to add, in the same format, data for the Question Bank, all corpora released under the BOLT project, the MASC propbank annotations, and more.  
 
 
 ### What is the data?
@@ -9,39 +9,14 @@ This release updates the annotations for Ontonotes data, the English Web Treeban
 This repository contains two stand-off formats for Propbank data, standard Propbank pointers and stand-off "gold_skel" files, with each token replaced with ```[WORD]```.  To use the data, you will have to acquire the corresponding Treebank releases from the LDC
 and run a conversion script (included) to replace those ```[WORD]``` instances with the real text. 
 
-The data is comes from a variety of sources:
+The data we can currently release is from two sources:
 - data/ontonotes/: [Ontonotes Release 5.0 (LDC2013T19)](https://catalog.ldc.upenn.edu/ldc2013t19)
 - data/google/ewt/ : [The English Web Treebank(LDC2012T13)](https://catalog.ldc.upenn.edu/ldc2012t13), developed by the LDC with funding from Google
-- data/google/questionbank/ : [The Google Questionbank corpus(LDC2012R121)](https://catalog.ldc.upenn.edu/LDC2012R121), the corpus from [Judge et al 2006](http://www.computing.dcu.ie/~jjudge/pubs/judge06acl.pdf) with LDC revisions to the Treebank funded by Google.
 
-The various BOLT corpora might be only available to certain LDC members, and are distributed through many small packages:
-
-- data/bolt/df/ : Corpora covering English discussion forum text.   Treebanks are available as:
-  - [Part 1(LDC2012E92)](https://catalog.ldc.upenn.edu/LDC2012E92)
-  - [Part 2(LDC2012E97)](https://catalog.ldc.upenn.edu/LDC2012E97)
-  - [Part 3(LDC2012E114)](https://catalog.ldc.upenn.edu/LDC2012E114)
-  - [Part 4(LDC2013E17)](https://catalog.ldc.upenn.edu/LDC2013E17)
-  - [Part 5(LDC2013E40)](https://catalog.ldc.upenn.edu/LDC2013E40)
-  - [Part 6(LDC2013E102)](https://catalog.ldc.upenn.edu/LDC2013E102)
-  - [Part 7(LDC2013E76)](https://catalog.ldc.upenn.edu/LDC2013E76)
-- data/bolt/sms/ : The BOLT SMS English corpora, available as:
-  - [Part 1 (LDC2013E127)](https://catalog.ldc.upenn.edu/LDC2013E127)
-  - [Part 2(LDC2014E03)](https://catalog.ldc.upenn.edu/LDC2014E03)
-  - [Part 3 (LDC2014E44)](https://catalog.ldc.upenn.edu/LDC2014E44)
-  - [Part 4 (LDC2014E78)](https://catalog.ldc.upenn.edu/LDC2014E78)
-  - [Part 5 (LDC2014E107)](https://catalog.ldc.upenn.edu/LDC2014E107), 
-- data/bolt/cts/ : The BOLT CTS (conversational telephone speech) corpora):
-  - [Part 1 (LDC2015E15)](https://catalog.ldc.upenn.edu/LDC2015E15)
-  - [Part 2 (LDC2015E25)](https://catalog.ldc.upenn.edu/LDC2015E25)
-  - [Part 3(LDC2015E30)]((https://catalog.ldc.upenn.edu/LDC2015E30))
-
-For all questions regarding acquiring the data, consult the [LDC](https://www.ldc.upenn.edu/)
-
-
+There are retrofitted datasets awaiting release for the [The Google Questionbank corpus(LDC2012R121)](https://catalog.ldc.upenn.edu/LDC2012R121) and the [BOLT English corpora](http://www.darpa.mil/program/broad-operational-language-translation).  We will post those here as soon as we can. 
 ### Setup
 
-Go to /docs/scripts and use the little script ```map_all_to_conll.py```.  This script takes direct flags for the locations of the ontonotes, English Web Treebank and Question Bank (```--ontonotes```, ```---ewt```,
-and ```--questionbank```). A fourth argument, ```--bolt```, should point to a folder containing all BOLT treebanks that one has.  If one has all the released treebanks, this should result in 10120 .gold_conll files and 3,699,171 words total. 
+Go to /docs/scripts and use the little script ```map_all_to_conll.py```.  This script takes direct flags for the locations of the ontonotes, English Web Treebank and Question Bank (```--ontonotes```, ```---ewt```). 
 
 
 ### What's different with this "Unified" data?
@@ -78,3 +53,7 @@ Prior releases also lacked any annotation over most auxiliary verbs, which may h
 ### Are there train/dev/test splits?
 
 *Please use pre-existing splits to make sure your results are valid*.  We'll try to keep as much information as possible in docs/evaluation to make this as easy as possible.  Most of these corpora have well-established train/dev/splits that should be followed. 
+
+### A very minor caveat about "the empty parse"
+
+A single sentence -- sentence 12 in ```ontonotes/nw/p2.5_c2e/00/p2.5_c2e_0034```  -- has no surface tokens.  The official released parse is simply ```(TOP (S (NP-SBJ (-NONE- *PRO*))))```.  This should not pose any issue if you are using the provided ".gold_skel" files.  However, if you do your own mapping from ".prop" files to surface forms, this may violate otherwise reasonable assumptions about the data, as discarding that sentence will make our sentence numberings incorrect.  
