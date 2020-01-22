@@ -10,8 +10,8 @@ This repository contains two stand-off formats for Propbank data, standard Propb
 and run a conversion script (included) to replace those ```[WORD]``` instances with the real text, producing files similar to the CoNLL 2004/2005 SRL format.
 
 The data we can currently release is from two sources:
-- data/ontonotes/: [Ontonotes Release 5.0 (LDC2013T19)](https://catalog.ldc.upenn.edu/ldc2013t19)
-- data/google/ewt/ : [The English Web Treebank(LDC2012T13)](https://catalog.ldc.upenn.edu/ldc2012t13), developed by the LDC with funding from Google
+- data/ontonotes/: [Ontonotes Release 5.0 (LDC2013T19)](https://catalog.ldc.upenn.edu/LDC2013T19)
+- data/google/ewt/ : [The English Web Treebank(LDC2012T13)](https://catalog.ldc.upenn.edu/LDC2012T13), developed by the LDC with funding from Google
 
 There are retrofitted datasets awaiting release for the [The Google Questionbank corpus(LDC2012R121)](https://catalog.ldc.upenn.edu/LDC2012R121) and the [BOLT English corpora](http://www.darpa.mil/program/broad-operational-language-translation).  We will post those here as soon as we can. 
 
