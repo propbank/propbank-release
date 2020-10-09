@@ -33,6 +33,7 @@ def flesh_out_all_skel_files(corpora, pathconfigurations):
                             for term in filemoddict[a_project]:
                                 tempparsefile = tempparsefile.replace(term[0],term[1])
                         if each_file.replace(".gold_skel","") in tempparsefile and (tempparsefile.endswith(".parse") or tempparsefile.endswith(".tree")):
+                            print(each_parse_file)
                             skeleton2conll.start(parse_folder+"/"+each_parse_file, any_folder+"/"+each_file, any_folder+"/"+each_file.replace(".gold_skel",".gold_conll"), 'utf8', ["-trace","--text"]+flagdict.get(a_project,[]))
                             conversion_found= True
                     if not conversion_found:
@@ -47,6 +48,7 @@ def check_locations(corpora, pathconfigurations):
 
     localpaths, modifications, metadata, flagdict, filemoddict = pathconfigurations['localpaths'], pathconfigurations['modifications'], pathconfigurations['metadata'], pathconfigurations['flagdict'], pathconfigurations['filemoddict']
     for a_project in corpora:
+        print(corpora, a_project)
         if not os.path.exists(corpora[a_project]):
             logging.error(a_project+" doesn't seem to be at "+corpora[a_project])
         elif not os.path.exists(corpora[a_project]+metadata[a_project]):
@@ -63,13 +65,19 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--ontonotes", help="Location of extracted ontonotes 5.0", default=False)
     parser.add_argument("--ewt", help="Location of extracted English Web Treebank top directory (LDC2012T13", default=False)
-    parser.add_argument("--test", help="just display paths and confirm packages", default="False")
+    parser.add_argument("--boltdf", help="Location of extracted BOLT DF (LDC2019T15)", default=False)
+    parser.add_argument("--boltdf2", help="Location of extracted BOLT DF (LDC2020T09)", default=False)
+    parser.add_argument("--test", help="just display paths and confirm packages", default=False, action='store_true')
     args = parser.parse_args()
     if args.ontonotes:
         corpora["ontonotes"] = args.ontonotes
     if args.ewt:
         corpora["ewt"] = args.ewt
-    if args.test.lower() == "true":
+    if args.boltdf:
+        corpora["boltdf"] = args.boltdf    
+    if args.boltdf2:
+        corpora["boltdf2"] = args.boltdf2
+    if args.test:
         check_locations(corpora, pathconfigurations)
     else:
         flesh_out_all_skel_files(corpora, pathconfigurations)
