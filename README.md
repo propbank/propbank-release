@@ -12,8 +12,10 @@ and run a conversion script (included) to replace those ```[WORD]``` instances w
 The data we can currently release is from two sources:
 - data/ontonotes/: [Ontonotes Release 5.0 (LDC2013T19)](https://catalog.ldc.upenn.edu/LDC2013T19)
 - data/google/ewt/ : [The English Web Treebank(LDC2012T13)](https://catalog.ldc.upenn.edu/LDC2012T13), developed by the LDC with funding from Google
+- data/bolt/ : [BOLT English corpora](http://www.darpa.mil/program/broad-operational-language-translation) datasets are slowly trickling out from LDC -- public releases prepared so far are [LDC2019T15](https://catalog.ldc.upenn.edu/LDC2019T15), [LDC2020T09](https://catalog.ldc.upenn.edu/LDC2020T09), and [LDC2021T03](https://catalog.ldc.upenn.edu/LDC2021T03).
 
-There are retrofitted datasets awaiting release for the [The Google Questionbank corpus(LDC2012R121)](https://catalog.ldc.upenn.edu/LDC2012R121) and the [BOLT English corpora](http://www.darpa.mil/program/broad-operational-language-translation).  We will post those here as soon as we can. 
+
+There are retrofitted datasets awaiting release for the [The Google Questionbank corpus(LDC2012R121)](https://catalog.ldc.upenn.edu/LDC2012R121) and others.  We will post those here as soon as we can. 
 
 ### Setup
 

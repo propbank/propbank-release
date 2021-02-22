@@ -67,6 +67,7 @@ if __name__ == "__main__":
     parser.add_argument("--ewt", help="Location of extracted English Web Treebank top directory (LDC2012T13", default=False)
     parser.add_argument("--boltdf", help="Location of extracted BOLT DF (LDC2019T15)", default=False)
     parser.add_argument("--boltdf2", help="Location of extracted BOLT DF (LDC2020T09)", default=False)
+    parser.add_argument("--boltsms", help="Location of extracted BOLT SMS (LDC2021T03)", default=False)
     parser.add_argument("--test", help="just display paths and confirm packages", default=False, action='store_true')
     args = parser.parse_args()
     if args.ontonotes:
@@ -77,8 +78,9 @@ if __name__ == "__main__":
         corpora["boltdf"] = args.boltdf    
     if args.boltdf2:
         corpora["boltdf2"] = args.boltdf2
+    if args.boltsms:
+        corpora["boltsms"] = args.boltsms
     if args.test:
         check_locations(corpora, pathconfigurations)
     else:
         flesh_out_all_skel_files(corpora, pathconfigurations)
-
