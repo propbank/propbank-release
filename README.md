@@ -9,11 +9,12 @@ This release updates the annotations for Ontonotes data and the English Web Tree
 This repository contains two stand-off formats for Propbank data, standard Propbank ".prop" pointers (with stand-off annotations pointing to locations in the parse tree) and ".gold_skel" files, with each token replaced with ```[WORD]```.  To use the data, you will have to acquire the corresponding Treebank releases from the LDC
 and run a conversion script (included) to replace those ```[WORD]``` instances with the real text, producing files similar to the CoNLL 2004/2005 SRL format.
 
-The data we can currently release is from two sources:
 - data/ontonotes/: [Ontonotes Release 5.0 (LDC2013T19)](https://catalog.ldc.upenn.edu/LDC2013T19)
+- data/google/questionbank/ : The Google Questionbank corpus
 - data/google/ewt/ : [The English Web Treebank(LDC2012T13)](https://catalog.ldc.upenn.edu/LDC2012T13), developed by the LDC with funding from Google
-
-There are retrofitted datasets awaiting release for the [The Google Questionbank corpus(LDC2012R121)](https://catalog.ldc.upenn.edu/LDC2012R121) and the [BOLT English corpora](http://www.darpa.mil/program/broad-operational-language-translation).  We will post those here as soon as we can. 
+- data/bolt : [BOLT English corpora](http://www.darpa.mil/program/broad-operational-language-translation)
+- data/oanc/masc : [American National Corpus Manually Annotated Sub-Corpus](https://anc.org/data/masc/corpus/)
+- data/lorelei : [LORELEI English Core](https://www.ldc.upenn.edu/sites/www.ldc.upenn.edu/files/lrec2020-lorelei-language-packs.pdf)
 
 ### Setup
 
