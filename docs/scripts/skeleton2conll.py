@@ -14,12 +14,10 @@ import os
 import re
 import string
 from collections import defaultdict
-from cStringIO import StringIO
+from io import StringIO
 
 WORD_COLUMN=3
 LEMMA_COLUMN=6
-
-
 
 
 MIN_VERBOSITY = 0
@@ -389,7 +387,7 @@ def parse_sexpr(s):
                 if parens == 0:
                     try:
                         x = parse_sexpr("".join(cur))
-                    except InvalidSexprException, e:
+                    except InvalidSexprException as e:
                         raise InvalidSexprException("Parent: %s" % s, e)
 
                     if x:
@@ -843,8 +841,8 @@ def pretty_print_table(rows, separator=None, out_file=None):
 
     if(out_file == None):
         for row in r_c_matrix:
-            print " ".join(row).strip()
-        print
+            print(" ".join(row).strip())
+        print()
 
     elif(out_file == "-"):
         rows=[]
@@ -1106,7 +1104,7 @@ def start(input_fname, conll_fname, output_fname, encoding, changes):
 
                     if DEBUG:
                       if columns[LEMMA_COLUMN] == a_list_of_lemmas[w].lemma.strip():
-                        print "found the same lemma"
+                        print("found the same lemma")
                       else:
                         raise Exception("Something is wrong: %s %s %s" % (columns[LEMMA_COLUMN], a_list_of_lemmas[w].lemma.strip(), " ".join(columns)))
                       
@@ -1121,7 +1119,7 @@ def start(input_fname, conll_fname, output_fname, encoding, changes):
             pretty_print_table_string = pretty_print_table(rows, out_file="-")
 
             if output_fname == "-":
-                print pretty_print_table_string
+                print(pretty_print_table_string)
             else:
                 with codecs.open(output_fname, "a", encoding) as outf:
                     outf.write("%s\n" % (pretty_print_table_string))
@@ -1131,7 +1129,7 @@ def start(input_fname, conll_fname, output_fname, encoding, changes):
 
         elif(line.startswith("#")):
             if output_fname == "-":
-                print line.strip()
+                print(line.strip())
             else:
                 with codecs.open(output_fname, "a", encoding) as outf:
                     outf.write("%s\n" % (line.strip()))
@@ -1154,27 +1152,27 @@ if __name__ == "__main__":
         sys.argv.remove("--gb18030")
 
     if len(sys.argv[1:]) == 2 and sys.argv[1] in ["--help", "-h"] and sys.argv[2] in transformations:
-        print
-        print "  ", transformations[sys.argv[2]].__doc__
+        print()
+        print("  ", transformations[sys.argv[2]].__doc__)
     elif not sys.argv[1:] or "--help" in sys.argv[1:] or "-h" in sys.argv[1:]:
-        print
-        print "-"*120
-        print "Usage:  python skeleton2conll.py <ontonotes-parse-file> <input-skel-file> <conll-output-file> [transformations] ..."
-        print "\nAllowed transforms:"
+        print()
+        print("-"*120)
+        print("Usage:  python skeleton2conll.py <ontonotes-parse-file> <input-skel-file> <conll-output-file> [transformations] ...")
+        print("\nAllowed transforms:")
 
         max_key_len = max(len(t) for t in transformations) + 1 # +1 for colon
 
         for key in transformations:
-            print "   %s %s" %(("%s:"%key).rjust(max_key_len),
-                               transformations[key].__doc__.split("\n")[0])
+            print("   %s %s" %(("%s:"%key).rjust(max_key_len),
+                               transformations[key].__doc__.split("\n")[0]))
 
-        print "   %s %s" % ("--text:".rjust(max_key_len),
-                            "Produce text output instead of parse trees")
-        print
-        print
-        print "Example:"
-        print "python skeleton2conll.py <ontonotes-release-directory>/data/.../bc/cnn/00/cnn_0000.parse conll-2011/dev/data/english/annotations/bc/cnn/00/cnn_0000.v0_gold_skel conll-2011/dev/data/english/annotations/bc/cnn/00/cnn_0000.v0_gold_conll -edited --text"
-        print "-"*120
+        print("   %s %s" % ("--text:".rjust(max_key_len),
+                            "Produce text output instead of parse trees"))
+        print()
+        print()
+        print("Example:")
+        print("python skeleton2conll.py <ontonotes-release-directory>/data/.../bc/cnn/00/cnn_0000.parse conll-2011/dev/data/english/annotations/bc/cnn/00/cnn_0000.v0_gold_skel conll-2011/dev/data/english/annotations/bc/cnn/00/cnn_0000.v0_gold_conll -edited --text")
+        print("-"*120)
     else:
         input_fname, conll_fname, output_fname, changes = sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4:]
         start(codecs.open(input_fname).read().replace("( (","(TOP ("), conll_fname, output_fname, encoding, changes)
