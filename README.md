@@ -1,3 +1,8 @@
+> **Warning**
+> 
+> This is still a work in process and contains some missing information and/or inaccurate information. 
+> We are actively working on fixing the issues.
+
 # The Propbank Annotations
 This is the repository for the new *unified* Propbank annotations.  Unified frames generalize over different parts of speech, covering verbal, nominal, adjectival and light verb annotations.  
 
